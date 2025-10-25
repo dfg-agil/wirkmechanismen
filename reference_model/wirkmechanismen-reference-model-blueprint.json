@@ -2785,20 +2785,6 @@
       }
     },
     {
-      "_id": "elem-E6Kzk7O8",
-      "attributes": {
-        "label": "Grad der Design-Komplexität",
-        "description": "Von Anfang an zu versuchen das Design so einfach wie möglich zu halten (\"simple design\"), ist von großer Bedeutung, damit spätere Änderungen leicht möglich sind.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0
-      }
-    },
-    {
       "_id": "elem-5kn48AvH",
       "attributes": {
         "label": "Test-getriebene Entwicklung",
