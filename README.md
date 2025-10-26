@@ -126,6 +126,14 @@ Models are serialized as KUMU-compatible JSON blueprints with the following stru
    - Address reported issues such as missing IDs, invalid directions, or broken references
    - Optional: enable the shared git hook via `git config core.hooksPath githooks` to run the linter automatically on every commit
 
+### Model Relationship Overview
+
+- **Main Model** (`models/main_model`): the comprehensive factor network that consolidates shared knowledge, evidence, and naming conventions across domains.
+- **Reference Models** (`models/reference_models`): problem-focused extracts of the main model that describe the current state for a specific question or scenario.
+- **Impact Models** (`models/impact_models`): future-state counterparts to the reference models that include the supports or interventions intended to shift outcomes.
+
+High-level flow: expand and maintain the main model → derive a problem-specific reference model → evolve it into an impact model to explore interventions → feed validated changes back into the main model.
+
 ## Research Applications
 
 ### Design Process Analysis
