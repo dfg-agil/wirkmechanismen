@@ -1,0 +1,22 @@
+#!/bin/sh
+# Git pre-commit hook to lint Kumu blueprint JSON files.
+# Intended to be used via `git config core.hooksPath githooks`.
+
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel 2>/dev/null || printf '.')"
+lint_script="$repo_root/scripts/lint_blueprint.py"
+
+if [ ! -x "$lint_script" ]; then
+  echo "Blueprint linter not found or not executable: $lint_script" >&2
+  exit 1
+fi
+
+echo "Running blueprint linter..."
+"$lint_script" "$repo_root/models" || {
+  echo "Blueprint lint failed. Fix issues above before committing." >&2
+  exit 1
+}
+
+echo "Blueprint lint passed."
+exit 0

@@ -121,6 +121,10 @@ Models are serialized as KUMU-compatible JSON blueprints with the following stru
    - Check all connections have source attribution
    - Ensure proxy relationships are explicit
    - Validate JSON schema compliance
+4. **Blueprint Linting**:
+   - Run `scripts/lint_blueprint.py` before committing changes (recursively scans `models/`)
+   - Address reported issues such as missing IDs, invalid directions, or broken references
+   - Optional: enable the shared git hook via `git config core.hooksPath githooks` to run the linter automatically on every commit
 
 ## Research Applications
 

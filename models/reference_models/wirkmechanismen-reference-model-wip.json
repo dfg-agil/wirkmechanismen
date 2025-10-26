@@ -1,0 +1,268 @@
+{
+  "name": "Work in Progress Focus Model",
+  "source": "Subset derived from wirkmechanismen-reference-model-blueprint.json",
+  "elements": [
+    {
+      "_id": "elem-QgfybLh0",
+      "attributes": {
+        "label": "Priorisierung von  Aufgaben",
+        "tags": [
+          "Hindernisse und Abhängigkeiten",
+          "Planning"
+        ],
+        "element type": "Einflussfaktoren",
+        "description": "= Priorisierung von Aufgaben"
+      }
+    },
+    {
+      "_id": "elem-7sSep5II",
+      "attributes": {
+        "label": "Anzahl von Abhängigkeiten & Hindernisse",
+        "element type": "Schlüsselfaktor",
+        "description": "Hindernisse: Systematische Ermittlung und effektive Beseitigung von Hindernissen.\n\nund \n\nAbhängigkeiten: Förderung der Ermittlung und Lösung von Abhängigkeiten."
+      }
+    },
+    {
+      "_id": "elem-X51ThqBL",
+      "attributes": {
+        "label": "Begrenzungsgrad von Work in Progress",
+        "element type": "Schlüsselfaktor",
+        "description": "Die Definition und Einhaltung von WIP-Limits, um Überlastung zu vermeiden und den Fokus des Teams zu stärken, sodass nur die notwendige Anzahl von Aufgaben gleichzeitig bearbeitet wird.\n\n\nWork in Progress (WIP) bezieht sich auf die (parallel stattfindenden) Arbeiten, an denen das Scrum Team seine Tätigkeit begonnen aber noch nicht abgeschlossen hat. \nScrum Teams, die Kanban verwenden, müssen die Menge begonnener Arbeit explizit begrenzen. Ein Scrum Team kann WIP ausdrücklich so begrenzen, wie es das für passend hält, sollte sich jedoch an eine einmal eingeführte Begrenzung halten. \nDer wesentliche Effekt des Begrenzens von WIP besteht darin, dass ein Pull-System erzeugt wird. Ein Pull-System wird so bezeichnet, weil das Team nur dann mit den Tätigkeiten an einer Arbeit beginnt, diese also zieht (engl. pull), wenn klar ist, dass es auch über die entsprechende Kapazität verfügt. Wenn WIP, also die Menge laufender Arbeit, unter den festgelegten Grenzwert fällt, ist dies das Signal zum Beginnen neuer Arbeit. Beachten Sie, dass dies anders \nist als bei einem Push-System, bei dem die Tätigkeit an einer Arbeit immer dann beginnt, wenn dies gefordert wird. \nDas Begrenzen von WIP fördert den Arbeitsfluss und verbessert Selbstmanagement, Fokus, Commitment und Zusammenarbeit im Scrum Team\n\n**Quelle**: Der Kanban Guide für Scrum Teams"
+      }
+    },
+    {
+      "_id": "elem-s2CSbNkg",
+      "attributes": {
+        "label": "Durchschnittliche Anzahl von Work in Progress",
+        "element type": "Problem",
+        "tags": [
+          "Daily"
+        ],
+        "description": "**Work In Progress (WIP)**: Die Menge begonnener aber nicht beendeter (paralleler) \nArbeit. Das Team kann WIP als Metrik verwenden, um den Fortschritt bei der \nReduzierung von WIP und der Verbesserung des Flow transparent zu machen. \nBeachte, dass es einen Unterschied gibt zwischen WIP als Metrik und den Regeln eines \nScrum Teams zur Begrenzung von WIP\n\n**Quelle**: Der Kanban Guide für Scrum Teams (Januar 2021)"
+      }
+    },
+    {
+      "_id": "elem-kQpp3aDS",
+      "attributes": {
+        "label": "Durchschnittliche Durchlaufzeit",
+        "element type": "Einflussfaktoren",
+        "description": "**Durchlaufzeit**: Die Zeitspanne, die zwischen dem Beginn einer Arbeit und dem Abschluss einer Arbeit vergeht.\n\n**Quelle**: Der Kanban Guide für Scrum Teams (Januar 2021)"
+      }
+    },
+    {
+      "_id": "elem-K92vjGHC",
+      "attributes": {
+        "label": "Durchschnittlicher Durchsatz",
+        "description": "**Durchsatz**: Die Menge abgeschlossener Arbeit pro Zeiteinheit.\n\n**Quelle**: Der Kanban Guide für Scrum Teams (Januar 2021)",
+        "element type": "Einflussfaktoren"
+      }
+    },
+    {
+      "_id": "elem-VXY3BWCO",
+      "attributes": {
+        "description": "=Task Switching / Kontextwechsel",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Zeitmanagement",
+          "Planning"
+        ],
+        "label": "Häufigkeit des Aufgabenwechsel"
+      }
+    },
+    {
+      "_id": "elem-0PyumJeh",
+      "attributes": {
+        "label": "Fehlerhäufigkeit",
+        "description": "= Anzahl der Fehler/Bugs\n\nFehlerhäufigkeit repräsentiert die Rate und das Ausmaß von Mängeln, Funktionsstörungen und Störungen, die während der Entwicklung oder im Betrieb eines Produkts oder Systems auftreten (Im Software-Umfeld oft als Bugs bezeichnet). Er umfasst messbare Indikatoren wie die Anzahl von Qualitätsabweichungen, Ausfällen, gemeldeten Fehlern oder die Häufigkeit von Regressionen (Wiederauftreten alter Probleme). Eine hohe Fehlerhäufigkeit deutet auf eine geringe Produktqualität und -zuverlässigkeit hin und ist oft eine direkte Folge von ungelösten Technischen Schulden und ineffizienten Work-in-Progress-Praktiken. Sie beeinflusst direkt die Zufriedenheit der Nutzer und die Betriebsstabilität des Produkts.",
+        "element type": "Einflussfaktoren"
+      }
+    },
+    {
+      "_id": "elem-pyHxoybV",
+      "attributes": {
+        "label": "Umfang der Technischen Schulden",
+        "element type": "Einflussfaktoren"
+      }
+    },
+    {
+      "_id": "elem-kHo330Ty",
+      "attributes": {
+        "label": "Handlungsfähigkeit des Entwicklers",
+        "element type": "Einflussfaktoren",
+        "description": "Alternative zu Handlungsfähigkeit des Entwicklers: Umsetzungsfähigkeit\n\nFähigkeit eigenständig Entscheidungen zu treffen und auf Veränderung zu reagieren.\n\n- Keine Information = ich kann nicht handeln (ich weiß nicht was zu tun ist) -> eingeschränkte Handlungsfähigkeit\n- (Kein Wissen = ich kann nur eingeschränkt handeln (ich weiß nicht wie ich es tun soll) -> eingeschränkte Handlungskompetenz)\n- Keine Zeit/Kapa = ich habe zu viel zu tun (zu viel Workload/WIP)\n- Warten auf Ergebnisse von anderen (Abhängigkeiten)",
+        "tags": [
+          "Interpretierbarkeit vorhandener Informationen",
+          "Informationsverfügbarkeit",
+          "Impliziter Wissensstand des Entwicklers",
+          "Expliziter Wissensstand der Organisation"
+        ]
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-WpOOoYaP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-7sSep5II",
+      "to": "elem-QgfybLh0"
+    },
+    {
+      "_id": "conn-s1DItWBc",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "+-"
+      },
+      "from": "elem-QgfybLh0",
+      "to": "elem-s2CSbNkg"
+    },
+    {
+      "_id": "conn-NZwyGZVd",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "++",
+        "description": "Experience",
+        "label": "[E]"
+      },
+      "from": "elem-s2CSbNkg",
+      "to": "elem-7sSep5II"
+    },
+    {
+      "_id": "conn-DoZFxztU",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[S]",
+        "connection type": "++",
+        "description": "Ein zentraler Grundsatz der Flow-Theorie ist Littles Gesetz, ein Leitsatz, der folgende \nBeziehung herstellt: \n\n![image](https://s3.amazonaws.com/cloud.kumu.io/accounts/572471/1091163/21773426-3081-41db-be11-e0413f038684.png)\n\nLittles Gesetz zeigt auf, dass für einen bestimmten Prozess mit einem bestimmten Durchsatz \nim Allgemeinen gilt: Je mehr Sachen man zu einem bestimmten Zeitpunkt (im Durchschnitt) \nbearbeitet, desto länger dauert es, diese Sachen (im Durchschnitt) zu beenden.\n\n**Quelle**:  Der Kanban Guide für Scrum Teams (Januar 2021)"
+      },
+      "from": "elem-kQpp3aDS",
+      "to": "elem-s2CSbNkg"
+    },
+    {
+      "_id": "conn-l1yFq9Fk",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[S]",
+        "connection type": "+-",
+        "description": "Ein zentraler Grundsatz der Flow-Theorie ist Littles Gesetz, ein Leitsatz, der folgende \nBeziehung herstellt: \n\n![image](https://s3.amazonaws.com/cloud.kumu.io/accounts/572471/1091163/21773426-3081-41db-be11-e0413f038684.png)\n\nLittles Gesetz zeigt auf, dass für einen bestimmten Prozess mit einem bestimmten Durchsatz \nim Allgemeinen gilt: Je mehr Sachen man zu einem bestimmten Zeitpunkt (im Durchschnitt) \nbearbeitet, desto länger dauert es, diese Sachen (im Durchschnitt) zu beenden.\n\n\n**Quelle**:  Der Kanban Guide für Scrum Teams (Januar 2021)"
+      },
+      "from": "elem-s2CSbNkg",
+      "to": "elem-K92vjGHC"
+    },
+    {
+      "_id": "conn-NRezUGCm",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[S]",
+        "connection type": "+-",
+        "description": "Ein zentraler Grundsatz der Flow-Theorie ist Littles Gesetz, ein Leitsatz, der folgende \nBeziehung herstellt: \n\n![image](https://s3.amazonaws.com/cloud.kumu.io/accounts/572471/1091163/21773426-3081-41db-be11-e0413f038684.png)\n\nLittles Gesetz zeigt auf, dass für einen bestimmten Prozess mit einem bestimmten Durchsatz \nim Allgemeinen gilt: Je mehr Sachen man zu einem bestimmten Zeitpunkt (im Durchschnitt) \nbearbeitet, desto länger dauert es, diese Sachen (im Durchschnitt) zu beenden.\n\n\n**Quelle**:  Der Kanban Guide für Scrum Teams (Januar 2021)"
+      },
+      "from": "elem-K92vjGHC",
+      "to": "elem-kQpp3aDS"
+    },
+    {
+      "_id": "conn-g1tha98V",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-X51ThqBL",
+      "to": "elem-kQpp3aDS"
+    },
+    {
+      "_id": "conn-e9RQRlXy",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-X51ThqBL",
+      "to": "elem-K92vjGHC"
+    },
+    {
+      "_id": "conn-afAIf98E",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {},
+      "from": "elem-X51ThqBL",
+      "to": "elem-VXY3BWCO"
+    },
+    {
+      "_id": "conn-9e8V4ZKb",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": true,
+      "attributes": {
+        "connection type": "++",
+        "label": "[E]",
+        "description": "**Mechanismus**: Kontextwechsel reduzieren die Konzentration und erhöhen die Wahrscheinlichkeit von Fehlern. Das überstürzte Erledigen mehrerer Aufgaben kann zu oberflächlichem Testen und übersehenen Defekten führen."
+      },
+      "from": "elem-VXY3BWCO",
+      "to": "elem-0PyumJeh"
+    },
+    {
+      "_id": "conn-tCGpTCWD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "++",
+        "label": "[E]",
+        "description": "WIP → EF: Hoher WIP führt zu einer Zunahme der Fehlerhäufigkeit.\n\n**Hypothese**: \"Für jede zusätzliche Aufgabe über das WIP-Limit hinaus, die ein Entwickler gleichzeitig verwaltet, steigt die Wahrscheinlichkeit, einen Fehler einzuführen, um x% aufgrund kognitiver Überlastung und reduzierter Konzentration.\"\n\n**Mechanismus**: Kontextwechsel reduzieren die Konzentration und erhöhen die Wahrscheinlichkeit von Fehlern. Das überstürzte Erledigen mehrerer Aufgaben kann zu oberflächlichem Testen und übersehenen Defekten führen.\n\n**Quelle**: Erfahrung"
+      },
+      "from": "elem-s2CSbNkg",
+      "to": "elem-0PyumJeh"
+    },
+    {
+      "_id": "conn-JWoemUnu",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "++",
+        "label": "[E]",
+        "description": "WIP → TD: Erhöhter WIP trägt zur Akkumulation technischer Schulden bei.\nHypothese: \"Wenn der durchschnittliche WIP eines Entwicklungsteams das x-fache der Anzahl aktiver Entwickler übersteigt, steigt die Rate der technischen Schulden um y% im Vergleich zu Teams, die unterhalb dieser Schwelle arbeiten.\"\n\n**Mechanismus**: Hoher WIP führt oft zu Kontextwechseln, überstürzter Arbeit und Abkürzungen (z.B. Auslassen von Refactoring, unzureichendes Testen, schlechte Designentscheidungen), um Aufgaben zu 'beenden', was zu neuen Schulden führt.\n\n**Quelle**: Erfahrung"
+      },
+      "from": "elem-s2CSbNkg",
+      "to": "elem-pyHxoybV"
+    },
+    {
+      "_id": "conn-6csL0H5V",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "connection type": "+-",
+        "label": "[A]"
+      },
+      "from": "elem-s2CSbNkg",
+      "to": "elem-kHo330Ty"
+    },
+    {
+      "_id": "conn-simple-wip-limit",
+      "from": "elem-X51ThqBL",
+      "to": "elem-s2CSbNkg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[S]",
+        "connection type": "+-",
+        "description": "Explizite WIP-Limits reduzieren den gleichzeitig laufenden Work in Progress, indem Pull-Regeln greifen (Kanban Guide für Scrum Teams)."
+      }
+    }
+  ]
+}
