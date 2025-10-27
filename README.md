@@ -1,6 +1,6 @@
 # Wirkmechanismen - Design Research Methodology Factor Networks
 
-A research repository implementing Design Research Methodology (DRM) using factor network modeling for analyzing complex systems, based on the Blessing & Chakrabarti framework.
+A research repository implementing influencing factors network modeling for analyzing complex mechanism of action in product development, based on Design Research Methodology (DRM) by Blessing & Chakrabarti framework.
 
 ## Overview
 
@@ -12,20 +12,6 @@ This project focuses on creating structured models of influencing factors in des
 - **Impact Models (IM)**: Networks depicting desired situations after introducing support interventions
 - **Influencing Factors**: Attributes of elements that can be observed, measured, or assessed (e.g., "quality of problem definition")
 - **Factor Networks**: Directed graphs showing causal relationships between factors with explicit source attribution
-
-## Repository Structure
-
-```
-wirkmechanismen/
-├── general/
-│   └── prompt_instructions.md     # Complete DRM methodology guide
-├── reference_model/
-│   └── wirkmechanismen-reference-model-blueprint.json
-├── impact_models/                 # Future impact model implementations
-├── .github/
-│   └── copilot-instructions.md    # AI agent guidance
-└── README.md
-```
 
 ## Methodology
 
