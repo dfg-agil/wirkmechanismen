@@ -282,17 +282,7 @@
         "micmac exposure": 0.8160049503978034
       }
     },
-    {
-      "_id": "elem-4Zm6GrJC",
-      "attributes": {
-        "label": "Einhaltung der Timebox",
-        "tags": [
-          "Struktur und Zielorientierung",
-          "Planning"
-        ],
-        "element type": "Einflussfaktoren"
-      }
-    },
+    
     {
       "_id": "elem-4b82cTxp",
       "attributes": {
@@ -3245,7 +3235,7 @@
         "label": "[A]",
         "connection type": "--"
       },
-      "from": "elem-4Zm6GrJC",
+      "from": "elem-9PG4amih",
       "to": "elem-are9vvnr"
     },
     {
@@ -3524,7 +3514,7 @@
         "description": "Eine negative Qualität des Zeitmanagements hat einen negativen Einfluss auf die Einhaltung der Timebox"
       },
       "from": "elem-bYpJc5sG",
-      "to": "elem-4Zm6GrJC"
+      "to": "elem-9PG4amih"
     },
     {
       "_id": "conn-DoZFxztU",
@@ -5434,7 +5424,7 @@
         "connection type": "++"
       },
       "from": "elem-YDXh1U6N",
-      "to": "elem-4Zm6GrJC"
+      "to": "elem-9PG4amih"
     },
     {
       "_id": "conn-wzv7OUgr",
@@ -6269,7 +6259,7 @@
     },
     {
       "_id": "conn-bridge-010",
-      "from": "elem-4Zm6GrJC",
+      "from": "elem-9PG4amih",
       "to": "elem-7ogVpbDO",
       "direction": "directed",
       "delayed": false,
