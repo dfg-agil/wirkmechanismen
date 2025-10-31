@@ -787,30 +787,6 @@
       }
     },
     {
-      "_id": "elem-KJZv88Nk",
-      "attributes": {
-        "label": "Dauer der Meetings",
-        "element type": "Einflussfaktoren",
-        "description": "=Meetingdauer",
-        "tags": [
-          "Zeitmanagement",
-          "Planning"
-        ],
-        "closeness": 0,
-        "metrics::last": 0.7450491750778246,
-        "degree": 1,
-        "size": 2,
-        "indegree": 1,
-        "outdegree": 0,
-        "betweenness": 0,
-        "eigenvector": 0.002230018255098111,
-        "reach": 0.009900990099009901,
-        "reach-efficiency": 0.0049504950495049506,
-        "micmac influence": 0,
-        "micmac exposure": 0.7450491750778246
-      }
-    },
-    {
       "_id": "elem-NJxaV0E3",
       "attributes": {
         "label": "Einheitlichkeit des Planungsprozesses",
