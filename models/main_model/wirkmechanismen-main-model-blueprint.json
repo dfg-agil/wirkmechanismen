@@ -1430,30 +1430,7 @@
         "micmac exposure": 0.7720321188028204
       }
     },
-    {
-      "_id": "elem-f0SpaUw9",
-      "attributes": {
-        "label": "Handlungsverantwortung der Teammitglieder",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "Teamdynamik",
-          "Planning"
-        ],
-        "description": "= Selbstbestimmung",
-        "closeness": 0.01,
-        "metrics::last": 0.8768586518434335,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
-        "betweenness": 3.367003367003367e-05,
-        "eigenvector": 0.0020153234706311056,
-        "reach": 0.019801980198019802,
-        "reach-efficiency": 0.006600660066006601,
-        "micmac influence": 0,
-        "micmac exposure": 0.8768586518434335
-      }
-    },
+    
     {
       "_id": "elem-facxXxTp",
       "attributes": {
