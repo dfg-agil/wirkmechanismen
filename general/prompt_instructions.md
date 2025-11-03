@@ -16,7 +16,7 @@ Use the following guidance whenever you (a) craft a Reference Model (existing si
 
 2) Graphical/semantic conventions you must preserve when modeling (and later when exporting to JSON)
 	•	Nodes are factors (attribute-of-element), not raw elements; e.g., use quality of product rather than product; do not include values like “high/low” in the label.  ￼
-	•	Links state relationships and carry signs at each end: “+”, “−”, or “0” to indicate how attribute values relate; arrows indicate causality. Each link is labelled with its source type: [X] literature ref, [A] assumption, [E] stakeholder experience, [O] own investigation, [?] unknown. Contradictory sources may be shown as parallel links with different signs.  ￼  ￼
+	•	Links state relationships and carry signs at each end: “+”, “−”, or “0” to indicate how attribute values relate; arrows indicate causality. Each link is labelled with its source type: [0..n] literature ref, [A] assumption, [E] stakeholder experience, [O] own investigation, [?] unknown. Contradictory sources may be shown as parallel links with different signs.  ￼  ￼
 	•	From RM to IM: add the support node, modify/remove links that do not hold in the desired situation, and mark new/changed links as assumptions unless evidenced.  ￼
 	•	Layout tip: place nodes so that main cause-effect chains are easy to see (e.g., bottom→top or left→right).  ￼
 
