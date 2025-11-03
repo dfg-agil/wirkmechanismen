@@ -1,0 +1,83 @@
+factor;measurability;influenceability;JSON-Element
+Abhängigkeitstyp der Aufgabenbeziehungen;1;0.5;elem-wtELkHfE
+Ambiguität der Prozessanforderungen;0.5;0.5;elem-1mAqDgJB
+Anpassungsfähigkeit der Workflowdefinition;1;;elem-6709ipyy
+Anzahl der Iterationen;1;1;elem-xub4q8UC
+Anzahl der Teammitglieder;1;1;elem-DbXXPgu4
+Anzahl von Abhängigkeiten & Hindernisse;1;1;elem-7sSep5II
+Anzahl von Unsicherheiten im PEP;1;0.5;elem-U6qgcZdK
+Aufgabenbelastung der Teammitglieder;0.5;1;elem-34Kwzpr1
+Autonomielevel der(s) Entwickler(teams);0.5;0.5;elem-hAWDYq8W
+Begrenzungsgrad von Work in Progress;1;1;elem-X51ThqBL
+Durchschnittliche Anzahl von Work in Progress;1;1;elem-s2CSbNkg
+Durchschnittliche Durchlaufzeit;1;1;elem-kQpp3aDS
+Durchschnittlicher Durchsatz;1;1;elem-K92vjGHC
+Effektivität des Managements laufender Arbeiten;0.5;0.5;elem-jz5ga33J
+Einhaltung der Dauer des Meetings;1;1;elem-9PG4amih
+Einhaltungsrate von Zeitangaben der Teammitglieder;1;1;elem-TE0p3sHi
+Einheitlichkeit des Planungsprozesses;0.5;0.5;elem-NJxaV0E3
+Engagement der Teammitglieder;0;0.5;elem-Nhi8cwn5
+Erfahrungsniveau der Teammitglieder;0.5;1;elem-k8VAutpT
+Expliziter Wissensstand der Organisation;0.5;1;elem-0er3OquT
+Fachkompetenz des Entwicklers;0.5;1;elem-SfaQSG8R
+Feedbackfrequenz;0.5;0.5;elem-l1DOGECe
+Fehlerakzeptanz im Teamumfeld;0;0.5;elem-1L5rJCH1
+Fehlerhäufigkeit;1;1;elem-0PyumJeh
+Flexibilität der Ziele in der Teamzielsetzung;0.5;0.5;elem-0gOh0zC4
+Freiheit Entscheidungen zu treffen;0;0;elem-EUSEMqlc
+Grad der Kundenzufriedenheit;0.5;0.5;elem-iRqjN94r
+Grad der Sprinterfüllung;1;1;elem-mvmya4O4
+Grad der Systemkomplexität;0.5;0.5;elem-1T8mAYkP
+Grad der Unsicherheiten im PEP;0.5;0.5;elem-uRg5n0iS
+Grad der Workflow-Visualisierung;1;1;elem-dCCyLXD0
+Handlungsbereitschaft des Entwicklers;0;0.5;elem-68KZOQXM
+Handlungsfähigkeit des Entwicklers;0.5;0.5;elem-kHo330Ty
+Handlungskompetenz des Entwicklers;0.5;0.5;elem-axja1imq
+Häufigkeit des Aufgabenwechsel;1;1;elem-VXY3BWCO
+Impliziter Wissensstand des Entwicklers;0;0.5;elem-E4veLPLX
+Informationsverfügbarkeit;0.5;1;elem-rs4KlIHZ
+Interpretierbarkeit vorhandener Informationen;0.5;0.5;elem-zBsDMddD
+Klarheit der Aufgabenstellung;0;0.5;elem-wDnzlLwI
+Klarheit der Planungsfrequenz;1;1;elem-cFhW9nNR
+Klarheit der Verantwortlichkeiten im Team;0.5;0.5;elem-6tHZ4FNz
+Klarheit und Verständlichkeit der Ziele;0.5;0.5;elem-F9HioTuT
+Klarheit über die Fertigstellungskriterien;1;1;elem-uDiTVbXE
+Klarheit/Eindeutigkeit der Kundenanforderungen;0.5;0.5;elem-jnhWVH9C
+Kommunikationsbereitschaft;0.5;0.5;elem-T2T9LxPn
+Informationsdurchlässigkeit der Arbeitsumgebung;1;1;elem-4DZnGitO
+Kommunikationsmodus;1;1;elem-jxhfFnIX
+Kompetenz des Scrum Masters;0.5;1;elem-p5ivPyza
+Komplexität der Systemarchitektur;1;1;elem-VBKokGEh
+Konfliktfähigkeit durch Teaminteraktion;0.5;0.5;elem-xmjrxxGb
+Konvergenz des Teamverständnisses;0.5;0.5;elem-VombH8FP
+Medienkompetenz;0.5;0.5;elem-4b82cTxp
+Niveau der Fähigkeiten des Entwicklers;0.5;1;elem-lKD0abzp
+Nonverbale Kommunikation;0;0.5;elem-OFCjtV2w
+Notwendigkeit eines Boundary Objects;0;0.5;elem-Siz8fExz
+Persönlichkeitsmerkmale der Teammitglieder;0.5;0.5;elem-a0dvE9xS
+Priorisierung von  Aufgaben;1;1;elem-QgfybLh0
+Pünktlichkeit der Produktauslieferung;1;1;elem-are9vvnr
+Qualität der Entscheidung;0.5;0.5;elem-NmSn5Afu
+Qualität der Kommunikation;0.5;0.5;elem-bh4G3Yqp
+Qualität der Problemdefinition;0.5;0.5;elem-E99KvfbM
+Qualität der Struktur und Zielorientierung;0.5;0.5;elem-YDXh1U6N
+Qualität der Team Partizipation;0.5;0.5;elem-1oLVNA94
+Qualität der Teamdynamik;0;0.5;elem-kpdrF0zk
+Qualität des Artefakts;1;1;elem-lcDSwFU2
+Qualität des Dailies;0.5;0.5;elem-QOBGtWqO
+Qualität des Endprodukts;1;0.5;elem-rf8OZmMz
+Qualität des Planning;0.5;1;elem-8Gqgaih7
+Qualität des Zeitmanagements;1;1;elem-bYpJc5sG
+Relevanzbezogene Kommunikation der Inhalte;0.5;0.5;elem-IdAdH9K8
+Ressourcenauslastung;1;1;elem-1Y4HaQAF
+Sichtbarkeit der Teammitglieder;1;1;elem-gRqiMiBS
+Sozialkompetenz des Entwicklers;0;0.5;elem-VzcqeqTN
+Strukturierungsklarheit des Meetings;1;1;elem-DyjLKFjk
+Transparenz des Aufgabenstatus;1;1;elem-mzeWXZfS
+Umfang der Technischen Schulden;1;1;elem-pyHxoybV
+Unschärfe der Randbedingungen;0.5;0.5;elem-syHyf0Ed
+Verfügbarkeit des Entwicklers;1;1;elem-GzVWvit5
+Verhältnismäßige Verteilung der Beiträge im Team;1;1;elem-JvpOipbD
+Verständlichkeit des Entwicklungsprozess;0.5;0.5;elem-JmXiROgv
+Vertrauen in Beziehungen zwischen Teammitgliedern;0;0.5;elem-1qjjXjCN
+Prinzipienpriorisierung des Teams;0;0.5;elem-bewbUDp6

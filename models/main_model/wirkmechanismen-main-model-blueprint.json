@@ -17,7 +17,9 @@
         "reach": 0.04950495049504951,
         "reach-efficiency": 0.009900990099009901,
         "micmac influence": 1,
-        "micmac exposure": 0.9118911790819462
+        "micmac exposure": 0.9118911790819462,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -41,7 +43,9 @@
         "reach": 0.2871287128712871,
         "reach-efficiency": 0.020509193776520506,
         "micmac influence": 0.8333937190028631,
-        "micmac exposure": 0.6412190894986812
+        "micmac exposure": 0.6412190894986812,
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -64,7 +68,9 @@
         "reach": 0.0297029702970297,
         "reach-efficiency": 0.009900990099009901,
         "micmac influence": 0.7935827478813964,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -88,7 +94,9 @@
         "reach": 0.13861386138613863,
         "reach-efficiency": 0.027722772277227727,
         "micmac influence": 0.9013990852927545,
-        "micmac exposure": 0.5828729346045435
+        "micmac exposure": 0.5828729346045435,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -111,7 +119,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
-        "micmac exposure": 0.8830036809263201
+        "micmac exposure": 0.8830036809263201,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -136,7 +146,9 @@
         "reach": 0.25742574257425743,
         "reach-efficiency": 0.028602860286028604,
         "micmac influence": 0.8435123322747022,
-        "micmac exposure": 0.9870619624638166
+        "micmac exposure": 0.9870619624638166,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -160,7 +172,9 @@
         "reach": 0.06930693069306931,
         "reach-efficiency": 0.013861386138613863,
         "micmac influence": 0.7935827478813964,
-        "micmac exposure": 0.6330977784961899
+        "micmac exposure": 0.6330977784961899,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -184,7 +198,9 @@
         "reach": 0.13861386138613863,
         "reach-efficiency": 0.015401540154015403,
         "micmac influence": 0.7890599896359022,
-        "micmac exposure": 0.8395856653198618
+        "micmac exposure": 0.8395856653198618,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -207,7 +223,9 @@
         "reach": 0.22772277227722773,
         "reach-efficiency": 0.015181518151815182,
         "micmac influence": 0.904783743124487,
-        "micmac exposure": 0.6790810682586852
+        "micmac exposure": 0.6790810682586852,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -231,7 +249,9 @@
         "reach": 0.019801980198019802,
         "reach-efficiency": 0.006600660066006601,
         "micmac influence": 0,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -255,7 +275,9 @@
         "reach": 0.0891089108910891,
         "reach-efficiency": 0.01485148514851485,
         "micmac influence": 0.7956142826893773,
-        "micmac exposure": 0.7450491750778246
+        "micmac exposure": 0.7450491750778246,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -279,10 +301,11 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
-        "micmac exposure": 0.8160049503978034
+        "micmac exposure": 0.8160049503978034,
+        "measurability": null,
+        "influenceability": null
       }
     },
-    
     {
       "_id": "elem-4b82cTxp",
       "attributes": {
@@ -304,7 +327,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.009900990099009901,
         "micmac influence": 1,
-        "micmac exposure": 0.8160049503978034
+        "micmac exposure": 0.8160049503978034,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -324,7 +349,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.7720321188028204
+        "micmac exposure": 0.7720321188028204,
+        "measurability": 1,
+        "influenceability": null
       }
     },
     {
@@ -347,7 +374,9 @@
         "reach": 0.21782178217821782,
         "reach-efficiency": 0.031117397454031116,
         "micmac influence": 0.7548661438233901,
-        "micmac exposure": 0.8564567254911214
+        "micmac exposure": 0.8564567254911214,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -372,8 +401,8 @@
         "reach-efficiency": 0.006600660066006601,
         "micmac influence": 0,
         "micmac exposure": 0.8830036809263201,
-        "measurability": "1",
-        "influenceability": "0"
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -393,7 +422,9 @@
         "reach": 0.25742574257425743,
         "reach-efficiency": 0.014301430143014302,
         "micmac influence": 0.8466339831129449,
-        "micmac exposure": 0.7417492173396959
+        "micmac exposure": 0.7417492173396959,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -415,7 +446,9 @@
         "reach": 0.6633663366336634,
         "reach-efficiency": 0.06030603060306031,
         "micmac influence": 0.8242995350611015,
-        "micmac exposure": 0.9351918269288337
+        "micmac exposure": 0.9351918269288337,
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -439,7 +472,9 @@
         "reach": 0.13861386138613863,
         "reach-efficiency": 0.027722772277227727,
         "micmac influence": 0.7847961646868228,
-        "micmac exposure": 0.8830036809263201
+        "micmac exposure": 0.8830036809263201,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -463,7 +498,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -487,7 +524,9 @@
         "reach": 0.019801980198019802,
         "reach-efficiency": 0.006600660066006601,
         "micmac influence": 0,
-        "micmac exposure": 0.8830036809263201
+        "micmac exposure": 0.8830036809263201,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -511,7 +550,9 @@
         "reach": 0.0297029702970297,
         "reach-efficiency": 0.009900990099009901,
         "micmac influence": 0.7935827478813964,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -535,7 +576,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -560,7 +603,9 @@
         "reach": 0.33663366336633666,
         "reach-efficiency": 0.019801980198019802,
         "micmac influence": 0.7312863102005941,
-        "micmac exposure": 0.759192611956293
+        "micmac exposure": 0.759192611956293,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -583,7 +628,9 @@
         "reach": 0.15841584158415842,
         "reach-efficiency": 0.031683168316831684,
         "micmac influence": 0.7573151874717857,
-        "micmac exposure": 0.971766010970058
+        "micmac exposure": 0.971766010970058,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -606,7 +653,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.8830036809263201
+        "micmac exposure": 0.8830036809263201,
+        "measurability": 0,
+        "influenceability": 0
       }
     },
     {
@@ -631,7 +680,9 @@
         "reach": 0.15841584158415842,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 0.7656979042724437,
-        "micmac exposure": 0.7872223336812051
+        "micmac exposure": 0.7872223336812051,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -655,7 +706,9 @@
         "reach": 0.04950495049504951,
         "reach-efficiency": 0.016501650165016504,
         "micmac influence": 0.846642757927137,
-        "micmac exposure": 0.7070802409585855
+        "micmac exposure": 0.7070802409585855,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -678,7 +731,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -703,7 +758,9 @@
         "reach": 0.06930693069306931,
         "reach-efficiency": 0.017326732673267328,
         "micmac influence": 0.82843573523195,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -729,7 +786,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0024752475247524753,
         "micmac influence": 0,
-        "micmac exposure": 0.8563369934011895
+        "micmac exposure": 0.8563369934011895,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -753,7 +812,9 @@
         "reach": 0.019801980198019802,
         "reach-efficiency": 0.006600660066006601,
         "micmac influence": 0,
-        "micmac exposure": 0.8830036809263201
+        "micmac exposure": 0.8830036809263201,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -773,7 +834,9 @@
         "reach": 0.1188118811881188,
         "reach-efficiency": 0.039603960396039604,
         "micmac influence": 0.8498843490157181,
-        "micmac exposure": 0.7992920945948643
+        "micmac exposure": 0.7992920945948643,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -796,7 +859,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -807,7 +872,9 @@
           "Teamdynamik",
           "Planning"
         ],
-        "element type": "Einflussfaktoren"
+        "element type": "Einflussfaktoren",
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -832,7 +899,9 @@
         "reach": 0.04950495049504951,
         "reach-efficiency": 0.006188118811881188,
         "micmac influence": 0,
-        "micmac exposure": 0.7330929956485938
+        "micmac exposure": 0.7330929956485938,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -856,7 +925,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
-        "micmac exposure": 0.8160049503978034
+        "micmac exposure": 0.8160049503978034,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -878,7 +949,9 @@
         "reach": 0.7029702970297029,
         "reach-efficiency": 0.07029702970297029,
         "micmac influence": 0.8346285630615506,
-        "micmac exposure": 0.8116975053138835
+        "micmac exposure": 0.8116975053138835,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -902,7 +975,9 @@
         "reach": 0.13861386138613863,
         "reach-efficiency": 0.034653465346534656,
         "micmac influence": 0.9013990852927545,
-        "micmac exposure": 0.6330977784961899
+        "micmac exposure": 0.6330977784961899,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -926,7 +1001,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
-        "micmac exposure": 0.8160049503978034
+        "micmac exposure": 0.8160049503978034,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -948,7 +1025,9 @@
         "reach": 0.0594059405940594,
         "reach-efficiency": 0.019801980198019802,
         "micmac influence": 0.8348346886449038,
-        "micmac exposure": 0.8729263522091324
+        "micmac exposure": 0.8729263522091324,
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -970,7 +1049,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
-        "micmac exposure": 0.6031568630891954
+        "micmac exposure": 0.6031568630891954,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -994,7 +1075,9 @@
         "reach": 0.13861386138613863,
         "reach-efficiency": 0.06930693069306931,
         "micmac influence": 0.8181200920110671,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1019,7 +1102,8 @@
         "reach-efficiency": 0.022277227722772276,
         "micmac influence": 0.934196373883925,
         "micmac exposure": 0,
-        "influenceability": ""
+        "influenceability": 1,
+        "measurability": 1
       }
     },
     {
@@ -1041,7 +1125,9 @@
         "reach": 0.18181818181818182,
         "reach-efficiency": 0.025974025974025976,
         "micmac influence": 0.9128294249797513,
-        "micmac exposure": 0.7613808958525524
+        "micmac exposure": 0.7613808958525524,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -1066,7 +1152,9 @@
         "reach": 0.12871287128712872,
         "reach-efficiency": 0.018387553041018388,
         "micmac influence": 0.8181200920110671,
-        "micmac exposure": 0.7233775487671799
+        "micmac exposure": 0.7233775487671799,
+        "measurability": 1,
+        "influenceability": 0.5
       }
     },
     {
@@ -1090,7 +1178,9 @@
         "reach": 0.0297029702970297,
         "reach-efficiency": 0.009900990099009901,
         "micmac influence": 0.7935827478813964,
-        "micmac exposure": 0.6330977784961899
+        "micmac exposure": 0.6330977784961899,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1114,7 +1204,9 @@
         "reach": 0.0594059405940594,
         "reach-efficiency": 0.01485148514851485,
         "micmac influence": 0.970957696798706,
-        "micmac exposure": 0.7450491750778246
+        "micmac exposure": 0.7450491750778246,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1137,7 +1229,9 @@
         "reach": 0.0891089108910891,
         "reach-efficiency": 0.01782178217821782,
         "micmac influence": 0.798469039801434,
-        "micmac exposure": 0.8908053592313775
+        "micmac exposure": 0.8908053592313775,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1160,7 +1254,9 @@
         "reach": 0.19801980198019803,
         "reach-efficiency": 0.04950495049504951,
         "micmac influence": 0.8083060056236697,
-        "micmac exposure": 0.8729263522091324
+        "micmac exposure": 0.8729263522091324,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -1180,7 +1276,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.7720321188028204
+        "micmac exposure": 0.7720321188028204,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1204,7 +1302,9 @@
         "reach": 0.21782178217821782,
         "reach-efficiency": 0.013613861386138614,
         "micmac influence": 0.950509808772359,
-        "micmac exposure": 0.7938972128205074
+        "micmac exposure": 0.7938972128205074,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1228,7 +1328,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.6330977784961899
+        "micmac exposure": 0.6330977784961899,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -1252,7 +1354,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1274,7 +1378,9 @@
         "reach": 0.019801980198019802,
         "reach-efficiency": 0.0039603960396039604,
         "micmac influence": 0,
-        "micmac exposure": 0.6437331129517366
+        "micmac exposure": 0.6437331129517366,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1298,7 +1404,9 @@
         "reach": 0.2376237623762376,
         "reach-efficiency": 0.021602160216021602,
         "micmac influence": 0.8025901800524587,
-        "micmac exposure": 1
+        "micmac exposure": 1,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1318,7 +1426,9 @@
         "reach": 0.1188118811881188,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 0.8348227812177291,
-        "micmac exposure": 0.8932360112735436
+        "micmac exposure": 0.8932360112735436,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1342,7 +1452,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -1367,7 +1479,9 @@
         "reach": 0.3465346534653465,
         "reach-efficiency": 0.01925192519251925,
         "micmac influence": 0.7511354813481823,
-        "micmac exposure": 0.9657893118665918
+        "micmac exposure": 0.9657893118665918,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1390,14 +1504,18 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
       "_id": "elem-cHlGVpZ5",
       "attributes": {
         "label": "Qualität des Feedbacks",
-        "element type": "Einflussfaktoren"
+        "element type": "Einflussfaktoren",
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -1417,10 +1535,11 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.7720321188028204
+        "micmac exposure": 0.7720321188028204,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
-    
     {
       "_id": "elem-facxXxTp",
       "attributes": {
@@ -1440,7 +1559,9 @@
         "reach": 0.07272727272727272,
         "reach-efficiency": 0.012121212121212121,
         "micmac influence": 0.7595298486964337,
-        "micmac exposure": 0.8254970866986676
+        "micmac exposure": 0.8254970866986676,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -1463,7 +1584,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1486,7 +1609,9 @@
         "reach": 0.07920792079207921,
         "reach-efficiency": 0.0088008800880088,
         "micmac influence": 0.7574765077581941,
-        "micmac exposure": 0.9086074414034598
+        "micmac exposure": 0.9086074414034598,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1505,7 +1630,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0019801980198019802,
         "micmac influence": 0,
-        "micmac exposure": 0.6053508837084305
+        "micmac exposure": 0.6053508837084305,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1529,7 +1656,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -1552,7 +1681,9 @@
         "reach": 0.10891089108910891,
         "reach-efficiency": 0.02178217821782178,
         "micmac influence": 0.9254032200101688,
-        "micmac exposure": 0.8160049503978034
+        "micmac exposure": 0.8160049503978034,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1576,7 +1707,9 @@
         "reach": 0.0297029702970297,
         "reach-efficiency": 0.007425742574257425,
         "micmac influence": 0.7935827478813964,
-        "micmac exposure": 0.8160049503978034
+        "micmac exposure": 0.8160049503978034,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1596,7 +1729,9 @@
         "reach": 0.13861386138613863,
         "reach-efficiency": 0.04620462046204621,
         "micmac influence": 0.8181200920110671,
-        "micmac exposure": 0.7720321188028204
+        "micmac exposure": 0.7720321188028204,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1620,7 +1755,9 @@
         "reach": 0.09900990099009901,
         "reach-efficiency": 0.014144271570014145,
         "micmac influence": 0.8860936911689311,
-        "micmac exposure": 0.8100859716926461
+        "micmac exposure": 0.8100859716926461,
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -1646,7 +1783,9 @@
         "reach": 0.06930693069306931,
         "reach-efficiency": 0.004331683168316832,
         "micmac influence": 0.8298198269933633,
-        "micmac exposure": 0.6974353156327325
+        "micmac exposure": 0.6974353156327325,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1666,7 +1805,9 @@
         "reach": 0.1188118811881188,
         "reach-efficiency": 0.023762376237623763,
         "micmac influence": 0.8498843490157181,
-        "micmac exposure": 0.8914296271059395
+        "micmac exposure": 0.8914296271059395,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1689,7 +1830,9 @@
         "reach": 0.1485148514851485,
         "reach-efficiency": 0.010608203677510608,
         "micmac influence": 0.7911286314805404,
-        "micmac exposure": 0.8782324152268047
+        "micmac exposure": 0.8782324152268047,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -1713,7 +1856,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1736,7 +1881,9 @@
         "reach-efficiency": 0.022277227722772276,
         "micmac influence": 0.602824937489592,
         "micmac exposure": 0.6831262050163229,
-        "description": "Alternativ einfach \"Fähigkeiten des Entwicklers\"\n\nHier geht es sowohl um die Anzahl, als auch um die Ausprägung der jeweiligen vorhandenen Fähigkeiten (z.B. schlecht, mittel, gut)"
+        "description": "Alternativ einfach \"Fähigkeiten des Entwicklers\"\n\nHier geht es sowohl um die Anzahl, als auch um die Ausprägung der jeweiligen vorhandenen Fähigkeiten (z.B. schlecht, mittel, gut)",
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -1755,7 +1902,9 @@
         "reach": 0.0594059405940594,
         "reach-efficiency": 0.011881188118811881,
         "micmac influence": 0,
-        "micmac exposure": 0.8915911447464404
+        "micmac exposure": 0.8915911447464404,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1774,7 +1923,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.8632646766743638
+        "micmac exposure": 0.8632646766743638,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1797,7 +1948,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.6330977784961899
+        "micmac exposure": 0.6330977784961899,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1822,7 +1975,9 @@
         "reach": 0.019801980198019802,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.8919942924225034
+        "micmac exposure": 0.8919942924225034,
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -1841,7 +1996,9 @@
         "reach": 0.1188118811881188,
         "reach-efficiency": 0.0594059405940594,
         "micmac influence": 0.9013990852927545,
-        "micmac exposure": 0.7720321188028204
+        "micmac exposure": 0.7720321188028204,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1860,7 +2017,9 @@
         "reach": 0.019801980198019802,
         "reach-efficiency": 0.006600660066006601,
         "micmac influence": 0,
-        "micmac exposure": 0.6857057547254541
+        "micmac exposure": 0.6857057547254541,
+        "measurability": 1,
+        "influenceability": 0.5
       }
     },
     {
@@ -1887,7 +2046,9 @@
         "reach-efficiency": 0.022502250225022502,
         "micmac influence": 0.9621382223924159,
         "micmac exposure": 0.8045457527749093,
-        "description": "Sind die Informationen generell verfügbar und auch zugänglich"
+        "description": "Sind die Informationen generell verfügbar und auch zugänglich",
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -1911,7 +2072,8 @@
         "reach-efficiency": 0.02333804809052334,
         "micmac influence": 0.8841892821222713,
         "micmac exposure": 0.7134798416496568,
-        "influenceability": ""
+        "influenceability": 1,
+        "measurability": 1
       }
     },
     {
@@ -1934,7 +2096,9 @@
         "reach": 0.1485148514851485,
         "reach-efficiency": 0.021216407355021217,
         "micmac influence": 0.7694151712595242,
-        "micmac exposure": 0.7234228166981763
+        "micmac exposure": 0.7234228166981763,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1958,7 +2122,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -1983,7 +2149,9 @@
         "reach": 0.009900990099009901,
         "reach-efficiency": 0.0014144271570014145,
         "micmac influence": 0,
-        "micmac exposure": 0.7255595075430183
+        "micmac exposure": 0.7255595075430183,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2006,7 +2174,9 @@
         "reach": 0.2079207920792079,
         "reach-efficiency": 0.0297029702970297,
         "micmac influence": 0.72739390631389,
-        "micmac exposure": 0.8243146607693502
+        "micmac exposure": 0.8243146607693502,
+        "measurability": 0,
+        "influenceability": 0.5
       }
     },
     {
@@ -2030,7 +2200,9 @@
         "reach": 0.0297029702970297,
         "reach-efficiency": 0.009900990099009901,
         "micmac influence": 0.7935827478813964,
-        "micmac exposure": 0.6330977784961899
+        "micmac exposure": 0.6330977784961899,
+        "measurability": 1,
+        "influenceability": 0.5
       }
     },
     {
@@ -2054,7 +2226,9 @@
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
-        "micmac exposure": 0.8768586518434335
+        "micmac exposure": 0.8768586518434335,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2073,14 +2247,18 @@
         "reach": 0.0297029702970297,
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
-        "micmac exposure": 0.6795427253957788
+        "micmac exposure": 0.6795427253957788,
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
       "_id": "elem-y6GVV12J",
       "attributes": {
         "label": "Quantität des Feedbacks",
-        "element type": "Einflussfaktoren"
+        "element type": "Einflussfaktoren",
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2103,7 +2281,9 @@
         "reach": 0.09900990099009901,
         "reach-efficiency": 0.012376237623762377,
         "micmac influence": 0.8076245462717926,
-        "micmac exposure": 0.825817274358828
+        "micmac exposure": 0.825817274358828,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2126,7 +2306,9 @@
         "reach": 0.24752475247524752,
         "reach-efficiency": 0.041254125412541254,
         "micmac influence": 0.8900130937263885,
-        "micmac exposure": 0.8729263522091324
+        "micmac exposure": 0.8729263522091324,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2150,7 +2332,9 @@
         "reach": 0.019801980198019802,
         "reach-efficiency": 0.006600660066006601,
         "micmac influence": 0,
-        "micmac exposure": 0.8830036809263201
+        "micmac exposure": 0.8830036809263201,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2164,7 +2348,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.8160049503978034,
-        "micmac exposure": 0.8160049503978034
+        "micmac exposure": 0.8160049503978034,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2178,7 +2364,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.6330977784961899,
-        "micmac exposure": 0.6330977784961899
+        "micmac exposure": 0.6330977784961899,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2192,7 +2380,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2206,7 +2396,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2220,7 +2412,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2234,7 +2428,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2248,7 +2444,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2262,7 +2460,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2276,7 +2476,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2290,7 +2492,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2304,7 +2508,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2318,7 +2524,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2332,7 +2540,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.9013959819624902,
-        "micmac exposure": 0.9013959819624902
+        "micmac exposure": 0.9013959819624902,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2346,7 +2556,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2360,7 +2572,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2374,7 +2588,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.8535044718337663,
-        "micmac exposure": 0.8535044718337663
+        "micmac exposure": 0.8535044718337663,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2388,7 +2604,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
-        "micmac exposure": 0.7638528204727111
+        "micmac exposure": 0.7638528204727111,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2402,7 +2620,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2416,7 +2636,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2430,7 +2652,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2444,7 +2668,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2458,7 +2684,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2472,7 +2700,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2486,7 +2716,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.8905693236751449,
-        "micmac exposure": 0.8905693236751449
+        "micmac exposure": 0.8905693236751449,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2500,7 +2732,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2514,7 +2748,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2528,7 +2764,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2542,7 +2780,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2556,7 +2796,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2570,7 +2812,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2584,7 +2828,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
-        "micmac exposure": 0.7638528204727111
+        "micmac exposure": 0.7638528204727111,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2598,7 +2844,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2612,7 +2860,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
-        "micmac exposure": 0.7638528204727111
+        "micmac exposure": 0.7638528204727111,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2626,7 +2876,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.6799106512421866,
-        "micmac exposure": 0.6799106512421866
+        "micmac exposure": 0.6799106512421866,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2640,7 +2892,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.8169155891558899,
-        "micmac exposure": 0.8169155891558899
+        "micmac exposure": 0.8169155891558899,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2654,7 +2908,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.6984704611086446,
-        "micmac exposure": 0.6984704611086446
+        "micmac exposure": 0.6984704611086446,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2668,7 +2924,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.6885549396250221,
-        "micmac exposure": 0.6885549396250221
+        "micmac exposure": 0.6885549396250221,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2682,7 +2940,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.8905693236751449,
-        "micmac exposure": 0.8905693236751449
+        "micmac exposure": 0.8905693236751449,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2696,7 +2956,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2710,7 +2972,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2724,7 +2988,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.9708004396048325,
-        "micmac exposure": 0.9708004396048325
+        "micmac exposure": 0.9708004396048325,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2738,7 +3004,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2752,7 +3020,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2766,7 +3036,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2780,7 +3052,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.8905693236751449,
-        "micmac exposure": 0.8905693236751449
+        "micmac exposure": 0.8905693236751449,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2794,7 +3068,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2808,7 +3084,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2822,7 +3100,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.8729263522091324,
-        "micmac exposure": 0.8729263522091324
+        "micmac exposure": 0.8729263522091324,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2836,7 +3116,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2850,7 +3132,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0.786522384144123,
-        "micmac exposure": 0.786522384144123
+        "micmac exposure": 0.786522384144123,
+        "measurability": null,
+        "influenceability": null
       }
     },
     {
@@ -2864,7 +3148,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "measurability": null,
+        "influenceability": null
       }
     }
   ],
