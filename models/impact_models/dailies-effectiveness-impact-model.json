@@ -1,0 +1,398 @@
+{
+  "elements": [
+    {
+      "_id": "elem-QOBGtWqO",
+      "attributes": {
+        "label": "Qualität des Dailies",
+        "element type": "Problem",
+        "tags": [
+          "Daily"
+        ],
+        "description": "Ausgangs-Problem: Die Daily Meetings sind unstrukturiert und wenig effektiv. Dies manifestiert sich in fehlender Zielorientierung, ineffizientem Zeitmanagement und unzureichender Visualisierung des Fortschritts.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-YDXh1U6N",
+      "attributes": {
+        "label": "Qualität der Struktur und Zielorientierung",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Planning",
+          "Struktur und Zielorientierung"
+        ],
+        "description": "Zentraler Schlüsselfaktor für Daily-Effektivität. Umfasst klare Meeting-Struktur, definierte Ziele und fokussierte Diskussionen.",
+        "measurability": 0.8,
+        "influenceability": 0.9
+      }
+    },
+    {
+      "_id": "elem-bYpJc5sG",
+      "attributes": {
+        "label": "Qualität des Zeitmanagements",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Planning",
+          "Zeitmanagement"
+        ],
+        "description": "Zeitbox-Einhaltung, Pünktlichkeit und effiziente Zeitnutzung im Daily Meeting.",
+        "measurability": 1,
+        "influenceability": 0.8
+      }
+    },
+    {
+      "_id": "elem-Stbtoch1",
+      "attributes": {
+        "label": "Visualisierung des Fortschritts",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning"
+        ],
+        "description": "Sichtbarmachung des Arbeitsfortschritts durch Boards, Burndown Charts oder andere visuelle Hilfsmittel während des Dailies.",
+        "measurability": 0.9,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-7sSep5II",
+      "attributes": {
+        "label": "Anzahl von Abhängigkeiten & Hindernisse",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Planning",
+          "Impediments"
+        ],
+        "description": "Identifizierung und Kommunikation von Blocker, Abhängigkeiten und Hindernissen im Daily Meeting.",
+        "measurability": 1,
+        "influenceability": 0.7
+      }
+    },
+    {
+      "_id": "elem-AE0RRLd0",
+      "attributes": {
+        "label": "Qualität der Teampartizipation",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Team-Partizipation",
+          "Engagement"
+        ],
+        "description": "Aktive Beteiligung und Engagement aller Teammitglieder im Daily Meeting.",
+        "measurability": 0.7,
+        "influenceability": 0.8
+      }
+    },
+    {
+      "_id": "elem-kpdrF0zk",
+      "attributes": {
+        "label": "Qualität der Teamdynamik",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Planning",
+          "Teamdynamik"
+        ],
+        "description": "Teamdynamik: Für eine offene und respektvolle Atmosphäre sorgen. Positive Teamdynamik führt zu besserer Zusammenarbeit und höherer Wertschöpfung.",
+        "measurability": 0.6,
+        "influenceability": 0.7
+      }
+    },
+    {
+      "_id": "elem-rf8OZmMz",
+      "attributes": {
+        "label": "Qualität des Endprodukts",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Quality",
+          "Product"
+        ],
+        "description": "Qualität des gelieferten Produkts oder Inkrements, beeinflusst durch effektive Team-Koordination und Kommunikation.",
+        "measurability": 1,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-VALUE-CREATION",
+      "attributes": {
+        "label": "Menge der Wertgenerierung",
+        "element type": "Messbarer Erfolgsfaktor",
+        "description": "Quantifizierbare Menge des durch das Team/Produkt generierten Werts für Stakeholder. Messbar durch Metriken wie Customer Satisfaction Scores, Net Promoter Score, Business Value Points, Feature Adoption Rate und Return on Investment. Repräsentiert das primäre Ziel agiler Entwicklungsprozesse: kontinuierliche Wertlieferung an Kunden und Organisation.",
+        "tags": [
+          "Outcome",
+          "Value",
+          "Success",
+          "Measurement"
+        ],
+        "measurability": 0.9,
+        "influenceability": 0.3
+      }
+    },
+    {
+      "_id": "elem-SUPPORT-DAILY-FRAMEWORK",
+      "attributes": {
+        "label": "Einführung Daily-Scrum-Framework mit fester Struktur",
+        "element type": "Support",
+        "tags": [
+          "Intervention",
+          "Daily",
+          "Framework"
+        ],
+        "description": "Strukturierte Implementierung des Daily Scrum nach Scrum Guide: 15-Minuten-Timebox, stehend, täglich zur gleichen Zeit/Ort, fokussiert auf drei Fragen (Was habe ich gestern erreicht? Was werde ich heute tun? Welche Hindernisse gibt es?).Inklusive Team-Training und Facilitation-Support durch Scrum Master.",
+        "measurability": 1,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-SUPPORT-VISUALIZATION-TOOLS",
+      "attributes": {
+        "label": "Bereitstellung digitaler/physischer Visualisierungstools",
+        "element type": "Support",
+        "tags": [
+          "Intervention",
+          "Tools",
+          "Visualization"
+        ],
+        "description": "Einführung und Training für Visualisierungstools: physisches Kanban-Board oder digitale Tools (Jira, Azure DevOps, Trello) mit Sprint-/Kanban-Board, Burndown Charts, und Impediment Backlogs. Inklusive Best Practices für Daily-Meeting-Nutzung.",
+        "measurability": 1,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-SUPPORT-FACILITATION-TRAINING",
+      "attributes": {
+        "label": "Facilitation-Training für Meeting-Leitung",
+        "element type": "Support",
+        "tags": [
+          "Intervention",
+          "Training",
+          "Facilitation"
+        ],
+        "description": "Schulung für Scrum Master oder Team-Facilitator in Facilitation-Techniken: Timeboxing, Fokus-Management, Impediment-Handling, Partizipationsförderung, und psychologische Sicherheit. Ziel: Strukturierte und inklusive Meeting-Moderation.",
+        "measurability": 1,
+        "influenceability": 1
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-SUPPORT-FRAMEWORK-TO-STRUCTURE",
+      "from": "elem-SUPPORT-DAILY-FRAMEWORK",
+      "to": "elem-YDXh1U6N",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Einführung eines strukturierten Daily-Scrum-Frameworks mit festen Regeln (Timebox, 3 Fragen, fester Ablauf) verbessert direkt die Struktur und Zielorientierung. Die klaren Richtlinien eliminieren Unklarheit über Meeting-Zweck und -Ablauf. (Annahme basierend auf Scrum Guide 2020 Best Practices)."
+      }
+    },
+    {
+      "_id": "conn-SUPPORT-FRAMEWORK-TO-TIMEMANAGEMENT",
+      "from": "elem-SUPPORT-DAILY-FRAMEWORK",
+      "to": "elem-bYpJc5sG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die explizite 15-Minuten-Timebox und feste Ablaufroutinen des Daily Scrum Frameworks verbessern das Zeitmanagement direkt durch klare zeitliche Grenzen und Erwartungen. Stehen während des Meetings fördert zusätzlich Kürze. (Annahme basierend auf Scrum Guide 2020)."
+      }
+    },
+    {
+      "_id": "conn-SUPPORT-VISUALIZATION-TO-VISUALIZATION",
+      "from": "elem-SUPPORT-VISUALIZATION-TOOLS",
+      "to": "elem-Stbtoch1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Bereitstellung und Training von Visualisierungstools (Boards, Charts) erhöht direkt die Qualität der Fortschrittsvisualisierung. Teams erhalten konkrete Werkzeuge und Know-how zur visuellen Darstellung ihres Work in Progress. (Annahme: Tool-Verfügbarkeit ist Voraussetzung für Nutzung)."
+      }
+    },
+    {
+      "_id": "conn-SUPPORT-FACILITATION-TO-STRUCTURE",
+      "from": "elem-SUPPORT-FACILITATION-TRAINING",
+      "to": "elem-YDXh1U6N",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Facilitation-Training befähigt Meeting-Leiter, Struktur aktiv zu moderieren, Diskussionen zu fokussieren und Zielorientierung sicherzustellen. Geschulte Facilitators können besser Abschweifungen unterbinden und Meeting-Ziele durchsetzen. (Annahme: Facilitation-Kompetenz ist Enabler für strukturierte Meetings)."
+      }
+    },
+    {
+      "_id": "conn-SUPPORT-FACILITATION-TO-PARTICIPATION",
+      "from": "elem-SUPPORT-FACILITATION-TRAINING",
+      "to": "elem-AE0RRLd0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Facilitation-Training vermittelt Techniken zur Partizipationsförderung (Round-Robin, direkte Ansprache stiller Mitglieder, psychologische Sicherheit). Geschulte Facilitators können aktiv für ausgewogene Teilnahme aller Teammitglieder sorgen. (Annahme: Facilitation-Skills sind notwendig für inklusive Meetings)."
+      }
+    },
+    {
+      "_id": "conn-DAILIES-TO-STRUCTURE",
+      "from": "elem-QOBGtWqO",
+      "to": "elem-YDXh1U6N",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Höhere Daily-Qualität ermöglicht bessere Struktur und Zielorientierung durch etablierte Meeting-Routinen und klare Erwartungen."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-TIMEMANAGEMENT",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-bYpJc5sG",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Struktur und Zielorientierung verbessern das Zeitmanagement durch fokussierte Diskussionen und vermiedene Abschweifungen. Timeboxing wird effektiver bei strukturiertem Ablauf."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-VISUALIZATION",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-Stbtoch1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Meetings fördern die Nutzung von Visualisierungstools (Boards, Charts), da diese zur Zielorientierung beitragen und den strukturierten Ablauf unterstützen."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-IMPEDIMENTS",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-7sSep5II",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere Struktur und Zielorientierung führen zu systematischerer Identifikation von Abhängigkeiten und Hindernissen, wodurch deren Anzahl (als bekannte/dokumentierte Impediments) zunimmt, während gleichzeitig die Problemlösung verbessert wird."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-PARTICIPATION",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-AE0RRLd0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Meeting-Struktur erhöht die Teampartizipation, da Teammitglieder ihre Rolle und Beitragsmöglichkeiten besser verstehen und sich aktiver einbringen können."
+      }
+    },
+    {
+      "_id": "conn-TIMEMANAGEMENT-TO-TEAMDYNAMIK",
+      "from": "elem-bYpJc5sG",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Effektives Zeitmanagement reduziert Frustration durch Überzeitungen und schafft respektvollen Umgang mit der Zeit aller Beteiligten, was die Teamdynamik positiv beeinflusst."
+      }
+    },
+    {
+      "_id": "conn-VISUALIZATION-TO-TEAMDYNAMIK",
+      "from": "elem-Stbtoch1",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Transparente Fortschrittsvisualisierung schafft gemeinsames Verständnis, reduziert Missverständnisse und fördert Vertrauen im Team, was die Teamdynamik verbessert."
+      }
+    },
+    {
+      "_id": "conn-IMPEDIMENTS-TO-TEAMDYNAMIK",
+      "from": "elem-7sSep5II",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Höhere Anzahl identifizierter Abhängigkeiten und Hindernisse kann zunächst Stress erzeugen, führt aber durch proaktives Adressieren zu besserer Teamdynamik und kollaborativer Problemlösung."
+      }
+    },
+    {
+      "_id": "conn-PARTICIPATION-TO-TEAMDYNAMIK",
+      "from": "elem-AE0RRLd0",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Teampartizipation stärkt Engagement, psychologische Sicherheit und Zusammengehörigkeit, was direkt zu verbesserter Teamdynamik führt."
+      }
+    },
+    {
+      "_id": "conn-TEAMDYNAMIK-TO-ENDPRODUCT",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-rf8OZmMz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Positive Teamdynamik verbessert die Endproduktqualität durch effektivere Zusammenarbeit, besseren Wissensaustausch, konstruktives Feedback und höhere Commitment-Level. Teams mit guter Dynamik identifizieren Qualitätsprobleme früher und lösen sie effektiver durch offene Kommunikation und gegenseitige Unterstützung."
+      }
+    },
+    {
+      "_id": "conn-TEAMDYNAMIK-TO-VALUE",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-VALUE-CREATION",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Teamdynamik steigert die Wertgenerierung durch verbesserte Zusammenarbeit, effizientere Kommunikation und höhere Produktivität. Teams mit positiver Dynamik zeigen bessere Problemlösungsfähigkeiten, schnellere Entscheidungsfindung und erhöhte Innovation, was direkt zur Steigerung des für Stakeholder generierten Werts beiträgt. Empirisch belegt durch Tuckman's Teamentwicklungsmodell (1965) und Google's Project Aristotle Studie zur psychologischen Sicherheit."
+      }
+    },
+    {
+      "_id": "conn-ENDPRODUCT-TO-VALUE",
+      "from": "elem-rf8OZmMz",
+      "to": "elem-VALUE-CREATION",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Endproduktqualität führt zu gesteigerter Wertgenerierung durch verbesserte Nutzerakzeptanz, reduzierte Nachbearbeitungskosten und erhöhte Kundenzufriedenheit. Basiert auf Lean-Prinzipien (Poppendieck & Poppendieck 2003) und agilen Wertlieferungskonzepten (Scrum Guide 2020)."
+      }
+    }
+  ]
+}
