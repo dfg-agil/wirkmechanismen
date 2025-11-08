@@ -634,6 +634,32 @@
       }
     },
     {
+      "_id": "elem-backlogRefinement",
+      "attributes": {
+        "label": "Qualität des Backlog-Refinements",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Backlog Refinement"
+        ],
+        "description": "Reifegrad der Backlog-Pflege (Definition of Ready, Akzeptanzkriterien, Story-Splitting, Moderation und Teilnahme). Messbar über den Anteil der PBIs, die beim ersten Durchlauf alle Refinement-Checks bestehen, sowie über Nacharbeit nach Sprintstart. Wird aktiv durch Product Owner, Team und Scrum Master beeinflusst (Workshops, Checklisten, Backlog Health KPIs).",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.7,
+        "influenceability": 0.8
+      }
+    },
+    {
       "_id": "elem-EUSEMqlc",
       "attributes": {
         "label": "Freiheit Entscheidungen zu treffen",
@@ -4965,6 +4991,58 @@
       },
       "from": "elem-bYpJc5sG",
       "to": "elem-34Kwzpr1"
+    },
+    {
+      "_id": "conn-backlogRef-001",
+      "from": "elem-backlogRefinement",
+      "to": "elem-uDiTVbXE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[1]",
+        "connection type": "++",
+        "description": "Schwaber, K., & Sutherland, J. (2020). Der Scrum Guide betont Backlog Refinement als Mittel, Definition-of-Ready/Done und Akzeptanzkriterien zu schärfen. Je strukturierter das Refinement, desto vollständiger und stabiler sind die Fertigstellungskriterien."
+      }
+    },
+    {
+      "_id": "conn-backlogRef-002",
+      "from": "elem-backlogRefinement",
+      "to": "elem-QgfybLh0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[2]",
+        "connection type": "++",
+        "description": "Cohn, M. (2004). User Stories Applied. Ein tiefes Refinement liefert Wert- und Risikoinformationen, sodass Product Owner Priorisierungsentscheidungen faktenbasiert treffen – höhere Refinement-Qualität erhöht die Priorisierungskonsistenz."
+      }
+    },
+    {
+      "_id": "conn-backlogRef-003",
+      "from": "elem-backlogRefinement",
+      "to": "elem-wDnzlLwI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[3]",
+        "connection type": "++",
+        "description": "Pichler, R. (2016). Strategize. Während des Refinements schafft kollaborative Story-Klärung ein gemeinsames Verständnis; dadurch steigt die Klarheit der Aufgabenstellung vor Sprintstart."
+      }
+    },
+    {
+      "_id": "conn-backlogRef-004",
+      "from": "elem-backlogRefinement",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[4]",
+        "connection type": "+-",
+        "description": "Montgomery, L., Fucci, D., Bouraffa, A., Scholz, L., & Maalej, W. (2022). Empirical research on requirements quality: a systematic mapping study. Requirements Engineering, 27(2), 183-209. schlechte/unklare/inkonsistente Anforderungen sind eine zentrale Quelle nachgelagerter Qualitätsprobleme. Gut verfeinerte Anforderungen reduzieren Interpretationsfehler; folglich sinkt die Anzahl der nach Sprintstart entdeckten Bugs."
+      }
     },
     {
       "_id": "conn-fnMcfVG1",
