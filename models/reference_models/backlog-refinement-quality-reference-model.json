@@ -1,0 +1,639 @@
+{
+  "elements": [
+    {
+      "_id": "elem-BACKLOG-QUALITY-PROBLEM",
+      "attributes": {
+        "label": "Qualität des Backlog-Refinements",
+        "element type": "Problem",
+        "tags": [
+          "Backlog",
+          "Refinement",
+          "Quality"
+        ],
+        "description": "Ausgangs-Problem: Das Backlog-Refinement ist mangelhaft. Features und PBIs enthalten keine klaren Akzeptanzkriterien, es gibt keine standardisierte Definition of Ready, Anforderungen sind unklar spezifiziert und es gibt geringe Stakeholder-Beteiligung während des Refinements.",
+        "measurability": 0.7,
+        "influenceability": 0.6
+      }
+    },
+    {
+      "_id": "elem-ACCEPTANCE-CRITERIA-QUALITY",
+      "attributes": {
+        "label": "Qualität der Akzeptanzkriterien",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Refinement",
+          "Akzeptanzkriterien",
+          "Spezifikation"
+        ],
+        "description": "Zentrale Schlüsselfaktor für hochwertiges Backlog-Refinement. Akzeptanzkriterien müssen klar, vollständig, testbar und von allen Stakeholdern verstanden sein. Umfasst die Präzision der Erfolgskriterien für jeden PBI.",
+        "measurability": 0.8,
+        "influenceability": 0.9
+      }
+    },
+    {
+      "_id": "elem-DEFINITION-OF-READY",
+      "attributes": {
+        "label": "Qualität und Durchsetzung der Definition of Ready",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Refinement",
+          "Definition-of-Ready",
+          "Prozessstandard"
+        ],
+        "description": "Standardisierte Definition of Ready (DoR) mit klaren Kriterien für wann ein PBI als refinement-ready gilt. Umfasst: Akzeptanzkriterien definiert, Abhängigkeiten identifiziert, Schätzung erfolgt, Story-Size angemessen, Stakeholder-Approval eingeholt.",
+        "measurability": 0.7,
+        "influenceability": 0.95
+      }
+    },
+    {
+      "_id": "elem-STORY-SPECIFICATION-QUALITY",
+      "attributes": {
+        "label": "Qualität der User-Story-Spezifikation",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Refinement",
+          "User-Stories",
+          "Spezifikation"
+        ],
+        "description": "Klarheit und Vollständigkeit der User-Story-Spezifikation. Umfasst: Klarer Geschäftswert definiert, Anwendungsfall klar, Kontexte und Edge Cases adressiert, Anforderungen frei von Widersprüchen.",
+        "measurability": 0.75,
+        "influenceability": 0.85
+      }
+    },
+    {
+      "_id": "elem-STAKEHOLDER-PARTICIPATION-QUALITY",
+      "attributes": {
+        "label": "Qualität der Stakeholder-Teilnahme beim Refinement",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Refinement",
+          "Stakeholder-Engagement",
+          "Kommunikation"
+        ],
+        "description": "Aktive und kompetente Teilnahme von Produkteigentümern, Kunden und Domänen-Experten beim Refinement-Prozess. Umfasst: Verfügbarkeit der Stakeholder, Vorbereitung auf Refinement-Sessions, konstruktives Feedback, Klärung von Ambiguitäten.",
+        "measurability": 0.6,
+        "influenceability": 0.7
+      }
+    },
+    {
+      "_id": "elem-REQUIREMENTS-ANALYSIS-QUALITY",
+      "attributes": {
+        "label": "Qualität der Anforderungsanalyse",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Refinement",
+          "Requirements-Analysis",
+          "Business-Analysis"
+        ],
+        "description": "Gründliche und systematische Analyse von Business-Anforderungen vor dem Refinement. Umfasst: Anforderungserhebung, Anforderungsvalidierung, Szenario- und Use-Case-Analyse, Risikoidentifikation.",
+        "measurability": 0.7,
+        "influenceability": 0.8
+      }
+    },
+    {
+      "_id": "elem-BUSINESS-GOALS-CLARITY",
+      "attributes": {
+        "label": "Klarheit der Business-Ziele und des Geschäftswertes",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Refinement",
+          "Business-Goals",
+          "Value"
+        ],
+        "description": "Transparente und klare Kommunikation der übergeordneten Business-Ziele, des erwarteten Geschäftswertes und der strategischen Prioritäten. Alle Stakeholder verstehen das 'Warum' hinter den Features.",
+        "measurability": 0.65,
+        "influenceability": 0.75
+      }
+    },
+    {
+      "_id": "elem-TEAM-REQUIREMENT-UNDERSTANDING",
+      "attributes": {
+        "label": "Qualität des Team-Verständnisses von Anforderungen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Refinement",
+          "Team-Knowledge",
+          "Understanding"
+        ],
+        "description": "Tiefes und gemeinsames Verständnis der Anforderungen durch das gesamte Entwicklungsteam (Entwickler, QA, Designer). Umfasst: Anforderungen von allen verstanden, Implementierungsdetails geklärt, technische Machbarkeit bewertet.",
+        "measurability": 0.7,
+        "influenceability": 0.85
+      }
+    },
+    {
+      "_id": "elem-REFINEMENT-COMMUNICATION-QUALITY",
+      "attributes": {
+        "label": "Qualität der Kommunikation während des Refinements",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Refinement",
+          "Communication",
+          "Collaboration"
+        ],
+        "description": "Effektive und offene Kommunikation zwischen allen Beteiligten während Refinement-Sessions. Umfasst: Aktives Zuhören, konstruktives Fragenstellen, Klärung von Missverständnissen, Dokumentation von Entscheidungen.",
+        "measurability": 0.65,
+        "influenceability": 0.8
+      }
+    },
+    {
+      "_id": "elem-DEPENDENCY-IDENTIFICATION",
+      "attributes": {
+        "label": "Qualität der Abhängigkeits- und Risiko-Identifikation",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Refinement",
+          "Dependencies",
+          "Risks"
+        ],
+        "description": "Systematische Identifikation und Dokumentation von internen/externen Abhängigkeiten, technischen Risiken und Blockers während des Refinements.",
+        "measurability": 0.75,
+        "influenceability": 0.85
+      }
+    },
+    {
+      "_id": "elem-REFINEMENT-PROCESS-MATURITY",
+      "attributes": {
+        "label": "Reife und Konsistenz des Refinement-Prozesses",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Refinement",
+          "Process",
+          "Maturity"
+        ],
+        "description": "Standardisierter, regelmäßiger und konsistenter Refinement-Prozess. Umfasst: Regelmäßige Sessions, klare Agenda und Rollen, konsistente Anforderungsformat, kontinuierliche Verbesserung des Prozesses.",
+        "measurability": 0.7,
+        "influenceability": 0.9
+      }
+    },
+    {
+      "_id": "elem-PRODUCT-QUALITY",
+      "attributes": {
+        "label": "Qualität des entwickelten Produkts",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Quality",
+          "Product",
+          "Output"
+        ],
+        "description": "Qualität des gelieferten Produkts oder Features-Inkrements. Durch klare und hochwertige Anforderungen reduzieren sich Fehler, Nachbearbeitungen und Qualitätsprobleme.",
+        "measurability": 0.85,
+        "influenceability": 0.75
+      }
+    },
+    {
+      "_id": "elem-REWORK-AND-DEFECTS",
+      "attributes": {
+        "label": "Umfang von Nachbearbeitung und Defekten",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Quality",
+          "Rework",
+          "Defects"
+        ],
+        "description": "Häufigkeit und Umfang von Nachbearbeitungen, Bugfixes und nicht beabsichtigten Anforderungsänderungen aufgrund unklar spezifizierter Features. Höheres Refinement senkt diesen Aufwand.",
+        "measurability": 0.9,
+        "influenceability": 0.7
+      }
+    },
+    {
+      "_id": "elem-DEVELOPMENT-VELOCITY",
+      "attributes": {
+        "label": "Konsistenz und Vorhersagbarkeit der Entwicklungsgeschwindigkeit",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Performance",
+          "Velocity",
+          "Predictability"
+        ],
+        "description": "Stabilität und Vorhersagbarkeit der Velocity des Teams. Klare und hochwertige Anforderungen reduzieren Unklarheiten und Verzögerungen, erhöhen damit Velocity und deren Planbarkeit.",
+        "measurability": 0.8,
+        "influenceability": 0.6
+      }
+    },
+    {
+      "_id": "elem-STAKEHOLDER-SATISFACTION",
+      "attributes": {
+        "label": "Zufriedenheit der Stakeholder mit Anforderungsqualität",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Satisfaction",
+          "Stakeholder-Feedback",
+          "Requirements"
+        ],
+        "description": "Grad der Zufriedenheit von Produkteigentümern und Kunden mit der Qualität und Klarheit der gelieferten Anforderungsspezifikationen.",
+        "measurability": 0.65,
+        "influenceability": 0.85
+      }
+    },
+    {
+      "_id": "elem-SUCCESS-FACTOR-DEFECT-REDUCTION",
+      "attributes": {
+        "label": "Reduktion von defekt- und rework-bedingten Kosten",
+        "element type": "Erfolgsfaktor",
+        "tags": [
+          "Success",
+          "Cost-Reduction",
+          "Quality"
+        ],
+        "description": "Messbarer Erfolgsfaktor durch Reduktion von Zeit und Kosten für Nachbearbeitungen, Bugfixes und Anforderungsklärungen aufgrund unklarer Spezifikationen.",
+        "measurability": 0.85,
+        "influenceability": 0.7
+      }
+    },
+    {
+      "_id": "elem-VALUE-GENERATION-QUALITY",
+      "attributes": {
+        "label": "Menge der Wertgenerierung",
+        "element type": "Messbarer Erfolgsfaktor",
+        "tags": [
+          "Outcome",
+          "Value",
+          "Success",
+          "Measurement"
+        ],
+        "description": "Quantifizierbare Menge des durch das Team/Produkt generierten Werts für Stakeholder und das Geschäft. Hochwertiges Refinement führt zu besserer Feature-Qualität, schnellerer Lieferung und höherer Kundenzufriedenheit, was den Geschäftswert maximiert. Messbar durch: Customer Satisfaction Scores, Feature Adoption Rate, Time-to-Market, Business Value Points, Return on Investment.",
+        "measurability": 0.85,
+        "influenceability": 0.4
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-PROBLEM-TO-ACCEPTANCE-CRITERIA",
+      "from": "elem-BACKLOG-QUALITY-PROBLEM",
+      "to": "elem-ACCEPTANCE-CRITERIA-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[O]",
+        "connection type": "+-",
+        "description": "Mangelhaftes Refinement führt zu fehlenden Akzeptanzkriterien. Fokus auf die Verbesserung der Akzeptanzkriterien-Qualität ist ein direkter Ansatz zur Bekämpfung des Refinement-Problems. Als Mess-Indicator kann gezählt werden, wie viele PBIs keine oder unklare Akzeptanzkriterien haben."
+      }
+    },
+    {
+      "_id": "conn-PROBLEM-TO-DEFINITION-OF-READY",
+      "from": "elem-BACKLOG-QUALITY-PROBLEM",
+      "to": "elem-DEFINITION-OF-READY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[O]",
+        "connection type": "+-",
+        "description": "Mangelhaftes Backlog-Refinement ist oft Symptom fehlender oder nicht durchgesetzter Definition of Ready. Einführung und strikte Einhaltung der DoR ist ein schlüsseler Lösungsansatz zur Verbesserung der Refinement-Qualität."
+      }
+    },
+    {
+      "_id": "conn-ACCEPTANCE-CRITERIA-TO-STORY-SPEC",
+      "from": "elem-ACCEPTANCE-CRITERIA-QUALITY",
+      "to": "elem-STORY-SPECIFICATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Qualitativ hochwertige Akzeptanzkriterien sind Kernbestandteil einer hochwertigen User-Story-Spezifikation. Präzise Akzeptanzkriterien schaffen Klarheit und ermöglichen es dem Team, die Anforderungen vollständig und korrekt zu verstehen."
+      }
+    },
+    {
+      "_id": "conn-DEFINITION-OF-READY-TO-STORY-SPEC",
+      "from": "elem-DEFINITION-OF-READY",
+      "to": "elem-STORY-SPECIFICATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine standardisierte und durchgesetzte Definition of Ready stellt sicher, dass alle User Stories konsistent und hochwertig spezifiziert sind. DoR-Kriterien wie 'Spezifikation muss vollständig und verständlich sein' führen direkt zu besserer Spezifikationsqualität."
+      }
+    },
+    {
+      "_id": "conn-DEFINITION-OF-READY-TO-DEPENDENCY",
+      "from": "elem-DEFINITION-OF-READY",
+      "to": "elem-DEPENDENCY-IDENTIFICATION",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine gute Definition of Ready beinhaltet typischerweise auch das Kriterium 'Alle Abhängigkeiten sind identifiziert und dokumentiert'. Dies führt direkt zu besserer Abhängigkeits-Identifikation."
+      }
+    },
+    {
+      "_id": "conn-REQUIREMENTS-ANALYSIS-TO-STORY-SPEC",
+      "from": "elem-REQUIREMENTS-ANALYSIS-QUALITY",
+      "to": "elem-STORY-SPECIFICATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Gründliche und systematische Anforderungsanalyse ist Grundlage für hochwertige User-Story-Spezifikationen. Bessere Analyse führt zu vollständigeren, klarer strukturierten und präziseren Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-REQUIREMENTS-ANALYSIS-TO-ACCEPTANCE",
+      "from": "elem-REQUIREMENTS-ANALYSIS-QUALITY",
+      "to": "elem-ACCEPTANCE-CRITERIA-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Gründliche Anforderungsanalyse umfasst die Identifikation und Formulierung von Akzeptanzkriterien. Bessere Analyse führt zu besseren, testbaren und vollständigeren Akzeptanzkriterien."
+      }
+    },
+    {
+      "_id": "conn-BUSINESS-GOALS-TO-STORY-SPEC",
+      "from": "elem-BUSINESS-GOALS-CLARITY",
+      "to": "elem-STORY-SPECIFICATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Klare Business-Ziele helfen bei der Formulierung von präzisen, wertzentrierten User Stories. Wenn das 'Warum' klar ist, können bessere Spezifikationen verfasst werden, die den Geschäftswert adressieren."
+      }
+    },
+    {
+      "_id": "conn-STAKEHOLDER-PARTICIPATION-TO-REQUIREMENTS",
+      "from": "elem-STAKEHOLDER-PARTICIPATION-QUALITY",
+      "to": "elem-REQUIREMENTS-ANALYSIS-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Aktive Stakeholder-Teilnahme beim Refinement führt zu besserer Anforderungsanalyse, da Domain-Expertise, Geschäftswissen und Kundensicht direkt eingebracht werden."
+      }
+    },
+    {
+      "_id": "conn-STAKEHOLDER-PARTICIPATION-TO-ACCEPTANCE",
+      "from": "elem-STAKEHOLDER-PARTICIPATION-QUALITY",
+      "to": "elem-ACCEPTANCE-CRITERIA-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Stakeholder-Experten können direkt präzise und vollständige Akzeptanzkriterien definieren. Ihre Teilnahme stellt sicher, dass alle relevanten Szenarien und Edge Cases abgedeckt sind."
+      }
+    },
+    {
+      "_id": "conn-BUSINESS-GOALS-TO-STAKEHOLDER-PARTICIPATION",
+      "from": "elem-BUSINESS-GOALS-CLARITY",
+      "to": "elem-STAKEHOLDER-PARTICIPATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn Business-Ziele klar kommuniziert sind, sind Stakeholder besser vorbereitet und motiviert, aktiv beim Refinement teilzunehmen, da sie den Kontext verstehen."
+      }
+    },
+    {
+      "_id": "conn-REFINEMENT-COMMUNICATION-TO-STORY-SPEC",
+      "from": "elem-REFINEMENT-COMMUNICATION-QUALITY",
+      "to": "elem-STORY-SPECIFICATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige Kommunikation während Refinement-Sessions führt zu Klarheit, Konsens und besseren dokumentierten Spezifikationen. Missverständnisse werden sofort geklärt, statt sich in mangelhafte Anforderungen zu übersetzen."
+      }
+    },
+    {
+      "_id": "conn-REFINEMENT-COMMUNICATION-TO-TEAM-UNDERSTANDING",
+      "from": "elem-REFINEMENT-COMMUNICATION-QUALITY",
+      "to": "elem-TEAM-REQUIREMENT-UNDERSTANDING",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Effektive Kommunikation während des Refinements führt dazu, dass alle Teammitglieder die Anforderungen vollständig verstehen. Offenes Fragen, aktives Zuhören und Klärung von Ambiguitäten reduzieren Missverständnisse später in der Entwicklung."
+      }
+    },
+    {
+      "_id": "conn-TEAM-UNDERSTANDING-TO-DEPENDENCY",
+      "from": "elem-TEAM-REQUIREMENT-UNDERSTANDING",
+      "to": "elem-DEPENDENCY-IDENTIFICATION",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein tiefes Team-Verständnis von Anforderungen ermöglicht es, technische Abhängigkeiten, Integrationspunkte und versteckte Risiken besser zu erkennen und zu dokumentieren."
+      }
+    },
+    {
+      "_id": "conn-PROCESS-MATURITY-TO-DEFINITION-OF-READY",
+      "from": "elem-REFINEMENT-PROCESS-MATURITY",
+      "to": "elem-DEFINITION-OF-READY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein reifer und standardisierter Refinement-Prozess beinhaltet typischerweise die Definition und konsistente Anwendung von Definition of Ready. Prozessreife führt zu besserer DoR-Einhaltung."
+      }
+    },
+    {
+      "_id": "conn-PROCESS-MATURITY-TO-COMMUNICATION",
+      "from": "elem-REFINEMENT-PROCESS-MATURITY",
+      "to": "elem-REFINEMENT-COMMUNICATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein standardisierter Prozess mit klaren Agenden, Rollen und Richtlinien führt zu strukturierteren Meetings und besserer Kommunikation. Prozess-Reife schafft den Rahmen für hochwertige Zusammenarbeit."
+      }
+    },
+    {
+      "_id": "conn-STORY-SPEC-TO-PRODUCT-QUALITY",
+      "from": "elem-STORY-SPECIFICATION-QUALITY",
+      "to": "elem-PRODUCT-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige User-Story-Spezifikationen führen zu besseren entwickelten Produkten. Klare Anforderungen reduzieren Missverständnisse, Fehler und unerwünschte Implementierungsdetails, was zu höherer Produktqualität führt."
+      }
+    },
+    {
+      "_id": "conn-ACCEPTANCE-TO-PRODUCT-QUALITY",
+      "from": "elem-ACCEPTANCE-CRITERIA-QUALITY",
+      "to": "elem-PRODUCT-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Klare und vollständige Akzeptanzkriterien ermöglichen präzisere Implementierung und besseres Testing. Sie dienen als Definition von Fertigstellung (Definition of Done) und führen zu besserer Produktqualität, da explizite Qualitätsanforderungen vorliegen."
+      }
+    },
+    {
+      "_id": "conn-TEAM-UNDERSTANDING-TO-PRODUCT-QUALITY",
+      "from": "elem-TEAM-REQUIREMENT-UNDERSTANDING",
+      "to": "elem-PRODUCT-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Tiefes Team-Verständnis von Anforderungen führt zu besserer Implementierung. Wenn Entwickler und QA die Anforderungen vollständig verstehen, können sie besser implementieren und testen, was zu höherer Produktqualität führt."
+      }
+    },
+    {
+      "_id": "conn-PRODUCT-QUALITY-TO-REWORK",
+      "from": "elem-PRODUCT-QUALITY",
+      "to": "elem-REWORK-AND-DEFECTS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "--",
+        "description": "Höhere Produktqualität führt zu weniger Nachbearbeitung und Defekten. Fehlerhafte oder unvollständige Implementierungen erfordern weniger Bugfixes, wenn die Anforderungen hochwertig spezifiziert sind."
+      }
+    },
+    {
+      "_id": "conn-STORY-SPEC-TO-REWORK",
+      "from": "elem-STORY-SPECIFICATION-QUALITY",
+      "to": "elem-REWORK-AND-DEFECTS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[O]",
+        "connection type": "--",
+        "description": "Mangelhaft spezifizierte Stories führen zu Missverständnissen bei der Implementierung, was Nachbearbeitungen, Bugfixes und Anforderungsänderungen nach der Entwicklung verursacht. Hochwertige Spezifikation reduziert diesen Aufwand direkt."
+      }
+    },
+    {
+      "_id": "conn-ACCEPTANCE-CRITERIA-TO-REWORK",
+      "from": "elem-ACCEPTANCE-CRITERIA-QUALITY",
+      "to": "elem-REWORK-AND-DEFECTS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[O]",
+        "connection type": "--",
+        "description": "Fehlende oder unklar Akzeptanzkriterien führen zu Implementierungen, die nicht den Anforderungen entsprechen, was zu Nachbearbeitung führt. Klare Akzeptanzkriterien ermöglichen es dem Team und QA, korrekt zu implementieren und zu testen, was Nachbearbeitungen reduziert."
+      }
+    },
+    {
+      "_id": "conn-REWORK-TO-VELOCITY",
+      "from": "elem-REWORK-AND-DEFECTS",
+      "to": "elem-DEVELOPMENT-VELOCITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "--",
+        "description": "Hoher Aufwand für Nachbearbeitung und Bugfixes reduziert die verfügbare Kapazität für neue Features, was zu niedrigerer Velocity und schlechterer Vorhersagbarkeit führt. Weniger Rework bedeutet höhere und konsistentere Velocity."
+      }
+    },
+    {
+      "_id": "conn-PRODUCT-QUALITY-TO-VELOCITY",
+      "from": "elem-PRODUCT-QUALITY",
+      "to": "elem-DEVELOPMENT-VELOCITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Produktqualität führt zu weniger technischen Schulden, einfacheren Code-Änderungen in der Zukunft und besserem Verständnis für zukünftige Features. Dies erhöht die Velocity und Vorhersagbarkeit über längere Zeit."
+      }
+    },
+    {
+      "_id": "conn-TEAM-UNDERSTANDING-TO-VELOCITY",
+      "from": "elem-TEAM-REQUIREMENT-UNDERSTANDING",
+      "to": "elem-DEVELOPMENT-VELOCITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Wenn das Team Anforderungen klar versteht, können Entwickler schneller und präziser implementieren, was zu höherer Velocity führt. Weniger Klarungen während der Entwicklung bedeuten weniger Kontextwechsel und höhere Produktivität."
+      }
+    },
+    {
+      "_id": "conn-STAKEHOLDER-SATISFACTION-TO-VALUE",
+      "from": "elem-STAKEHOLDER-SATISFACTION",
+      "to": "elem-VALUE-GENERATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zufriedene Stakeholder mit hochwertigen Anforderungsspezifikationen sind motivierter, das Produkt zu nutzen und zu fördern. Dies führt zu besserer Adoption, höherem Engagement und letztendlich zu mehr generiertem Wert (gemessen durch Adoption-Raten, NPS, Kundenzufriedenheit)."
+      }
+    },
+    {
+      "_id": "conn-PRODUCT-QUALITY-TO-STAKEHOLDER-SATISFACTION",
+      "from": "elem-PRODUCT-QUALITY",
+      "to": "elem-STAKEHOLDER-SATISFACTION",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Höhere Produktqualität führt zu zufriedeneren Stakeholdern und Kunden. Features, die den Anforderungen entsprechen und fehlerfrei sind, schaffen Vertrauen und Zufriedenheit."
+      }
+    },
+    {
+      "_id": "conn-VELOCITY-TO-VALUE",
+      "from": "elem-DEVELOPMENT-VELOCITY",
+      "to": "elem-VALUE-GENERATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Höhere und konsistentere Velocity bedeutet schnellere Lieferung von Features und Value zu den Stakeholdern. Schnellere Time-to-Market, häufigere Releases und schnellere Reaktion auf Markchancen führen zu höherem generierten Wert."
+      }
+    },
+    {
+      "_id": "conn-REWORK-REDUCTION-TO-VALUE",
+      "from": "elem-SUCCESS-FACTOR-DEFECT-REDUCTION",
+      "to": "elem-VALUE-GENERATION-QUALITY",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Reduktion von Nachbearbeitungs- und Defekt-Kosten führt zu höherem generierten Wert. Eingesparte Ressourcen können in neue Features und Innovationen investiert werden. Bessere Kosteneffizienz bei der Entwicklung erhöht den ROI und den generierten Wert."
+      }
+    }
+  ]
+}
