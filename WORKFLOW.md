@@ -118,7 +118,9 @@ Impact Models represent the **desired state** after introducing interventions (S
 **Trigger**: New factor, refined description, new causal relationship for Main Model
 
 **Process**:
-1. **Propose Change**: Create feature branch or direct commit to main
+1. **Propose Change**: Draft the change (e.g., new factor, refined description, new causal relationship)
+   - Work locally on the model JSON file
+   - Formulate the proposed addition/modification
 2. **Agentic Review** (Technical + Methodological Gate-Keeper):
    - **Technical validation**: JSON schema validation via `lint_blueprint.py`
    - **Structural checks**: Element/connection ID uniqueness, referential integrity
@@ -137,13 +139,19 @@ Impact Models represent the **desired state** after introducing interventions (S
    - Review agentic recommendations (technical + semantic)
    - Assess scientific plausibility
    - Check evidence quality
-   - Decision: Approve, Reject, or Request Changes
-4. **Peer Review** (Final Gate):
-   - Independent validation by domain expert
+   - Decision: Approve for PR, Reject, or Request Changes
+4. **Create Pull Request**: After human approval, create feature branch and PR
+   - Create feature branch: `git checkout -b feature/{description}`
+   - Commit changes with descriptive message
+   - Push and create PR: `git push -u origin feature/{description} && gh pr create`
+5. **Peer Review** (Final Gate):
+   - Independent validation by domain expert via PR review
    - Verify literature references
    - Check model consistency
-   - Final Decision: Merge or Reject
-5. **Commit & Merge**: Changes integrated into Main Model
+   - Final Decision: Approve for merge or Request Changes
+6. **Merge**: Changes integrated into Main Model
+   - Merge PR to main branch
+   - Delete feature branch
 
 **Quality Gates**:
 - ✅ JSON schema validation passes
