@@ -617,6 +617,7 @@
           "Planning",
           "Struktur und Zielorientierung"
         ],
+        "description": "Inhaltliche Präzision der Kunden-/Nutzerprobleme, die ein Entwicklungsvorhaben adressiert. Bewertet wird, wie klar Nutzenversprechen, Stakeholder, fachliche Randbedingungen und Erfolgskriterien beschrieben sind, bevor Stories oder technische Lösungen geschnitten werden. Messbar z.B. über Opportunity-Canvas-Reife, Anteil der Initiativen mit abgestimmtem Problem Statement oder Discovery-Review-Bewertungen. Fokus auf dem \"Warum\" und \"Was\" des Problems – unabhängig davon, wie das Backlog später verfeinert wird.",
         "closeness": 0.2849999999999999,
         "metrics::last": 0.971766010970058,
         "degree": 4,
@@ -642,7 +643,7 @@
           "Planning",
           "Backlog Refinement"
         ],
-        "description": "Reifegrad der Backlog-Pflege (Definition of Ready, Akzeptanzkriterien, Story-Splitting, Moderation und Teilnahme). Messbar über den Anteil der PBIs, die beim ersten Durchlauf alle Refinement-Checks bestehen, sowie über Nacharbeit nach Sprintstart. Wird aktiv durch Product Owner, Team und Scrum Master beeinflusst (Workshops, Checklisten, Backlog Health KPIs).",
+        "description": "Prozessqualität der Refinement-Sessions: Moderation, Teilnahme, Story-Splitting, Pflege von Definition-of-Ready/Done und Akzeptanzkriterien. Bewertet wird, wie effektiv das Team während der Events Informationen synchronisiert und Items sprint-fähig macht. Messbar z.B. über Backlog-Health-Indikatoren (Nacharbeitsaufwand nach Sprintstart, DoR-Erfüllungsquote, Zeit bis zur Klarheit). Fokus liegt auf dem \"Wie\" der Operationalisierung bestehender Anforderungen.",
         "closeness": 0,
         "metrics::last": 0,
         "degree": 0,

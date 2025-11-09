@@ -1,0 +1,117 @@
+{
+  "elements": [
+    {
+      "_id": "elem-backlogRefinement",
+      "attributes": {
+        "label": "Qualität des Backlog-Refinements",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Planning",
+          "Backlog Refinement"
+        ],
+        "description": "Schlüsselfaktor: Prozessqualität der Refinement-Sessions: Moderation, Teilnahme, Story-Splitting, Pflege von Definition-of-Ready/Done und Akzeptanzkriterien. Bewertet wird, wie effektiv das Team während der Events Informationen synchronisiert und Items sprint-fähig macht. Messbar z.B. über Backlog-Health-Indikatoren (Nacharbeitsaufwand nach Sprintstart, DoR-Erfüllungsquote, Zeit bis zur Klarheit). Fokus liegt auf dem \"Wie\" der Operationalisierung bestehender Anforderungen.",
+        "measurability": 0.7,
+        "influenceability": 0.8
+      }
+    },
+    {
+      "_id": "elem-uDiTVbXE",
+      "attributes": {
+        "label": "Klarheit über die Fertigstellungskriterien",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Structure",
+          "Planning"
+        ],
+        "description": "Qualität von Definition-of-Ready/Done sowie Akzeptanzkriterien. Messbar über die Quote an PBIs, die vollständige Kriterien dokumentiert haben.",
+        "measurability": 0.8,
+        "influenceability": 0.7
+      }
+    },
+    {
+      "_id": "elem-wDnzlLwI",
+      "attributes": {
+        "label": "Klarheit der Aufgabenstellung",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation"
+        ],
+        "description": "Wie eindeutig Entwickler*innen verstehen, was geliefert werden soll und welche Akzeptanzbedingungen gelten.",
+        "measurability": 0.6,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-0PyumJeh",
+      "attributes": {
+        "label": "Fehlerhäufigkeit",
+        "element type": "Messbarer Erfolgsfaktor",
+        "tags": [
+          "Qualität"
+        ],
+        "description": "Dichte von Defekten/Bugs je Sprint als Qualitätsindikator. Messbar über die Anzahl der Fehler/Bugs pro Sprint oder Release.",
+        "measurability": 1.0,
+        "influenceability": 0.4
+      }
+    },
+    {
+      "_id": "elem-rf8OZmMz",
+      "attributes": {
+        "label": "Qualität des Endprodukts",
+        "element type": "Erfolgsfaktor",
+        "tags": [
+          "Produktqualität"
+        ],
+        "description": "Zuverlässigkeit und Nutzenfit des ausgelieferten Produkts. Langfristiges Qualitätsziel, das durch reduzierte Fehlerhäufigkeit und klare Anforderungen erreicht wird.",
+        "measurability": 0.5,
+        "influenceability": 0.2
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-quality-001",
+      "from": "elem-backlogRefinement",
+      "to": "elem-uDiTVbXE",
+      "direction": "directed",
+      "attributes": {
+        "label": "[1]",
+        "connection type": "++",
+        "description": "Schwaber, K., & Sutherland, J. (2020). Der Scrum Guide. Strukturierte Refinement-Sessions bieten den Rahmen, um Definition-of-Ready, Definition-of-Done und Akzeptanzkriterien systematisch zu pflegen und kontinuierlich zu verbessern. Je höher die Refinement-Qualität, desto vollständiger und stabiler sind die Fertigstellungskriterien."
+      }
+    },
+    {
+      "_id": "conn-quality-002",
+      "from": "elem-uDiTVbXE",
+      "to": "elem-wDnzlLwI",
+      "direction": "directed",
+      "attributes": {
+        "label": "[2]",
+        "connection type": "++",
+        "description": "Derby, E., & Larsen, D. (2006). Agile Retrospectives: Making Good Teams Great. Explizite Akzeptanzkriterien und Definition-of-Ready/Done schaffen vor Sprintstart Klarheit über Aufgabeninhalte und reduzieren Interpretationsspielraum für Entwickler*innen."
+      }
+    },
+    {
+      "_id": "conn-quality-003",
+      "from": "elem-wDnzlLwI",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "attributes": {
+        "label": "[3]",
+        "connection type": "+-",
+        "description": "Montgomery, L., Fucci, D., Bouraffa, A., Scholz, L., & Maalej, W. (2022). Empirical research on requirements quality: a systematic mapping study. Requirements Engineering, 27(2), 183-209. Eindeutige Aufgabenbeschreibungen mit klaren Akzeptanzkriterien reduzieren Implementierungsfehler und Missverständnisse, wodurch die Fehlerhäufigkeit sinkt."
+      }
+    },
+    {
+      "_id": "conn-quality-004",
+      "from": "elem-0PyumJeh",
+      "to": "elem-rf8OZmMz",
+      "direction": "directed",
+      "attributes": {
+        "label": "[4]",
+        "connection type": "--",
+        "description": "Jones, C. (2008). Applied Software Measurement: Global Analysis of Productivity and Quality. Niedrige Fehlerhäufigkeit verbessert unmittelbar die wahrgenommene Produktqualität, da weniger Defekte zu höherer Zuverlässigkeit und Nutzerzufriedenheit führen."
+      }
+    }
+  ]
+}
