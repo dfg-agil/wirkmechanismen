@@ -119,7 +119,6 @@ Impact Models represent the **desired state** after introducing interventions (S
 
 **Process**:
 1. **Propose Change**: Draft the change (e.g., new factor, refined description, new causal relationship)
-   - Work locally on the model JSON file
    - Formulate the proposed addition/modification
 2. **Agentic Review** (Technical + Methodological Gate-Keeper):
    - **Technical validation**: JSON schema validation via `lint_blueprint.py`
