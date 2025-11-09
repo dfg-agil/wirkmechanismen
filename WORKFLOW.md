@@ -74,7 +74,7 @@ Impact Models represent the **desired state** after introducing interventions (S
          │  Problem-Specific     │
          └───────┬───────────────┘
                  │
-                 │ Human Review → Peer Review → Validation
+                 │ Automated → Agentic → Human → Peer Review
                  ↓
          ┌───────────────────────┐
          │  VALIDATED REFERENCE  │
@@ -89,7 +89,7 @@ Impact Models represent the **desired state** after introducing interventions (S
          │  With Interventions   │
          └───────┬───────────────┘
                  │
-                 │ Human Review → Peer Review → Validation
+                 │ Automated → Agentic → Human → Peer Review
                  ↓
          ┌───────────────────────┐
          │  VALIDATED IMPACT     │
@@ -119,23 +119,29 @@ Impact Models represent the **desired state** after introducing interventions (S
 
 **Process**:
 1. **Propose Change**: Create feature branch or direct commit to main
-2. **Agentic Review** (First Gate-Keeper):
-   - Automated validation via `lint_blueprint.py`
+2. **Automated Review** (Technical Gate-Keeper):
+   - JSON schema validation via `lint_blueprint.py`
+   - Structural integrity checks
+   - Element/connection ID uniqueness
+3. **Agentic Review** (Methodological Gate-Keeper - Currently Manual):
+   - AI/LLM-based semantic review (e.g., asking Claude to review factors)
    - Check compliance with [GATEKEEPING_CRITERIA.md](GATEKEEPING_CRITERIA.md)
    - DRM methodology compliance (attribute-of-element formulation)
    - Source attribution requirements
+   - Causal plausibility assessment
    - Generate recommendation report
-3. **Human Review** (First Decision):
-   - Review agentic recommendation
+   - **Status**: Currently on-demand/manual; systematization planned
+4. **Human Review** (First Decision):
+   - Review automated and agentic recommendations
    - Assess scientific plausibility
    - Check evidence quality
    - Decision: Approve, Reject, or Request Changes
-4. **Peer Review** (Final Gate):
+5. **Peer Review** (Final Gate):
    - Independent validation by domain expert
    - Verify literature references
    - Check model consistency
    - Final Decision: Merge or Reject
-5. **Commit & Merge**: Changes integrated into Main Model
+6. **Commit & Merge**: Changes integrated into Main Model
 
 **Quality Gates**:
 - ✅ JSON schema validation passes
@@ -463,26 +469,48 @@ Main Model Update: Consolidate validated knowledge
 
 ## Review Process Details
 
-### 1. Agentic Review (Automated Gate-Keeper)
+### 1. Automated Review (Technical Gate-Keeper)
 
-**Purpose**: First-pass quality check and consistency validation
+**Purpose**: Technical validation of model structure and syntax
 
 **Tools**:
 - `scripts/lint_blueprint.py` - JSON schema validation
-- AI-assisted checks for:
-  - DRM methodology compliance
-  - Factor formulation quality
-  - Source attribution completeness
-  - Topological integrity
+
+**Checks**:
+- JSON syntax correctness
+- Schema compliance
+- Element/connection ID uniqueness
+- Referential integrity (from/to IDs exist)
+
+**Output**: Pass/Fail with error messages
+
+**Decision**: Automatically block commit/merge if validation fails
+
+### 2. Agentic Review (Methodological Gate-Keeper)
+
+**Purpose**: Semantic and methodological quality assessment using AI/LLM
+
+**Current Implementation**: Manual/on-demand (e.g., asking Claude to review factors or models)
+
+**AI-assisted checks**:
+- DRM methodology compliance (attribute-of-element formulation)
+- Factor formulation quality and precision
+- Source attribution completeness
+- Topological integrity (causal logic)
+- Relevance to domain context
+- Causal plausibility assessment
 
 **Output**: Recommendation report with:
 - ✅ Pass/❌ Fail for each criterion
 - List of issues to address
 - Suggestions for improvement
+- Contextual explanations
 
-**Decision**: Automatically reject if critical criteria violated, otherwise forward to Human Review
+**Decision**: Recommend approval, changes, or rejection (advisory to Human Review)
 
-### 2. Human Review
+**Future Enhancement**: Systematized/automated triggering of agentic review in workflow (e.g., pre-commit hook, GitHub Action)
+
+### 3. Human Review
 
 **Purpose**: Expert assessment of scientific validity and practical utility
 
@@ -497,7 +525,7 @@ Main Model Update: Consolidate validated knowledge
 
 **Documentation**: Code review comments on GitHub PR or commit
 
-### 3. Peer Review
+### 4. Peer Review
 
 **Purpose**: Independent validation and final quality gate
 
@@ -664,17 +692,21 @@ git config core.hooksPath githooks
 ```
 This runs linter automatically before each commit.
 
-### Agentic Review Agent (Future)
-**Purpose**: Automated first-pass review against criteria
+### Agentic Review Systematization (Future Enhancement)
+**Purpose**: Automated triggering and orchestration of AI/LLM-based methodological review
 
-**Capabilities**:
+**Current State**: Agentic review is performed manually/on-demand (e.g., asking Claude to review factors)
+
+**Planned Capabilities**:
+- Automated invocation of AI/LLM review (pre-commit hook, GitHub Action)
 - Check DRM formulation compliance
 - Verify source attribution completeness
 - Validate topology (start/end nodes)
 - Calculate quality metrics
-- Generate review report
+- Generate structured review report
+- Integration with pull request workflow
 
-**Status**: To be implemented
+**Status**: Manual/on-demand currently; systematization to be implemented
 
 ---
 
@@ -828,9 +860,13 @@ Extend the Main Model when:
 - You're refining definitions or adding universal attributes
 - You're consolidating knowledge from multiple Reference/Impact Models
 
-### Q: Can I skip the Agentic Review?
+### Q: Can I skip the Automated Review?
 
-**A**: No. Agentic Review (including `lint_blueprint.py`) is mandatory as the first quality gate. It catches structural and syntactic errors that would waste human reviewer time.
+**A**: No. Automated Review via `lint_blueprint.py` is mandatory as the first technical quality gate. It catches structural and syntactic errors that would block the workflow.
+
+### Q: Is Agentic Review required?
+
+**A**: Highly recommended but currently manual. Agentic review (AI/LLM-based semantic and methodological review) provides valuable feedback on DRM compliance, factor formulation quality, and causal plausibility. Currently, this is done by asking Claude to review factors or models on-demand. Future enhancement will systematize this as an automated workflow step.
 
 ### Q: What if my Impact Model assumption `[A]` cannot be validated?
 
@@ -865,10 +901,11 @@ Use `[E]` for expert opinions, `[O]` for empirical evidence you've collected.
 ## Summary
 
 The Wirkmechanismen workflow ensures:
-- **Scientific Rigor**: Through multi-stage review and validation
+- **Scientific Rigor**: Through four-stage review (Automated → Agentic → Human → Peer) and incremental validation
 - **Methodological Consistency**: Via DRM compliance and quality gates
 - **Systematic Evolution**: Main Model ← Reference Models ← Impact Models
 - **Evidence-Based**: All claims traced to literature, experience, or investigation
+- **AI-Enhanced Quality**: Agentic review for semantic and methodological assessment (currently manual, systematization planned)
 - **Collaborative**: Clear roles for contributors, reviewers, and maintainers
 - **Transparent**: Version-controlled with comprehensive documentation
 
