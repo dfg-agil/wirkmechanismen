@@ -17,12 +17,23 @@ This project focuses on creating structured models of influencing factors in des
 
 ### Design Research Methodology (DRM)
 
-This project implements the DRM framework developed by Blessing & Chakrabarti for systematic design research:
+This project implements the DRM framework developed by Blessing & Chakrabarti for systematic design research.
 
+**Reference**: Blessing, L. T. M., & Chakrabarti, A. (2009). *DRM, a Design Research Methodology*. Springer. https://doi.org/10.1007/978-1-84882-587-1
+
+**DRM Research Stages**:
+1. **Research Clarification (RC)**: Define research goals, create initial Reference and Impact Models
+2. **Descriptive Study I (DS-I)**: Understand existing situation, validate Reference Model empirically
+3. **Prescriptive Study (PS)**: Develop support/intervention, design detailed Impact Model
+4. **Descriptive Study II (DS-II)**: Evaluate impact of support, validate Impact Model through testing
+
+**Our Implementation**:
 1. **Factor Identification**: Systematic discovery of influencing factors from literature, experience, and investigation
 2. **Network Construction**: Building causal relationships with explicit source attribution
-3. **Model Validation**: Ensuring semantic precision and evidence traceability
+3. **Model Validation**: Ensuring semantic precision and evidence traceability through DRM stages
 4. **Impact Assessment**: Comparing reference and impact models to evaluate interventions
+
+See [WORKFLOW.md](WORKFLOW.md) for detailed mapping of our workflow phases to DRM research stages.
 
 ### Factor Network Modeling Principles
 
