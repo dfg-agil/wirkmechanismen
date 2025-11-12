@@ -59,56 +59,24 @@ Impact Models represent the **desired state** after introducing interventions (S
 
 ## Complete Workflow
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                        MAIN MODEL                               │
-│                   (Source of Truth)                             │
-│         Continuously refined and validated                      │
-└────────────────────┬────────────────────────────────────────────┘
-                     │
-                     │ Agentic Scaffolding
-                     ↓
-         ┌───────────────────────┐
-         │  REFERENCE MODEL      │
-         │  (Current State)      │
-         │  Problem-Specific     │
-         └───────┬───────────────┘
-                 │
-                 │ Agentic → Human → Peer Review
-                 ↓
-         ┌───────────────────────┐
-         │  VALIDATED REFERENCE  │
-         │  MODEL                │
-         └───────┬───────────────┘
-                 │
-                 │ Agentic Scaffolding (add Supports)
-                 ↓
-         ┌───────────────────────┐
-         │  IMPACT MODEL         │
-         │  (Future State)       │
-         │  With Interventions   │
-         └───────┬───────────────┘
-                 │
-                 │ Agentic → Human → Peer Review
-                 ↓
-         ┌───────────────────────┐
-         │  VALIDATED IMPACT     │
-         │  MODEL                │
-         └───────┬───────────────┘
-                 │
-                 │ Incremental Validation (Pilots, Studies)
-                 ↓
-         ┌───────────────────────┐
-         │  CONFIRMED            │
-         │  INTERVENTIONS        │
-         │  [A] → [O] → [1-9]+   │
-         └───────┬───────────────┘
-                 │
-                 │ Feed validated findings back
-                 ↓
-         ┌───────────────────────┐
-         │  MAIN MODEL UPDATE    │
-         └───────────────────────┘
+### Workflow Overview
+
+```mermaid
+graph TD
+    A[MAIN MODEL<br/>Source of Truth<br/>Continuously refined and validated]
+    B[REFERENCE MODEL<br/>Current State<br/>Problem-Specific]
+    C[VALIDATED REFERENCE<br/>MODEL]
+    D[IMPACT MODEL<br/>Future State<br/>With Interventions]
+    E[VALIDATED IMPACT<br/>MODEL]
+    F[CONFIRMED<br/>INTERVENTIONS]
+    G[MAIN MODEL UPDATE]
+
+    A -->|Agentic Scaffolding| B
+    B -->|Agentic → Human → Peer Review| C
+    C -->|Agentic Scaffolding<br/>add Supports| D
+    D -->|Agentic → Human → Peer Review| E
+    E -->|Incremental Validation<br/>Pilots, Studies| F
+    F -->|Feed validated findings back| G
 ```
 
 ## Detailed Workflow Steps

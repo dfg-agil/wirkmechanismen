@@ -1,227 +1,153 @@
-# Referenzmodell Generierungskriterien
+# Reference Model Generation Criteria
 
-## Übersicht
+## Overview
 
-Diese Datei definiert spezifische Kriterien für die Generierung von Referenzmodellen im Wirkmechanismen-Projekt. Sie ergänzt die allgemeinen Gatekeeping-Kriterien um konkrete Strukturvorgaben für konsistente und fokussierte Modelle.
+This document defines specific criteria for generating Reference Models in the Wirkmechanismen project. Reference Models complement the general gatekeeping criteria with concrete structural requirements for consistent and focused models.
 
-## Strukturelle Anforderungen
+## Structural Requirements
 
-### 1. Element-Taxonomie (MANDATORY)
+### 1. Element Taxonomy (MANDATORY)
 
-#### 1.1 Schlüsselfaktor-Beschränkung
-- **MANDATORY**: Genau **EIN (1) Schlüsselfaktor** pro Referenzmodell
-- **DEFINITION**: Der zentrale Faktor, der das Hauptproblem repräsentiert und als primäres Interventionsziel dient
-- **KLASSIFIKATION**: `"element type": "Schlüsselfaktor"`
-- **REJECT**: Modelle mit null oder mehreren Schlüsselfaktoren
+#### 1.1 Key Factor Constraint
+- **MANDATORY**: Exactly ONE (1) Key Factor per Reference Model
+- **DEFINITION**: The central factor representing the main problem and serving as primary intervention target
+- **CLASSIFICATION**: `"element type": "Schlüsselfaktor"` (Key Factor)
+- **REJECT**: Models with zero or multiple Key Factors
 
-#### 1.2 Erfolgsfaktor-Struktur
-- **MANDATORY**: Genau **EIN (1) Erfolgsfaktor** pro Referenzmodell
-- **DEFINITION**: Langfristiges, übergeordnetes Ziel (z.B. Produktqualität, Kundenzufriedenheit)
-- **KLASSIFIKATION**: `"element type": "Erfolgsfaktor"`
-- **MANDATORY**: Falls Erfolgsfaktor nicht direkt messbar (measurability < 0.8), MUSS ein messbarer Erfolgsfaktor als Proxy hinzugefügt werden
-- **KLASSIFIKATION Proxy**: `"element type": "Messbarer Erfolgsfaktor"`
-- **REJECT**: Modelle ohne Erfolgsfaktor oder mit mehreren Erfolgsfaktoren
+#### 1.2 Success Factor Structure
+- **MANDATORY**: Exactly ONE (1) Success Factor per Reference Model
+- **DEFINITION**: Long-term, overarching goal (e.g., product quality, customer satisfaction)
+- **CLASSIFICATION**: `"element type": "Erfolgsfaktor"` (Success Factor)
+- **MANDATORY**: If Success Factor is not directly measurable (measurability < 0.8), MUST add a Measurable Success Factor as proxy
+- **CLASSIFICATION Proxy**: `"element type": "Messbarer Erfolgsfaktor"` (Measurable Success Factor)
+- **REJECT**: Models without Success Factor or with multiple Success Factors
 
-#### 1.3 Einflussfaktoren-Klassifikation  
-- **MANDATORY**: Alle anderen Faktoren MÜSSEN als Einflussfaktoren klassifiziert werden
-- **KLASSIFIKATION**: `"element type": "Einflussfaktoren"`
-- **EMPFEHLUNG**: 3-7 Einflussfaktoren für ausgewogene Modellkomplexität
-- **REVIEW REQUIRED**: Modelle mit >10 Einflussfaktoren (Komplexitätsprüfung)
+#### 1.3 Influencing Factors Classification
+- **MANDATORY**: All other factors MUST be classified as Influencing Factors
+- **CLASSIFICATION**: `"element type": "Einflussfaktoren"` (Influencing Factors)
+- **RECOMMENDATION**: 3-7 Influencing Factors for balanced model complexity
+- **REVIEW REQUIRED**: Models with >10 Influencing Factors (complexity check)
 
-### 2. Kausale Kettenstruktur (MANDATORY)
+### 2. Causal Chain Structure (MANDATORY)
 
-#### 2.1 Kausale Netzwerk-Topologie
-- **MANDATORY**: Schlüsselfaktor ist der **einzige Startknoten** (keine eingehenden Verbindungen)
-- **MANDATORY**: Erfolgsfaktor ist der **einzige Endknoten** (keine ausgehenden Verbindungen)
-- **MANDATORY**: Alle Einflussfaktoren MÜSSEN sich kausal zwischen Schlüsselfaktor und Erfolgsfaktor befinden
-- **STRUKTUR**: `Schlüsselfaktor → [Einflussfaktoren] → [Messbarer Erfolgsfaktor] → Erfolgsfaktor`
+#### 2.1 Causal Network Topology
+- **MANDATORY**: Key Factor is the **only start node** (no incoming connections)
+- **MANDATORY**: Success Factor is the **only end node** (no outgoing connections)
+- **MANDATORY**: All Influencing Factors MUST be causally positioned between Key Factor and Success Factor
+- **STRUCTURE**: `Key Factor → [Influencing Factors] → [Measurable Success Factor] → Success Factor`
 
-#### 2.2 Pfad-Anforderungen
-- **MANDATORY**: Mindestens ein direkter Pfad vom Schlüsselfaktor zum Erfolgsfaktor
-- **MANDATORY**: Maximale Pfadlänge: 4 Verbindungen zwischen Schlüsselfaktor und Erfolgsfaktor
-- **MANDATORY**: Alle Einflussfaktoren MÜSSEN auf diesem Hauptpfad liegen oder darauf einwirken
-- **REJECT**: Einflussfaktoren ohne Verbindung zum Hauptpfad
-- **REJECT**: Einflussfaktoren mit eingehenden Verbindungen von außerhalb des Modells
+#### 2.2 Path Requirements
+- **MANDATORY**: At least one direct path from Key Factor to Success Factor
+- **MANDATORY**: Maximum path length: 4 connections between Key Factor and Success Factor
+- **MANDATORY**: All Influencing Factors MUST lie on or influence this main path
+- **REJECT**: Influencing Factors without connection to main path
+- **REJECT**: Influencing Factors with incoming connections from outside the model
 
-### 3. Quellenattribution (MANDATORY)
+### 3. Source Attribution (MANDATORY)
 
-#### 3.1 Literaturbasierte Verbindungen (Priorität 1)
-- **TARGET**: >50% aller Verbindungen mit Literaturquellen `[1]`, `[2]`, etc.
-- **MANDATORY**: Literaturquellen MÜSSEN in `connection.description` dokumentiert werden
-- **FORMAT**: Vollständige akademische Zitation (APA-Style)
-- **REJECT**: Literaturverweise ohne entsprechende Dokumentation
+#### 3.1 Literature-Based Connections (Priority 1)
+- **TARGET**: >50% of all connections with literature sources `[1]`, `[2]`, etc.
+- **MANDATORY**: Literature sources MUST be documented in `connection.description`
+- **FORMAT**: Complete academic citation (APA style)
+- **REJECT**: Literature references without corresponding documentation
 
-#### 3.2 Empirische Evidenz (Priorität 2)
-- **ERLAUBT**: Stakeholder-Erfahrung `[E]`, `[A]` Annahme, oder eigene Untersuchungen `[O]`
-- **MANDATORY**: Beschreibung der Evidenzbasis in `connection.description`
-- **LIMIT**: Max. 50% der Verbindungen ohne Literaturgrundlage
+#### 3.2 Empirical Evidence (Priority 2)
+- **ALLOWED**: Stakeholder experience `[E]`, assumption `[A]`, or own investigations `[O]`
+- **MANDATORY**: Description of evidence basis in `connection.description`
+- **LIMIT**: Max. 50% of connections without literature foundation
 
-#### 3.3 Unzulässige Quellen
-- **REJECT**: Verbindungen mit `[?]` (unbekannte Quelle)
-- **REJECT**: Verbindungen ohne Quellenattribution
+#### 3.3 Inadmissible Sources
+- **REJECT**: Connections with `[?]` (unknown source)
+- **REJECT**: Connections without source attribution
 
-### 4. Messbarkeits- und Beeinflussbarkeits-Kriterien
+### 4. Measurability and Influenceability Criteria
 
-#### 4.1 Messbarkeit (measurability)
-- **MANDATORY**: Schlüsselfaktor MUSS messbar sein (measurability ≥ 0.6)
-- **MANDATORY**: Messbarer Erfolgsfaktor MUSS hoch messbar sein (measurability ≥ 0.8)
-- **MANDATORY**: Erfolgsfaktor kann niedrigere Messbarkeit haben (measurability ≥ 0.3)
-- **DOKUMENTATION**: Messmethoden MÜSSEN in `description` spezifiziert werden
+#### 4.1 Measurability
+- **MANDATORY**: Key Factor MUST be measurable (measurability ≥ 0.6)
+- **MANDATORY**: Measurable Success Factor MUST be highly measurable (measurability ≥ 0.8)
+- **MANDATORY**: Success Factor can have lower measurability (measurability ≥ 0.3)
+- **DOCUMENTATION**: Measurement methods MUST be specified in `description`
 
-#### 4.2 Beeinflussbarkeit (influenceability)
-- **MANDATORY**: Schlüsselfaktor MUSS beeinflussbar sein (influenceability ≥ 0.7)
-- **ERWARTUNG**: Erfolgsfaktoren haben typisch niedrige Beeinflussbarkeit (≤ 0.3)
-- **LOGIK-CHECK**: Beeinflussbarkeit MUSS mit Faktor-Rolle konsistent sein
+#### 4.2 Influenceability
+- **MANDATORY**: Key Factor MUST be influenceable (influenceability ≥ 0.7)
+- **EXPECTATION**: Success Factors typically have low influenceability (≤ 0.3)
+- **LOGIC CHECK**: Influenceability MUST be consistent with factor role
 
-### 5. Verbindungssemantik
+### 5. Connection Semantics
 
-#### 5.1 Richtung und Polarität
-- **MANDATORY**: Alle Verbindungen MÜSSEN gerichtet sein (`"direction": "directed"`)
-- **MANDATORY**: Verbindungstyp MUSS DRM-Polaritäten verwenden (`++`, `+-`, `-+`, `--`)
-- **EMPFEHLUNG**: Positive Hauptkette vom Schlüsselfaktor zum Erfolgsfaktor
+#### 5.1 Direction and Polarity
+- **MANDATORY**: All connections MUST be directed (`"direction": "directed"`)
+- **MANDATORY**: Connection type MUST use DRM polarities (`++`, `+-`, `-+`, `--`)
+- **RECOMMENDATION**: Positive main chain from Key Factor to Success Factor
 
-#### 5.2 Verbindungsbeschreibungen
-- **MANDATORY**: Jede Verbindung MUSS kausalen Mechanismus in `description` erklären
-- **FORMAT**: "Faktor X führt zu Faktor Y durch Mechanismus Z"
-- **LÄNGE**: 20-150 Wörter pro Beschreibung
+#### 5.2 Connection Descriptions
+- **MANDATORY**: Each connection MUST explain causal mechanism in `description`
+- **FORMAT**: "Factor X leads to Factor Y through Mechanism Z"
+- **LENGTH**: 20-150 words per description
 
-### 6. Validierungsschritte
+## Validation Steps
 
-#### 6.1 Automatische Validierung
-1. JSON-Schema-Compliance (`lint_blueprint.py`)
-2. Element-/Verbindungs-ID Eindeutigkeit
-3. Referenz-Integrität (from/to verweisen auf existierende IDs)
-4. Faktor-Taxonomie-Compliance
-5. **Topologie-Validierung**: Schlüsselfaktor als Startknoten, Erfolgsfaktor als Endknoten
+### Automatic Validation
+1. JSON schema compliance (`lint_blueprint.py`)
+2. Element/connection ID uniqueness
+3. Reference integrity (from/to reference existing IDs)
+4. Factor taxonomy compliance
+5. **Topology Validation**: Key Factor as start node, Success Factor as end node
 
-#### 6.2 Inhaltliche Validierung  
-1. **Netzwerk-Topologie**: Schlüsselfaktor ohne eingehende, Erfolgsfaktor ohne ausgehende Verbindungen
-2. **Pfad-Vollständigkeit**: Mindestens ein Pfad Schlüsselfaktor → Erfolgsfaktor
-3. **Einflussfaktoren-Integration**: Alle Einflussfaktoren zwischen Start- und Endknoten
-4. Quellenattribution-Quote berechnen
-5. Messbarkeits-/Beeinflussbarkeits-Konsistenz validieren
-6. Faktor-Formulierung nach DRM-Prinzipien prüfen
+### Content Validation
+1. **Network Topology**: Key Factor without incoming, Success Factor without outgoing connections
+2. **Path Completeness**: At least one path Key Factor → Success Factor
+3. **Influencing Factors Integration**: All Influencing Factors between start and end nodes
+4. Calculate source attribution ratio
+5. Validate measurability/influenceability consistency
+6. Check factor formulation according to DRM principles
 
-#### 6.3 Qualitätskennzahlen
-- **Evidence Coverage**: ≥75% Literaturquellen `[1-9]+`
-- **Topological Integrity**: 100% - Schlüsselfaktor (Start) → Erfolgsfaktor (Ende) Struktur
-- **Path Completeness**: 100% - Mindestens ein vollständiger Pfad vorhanden
-- **Factor Integration**: 100% - Alle Einflussfaktoren auf Hauptpfad integriert
-- **Factor Precision**: 100% - Alle Faktoren folgen "Attribut-des-Elements" Formulierung
-- **Measurability Consistency**: Messbare Erfolgsfaktoren ≥0.8, Schlüsselfaktoren ≥0.6
-
-## Referenzmodell-Template
-
-### Minimale Struktur
-```json
-{
-  "elements": [
-    {
-      "_id": "elem-KEY-FACTOR",
-      "attributes": {
-        "label": "[Attribut des Problems]",
-        "element type": "Schlüsselfaktor",
-        "measurability": 0.7,
-        "influenceability": 0.8,
-        "description": "STARTKNOTEN: Kein eingehende Verbindungen erlaubt"
-      }
-    },
-    {
-      "_id": "elem-INFLUENCING-FACTOR-1",
-      "attributes": {
-        "label": "[Zwischenfaktor]",
-        "element type": "Einflussfaktoren",
-        "measurability": 0.6,
-        "influenceability": 0.5,
-        "description": "Liegt kausal zwischen Start- und Endknoten"
-      }
-    },
-    {
-      "_id": "elem-MEASURABLE-SUCCESS",
-      "attributes": {
-        "label": "[Messbarer Proxy]", 
-        "element type": "Messbarer Erfolgsfaktor",
-        "measurability": 0.9,
-        "influenceability": 0.3,
-        "description": "Zwischenschritt auf Hauptpfad zum Erfolgsfaktor"
-      }
-    },
-    {
-      "_id": "elem-SUCCESS-FACTOR", 
-      "attributes": {
-        "label": "[Langfristiges Ziel]",
-        "element type": "Erfolgsfaktor",
-        "measurability": 0.4,
-        "influenceability": 0.2,
-        "description": "ENDKNOTEN: Keine ausgehende Verbindungen erlaubt"
-      }
-    }
-  ],
-  "connections": [
-    {
-      "_id": "conn-KEY-TO-INFLUENCING",
-      "from": "elem-KEY-FACTOR",
-      "to": "elem-INFLUENCING-FACTOR-1", 
-      "direction": "directed",
-      "attributes": {
-        "label": "[1]",
-        "connection type": "++",
-        "description": "Startknoten beeinflusst ersten Zwischenfaktor"
-      }
-    },
-    {
-      "_id": "conn-INFLUENCING-TO-MEASURABLE",
-      "from": "elem-INFLUENCING-FACTOR-1",
-      "to": "elem-MEASURABLE-SUCCESS",
-      "direction": "directed",
-      "attributes": {
-        "label": "[2]",
-        "connection type": "++",
-        "description": "Zwischenfaktor führt zu messbarem Erfolg"
-      }
-    },
-    {
-      "_id": "conn-MEASURABLE-TO-SUCCESS",
-      "from": "elem-MEASURABLE-SUCCESS",
-      "to": "elem-SUCCESS-FACTOR",
-      "direction": "directed", 
-      "attributes": {
-        "label": "[3]",
-        "connection type": "++",
-        "description": "Proxy-Beziehung zum Endknoten"
-      }
-    }
-  ]
-}
-```
+### Quality Metrics
+- **Evidence Coverage**: ≥75% literature sources `[1-9]+`
+- **Topological Integrity**: 100% - Key Factor (start) → Success Factor (end) structure
+- **Path Completeness**: 100% - At least one complete path present
+- **Factor Integration**: 100% - All Influencing Factors integrated on main path
+- **Factor Precision**: 100% - All factors follow "attribute-of-element" formulation
+- **Measurability Consistency**: Measurable Success Factors ≥0.8, Key Factors ≥0.6
 
 ## Compliance Checklist
 
 ### Pre-Submission
-- [ ] Genau 1 Schlüsselfaktor vorhanden
-- [ ] Genau 1 Erfolgsfaktor vorhanden  
-- [ ] Messbarer Erfolgsfaktor bei niedrig messbarem Erfolgsfaktor hinzugefügt
-- [ ] Alle anderen Faktoren als "Einflussfaktoren" klassifiziert
-- [ ] Direkte Kausalkette Schlüsselfaktor → Erfolgsfaktor vorhanden
-- [ ] >50% Verbindungen mit Literaturquellen
-- [ ] Alle Literaturquellen dokumentiert
-- [ ] Keine `[?]` Quellen in Referenzmodell
-- [ ] Messbarkeits-/Beeinflussbarkeits-Werte konsistent
-- [ ] JSON-Validation erfolgreich
+- [ ] Exactly 1 Key Factor present
+- [ ] Exactly 1 Success Factor present
+- [ ] Measurable Success Factor added if low-measurable Success Factor
+- [ ] All other factors classified as "Influencing Factors"
+- [ ] Direct causal chain Key Factor → Success Factor present
+- [ ] >50% connections with literature sources
+- [ ] All literature sources documented
+- [ ] No `[?]` sources in Reference Model
+- [ ] Measurability/influenceability values consistent
+- [ ] JSON validation successful
 
 ### Review Criteria
-- [ ] Kausalkette wissenschaftlich plausibel
-- [ ] Faktor-Formulierungen präzise und eindeutig  
-- [ ] Literaturquellen relevant und aktuell
-- [ ] Modellkomplexität angemessen (3-10 Faktoren total)
-- [ ] Verbindungsbeschreibungen aussagekräftig
+- [ ] Causal chain scientifically plausible
+- [ ] Factor formulations precise and unambiguous
+- [ ] Literature sources relevant and current
+- [ ] Model complexity appropriate (3-10 factors total)
+- [ ] Connection descriptions meaningful
 
 ## Rejection Criteria
 
-- **AUTOMATIC REJECT**: Mehr oder weniger als 1 Schlüsselfaktor
-- **AUTOMATIC REJECT**: Mehr oder weniger als 1 Erfolgsfaktor  
-- **AUTOMATIC REJECT**: Unterbrochene Kausalkette Schlüsselfaktor → Erfolgsfaktor
-- **AUTOMATIC REJECT**: <50% Literaturquellen
-- **AUTOMATIC REJECT**: Unbekannte Quellen `[?]`
-- **AUTOMATIC REJECT**: JSON-Schema-Verletzungen
-- **AUTOMATIC REJECT**: Faktoren ohne "Attribut-des-Elements" Formulierung
+- **AUTOMATIC REJECT**: More or less than 1 Key Factor
+- **AUTOMATIC REJECT**: More or less than 1 Success Factor
+- **AUTOMATIC REJECT**: Broken causal chain Key Factor → Success Factor
+- **AUTOMATIC REJECT**: <50% literature sources
+- **AUTOMATIC REJECT**: Unknown sources `[?]`
+- **AUTOMATIC REJECT**: JSON schema violations
+- **AUTOMATIC REJECT**: Factors without "attribute-of-element" formulation
+
+## Summary
+
+Reference Models represent the current state for specific problems. They:
+1. Have exactly **one Key Factor** (start node) and **one Success Factor** (end node)
+2. Use **Influencing Factors** to model the causal chain between them
+3. Are grounded in **literature evidence** (>50% coverage)
+4. Follow **DRM attribute-of-element** formulation
+5. Serve as the foundation for creating **Impact Models**
+
+Reference Models establish the baseline understanding necessary for designing and evaluating interventions.
