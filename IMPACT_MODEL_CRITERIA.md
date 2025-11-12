@@ -1,338 +1,218 @@
-# Impact Model Generierungskriterien
+# Impact Model Generation Criteria
 
-## Übersicht
+## Overview
 
-Diese Datei definiert spezifische Kriterien für die Generierung von Impact Models (Wirkmodellen) im Wirkmechanismen-Projekt. Impact Models bauen auf validierten Reference Models auf und modellieren die erwünschte Zukunftssituation nach Einführung von Unterstützungsmaßnahmen (Supports/Interventions).
+This document defines specific criteria for generating Impact Models in the Wirkmechanismen project. Impact Models build on validated Reference Models and model the desired future state after introducing support interventions.
 
-## Grundprinzipien
+## Core Principles
 
-### Verhältnis zum Reference Model
-- **MANDATORY**: Jedes Impact Model MUSS von einem validierten Reference Model abgeleitet sein
-- **MANDATORY**: Impact Model MUSS denselben Domain-Scope verwenden (z.B. `dailies-effectiveness-reference-model.json` → `dailies-effectiveness-impact-model.json`)
-- **MANDATORY**: Das zugrundeliegende Problem und der Erfolgsfaktor bleiben identisch
-- **TRANSFORMATION**: Intervention-Elemente (Supports) werden hinzugefügt
-- **TRANSFORMATION**: Neue oder veränderte Kausalbeziehungen werden explizit markiert
+### Relationship to Reference Model
+- **MANDATORY**: Each Impact Model MUST be derived from a validated Reference Model
+- **MANDATORY**: Impact Model MUST use the same domain scope
+- **MANDATORY**: Problem and Success Factor remain identical
+- **TRANSFORMATION**: Support elements (interventions) are added
+- **TRANSFORMATION**: New or modified causal relationships are explicitly marked
 
-## Strukturelle Anforderungen
+## Structural Requirements
 
-### 1. Element-Taxonomie (MANDATORY)
+### 1. Element Taxonomy (MANDATORY)
 
-#### 1.1 Problem-Element (Optional behalten)
-- **OPTIONAL**: Das ursprüngliche Problem-Element aus dem Reference Model kann beibehalten werden
-- **KLASSIFIKATION**: `"element type": "Problem"`
-- **ZWECK**: Dokumentiert die Ausgangssituation als Kontext
-- **KEINE VERBINDUNGEN**: Problem-Element hat keine ausgehenden Verbindungen im Impact Model
+#### 1.1 Support Elements (Interventions)
+- **MANDATORY**: At least ONE (1) Support element per Impact Model
+- **DEFINITION**: Concrete measures, tools, or interventions to improve Key Factors
+- **CLASSIFICATION**: `"element type": "Support"`
+- **RECOMMENDATION**: 1-3 Support elements for focused interventions
+- **REJECT**: Impact Models without Support elements
 
-#### 1.2 Schlüsselfaktor-Erhaltung
-- **MANDATORY**: Alle Schlüsselfaktoren aus dem Reference Model MÜSSEN übernommen werden
-- **KLASSIFIKATION**: `"element type": "Schlüsselfaktor"`
-- **ROLLE**: Primäre Interventionsziele - werden durch Supports beeinflusst
+**Support Formulation**:
+- **CORRECT**: `"Daily Moderation Guide"`, `"Visual Board"`, `"Timeboxing Timer"`
+- **CORRECT**: Concrete tools, processes, or aids
+- **WRONG**: Abstract goals or desired states
 
-#### 1.3 Support-Elemente (Interventionen)
-- **MANDATORY**: Mindestens **EIN (1) Support-Element** pro Impact Model
-- **DEFINITION**: Konkrete Maßnahmen, Werkzeuge oder Interventionen zur Verbesserung der Schlüsselfaktoren
-- **KLASSIFIKATION**: `"element type": "Support"`
-- **EMPFEHLUNG**: 1-3 Support-Elemente für fokussierte Interventionen
-- **REJECT**: Impact Models ohne Support-Elemente
+#### 1.2 Key Factor Preservation
+- **MANDATORY**: All Key Factors from Reference Model MUST be adopted
+- **CLASSIFICATION**: `"element type": "Schlüsselfaktor"` (Key Factor)
+- **ROLE**: Primary intervention targets - influenced by Supports
 
-**Support-Formulierung**:
-- **KORREKT**: `"Daily-Moderationsleitfaden"`, `"Visuelles Board"`, `"Timeboxing-Timer"`
-- **KORREKT**: Konkrete Werkzeuge, Prozesse oder Hilfsmittel
-- **FALSCH**: Abstrakte Ziele oder gewünschte Zustände
+#### 1.3 Success Factor Structure
+- **MANDATORY**: Success Factor from Reference Model MUST be adopted
+- **CLASSIFICATION**: `"element type": "Erfolgsfaktor"` (Success Factor) or `"Messbarer Erfolgsfaktor"` (Measurable Success Factor)
+- **IMMUTABLE**: Success Factor definition remains identical to Reference Model
 
-#### 1.4 Erfolgsfaktor-Struktur
-- **MANDATORY**: Erfolgsfaktor aus Reference Model MUSS übernommen werden
-- **KLASSIFIKATION**: `"element type": "Erfolgsfaktor"` oder `"Messbarer Erfolgsfaktor"`
-- **UNVERÄNDERLICH**: Erfolgsfaktor-Definition bleibt identisch zum Reference Model
+#### 1.4 Influencing Factors Adaptation
+- **MANDATORY**: Influencing Factors from Reference Model are adopted
+- **ALLOWED**: New Influencing Factors created by Supports
+- **CLASSIFICATION**: `"element type": "Einflussfaktoren"` (Influencing Factors)
+- **MANDATORY**: New Influencing Factors MUST be documented as assumptions `[A]`
 
-#### 1.5 Einflussfaktoren-Anpassung
-- **MANDATORY**: Einflussfaktoren aus Reference Model werden übernommen
-- **ERLAUBT**: Neue Einflussfaktoren, die durch Supports entstehen
-- **KLASSIFIKATION**: `"element type": "Einflussfaktoren"`
-- **MANDATORY**: Neue Einflussfaktoren MÜSSEN als Annahmen `[A]` dokumentiert werden
+### 2. Causal Network Structure (MANDATORY)
 
-### 2. Kausale Netzwerkstruktur (MANDATORY)
+#### 2.1 Support-to-Key Factor Relationships
+- **MANDATORY**: Each Support MUST influence at least one Key Factor
+- **STRUCTURE**: `Support → Key Factor → [Influencing Factors] → Success Factor`
+- **MANDATORY**: Support elements are **start nodes** (no incoming connections)
+- **REJECT**: Supports without outgoing connections to Key Factors
 
-#### 2.1 Support-zu-Schlüsselfaktor Beziehungen
-- **MANDATORY**: Jeder Support MUSS mindestens einen Schlüsselfaktor beeinflussen
-- **STRUKTUR**: `Support → Schlüsselfaktor → [Einflussfaktoren] → Erfolgsfaktor`
-- **MANDATORY**: Support-Elemente sind **Startknoten** (keine eingehenden Verbindungen)
-- **REJECT**: Supports ohne ausgehende Verbindungen zu Schlüsselfaktoren
+#### 2.2 Modified Causal Relationships
+- **MANDATORY**: Relationships changed by Supports MUST be documented
+- **MECHANISM**:
+  - **Option A**: Remove old connection, add new connection with `[A]`
+  - **Option B**: Change connection strength/polarity and explain in `description`
+- **MANDATORY**: Changes MUST be explained in connection `description`
 
-#### 2.2 Modifizierte Kausalbeziehungen
-- **MANDATORY**: Durch Supports veränderte Beziehungen MÜSSEN dokumentiert werden
-- **MECHANISMUS**:
-  - **Option A**: Alte Verbindung entfernen, neue Verbindung mit `[A]` hinzufügen
-  - **Option B**: Verbindungsstärke/Polarität ändern und in `description` begründen
-- **MANDATORY**: Änderungen MÜSSEN im connection `description` erklärt werden
+#### 2.3 New Causal Relationships
+- **ALLOWED**: Supports can create new causal relationships
+- **MANDATORY**: All new connections MUST be marked with `[A]` (Assumption)
+- **MANDATORY**: `description` MUST contain theoretical or empirical justification
+- **RECOMMENDATION**: Validate assumptions through pilot projects or literature
 
-#### 2.3 Neue Kausalbeziehungen
-- **ERLAUBT**: Supports können neue Kausalbeziehungen schaffen
-- **MANDATORY**: Alle neuen Verbindungen MÜSSEN mit `[A]` (Annahme) markiert werden
-- **MANDATORY**: `description` MUSS theoretische oder empirische Begründung enthalten
-- **EMPFEHLUNG**: Annahmen durch Pilotprojekte oder Literatur validieren
+#### 2.4 Path Requirements
+- **MANDATORY**: At least one complete path from Support → Success Factor
+- **MANDATORY**: Maximum path length: 5 connections (Support + 4 intermediate steps)
+- **LOGIC CHECK**: All Supports MUST be causally connected to Success Factor
 
-#### 2.4 Pfad-Anforderungen
-- **MANDATORY**: Mindestens ein vollständiger Pfad von Support → Erfolgsfaktor
-- **MANDATORY**: Maximale Pfadlänge: 5 Verbindungen (Support + 4 Zwischenschritte)
-- **LOGIK-CHECK**: Alle Supports MÜSSEN kausal mit dem Erfolgsfaktor verbunden sein
+### 3. Source Attribution (MANDATORY)
 
-### 3. Quellenattribution (MANDATORY)
+#### 3.1 Literature and Evidence (from Reference Model)
+- **INHERITED**: Literature sources `[1]`, `[2]`, etc. from Reference Model remain unchanged
+- **MANDATORY**: Source attribution for unchanged connections remains identical
 
-#### 3.1 Literatur und Evidenz (aus Reference Model)
-- **ÜBERNOMMEN**: Literaturquellen `[1]`, `[2]`, etc. aus dem Reference Model bleiben erhalten
-- **MANDATORY**: Quellenattribution für unveränderte Verbindungen bleibt identisch
+#### 3.2 Assumptions for Interventions (Priority for new connections)
+- **MANDATORY**: All new connections (through Supports) MUST be marked as `[A]` (Assumption)
+- **MANDATORY**: `description` MUST contain justification of assumption:
+  - Theoretical foundation (design principles, methodology)
+  - Empirical evidence (pilot projects, expert opinions)
+  - Analogies to similar interventions
+- **GOAL**: Transform assumptions into evidence through incremental validation
 
-#### 3.2 Annahmen für Interventionen (Priorität für neue Verbindungen)
-- **MANDATORY**: Alle neuen Verbindungen (durch Supports) MÜSSEN als `[A]` (Annahme) markiert werden
-- **MANDATORY**: `description` MUSS Begründung der Annahme enthalten:
-  - Theoretische Grundlage (Design-Prinzipien, Methodologie)
-  - Empirische Indizien (Pilotprojekte, Expert:innen-Meinungen)
-  - Analogien zu ähnlichen Interventionen
-- **ZIEL**: Annahmen durch inkrementelle Validierung in Evidenz überführen
+#### 3.3 Validated Interventions (after piloting)
+- **ALLOWED**: After successful piloting, replace `[A]` with `[O]` (own investigation)
+- **ALLOWED**: With literature evidence, replace `[A]` with `[1-9]+`
+- **MANDATORY**: Document validation process in commit message
 
-#### 3.3 Validierte Interventionen (nach Pilotierung)
-- **ERLAUBT**: Nach erfolgreicher Pilotierung `[A]` durch `[O]` (eigene Untersuchung) ersetzen
-- **ERLAUBT**: Bei Literaturnachweis `[A]` durch `[1-9]+` ersetzen
-- **MANDATORY**: Validierungsprozess in commit message dokumentieren
+#### 3.4 Inadmissible Sources
+- **REJECT**: Connections with `[?]` (unknown source)
+- **REJECT**: New connections without source attribution (even if assumption)
 
-#### 3.4 Unzulässige Quellen
-- **REJECT**: Verbindungen mit `[?]` (unbekannte Quelle)
-- **REJECT**: Neue Verbindungen ohne Quellenattribution (auch wenn Annahme)
+### 4. Measurability and Influenceability Criteria
 
-### 4. Messbarkeits- und Beeinflussbarkeits-Kriterien
+#### 4.1 Support Properties
+- **EXPECTATION**: Supports have high influenceability (≥ 0.9)
+- **RATIONALE**: Interventions are under direct team control
+- **EXPECTATION**: Supports have low inherent measurability (0.3-0.6)
+- **DOCUMENTATION**: Support implementation degree MUST be measurable (e.g., "Board present: yes/no", "Guide usage rate")
 
-#### 4.1 Support-Eigenschaften
-- **ERWARTUNG**: Supports haben hohe Beeinflussbarkeit (influenceability ≥ 0.9)
-- **BEGRÜNDUNG**: Interventionen sind unter direkter Kontrolle des Teams
-- **ERWARTUNG**: Supports haben niedrige inhärente Messbarkeit (0.3-0.6)
-- **DOKUMENTATION**: Implementierungsgrad des Supports MUSS messbar sein (z.B. "Board vorhanden: ja/nein", "Leitfaden-Nutzungsquote")
+#### 4.2 Key Factor Changes
+- **HYPOTHESIS**: Supports improve Key Factors
+- **MANDATORY**: Expected improvement MUST be described in Support connection
+- **MEASURABILITY**: Key Factor measurability remains identical (from Reference Model)
+- **INFLUENCEABILITY**: Can increase if Support creates direct control option
 
-#### 4.2 Schlüsselfaktor-Veränderungen
-- **HYPOTHESE**: Durch Supports verbessern sich Schlüsselfaktoren
-- **MANDATORY**: Erwartete Verbesserung MUSS in Support-Verbindung beschrieben werden
-- **MESSBARKEIT**: Schlüsselfaktor-Messbarkeit bleibt identisch (aus Reference Model)
-- **BEEINFLUSSBARKEIT**: Kann sich erhöhen, wenn Support direkte Steuerungsmöglichkeit schafft
+#### 4.3 Success Factor Invariance
+- **MANDATORY**: Success Factor measurability and influenceability remain unchanged
+- **RATIONALE**: Long-term goals don't change through short-term interventions
 
-#### 4.3 Erfolgsfaktor-Invarianz
-- **MANDATORY**: Erfolgsfaktor-Messbarkeit und -Beeinflussbarkeit bleiben unverändert
-- **BEGRÜNDUNG**: Langfristige Ziele ändern sich nicht durch kurzfristige Interventionen
+### 5. Connection Semantics
 
-### 5. Verbindungssemantik
+#### 5.1 Direction and Polarity
+- **MANDATORY**: All connections MUST be directed (`"direction": "directed"`)
+- **MANDATORY**: Connection type MUST use DRM polarities (`++`, `+-`, `-+`, `--`)
+- **EXPECTATION**: Support → Key Factor connections are typically positive (`++`)
 
-#### 5.1 Richtung und Polarität
-- **MANDATORY**: Alle Verbindungen MÜSSEN gerichtet sein (`"direction": "directed"`)
-- **MANDATORY**: Verbindungstyp MUSS DRM-Polaritäten verwenden (`++`, `+-`, `-+`, `--`)
-- **ERWARTUNG**: Support → Schlüsselfaktor Verbindungen sind typisch positiv (`++`)
+#### 5.2 Connection Descriptions for Supports
+- **MANDATORY**: Support connections MUST explain causal mechanism
+- **FORMAT**: "Support X improves Factor Y through Mechanism Z"
+- **LENGTH**: 30-200 words for new assumption-based connections
+- **CONTENT**:
+  - How does the support work?
+  - Why should it improve the factor?
+  - What assumptions underlie this?
 
-#### 5.2 Verbindungsbeschreibungen für Supports
-- **MANDATORY**: Support-Verbindungen MÜSSEN Wirkmechanismus erklären
-- **FORMAT**: "Support X verbessert Faktor Y durch Mechanismus Z"
-- **LÄNGE**: 30-200 Wörter für neue Annahme-basierte Verbindungen
-- **INHALT**:
-  - Wie funktioniert der Support?
-  - Warum sollte er den Faktor verbessern?
-  - Welche Annahmen liegen zugrunde?
+## Validation Steps
 
-### 6. Inkrementelle Validierung
+### Automatic Validation
+1. JSON schema compliance (`lint_blueprint.py`)
+2. Element/connection ID uniqueness
+3. Reference integrity (from/to reference existing IDs)
+4. Factor taxonomy compliance (including Support elements)
+5. **Support Validation**: At least one Support present
+6. **Topology Validation**: Supports as start nodes, Success Factor as end node
 
-#### 6.1 Validierungsstufen
-1. **Theoretische Plausibilität** (`[A]` mit Begründung)
-   - Design-Prinzipien, methodologische Grundlagen
-   - Analogien zu ähnlichen Kontexten
-2. **Pilotierung** (`[O]` nach Durchführung)
-   - Kleine Testgruppe oder Prototyp
-   - Qualitative Evidenz (Interviews, Beobachtungen)
-3. **Quantitative Validierung** (`[O]` mit Daten)
-   - Messungen vor/nach Intervention
-   - Kontrollgruppen-Vergleiche
-4. **Literaturbestätigung** (`[1-9]+`)
-   - Publizierte Studien zu ähnlichen Interventionen
+### Content Validation
+1. **Reference Model Consistency**: Problem/Success Factor identical to Reference Model
+2. **Support Integration**: All Supports connected to Key Factors
+3. **Path Completeness**: At least one path Support → Success Factor
+4. **Assumption Documentation**: All `[A]` connections have meaningful descriptions
+5. **Validation Plan**: Each assumption has planned validation mechanism
 
-#### 6.2 Validierungszyklus
-- **MANDATORY**: Jede Annahme `[A]` MUSS Validierungsplan haben
-- **DOKUMENTATION**: Validierungsstatus in commit messages oder separate Tracking-Datei
-- **ITERATION**: Validierte Interventionen fließen zurück ins Main Model
-
-### 7. Validierungsschritte
-
-#### 7.1 Automatische Validierung
-1. JSON-Schema-Compliance (`lint_blueprint.py`)
-2. Element-/Verbindungs-ID Eindeutigkeit
-3. Referenz-Integrität (from/to verweisen auf existierende IDs)
-4. Faktor-Taxonomie-Compliance (inkl. Support-Elemente)
-5. **Support-Validierung**: Mindestens ein Support vorhanden
-6. **Topologie-Validierung**: Supports als Startknoten, Erfolgsfaktor als Endknoten
-
-#### 7.2 Inhaltliche Validierung
-1. **Reference Model Konsistenz**: Problem/Erfolgsfaktor identisch zum Reference Model
-2. **Support-Integration**: Alle Supports verbunden mit Schlüsselfaktoren
-3. **Pfad-Vollständigkeit**: Mindestens ein Pfad Support → Erfolgsfaktor
-4. **Annahmen-Dokumentation**: Alle `[A]` Verbindungen haben aussagekräftige Beschreibungen
-5. **Validierungsplan**: Jede Annahme hat geplanten Validierungsmechanismus
-
-#### 7.3 Qualitätskennzahlen
-- **Support Coverage**: 100% - Alle Schlüsselfaktoren durch mindestens einen Support adressiert
-- **Assumption Documentation**: 100% - Alle `[A]` Verbindungen haben Begründung
-- **Topological Integrity**: 100% - Supports (Start) → Erfolgsfaktor (Ende) Struktur
-- **Path Completeness**: 100% - Mindestens ein vollständiger Pfad vorhanden
-- **Validation Planning**: ≥75% der Annahmen haben dokumentierten Validierungsplan
-
-## Impact Model Template
-
-### Minimale Struktur
-```json
-{
-  "elements": [
-    {
-      "_id": "elem-PROBLEM",
-      "attributes": {
-        "label": "[Problem-Beschreibung]",
-        "element type": "Problem",
-        "description": "Ausgangssituation (aus Reference Model)"
-      }
-    },
-    {
-      "_id": "elem-SUPPORT-1",
-      "attributes": {
-        "label": "[Konkretes Werkzeug/Intervention]",
-        "element type": "Support",
-        "measurability": 0.5,
-        "influenceability": 0.95,
-        "description": "STARTKNOTEN: Beschreibung der Intervention und Implementierung"
-      }
-    },
-    {
-      "_id": "elem-KEY-FACTOR",
-      "attributes": {
-        "label": "[Attribut des Problems]",
-        "element type": "Schlüsselfaktor",
-        "measurability": 0.7,
-        "influenceability": 0.8,
-        "description": "Übernommen aus Reference Model"
-      }
-    },
-    {
-      "_id": "elem-INFLUENCING-FACTOR-1",
-      "attributes": {
-        "label": "[Zwischenfaktor]",
-        "element type": "Einflussfaktoren",
-        "measurability": 0.6,
-        "influenceability": 0.5,
-        "description": "Übernommen aus Reference Model"
-      }
-    },
-    {
-      "_id": "elem-SUCCESS-FACTOR",
-      "attributes": {
-        "label": "[Langfristiges Ziel]",
-        "element type": "Erfolgsfaktor",
-        "measurability": 0.4,
-        "influenceability": 0.2,
-        "description": "ENDKNOTEN: Übernommen aus Reference Model"
-      }
-    }
-  ],
-  "connections": [
-    {
-      "_id": "conn-SUPPORT-TO-KEY",
-      "from": "elem-SUPPORT-1",
-      "to": "elem-KEY-FACTOR",
-      "direction": "directed",
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "NEUE VERBINDUNG: Support verbessert Schlüsselfaktor durch [Mechanismus]. Annahme basiert auf [Begründung]. Validierung geplant durch [Methode]."
-      }
-    },
-    {
-      "_id": "conn-KEY-TO-INFLUENCING",
-      "from": "elem-KEY-FACTOR",
-      "to": "elem-INFLUENCING-FACTOR-1",
-      "direction": "directed",
-      "attributes": {
-        "label": "[1]",
-        "connection type": "++",
-        "description": "Übernommen aus Reference Model mit Literaturquelle"
-      }
-    },
-    {
-      "_id": "conn-INFLUENCING-TO-SUCCESS",
-      "from": "elem-INFLUENCING-FACTOR-1",
-      "to": "elem-SUCCESS-FACTOR",
-      "direction": "directed",
-      "attributes": {
-        "label": "[2]",
-        "connection type": "++",
-        "description": "Übernommen aus Reference Model"
-      }
-    }
-  ]
-}
-```
+### Quality Metrics
+- **Support Coverage**: 100% - All Key Factors addressed by at least one Support
+- **Assumption Documentation**: 100% - All `[A]` connections have justification
+- **Topological Integrity**: 100% - Supports (start) → Success Factor (end) structure
+- **Path Completeness**: 100% - At least one complete path present
+- **Validation Planning**: ≥75% of assumptions have documented validation plan
 
 ## Compliance Checklist
 
 ### Pre-Submission
-- [ ] Basiert auf validiertem Reference Model (identischer Domain-Scope)
-- [ ] Problem und Erfolgsfaktor aus Reference Model übernommen
-- [ ] Mindestens 1 Support-Element vorhanden
-- [ ] Alle Supports mit Schlüsselfaktoren verbunden
-- [ ] Direkte Kausalkette Support → Erfolgsfaktor vorhanden
-- [ ] Alle neuen Verbindungen mit `[A]` markiert
-- [ ] Alle `[A]` Verbindungen haben Begründung in `description`
-- [ ] Supports als Startknoten definiert (keine eingehenden Verbindungen)
-- [ ] Messbarkeits-/Beeinflussbarkeits-Werte konsistent
-- [ ] JSON-Validation erfolgreich
+- [ ] Based on validated Reference Model (identical domain scope)
+- [ ] Problem and Success Factor adopted from Reference Model
+- [ ] At least 1 Support element present
+- [ ] All Supports connected to Key Factors
+- [ ] Direct causal chain Support → Success Factor present
+- [ ] All new connections marked with `[A]`
+- [ ] All `[A]` connections have justification in `description`
+- [ ] Supports defined as start nodes (no incoming connections)
+- [ ] Measurability/influenceability values consistent
+- [ ] JSON validation successful
 
 ### Review Criteria
-- [ ] Support-Interventionen sind konkret und implementierbar
-- [ ] Wirkmechanismen wissenschaftlich/praktisch plausibel
-- [ ] Annahmen-Begründungen nachvollziehbar
-- [ ] Validierungspläne für Annahmen vorhanden
-- [ ] Keine widersprüchlichen Kausalbeziehungen zum Reference Model
-- [ ] Modellkomplexität angemessen (nicht zu viele Supports)
+- [ ] Support interventions are concrete and implementable
+- [ ] Causal mechanisms scientifically/practically plausible
+- [ ] Assumption justifications comprehensible
+- [ ] Validation plans present for assumptions
+- [ ] No contradictory causal relationships to Reference Model
+- [ ] Model complexity appropriate (not too many Supports)
 
 ### Validation Planning
-- [ ] Für jede `[A]` Verbindung: Validierungsmethode definiert
-- [ ] Pilotierungs-Timeline erstellt
-- [ ] Messkriterien für Intervention-Erfolg festgelegt
-- [ ] Datenerhebungs-Mechanismen spezifiziert
+- [ ] For each `[A]` connection: validation method defined
+- [ ] Pilot timeline created
+- [ ] Success criteria for intervention defined
+- [ ] Data collection mechanisms specified
 
 ## Rejection Criteria
 
-- **AUTOMATIC REJECT**: Kein Support-Element vorhanden
-- **AUTOMATIC REJECT**: Supports nicht mit Schlüsselfaktoren verbunden
-- **AUTOMATIC REJECT**: Unterbrochene Kausalkette Support → Erfolgsfaktor
-- **AUTOMATIC REJECT**: Neue Verbindungen ohne `[A]` Markierung
-- **AUTOMATIC REJECT**: `[A]` Verbindungen ohne Begründung in `description`
-- **AUTOMATIC REJECT**: JSON-Schema-Verletzungen
-- **AUTOMATIC REJECT**: Erfolgsfaktor verändert gegenüber Reference Model
-- **AUTOMATIC REJECT**: Problem-Element hat ausgehende Verbindungen
+- **AUTOMATIC REJECT**: No Support element present
+- **AUTOMATIC REJECT**: Supports not connected to Key Factors
+- **AUTOMATIC REJECT**: Broken causal chain Support → Success Factor
+- **AUTOMATIC REJECT**: New connections without `[A]` marking
+- **AUTOMATIC REJECT**: `[A]` connections without justification in `description`
+- **AUTOMATIC REJECT**: JSON schema violations
+- **AUTOMATIC REJECT**: Success Factor changed compared to Reference Model
 
-## Inkrementelle Validierung und Rückführung
+## Incremental Validation and Integration
 
-### Validierungs-Workflow
-1. **Impact Model Scaffolding**: Initiales Model mit `[A]` Annahmen
-2. **Human + Peer Review**: Plausibilitätsprüfung
-3. **Pilotierung**: Kleine Testgruppe, qualitative Evidenz sammeln
-4. **Iteration**: `[A]` → `[O]` für validierte Annahmen
-5. **Skalierung**: Quantitative Validierung, ggf. `[O]` → `[1-9]+` bei Publikation
-6. **Rückführung**: Validierte Support-Beziehungen ins Main Model integrieren
+### Validation Workflow
+1. **Impact Model Scaffolding**: Initial model with `[A]` assumptions
+2. **Human + Peer Review**: Plausibility check
+3. **Piloting**: Small test group, collect qualitative evidence
+4. **Iteration**: `[A]` → `[O]` for validated assumptions
+5. **Scaling**: Quantitative validation, possibly `[O]` → `[1-9]+` if published
+6. **Integration**: Integrate validated Support relationships into Main Model
 
-### Commit-basiertes Tracking
+### Commit-based Tracking
 - **INITIAL**: `[IMPACT] Add {domain} impact model with {N} support interventions`
 - **VALIDATION**: `[IMPACT] Validate assumption [A] → [O] for {connection} based on {pilot/study}`
 - **ITERATION**: `[IMPACT] Refine support {name} based on pilot results`
 - **FINALIZATION**: `[IMPACT] Promote validated {domain} model to production`
 
-## Zusammenfassung
+## Summary
 
-Impact Models sind Zukunftsmodelle, die auf validierten Reference Models aufbauen. Sie:
-1. Führen **Support-Elemente** (konkrete Interventionen) ein
-2. Dokumentieren **neue Kausalbeziehungen** als **Annahmen** `[A]`
-3. Behalten **Problem und Erfolgsfaktor** des Reference Models bei
-4. Folgen einem **inkrementellen Validierungszyklus**
-5. Fließen nach Validierung zurück ins **Main Model**
+Impact Models are future-state models that build on validated Reference Models. They:
+1. Introduce **Support elements** (concrete interventions)
+2. Document **new causal relationships** as **assumptions** `[A]`
+3. Retain **Problem and Success Factor** from Reference Model
+4. Follow an **incremental validation cycle**
+5. Feed validated findings back into the **Main Model**
 
-Impact Models sind experimenteller Natur und ermöglichen systematisches Testen von Design-Interventionen mit klarer Evidenzbasis.
+Impact Models are experimental in nature and enable systematic testing of design interventions with clear evidence basis.
