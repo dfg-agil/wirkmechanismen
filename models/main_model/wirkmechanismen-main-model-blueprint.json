@@ -2445,22 +2445,6 @@
       }
     },
     {
-      "_id": "elem-gpiGvDLg",
-      "attributes": {
-        "label": "Qualität der Methodenschulungen für Mitarbeiter",
-        "description": "Mitarbeiter erhalten Schulungen zu Methoden, sowohl für neu eingeführte, weiterentwickelte oder bereits bekannte. Die Chance einer erfolgreichen Implementierung und späteren Durchführung einer Methode steigt erheblich durch vorab erhaltene Methoden-Schulungen, in denen erste positive Erfahrungen und Eindrücke einer Methode gesammelt werden. Wichtig ist, dass Methoden persönlich erlebt werden, statt nur theoretisch vermittelt.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
-      }
-    },
-    {
       "_id": "elem-LLtKDcyR",
       "attributes": {
         "label": "Einheitlichkeit bereichsübergreifender Kodierungsstandards",
@@ -2496,7 +2480,7 @@
       "_id": "elem-NmRVFhyA",
       "attributes": {
         "label": "Qualität der Mitarbeiterschulungen und Trainings",
-        "description": "Mehrmals jährlich werden Schulungen und Trainings für die Mitarbeiter angeboten bezüglich Methoden, Tools, Denkweisen, Werte und Prozessen. Mitarbeiter nehmen freiwillig an Trainings teil, werden jedoch für Teilnahme und Leistungen belohnt, um sie für das Konzept \"lebenslanges Lernen\" zu motivieren. Zudem sollte es im Unternehmen ein einheitliches und passendes Schulungskonzept über agile Ansätze in agile Ansätze integriert werden (zB. im Zuge der Retrospektive-Meetings). Dabei soll sich das Schulungskonzept selbst weiterentwickelt, sodass es Agilität gleichzeitig lebt und lehrt.",
+        "description": "Mehrmals jährlich werden Schulungen und Trainings für die Mitarbeiter angeboten bezüglich Methoden, Tools, Denkweisen, Werte und Prozessen. Mitarbeiter erhalten Schulungen zu Methoden, sowohl für neu eingeführte, weiterentwickelte oder bereits bekannte. Die Chance einer erfolgreichen Implementierung und späteren Durchführung einer Methode steigt erheblich durch vorab erhaltene Methoden-Schulungen, in denen erste positive Erfahrungen und Eindrücke einer Methode gesammelt werden. Wichtig ist, dass Methoden persönlich erlebt werden, statt nur theoretisch vermittelt. Mitarbeiter nehmen freiwillig an Trainings teil, werden jedoch für Teilnahme und Leistungen belohnt, um sie für das Konzept \"lebenslanges Lernen\" zu motivieren. Zudem sollte es im Unternehmen ein einheitliches und passendes Schulungskonzept über agile Ansätze in agile Ansätze integriert werden (zB. im Zuge der Retrospektive-Meetings). Dabei soll sich das Schulungskonzept selbst weiterentwickelt, sodass es Agilität gleichzeitig lebt und lehrt.",
         "element type": "Einflussfaktoren",
         "tags": [
           "AgilityMap"
@@ -6048,7 +6032,7 @@
     {
       "_id": "conn-auto-011",
       "from": "elem-93NeBEYA",
-      "to": "elem-gpiGvDLg",
+      "to": "elem-NmRVFhyA",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -6407,7 +6391,7 @@
     },
     {
       "_id": "conn-auto-042",
-      "from": "elem-gpiGvDLg",
+      "from": "elem-NmRVFhyA",
       "to": "elem-ga15zxKL",
       "direction": "directed",
       "delayed": false,
@@ -6660,7 +6644,7 @@
     {
       "_id": "conn-bridge-011",
       "from": "elem-p5ivPyza",
-      "to": "elem-gpiGvDLg",
+      "to": "elem-NmRVFhyA",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
