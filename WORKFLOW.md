@@ -62,30 +62,23 @@ Impact Models represent the **desired state** after introducing interventions (S
 ### Workflow Overview
 
 ```mermaid
-graph TD
+graph LR
     A[**Main Model** ]
     B[Initial<br/>**Reference Model**]
-    C([Validation of the<br/>Reference Model])
     D[Initial<br/>**Impact Model**]
-    E([**Validation** of the Impact Model<br/>and **Support** Development])
     F([Main Model **Update**<br/>Feed validated findings back])
 
     A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
+    B -->|Validation| D
+    D -->|Validation| F
     F --> A
 
     B --> F
-    C --> F
     D --> F
 
     style A fill:#e1f5ff,stroke:#0066cc,stroke-width:3px
     style B fill:#fff4e6,stroke:#ff9800,stroke-width:2px
     style D fill:#fff4e6,stroke:#ff9800,stroke-width:2px
-    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
-    style E fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
     style F fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
 ```
 ## Hybrid AI-Human Model Development Workflow
