@@ -78,6 +78,41 @@ graph TD
     E -->|Incremental Validation<br/>Pilots, Studies| F
     F -->|Feed validated findings back| G
 ```
+## Hybrid AI-Human Model Development Workflow
+
+```mermaid
+graph TD
+    Start([New Task]) --> ProposeChange[Propose Change<br/>Human + AI ]
+
+    ProposeChange --> AIReview{AI Review}
+
+    Reference[Reference Sources:<br/>Main Model, DRM Criteria,<br/>Quality Gates, Evidence Standards]
+    Reference -.-> AIReview
+    Reference -.-> HumanReview
+    Reference -.-> PeerReview
+
+    AIReview -->|Fail| FixErrors[❌ Fix & Review Issues]
+    FixErrors --> ProposeChange
+
+    AIReview -->|Pass| HumanReview{Human Review}
+
+    HumanReview -->|Reject| End1([End: Not Merged])
+    HumanReview -->|Request Changes| ProposeChange
+    HumanReview -->|Approve| CreatePR[Create Pull Request]
+
+    CreatePR --> PeerReview{Peer Review}
+
+    PeerReview -->|Request Changes| ProposeChange
+    
+    PeerReview -->|Yes| Merge[Merge]
+
+    Merge --> End2([✅ Success:<br/>Model Updated])
+
+    style Start fill:#e1f5ff
+    style End2 fill:#d4edda
+    style End1 fill:#f8d7da
+    style FixErrors fill:#f8d7da
+```
 
 ## Detailed Workflow Steps
 
