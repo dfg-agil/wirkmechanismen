@@ -63,30 +63,41 @@ Impact Models represent the **desired state** after introducing interventions (S
 
 ```mermaid
 graph TD
-    A[MAIN MODEL<br/>Source of Truth<br/>Continuously refined and validated]
-    B[REFERENCE MODEL<br/>Current State<br/>Problem-Specific]
-    C[VALIDATED REFERENCE<br/>MODEL]
-    D[IMPACT MODEL<br/>Future State<br/>With Interventions]
-    E[VALIDATED IMPACT<br/>MODEL]
-    F[CONFIRMED<br/>INTERVENTIONS]
-    G[MAIN MODEL UPDATE]
+    A[**Main Model** ]
+    B[Initial<br/>**Reference Model**]
+    C([Validation of the<br/>Reference Model])
+    D[Initial<br/>**Impact Model**]
+    E([**Validation** of the Impact Model<br/>and **Support** Development])
+    F([Main Model **Update**<br/>Feed validated findings back])
 
-    A -->|Agentic Scaffolding| B
-    B -->|Agentic → Human → Peer Review| C
-    C -->|Agentic Scaffolding<br/>add Supports| D
-    D -->|Agentic → Human → Peer Review| E
-    E -->|Incremental Validation<br/>Pilots, Studies| F
-    F -->|Feed validated findings back| G
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> A
+
+    B --> F
+    C --> F
+    D --> F
+
+    style A fill:#e1f5ff,stroke:#0066cc,stroke-width:3px
+    style B fill:#fff4e6,stroke:#ff9800,stroke-width:2px
+    style D fill:#fff4e6,stroke:#ff9800,stroke-width:2px
+    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
+    style E fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
+    style F fill:#e8f5e9,stroke:#4caf50,stroke-width:2px
 ```
 ## Hybrid AI-Human Model Development Workflow
 
 ```mermaid
 graph TD
-    Start([New Task]) --> ProposeChange[Propose Change<br/>Human + AI ]
+    Start([New Goal/Task]) --> ProposeChange[AI task execution]
 
     ProposeChange --> AIReview{AI Review}
 
-    Reference[Reference Sources:<br/>Main Model, DRM Criteria,<br/>Quality Gates, Evidence Standards]
+    Reference[(Reference Sources:<br/>Main Model, Gatekeeping Criteria, Reference and Impact Model Criteria)]
+    Reference -.-> ProposeChange
     Reference -.-> AIReview
     Reference -.-> HumanReview
     Reference -.-> PeerReview
