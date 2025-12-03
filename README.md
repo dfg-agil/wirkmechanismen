@@ -172,6 +172,8 @@ This work supports systematic design research through structured factor network 
 
 ## License
 
+This research repository is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
 This research repository is intended for academic and educational use in design research methodology.
 
 ---
