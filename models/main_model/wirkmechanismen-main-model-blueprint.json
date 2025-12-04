@@ -3202,6 +3202,20 @@
       "to": "elem-U6qgcZdK"
     },
     {
+      "_id": "conn-InfQual-bidir",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mutual connection zwischen Informationsdurchlässigkeit der Arbeitsumgebung und Qualität der Kommunikation (erstellt)",
+        "source": "user-request"
+      },
+      "from": "elem-4DZnGitO",
+      "to": "elem-bh4G3Yqp"
+    },
+    {
       "_id": "conn-0gCIJ2P9",
       "direction": "directed",
       "delayed": false,
