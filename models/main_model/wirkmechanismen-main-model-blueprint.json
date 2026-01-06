@@ -302,8 +302,8 @@
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
         "micmac exposure": 0.8160049503978034,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -499,8 +499,8 @@
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
         "micmac exposure": 0.8768586518434335,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -525,8 +525,8 @@
         "reach-efficiency": 0.006600660066006601,
         "micmac influence": 0,
         "micmac exposure": 0.8830036809263201,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -663,7 +663,7 @@
     {
       "_id": "elem-EUSEMqlc",
       "attributes": {
-        "label": "Freiheit Entscheidungen zu treffen",
+        "label": "Autonomie im Entscheidungsprozess",
         "element type": "Einflussfaktoren",
         "tags": [
           "Team-Partizipation",
@@ -786,8 +786,8 @@
         "reach-efficiency": 0.017326732673267328,
         "micmac influence": 0.82843573523195,
         "micmac exposure": 0.9708004396048325,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2414,8 +2414,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -2574,8 +2574,8 @@
         "micmac influence": 0,
         "metrics::last": 0.8535044718337663,
         "micmac exposure": 0.8535044718337663,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2590,8 +2590,8 @@
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
         "micmac exposure": 0.7638528204727111,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2606,8 +2606,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2661,7 +2661,7 @@
     {
       "_id": "elem-ga15zxKL",
       "attributes": {
-        "label": "Befähingungsgrad der Mitarbeiter",
+        "label": "Befähigungsgrad der Mitarbeiter",
         "description": "Entscheidungsbefugnisse und Verantwortung wird von Vorgesetzen an Mitarbeiter weitergegeben und das Management muss sozusagen \"loslassen\" von einem Teil ihrer Macht. Die Mitarbeiter werden sowohl befähigt als auch unterstützt.",
         "element type": "Einflussfaktoren",
         "tags": [
@@ -2670,8 +2670,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -2702,8 +2702,8 @@
         "micmac influence": 0,
         "metrics::last": 0.8905693236751449,
         "micmac exposure": 0.8905693236751449,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2942,8 +2942,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -3070,8 +3070,8 @@
         "micmac influence": 0,
         "metrics::last": 0.8729263522091324,
         "micmac exposure": 0.8729263522091324,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {

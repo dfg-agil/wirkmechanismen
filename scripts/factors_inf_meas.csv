@@ -1,83 +1,69 @@
-factor;measurability;influenceability;JSON-Element
-Abhängigkeitstyp der Aufgabenbeziehungen;1;0.5;elem-wtELkHfE
-Ambiguität der Prozessanforderungen;0.5;0.5;elem-1mAqDgJB
-Anpassungsfähigkeit der Workflowdefinition;1;;elem-6709ipyy
-Anzahl der Iterationen;1;1;elem-xub4q8UC
-Anzahl der Teammitglieder;1;1;elem-DbXXPgu4
-Anzahl von Abhängigkeiten & Hindernisse;1;1;elem-7sSep5II
-Anzahl von Unsicherheiten im PEP;1;0.5;elem-U6qgcZdK
-Aufgabenbelastung der Teammitglieder;0.5;1;elem-34Kwzpr1
-Autonomielevel der(s) Entwickler(teams);0.5;0.5;elem-hAWDYq8W
-Begrenzungsgrad von Work in Progress;1;1;elem-X51ThqBL
-Durchschnittliche Anzahl von Work in Progress;1;1;elem-s2CSbNkg
-Durchschnittliche Durchlaufzeit;1;1;elem-kQpp3aDS
-Durchschnittlicher Durchsatz;1;1;elem-K92vjGHC
-Effektivität des Managements laufender Arbeiten;0.5;0.5;elem-jz5ga33J
-Einhaltung der Dauer des Meetings;1;1;elem-9PG4amih
-Einhaltungsrate von Zeitangaben der Teammitglieder;1;1;elem-TE0p3sHi
-Einheitlichkeit des Planungsprozesses;0.5;0.5;elem-NJxaV0E3
-Engagement der Teammitglieder;0;0.5;elem-Nhi8cwn5
-Erfahrungsniveau der Teammitglieder;0.5;1;elem-k8VAutpT
-Expliziter Wissensstand der Organisation;0.5;1;elem-0er3OquT
-Fachkompetenz des Entwicklers;0.5;1;elem-SfaQSG8R
-Feedbackfrequenz;0.5;0.5;elem-l1DOGECe
-Fehlerakzeptanz im Teamumfeld;0;0.5;elem-1L5rJCH1
-Fehlerhäufigkeit;1;1;elem-0PyumJeh
-Flexibilität der Ziele in der Teamzielsetzung;0.5;0.5;elem-0gOh0zC4
-Freiheit Entscheidungen zu treffen;0;0;elem-EUSEMqlc
-Grad der Kundenzufriedenheit;0.5;0.5;elem-iRqjN94r
-Grad der Sprinterfüllung;1;1;elem-mvmya4O4
-Grad der Systemkomplexität;0.5;0.5;elem-1T8mAYkP
-Grad der Unsicherheiten im PEP;0.5;0.5;elem-uRg5n0iS
-Grad der Workflow-Visualisierung;1;1;elem-dCCyLXD0
-Handlungsbereitschaft des Entwicklers;0;0.5;elem-68KZOQXM
-Handlungsfähigkeit des Entwicklers;0.5;0.5;elem-kHo330Ty
-Handlungskompetenz des Entwicklers;0.5;0.5;elem-axja1imq
-Häufigkeit des Aufgabenwechsel;1;1;elem-VXY3BWCO
-Impliziter Wissensstand des Entwicklers;0;0.5;elem-E4veLPLX
-Informationsverfügbarkeit;0.5;1;elem-rs4KlIHZ
-Interpretierbarkeit vorhandener Informationen;0.5;0.5;elem-zBsDMddD
-Klarheit der Aufgabenstellung;0;0.5;elem-wDnzlLwI
-Klarheit der Planungsfrequenz;1;1;elem-cFhW9nNR
-Klarheit der Verantwortlichkeiten im Team;0.5;0.5;elem-6tHZ4FNz
-Klarheit und Verständlichkeit der Ziele;0.5;0.5;elem-F9HioTuT
-Klarheit über die Fertigstellungskriterien;1;1;elem-uDiTVbXE
-Klarheit/Eindeutigkeit der Kundenanforderungen;0.5;0.5;elem-jnhWVH9C
-Kommunikationsbereitschaft;0.5;0.5;elem-T2T9LxPn
-Informationsdurchlässigkeit der Arbeitsumgebung;1;1;elem-4DZnGitO
-Kommunikationsmodus;1;1;elem-jxhfFnIX
-Kompetenz des Scrum Masters;0.5;1;elem-p5ivPyza
-Komplexität der Systemarchitektur;1;1;elem-VBKokGEh
-Konfliktfähigkeit durch Teaminteraktion;0.5;0.5;elem-xmjrxxGb
-Konvergenz des Teamverständnisses;0.5;0.5;elem-VombH8FP
-Medienkompetenz;0.5;0.5;elem-4b82cTxp
-Niveau der Fähigkeiten des Entwicklers;0.5;1;elem-lKD0abzp
-Nonverbale Kommunikation;0;0.5;elem-OFCjtV2w
-Notwendigkeit eines Boundary Objects;0;0.5;elem-Siz8fExz
-Persönlichkeitsmerkmale der Teammitglieder;0.5;0.5;elem-a0dvE9xS
-Priorisierung von  Aufgaben;1;1;elem-QgfybLh0
-Pünktlichkeit der Produktauslieferung;1;1;elem-are9vvnr
-Qualität der Entscheidung;0.5;0.5;elem-NmSn5Afu
-Qualität der Kommunikation;0.5;0.5;elem-bh4G3Yqp
-Qualität der Problemdefinition;0.5;0.5;elem-E99KvfbM
-Qualität der Struktur und Zielorientierung;0.5;0.5;elem-YDXh1U6N
-Qualität der Team Partizipation;0.5;0.5;elem-1oLVNA94
-Qualität der Teamdynamik;0;0.5;elem-kpdrF0zk
-Qualität des Artefakts;1;1;elem-lcDSwFU2
-Qualität des Dailies;0.5;0.5;elem-QOBGtWqO
-Qualität des Endprodukts;1;0.5;elem-rf8OZmMz
-Qualität des Planning;0.5;1;elem-8Gqgaih7
-Qualität des Zeitmanagements;1;1;elem-bYpJc5sG
-Relevanzbezogene Kommunikation der Inhalte;0.5;0.5;elem-IdAdH9K8
-Ressourcenauslastung;1;1;elem-1Y4HaQAF
-Sichtbarkeit der Teammitglieder;1;1;elem-gRqiMiBS
-Sozialkompetenz des Entwicklers;0;0.5;elem-VzcqeqTN
-Strukturierungsklarheit des Meetings;1;1;elem-DyjLKFjk
-Transparenz des Aufgabenstatus;1;1;elem-mzeWXZfS
-Umfang der Technischen Schulden;1;1;elem-pyHxoybV
-Unschärfe der Randbedingungen;0.5;0.5;elem-syHyf0Ed
-Verfügbarkeit des Entwicklers;1;1;elem-GzVWvit5
-Verhältnismäßige Verteilung der Beiträge im Team;1;1;elem-JvpOipbD
-Verständlichkeit des Entwicklungsprozess;0.5;0.5;elem-JmXiROgv
-Vertrauen in Beziehungen zwischen Teammitgliedern;0;0.5;elem-1qjjXjCN
-Prinzipienpriorisierung des Teams;0;0.5;elem-bewbUDp6
+﻿id;label;measurability;influenceability;description
+elem-Cp80iMCp;Anpassungsfähigkeit des Führungsstils;NULL;NULL;"Im Unternehmen gibt es ein mitarbeiterzentriertes Führungsverständnis, d.h. die funktionalen Führungskräfte arbeiten für die Mitarbeiter. Dies bedeutet, sie moderieren Prozesse, stellen Ressourcen und Informationen zur Verfügung, räumen Hindernisse aus dem Weg, vereinfachen Abläufe und vieles mehr. Es sollte einen Wandel geben hin zu ""Supporting Lines"" statt ""Reporting Lines""."
+elem-Q3uEEe5Q;Aufteilung der Ressourcen;NULL;NULL;Das Team kann für das Projekt in kurzer Zeit neue Materialien, Räumen, Geräten, Werkzeuge oder Software zur Verfügung gestellt bekommen.  Dies soll den Mitarbeitern helfen ihre Stärken besser einzusetzen, selbstständig zu planen und neue Potentiale zu erkennen und zu nutzen.
+elem-hHvH3JMB;Ausmaß der Nutzung von Erfahrungswissen;NULL;NULL;Agilität soll Erfahrungswissen und individuelles Vorgehen nicht aufweichen oder entwerten. Individuelles Vorgehen und Erfahrung bringen Planungssicherheit und diese aufzuweichen würde dem Wunsch nach Sicherheit widersprechen.
+elem-8DovrrfU;Ausprägung der Fehlerkultur;NULL;NULL;"Man sollte schnelles Ausprobieren vor langem Abwägen und Zögern immer vorziehen und einen Fehler lieber schnell begehen, ihn eingestehen und beseitigen. Scheitern gehört zum Bestandteil agiler Entwicklung. Mitarbeiter müssen die Angst davor verlieren schlechte Nachrichten ""nach oben"" zu vermitteln, wegen vermeintlicher persönlicher, negativer Konsequenzen. Ein offener, konstruktiver Umgang mit lehrreichen und nötigen Erfahrungen ist wichtig, nicht nur im Projekt, sondern auch für die agile Transformation."
+elem-umR71vJA;Ausprägung der Konfliktkultur;NULL;NULL;Bei persönlichen Auseinandersetzungen wird versucht im Zwiegespräch oder mit Mediator (Konfliktmanager) das Problem möglichst zeitnah zu lösen, sodass die Arbeit nicht beeinträchtigt wird. Eventuell gibt es im Team oder unternehmensweit Regeln zum gemeinsamen Umgang, Kommunikation, Konfliktlösung, etc.
+elem-eaILhq80;Autonomie durch klar definierte Grenzen der Rollen;NULL;NULL;"Autonomie durch Grenzen (""Autonomy Through Boundaries"") - Autonomie heißt nicht, dass ein Team alles tun darf was es will, sondern dass Grenzbereiche /Richtlinien sehr klar definiert sind. Mitarbeiter handeln selbstständig im Rahmen ihrer Möglichkeiten und Befugnisse und es ist weniger Kommunikation mit der Führungsebene notwendig, was den Workflow erheblich verbessert."
+elem-ga15zxKL;Befähingungsgrad der Mitarbeiter;NULL;NULL;"Entscheidungsbefugnisse und Verantwortung wird von Vorgesetzen an Mitarbeiter weitergegeben und das Management muss sozusagen ""loslassen"" von einem Teil ihrer Macht. Die Mitarbeiter werden sowohl befähigt als auch unterstützt."
+elem-NarZ96yW;Bereitschaft des Managements zur Umsetzung agiler Ansätze;NULL;NULL;Das Projektmanagement im Unternehmen ist agil orientiert, kann aber situationsgerecht entscheiden, ob Agile oder Stage-Gate Ansätze genutzt werden sollten.
+elem-r5uVEKtS;Bereitschaft zum Lernen;NULL;NULL;Mitarbeiter werden vom Unternehmen unterstützt beim Lernen und Weiterbilden und aktiv dazu ermutigt (life-long-learning).
+elem-93NeBEYA;Bereitschaft zur Pflege und Weiterentwicklung der Unternehmensstandards;NULL;NULL;"Im Unternehmen werden Standards gepflegt, die Effizienz fördern. Hierzu gehört auch das Überprüfen von ""über die Jahre gewachsenen"" Standards und eingefahrener Prozesse auf Sinnhaftigkeit und Notwendigkeit und das Einführen aktueller Standards, sowie die Weiterentwicklung steuernder und stabilisierender Elemente und deren Anpassung an neue Gegebenheiten (jederzeit klare Entscheidungswege, klare Verantwortlichkeiten, usw.)."
+elem-CuaFkCcT;Bereitschaft zur Veränderung;NULL;NULL;Die Begeisterung für agile Arbeitsweisen muss durch alle Ebenen gehen und entsprechend muss auch die Bereitschaft zu Veränderungen vorhanden sein. So kann beispielsweise die Teamleiterebene obsolet werden, da je nach Aufgabenstellung nur Scrum Master und Product Owner nötig sind.
+elem-Y1OtCeB9;Beurteilung des Projektrisikos;NULL;NULL;Zu Beginn von Projekten sollte stets eine Risikoanalyse durchgeführt werden. Das Projektrisiko bezieht sich dabei auf unsichere, zukünftige Bedingungen oder Umstände, welche, wenn sie eintreten, negative (oder positive) Auswirkungen auf mindestens ein Projektziel haben, wie Kosten, Zeit, Qualität, Leistung. Je nach Größe eines Projektes kann dieses Risiko den Fortbestand einer Gesellschaft gefährden, da Großprojekte ein größeres finanzielles Risiko für Unternehmen darstellen, womit sich ein Risikomanagement auf Projektebene begründet. Des Weiteren lässt sich der Bedarf des Risikomanagement für Projekte auf die speziellen Projektcharakteristika zurückführen. Dazu zählen eine zeitliche Begrenzung, finanzielle und personelle Ressourcen, ein festgelegtes Ziel, bereichsübergreifende Teamarbeit und Unsicherheit mit potenziellen Planabweichungen. Durch das Führen eines Risikoportfolios werden Projektannahmekriterien klarer.
+elem-lNs67X64;Detaillierungsgrad des Prozessmodells;NULL;NULL;Es sollte ein hoher Detaillierungsgrad des genutzten Prozessmodels angestrebt werden, damit man in einer Vielzahl von Situationen bedarfsgerechte Unterstützung erhalten kann durch entsprechende Modellierung von Makro- zu Mikroaktivitäten.
+elem-7iCVuvkI;Einhaltung der Arbeitszeiten;NULL;NULL;Es wird stark auf die Einhaltung der regulären Arbeitszeiten geachtet. Ziel ist es vielmehr hart zu arbeiten, aber nicht zu lange. Überstunden strengen an und haben einen negativen Einfluss auf die Kreativität, den Spaß und die Produktivität und führen zu hohen Fehlerraten.
+elem-nAA1gU0l;Einhaltung der Deadlines;NULL;NULL;"Die Projekte agiler Unternehmen haben typischerweise eine Laufzeit von 1-3 Monaten. Kurze geplante und erlaubte Laufzeiten sind gut, dar längere Laufzeiten einen langfristigen Plan notwendiger machen. Dem Kunden und den Entwicklern muss eine klare Projektlänge vorgelegt werden und die Parteien müssen sich über die Performance und zu leistende Arbeit in dieser Zeit klar sein (z.B. durch Nutzung von ""Story Points""). Wenn ein Kunde Änderungen will, dann muss die Projektzeit diese Änderungen auch zulassen um reagieren zu können, oder Nachverhandlungen werden nötig. Bei Mitarbeitern sollte sich demnach niemals eine Ohnmacht einstellen, wegen zunehmenden Termindrucks."
+elem-LLtKDcyR;Einheitlichkeit bereichsübergreifender Kodierungsstandards;NULL;NULL;Es existieren klar definierte Kodierungsstandards, denn wenn alle dieselbe Sprache bzw. ähnliche Codierungspraktiken befolgen, wird es leicht, den anderen zu verstehen und effektiv zu kommunizieren. Diese Praxis befürwortet einheitliche Kodierungsprinzipien und -praktiken (auch übertragbar für die Konstruktion mechatronischer Systeme).
+elem-VRnZT8d0;Einheitlichkeit im Problemlöseprozess;NULL;NULL;Es sollte einen firmeninternen Problemlöseprozess geben (SPALTEN, TOTE, Ehrlenspiel, 8D, VDI2221), der als Herangehensweise für die verschiedenen Aktivitäten der Produktentwicklung zur Hand genommen wird. Dies hilft bei der schnellen Suche nach Lösungsansätzen und generischen Aktivitäten, einer systematischen Lösungsauswahl, führt zu einem besseren Verständnis der eigenen Problemlösungsaktivitäten und generell zu einem geschärften Situations- bzw. Problembewusstsein.
+elem-SM5oOnLX;Erfüllung der Nutzeranforderung des Tools;NULL;NULL;= Tools
+elem-QkWKoQ14;Gemeinsames Verständnis von Erfolgskriterien;NULL;NULL;Ziel ist es im Unternehmen ein gemeinsames, gängiges Verständnis der Erfolgskriterien zu verbreiten. Dieses Verständnis sollte durch das Führungspersonal sichergestellt werden.
+elem-SVQRqUSA;Grad der Anpassungsfähigkeit des Teams;NULL;NULL;Es sollte eine Anpassungs-Aktivität des Entwicklungsteams bzw. des Problemlösungsteams (PLT) nach Bedarf und Situation und entsprechend der zu bearbeitenden Aktivität. Dabei sollen fehlende Experten, bzw. Kompetenzen hinzugeholt werden, wie z.B. Methodenkompetenz, Fachkompetenz, Teamfähigkeit, Kreativität und Elaborationsfähigkeit. Die sorgfältige Zusammenstellung des Teams ist erfolgsentscheidend für dessen Zusammenarbeit.
+elem-dRPW0bDS;Grad der Cross-Funktionalität des Teams;NULL;NULL;Im Team gibt es informelle, implizite, vorübergehende und spontane Rollen, die es Team ermöglichen, sich selbst zu organisieren (Bsp. Rollen: Mentor, Koordinator, Übersetzer, Promoter). Angestrebt wird dadurch die Kundenerwartungen effektiv zu managen und die Zusammenarbeit mit Kunden zu koordinieren, die Unterstützung der Geschäftsleitung sicherzustellen und aufrechtzuerhalten, sowie Teammitglieder zu identifizieren und entfernen, die die Selbstorganisation des Teams gefährden.
+elem-jGrrhowI;Grad der Einbindung von Zulieferern und Partnern;NULL;NULL;Die Einbindung von Zulieferern und Partnern in den Entwicklungsprozess ermöglicht den Zugang zu wichtigen Informationen und Fachwissen und hilft, widersprüchliche Spezifikationen und unrealistische Entwürfe im PGE-Prozess zu identifizieren.
+elem-JUibFpKA;Grad der fundierten Methodenwahl;NULL;NULL;Es sollte ein Schema geben, nach dem entschieden wird, ob ein traditioneller oder agiler Ansatz für ein Projekt gewählt wird. Dieses könnte beispielsweise aus den folgenden Kriterien bestehen: Funktionsanforderung (bekannt und stabil -vs- unbekannt und variabel), ökonomisches Risiko (kalkulierbar -vs- unkalkulierbar), Technologie (vertraut -vs- Neuland), Projekttyp (Wartung, Routine -vs- Neuentwicklung), Anzahl Teammitglieder (mehr als 30 -vs- bis zu 5), Businesswissen des Teams (sehr groß -vs- sehr klein).
+elem-1fahG9AM;Grad der kontinuierlichen Prozessverbesserung;NULL;NULL;Alle Prozesse, auch ein Verbesserungsprozess selber, sollten einen integrierten Verbesserungsprozess haben. Z.B. ist es sinnvoll  Teilnehmer eines Meetings zu fragen, ob sie ein Meeting als wertvoll und sinnvoll oder als Zeitverschwendung empfunden haben (das gilt vor allem auch für Kunden). Solche Abfragen lassen sich bspw. skalieren von 0 bis 5 (gar nicht wertvoll bis sehr wertvoll), um Handlungsbedarfe zu erkennen und überflüssige Prozesse zukünftig zu vermeiden.
+elem-Tc7Rjavq;Grad der Problemlösekompetenz;NULL;NULL;Das Entwicklerteam und seine Mitglieder sind in Lage Problemlöseprozesse zu planen, zu überwachen, zu bewerten und bei Bedarf zu modifizieren. Die technische Problemlösekompetenz umfasst die individuellen kognitiven Dispositionen, und die Fähigkeit Wissen eines Fachbereiches kombiniert, zielgerichtet und zweckmäßig zur Lösung technischer Konstruktionsprobleme einzusetzen.
+elem-97NjDQTs;Grad der Resilienz;NULL;NULL;"Die Mitarbeiter sind niemals zu stark unter Leistungsdruck und niemals unterfordert, z.B. durch monotone Arbeit, sondern arbeiten in einer optimalen Passung zwischen den Anforderungen der Aufgabe und den individuellen Fähigkeiten der Person. Die Anforderungen an den Mitarbeiter sollten demnach proportional zu seinen Fähigkeiten steigen, entsprechend des Flow-Prinzips, um einen Zustand zu erreichen, bei dem der Mitarbeiter so sehr in seine Tätigkeit involviert ist, dass alles andere ""egal"" zu sein scheint (""flow"")."
+elem-KOUdbt3n;Grad der Team-Reflexion;NULL;NULL;Das Team sorgt für die kontinuierliche Verbesserung der Zusammenarbeit durch regelmäßige Retrospective-Meetings als eine Art Kommunikationsritual.
+elem-JuCUX58z;Grad der Wertschätzung;NULL;NULL;"Die Bereitschaft wertschätzend und auf Augenhöhe miteinander zu arbeiten und zu kommunizieren soll für einen ""menschlicher Umgang"" und damit eine insgesamt ""menschlichere Arbeitswelt"" sorgen. Dies soll ermöglichen, Probleme schnell und direkt anzusprechen und einer Lösung zuzuführen."
+elem-xGnKBSH9;Grad des Commitments;NULL;NULL;"Um das Commitment und Engagement der Mitarbeiter zu schützen, müssen Führungskräfte Maßnahmen ergreifen, um die Umwelt zu kontrollieren, Ablenkungen zu vermeiden und den Fokus aufrechtzuerhalten. Das Verhalten des Managements sollte ihren Erwartungen an ihr Team entsprechen - ""they should walk their talk"". Zudem ist es wichtig dem Team  bisher erreichte Ergebnisse klar offenzulegen und das Team zu würdigen. So kann das Commitment im Team langfristig aufrechterhalten werden, was zu höherer Motivation und größerem Leistungsvermögen der Mitarbeiter führt."
+elem-fZPBc4wU;Grad des kollaborativen Wissensaustauschs (möglicher Unterpunkt dazu: Transparenz der Fähigkeiten der Teammitglieder);NULL;NULL;Teammitglieder sollten Fachwissen, Kontext und Erfahrungen bereitwillig mit andern Teammitgliedern teilen und der Wissensaustausch sollte gefördert werden.
+elem-ZgVbLBTy;hohe Medienkompetenz;NULL;NULL;= (visuelle) Transparenz im Tool (Board)
+elem-eXH0Cf1d;Implementierungsgrad von Agilität;NULL;NULL;"Eine stufenweise agile Transformation ist sinnvoll im Zuge der Nachhaltigkeit. Häufig wird die Implementierung in drei Phasen verstanden: ""Agil"" 1) anwenden [Praktiken], 2) verstehen [Prinzipien], 3) sein [Werte]; Je nach Kontext kann Agilität auch anders angewandt werden: nur Übernahme einzelner Praktiken; agile Ausführung von Aufgaben und Projektphasen; selbst organisierte Teams & agile Unternehmenskultur. Für das Erreichen eines nachhaltigen Agilitäts-Levels reicht allerdings das alleinige erfolgreiche Ausführen agiler Methoden und Praktiken nicht (auch wenn es oft als sehr agil wahrgenommen wird)."
+elem-4DZnGitO;Informationsdurchlässigkeit der Arbeitsumgebung;NULL;NULL;= Osmotische Kommunikation
+elem-pOq2hTBC;Kadenz der Lieferzyklen;NULL;NULL;"Es sollte eine kurze Freigabezykluszeit angestrebt werden (""time boxing""). Die Freigabezykluszeit beschreibt dabei die Häufigkeit der Lieferung von Teilergebnissen des Projekts an die Stakeholder, also z.B. von Hardware, Simulationen, Prototypen, Diagnosen, Marktforschung. Es muss eine regelmäßige Lieferung funktionierender Produkte an den Kunden angestrebt werden, in möglichst kurzen Zeitabständen von wenigen Wochen, bzw. wenigen Monate."
+elem-Iq65xIIl;Klarheit über die Zuständigkeiten der Teammitglieder;NULL;NULL;=Verantwortlichkeiten
+elem-U5tPKB1A;Kompetenzerweiterung des Entwicklers;NULL;NULL;
+elem-WDoS5RxB;Kontinuierliche Anforderungspriorisierung;NULL;NULL;"Einer Priorisierung aller Entwicklungsaufgaben sollte durchgeführt werden, z.B. durch ""High-Value-to-Cost-Ratio"" und ""Risk-First""-Priorisierung. Ziel ist eine priorisiertes Aufgabenliste bzw. Backlog mit einheitlicher Granularität. Wenn sich die Umstände ändern, müssen Aufgaben entsprechend angepasst und neu priorisiert werden. Diese Priorisierung ist wichtig, damit man nicht erst im späteren Verlauf eines Projektes die kritischen Systemelemente entwickelt und zu spät mit nicht umsetzbaren Entwicklungsaufgaben konfrontiert wird, die fatale Auswirkungen auf das Projekt haben könnten."
+elem-xUIM8LMt;Kontinuität der Integration von Teilsystemen;NULL;NULL;Neue Teilsysteme, die von mehreren Teams in einem Produkt zusammenlaufen, müssen sofort korrekten Integrationstests unterzogen werden und bei positivem Ergebnis zum Bestand des Gesamtsystems gehören, sodass andere Teams und Mitarbeiter immer mit der aktuellen Version arbeiten und somit stets das große Ganze weiterentwickelt wird. Durch eine häufige Integration von Entwicklungsergebnissen und Teilsystemen bekommen die Teams frühes Feedback zu der Umsetzbarkeit der angestrebten Veränderungen bzw. Erweiterungen.
+elem-7ogVpbDO;Kontinuität des Validierungszyklus;NULL;NULL;"Die Validierung des SiD (""system in development"") sollte möglichst früh und kontinuierlich stattfinden, um kritische Funktionen zu identifizieren und die Termintreue zu verbessern. Zudem sollte während der Produktentwicklung parallel immer an dem entsprechenden Validierungssystem gearbeitet werden, also praktisch als begleitende Basisaktivität. Um Validierungsaktivitäten mit dem Kunden durchführen zu können, muss ebenso früh und kontinuierlich ein nutzbares Produkt geliefert werden, also ein ""valuable product"", das im Fall der mechatronischen Systementwicklung  bspw. auch Simulationen oder abstrakte Systemarchitekturen sein können, die dem Kunden einen ersten Eindruck geben."
+elem-gtMyOW7m;Orientierung an gemeinsamen Visionen und Werten;NULL;NULL;"Im Unternehmen gibt es eine gemeinsame Vision und die Mitarbeiter teilen gemeinsame Werte. Dies hilft der Kommunikation, einem schnelleren Verständnis bei neuer Zusammenarbeit, sowie dabei, ein ""Wir-Gefühl"" aufzubauen und Menschen miteinander zu verbinden."
+elem-0hB3d0e3;Priorisierungsniveau der Aufgaben;NULL;NULL;=Klarheit über Prioritäten
+elem-kTvnvfVI;"Qualität der Arbeitsumgebung; Anzahl der Ablenkungen";NULL;NULL;Die Führungskräfte sollten bemüht sein, Ablenkungen des Teams zu reduzieren oder möglichst abzuwenden, generell eine angenehme Arbeitsumgebung zu schaffen und den Fokus des Teams zu erhalten. Das Team soll von sich sagen können, dass sie sich voll auf ihre Aufgaben und Ziele konzentrieren können.
+elem-ldnDdueE;Qualität der kollaborativen Arbeitsumgebung;NULL;NULL;Die Mitarbeiter arbeiten gemeinsam in einem Großraumbüro oder in Räumen bzw. Raumanordnungen und einer Mitarbeiterverteilung, die für einen guten Informationsfluss optimiert ist. Der Informationsfluss im Team, zwischen Teams und zwischen Abteilungen wird durch eine passende Anordnung stark positiv beeinflusst, wenn es bspw. keine örtliche Trennung der Arbeitsplätze gibt. Zudem erlaubt bspw. ein Großraumbüro mit gemeinsamen Teaminseln sogenannte osmotische Kommunikation, also ein passives Mithören, wenn andere Teammitglieder sich unterhalten, um immer auf dem Laufenden zu sein und evtl. dabei partizipieren zu können oder einzugreifen bei Missverständnissen. Räume können als Konzept, als Maßnahme oder als Methode für agiles Arbeiten gesehen werden, da sie Kreativität und Kooperation fördern und ermöglichen können.
+elem-jb2Z3EpT;Qualität der Kundeneinbindung;NULL;NULL;"Ein Treffen zw. Kunden und Entwicklern, das vor dem Start des Projekts und nach jeder Iteration stattfindet, um die Anforderungen und die technische Machbarkeit des Produktes zu besprechen und zu verhandeln. Es ist wichtig durch diese Planungstreffen valide Anforderungen zu generieren, anhand derer Aufwandsabschätzungen getroffen werden können, die als Planungsgrundlage für kommende Iterationszyklen dienen (vgl. ""Planning Game"", Release Planning und Iteration Planning)."
+elem-NmRVFhyA;Qualität der Mitarbeiterschulungen und Trainings;NULL;NULL;"Mehrmals jährlich werden Schulungen und Trainings für die Mitarbeiter angeboten bezüglich Methoden, Tools, Denkweisen, Werte und Prozessen. Mitarbeiter erhalten Schulungen zu Methoden, sowohl für neu eingeführte, weiterentwickelte oder bereits bekannte. Die Chance einer erfolgreichen Implementierung und späteren Durchführung einer Methode steigt erheblich durch vorab erhaltene Methoden-Schulungen, in denen erste positive Erfahrungen und Eindrücke einer Methode gesammelt werden. Wichtig ist, dass Methoden persönlich erlebt werden, statt nur theoretisch vermittelt. Mitarbeiter nehmen freiwillig an Trainings teil, werden jedoch für Teilnahme und Leistungen belohnt, um sie für das Konzept ""lebenslanges Lernen"" zu motivieren. Zudem sollte es im Unternehmen ein einheitliches und passendes Schulungskonzept über agile Ansätze in agile Ansätze integriert werden (zB. im Zuge der Retrospektive-Meetings). Dabei soll sich das Schulungskonzept selbst weiterentwickelt, sodass es Agilität gleichzeitig lebt und lehrt."
+elem-K1bUPwjJ;Qualität der Planung;NULL;NULL;Von Mikromanagement in Projekten sollte stets abgesehen werden. Eine gröbere Planung, z.B. von Meilensteine und Sprints, gibt den selbstorganisierten Teams mehr Raum zur Entfaltung.
+elem-AEqctl8J;Qualität der Team-Performance;NULL;NULL;"Von dem Entwicklerteam wird (nach einer Einarbeitungszeit) ein konstantes Performance-Level erwartet (""velocity""). Ziel ist eine nachhaltige und konstante Lieferung von Ergebnissen. Dieser Anspruch auf ein konstantes Tempo bezieht sich nicht nur auf das Entwicklerteam, sondern auf alle am Projekt beteiligten Parteien, um den Umfang von Arbeitspaketen besser abschätzen zu können und eine Planung im Kontext komplexer Projekte zu ermöglichen."
+elem-AE0RRLd0;Qualität der Teampartizipation;NULL;NULL;= Jeder hatte die Möglichkeit etwas anzusprechen
+elem-cHlGVpZ5;Qualität des Feedbacks;NULL;NULL;
+elem-YXuvo4kt;Qualität des Stakeholder-Managements;NULL;NULL;"Es sollte im Entwicklungsprozess eine hohe ""Stakeholder-Awareness"" geben und bei Bedarf sollte die Einbindung neuer Stakeholder in den Prozess erfolgen. Hierzu sollte es eine Strategie geben, wie wichtige Stakeholder identifiziert werden und die Quellen des Einflusses verstanden werden. Zur Identifikation der Stakeholder kann bspw. ein Viel-Level Framework verwendet werden, welches Stakeholder einordnet und in Relation zueinander setzt. Die Vier Level umfassen: Business Environment, Offering, Product, Service Delivery."
+elem-y6GVV12J;Quantität des Feedbacks;NULL;NULL;
+elem-bOQiQpQ5;Skalierbarkeit agiler Praktiken;NULL;NULL;Das Arbeiten auf verschiedenen Programmebenen, bei der Praktiken in großen und komplexen Projekten über mehrere Teams hinweg skaliert werden, soll ermöglicht werden. Eine Skalierbarkeit agiler Praktiken ermöglicht Flexibilität um beispielsweise auch bei großen Projekten die verschiedene Anwendungen, Plattformen oder Techniken beeinflussen zu können.
+elem-2D9XOVll;Strategie an Kundennutzen ausgerichtet;NULL;NULL;Unternehmen richtet seine Strategie am Kunden aus und strebt nach Maximierung des Kundennutzens.
+elem-zvJB7VvI;Teilhabe an der Kommunikation in Teammeetings;NULL;NULL;=Jeder muss die Möglichkeit haben etwas zu sagen
+elem-5kn48AvH;Test-getriebene Entwicklung;NULL;NULL;"Auch in der Mechatroniksystementwicklung kann eine Ausrichtung der Entwicklung an Testszenarien sinnvoll sehr sein, ähnlich dem ""Test-First Development"" aus XP. Dabei werden Testfälle beschrieben, bevor der Code geschrieben bzw. konkrete Teilsysteme erdacht und konstruiert werden. Testfälle werden als Benchmarks zum Testen der entstehenden Produkte verwendet. Das Prinzip hinter dieser Praxis ist, zu wissen, was die tatsächliche Entwicklungsaufgabe ist, bevor versucht wird herauszufinden, wie die Lösung aussieht."
+elem-9piyQ4RZ;Transparenz im Entscheidungsprozess;NULL;NULL;"Es herrscht Klarheit über die Entscheidungswege. D.h. jeder ist sich seines Befugnisse bewusst, oder weiß an wen er/sie sich wenden muss, bzw.  wer wofür die Verantwortung übernimmt und welche Entscheidungen selbst getroffen werden können. Die Frage ""darf ich das?"" sollte möglichst nicht aufkommen."
+elem-9UL9boAn;Umgang mit Fehlern im Teamumfeld;NULL;NULL;= Offene Fehlerkultur
+elem-facxXxTp;Verständlichkeit der Zieldefinition;NULL;NULL;
+elem-79TGQTNN;Verständnisgrad von Agilität;NULL;NULL;"Ein Unternehmen wird nicht zum Selbstzweck agil, sondern vielmehr braucht es überzeugende Gründe, warum Agilität die Wettbewerbsfähigkeit des Unternehmens stärkt. Damit der Wandel zu Agilität funktioniert muss auch der entsprechende Leidensdruck (""sense of urgency"") vorhanden sein und dieser muss den Mitarbeitern verständlich und nachfühlbar sein, um den Wandel in Richtung Agilität bewältigen zu können."
+elem-DVflvzut;Verwendung eines Metamodels zur Prozessgestaltung;NULL;NULL;Interne Kräfte (Entwickler, Abteilungsleiter, Manager, etc.) sowie Externe (Zulieferer, Dienstleister) nutzen alle das gleiche Metamodell zur Prozessgestaltung und Kommunikation. Eine gleiche Arbeitsweise verschiedener beteiligter Parteien sorgt für ein gemeinsames Verständnis des Aufbaus von Projekten. Dies erleichtert nicht nur die Kommunikation, sondern verhindert Fehler und ermöglicht effektives Arbeiten, beispielsweise bei einem Projekttransfer vom Innovationsmanagement zur Abteilung Forschung und Entwicklung.
+elem-4EcTGpUB;Visualisierung der Agilität (Normen und Richtlinien);NULL;NULL;Die im Unternehmen gepflegte Agilität muss sich auch in Normen und Richtlinien abbilden. Dies dient zur Kommunikation des Agilitätsverständnis im Unternehmen oder auch bei unternehmensübergreifenden Aktivitäten.
+elem-Stbtoch1;Visualisierung des Fortschritts;NULL;NULL;"Es werden Tools zur Visualisierung des Projektfortschrittes, wie z.B. ""burndown-charts"" genutzt, die zentral für alle Teammitglieder und evtl. Stakeholder sichtbar sind. Ziel ist die ständige und bewusste Pflege gut sichtbarer Informationsregister zur Erhöhung des Situationsbewusstsein und besseren Koordinierung von Aufgaben."
+elem-yvMeM1BT;Volatilität der Randbedingungen;NULL;NULL;"1. ""Dynamik und Variabilität im Systemumfeld: Variabilität und Dynamik im System neigen dazu, zu Volatilität zu führen. Dies kann sich in der Produktentwicklung durch schnell wechselnde Kundenanforderungen oder Marktpräferenzen äußern""
+2. Unvorhergesehene technologische Sprünge: Unerwartet neue Technologien oder konkurrierende Lösungen auf dem Markt -> machen bisherigen technischen Annahmen oder Design-Entscheidungen obsolet -> Umdenken
+3. Schwankende Rohstoffpreise, unerwartete Regulatorien (""Trump-Zölle""), etc.
+
+Pendzik - VUCA"
+elem-ivDOaa1S;Zielklarheit der Teammitglieder;NULL;NULL;= Vision und Motivation
