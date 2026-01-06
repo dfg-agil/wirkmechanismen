@@ -54,8 +54,22 @@ def get_base_element_ids(path: Path) -> Optional[Set[str]]:
         rel = path
     git_arg = f"origin/main:{rel.as_posix()}"
     try:
-        proc = subprocess.run(["git", "show", git_arg], check=True, capture_output=True, text=True)
-        data = json.loads(proc.stdout)
+        # Ensure subprocess output is decoded as UTF-8 to avoid platform-specific
+        # decoding errors when reading git output on Windows (cp1252 default).
+        proc = subprocess.run(
+            ["git", "show", git_arg],
+            check=True,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+        )
+        try:
+            data = json.loads(proc.stdout)
+        except json.JSONDecodeError:
+            # If decoding produced replacement characters and JSON fails,
+            # fall back to returning None to allow lint to continue.
+            return None
         elements = data.get("elements", [])
         return {e.get("_id") for e in elements if isinstance(e, dict) and isinstance(e.get("_id"), str)}
     except Exception:
