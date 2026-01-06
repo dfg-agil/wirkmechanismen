@@ -95,8 +95,8 @@
         "reach-efficiency": 0.027722772277227727,
         "micmac influence": 0.9013990852927545,
         "micmac exposure": 0.5828729346045435,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -2711,22 +2711,6 @@
       "attributes": {
         "label": "Grad des Commitments",
         "description": "Um das Commitment und Engagement der Mitarbeiter zu schützen, müssen Führungskräfte Maßnahmen ergreifen, um die Umwelt zu kontrollieren, Ablenkungen zu vermeiden und den Fokus aufrechtzuerhalten. Das Verhalten des Managements sollte ihren Erwartungen an ihr Team entsprechen - \"they should walk their talk\". Zudem ist es wichtig dem Team  bisher erreichte Ergebnisse klar offenzulegen und das Team zu würdigen. So kann das Commitment im Team langfristig aufrechterhalten werden, was zu höherer Motivation und größerem Leistungsvermögen der Mitarbeiter führt.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
-      }
-    },
-    {
-      "_id": "elem-CuaFkCcT",
-      "attributes": {
-        "label": "Bereitschaft zur Veränderung",
-        "description": "Die Begeisterung für agile Arbeitsweisen muss durch alle Ebenen gehen und entsprechend muss auch die Bereitschaft zu Veränderungen vorhanden sein. So kann beispielsweise die Teamleiterebene obsolet werden, da je nach Aufgabenstellung nur Scrum Master und Product Owner nötig sind.",
         "element type": "Einflussfaktoren",
         "tags": [
           "AgilityMap"
@@ -5998,18 +5982,6 @@
       "_id": "conn-auto-011",
       "from": "elem-93NeBEYA",
       "to": "elem-NmRVFhyA",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
-      "_id": "conn-auto-012",
-      "from": "elem-CuaFkCcT",
-      "to": "elem-97NjDQTs",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
