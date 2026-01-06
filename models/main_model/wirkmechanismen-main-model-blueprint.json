@@ -2806,7 +2806,7 @@
     {
       "_id": "elem-jb2Z3EpT",
       "attributes": {
-        "label": "Qualität der Kundeneinbindung",
+        "label": "Grad der Kundeneinbindung",
         "description": "Ein Treffen zw. Kunden und Entwicklern, das vor dem Start des Projekts und nach jeder Iteration stattfindet, um die Anforderungen und die technische Machbarkeit des Produktes zu besprechen und zu verhandeln. Es ist wichtig durch diese Planungstreffen valide Anforderungen zu generieren, anhand derer Aufwandsabschätzungen getroffen werden können, die als Planungsgrundlage für kommende Iterationszyklen dienen (vgl. \"Planning Game\", Release Planning und Iteration Planning).",
         "element type": "Einflussfaktoren",
         "tags": [
@@ -2815,8 +2815,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
