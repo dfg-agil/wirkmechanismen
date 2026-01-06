@@ -1010,7 +1010,7 @@
     {
       "_id": "elem-SM5oOnLX",
       "attributes": {
-        "label": "Erfüllung der Nutzeranforderung des Tools",
+        "label": "Erfüllung der Nutzeranforderung an das Tools",
         "element type": "Einflussfaktoren",
         "tags": [
           "Kommunikation",
@@ -1029,8 +1029,8 @@
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
         "micmac exposure": 0.8160049503978034,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -2847,8 +2847,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -2902,7 +2902,7 @@
     {
       "_id": "elem-pOq2hTBC",
       "attributes": {
-        "label": "Kadenz der Lieferzyklen",
+        "label": "Frequenz der Lieferzyklen",
         "description": "Es sollte eine kurze Freigabezykluszeit angestrebt werden (\"time boxing\"). Die Freigabezykluszeit beschreibt dabei die Häufigkeit der Lieferung von Teilergebnissen des Projekts an die Stakeholder, also z.B. von Hardware, Simulationen, Prototypen, Diagnosen, Marktforschung. Es muss eine regelmäßige Lieferung funktionierender Produkte an den Kunden angestrebt werden, in möglichst kurzen Zeitabständen von wenigen Wochen, bzw. wenigen Monate.",
         "element type": "Einflussfaktoren",
         "tags": [
@@ -2911,8 +2911,8 @@
         "micmac influence": 0,
         "metrics::last": 0.6984704611086446,
         "micmac exposure": 0.6984704611086446,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
