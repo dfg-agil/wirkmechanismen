@@ -2431,8 +2431,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2447,8 +2447,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1.0,
+        "influenceability": 1.0
       }
     },
     {
@@ -2463,8 +2463,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2479,8 +2479,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2495,8 +2495,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2511,8 +2511,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2543,8 +2543,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2559,8 +2559,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2607,8 +2607,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1.0,
+        "influenceability": 0.5
       }
     },
     {
@@ -2623,8 +2623,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2639,8 +2639,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
