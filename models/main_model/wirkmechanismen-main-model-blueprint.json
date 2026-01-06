@@ -2405,9 +2405,9 @@
     {
       "_id": "elem-eaILhq80",
       "attributes": {
-        "label": "Autonomie durch klar definierte Grenzen der Rollen",
-        "description": "Autonomie durch Grenzen (\"Autonomy Through Boundaries\") - Autonomie heißt nicht, dass ein Team alles tun darf was es will, sondern dass Grenzbereiche /Richtlinien sehr klar definiert sind. Mitarbeiter handeln selbstständig im Rahmen ihrer Möglichkeiten und Befugnisse und es ist weniger Kommunikation mit der Führungsebene notwendig, was den Workflow erheblich verbessert.",
-        "element type": "Einflussfaktoren",
+        "label": "REMOVED: Autonomie durch klar definierte Grenzen der Rollen",
+        "description": "[REMOVED] Autonomie durch Grenzen — gelöscht per Nutzeranfrage.",
+        "element type": "Removed",
         "tags": [
           "AgilityMap"
         ],
@@ -2415,7 +2415,8 @@
         "metrics::last": 0,
         "micmac exposure": 0,
         "measurability": null,
-        "influenceability": null
+        "influenceability": null,
+        "deleted": true
       }
     },
     {
@@ -5930,18 +5931,7 @@
         "connection type": "++"
       }
     },
-    {
-      "_id": "conn-auto-007",
-      "from": "elem-eaILhq80",
-      "to": "elem-xGnKBSH9",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
+    
     {
       "_id": "conn-auto-008",
       "from": "elem-ga15zxKL",
@@ -6230,18 +6220,7 @@
         "connection type": "++"
       }
     },
-    {
-      "_id": "conn-auto-034",
-      "from": "elem-Iq65xIIl",
-      "to": "elem-eaILhq80",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
+    
     {
       "_id": "conn-auto-035",
       "from": "elem-WDoS5RxB",
