@@ -2605,6 +2605,16 @@
       }
     },
     {
+      "_id": "elem-LernOrient",
+      "attributes": {
+        "label": "Ausprägung der Lernorientierung",
+        "description": "Die Ausprägung der Lernorientierung beschreibt, inwieweit eine Organisation oder ein Team den Fokus auf kontinuierliches Lernen, Wissensaufbau und Verbesserung legt. Eine hohe Lernorientierung fördert Experimentierfreude, Reflexion und die Bereitschaft, aus Fehlern zu lernen.",
+        "element type": "Einflussfaktoren",
+        "measurability": null,
+        "influenceability": null
+      }
+    },
+    {
       "_id": "elem-r5uVEKtS",
       "attributes": {
         "label": "Bereitschaft zum Lernen",
@@ -3189,6 +3199,18 @@
     }
   ],
   "connections": [
+    {
+      "_id": "conn-LernFehler",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++"
+      },
+      "from": "elem-LernOrient",
+      "to": "elem-8DovrrfU"
+    },
     {
       "_id": "conn-0JHqBhhT",
       "direction": "directed",
