@@ -709,7 +709,7 @@
         "micmac influence": 0.7656979042724437,
         "micmac exposure": 0.7872223336812051,
         "measurability": 0.5,
-        "influenceability": 0.5
+        "influenceability": 1
       }
     },
     {
