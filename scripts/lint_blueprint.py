@@ -15,7 +15,8 @@ import json
 import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Sequence, Set
+from typing import Any, Dict, Iterable, List, Sequence, Set, Optional
+import subprocess
 
 SUPPORTED_DIRECTIONS = {"directed", "undirected", "mutual"}
 
@@ -44,7 +45,24 @@ def ensure_dict(value: Any, context: str) -> Dict[str, Any]:
     return value
 
 
-def lint_blueprint(path: Path) -> LintResult:
+def get_base_element_ids(path: Path) -> Optional[Set[str]]:
+    """Return set of element ids from origin/main for the given file, or None if unavailable."""
+    repo_root = Path(__file__).resolve().parents[1]
+    try:
+        rel = path.resolve().relative_to(repo_root)
+    except Exception:
+        rel = path
+    git_arg = f"origin/main:{rel.as_posix()}"
+    try:
+        proc = subprocess.run(["git", "show", git_arg], check=True, capture_output=True, text=True)
+        data = json.loads(proc.stdout)
+        elements = data.get("elements", [])
+        return {e.get("_id") for e in elements if isinstance(e, dict) and isinstance(e.get("_id"), str)}
+    except Exception:
+        return None
+
+
+def lint_blueprint(path: Path, require_metrics_for_new: bool = False) -> LintResult:
     errors: List[str] = []
 
     try:
@@ -87,6 +105,38 @@ def lint_blueprint(path: Path) -> LintResult:
             label = attributes.get("label")
             if not isinstance(label, str) or not label.strip():
                 errors.append(f"{prefix}.attributes.label must be a non-empty string.")
+
+    # If requested, determine base element ids to detect newly added elements
+    base_ids: Optional[Set[str]] = None
+    if require_metrics_for_new:
+        base_ids = get_base_element_ids(path)
+        if base_ids is None:
+            errors.append("Warning: could not fetch origin/main version to determine new elements; skipping new-element metric checks.")
+    # If base_ids is available, check newly added elements for required metrics
+    if base_ids is not None:
+        for index, raw_element in enumerate(elements):
+            if not isinstance(raw_element, dict):
+                continue
+            elem_id = raw_element.get("_id")
+            if not isinstance(elem_id, str):
+                continue
+            if elem_id in base_ids:
+                continue
+            attributes = raw_element.get("attributes")
+            if not isinstance(attributes, dict):
+                continue
+            meas = attributes.get("measurability")
+            infl = attributes.get("influenceability")
+            missing = []
+            if meas is None:
+                missing.append("measurability")
+            if infl is None:
+                missing.append("influenceability")
+            if missing:
+                errors.append(
+                    f"New element '{elem_id}' missing fields: {', '.join(missing)}. "
+                    + "Add values (0/0.5/1) or include 'MISSING_METRICS: measurability=<value_or_NULL>, influenceability=<value_or_NULL>' in the PR description."
+                )
 
     connection_ids: Set[str] = set()
     for index, raw_connection in enumerate(connections):
@@ -169,6 +219,11 @@ def parse_args(argv: Iterable[str]) -> argparse.Namespace:
         nargs="*",
         help="Blueprint JSON files or directories to lint (defaults to ./models).",
     )
+    parser.add_argument(
+        "--require-metrics-for-new",
+        action="store_true",
+        help="When set, check newly added elements (vs origin/main) have measurability/influenceability defined.",
+    )
     return parser.parse_args(argv)
 
 
@@ -180,7 +235,7 @@ def main(argv: Iterable[str] | None = None) -> int:
         print(f"Error: {exc}", file=sys.stderr)
         return 2
 
-    results = [lint_blueprint(path) for path in blueprint_files]
+    results = [lint_blueprint(path, require_metrics_for_new=args.require_metrics_for_new) for path in blueprint_files]
 
     had_error = False
     for result in results:
