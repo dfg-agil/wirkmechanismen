@@ -2381,9 +2381,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+          "micmac exposure": 0,
+          "measurability": 0.5,
+          "influenceability": 0.5
       }
     },
     {
