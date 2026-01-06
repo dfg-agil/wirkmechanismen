@@ -6287,18 +6287,6 @@
       }
     },
     {
-      "_id": "conn-auto-031",
-      "from": "elem-fZPBc4wU",
-      "to": "elem-ldnDdueE",
-      "direction": "mutual",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
       "_id": "conn-auto-032",
       "from": "elem-eXH0Cf1d",
       "to": "elem-2D9XOVll",
@@ -6831,18 +6819,6 @@
       "_id": "conn-bridge-030",
       "from": "elem-are9vvnr",
       "to": "elem-nAA1gU0l",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
-      "_id": "conn-bridge-031",
-      "from": "elem-mzeWXZfS",
-      "to": "elem-fZPBc4wU",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
