@@ -3124,19 +3124,35 @@
       }
     },
     {
-      "_id": "elem-fZPBc4wU",
+      "_id": "elem-gdWissAust01",
       "attributes": {
-        "label": "Grad des kollaborativen Wissensaustauschs (möglicher Unterpunkt dazu: Transparenz der Fähigkeiten der Teammitglieder)",
-        "description": "Teammitglieder sollten Fachwissen, Kontext und Erfahrungen bereitwillig mit andern Teammitgliedern teilen und der Wissensaustausch sollte gefördert werden.",
+        "label": "Grad des Wissensaustauschs",
+        "description": "Teammitglieder teilen Fachwissen, Kontext und Erfahrungen aktiv miteinander; fördert organisatorisches Lernen.",
         "element type": "Einflussfaktoren",
         "tags": [
           "AgilityMap"
         ],
         "micmac influence": 0,
-        "metrics::last": 0.786522384144123,
-        "micmac exposure": 0.786522384144123,
-        "measurability": null,
-        "influenceability": null
+        "metrics::last": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-transpFahig01",
+      "attributes": {
+        "label": "Transparenz der Fähigkeiten der Teammitglieder",
+        "description": "Offene Sichtbarkeit darüber, welche Fähigkeiten und Kompetenzen Teammitglieder besitzen, z. B. Skills-Register oder Fähigkeitsübersichten.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "AgilityMap"
+        ],
+        "micmac influence": 0,
+        "metrics::last": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
