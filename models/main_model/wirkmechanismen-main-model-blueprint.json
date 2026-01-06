@@ -1010,7 +1010,7 @@
     {
       "_id": "elem-SM5oOnLX",
       "attributes": {
-        "label": "Erfüllung der Nutzeranforderung des Tools",
+        "label": "Erfüllung der Nutzeranforderung an das Tool",
         "element type": "Einflussfaktoren",
         "tags": [
           "Kommunikation",
@@ -2747,22 +2747,7 @@
         "measurability": null,
         "influenceability": null
       }
-    },
-    {
-      "_id": "elem-CuaFkCcT",
-      "attributes": {
-        "label": "Bereitschaft zur Veränderung",
-        "description": "Die Begeisterung für agile Arbeitsweisen muss durch alle Ebenen gehen und entsprechend muss auch die Bereitschaft zu Veränderungen vorhanden sein. So kann beispielsweise die Teamleiterebene obsolet werden, da je nach Aufgabenstellung nur Scrum Master und Product Owner nötig sind.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
-      }
+   
     },
     {
       "_id": "elem-Y1OtCeB9",
@@ -2815,7 +2800,7 @@
     {
       "_id": "elem-jb2Z3EpT",
       "attributes": {
-        "label": "Qualität der Kundeneinbindung",
+        "label": "Grad der Kundeneinbindung",
         "description": "Ein Treffen zw. Kunden und Entwicklern, das vor dem Start des Projekts und nach jeder Iteration stattfindet, um die Anforderungen und die technische Machbarkeit des Produktes zu besprechen und zu verhandeln. Es ist wichtig durch diese Planungstreffen valide Anforderungen zu generieren, anhand derer Aufwandsabschätzungen getroffen werden können, die als Planungsgrundlage für kommende Iterationszyklen dienen (vgl. \"Planning Game\", Release Planning und Iteration Planning).",
         "element type": "Einflussfaktoren",
         "tags": [
@@ -2824,8 +2809,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
