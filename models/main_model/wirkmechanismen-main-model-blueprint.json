@@ -1333,33 +1333,7 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
-    },
-    {
-      "_id": "elem-ZgVbLBTy",
-      "attributes": {
-        "label": "hohe Medienkompetenz",
-        "tags": [
-          "Hindernisse und Abhängigkeiten",
-          "Planning"
-        ],
-        "element type": "Einflussfaktoren",
-        "description": "= (visuelle) Transparenz im Tool (Board)",
-        "closeness": 0,
-        "metrics::last": 0.6330977784961899,
-        "degree": 1,
-        "size": 2,
-        "indegree": 1,
-        "outdegree": 0,
-        "betweenness": 0,
-        "eigenvector": 0.008800877593691837,
-        "reach": 0.009900990099009901,
-        "reach-efficiency": 0.0049504950495049506,
-        "micmac influence": 0,
-        "micmac exposure": 0.6330977784961899,
-        "measurability": null,
-        "influenceability": null
-      }
-    },
+      },
     {
       "_id": "elem-a0dvE9xS",
       "attributes": {
@@ -3974,17 +3948,6 @@
       "to": "elem-F9HioTuT"
     },
     {
-      "_id": "conn-H9miBZoW",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[E]"
-      },
-      "from": "elem-7sSep5II",
-      "to": "elem-ZgVbLBTy"
-    },
-    {
       "_id": "conn-HE0nmqSf",
       "direction": "directed",
       "delayed": false,
@@ -5469,18 +5432,6 @@
       },
       "from": "elem-kpdrF0zk",
       "to": "elem-6tHZ4FNz"
-    },
-    {
-      "_id": "conn-p6vPJa0N",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++"
-      },
-      "from": "elem-bh4G3Yqp",
-      "to": "elem-ZgVbLBTy"
     },
     {
       "_id": "conn-pF94ikYU",
