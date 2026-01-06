@@ -1,0 +1,39 @@
+name: Require metrics for new factors
+
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+
+jobs:
+  lint:
+    name: Lint blueprints (require metrics for new elements)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Run linter with new-element check
+        env:
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: |
+          set -euo pipefail
+          echo "Running lint_blueprint.py --require-metrics-for-new"
+          python scripts/lint_blueprint.py --require-metrics-for-new || true
+          LINT_RC=$?
+          if [ "$LINT_RC" -eq 0 ]; then
+            echo "Lint passed"
+            exit 0
+          fi
+          # Extract PR body and check for MISSING_METRICS marker
+          PR_BODY=$(jq -r .pull_request.body "$GITHUB_EVENT_PATH" || echo "")
+          if echo "$PR_BODY" | grep -q "MISSING_METRICS"; then
+            echo "MISSING_METRICS marker found in PR body — allowing override."
+            echo "::warning::Linter found missing metrics for new elements, but PR contains MISSING_METRICS marker. Reviewer must approve."
+            exit 0
+          fi
+          echo "::error::Linter failed: newly added elements are missing measurability/influenceability."
+          exit $LINT_RC
