@@ -2703,8 +2703,8 @@
     {
       "_id": "elem-kTvnvfVI",
       "attributes": {
-        "label": "Qualität der Arbeitsumgebung; Anzahl der Ablenkungen",
-        "description": "Die Führungskräfte sollten bemüht sein, Ablenkungen des Teams zu reduzieren oder möglichst abzuwenden, generell eine angenehme Arbeitsumgebung zu schaffen und den Fokus des Teams zu erhalten. Das Team soll von sich sagen können, dass sie sich voll auf ihre Aufgaben und Ziele konzentrieren können.",
+        "label": "Qualität der Arbeitsumgebung",
+        "description": "Die Führungskräfte sollten bemüht sein, eine angenehme Arbeitsumgebung zu schaffen und den Fokus des Teams zu erhalten. Das Team soll von sich sagen können, dass sie sich voll auf ihre Aufgaben und Ziele konzentrieren können.",
         "element type": "Einflussfaktoren",
         "tags": [
           "AgilityMap"
@@ -2714,6 +2714,22 @@
         "micmac exposure": 0,
         "measurability": null,
         "influenceability": null
+      }
+    },
+    {
+      "_id": "elem-anzAbln01",
+      "attributes": {
+        "label": "Anzahl der Ablenkungen",
+        "description": "Anzahl und Häufigkeit von Unterbrechungen und Ablenkungen im Arbeitsumfeld (z. B. Lärm, Störungen, Kontextwechsel).",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "AgilityMap"
+        ],
+        "micmac influence": 0,
+        "metrics::last": 0,
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 0.5
       }
     },
     {
@@ -3185,6 +3201,62 @@
       },
       "from": "elem-0er3OquT",
       "to": "elem-U6qgcZdK"
+    },
+    {
+      "_id": "conn-split-001",
+      "from": "elem-anzAbln01",
+      "to": "elem-kTvnvfVI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Mehr Ablenkungen verringern die Qualität der Arbeitsumgebung (negativer Einfluss).",
+        "source": "user-request"
+      }
+    },
+    {
+      "_id": "conn-split-002",
+      "from": "elem-4DZnGitO",
+      "to": "elem-anzAbln01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Informationsdurchlässigkeit der Arbeitsumgebung beeinflusst die Anzahl der Ablenkungen.",
+        "source": "user-request"
+      }
+    },
+    {
+      "_id": "conn-split-003",
+      "from": "elem-anzAbln01",
+      "to": "elem-xGnKBSH9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Anzahl der Ablenkungen beeinflusst negativ den Grad des Commitments (Beispielverbindung).",
+        "source": "user-request"
+      }
+    },
+    {
+      "_id": "conn-InfQual-bidir",
+      "direction": "mutual",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mutual connection zwischen Informationsdurchlässigkeit der Arbeitsumgebung und Qualität der Kommunikation (erstellt)",
+        "source": "user-request"
+      },
+      "from": "elem-4DZnGitO",
+      "to": "elem-bh4G3Yqp"
     },
     {
       "_id": "conn-0gCIJ2P9",
