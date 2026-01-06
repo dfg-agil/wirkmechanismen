@@ -1,0 +1,29 @@
+Änderungen in diesem Pull Request
+
+Kurzbeschreibung
+- Ersetzt den zusammengesetzten Faktor "Grad des kollaborativen Wissensaustauschs (...)" durch zwei separate Elemente:
+  - Grad des Wissensaustauschs (`elem-gdWissAust01`) — measurability=0.5, influenceability=1
+  - Transparenz der Fähigkeiten der Teammitglieder (`elem-transpFahig01`) — measurability=0.5, influenceability=0.5
+
+Übernommene Werte aus der Excel-Tabelle
+- Zahlreiche Einflussfaktoren wurden mit Messbarkeits- und Beeinflussbarkeitswerten aus
+  `scripts/factors_measurability_proposals_RO_green.xlsx` ergänzt. Die vollständige Liste
+  der übernommenen Werte befindet sich in `mapping_result.json` im Repository.
+
+Manuelle Korrekturen
+- `elem-SM5oOnLX`: Label angepasst zu "Erfüllung der Nutzeranforderung an das Tools"; measurability=1, influenceability=1
+- `elem-pOq2hTBC`: Label angepasst zu "Frequenz der Lieferzyklen" (ersetzt frühere Benennung); measurability=1, influenceability=1
+- `elem-jb2Z3EpT`: `Grad der Kundeneinbindung` — measurability=1, influenceability=1
+
+Validierung
+- `scripts/lint_blueprint.py --require-metrics-for-new` ausgeführt; Blueprint validiert.
+
+Anmerkungen
+- Wenn Labels leicht abweichen sollten, bitte kurz melden; ich kann fuzzy-matching anpassen.
+- Details der übernommenen Werte: [mapping_result.json](mapping_result.json)
+
+Review-Checkliste
+- Sind die neuen Labels in Ordnung?
+- Stimmen die übernommenen Mess- und Beeinflussbarkeitswerte mit euren Erwartungen?
+
+Danke — ich passe bei Bedarf gerne noch Einträge an.
