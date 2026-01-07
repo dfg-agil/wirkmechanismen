@@ -490,7 +490,7 @@
         ],
         "description": "Die Qualität der Meetingkultur beschreibt, wie sinnvoll, effizient und ergebnisorientiert Meetings in einer Organisation ablaufen. Sie wirkt direkt auf Produktivität, Wertschöpfung und Motivation der Mitarbeitenden.",
         "measurability": 0.5,
-        "influenceability": 0.8
+        "influenceability": 1
       }
     },
     {
@@ -5883,6 +5883,19 @@
       "attributes": {},
       "from": "elem-axja1imq",
       "to": "elem-kQpp3aDS"
+    },
+    {
+      "_id": "conn-meetingkultur-00",
+      "from": "elem-meetingkultur01",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine gute Meetingkultur als übergeordneter Faktor verbessert die Qualität des Dailies durch etablierte Meeting-Standards und -Praktiken."
+      }
     },
     {
       "_id": "conn-meetingkultur-01",
