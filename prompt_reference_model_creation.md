@@ -68,8 +68,8 @@ Erstelle ein Reference Model, das die **bestehende Situation** beschreibt:
 
 **Elementtaxonomie:**
 - Schlüsselfaktoren: Mindestens EINE (1), genau eine mit [PRIMARY] Tag in attributes.description
-- Erfolgsfaktoren: Mindestens EINE (1) als End-Node
-- Messbare Erfolgsfaktoren: Falls Erfolgsfaktor measurability < 0.8, muss ein messbarer Proxy hinzugefügt werden
+- Erfolgsfaktoren: Mindestens EINE (1) als bevorzugt End-Node (oder justifizieren falls nicht)
+- Messbare Erfolgsfaktoren: Falls Erfolgsfaktor nicht direkt messbar (measurability < 1.0), muss ein messbarer Proxy mit measurability = 1.0 hinzugefügt werden
 - Einflussfaktoren: Alle restlichen Faktoren; müssen auf einem gültigen Key→Success-Pfad liegen (keine isolierten Faktoren)
 
 **Kausalstruktur:**
