@@ -40,7 +40,7 @@ Basierend auf der **Design Research Methodology (DRM)** von Blessing und Chakrab
 ## Schritte zur Ableitung
 
 ### 1. **Analyse des Netzwerkdiagramms**
-Analysiere das Netzwerkdiagramm, um relevante Elemente, Faktoren, Verbindungen und Schleifen zu identifizieren, die mit dem Problem [PROBLEM_PLACEHOLDER] zusammenhängen. Konzentriere dich auf Knoten mit hoher Relevanz, wie z. B.:
+Analysiere das Netzwerkdiagramm, um relevante Elemente, Faktoren, Verbindungen und Schleifen zu identifizieren, die mit dem definierten Problem zusammenhängen. Konzentriere dich auf Knoten mit hoher Relevanz, wie z. B.:
 - Unsicherheiten
 - Metriken
 - Team-Dynamiken
@@ -48,7 +48,7 @@ Analysiere das Netzwerkdiagramm, um relevante Elemente, Faktoren, Verbindungen u
 - Event-bezogene Faktoren
 
 ### 2. **Identifizierung von Schlüsselfaktoren**
-Identifiziere Schlüssel-Faktoren aus dem Diagramm, die das Problem beeinflussen, insbesondere:
+Identifiziere Schlüssel-Faktoren aus dem Diagramm, die das identifizierte Problem beeinflussen, insbesondere:
 - Ursachen und Auswirkungen
 - Verstärkungsschleifen
 - Lücken in den Verbindungen
@@ -100,8 +100,8 @@ Generiere das Output als JSON-File im KUMU-kompatiblen Format mit Abschnitten f�
 - elements – Alle Faktoren mit _id, Attributen (Name, Type, Beschreibung, Messbarkeit, Influenceability)
 - connections – Alle gerichteten Verbindungen mit from, to, Polarität (++, +-, -+, --), Quellenattribution und Beschreibung
 
-Dateiname: reference_model_[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES].json
-(Ersetze [PROBLEM_PLACEHOLDER_WITH_UNDERSCORES] mit dem Problem-Namen, wobei Leerzeichen durch Unterstriche ersetzt werden.)
+Dateiname: reference_model_[PROBLEM_AS_FILENAME].json
+wobei [PROBLEM_AS_FILENAME] das Problemstatement mit Unterstrichen statt Leerzeichen ist (z. B. "Verständnis_fuer_die_agilen_Events_fehlt")
 
 ---
 
@@ -117,6 +117,4 @@ Dateiname: reference_model_[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES].json
 
 ---
 
-## Dokumentenanhänge vor der Verwendung
 
-Stelle sicher, dass das LLM folgende Dateien als Kontext erhält:
