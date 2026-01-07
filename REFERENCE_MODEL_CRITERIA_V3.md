@@ -164,7 +164,7 @@ This file defines specific criteria for generating reference models in the Wirkm
 - **AUTOMATIC REJECT**: JSON schema violations
 - **AUTOMATIC REJECT**: Factors not formulated as "attribute-of-an-element"
 
-## Summary (V2)
+## Summary 
 
 Reference Models represent the current state for specific problems. They:
 1. Have **at least one Key Factor**, with **exactly one designated as the primary Key Factor** (start node); **secondary Key Factors** are allowed.
