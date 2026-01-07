@@ -503,32 +503,7 @@
         "influenceability": null
       }
     },
-    {
-      "_id": "elem-AE0RRLd0",
-      "attributes": {
-        "label": "Qualität der Teampartizipation",
-        "tags": [
-          "Team-Partizipation",
-          "Planning"
-        ],
-        "element type": "Einflussfaktoren",
-        "description": "= Jeder hatte die Möglichkeit etwas anzusprechen",
-        "closeness": 0.01,
-        "metrics::last": 0.8830036809263201,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
-        "betweenness": 0,
-        "eigenvector": 0.002806812667520127,
-        "reach": 0.019801980198019802,
-        "reach-efficiency": 0.006600660066006601,
-        "micmac influence": 0,
-        "micmac exposure": 0.8830036809263201,
-        "measurability": null,
-        "influenceability": null
-      }
-    },
+    
     {
       "_id": "elem-DbXXPgu4",
       "attributes": {
@@ -3687,15 +3662,7 @@
       "from": "elem-8Gqgaih7",
       "to": "elem-YDXh1U6N"
     },
-    {
-      "_id": "conn-82UFzOLG",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-1oLVNA94",
-      "to": "elem-AE0RRLd0"
-    },
+    
     {
       "_id": "conn-8OPfyfYa",
       "direction": "directed",

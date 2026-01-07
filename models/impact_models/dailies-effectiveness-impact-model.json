@@ -228,7 +228,7 @@
     {
       "_id": "conn-SUPPORT-FACILITATION-TO-PARTICIPATION",
       "from": "elem-SUPPORT-FACILITATION-TRAINING",
-      "to": "elem-AE0RRLd0",
+      "to": "elem-kpdrF0zk",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -290,19 +290,7 @@
         "description": "Bessere Struktur und Zielorientierung führen zu systematischerer Identifikation von Abhängigkeiten und Hindernissen, wodurch deren Anzahl (als bekannte/dokumentierte Impediments) zunimmt, während gleichzeitig die Problemlösung verbessert wird."
       }
     },
-    {
-      "_id": "conn-STRUCTURE-TO-PARTICIPATION",
-      "from": "elem-YDXh1U6N",
-      "to": "elem-AE0RRLd0",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Klare Meeting-Struktur erhöht die Teampartizipation, da Teammitglieder ihre Rolle und Beitragsmöglichkeiten besser verstehen und sich aktiver einbringen können."
-      }
-    },
+    
     {
       "_id": "conn-TIMEMANAGEMENT-TO-TEAMDYNAMIK",
       "from": "elem-bYpJc5sG",
@@ -342,19 +330,7 @@
         "description": "Höhere Anzahl identifizierter Abhängigkeiten und Hindernisse kann zunächst Stress erzeugen, führt aber durch proaktives Adressieren zu besserer Teamdynamik und kollaborativer Problemlösung."
       }
     },
-    {
-      "_id": "conn-PARTICIPATION-TO-TEAMDYNAMIK",
-      "from": "elem-AE0RRLd0",
-      "to": "elem-kpdrF0zk",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Höhere Teampartizipation stärkt Engagement, psychologische Sicherheit und Zusammengehörigkeit, was direkt zu verbesserter Teamdynamik führt."
-      }
-    },
+    
     {
       "_id": "conn-TEAMDYNAMIK-TO-ENDPRODUCT",
       "from": "elem-kpdrF0zk",
