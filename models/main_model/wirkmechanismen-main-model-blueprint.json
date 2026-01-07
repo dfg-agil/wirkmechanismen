@@ -480,6 +480,20 @@
     
     
     {
+      "_id": "elem-meetingkultur01",
+      "attributes": {
+        "label": "Qualität der Meetingkultur",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Meetingkultur"
+        ],
+        "description": "Die Qualität der Meetingkultur beschreibt, wie sinnvoll, effizient und ergebnisorientiert Meetings in einer Organisation ablaufen. Sie wirkt direkt auf Produktivität, Wertschöpfung und Motivation der Mitarbeitenden.",
+        "measurability": 0.5,
+        "influenceability": 0.8
+      }
+    },
+    {
       "_id": "elem-DbXXPgu4",
       "attributes": {
         "label": "Anzahl der Teammitglieder",
@@ -5869,6 +5883,45 @@
       "attributes": {},
       "from": "elem-axja1imq",
       "to": "elem-kQpp3aDS"
+    },
+    {
+      "_id": "conn-meetingkultur-01",
+      "from": "elem-meetingkultur01",
+      "to": "elem-9PG4amih",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine gute Meetingkultur fördert die Einhaltung der Meeting-Dauer durch klare Strukturen und Zeitmanagement."
+      }
+    },
+    {
+      "_id": "conn-meetingkultur-02",
+      "from": "elem-meetingkultur01",
+      "to": "elem-DyjLKFjk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine gute Meetingkultur führt zu besserer Strukturierungsklarheit durch etablierte Meeting-Standards."
+      }
+    },
+    {
+      "_id": "conn-meetingkultur-03",
+      "from": "elem-meetingkultur01",
+      "to": "elem-IdAdH9K8",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine gute Meetingkultur fördert relevanzbezogene Kommunikation durch fokussierte Meeting-Praktiken."
+      }
     },
     {
       "_id": "conn-auto-001",
