@@ -1,4 +1,4 @@
-# Reference Model Generation Criteria (V2)
+# Reference Model Generation Criteria (V3)
 
 ## Overview
 
