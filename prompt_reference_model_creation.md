@@ -16,23 +16,31 @@ Für die Erstellung eines Reference Models muss das LLM Zugriff auf folgende Dok
 
 ---
 
-## Prompt: Ableitung eines Reference Models
+## Verwendungsanleitung
+
+1. **Dokumente anhängen**: Stelle sicher, dass das LLM Zugriff auf alle erforderlichen Dokumente hat (siehe oben).
+2. **Platzhalter ersetzen**: Ersetze vor dem Kopieren die Platzhalter:
+   - `[PROBLEM_PLACEHOLDER]` → Das spezifische Problem (z. B. "Verständnis für die agilen Events fehlt")
+   - `[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES]` → Problem mit Unterstrichen statt Leerzeichen für den Dateinamen
+3. **Prompt kopieren**: Kopiere den kompletten Prompt-Text (Abschnitt "Der reine Prompt" unten) und gebe ihn dem LLM.
+
+---
+
+## Der reine Prompt (zum Kopieren)
 
 Du hast Zugriff auf ein Netzwerkdiagramm im JSON-Format namens **"wirkmechanismen-main-model-blueprint.json"**, das agile Mechanismen, Faktoren, Verbindungen und Einflüsse in einem agilen Projektmanagement-Kontext beschreibt. Es enthält Elemente wie Knoten (z. B. Faktoren, Metriken, Unsicherheiten), Verbindungen (z. B. Einflüsse, Abhängigkeiten) und Attribute, die für die Analyse agiler Prozesse relevant sind.
 
 Basierend auf der **Design Research Methodology (DRM)** von Blessing und Chakrabarti, insbesondere dem **Reference Model** (aus den Kapiteln 2.4–2.6), leite ein Reference Model für das folgende spezifische Problem ab:
 
 ### **Problemstellung:**
-**[PROBLEM_PLACEHOLDER]**
-
-> Ersetze `[PROBLEM_PLACEHOLDER]` mit dem spezifischen Problem, für das das Reference Model erstellt werden soll (z. B. "Verständnis für die agilen Events fehlt", "Mangelnde Priorisierung von Anforderungen", etc.)
+[PROBLEM_PLACEHOLDER]
 
 ---
 
 ## Schritte zur Ableitung
 
 ### 1. **Analyse des Netzwerkdiagramms**
-Analysiere das Netzwerkdiagramm mithilfe von Tools wie File Searching oder File Viewer, um relevante Elemente, Faktoren, Verbindungen und Schleifen zu identifizieren, die mit dem **Problem [PROBLEM_PLACEHOLDER]** zusammenhängen. Konzentriere dich auf Knoten mit hoher Relevanz, wie z. B.:
+Analysiere das Netzwerkdiagramm, um relevante Elemente, Faktoren, Verbindungen und Schleifen zu identifizieren, die mit dem Problem [PROBLEM_PLACEHOLDER] zusammenhängen. Konzentriere dich auf Knoten mit hoher Relevanz, wie z. B.:
 - Unsicherheiten
 - Metriken
 - Team-Dynamiken
@@ -44,7 +52,7 @@ Identifiziere Schlüssel-Faktoren aus dem Diagramm, die das Problem beeinflussen
 - Ursachen und Auswirkungen
 - Verstärkungsschleifen
 - Lücken in den Verbindungen
-- Faktoren, die direkt mit "Verständnis für agile Events" verknüpft sind
+- Faktoren, die direkt mit dem Problem verknüpft sind
 
 ### 3. **Erstellung des Reference Models**
 Erstelle ein Reference Model, das die **bestehende Situation** beschreibt:
@@ -52,70 +60,63 @@ Erstelle ein Reference Model, das die **bestehende Situation** beschreibt:
 - Berücksichtige vollständige Stränge, Schleifen und potenzielle Lücken, wie im Diagramm vorhanden
 - Folge dem Schema: **Key Factor(s) → [Influencing Factors] → [Measurable Success Factors] → Success Factor(s)**
 
-### 4. **Einhaltung der Kriterien (REFERENCE_MODEL_CRITERIA_V3.md)**
+### 4. **Einhaltung der Kriterien**
 
-#### Elementtaxonomie
-- **Schlüsselfaktoren**: Mindestens **EINE (1)**, genau eine mit `[PRIMARY]` Tag in `attributes.description`
-- **Erfolgsfaktoren**: Mindestens **EINE (1)** als End-Node
-- **Messbare Erfolgsfaktoren**: Falls Erfolgsfaktor `measurability < 0.8`, muss ein messbarer Proxy hinzugefügt werden
-- **Einflussfaktoren**: Alle restlichen Faktoren; müssen auf einem gültigen Key→Success-Pfad liegen (keine isolierten Faktoren)
+**Elementtaxonomie:**
+- Schlüsselfaktoren: Mindestens EINE (1), genau eine mit [PRIMARY] Tag in attributes.description
+- Erfolgsfaktoren: Mindestens EINE (1) als End-Node
+- Messbare Erfolgsfaktoren: Falls Erfolgsfaktor measurability < 0.8, muss ein messbarer Proxy hinzugefügt werden
+- Einflussfaktoren: Alle restlichen Faktoren; müssen auf einem gültigen Key→Success-Pfad liegen (keine isolierten Faktoren)
 
-#### Kausalstruktur
-- Topologie: **Primary Key Factor = Start-Node** (keine eingehenden Verbindungen)
-- **Success Factors = End-Nodes** (keine ausgehenden Verbindungen)
-- **Pfadvollständigkeit**: Mindestens ein gerichteter Pfad vom Primary Key Factor zu mindestens einem Success Factor
-- **Maximale Pfadlänge**: 4 gerichtete Verbindungen
-- **Alle Faktoren integriert**: Keine isolierten Faktoren; alle Influencing Factors auf mindestens einem Key→Success-Pfad
+**Kausalstruktur:**
+- Primary Key Factor = Start-Node (keine eingehenden Verbindungen)
+- Success Factors = End-Nodes (keine ausgehenden Verbindungen)
+- Mindestens ein gerichteter Pfad vom Primary Key Factor zu mindestens einem Success Factor
+- Maximale Pfadlänge: 4 gerichtete Verbindungen
+- Alle Faktoren integriert: Keine isolierten Faktoren
 
-#### Quellenattribution (MANDATORY)
-- **>50%** aller Verbindungen mit Literaturquellen `[1]`, `[2]`, etc.
-- **Dokumentation**: Vollständige APA-Zitate in `connection.attributes.description`
-- **Erlaubte Evidenztypen**: `[E]` (Erfahrung), `[A]` (Annahme), `[O]` (Untersuchung)
-- **ABLEHNUNG**: Verbindungen ohne Quellenattribution oder mit `[?]`
+**Quellenattribution:**
+- >50% aller Verbindungen mit Literaturquellen [1], [2], etc.
+- Dokumentation: Vollständige APA-Zitate in connection.attributes.description
+- Erlaubte Evidenztypen: [E] (Erfahrung), [A] (Annahme), [O] (Untersuchung)
+- Keine Verbindungen ohne Quellenattribution oder mit [?]
 
-#### Messbarkeit & Influenceability
-- **Schlüsselfaktoren**: `measurability ≥ 0.6` und `influenceability ≥ 0.7`
-- **Messbare Erfolgsfaktoren**: `measurability ≥ 0.8`
-- **Erfolgsfaktoren**: `measurability ≥ 0.3`, typischerweise `influenceability ≤ 0.3`
+**Messbarkeit & Influenceability:**
+- Schlüsselfaktoren: measurability ≥ 0.6 und influenceability ≥ 0.7
+- Messbare Erfolgsfaktoren: measurability ≥ 0.8
+- Erfolgsfaktoren: measurability ≥ 0.3, typischerweise influenceability ≤ 0.3
 
-#### Faktoren-Formulierung
-- Alle Faktoren in **"attribute-of-element"**-Formulierung (z. B. "Qualität des Verständnisses von agilen Events", nicht "Event-Verständnis")
+**Faktoren-Formulierung:**
+- Alle Faktoren in "attribute-of-element"-Formulierung (z. B. "Qualität des Verständnisses von agilen Events")
 
 ### 5. **Iterative DRM-Anwendung**
-Stelle sicher, dass das Modell iterativ und auf dem DRM basiert:
-- Es sollte die **aktuelle Situation** modellieren (Reference Model)
-- Keine sofortigen Lösungsvorschläge einbeziehen
-- Explizit dokumentieren, welche Annahmen getroffen wurden
+Stelle sicher, dass das Modell auf der DRM basiert:
+- Modelliere die aktuelle Situation (Reference Model)
+- Keine sofortigen Lösungsvorschläge
+- Dokumentiere explizit, welche Annahmen getroffen wurden
 
 ### 6. **Output-Format**
-Generiere das Output als **JSON-File im KUMU-kompatiblen Format** mit Abschnitten für:
-- `elements` – Alle Faktoren mit `_id`, Attributen (Name, Type, Beschreibung, Messbarkeit, Influenceability)
-- `connections` – Alle gerichteten Verbindungen mit `from`, `to`, Polarität (`++`, `+-`, `-+`, `--`), Quellenattribution und Beschreibung
+Generiere das Output als JSON-File im KUMU-kompatiblen Format mit Abschnitten für:
+- elements – Alle Faktoren mit _id, Attributen (Name, Type, Beschreibung, Messbarkeit, Influenceability)
+- connections – Alle gerichteten Verbindungen mit from, to, Polarität (++, +-, -+, --), Quellenattribution und Beschreibung
 
-**Dateiname:** `reference_model_[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES].json`
-(Ersetze `[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES]` mit dem Problem-Namen, wobei Leerzeichen und Umlaute durch Unterstriche ersetzt werden. Beispiel: "Verständnis für die agilen Events fehlt" → `reference_model_Verstandnis_fuer_die_agilen_Events_fehlt.json`)
-
-**Verfügbarkeit:** Die Datei sollte zum Download/zur Übernahme verfügbar sein.
+Dateiname: reference_model_[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES].json
+(Ersetze [PROBLEM_PLACEHOLDER_WITH_UNDERSCORES] mit dem Problem-Namen, wobei Leerzeichen durch Unterstriche ersetzt werden.)
 
 ---
 
-## Hinweise
+## Hinweise & Validierung
 
-- **Datenquelle (KRITISCH):** Verwende **NUR** das Netzwerkdiagramm `wirkmechanismen-main-model-blueprint.json` als Quelle für die Reference Model Erstellung. Keine zusätzlichen externen Quellen oder Annahmen ohne explizite Kennzeichnung `[A]`.
+- **Datenquelle (KRITISCH):** Verwende NUR das Netzwerkdiagramm wirkmechanismen-main-model-blueprint.json als Quelle. Keine zusätzlichen externen Quellen ohne explizite Kennzeichnung [A].
 
-- **Keine Extrapolationen:** Falls das Diagramm keine direkten Verbindungen für das Problem enthält, kann eine **minimale logische Erweiterung** basierend auf agilen Prinzipien und dem Originaldiagramm vorgenommen werden – markiere diese jedoch explizit als Annahmen `[A]` in den Verbindungsbeschreibungen.
+- **Keine Extrapolationen:** Falls das Diagramm keine direkten Verbindungen für das Problem enthält, kann eine minimale logische Erweiterung basierend auf agilen Prinzipien vorgenommen werden – markiere diese als Annahmen [A].
 
-- **Erklärung des Modells:** Gib eine kurze Zusammenfassung des abgeleiteten Models aus (z. B. identifizierte Key Factors, zentrale Influencing Factors, kritische Erfolgsfaktoren und deren Zusammenhänge).
+- **Erklärung des Modells:** Gib eine kurze Zusammenfassung des abgeleiteten Models aus.
 
-- **Validierung:** Verwende die Validierungsschritte aus REFERENCE_MODEL_CRITERIA_V3.md, um sicherzustellen, dass das Modell:
-  - JSON-Schema-konform ist
-  - Topologisch korrekt (Primary Key Factor = Start-Node, Success Factors = End-Nodes)
-  - Pfadvollständigkeit erfüllt (Primary Key Factor → mindestens ein Success Factor)
-  - Alle Faktoren integriert (keine isolierten Faktoren)
-  - Quellenattribution korrekt dokumentiert
+- **Validierung:** Stelle sicher, dass das Modell JSON-Schema-konform, topologisch korrekt, pfadvollständig, alle Faktoren integriert und quellenattributions-korrekt dokumentiert ist.
 
 ---
 
-## Verwendung
+## Dokumentenanhänge vor der Verwendung
 
-Dieses Dokument dient als **Eingabe-Spezifikation** für LLM-basierte Systeme oder AI-Agenten zur automatisierten Erstellung von Reference Models. Stelle sicher, dass alle drei erforderlichen Dokumente in den Kontext des LLM übernommen werden, bevor der Prompt ausgeführt wird.
+Stelle sicher, dass das LLM folgende Dateien als Kontext erhält:
