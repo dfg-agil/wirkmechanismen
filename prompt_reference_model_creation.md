@@ -12,7 +12,7 @@ Für die Erstellung eines Reference Models muss das LLM Zugriff auf folgende Dok
 
 ### 3. **Methodologischer Kontext**
 - `general/prompt_instructions.md` – DRM-Methodologie, KUMU-Encoding, Blessing & Chakrabarti Framework und Best Practices
-- **Blessing & Chakrabarti Dokumentation** – Akademisches Referenzmaterial zur Reference Model Definition (Kapitel 2.4–2.6)
+- `general/Blessing_Chakrabarti_2009_DRM.pdf` – Originalpublikation "Design Research Methodology" (Blessing & Chakrabarti, 2009) mit ausführlicher Definition des Reference Models (Kapitel 2.4–2.6)
 
 ---
 
