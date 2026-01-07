@@ -57,8 +57,12 @@ Identifiziere Schlüssel-Faktoren aus dem Diagramm, die das identifizierte Probl
 ### 3. **Erstellung des Reference Models**
 Erstelle ein Reference Model, das die **bestehende Situation** beschreibt:
 - Zeige Beziehungen zwischen Faktoren als **gerichtete Verbindungen** (z. B. positive/negative Einflüsse, Unsicherheiten markiert mit "?")
-- Berücksichtige vollständige Stränge, Schleifen und potenzielle Lücken, wie im Diagramm vorhanden
-- Folge dem Schema: **Key Factor(s) → [Influencing Factors] → [Measurable Success Factors] → Success Factor(s)**
+- Berücksichtige vollständige Stränge, **Rückkopplungsschleifen** und potenzielle Lücken, wie im Diagramm vorhanden
+- Das Modell sollte eine **Netzwerk-Struktur** mit dynamischen Rückkopplungen haben (nicht nur linear):
+  - **Primärer Fluss**: Key Factor(s) → Influencing Factors → Success Factor(s)
+  - **Erlaubt**: Rückkopplungen zwischen Einflussfaktoren, von Erfolgsfaktoren zu Einflussfaktoren, zwischen Key Factors und Influencing Factors
+  - Alle Rückkopplungen müssen explizit mit ihren kausalen Mechanismen dokumentiert sein
+- Folge dem Schema: **Key Factor(s) → [Influencing Factors] → [Measurable Success Factors] → Success Factor(s)** mit möglichen Rückkopplungen
 
 ### 4. **Einhaltung der Kriterien**
 
@@ -69,11 +73,12 @@ Erstelle ein Reference Model, das die **bestehende Situation** beschreibt:
 - Einflussfaktoren: Alle restlichen Faktoren; müssen auf einem gültigen Key→Success-Pfad liegen (keine isolierten Faktoren)
 
 **Kausalstruktur:**
-- Primary Key Factor = Start-Node (keine eingehenden Verbindungen)
-- Success Factors = End-Nodes (keine ausgehenden Verbindungen)
+- Primary Key Factor = bevorzugt Start-Node (oder justifizieren falls nicht)
+- Success Factors = bevorzugt End-Nodes (oder justifizieren falls nicht)
 - Mindestens ein gerichteter Pfad vom Primary Key Factor zu mindestens einem Success Factor
-- Maximale Pfadlänge: 4 gerichtete Verbindungen
+- Maximale Pfadlänge (primär): 4 gerichtete Verbindungen
 - Alle Faktoren integriert: Keine isolierten Faktoren
+- **Rückkopplungen (NEW)**: Erlaubt und erwünscht zwischen Einflussfaktoren, von Success zu Influencing, und zwischen Key zu Influencing (mit expliziter Erklärung)
 
 **Quellenattribution:**
 - >50% aller Verbindungen mit Literaturquellen [1], [2], etc.
@@ -81,10 +86,22 @@ Erstelle ein Reference Model, das die **bestehende Situation** beschreibt:
 - Erlaubte Evidenztypen: [E] (Erfahrung), [A] (Annahme), [O] (Untersuchung)
 - Keine Verbindungen ohne Quellenattribution oder mit [?]
 
-**Messbarkeit & Influenceability:**
-- Schlüsselfaktoren: measurability ≥ 0.6 und influenceability ≥ 0.7
-- Messbare Erfolgsfaktoren: measurability ≥ 0.8
-- Erfolgsfaktoren: measurability ≥ 0.3, typischerweise influenceability ≤ 0.3
+**Messbarkeit & Beeinflussbarkeit (Skala: 0, 0.5, 1.0):**
+
+**Messbarkeit:**
+- 0 = Nicht direkt messbar (z.B. qualitative Befragung, subjektive Beobachtung ohne klare Metrik)
+- 0.5 = Teilweise messbar (z.B. qualitative Daten mit Indikatoren oder Skalen)
+- 1 = Direkt messbar (z.B. Kennzahlen, Anzahl, Zeitmessungen, definierte Metriken)
+
+**Beeinflussbarkeit:**
+- 0 = Schwer beeinflussbar (externe Faktoren, Randbedingungen)
+- 0.5 = Teilweise beeinflussbar (nur über mittlebare Faktoren)
+- 1 = Direkt beeinflussbar (konkrete Maßnahmen, Regeln, Tools)
+
+**Anforderungen:**
+- Schlüsselfaktoren: measurability ≥ 0.5 (bevorzugt 1.0) und influenceability ≥ 0.5 (bevorzugt 1.0)
+- Messbare Erfolgsfaktoren: measurability = 1.0
+- Erfolgsfaktoren: measurability ≥ 0 (oft niedrig), influenceability typischerweise ≤ 0.5
 
 **Faktoren-Formulierung:**
 - Alle Faktoren in "attribute-of-element"-Formulierung (z. B. "Qualität des Verständnisses von agilen Events")
@@ -110,6 +127,8 @@ wobei [PROBLEM_AS_FILENAME] das Problemstatement mit Unterstrichen statt Leerzei
 - **Datenquelle (KRITISCH):** Verwende NUR das Netzwerkdiagramm wirkmechanismen-main-model-blueprint.json als Quelle. Keine zusätzlichen externen Quellen ohne explizite Kennzeichnung [A].
 
 - **Keine Extrapolationen:** Falls das Diagramm keine direkten Verbindungen für das Problem enthält, kann eine minimale logische Erweiterung basierend auf agilen Prinzipien vorgenommen werden – markiere diese als Annahmen [A].
+
+- **Rückkopplungen (NEW):** Identifiziere und dokumentiere Rückkopplungen zwischen Einflussfaktoren, von Erfolgsfaktoren zurück zu Einflussfaktoren, und dynamische Verstärkereffekte. Das Modell sollte die dynamische Natur des Systems abbilden, nicht nur lineare Kausalketten.
 
 - **Erklärung des Modells:** Gib eine kurze Zusammenfassung des abgeleiteten Models aus.
 

@@ -39,22 +39,27 @@ This file defines specific criteria for generating reference models in the Wirkm
 
 ### 2. Causal chain / network structure (MANDATORY)
 
-#### 2.1 Causal network topology (updated to support multiple Key/Success Factors)
-- **MANDATORY**: The **primary Key Factor** MUST be a start node (no incoming connections within the model).
-- **MANDATORY**: All Key Factors SHOULD be start nodes (no incoming connections within the model). If a Key Factor has an incoming connection, the model MUST justify this explicitly in that factor's `attributes.description`.
-- **MANDATORY**: All Success Factors MUST be end nodes (no outgoing connections within the model).
+#### 2.1 Causal network topology (updated to support network structure with feedback loops)
+- **MANDATORY**: The **primary Key Factor** SHOULD be a start node (no incoming connections within the model), but secondary Key Factors MAY have incoming connections if justified.
+- **MANDATORY**: All Success Factors SHOULD be end nodes (no outgoing connections within the model), but feedback loops to Influencing Factors are allowed if they represent dynamic system behavior.
 - **MANDATORY**: All Influencing Factors MUST be causally positioned between Key Factor(s) and Success Factor(s).
-- **STRUCTURE (generalized)**:
-  - `Key Factor(s) → [Influencing Factors] → [Measurable Success Factor(s)] → Success Factor(s)`
+- **STRUCTURE (network-based, dynamic)**:
+  - Primary flow: `Key Factor(s) → [Influencing Factors] → [Measurable Success Factor(s)] → Success Factor(s)`
+  - Allowed: Feedback loops between Influencing Factors, from Success Factors to Influencing Factors (if mechanism is explicit), and between Influencing Factors and Key Factors (representing dynamic reinforcement)
+- **RATIONALE**: Reference Models should represent complex, dynamic systems. Simple linear chains don't capture how factors influence each other over time.
 
-#### 2.2 Path requirements (updated to support multiple Key/Success Factors)
+#### 2.2 Path requirements (updated to support dynamic network topology with feedback)
 - **MANDATORY**: There MUST be at least one directed path from the **primary Key Factor** to **at least one** Success Factor.
 - **MANDATORY**: Each Key Factor (primary and secondary) MUST have at least one directed path to **at least one** Success Factor.
-- **MANDATORY**: Maximum path length: **4 directed connections** between any Key Factor and any Success Factor along a valid path.
-- **MANDATORY**: All Influencing Factors MUST lie on at least one valid Key→Success path, or directly influence such a path.
+- **MANDATORY**: Maximum path length for primary chains: **4 directed connections** between any Key Factor and any Success Factor along a valid path.
+- **ALLOWED (NEW)**: Feedback loops and cyclic connections representing dynamic system behavior:
+  - From Influencing Factors back to other Influencing Factors (reinforcement loops, time delays)
+  - From Success Factors back to Influencing Factors (if representing dynamic outcomes feeding back into the system)
+  - Between Key Factors and Influencing Factors (representing mutual influences or learning)
+- **CRITICAL**: All feedback loops MUST be explicitly justified in connection descriptions (mechanism, time horizon, feedback mechanism)
 - **REJECT**:
   - Influencing Factors with no connection to any Key→Success path
-  - Influencing Factors with incoming connections from outside the model
+  - Feedback loops without explicit causal explanation
 
 ### 3. Source attribution (MANDATORY)
 
@@ -76,15 +81,49 @@ This file defines specific criteria for generating reference models in the Wirkm
 ### 4. Measurability and influenceability criteria
 
 #### 4.1 Measurability (`measurability`)
-- **MANDATORY**: Key Factors MUST be measurable (`measurability ≥ 0.6`).
-- **MANDATORY**: Measurable Success Factors MUST be highly measurable (`measurability ≥ 0.8`).
-- **MANDATORY**: Success Factors may have lower measurability (`measurability ≥ 0.3`).
+**Scale: 0, 0.5, or 1.0 (discrete values, not continuous)**
+
+- **0 = Not directly measurable** (z.B. qualitative Befragung, subjektive Beobachtung ohne klare Metrik)
+  - No clear quantitative or defined qualitative indicators
+  - Requires expert judgment for assessment
+  - Example: "Vertrauen im Team", "Kulturelle Akzeptanz"
+
+- **0.5 = Partially/indirectly measurable** (z.B. qualitative Daten, aber ergänzt durch quantitative Indikatoren oder Skalen)
+  - Measurable through qualitative data with structured indicators or scales
+  - Combination of qualitative assessment and quantitative proxies
+  - Example: "Qualität der Kommunikation" (via surveys + frequency analysis)
+
+- **1 = Directly measurable** (z.B. Kennzahlen, Anzahl, Zeitmessungen, Scores, klar definierte Metriken)
+  - Clear numerical values, counts, time measurements, well-defined metrics
+  - No ambiguity in measurement
+  - Example: "Anzahl der gelösten Issues", "Durchschnittliche Cycle Time"
+
+- **MANDATORY**: Key Factors MUST be measurable (`measurability ≥ 0.5`). Preference for `measurability = 1.0`.
+- **MANDATORY**: Measurable Success Factors MUST be highly measurable (`measurability = 1.0`).
+- **MANDATORY**: Success Factors may have lower measurability (`measurability ≥ 0`), but at least one measurable proxy should exist.
 - **DOCUMENTATION**: Measurement methods MUST be specified in `attributes.description`.
 
 #### 4.2 Influenceability (`influenceability`)
-- **MANDATORY**: Key Factors MUST be influenceable (`influenceability ≥ 0.7`).
-- **EXPECTATION**: Success Factors typically have low influenceability (≤ 0.3).
-- **LOGIC CHECK**: Influenceability MUST be consistent with factor role.
+**Scale: 0, 0.5, or 1.0 (discrete values, not continuous)**
+
+- **0 = Difficult or not directly influenceable** (schwer beeinflussbar)
+  - External factors, boundary conditions, not under control
+  - Require indirect mitigation strategies
+  - Example: "Marktnachfrage", "Regulatorische Anforderungen"
+
+- **0.5 = Partially influenceable via intermediary factors** (teilweise beeinflussbar / nur über mittlebare Faktoren)
+  - Influenceable only through influencing other factors
+  - Requires multi-step interventions
+  - Example: "Teamvertrauen" (influenced via better communication, shared goals)
+
+- **1.0 = Directly influenceable** (direkt beeinflussbar, z.B. konkrete Maßnahmen, Regeln, Tools)
+  - Direct control through concrete measures, rules, tools, processes
+  - Clear intervention points
+  - Example: "Durchsatzzeit" (via process changes), "Dokumentation" (via tool implementation)
+
+- **MANDATORY**: Key Factors MUST be influenceable (`influenceability ≥ 0.5`). Preference for `influenceability = 1.0`.
+- **EXPECTATION**: Success Factors typically have low influenceability (often ≤ 0.5), as they are outcomes.
+- **LOGIC CHECK**: Influenceability MUST be consistent with factor role and design research philosophy (focus on actionable factors).
 
 ### 5. Connection semantics
 
@@ -107,29 +146,34 @@ This file defines specific criteria for generating reference models in the Wirkm
 4. Factor taxonomy compliance
 5. **Topology validation**:
    - exactly one `[PRIMARY]` Key Factor tag
-   - Key Factor(s) behave as start node(s) (primary strictly; others by default)
-   - Success Factor(s) behave as end node(s)
+   - Primary Key Factor SHOULD be a start node (or justified if not)
+   - Success Factor(s) SHOULD be end nodes (or justified if not)
+   - No isolated factors
+6. **Feedback loop validation**: All feedback loops have explicit causal explanations
 
 #### 6.2 Content validation
-1. **Network topology**:
-   - primary Key Factor has no incoming connections
-   - Success Factor(s) have no outgoing connections
+1. **Network topology** (dynamic, not strictly linear):
+   - Primary Key Factor SHOULD have no incoming connections (justified if present)
+   - Success Factor(s) SHOULD have no outgoing connections (justified if feedback loops exist)
+   - Feedback loops are documented with explicit causal mechanisms
 2. **Path completeness**:
-   - at least one path primary Key → some Success Factor
-   - each Key Factor reaches at least one Success Factor
-3. **Influencing factor integration**:
+   - at least one primary path: Primary Key → some Success Factor
+   - each Key Factor reaches at least one Success Factor (direct or via feedback)
+3. **Network integrity**:
    - all Influencing Factors are connected to at least one Key→Success path
+   - feedback loops represent valid causal mechanisms (not circular reasoning)
 4. Compute source attribution ratio
-5. Validate measurability/influenceability consistency
+5. Validate measurability/influenceability consistency (using 0, 0.5, 1.0 scale)
 6. Check factor formulation according to DRM principles ("attribute-of-an-element" phrasing)
 
 #### 6.3 Quality metrics
 - **Evidence Coverage**: ≥75% literature sources `[1-9]+`
-- **Topological Integrity**: 100% - primary Key Factor is a start node; all Success Factors are end nodes; no isolated factors
-- **Path Completeness**: 100% - each Key Factor participates in a valid Key→Success chain
+- **Topological Integrity**: 100% - Primary Key Factor is a start node (or justified); all Success Factors are end nodes (or justified); no isolated factors
+- **Path Completeness**: 100% - each Key Factor participates in a valid Key→Success chain (primary paths)
+- **Network Dynamics**: Feedback loops (if present) are explicitly justified with causal mechanisms
 - **Factor Integration**: 100% - all Influencing Factors are integrated into at least one Key→Success argument chain
 - **Factor Precision**: 100% - all factors follow "attribute-of-an-element" formulation
-- **Measurability Consistency**: Measurable Success Factors ≥0.8, Key Factors ≥0.6
+- **Measurability Consistency**: Key Factors measurable (≥0.5, prefer 1.0); Measurable Success Factors = 1.0; Success Factors ≥0
 
 ## Compliance checklist
 
@@ -164,14 +208,19 @@ This file defines specific criteria for generating reference models in the Wirkm
 - **AUTOMATIC REJECT**: JSON schema violations
 - **AUTOMATIC REJECT**: Factors not formulated as "attribute-of-an-element"
 
-## Summary 
+## Summary (V3 - Updated with Dynamic Network Topology)
 
 Reference Models represent the current state for specific problems. They:
-1. Have **at least one Key Factor**, with **exactly one designated as the primary Key Factor** (start node); **secondary Key Factors** are allowed.
-2. Have **at least one Success Factor** (end node); **multiple Success Factors** are allowed to reflect multi-dimensional objectives.
-3. Use **Influencing Factors** to model causal chains linking Key Factor(s) to Success Factor(s), with all factors integrated into at least one valid Key→Success argument chain (no isolated factors).
-4. Are grounded in **literature evidence** (>50% coverage) and transparent source attribution.
-5. Follow **DRM attribute-of-element** formulation and document causal mechanisms for each connection.
-6. Serve as the foundation for creating **Impact Models**.
+1. Have **at least one Key Factor**, with **exactly one designated as the primary Key Factor** (preferably start node); **secondary Key Factors** are allowed.
+2. Have **at least one Success Factor** (preferably end node); **multiple Success Factors** are allowed to reflect multi-dimensional objectives.
+3. Use **Influencing Factors** and **feedback loops** to model complex, dynamic causal chains linking Key Factor(s) to Success Factor(s). All factors integrated into at least one valid Key→Success argument chain (no isolated factors).
+4. **Support network topology** with feedback loops:
+   - Primary flow: Key Factor(s) → Influencing Factors → Success Factor(s)
+   - Allowed: Feedback from Success Factors to Influencing Factors, between Influencing Factors (reinforcement), and between Key Factors and Influencing Factors (dynamic mutual influences)
+   - All feedback loops MUST be explicitly justified with causal mechanisms
+5. Are grounded in **literature evidence** (>50% coverage) and transparent source attribution.
+6. Use **discrete measurability/influenceability scales** (0, 0.5, 1.0) for consistency and clarity.
+7. Follow **DRM attribute-of-element** formulation and document causal mechanisms for each connection.
+8. Serve as the foundation for creating **Impact Models**.
 
-Reference Models establish the baseline understanding necessary for designing and evaluating interventions.
+Reference Models establish the baseline understanding of complex, dynamic systems necessary for designing and evaluating interventions.
