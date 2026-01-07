@@ -112,13 +112,15 @@ Stelle sicher, dass das Modell auf der DRM basiert:
 - Keine sofortigen Lösungsvorschläge
 - Dokumentiere explizit, welche Annahmen getroffen wurden
 
-### 6. **Output-Format**
-Generiere das Output als JSON-File im KUMU-kompatiblen Format mit Abschnitten für:
+### 6. **Output-Format (MANDATORY JSON)**
+Generiere das Output AUSSCHLIESSLICH als JSON-File im KUMU-kompatiblen Format mit Abschnitten für:
 - elements – Alle Faktoren mit _id, Attributen (Name, Type, Beschreibung, Messbarkeit, Influenceability)
 - connections – Alle gerichteten Verbindungen mit from, to, Polarität (++, +-, -+, --), Quellenattribution und Beschreibung
 
-Dateiname: reference_model_[PROBLEM_AS_FILENAME].json
-wobei [PROBLEM_AS_FILENAME] das Problemstatement mit Unterstrichen statt Leerzeichen ist (z. B. "Verständnis_fuer_die_agilen_Events_fehlt")
+**Dateiname:** reference_model_[PROBLEM_AS_FILENAME].json
+wobei [PROBLEM_AS_FILENAME] das Problemstatement mit Unterstrichen statt Leerzeichen ist
+
+**Wichtig:** Die Datei MUSS als JSON-File bereitgestellt werden (keine Markdown, keine Text-Erklärungen als Datei). Eine kurze Zusammenfassung/Erklärung kann zusätzlich als Text gegeben werden, aber das Hauptoutput ist die JSON-Datei.
 
 ---
 
