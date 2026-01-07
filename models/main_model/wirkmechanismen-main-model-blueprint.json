@@ -663,7 +663,7 @@
     {
       "_id": "elem-EUSEMqlc",
       "attributes": {
-        "label": "Autonomie im Entscheidungsprozess",
+        "label": "Freiheit Entscheidungen zu treffen",
         "element type": "Einflussfaktoren",
         "tags": [
           "Team-Partizipation",
@@ -709,7 +709,7 @@
         "micmac influence": 0.7656979042724437,
         "micmac exposure": 0.7872223336812051,
         "measurability": 0.5,
-        "influenceability": 1
+        "influenceability": 0.5
       }
     },
     {
@@ -1010,7 +1010,7 @@
     {
       "_id": "elem-SM5oOnLX",
       "attributes": {
-        "label": "Erfüllung der Nutzeranforderung an das Tools",
+        "label": "Erfüllung der Nutzeranforderung an das Tool",
         "element type": "Einflussfaktoren",
         "tags": [
           "Kommunikation",
@@ -1333,7 +1333,33 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
-      },
+    },
+    {
+      "_id": "elem-ZgVbLBTy",
+      "attributes": {
+        "label": "hohe Medienkompetenz",
+        "tags": [
+          "Hindernisse und Abhängigkeiten",
+          "Planning"
+        ],
+        "element type": "Einflussfaktoren",
+        "description": "= (visuelle) Transparenz im Tool (Board)",
+        "closeness": 0,
+        "metrics::last": 0.6330977784961899,
+        "degree": 1,
+        "size": 2,
+        "indegree": 1,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0.008800877593691837,
+        "reach": 0.009900990099009901,
+        "reach-efficiency": 0.0049504950495049506,
+        "micmac influence": 0,
+        "micmac exposure": 0.6330977784961899,
+        "measurability": null,
+        "influenceability": null
+      }
+    },
     {
       "_id": "elem-a0dvE9xS",
       "attributes": {
@@ -2405,9 +2431,9 @@
     {
       "_id": "elem-eaILhq80",
       "attributes": {
-        "label": "REMOVED: Autonomie durch klar definierte Grenzen der Rollen",
-        "description": "[REMOVED] Autonomie durch Grenzen — gelöscht per Nutzeranfrage.",
-        "element type": "Removed",
+        "label": "Autonomie durch klar definierte Grenzen der Rollen",
+        "description": "Autonomie durch Grenzen (\"Autonomy Through Boundaries\") - Autonomie heißt nicht, dass ein Team alles tun darf was es will, sondern dass Grenzbereiche /Richtlinien sehr klar definiert sind. Mitarbeiter handeln selbstständig im Rahmen ihrer Möglichkeiten und Befugnisse und es ist weniger Kommunikation mit der Führungsebene notwendig, was den Workflow erheblich verbessert.",
+        "element type": "Einflussfaktoren",
         "tags": [
           "AgilityMap"
         ],
@@ -2415,8 +2441,7 @@
         "metrics::last": 0,
         "micmac exposure": 0,
         "measurability": null,
-        "influenceability": null,
-        "deleted": true
+        "influenceability": null
       }
     },
     {
@@ -4023,6 +4048,17 @@
       "to": "elem-F9HioTuT"
     },
     {
+      "_id": "conn-H9miBZoW",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]"
+      },
+      "from": "elem-7sSep5II",
+      "to": "elem-ZgVbLBTy"
+    },
+    {
       "_id": "conn-HE0nmqSf",
       "direction": "directed",
       "delayed": false,
@@ -5509,6 +5545,18 @@
       "to": "elem-6tHZ4FNz"
     },
     {
+      "_id": "conn-p6vPJa0N",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++"
+      },
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-ZgVbLBTy"
+    },
+    {
       "_id": "conn-pF94ikYU",
       "direction": "directed",
       "delayed": false,
@@ -6021,7 +6069,18 @@
         "connection type": "++"
       }
     },
-    
+    {
+      "_id": "conn-auto-007",
+      "from": "elem-eaILhq80",
+      "to": "elem-xGnKBSH9",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++"
+      }
+    },
     {
       "_id": "conn-auto-008",
       "from": "elem-ga15zxKL",
@@ -6310,7 +6369,18 @@
         "connection type": "++"
       }
     },
-    
+    {
+      "_id": "conn-auto-034",
+      "from": "elem-Iq65xIIl",
+      "to": "elem-eaILhq80",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++"
+      }
+    },
     {
       "_id": "conn-auto-035",
       "from": "elem-WDoS5RxB",
