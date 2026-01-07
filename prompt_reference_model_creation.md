@@ -12,6 +12,7 @@ Für die Erstellung eines Reference Models muss das LLM Zugriff auf folgende Dok
 
 ### 3. **Methodologischer Kontext**
 - `general/prompt_instructions.md` – DRM-Methodologie, KUMU-Encoding, Blessing & Chakrabarti Framework und Best Practices
+- **Blessing & Chakrabarti Dokumentation** – Akademisches Referenzmaterial zur Reference Model Definition (Kapitel 2.4–2.6)
 
 ---
 
@@ -22,14 +23,16 @@ Du hast Zugriff auf ein Netzwerkdiagramm im JSON-Format namens **"wirkmechanisme
 Basierend auf der **Design Research Methodology (DRM)** von Blessing und Chakrabarti, insbesondere dem **Reference Model** (aus den Kapiteln 2.4–2.6), leite ein Reference Model für das folgende spezifische Problem ab:
 
 ### **Problemstellung:**
-**"Verständnis für die agilen Events fehlt"**
+**[PROBLEM_PLACEHOLDER]**
+
+> Ersetze `[PROBLEM_PLACEHOLDER]` mit dem spezifischen Problem, für das das Reference Model erstellt werden soll (z. B. "Verständnis für die agilen Events fehlt", "Mangelnde Priorisierung von Anforderungen", etc.)
 
 ---
 
 ## Schritte zur Ableitung
 
 ### 1. **Analyse des Netzwerkdiagramms**
-Analysiere das Netzwerkdiagramm mithilfe von Tools wie File Searching oder File Viewer, um relevante Elemente, Faktoren, Verbindungen und Schleifen zu identifizieren, die mit dem Problem **"Verständnis für die agilen Events fehlt"** zusammenhängen. Konzentriere dich auf Knoten mit hoher Relevanz, wie z. B.:
+Analysiere das Netzwerkdiagramm mithilfe von Tools wie File Searching oder File Viewer, um relevante Elemente, Faktoren, Verbindungen und Schleifen zu identifizieren, die mit dem **Problem [PROBLEM_PLACEHOLDER]** zusammenhängen. Konzentriere dich auf Knoten mit hoher Relevanz, wie z. B.:
 - Unsicherheiten
 - Metriken
 - Team-Dynamiken
@@ -49,14 +52,34 @@ Erstelle ein Reference Model, das die **bestehende Situation** beschreibt:
 - Berücksichtige vollständige Stränge, Schleifen und potenzielle Lücken, wie im Diagramm vorhanden
 - Folge dem Schema: **Key Factor(s) → [Influencing Factors] → [Measurable Success Factors] → Success Factor(s)**
 
-### 4. **Einhaltung der Kriterien**
-Halte dich bei der Erstellung des Reference Models strikte an die Kriterien aus **"REFERENCE_MODEL_CRITERIA_V3.md"**:
-- **Mindestens ONE Schlüsselfaktor** mit genau einem `[PRIMARY]` Tag
-- **Mindestens EINE Erfolgsfaktor** als End-Node
-- **Alle Einflussfaktoren** müssen auf einem gültigen Key→Success-Pfad liegen
-- **>50% Quellenattribution** basierend auf Literatur `[1]`, `[2]` oder empirische Evidenz `[E]`, `[A]`, `[O]`
-- **Messbarkeit & Influenceability** konsistent mit den Rollen der Faktoren
-- Alle Faktoren in **"attribute-of-element"**-Formulierung (z. B. "Qualität des Verständnisses von agilen Events")
+### 4. **Einhaltung der Kriterien (REFERENCE_MODEL_CRITERIA_V3.md)**
+
+#### Elementtaxonomie
+- **Schlüsselfaktoren**: Mindestens **EINE (1)**, genau eine mit `[PRIMARY]` Tag in `attributes.description`
+- **Erfolgsfaktoren**: Mindestens **EINE (1)** als End-Node
+- **Messbare Erfolgsfaktoren**: Falls Erfolgsfaktor `measurability < 0.8`, muss ein messbarer Proxy hinzugefügt werden
+- **Einflussfaktoren**: Alle restlichen Faktoren; müssen auf einem gültigen Key→Success-Pfad liegen (keine isolierten Faktoren)
+
+#### Kausalstruktur
+- Topologie: **Primary Key Factor = Start-Node** (keine eingehenden Verbindungen)
+- **Success Factors = End-Nodes** (keine ausgehenden Verbindungen)
+- **Pfadvollständigkeit**: Mindestens ein gerichteter Pfad vom Primary Key Factor zu mindestens einem Success Factor
+- **Maximale Pfadlänge**: 4 gerichtete Verbindungen
+- **Alle Faktoren integriert**: Keine isolierten Faktoren; alle Influencing Factors auf mindestens einem Key→Success-Pfad
+
+#### Quellenattribution (MANDATORY)
+- **>50%** aller Verbindungen mit Literaturquellen `[1]`, `[2]`, etc.
+- **Dokumentation**: Vollständige APA-Zitate in `connection.attributes.description`
+- **Erlaubte Evidenztypen**: `[E]` (Erfahrung), `[A]` (Annahme), `[O]` (Untersuchung)
+- **ABLEHNUNG**: Verbindungen ohne Quellenattribution oder mit `[?]`
+
+#### Messbarkeit & Influenceability
+- **Schlüsselfaktoren**: `measurability ≥ 0.6` und `influenceability ≥ 0.7`
+- **Messbare Erfolgsfaktoren**: `measurability ≥ 0.8`
+- **Erfolgsfaktoren**: `measurability ≥ 0.3`, typischerweise `influenceability ≤ 0.3`
+
+#### Faktoren-Formulierung
+- Alle Faktoren in **"attribute-of-element"**-Formulierung (z. B. "Qualität des Verständnisses von agilen Events", nicht "Event-Verständnis")
 
 ### 5. **Iterative DRM-Anwendung**
 Stelle sicher, dass das Modell iterativ und auf dem DRM basiert:
@@ -69,7 +92,8 @@ Generiere das Output als **JSON-File im KUMU-kompatiblen Format** mit Abschnitte
 - `elements` – Alle Faktoren mit `_id`, Attributen (Name, Type, Beschreibung, Messbarkeit, Influenceability)
 - `connections` – Alle gerichteten Verbindungen mit `from`, `to`, Polarität (`++`, `+-`, `-+`, `--`), Quellenattribution und Beschreibung
 
-**Dateiname:** `reference_model_Verstandnis_fur_die_agilen_Events_fehlt.json` (Leerzeichen durch Unterstriche ersetzen)
+**Dateiname:** `reference_model_[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES].json`
+(Ersetze `[PROBLEM_PLACEHOLDER_WITH_UNDERSCORES]` mit dem Problem-Namen, wobei Leerzeichen und Umlaute durch Unterstriche ersetzt werden. Beispiel: "Verständnis für die agilen Events fehlt" → `reference_model_Verstandnis_fuer_die_agilen_Events_fehlt.json`)
 
 **Verfügbarkeit:** Die Datei sollte zum Download/zur Übernahme verfügbar sein.
 
@@ -77,15 +101,18 @@ Generiere das Output als **JSON-File im KUMU-kompatiblen Format** mit Abschnitte
 
 ## Hinweise
 
-- **Falls das Diagramm keine direkten Verbindungen für das Problem enthält:** Schlage logische Erweiterungen basierend auf agilen Prinzipien vor, aber bleibe nah am Originaldiagramm.
+- **Datenquelle (KRITISCH):** Verwende **NUR** das Netzwerkdiagramm `wirkmechanismen-main-model-blueprint.json` als Quelle für die Reference Model Erstellung. Keine zusätzlichen externen Quellen oder Annahmen ohne explizite Kennzeichnung `[A]`.
 
-- **Erklärung:** Gib eine kurze Erklärung des abgeleiteten Models in deiner Antwort (z. B. identifizierte Key Factors, zentrale Influencing Factors, kritische Erfolgsfaktoren und deren Zusammenhänge).
+- **Keine Extrapolationen:** Falls das Diagramm keine direkten Verbindungen für das Problem enthält, kann eine **minimale logische Erweiterung** basierend auf agilen Prinzipien und dem Originaldiagramm vorgenommen werden – markiere diese jedoch explizit als Annahmen `[A]` in den Verbindungsbeschreibungen.
+
+- **Erklärung des Modells:** Gib eine kurze Zusammenfassung des abgeleiteten Models aus (z. B. identifizierte Key Factors, zentrale Influencing Factors, kritische Erfolgsfaktoren und deren Zusammenhänge).
 
 - **Validierung:** Verwende die Validierungsschritte aus REFERENCE_MODEL_CRITERIA_V3.md, um sicherzustellen, dass das Modell:
   - JSON-Schema-konform ist
   - Topologisch korrekt (Primary Key Factor = Start-Node, Success Factors = End-Nodes)
-  - Pfadvollständigkeit erfüllt (jeder Key Factor → mindestens ein Success Factor)
+  - Pfadvollständigkeit erfüllt (Primary Key Factor → mindestens ein Success Factor)
   - Alle Faktoren integriert (keine isolierten Faktoren)
+  - Quellenattribution korrekt dokumentiert
 
 ---
 
