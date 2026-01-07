@@ -28,20 +28,20 @@ This file defines specific criteria for generating reference models in the Wirkm
 - **CLASSIFICATION**: `"element type": "Erfolgsfaktor"`
 - **MANDATORY (proxy rule, generalized)**: If a Success Factor is not directly measurable (`measurability < 0.8`), a measurable proxy MUST be added.
   - **CLASSIFICATION (proxy)**: `"element type": "Messbarer Erfolgsfaktor"`
-  - **TRACEABILITY (schema-neutral)**: The proxy relationship MUST be explained in the proxy’s `attributes.description` (e.g., “Proxy for Erfolgsfaktor X because …”).
+  - **TRACEABILITY (schema-neutral)**: The proxy relationship MUST be explained in the proxy's `attributes.description` (e.g., "Proxy for Erfolgsfaktor X because …").
 - **REJECT**: models with **zero** Success Factors.
 
 #### 1.3 Influencing Factors classification (updated: remove 3–7 recommendation)
 - **MANDATORY**: All other factors MUST be classified as Influencing Factors.
 - **CLASSIFICATION**: `"element type": "Einflussfaktoren"`
-- **REMOVED**: No fixed recommendation of “3–7 Influencing Factors”.
+- **REMOVED**: No fixed recommendation of "3–7 Influencing Factors".
 - **REVIEW REQUIRED**: Models with **>10** Influencing Factors (complexity and maintainability check).
 
 ### 2. Causal chain / network structure (MANDATORY)
 
 #### 2.1 Causal network topology (updated to support multiple Key/Success Factors)
 - **MANDATORY**: The **primary Key Factor** MUST be a start node (no incoming connections within the model).
-- **MANDATORY**: All Key Factors SHOULD be start nodes (no incoming connections within the model). If a Key Factor has an incoming connection, the model MUST justify this explicitly in that factor’s `attributes.description`.
+- **MANDATORY**: All Key Factors SHOULD be start nodes (no incoming connections within the model). If a Key Factor has an incoming connection, the model MUST justify this explicitly in that factor's `attributes.description`.
 - **MANDATORY**: All Success Factors MUST be end nodes (no outgoing connections within the model).
 - **MANDATORY**: All Influencing Factors MUST be causally positioned between Key Factor(s) and Success Factor(s).
 - **STRUCTURE (generalized)**:
@@ -95,7 +95,7 @@ This file defines specific criteria for generating reference models in the Wirkm
 
 #### 5.2 Connection descriptions
 - **MANDATORY**: Each connection MUST explain the causal mechanism in `attributes.description`.
-- **FORMAT**: “Factor X leads to Factor Y through mechanism Z.”
+- **FORMAT**: "Factor X leads to Factor Y through mechanism Z."
 - **LENGTH**: 20–150 words per description.
 
 ### 6. Validation steps
@@ -121,116 +121,57 @@ This file defines specific criteria for generating reference models in the Wirkm
    - all Influencing Factors are connected to at least one Key→Success path
 4. Compute source attribution ratio
 5. Validate measurability/influenceability consistency
-6. Check factor formulation according to DRM principles (“attribute-of-an-element” phrasing)
+6. Check factor formulation according to DRM principles ("attribute-of-an-element" phrasing)
 
 #### 6.3 Quality metrics
 - **Evidence Coverage**: ≥75% literature sources `[1-9]+`
 - **Topological Integrity**: 100% - primary Key Factor is a start node; all Success Factors are end nodes; no isolated factors
 - **Path Completeness**: 100% - each Key Factor participates in a valid Key→Success chain
 - **Factor Integration**: 100% - all Influencing Factors are integrated into at least one Key→Success argument chain
-- **Factor Precision**: 100% - all factors follow “attribute-of-an-element” formulation
+- **Factor Precision**: 100% - all factors follow "attribute-of-an-element" formulation
 - **Measurability Consistency**: Measurable Success Factors ≥0.8, Key Factors ≥0.6
 
-## Reference model template (updated: primary/secondary Key Factors + multiple Success Factors allowed)
+## Compliance checklist
 
-### Minimal structure
-```json
-{
-  "elements": [
-    {
-      "_id": "elem-KEY-PRIMARY",
-      "attributes": {
-        "label": "[attribute of the problem]",
-        "element type": "Schlüsselfaktor",
-        "measurability": 0.7,
-        "influenceability": 0.8,
-        "description": "[PRIMARY] START NODE: No incoming connections allowed."
-      }
-    },
-    {
-      "_id": "elem-KEY-SECONDARY-1",
-      "attributes": {
-        "label": "[secondary problem driver attribute]",
-        "element type": "Schlüsselfaktor",
-        "measurability": 0.6,
-        "influenceability": 0.7,
-        "description": "[SECONDARY] Additional start node (recommended: no incoming connections)."
-      }
-    },
-    {
-      "_id": "elem-INFLUENCING-FACTOR-1",
-      "attributes": {
-        "label": "[intermediate factor]",
-        "element type": "Einflussfaktoren",
-        "measurability": 0.6,
-        "influenceability": 0.5,
-        "description": "Causally between Key Factor(s) and Success Factor(s)."
-      }
-    },
-    {
-      "_id": "elem-MEASURABLE-SUCCESS-1",
-      "attributes": {
-        "label": "[measurable proxy]",
-        "element type": "Messbarer Erfolgsfaktor",
-        "measurability": 0.9,
-        "influenceability": 0.3,
-        "description": "Proxy for Erfolgsfaktor elem-SUCCESS-FACTOR-1 because direct measurement is not feasible within the project timeframe."
-      }
-    },
-    {
-      "_id": "elem-SUCCESS-FACTOR-1",
-      "attributes": {
-        "label": "[long-term objective 1]",
-        "element type": "Erfolgsfaktor",
-        "measurability": 0.4,
-        "influenceability": 0.2,
-        "description": "END NODE: No outgoing connections allowed."
-      }
-    },
-    {
-      "_id": "elem-SUCCESS-FACTOR-2",
-      "attributes": {
-        "label": "[long-term objective 2]",
-        "element type": "Erfolgsfaktor",
-        "measurability": 0.5,
-        "influenceability": 0.2,
-        "description": "END NODE: No outgoing connections allowed."
-      }
-    }
-  ],
-  "connections": [
-    {
-      "_id": "conn-KEYPRIMARY-TO-INFLUENCING",
-      "from": "elem-KEY-PRIMARY",
-      "to": "elem-INFLUENCING-FACTOR-1",
-      "direction": "directed",
-      "attributes": {
-        "label": "[1]",
-        "connection type": "++",
-        "description": "Explain the causal mechanism linking the primary Key Factor to the intermediate factor. Include APA citation(s)."
-      }
-    },
-    {
-      "_id": "conn-INFLUENCING-TO-MEASURABLE",
-      "from": "elem-INFLUENCING-FACTOR-1",
-      "to": "elem-MEASURABLE-SUCCESS-1",
-      "direction": "directed",
-      "attributes": {
-        "label": "[2]",
-        "connection type": "++",
-        "description": "Explain how the intermediate factor affects the measurable proxy. Include APA citation(s) or allowed evidence tags."
-      }
-    },
-    {
-      "_id": "conn-MEASURABLE-TO-SUCCESS1",
-      "from": "elem-MEASURABLE-SUCCESS-1",
-      "to": "elem-SUCCESS-FACTOR-1",
-      "direction": "directed",
-      "attributes": {
-        "label": "[3]",
-        "connection type": "++",
-        "description": "Describe the proxy relationship to the Success Factor (why this proxy is valid). Include APA citation(s) if available."
-      }
-    }
-  ]
-}
+### Pre-submission
+- [ ] At least 1 Key Factor present
+- [ ] Exactly 1 Key Factor tagged `[PRIMARY]` in `attributes.description`
+- [ ] At least 1 Success Factor present
+- [ ] For each Success Factor with `measurability < 0.8`, a Measurable Success Factor proxy is included and documented
+- [ ] At least one causal path from primary Key Factor → some Success Factor exists
+- [ ] Each Key Factor has at least one causal path to at least one Success Factor
+- [ ] >50% of connections have literature sources
+- [ ] All literature sources are documented (APA style)
+- [ ] No `[?]` sources in the model
+- [ ] Measurability/influenceability values are consistent
+- [ ] JSON validation passes
+
+### Review criteria
+- [ ] Causal chains are scientifically plausible
+- [ ] Factor formulations are precise and unambiguous
+- [ ] Literature sources are relevant and current
+- [ ] Model complexity is appropriate for the research question (no fixed count; justified by scope)
+- [ ] Connection descriptions are informative and mechanism-based
+
+## Rejection criteria (updated)
+
+- **AUTOMATIC REJECT**: Zero Key Factors
+- **AUTOMATIC REJECT**: More than one Key Factor tagged `[PRIMARY]`
+- **AUTOMATIC REJECT**: Zero Success Factors
+- **AUTOMATIC REJECT**: Broken causal chains (factors not connected to any Key→Success argument chain)
+- **AUTOMATIC REJECT**: <50% literature sources
+- **AUTOMATIC REJECT**: Unknown sources `[?]`
+- **AUTOMATIC REJECT**: JSON schema violations
+- **AUTOMATIC REJECT**: Factors not formulated as "attribute-of-an-element"
+
+## Summary (V2)
+
+Reference Models represent the current state for specific problems. They:
+1. Have **at least one Key Factor**, with **exactly one designated as the primary Key Factor** (start node); **secondary Key Factors** are allowed.
+2. Have **at least one Success Factor** (end node); **multiple Success Factors** are allowed to reflect multi-dimensional objectives.
+3. Use **Influencing Factors** to model causal chains linking Key Factor(s) to Success Factor(s), with all factors integrated into at least one valid Key→Success argument chain (no isolated factors).
+4. Are grounded in **literature evidence** (>50% coverage) and transparent source attribution.
+5. Follow **DRM attribute-of-element** formulation and document causal mechanisms for each connection.
+6. Serve as the foundation for creating **Impact Models**.
+
+Reference Models establish the baseline understanding necessary for designing and evaluating interventions.
