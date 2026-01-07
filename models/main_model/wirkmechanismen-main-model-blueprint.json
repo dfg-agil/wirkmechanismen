@@ -477,32 +477,7 @@
         "influenceability": 1
       }
     },
-    {
-      "_id": "elem-9UL9boAn",
-      "attributes": {
-        "label": "Umgang mit Fehlern im Teamumfeld",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "Teamdynamik",
-          "Planning"
-        ],
-        "description": "= Offene Fehlerkultur",
-        "closeness": 0.22026190476190471,
-        "metrics::last": 0.8768586518434335,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
-        "betweenness": 0.001095832220234134,
-        "eigenvector": 0.0020153234706311056,
-        "reach": 0.039603960396039604,
-        "reach-efficiency": 0.013201320132013201,
-        "micmac influence": 1,
-        "micmac exposure": 0.8768586518434335,
-        "measurability": null,
-        "influenceability": null
-      }
-    },
+    
     
     {
       "_id": "elem-DbXXPgu4",
@@ -5976,6 +5951,7 @@
         "connection type": "++"
       }
     },
+    
     {
       "_id": "conn-auto-006",
       "from": "elem-umR71vJA",
@@ -6470,6 +6446,7 @@
         "connection type": "++"
       }
     },
+    
     {
       "_id": "conn-auto-052",
       "from": "elem-79TGQTNN",
