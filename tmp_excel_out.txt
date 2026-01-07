@@ -1,0 +1,51 @@
+﻿USING zip-xml-fallback; sheet= xl/worksheets/sheet1.xml
+label;measurability;influenceability
+Anpassungsf├ñhigkeit des F├╝hrungsstils;0.5;1
+Aufteilung der Ressourcen;1;1
+Ausma├ƒ der Nutzung von Erfahrungswissen;0.5;0.5
+Auspr├ñgung der Fehlerkultur;0.5;0.5
+Auspr├ñgung der Konfliktkultur;0.5;0.5
+Bef├ñhingungsgrad der Mitarbeiter;0.5;1
+Bereitschaft des Managements zur Umsetzung agiler Ans├ñtze;0.5;0.5
+Bereitschaft zum Lernen;0.5;0.5
+Einhaltung der Arbeitszeiten;1;0.5
+Einhaltung der Deadlines;1;0.5
+Einheitlichkeit im Probleml├Âseprozess;0.5;1
+Erf├╝llung der Nutzeranforderung an das Tools;1;1
+Gemeinsames Verst├ñndnis von Erfolgskriterien;0.5;1
+Grad der Anpassungsf├ñhigkeit des Teams;0.5;0.5
+Grad der Cross-Funktionalit├ñt des Teams;0.5;1
+Grad der Einbindung von Zulieferern und Partnern;1;1
+Grad der fundierten Methodenwahl;0.5;1
+Grad der kontinuierlichen Prozessverbesserung;0.5;1
+Grad der Resilienz;0.5;0.5
+Grad der Team-Reflexion;0.5;1
+Grad der Wertsch├ñtzung;0.5;0.5
+Grad des Commitments;0.5;0.5
+Grad des Wissensaustauschs;0.5;1
+Transparenz der F├ñhigkeiten der Teammitglieder;0.5;0.5
+Implementierungsgrad von Agilit├ñt;1;1
+Informationsdurchl├ñssigkeit der Arbeitsumgebung;0.5;0.5
+Frequenz der Lieferzyklen;1;1
+Klarheit ├╝ber die Zust├ñndigkeiten der Teammitglieder;0.5;1
+Kompetenzerweiterung des Entwicklers;0.5;1
+Kontinuierliche Anforderungspriorisierung;1;1
+Kontinuit├ñt der Integration von Teilsystemen;1;1
+Kontinuit├ñt des Validierungszyklus;1;1
+Orientierung an gemeinsamen Visionen und Werten;0.5;0.5
+Priorisierungsniveau der Aufgaben;1;1
+Anzahl der Ablenkungen;1;0.5
+Qualit├ñt der kollaborativen Arbeitsumgebung;0.5;1
+Qualit├ñt der Kundeneinbindung;1;1
+Qualit├ñt der Mitarbeiterschulungen und Trainings;0.5;1
+Qualit├ñt der Planung;0.5;1
+Qualit├ñt der Team-Performance;1;0.5
+Qualit├ñt der Teampartizipation;0.5;1
+Qualit├ñt des Feedbacks;0.5;1
+Quantit├ñt des Feedbacks;1;1
+Skalierbarkeit agiler Praktiken;0.5;0.5
+Transparenz im Entscheidungsprozess;0;1
+Verst├ñndlichkeit der Zieldefinition;0.5;1
+Verst├ñndnisgrad von Agilit├ñt;0.5;0.5
+Visualisierung des Fortschritts;1;1
+Volatilit├ñt der Randbedingungen;0.5;0

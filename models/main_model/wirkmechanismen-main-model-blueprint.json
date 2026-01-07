@@ -1029,8 +1029,8 @@
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
         "micmac exposure": 0.8160049503978034,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -2407,9 +2407,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+          "micmac exposure": 0,
+          "measurability": 0.5,
+          "influenceability": 0.5
       }
     },
     {
@@ -2424,8 +2424,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2456,8 +2456,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2472,8 +2472,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1.0,
+        "influenceability": 1.0
       }
     },
     {
@@ -2488,8 +2488,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2504,8 +2504,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2520,8 +2520,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2536,8 +2536,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2568,8 +2568,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2584,8 +2584,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2632,8 +2632,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1.0,
+        "influenceability": 0.5
       }
     },
     {
@@ -2648,8 +2648,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2664,8 +2664,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2763,7 +2763,22 @@
         "measurability": null,
         "influenceability": null
       }
-   
+    },
+    {
+      "_id": "elem-CuaFkCcT",
+      "attributes": {
+        "label": "Bereitschaft zur Veränderung",
+        "description": "Die Begeisterung für agile Arbeitsweisen muss durch alle Ebenen gehen und entsprechend muss auch die Bereitschaft zu Veränderungen vorhanden sein. So kann beispielsweise die Teamleiterebene obsolet werden, da je nach Aufgabenstellung nur Scrum Master und Product Owner nötig sind.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "AgilityMap"
+        ],
+        "micmac influence": 0,
+          "metrics::last": 0,
+          "micmac exposure": 0,
+          "measurability": 0.5,
+          "influenceability": 0.5
+      }
     },
     {
       "_id": "elem-Y1OtCeB9",
@@ -2857,8 +2872,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -2912,7 +2927,7 @@
     {
       "_id": "elem-pOq2hTBC",
       "attributes": {
-        "label": "Kadenz der Lieferzyklen",
+        "label": "Frequenz der Lieferzyklen",
         "description": "Es sollte eine kurze Freigabezykluszeit angestrebt werden (\"time boxing\"). Die Freigabezykluszeit beschreibt dabei die Häufigkeit der Lieferung von Teilergebnissen des Projekts an die Stakeholder, also z.B. von Hardware, Simulationen, Prototypen, Diagnosen, Marktforschung. Es muss eine regelmäßige Lieferung funktionierender Produkte an den Kunden angestrebt werden, in möglichst kurzen Zeitabständen von wenigen Wochen, bzw. wenigen Monate.",
         "element type": "Einflussfaktoren",
         "tags": [
@@ -2921,8 +2936,8 @@
         "micmac influence": 0,
         "metrics::last": 0.6984704611086446,
         "micmac exposure": 0.6984704611086446,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -3134,19 +3149,35 @@
       }
     },
     {
-      "_id": "elem-fZPBc4wU",
+      "_id": "elem-gdWissAust01",
       "attributes": {
-        "label": "Grad des kollaborativen Wissensaustauschs (möglicher Unterpunkt dazu: Transparenz der Fähigkeiten der Teammitglieder)",
-        "description": "Teammitglieder sollten Fachwissen, Kontext und Erfahrungen bereitwillig mit andern Teammitgliedern teilen und der Wissensaustausch sollte gefördert werden.",
+        "label": "Grad des Wissensaustauschs",
+        "description": "Teammitglieder teilen Fachwissen, Kontext und Erfahrungen aktiv miteinander; fördert organisatorisches Lernen.",
         "element type": "Einflussfaktoren",
         "tags": [
           "AgilityMap"
         ],
         "micmac influence": 0,
-        "metrics::last": 0.786522384144123,
-        "micmac exposure": 0.786522384144123,
-        "measurability": null,
-        "influenceability": null
+        "metrics::last": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-transpFahig01",
+      "attributes": {
+        "label": "Transparenz der Fähigkeiten der Teammitglieder",
+        "description": "Offene Sichtbarkeit darüber, welche Fähigkeiten und Kompetenzen Teammitglieder besitzen, z. B. Skills-Register oder Fähigkeitsübersichten.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "AgilityMap"
+        ],
+        "micmac influence": 0,
+        "metrics::last": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -6315,18 +6346,6 @@
       }
     },
     {
-      "_id": "conn-auto-031",
-      "from": "elem-fZPBc4wU",
-      "to": "elem-ldnDdueE",
-      "direction": "mutual",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
       "_id": "conn-auto-032",
       "from": "elem-eXH0Cf1d",
       "to": "elem-2D9XOVll",
@@ -6870,18 +6889,6 @@
       "_id": "conn-bridge-030",
       "from": "elem-are9vvnr",
       "to": "elem-nAA1gU0l",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
-      "_id": "conn-bridge-031",
-      "from": "elem-mzeWXZfS",
-      "to": "elem-fZPBc4wU",
       "direction": "directed",
       "delayed": false,
       "reversed": false,

@@ -1,0 +1,214 @@
+﻿{
+  "updates": [
+    {
+      "_id": "elem-Cp80iMCp",
+      "label": "Anpassungsf├ñhigkeit des F├╝hrungsstils",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-Q3uEEe5Q",
+      "label": "Aufteilung der Ressourcen",
+      "measurability": 1.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-hHvH3JMB",
+      "label": "Ausma├ƒ der Nutzung von Erfahrungswissen",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-8DovrrfU",
+      "label": "Auspr├ñgung der Fehlerkultur",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-ga15zxKL",
+      "label": "Bef├ñhingungsgrad der Mitarbeiter",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-NarZ96yW",
+      "label": "Bereitschaft des Managements zur Umsetzung agiler Ans├ñtze",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-r5uVEKtS",
+      "label": "Bereitschaft zum Lernen",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-nAA1gU0l",
+      "label": "Einhaltung der Deadlines",
+      "measurability": 1.0,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-VRnZT8d0",
+      "label": "Einheitlichkeit im Probleml├Âseprozess",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-QkWKoQ14",
+      "label": "Gemeinsames Verst├ñndnis von Erfolgskriterien",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-SVQRqUSA",
+      "label": "Grad der Anpassungsf├ñhigkeit des Teams",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-dRPW0bDS",
+      "label": "Grad der Cross-Funktionalit├ñt des Teams",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-JUibFpKA",
+      "label": "Grad der fundierten Methodenwahl",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-1fahG9AM",
+      "label": "Grad der kontinuierlichen Prozessverbesserung",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-97NjDQTs",
+      "label": "Grad der Resilienz",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-KOUdbt3n",
+      "label": "Grad der Team-Reflexion",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-xGnKBSH9",
+      "label": "Grad des Commitments",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-4DZnGitO",
+      "label": "Informationsdurchl├ñssigkeit der Arbeitsumgebung",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-Iq65xIIl",
+      "label": "Klarheit ├╝ber die Zust├ñndigkeiten der Teammitglieder",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-U5tPKB1A",
+      "label": "Kompetenzerweiterung des Entwicklers",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-WDoS5RxB",
+      "label": "Kontinuierliche Anforderungspriorisierung",
+      "measurability": 1.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-xUIM8LMt",
+      "label": "Kontinuit├ñt der Integration von Teilsystemen",
+      "measurability": 1.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-7ogVpbDO",
+      "label": "Kontinuit├ñt des Validierungszyklus",
+      "measurability": 1.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-0hB3d0e3",
+      "label": "Priorisierungsniveau der Aufgaben",
+      "measurability": 1.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-ldnDdueE",
+      "label": "Qualit├ñt der kollaborativen Arbeitsumgebung",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-AEqctl8J",
+      "label": "Qualit├ñt der Team-Performance",
+      "measurability": 1.0,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-AE0RRLd0",
+      "label": "Qualit├ñt der Teampartizipation",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-cHlGVpZ5",
+      "label": "Qualit├ñt des Feedbacks",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-y6GVV12J",
+      "label": "Quantit├ñt des Feedbacks",
+      "measurability": 1.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-bOQiQpQ5",
+      "label": "Skalierbarkeit agiler Praktiken",
+      "measurability": 0.5,
+      "influenceability": 0.5
+    },
+    {
+      "_id": "elem-9piyQ4RZ",
+      "label": "Transparenz im Entscheidungsprozess",
+      "measurability": 0.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-facxXxTp",
+      "label": "Verst├ñndlichkeit der Zieldefinition",
+      "measurability": 0.5,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-Stbtoch1",
+      "label": "Visualisierung des Fortschritts",
+      "measurability": 1.0,
+      "influenceability": 1.0
+    },
+    {
+      "_id": "elem-yvMeM1BT",
+      "label": "Volatilit├ñt der Randbedingungen",
+      "measurability": 0.5,
+      "influenceability": 0.0
+    }
+  ],
+  "not_found": [
+    "Erf├╝llung der Nutzeranforderung an das Tools",
+    "Frequenz der Lieferzyklen",
+    "Qualit├ñt der Kundeneinbindung"
+  ]
+}
+
