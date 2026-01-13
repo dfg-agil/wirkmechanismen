@@ -7010,8 +7010,6 @@
         "connection type": "++",
         "description": "Hochwertige Teamdynamik steigert die Wertgenerierung durch verbesserte Zusammenarbeit, effizientere Kommunikation und höhere Produktivität. Teams mit positiver Dynamik zeigen bessere Problemlösungsfähigkeiten, schnellere Entscheidungsfindung und erhöhte Innovation, was direkt zur Steigerung des für Stakeholder generierten Werts beiträgt. Empirisch belegt durch Tuckman's Teamentwicklungsmodell (1965) und Google's Project Aristotle Studie zur psychologischen Sicherheit."
       }
-<<<<<<< Updated upstream
-=======
     },
     {
       "_id": "conn-COMPLEXITY-TO-COORDINATION",
@@ -7324,7 +7322,6 @@
         "connection type": "++",
         "description": "Wissensaustausch und Team-Reflexion verstärken sich gegenseitig: Gemeinsame Reflexion über Erfahrungen führt zu besserem Wissensaustausch und tieferem Verständnis."
       }
->>>>>>> Stashed changes
     }
   ]
 }
