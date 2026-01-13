@@ -2339,23 +2339,6 @@
       }
     },
     {
-      "_id": "elem-eaILhq80",
-      "attributes": {
-        "label": "REMOVED: Autonomie durch klar definierte Grenzen der Rollen",
-        "description": "[REMOVED] Autonomie durch Grenzen — gelöscht per Nutzeranfrage.",
-        "element type": "Removed",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null,
-        "deleted": true
-      }
-    },
-    {
       "_id": "elem-LLtKDcyR",
       "attributes": {
         "label": "Einheitlichkeit bereichsübergreifender Kodierungsstandards",
@@ -3133,6 +3116,16 @@
         "micmac exposure": 0,
         "measurability": 0.9,
         "influenceability": 0.3
+      }
+    },
+    {
+      "_id": "elem-koordin001",
+      "attributes": {
+        "label": "Koordinationsaufwand",
+        "description": "Der Aufwand, der für die Synchronisation und Abstimmung zwischen Teammitgliedern und Systemkomponenten erforderlich ist. Umfasst Meeting-Häufigkeit, Abstimmungsprozesse, Kommunikationsoverhead und Kontextwechsel. Erhöhter Koordinationsaufwand reduziert verfügbare Zeit für direkte Entwicklungsarbeit.",
+        "element type": "Einflussfaktoren",
+        "measurability": 0.5,
+        "influenceability": 1
       }
     }
   ],
@@ -6968,6 +6961,240 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Hochwertige Teamdynamik steigert die Wertgenerierung durch verbesserte Zusammenarbeit, effizientere Kommunikation und höhere Produktivität. Teams mit positiver Dynamik zeigen bessere Problemlösungsfähigkeiten, schnellere Entscheidungsfindung und erhöhte Innovation, was direkt zur Steigerung des für Stakeholder generierten Werts beiträgt. Empirisch belegt durch Tuckman's Teamentwicklungsmodell (1965) und Google's Project Aristotle Studie zur psychologischen Sicherheit."
+      }
+    },
+    {
+      "_id": "conn-COMPLEXITY-TO-COORDINATION",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Komplexere Systeme mit mehr Komponenten und Beziehungen erfordern intensivere Abstimmungsprozesse zwischen Entwicklern, um Abhängigkeiten zu koordinieren und Integrationsprobleme zu vermeiden."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-COMPLEXITY",
+      "from": "elem-koordin001",
+      "to": "elem-1T8mAYkP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Effektive Koordination und gemeinsames mentales Modell reduzieren die wahrgenommene Komplexität und ermöglichen besseres Verständnis von Systemzusammenhängen."
+      }
+    },
+    {
+      "_id": "conn-IMPEDIMENTS-TO-COORDINATION",
+      "from": "elem-7sSep5II",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Mehr Abhängigkeiten und identifizierte Hindernisse erfordern erhöhte Koordination und Abstimmung zur Aufgabenplanung und Problemlösung."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-IMPEDIMENTS",
+      "from": "elem-koordin001",
+      "to": "elem-7sSep5II",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Strukturierte Koordinationsprozesse und transparente Kommunikation erhöhen die Sichtbarkeit von Abhängigkeiten und Hindernissen, was diese besser identifizierbar macht."
+      }
+    },
+    {
+      "_id": "conn-TEAMSIZE-TO-COORDINATION",
+      "from": "elem-DbXXPgu4",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Größere Teams erfordern exponentiell mehr Koordination aufgrund der steigenden Anzahl von Kommunikationskanälen (n*(n-1)/2) und Abhängigkeiten zwischen Teamzellen."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-TEAMSIZE",
+      "from": "elem-koordin001",
+      "to": "elem-DbXXPgu4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "+-",
+        "description": "Hoher Koordinationsaufwand kann durch Umverteilung oder Reduktion von Teamgröße gesenkt werden, wenn Koordinationsmechanismen ineffektiv sind. Jedoch kann sinnvolle Reduktion auch zu Bottlenecks führen."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-WORKLOAD",
+      "from": "elem-koordin001",
+      "to": "elem-34Kwzpr1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Höherer Koordinationsaufwand durch Meetings, Abstimmungen und Kommunikation reduziert verfügbare Zeit für direkte Entwicklungsarbeit und erhöht die Belastung der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-WORKLOAD-TO-COORDINATION",
+      "from": "elem-34Kwzpr1",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Überlastete Entwickler haben weniger Kapazität für Koordination und Kommunikation, was zu unzureichender Abstimmung und erhöhtem Koordinationsaufwand führt."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-ERRORS",
+      "from": "elem-koordin001",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Schlecht durchgeführte oder unzureichende Koordination führt zu Fehler durch Missverständnisse bei Abhängigkeiten, fehlende Integration und unabgestimmte Änderungen."
+      }
+    },
+    {
+      "_id": "conn-ERRORS-TO-COORDINATION",
+      "from": "elem-0PyumJeh",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Häufige Fehler durch unzureichende Abstimmung erzeugen zusätzlichen Koordinationsaufwand für Debugging, Fehleranalyse und Reparatur."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-PARTICIPATION",
+      "from": "elem-koordin001",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Zu viele Meetings und Koordinationsprozesse können echte Partizipation und aktive Mitgestaltung ersticken, wenn zu viel Zeit in Abstimmung statt in sinnvoller Arbeit verwendet wird."
+      }
+    },
+    {
+      "_id": "conn-PARTICIPATION-TO-COORDINATION",
+      "from": "elem-1oLVNA94",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Hohe Team-Partizipation mit guter Engagement kann durch strukturierte Abstimmung den Koordinationsaufwand senken, indem Missverständnisse früh geklärt werden. Mangelnde Partizipation erhöht ihn."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-TO-COORDINATION",
+      "from": "elem-0er3OquT",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Guter expliziter Wissensstand (Dokumentation, Standards, Prozessrichtlinien) reduziert ad-hoc Abstimmungsbedarf und ermöglicht asynchrone Koordination."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-KNOWLEDGE",
+      "from": "elem-koordin001",
+      "to": "elem-0er3OquT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Strukturierte Koordinationsprozesse führen zur Dokumentation und Externalisierung von implizitem Wissen, was den expliziten Wissensstand der Organisation erhöht."
+      }
+    },
+    {
+      "_id": "conn-PROCESS-AMBIGUITY-TO-COORDINATION",
+      "from": "elem-1mAqDgJB",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Unklare Prozessanforderungen und mehrdeutige Koordinationsprozesse (z.B. unklar definierte Dailies oder Abhängigkeitsmanagement) erfordern zusätzliche Abstimmung und Klärung."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-PROCESS-AMBIGUITY",
+      "from": "elem-koordin001",
+      "to": "elem-1mAqDgJB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Gut strukturierte Koordinationsprozesse und regelmäßige Abstimmung reduzieren Ambiguität bei Prozessanforderungen durch klare Kommunikation und gemeinsame Verständigung."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-TRANSPARENCY",
+      "from": "elem-koordin001",
+      "to": "elem-mzeWXZfS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Strukturierte Koordinationsprozesse (z.B. regelmäßige Status-Updates in Meetings) erhöhen die Transparenz des Aufgabenstatus, insbesondere in virtuellen Umgebungen."
+      }
+    },
+    {
+      "_id": "conn-TRANSPARENCY-TO-COORDINATION",
+      "from": "elem-mzeWXZfS",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Hohe Transparenz des Aufgabenstatus (Board-Sichtbarkeit, digitale Tools) reduziert Koordinationsaufwand durch weniger notwendige manuelle Status-Abfragen und Meetings."
       }
     }
   ]
