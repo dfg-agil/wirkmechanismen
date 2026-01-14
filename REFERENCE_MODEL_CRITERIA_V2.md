@@ -9,23 +9,24 @@ This document defines specific criteria for generating Reference Models in the W
 ### 1. Element Taxonomy (MANDATORY)
 
 #### 1.1 Key Factor Constraint
-- **MANDATORY**: Exactly ONE (1) Key Factor per Reference Model
+- **MANDATORY**: At least ONE (1) primary Key Factor per reference model
+- **OPTIONAL**: Additional secondary Key Factors are allowed (to represent multi-causal starting points / multiple intervention levers)
 - **DEFINITION**: The central factor representing the main problem and serving as primary intervention target
 - **CLASSIFICATION**: `"element type": "Schlüsselfaktor"` (Key Factor)
-- **REJECT**: Models with zero or multiple Key Factors
+- **REJECT**: models with zero Key Factors (but do not reject models with multiple Key Factors)
 
 #### 1.2 Success Factor Structure
-- **MANDATORY**: Exactly ONE (1) Success Factor per Reference Model
+- **MANDATORY**: At least ONE (1) Success Factor per reference model
+- **ALLOWED**: Multiple Success Factors are permitted (to reflect multi-dimensional objectives)
 - **DEFINITION**: Long-term, overarching goal (e.g., product quality, customer satisfaction)
 - **CLASSIFICATION**: `"element type": "Erfolgsfaktor"` (Success Factor)
-- **MANDATORY**: If Success Factor is not directly measurable (measurability < 0.8), MUST add a Measurable Success Factor as proxy
+- **MANDATORY**:If a Success Factor is not directly measurable (measurability < 0,8), a Measurable Success Factor proxy must be added for that Success Factor.
 - **CLASSIFICATION Proxy**: `"element type": "Messbarer Erfolgsfaktor"` (Measurable Success Factor)
 - **REJECT**: Models without Success Factor or with multiple Success Factors
 
 #### 1.3 Influencing Factors Classification
 - **MANDATORY**: All other factors MUST be classified as Influencing Factors
 - **CLASSIFICATION**: `"element type": "Einflussfaktoren"` (Influencing Factors)
-- **RECOMMENDATION**: 3-7 Influencing Factors for balanced model complexity
 - **REVIEW REQUIRED**: Models with >10 Influencing Factors (complexity check)
 
 ### 2. Causal Chain Structure (MANDATORY)
@@ -113,8 +114,8 @@ This document defines specific criteria for generating Reference Models in the W
 ## Compliance Checklist
 
 ### Pre-Submission
-- [ ] Exactly 1 Key Factor present
-- [ ] Exactly 1 Success Factor present
+- [ ] At least 1 Key Factor present (one may be designated primary)
+- [ ] At least 1 Success Factor present
 - [ ] Measurable Success Factor added if low-measurable Success Factor
 - [ ] All other factors classified as "Influencing Factors"
 - [ ] Direct causal chain Key Factor → Success Factor present
@@ -133,8 +134,8 @@ This document defines specific criteria for generating Reference Models in the W
 
 ## Rejection Criteria
 
-- **AUTOMATIC REJECT**: More or less than 1 Key Factor
-- **AUTOMATIC REJECT**: More or less than 1 Success Factor
+- **AUTOMATIC REJECT**: No Key Factor
+- **AUTOMATIC REJECT**: No Success Factor
 - **AUTOMATIC REJECT**: Broken causal chain Key Factor → Success Factor
 - **AUTOMATIC REJECT**: <50% literature sources
 - **AUTOMATIC REJECT**: Unknown sources `[?]`
