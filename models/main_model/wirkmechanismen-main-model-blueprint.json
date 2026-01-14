@@ -2288,32 +2288,7 @@
         "influenceability": 0.5
       }
     },
-    {
-      "_id": "elem-zvJB7VvI",
-      "attributes": {
-        "label": "Teilhabe an der Kommunikation in Teammeetings",
-        "tags": [
-          "Team-Partizipation",
-          "Planning"
-        ],
-        "element type": "Einflussfaktoren",
-        "description": "=Jeder muss die Möglichkeit haben etwas zu sagen",
-        "closeness": 0.01,
-        "metrics::last": 0.8830036809263201,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
-        "betweenness": 0,
-        "eigenvector": 0.002806812667520127,
-        "reach": 0.019801980198019802,
-        "reach-efficiency": 0.006600660066006601,
-        "micmac influence": 0,
-        "micmac exposure": 0.8830036809263201,
-        "measurability": null,
-        "influenceability": null
-      }
-    },
+    
     {
       "_id": "elem-9piyQ4RZ",
       "attributes": {
@@ -4063,15 +4038,7 @@
       "from": "elem-QOBGtWqO",
       "to": "elem-bh4G3Yqp"
     },
-    {
-      "_id": "conn-JDH05iv4",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-1oLVNA94",
-      "to": "elem-zvJB7VvI"
-    },
+    
     {
       "_id": "conn-JI8xVbGX",
       "direction": "directed",
