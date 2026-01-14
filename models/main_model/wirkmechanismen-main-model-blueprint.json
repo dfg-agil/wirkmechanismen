@@ -95,8 +95,8 @@
         "reach-efficiency": 0.027722772277227727,
         "micmac influence": 0.9013990852927545,
         "micmac exposure": 0.5828729346045435,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1.0,
+        "influenceability": 1.0
       }
     },
     {
@@ -302,8 +302,8 @@
         "reach-efficiency": 0.0033003300330033004,
         "micmac influence": 0,
         "micmac exposure": 0.8160049503978034,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -477,8 +477,6 @@
         "influenceability": 1
       }
     },
-    
-    
     {
       "_id": "elem-DbXXPgu4",
       "attributes": {
@@ -736,8 +734,8 @@
         "reach-efficiency": 0.017326732673267328,
         "micmac influence": 0.82843573523195,
         "micmac exposure": 0.9708004396048325,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -1103,8 +1101,8 @@
         "reach-efficiency": 0.025974025974025976,
         "micmac influence": 0.9128294249797513,
         "micmac exposure": 0.7613808958525524,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -1491,8 +1489,8 @@
       "attributes": {
         "label": "Qualität des Feedbacks",
         "element type": "Einflussfaktoren",
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -1537,8 +1535,8 @@
         "reach-efficiency": 0.012121212121212121,
         "micmac influence": 0.7595298486964337,
         "micmac exposure": 0.8254970866986676,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2234,8 +2232,8 @@
       "attributes": {
         "label": "Quantität des Feedbacks",
         "element type": "Einflussfaktoren",
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1.0,
+        "influenceability": 1.0
       }
     },
     {
@@ -2259,8 +2257,8 @@
         "reach-efficiency": 0.012376237623762377,
         "micmac influence": 0.8076245462717926,
         "micmac exposure": 0.825817274358828,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.0
       }
     },
     {
@@ -2326,8 +2324,8 @@
         "micmac influence": 0,
         "metrics::last": 0.8160049503978034,
         "micmac exposure": 0.8160049503978034,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.0,
+        "influenceability": 1.0
       }
     },
     {
@@ -2342,8 +2340,8 @@
         "micmac influence": 0,
         "metrics::last": 0.6330977784961899,
         "micmac exposure": 0.6330977784961899,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2357,9 +2355,9 @@
         ],
         "micmac influence": 0,
         "metrics::last": 0,
-          "micmac exposure": 0,
-          "measurability": 0.5,
-          "influenceability": 0.5
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2502,8 +2500,8 @@
         "micmac influence": 0,
         "metrics::last": 0.9013959819624902,
         "micmac exposure": 0.9013959819624902,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2550,8 +2548,8 @@
         "micmac influence": 0,
         "metrics::last": 0.8535044718337663,
         "micmac exposure": 0.8535044718337663,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2566,8 +2564,8 @@
         "micmac influence": 0,
         "metrics::last": 0.7638528204727111,
         "micmac exposure": 0.7638528204727111,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2630,8 +2628,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2646,8 +2644,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2662,8 +2660,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -2694,8 +2692,8 @@
         "micmac influence": 0,
         "metrics::last": 0.8905693236751449,
         "micmac exposure": 0.8905693236751449,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2710,8 +2708,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2724,10 +2722,10 @@
           "AgilityMap"
         ],
         "micmac influence": 0,
-          "metrics::last": 0,
-          "micmac exposure": 0,
-          "measurability": 0.5,
-          "influenceability": 0.5
+        "metrics::last": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -2758,8 +2756,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 1.0,
+        "influenceability": 0.5
       }
     },
     {
@@ -2774,8 +2772,8 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 1.0
       }
     },
     {
@@ -3152,7 +3150,12 @@
         "label": "Menge der Wertgenerierung",
         "element type": "Messbarer Erfolgsfaktor",
         "description": "Quantifizierbare Menge des durch das Team/Produkt generierten Werts für Stakeholder. Messbar durch Metriken wie Customer Satisfaction Scores, Net Promoter Score, Business Value Points, Feature Adoption Rate und Return on Investment. Repräsentiert das primäre Ziel agiler Entwicklungsprozesse: kontinuierliche Wertlieferung an Kunden und Organisation.",
-        "tags": ["Outcome", "Value", "Success", "Measurement"],
+        "tags": [
+          "Outcome",
+          "Value",
+          "Success",
+          "Measurement"
+        ],
         "closeness": 0,
         "metrics::last": 0,
         "degree": 0,
@@ -3637,7 +3640,6 @@
       "from": "elem-8Gqgaih7",
       "to": "elem-YDXh1U6N"
     },
-    
     {
       "_id": "conn-8OPfyfYa",
       "direction": "directed",
@@ -5999,7 +6001,6 @@
         "connection type": "++"
       }
     },
-    
     {
       "_id": "conn-auto-006",
       "from": "elem-umR71vJA",
@@ -6516,7 +6517,6 @@
         "connection type": "++"
       }
     },
-    
     {
       "_id": "conn-auto-052",
       "from": "elem-79TGQTNN",
