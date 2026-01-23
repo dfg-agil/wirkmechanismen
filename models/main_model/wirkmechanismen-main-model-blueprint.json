@@ -606,8 +606,8 @@
         "reach-efficiency": 0,
         "micmac influence": 0,
         "micmac exposure": 0,
-        "measurability": 0.7,
-        "influenceability": 0.8
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
