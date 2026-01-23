@@ -6034,19 +6034,6 @@
       }
     },
     {
-      "_id": "conn-auto-005",
-      "from": "elem-8DovrrfU",
-      "to": "elem-9UL9boAn",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    
-    {
       "_id": "conn-auto-006",
       "from": "elem-umR71vJA",
       "to": "elem-ldnDdueE",
@@ -6550,19 +6537,6 @@
         "connection type": "++"
       }
     },
-    {
-      "_id": "conn-auto-051",
-      "from": "elem-9UL9boAn",
-      "to": "elem-8DovrrfU",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    
     {
       "_id": "conn-auto-052",
       "from": "elem-79TGQTNN",
@@ -7289,6 +7263,58 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Personen, die den Projektkontext, historischen Background, Entscheidungslogiken und Constraints kennen, können Informationen aus armen Medien besser interpretieren. Neue Team-Mitglieder mit geringem Kontext-Verständnis benötigen reichhaltigere Medien für das gleiche Verständnis."
+      }
+    },
+    {
+      "_id": "conn-komplArchit-wahrMed",
+      "from": "elem-VBKokGEh",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Systemarchitektur-Komplexität erfordert mehr mediale Reichhaltigkeit, um alle notwendigen Aspekte, Abhängigkeiten und Auswirkungen kommunizieren zu können. Komplexe technische Konzepte können in armen Medien (z.B. Text) schwer vollständig vermittelt werden und bedürfen synchroner Diskussion mit visuellen Hilfsmitteln."
+      }
+    },
+    {
+      "_id": "conn-mediaKomp-wahrMed",
+      "from": "elem-4b82cTxp",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Personen mit hoher Medienkompetenz nutzen alle verfügbaren Kanäle und Features eines Mediums optimal aus, was dazu führt, dass sie das Medium als reicher wahrnehmen als technisch weniger versierte Personen. Ein erfahrener Remote-Worker kann aus Zoom mehr rausholen als jemand mit weniger Erfahrung."
+      }
+    },
+    {
+      "_id": "conn-kommQual-konvergenz",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige Kommunikation führt zu besserer gegenseitiger Verständigung und Konvergenz des Teamverständnisses. Klare, präzise und empathische Kommunikation ermöglicht es Team-Mitgliedern, schneller zu gemeinsamen Verständnis über Anforderungen, Probleme und Lösungsansätze zu gelangen."
+      }
+    },
+    {
+      "_id": "conn-kommModus-feedQual",
+      "from": "elem-jxhfFnIX",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Synchrone Kommunikationsmodi (z.B. Video-Calls, Face-to-Face) ermöglichen unmittelbares Feedback und schnellere Feedback-Schleifen, was zu höherer Feedback-Qualität führt. Asynchrone Modi (z.B. Email, Slack) haben längere Feedback-Zyklen und können zu Missverständnissen führen, wenn komplexe Themen verhandelt werden."
       }
     }
   ]
