@@ -3094,6 +3094,38 @@
         "measurability": 0.5,
         "influenceability": 1
       }
+    },
+    {
+      "_id": "elem-aufgMehrdeutigkeit",
+      "attributes": {
+        "label": "Grad der Mehrdeutigkeit der Aufgabe",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Task-Charakteristiken",
+          "MRT",
+          "Anforderungen"
+        ],
+        "description": "Beschreibt das Ausmaß, in dem eine Aufgabe mehrdeutig interpretiert werden kann. Hoher Grad = viele mögliche Verständnisinterpretationen, hohes Missverständnisrisiko. Niedriger Grad = klare, eindeutige Anforderungen mit wenig Interpretationsspielraum. Zentral für Media Richness Theory (Daft & Lengel 1986): Aufgaben mit hoher Mehrdeutigkeit erfordern reichhaltigere Medien.",
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-medienVerfügbarkeit",
+      "attributes": {
+        "label": "Verfügbarkeit reichhaltiger Kommunikationsmedien",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Infrastruktur",
+          "Constraints",
+          "Technologie"
+        ],
+        "description": "Beschreibt das Ausmaß, in dem technisch reichhaltige Medien (Video-Calls, Screen-Sharing, synchrone Collaboration Tools, Face-to-Face-Treffen) für das Team praktisch verfügbar und nutzbar sind. Wird durch geografische Verteilung, Infrastruktur, Zeitzonen-Unterschiede und organisatorische Rahmenbedingungen bestimmt. Ein Team kann nicht reichhaltige Medien nutzen, wenn diese nicht strukturell verfügbar sind (Hard Constraint).",
+        "measurability": 1,
+        "influenceability": 1
+      }
     }
   ],
   "connections": [
