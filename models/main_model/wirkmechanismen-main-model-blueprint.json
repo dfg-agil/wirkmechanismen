@@ -7140,6 +7140,32 @@
         "connection type": "-+",
         "description": "Hohe Transparenz des Aufgabenstatus (Board-Sichtbarkeit, digitale Tools) reduziert Koordinationsaufwand durch weniger notwendige manuelle Status-Abfragen und Meetings."
       }
+    },
+    {
+      "_id": "conn-UNCERTAINTY-TO-GOAL-FLEXIBILITY",
+      "from": "elem-uRg5n0iS",
+      "to": "elem-0gOh0zC4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer Grad an Unsicherheiten im PEP erfordert flexiblere Ziele in der Teamzielsetzung, um auf unvorhersehbare Entwicklungen reagieren zu können."
+      }
+    },
+    {
+      "_id": "conn-COMPLEXITY-TO-GOAL-FLEXIBILITY",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-0gOh0zC4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen."
+      }
     }
   ]
 }
