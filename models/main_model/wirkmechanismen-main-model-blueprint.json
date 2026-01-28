@@ -3126,6 +3126,21 @@
         "measurability": 1,
         "influenceability": 1
       }
+    },
+    {
+      "_id": "elem-retrospektive001",
+      "attributes": {
+        "label": "Qualität der Retrospektive",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Retrospektive",
+          "Kontinuierliche Verbesserung",
+          "Team-Reflexion"
+        ],
+        "description": "Prozessqualität der Retrospektive-Events: Regelmäßigkeit, psychologische Sicherheit, Strukturierung der Reflexion, Ableitung und Umsetzung konkreter Verbesserungsmaßnahmen. Die Retrospektive ist der primäre Mechanismus für kontinuierliche Prozessverbesserung und Lernen aus Erfahrungen. Messbar über Teilnahmequote, Anzahl umgesetzter Action Items, wahrgenommene psychologische Sicherheit im Team.",
+        "measurability": 0.5,
+        "influenceability": 1
+      }
     }
   ],
   "connections": [
@@ -7139,6 +7154,149 @@
         "label": "[X]",
         "connection type": "-+",
         "description": "Hohe Transparenz des Aufgabenstatus (Board-Sichtbarkeit, digitale Tools) reduziert Koordinationsaufwand durch weniger notwendige manuelle Status-Abfragen und Meetings."
+      }
+    },
+    {
+      "_id": "conn-UNCERTAINTY-TO-GOAL-FLEXIBILITY",
+      "from": "elem-uRg5n0iS",
+      "to": "elem-0gOh0zC4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer Grad an Unsicherheiten im PEP erfordert flexiblere Ziele in der Teamzielsetzung, um auf unvorhersehbare Entwicklungen reagieren zu können."
+      }
+    },
+    {
+      "_id": "conn-COMPLEXITY-TO-GOAL-FLEXIBILITY",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-0gOh0zC4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen."
+      }
+    },
+    {
+      "_id": "conn-PLANNING-TO-EQUIVOCALITY",
+      "from": "elem-8Gqgaih7",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Hohe Planungsqualität reduziert die Mehrdeutigkeit von Aufgaben durch gemeinsame Klärung, Konkretisierung von Akzeptanzkriterien und Alignment zwischen Team und Product Owner."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-EQUIVOCALITY",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Gute Struktur und Zielorientierung (z.B. im Daily) reduzieren Aufgabenmehrdeutigkeit durch regelmäßige Synchronisation, Klärung von Abhängigkeiten und Fokussierung auf gemeinsame Ziele."
+      }
+    },
+    {
+      "_id": "conn-COMMUNICATION-TO-EQUIVOCALITY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Hochwertige Kommunikation ist der zentrale Mechanismus zur Reduktion von Equivocality (Media Richness Theory, Daft & Lengel 1986): Reichhaltige, bidirektionale Kommunikation ermöglicht schnelle Klärung mehrdeutiger Situationen."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-UNCERTAINTY",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-uRg5n0iS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Gute Struktur und Zielorientierung (insb. Daily Scrum) reduzieren epistemische Unsicherheiten durch erhöhte Transparenz über Aufgabenstatus, Hindernisse und Teamkapazität."
+      }
+    },
+    {
+      "_id": "conn-COMMUNICATION-TO-UNCERTAINTY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-uRg5n0iS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Hochwertige Kommunikation reduziert epistemische Unsicherheiten durch effektiven Wissensaustausch und schnelle Informationsverfügbarkeit (Media Richness Theory)."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REF-TO-UNCERTAINTY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-uRg5n0iS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Qualitativ hochwertiges Backlog-Refinement ist explizit darauf ausgelegt, epistemische Unsicherheiten (reduzierbar durch Informationsbeschaffung) in Requirements und technischer Machbarkeit zu reduzieren."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-PROCESS-AMBIGUITY",
+      "from": "elem-retrospektive001",
+      "to": "elem-1mAqDgJB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Hochwertige Retrospektiven reduzieren Ambiguität der Prozessanforderungen durch explizite Reflexion und Klärung von Prozesserwartungen, Rollen und Arbeitsweisen."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-IMPROVEMENT",
+      "from": "elem-retrospektive001",
+      "to": "elem-3kHOLwDg",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Retrospektive ist der primäre strukturierte Mechanismus für die kontinuierliche Anpassungs- und Verbesserungsfähigkeit des Teamprozesses."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-TEAM-REFLECTION",
+      "from": "elem-retrospektive001",
+      "to": "elem-KOUdbt3n",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Qualität der Retrospektive bestimmt direkt den Grad der Team-Reflexion - strukturierte Retrospektiven fördern tiefere Reflexionsprozesse."
       }
     }
   ]
