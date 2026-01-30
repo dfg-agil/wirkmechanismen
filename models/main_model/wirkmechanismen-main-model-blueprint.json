@@ -7791,7 +7791,7 @@
       "attributes": {
         "label": "[X]",
         "connection type": "--",
-        "description": "Intensiver Wissensaustausch reduziert Fehlerhäufigkeit durch besseres gegenseitiges Verständnis, schnellere Fehleridentifikation und präventive Diskussionen über bekannte Probleme."
+        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen."
       }
     },
     {
@@ -7804,7 +7804,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "-+",
-        "description": "Hochwertige Kommunikation ist der zentrale Mechanismus zur Reduktion von Equivocality (Media Richness Theory, Daft & Lengel 1986): Reichhaltige, bidirektionale Kommunikation ermöglicht schnelle Klärung mehrdeutiger Situationen."
+        "description": "Starker Wissensaustausch reduziert Koordinationsaufwand durch gemeinsames mentales Modell und geteiltes Verständnis von Systemzusammenhängen und Anforderungen."
       }
     },
     {
@@ -7817,7 +7817,7 @@
       "attributes": {
         "label": "[?]",
         "connection type": "++",
-        "description": "Personen, die den Projektkontext, historischen Background, Entscheidungslogiken und Constraints kennen, können Informationen aus armen Medien besser interpretieren. Neue Team-Mitglieder mit geringem Kontext-Verständnis benötigen reichhaltigere Medien für das gleiche Verständnis.\n\nKomplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen.\n\nStarker Wissensaustausch reduziert Koordinationsaufwand durch gemeinsames mentales Modell und geteiltes Verständnis von Systemzusammenhängen und Anforderungen."
+        "description": "Personen, die den Projektkontext, historischen Background, Entscheidungslogiken und Constraints kennen, können Informationen aus armen Medien besser interpretieren. Neue Team-Mitglieder mit geringem Kontext-Verständnis benötigen reichhaltigere Medien für das gleiche Verständnis."
       }
     },
     {
