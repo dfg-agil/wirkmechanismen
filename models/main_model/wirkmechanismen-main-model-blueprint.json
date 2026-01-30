@@ -7384,6 +7384,9 @@
       }
     },
     {
+      "_id": "conn-UNCERTAINTY-TO-GOAL-FLEXIBILITY",
+      "from": "elem-uRg5n0iS",
+      "to": "elem-0gOh0zC4",
       "_id": "conn-KNOWLEDGE-SHARING-TO-PARTICIPATION",
       "from": "elem-gdWissAust01",
       "to": "elem-1oLVNA94",
@@ -7511,6 +7514,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Ein höherer Grad an Unsicherheiten im PEP erfordert flexiblere Ziele in der Teamzielsetzung, um auf unvorhersehbare Entwicklungen reagieren zu können."
+      }
+    },
+    {
+      "_id": "conn-COMPLEXITY-TO-GOAL-FLEXIBILITY",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-0gOh0zC4",
         "description": "Höhere Systemarchitektur-Komplexität erfordert mehr mediale Reichhaltigkeit, um alle notwendigen Aspekte, Abhängigkeiten und Auswirkungen kommunizieren zu können. Komplexe technische Konzepte können in armen Medien (z.B. Text) schwer vollständig vermittelt werden und bedürfen synchroner Diskussion mit visuellen Hilfsmitteln."
       }
     },
@@ -7550,6 +7560,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen."
         "description": "Synchrone Kommunikationsmodi (z.B. Video-Calls, Face-to-Face) ermöglichen unmittelbares Feedback und schnellere Feedback-Schleifen, was zu höherer Feedback-Qualität führt. Asynchrone Modi (z.B. Email, Slack) haben längere Feedback-Zyklen und können zu Missverständnissen führen, wenn komplexe Themen verhandelt werden."
       }
     }
