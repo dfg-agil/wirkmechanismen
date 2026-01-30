@@ -3196,6 +3196,21 @@
         "measurability": 1,
         "influenceability": 1
       }
+    },
+    {
+      "_id": "elem-retrospektive001",
+      "attributes": {
+        "label": "Qualität der Retrospektive",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Retrospektive",
+          "Kontinuierliche Verbesserung",
+          "Team-Reflexion"
+        ],
+        "description": "Prozessqualität der Retrospektive-Events: Regelmäßigkeit, psychologische Sicherheit, Strukturierung der Reflexion, Ableitung und Umsetzung konkreter Verbesserungsmaßnahmen. Die Retrospektive ist der primäre Mechanismus für kontinuierliche Prozessverbesserung und Lernen aus Erfahrungen. Messbar über Teilnahmequote, Anzahl umgesetzter Action Items, wahrgenommene psychologische Sicherheit im Team.",
+        "measurability": 0.5,
+        "influenceability": 1
+      }
     }
   ],
   "connections": [
@@ -7394,6 +7409,28 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer Grad an Unsicherheiten im PEP erfordert flexiblere Ziele in der Teamzielsetzung, um auf unvorhersehbare Entwicklungen reagieren zu können."
+      }
+    },
+    {
+      "_id": "conn-COMPLEXITY-TO-GOAL-FLEXIBILITY",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-0gOh0zC4",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen."
+      }
+    },
+    {
+      "_id": "conn-PLANNING-TO-EQUIVOCALITY",
+      "from": "elem-8Gqgaih7",
+      "to": "elem-aufgMehrdeutigkeit",
         "label": "[E]",
         "connection type": "++",
         "description": "Je besser ein Individuum mit Kommunikationsmedien und Tools vertraut ist (z.B. Video-Call-Tool, Prototyping-Software), desto reicher wird es wahrgenommen und desto effizienter wird es genutzt. Jemand, der Zoom täglich nutzt, findet es effektiver als jemand, der es zum ersten Mal nutzt."
@@ -7416,6 +7453,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Hohe Planungsqualität reduziert die Mehrdeutigkeit von Aufgaben durch gemeinsame Klärung, Konkretisierung von Akzeptanzkriterien und Alignment zwischen Team und Product Owner."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-EQUIVOCALITY",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-aufgMehrdeutigkeit",
         "label": "[E]",
         "connection type": "++",
         "description": "Experten können Informationen aus strukturell armen Medien effizient extrahieren, weil sie viel Kontext haben und weniger Erklärungen benötigen. Ein erfahrener Architekt versteht aus einer 2D-Skizze mehr als ein Anfänger aus einem Video. Fachkompetenz kompensiert Medium-Armheit."
@@ -7439,6 +7485,14 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "-+",
+        "description": "Gute Struktur und Zielorientierung (z.B. im Daily) reduzieren Aufgabenmehrdeutigkeit durch regelmäßige Synchronisation, Klärung von Abhängigkeiten und Fokussierung auf gemeinsame Ziele."
+      }
+    },
+    {
+      "_id": "conn-COMMUNICATION-TO-EQUIVOCALITY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-aufgMehrdeutigkeit",
         "connection type": "++",
         "description": "Je besser man die Paradigmen und Denkweisen seiner Kommunikationspartner kennt und vertraut ist, desto effizienter kann man arme Medien nutzen. Wenn ich meinen Tech-Lead gut kenne, verstehe ich seine kurze Email; bei unbekannten Personen brauche ich mehr Kontext und reichhaltigere Medien."
       }
@@ -7469,6 +7523,14 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "-+",
+        "description": "Hochwertige Kommunikation ist der zentrale Mechanismus zur Reduktion von Equivocality (Media Richness Theory, Daft & Lengel 1986): Reichhaltige, bidirektionale Kommunikation ermöglicht schnelle Klärung mehrdeutiger Situationen."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURE-TO-UNCERTAINTY",
+      "from": "elem-YDXh1U6N",
+      "to": "elem-uRg5n0iS",
         "connection type": "++",
         "description": "Personen, die den Projektkontext, historischen Background, Entscheidungslogiken und Constraints kennen, können Informationen aus armen Medien besser interpretieren. Neue Team-Mitglieder mit geringem Kontext-Verständnis benötigen reichhaltigere Medien für das gleiche Verständnis."
         "connection type": "--",
@@ -7486,6 +7548,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Gute Struktur und Zielorientierung (insb. Daily Scrum) reduzieren epistemische Unsicherheiten durch erhöhte Transparenz über Aufgabenstatus, Hindernisse und Teamkapazität."
+      }
+    },
+    {
+      "_id": "conn-COMMUNICATION-TO-UNCERTAINTY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-uRg5n0iS",
         "label": "[X]",
         "connection type": "++",
         "description": "Hohes Vertrauen zwischen Teammitgliedern fördert offenen und ehrlichen Wissensaustausch, besonders bei Fehlern, Unsicherheiten und implizitem Wissen."
@@ -7499,6 +7570,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Hochwertige Kommunikation reduziert epistemische Unsicherheiten durch effektiven Wissensaustausch und schnelle Informationsverfügbarkeit (Media Richness Theory)."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REF-TO-UNCERTAINTY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-uRg5n0iS",
         "label": "[X]",
         "connection type": "++",
         "description": "Wissensaustausch und Team-Reflexion verstärken sich gegenseitig: Gemeinsame Reflexion über Erfahrungen führt zu besserem Wissensaustausch und tieferem Verständnis."
@@ -7513,6 +7593,14 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "-+",
+        "description": "Qualitativ hochwertiges Backlog-Refinement ist explizit darauf ausgelegt, epistemische Unsicherheiten (reduzierbar durch Informationsbeschaffung) in Requirements und technischer Machbarkeit zu reduzieren."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-PROCESS-AMBIGUITY",
+      "from": "elem-retrospektive001",
+      "to": "elem-1mAqDgJB",
         "connection type": "++",
         "description": "Ein höherer Grad an Unsicherheiten im PEP erfordert flexiblere Ziele in der Teamzielsetzung, um auf unvorhersehbare Entwicklungen reagieren zu können."
       }
@@ -7532,6 +7620,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Hochwertige Retrospektiven reduzieren Ambiguität der Prozessanforderungen durch explizite Reflexion und Klärung von Prozesserwartungen, Rollen und Arbeitsweisen."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-IMPROVEMENT",
+      "from": "elem-retrospektive001",
+      "to": "elem-3kHOLwDg",
         "label": "[E]",
         "connection type": "++",
         "description": "Personen mit hoher Medienkompetenz nutzen alle verfügbaren Kanäle und Features eines Mediums optimal aus, was dazu führt, dass sie das Medium als reicher wahrnehmen als technisch weniger versierte Personen. Ein erfahrener Remote-Worker kann aus Zoom mehr rausholen als jemand mit weniger Erfahrung."
@@ -7545,6 +7642,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Retrospektive ist der primäre strukturierte Mechanismus für die kontinuierliche Anpassungs- und Verbesserungsfähigkeit des Teamprozesses."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-TEAM-REFLECTION",
+      "from": "elem-retrospektive001",
+      "to": "elem-KOUdbt3n",
         "label": "[E]",
         "connection type": "++",
         "description": "Hochwertige Kommunikation führt zu besserer gegenseitiger Verständigung und Konvergenz des Teamverständnisses. Klare, präzise und empathische Kommunikation ermöglicht es Team-Mitgliedern, schneller zu gemeinsamen Verständnis über Anforderungen, Probleme und Lösungsansätze zu gelangen."
@@ -7560,6 +7666,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Die Qualität der Retrospektive bestimmt direkt den Grad der Team-Reflexion - strukturierte Retrospektiven fördern tiefere Reflexionsprozesse."
         "description": "Eine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen."
         "description": "Synchrone Kommunikationsmodi (z.B. Video-Calls, Face-to-Face) ermöglichen unmittelbares Feedback und schnellere Feedback-Schleifen, was zu höherer Feedback-Qualität führt. Asynchrone Modi (z.B. Email, Slack) haben längere Feedback-Zyklen und können zu Missverständnissen führen, wenn komplexe Themen verhandelt werden."
       }
