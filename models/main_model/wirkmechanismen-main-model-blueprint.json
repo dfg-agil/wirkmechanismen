@@ -606,8 +606,8 @@
         "reach-efficiency": 0,
         "micmac influence": 0,
         "micmac exposure": 0,
-        "measurability": 0.7,
-        "influenceability": 0.8
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -1282,32 +1282,6 @@
         "micmac exposure": 0.7938972128205074,
         "measurability": 0.5,
         "influenceability": 0.5
-      }
-    },
-    {
-      "_id": "elem-ZgVbLBTy",
-      "attributes": {
-        "label": "hohe Medienkompetenz",
-        "tags": [
-          "Hindernisse und Abhängigkeiten",
-          "Planning"
-        ],
-        "element type": "Einflussfaktoren",
-        "description": "= (visuelle) Transparenz im Tool (Board)",
-        "closeness": 0,
-        "metrics::last": 0.6330977784961899,
-        "degree": 1,
-        "size": 2,
-        "indegree": 1,
-        "outdegree": 0,
-        "betweenness": 0,
-        "eigenvector": 0.008800877593691837,
-        "reach": 0.009900990099009901,
-        "reach-efficiency": 0.0049504950495049506,
-        "micmac influence": 0,
-        "micmac exposure": 0.6330977784961899,
-        "measurability": null,
-        "influenceability": null
       }
     },
     {
@@ -2288,32 +2262,7 @@
         "influenceability": 0.5
       }
     },
-    {
-      "_id": "elem-zvJB7VvI",
-      "attributes": {
-        "label": "Teilhabe an der Kommunikation in Teammeetings",
-        "tags": [
-          "Team-Partizipation",
-          "Planning"
-        ],
-        "element type": "Einflussfaktoren",
-        "description": "=Jeder muss die Möglichkeit haben etwas zu sagen",
-        "closeness": 0.01,
-        "metrics::last": 0.8830036809263201,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
-        "betweenness": 0,
-        "eigenvector": 0.002806812667520127,
-        "reach": 0.019801980198019802,
-        "reach-efficiency": 0.006600660066006601,
-        "micmac influence": 0,
-        "micmac exposure": 0.8830036809263201,
-        "measurability": null,
-        "influenceability": null
-      }
-    },
+    
     {
       "_id": "elem-9piyQ4RZ",
       "attributes": {
@@ -2376,22 +2325,6 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 0.5
-      }
-    },
-    {
-      "_id": "elem-eaILhq80",
-      "attributes": {
-        "label": "Autonomie durch klar definierte Grenzen der Rollen",
-        "description": "Autonomie durch Grenzen (\"Autonomy Through Boundaries\") - Autonomie heißt nicht, dass ein Team alles tun darf was es will, sondern dass Grenzbereiche /Richtlinien sehr klar definiert sind. Mitarbeiter handeln selbstständig im Rahmen ihrer Möglichkeiten und Befugnisse und es ist weniger Kommunikation mit der Führungsebene notwendig, was den Workflow erheblich verbessert.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": null,
-        "influenceability": null
       }
     },
     {
@@ -2712,22 +2645,6 @@
         "micmac exposure": 0,
         "measurability": null,
         "influenceability": null
-      }
-    },
-    {
-      "_id": "elem-CuaFkCcT",
-      "attributes": {
-        "label": "Bereitschaft zur Veränderung",
-        "description": "Die Begeisterung für agile Arbeitsweisen muss durch alle Ebenen gehen und entsprechend muss auch die Bereitschaft zu Veränderungen vorhanden sein. So kann beispielsweise die Teamleiterebene obsolet werden, da je nach Aufgabenstellung nur Scrum Master und Product Owner nötig sind.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-          "metrics::last": 0,
-          "micmac exposure": 0,
-          "measurability": 0.5,
-          "influenceability": 0.5
       }
     },
     {
@@ -3147,6 +3064,32 @@
       }
     },
     {
+      "_id": "elem-komKomplexitaet",
+      "attributes": {
+        "label": "Komplexität der Kommunikationsaufgabe",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Komplexität"
+        ],
+        "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
+    },
+    {
       "_id": "elem-VALUE-CREATION",
       "attributes": {
         "label": "Menge der Wertgenerierung",
@@ -3213,6 +3156,45 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 0.5
+      "_id": "elem-koordin001",
+      "attributes": {
+        "label": "Koordinationsaufwand",
+        "description": "Der Aufwand, der für die Synchronisation und Abstimmung zwischen Teammitgliedern und Systemkomponenten erforderlich ist. Umfasst Meeting-Häufigkeit, Abstimmungsprozesse, Kommunikationsoverhead und Kontextwechsel. Erhöhter Koordinationsaufwand reduziert verfügbare Zeit für direkte Entwicklungsarbeit.",
+        "element type": "Einflussfaktoren",
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-aufgMehrdeutigkeit",
+      "attributes": {
+        "label": "Grad der Mehrdeutigkeit der Aufgabe",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Task-Charakteristiken",
+          "MRT",
+          "Anforderungen"
+        ],
+        "description": "Beschreibt das Ausmaß, in dem eine Aufgabe mehrdeutig interpretiert werden kann. Hoher Grad = viele mögliche Verständnisinterpretationen, hohes Missverständnisrisiko. Niedriger Grad = klare, eindeutige Anforderungen mit wenig Interpretationsspielraum. Zentral für Media Richness Theory (Daft & Lengel 1986): Aufgaben mit hoher Mehrdeutigkeit erfordern reichhaltigere Medien.",
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-medienVerfügbarkeit",
+      "attributes": {
+        "label": "Verfügbarkeit reichhaltiger Kommunikationsmedien",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Infrastruktur",
+          "Constraints",
+          "Technologie"
+        ],
+        "description": "Beschreibt das Ausmaß, in dem technisch reichhaltige Medien (Video-Calls, Screen-Sharing, synchrone Collaboration Tools, Face-to-Face-Treffen) für das Team praktisch verfügbar und nutzbar sind. Wird durch geografische Verteilung, Infrastruktur, Zeitzonen-Unterschiede und organisatorische Rahmenbedingungen bestimmt. Ein Team kann nicht reichhaltige Medien nutzen, wenn diese nicht strukturell verfügbar sind (Hard Constraint).",
+        "measurability": 1,
+        "influenceability": 1
       }
     }
   ],
@@ -4035,17 +4017,7 @@
       "from": "elem-YDXh1U6N",
       "to": "elem-F9HioTuT"
     },
-    {
-      "_id": "conn-H9miBZoW",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[E]"
-      },
-      "from": "elem-7sSep5II",
-      "to": "elem-ZgVbLBTy"
-    },
+
     {
       "_id": "conn-HE0nmqSf",
       "direction": "directed",
@@ -4109,15 +4081,8 @@
       "from": "elem-QOBGtWqO",
       "to": "elem-bh4G3Yqp"
     },
-    {
-      "_id": "conn-JDH05iv4",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-1oLVNA94",
-      "to": "elem-zvJB7VvI"
-    },
+    
+
     {
       "_id": "conn-JI8xVbGX",
       "direction": "directed",
@@ -5532,18 +5497,7 @@
       "from": "elem-kpdrF0zk",
       "to": "elem-6tHZ4FNz"
     },
-    {
-      "_id": "conn-p6vPJa0N",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++"
-      },
-      "from": "elem-bh4G3Yqp",
-      "to": "elem-ZgVbLBTy"
-    },
+
     {
       "_id": "conn-pF94ikYU",
       "direction": "directed",
@@ -6058,18 +6012,7 @@
         "connection type": "++"
       }
     },
-    {
-      "_id": "conn-auto-007",
-      "from": "elem-eaILhq80",
-      "to": "elem-xGnKBSH9",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
+
     {
       "_id": "conn-auto-008",
       "from": "elem-ga15zxKL",
@@ -6118,18 +6061,7 @@
         "connection type": "++"
       }
     },
-    {
-      "_id": "conn-auto-012",
-      "from": "elem-CuaFkCcT",
-      "to": "elem-97NjDQTs",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
+
     {
       "_id": "conn-auto-013",
       "from": "elem-Y1OtCeB9",
@@ -6358,18 +6290,7 @@
         "connection type": "++"
       }
     },
-    {
-      "_id": "conn-auto-034",
-      "from": "elem-Iq65xIIl",
-      "to": "elem-eaILhq80",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
+
     {
       "_id": "conn-auto-035",
       "from": "elem-WDoS5RxB",
@@ -7061,6 +6982,12 @@
       "_id": "conn-strukturMed-komQual",
       "from": "elem-strukturelleMediaRichness",
       "to": "elem-bh4G3Yqp",
+      "_id": "conn-kom-Abhängigkeiten-IN",
+      "from": "elem-7sSep5II",
+      "to": "elem-komKomplexitaet",
+      "_id": "conn-COMPLEXITY-TO-COORDINATION",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7074,6 +7001,15 @@
       "_id": "conn-strukturMed-konverg",
       "from": "elem-strukturelleMediaRichness",
       "to": "elem-VombH8FP",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Komplexere Systeme mit mehr Komponenten und Beziehungen erfordern intensivere Abstimmungsprozesse zwischen Entwicklern, um Abhängigkeiten zu koordinieren und Integrationsprobleme zu vermeiden."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-COMPLEXITY",
+      "from": "elem-koordin001",
+      "to": "elem-1T8mAYkP",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7087,6 +7023,15 @@
       "_id": "conn-strukturMed-wahrMed",
       "from": "elem-strukturelleMediaRichness",
       "to": "elem-wahrgenommeneMediaRichness",
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Effektive Koordination und gemeinsames mentales Modell reduzieren die wahrgenommene Komplexität und ermöglichen besseres Verständnis von Systemzusammenhängen."
+      }
+    },
+    {
+      "_id": "conn-IMPEDIMENTS-TO-COORDINATION",
+      "from": "elem-7sSep5II",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7100,6 +7045,24 @@
       "_id": "conn-strukturMed-aufgabeBel",
       "from": "elem-strukturelleMediaRichness",
       "to": "elem-34Kwzpr1",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr Abhängigkeiten und Hindernisse erfordern intensivere Kommunikation zwischen Teams/Stakeholdern, was die Komplexität der Kommunikationsaufgabe erhöht. Abhängigkeiten schaffen Koordinationsbedarf und Informationsbedarf zwischen verschiedenen Parteien."
+      }
+    },
+    {
+      "_id": "conn-kom-Systemkomplexität-IN",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-komKomplexitaet",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Mehr Abhängigkeiten und identifizierte Hindernisse erfordern erhöhte Koordination und Abstimmung zur Aufgabenplanung und Problemlösung."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-IMPEDIMENTS",
+      "from": "elem-koordin001",
+      "to": "elem-7sSep5II",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7113,6 +7076,15 @@
       "_id": "conn-strukturMed-ambigRedukt",
       "from": "elem-strukturelleMediaRichness",
       "to": "elem-1mAqDgJB",
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Strukturierte Koordinationsprozesse und transparente Kommunikation erhöhen die Sichtbarkeit von Abhängigkeiten und Hindernissen, was diese besser identifizierbar macht."
+      }
+    },
+    {
+      "_id": "conn-TEAMSIZE-TO-COORDINATION",
+      "from": "elem-DbXXPgu4",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7126,6 +7098,24 @@
       "_id": "conn-komplKomm-strukturMed",
       "from": "elem-VBKokGEh",
       "to": "elem-strukturelleMediaRichness",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Komplexere Systeme erfordern komplexere Kommunikation zur Abstimmung zwischen Teams. Die technische Systemkomplexität spiegelt sich in erhöhter Kommunikationskomplexität wider, da mehr Nuancen und Abhängigkeiten erklärt und koordiniert werden müssen."
+      }
+    },
+    {
+      "_id": "conn-kom-Volatilität-IN",
+      "from": "elem-yvMeM1BT",
+      "to": "elem-komKomplexitaet",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Größere Teams erfordern exponentiell mehr Koordination aufgrund der steigenden Anzahl von Kommunikationskanälen (n*(n-1)/2) und Abhängigkeiten zwischen Teamzellen."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-TEAMSIZE",
+      "from": "elem-koordin001",
+      "to": "elem-DbXXPgu4",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7139,6 +7129,24 @@
       "_id": "conn-sysKomplx-strukturMed",
       "from": "elem-1T8mAYkP",
       "to": "elem-strukturelleMediaRichness",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Volatile Randbedingungen erfordern häufigere Synchronisations- und Klärungskommunikation zwischen Stakeholdern. Instabilität führt zu erhöhtem Informationsaustausch und komplexeren Abstimmungsprozessen."
+      }
+    },
+    {
+      "_id": "conn-kom-Anzahl-TM-IN",
+      "from": "elem-DbXXPgu4",
+      "to": "elem-komKomplexitaet",
+        "label": "[X]",
+        "connection type": "+-",
+        "description": "Hoher Koordinationsaufwand kann durch Umverteilung oder Reduktion von Teamgröße gesenkt werden, wenn Koordinationsmechanismen ineffektiv sind. Jedoch kann sinnvolle Reduktion auch zu Bottlenecks führen."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-WORKLOAD",
+      "from": "elem-koordin001",
+      "to": "elem-34Kwzpr1",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7152,6 +7160,15 @@
       "_id": "conn-ambigProz-strukturMed",
       "from": "elem-1mAqDgJB",
       "to": "elem-strukturelleMediaRichness",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Höherer Koordinationsaufwand durch Meetings, Abstimmungen und Kommunikation reduziert verfügbare Zeit für direkte Entwicklungsarbeit und erhöht die Belastung der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-WORKLOAD-TO-COORDINATION",
+      "from": "elem-34Kwzpr1",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7165,6 +7182,37 @@
       "_id": "conn-teamVert-strukturMed",
       "from": "elem-gRqiMiBS",
       "to": "elem-strukturelleMediaRichness",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Größere Teams führen exponentiell zu mehr Kommunikationspfaden. Mit n Personen gibt es n*(n-1)/2 mögliche Kommunikationspfade, was die Komplexität der Kommunikationsaufgabe signifikant erhöht."
+      }
+    },
+    {
+      "_id": "conn-kom-Unschärfe-IN",
+      "from": "elem-syHyf0Ed",
+      "to": "elem-komKomplexitaet",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Überlastete Entwickler haben weniger Kapazität für Koordination und Kommunikation, was zu unzureichender Abstimmung und erhöhtem Koordinationsaufwand führt."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-ERRORS",
+      "from": "elem-koordin001",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Schlecht durchgeführte oder unzureichende Koordination führt zu Fehler durch Missverständnisse bei Abhängigkeiten, fehlende Integration und unabgestimmte Änderungen."
+      }
+    },
+    {
+      "_id": "conn-ERRORS-TO-COORDINATION",
+      "from": "elem-0PyumJeh",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7178,6 +7226,23 @@
       "_id": "conn-wahrMed-komQual",
       "from": "elem-wahrgenommeneMediaRichness",
       "to": "elem-bh4G3Yqp",
+        "connection type": "++",
+        "description": "Unschärfe in Randbedingungen erfordert intensive Klärungskommunikation. Fehlende Klarheit zwingt Teams, mehr Zeit in Diskussionen zur Präzisierung von Anforderungen, Prioritäten und Ressourcen zu investieren."
+      }
+    },
+    {
+      "_id": "conn-kom-KommunikationQualität-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-bh4G3Yqp",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Häufige Fehler durch unzureichende Abstimmung erzeugen zusätzlichen Koordinationsaufwand für Debugging, Fehleranalyse und Reparatur."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-PARTICIPATION",
+      "from": "elem-koordin001",
+      "to": "elem-1oLVNA94",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7191,6 +7256,62 @@
       "_id": "conn-wahrMed-kommuniBereit",
       "from": "elem-wahrgenommeneMediaRichness",
       "to": "elem-T2T9LxPn",
+        "connection type": "+-",
+        "description": "Höhere Kommunikationskomplexität erschwert die Kommunikationsqualität. Je komplexer die Kommunikationsaufgabe, desto höher ist das Risiko für Missverständnisse, Verzerrungen und Fehler in der Informationsvermittlung."
+      }
+    },
+    {
+      "_id": "conn-kom-Aufgabenbelastung-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-34Kwzpr1",
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Zu viele Meetings und Koordinationsprozesse können echte Partizipation und aktive Mitgestaltung ersticken, wenn zu viel Zeit in Abstimmung statt in sinnvoller Arbeit verwendet wird."
+      }
+    },
+    {
+      "_id": "conn-PARTICIPATION-TO-COORDINATION",
+      "from": "elem-1oLVNA94",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Hohe Team-Partizipation mit guter Engagement kann durch strukturierte Abstimmung den Koordinationsaufwand senken, indem Missverständnisse früh geklärt werden. Mangelnde Partizipation erhöht ihn."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-TO-COORDINATION",
+      "from": "elem-0er3OquT",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Guter expliziter Wissensstand (Dokumentation, Standards, Prozessrichtlinien) reduziert ad-hoc Abstimmungsbedarf und ermöglicht asynchrone Koordination."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-KNOWLEDGE",
+      "from": "elem-koordin001",
+      "to": "elem-0er3OquT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Strukturierte Koordinationsprozesse führen zur Dokumentation und Externalisierung von implizitem Wissen, was den expliziten Wissensstand der Organisation erhöht."
+      }
+    },
+    {
+      "_id": "conn-PROCESS-AMBIGUITY-TO-COORDINATION",
+      "from": "elem-1mAqDgJB",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7204,6 +7325,21 @@
       "_id": "conn-wahrMed-zufriedenheit",
       "from": "elem-wahrgenommeneMediaRichness",
       "to": "elem-bh4G3Yqp",
+        "description": "Komplexe Kommunikationsaufgaben erfordern mehr Zeitaufwand und mentale Ressourcen von Entwicklern. Intensive Kommunikation unter schwierigen Bedingungen erhöht die Aufgabenbelastung und Erschöpfung."
+      }
+    },
+    {
+      "_id": "conn-kom-Ambiguität-OUT",
+      "from": "elem-komKomplexitaet",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Unklare Prozessanforderungen und mehrdeutige Koordinationsprozesse (z.B. unklar definierte Dailies oder Abhängigkeitsmanagement) erfordern zusätzliche Abstimmung und Klärung."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-PROCESS-AMBIGUITY",
+      "from": "elem-koordin001",
+      "to": "elem-1mAqDgJB",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7217,6 +7353,22 @@
       "_id": "conn-wahrMed-verstProz",
       "from": "elem-wahrgenommeneMediaRichness",
       "to": "elem-JmXiROgv",
+        "description": "Komplexe Kommunikationen führen leichter zu mehrdeutigen Anforderungen. Wenn viele Stakeholder mit verschiedenen Perspektiven kommunizieren, entstehen leicht Mehrdeutigkeiten in den Prozessanforderungen."
+      }
+    },
+    {
+      "_id": "conn-kom-Verständlichkeit-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-JmXiROgv",
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Gut strukturierte Koordinationsprozesse und regelmäßige Abstimmung reduzieren Ambiguität bei Prozessanforderungen durch klare Kommunikation und gemeinsame Verständigung."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-TRANSPARENCY",
+      "from": "elem-koordin001",
+      "to": "elem-mzeWXZfS",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7230,6 +7382,15 @@
       "_id": "conn-wahrMed-aufgabenBel",
       "from": "elem-wahrgenommeneMediaRichness",
       "to": "elem-34Kwzpr1",
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Strukturierte Koordinationsprozesse (z.B. regelmäßige Status-Updates in Meetings) erhöhen die Transparenz des Aufgabenstatus, insbesondere in virtuellen Umgebungen."
+      }
+    },
+    {
+      "_id": "conn-TRANSPARENCY-TO-COORDINATION",
+      "from": "elem-mzeWXZfS",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7243,6 +7404,15 @@
       "_id": "conn-mediumExp-wahrMed",
       "from": "elem-k8VAutpT",
       "to": "elem-wahrgenommeneMediaRichness",
+        "label": "[X]",
+        "connection type": "-+",
+        "description": "Hohe Transparenz des Aufgabenstatus (Board-Sichtbarkeit, digitale Tools) reduziert Koordinationsaufwand durch weniger notwendige manuelle Status-Abfragen und Meetings."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-PARTICIPATION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-1oLVNA94",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7256,6 +7426,15 @@
       "_id": "conn-themExp-wahrMed",
       "from": "elem-SfaQSG8R",
       "to": "elem-wahrgenommeneMediaRichness",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch unter Teammitgliedern fördert echte Partizipation und gemeinsame Entscheidungsfindung durch besseres Verständnis der Zusammenhänge."
+      }
+    },
+    {
+      "_id": "conn-EXPLICIT-KNOWLEDGE-TO-SHARING",
+      "from": "elem-0er3OquT",
+      "to": "elem-gdWissAust01",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7269,6 +7448,15 @@
       "_id": "conn-partnerExp-wahrMed",
       "from": "elem-k8VAutpT",
       "to": "elem-wahrgenommeneMediaRichness",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Besserer expliziter Wissensstand (Dokumentation, Best Practices, Standards) erleichtert und ermöglicht intensiveren Wissensaustausch im Team."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-ERRORS",
+      "from": "elem-gdWissAust01",
+      "to": "elem-0PyumJeh",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7282,6 +7470,23 @@
       "_id": "conn-kontextExp-wahrMed",
       "from": "elem-E4veLPLX",
       "to": "elem-wahrgenommeneMediaRichness",
+        "connection type": "--",
+        "description": "Hohe Kommunikationskomplexität erschwert das Verständnis des Entwicklungsprozesses. Komplexe Kommunikationsstrukturen und mehrteilige Abstimmungsprozesse reduzieren die Klarheit, wie der Prozess tatsächlich funktioniert."
+      }
+    },
+    {
+      "_id": "conn-kom-Konvergenz-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-VombH8FP",
+        "label": "[X]",
+        "connection type": "--",
+        "description": "Intensiver Wissensaustausch reduziert Fehlerhäufigkeit durch besseres gegenseitiges Verständnis, schnellere Fehleridentifikation und präventive Diskussionen über bekannte Probleme."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-COORDINATION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-koordin001",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7289,6 +7494,37 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Personen, die den Projektkontext, historischen Background, Entscheidungslogiken und Constraints kennen, können Informationen aus armen Medien besser interpretieren. Neue Team-Mitglieder mit geringem Kontext-Verständnis benötigen reichhaltigere Medien für das gleiche Verständnis."
+        "connection type": "--",
+        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen."
+        "label": "[X]",
+        "connection type": "--",
+        "description": "Starker Wissensaustausch reduziert Koordinationsaufwand durch gemeinsames mentales Modell und geteiltes Verständnis von Systemzusammenhängen und Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-TRUST-TO-KNOWLEDGE-SHARING",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Hohes Vertrauen zwischen Teammitgliedern fördert offenen und ehrlichen Wissensaustausch, besonders bei Fehlern, Unsicherheiten und implizitem Wissen."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-REFLECTION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-KOUdbt3n",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Wissensaustausch und Team-Reflexion verstärken sich gegenseitig: Gemeinsame Reflexion über Erfahrungen führt zu besserem Wissensaustausch und tieferem Verständnis."
       }
     }
   ]

@@ -1,0 +1,50 @@
+name: Sync Main Model Blueprint to KUMU
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'models/main_model/wirkmechanismen-main-model-blueprint.json'
+
+jobs:
+  sync-to-kumu:
+    runs-on: ubuntu-latest
+    name: Synchronize Blueprint to KUMU
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Validate Blueprint JSON
+        run: |
+          python3 scripts/lint_blueprint.py models/main_model/wirkmechanismen-main-model-blueprint.json
+          echo "✅ Blueprint validation passed"
+
+      - name: Sync Blueprint to KUMU
+        env:
+          KUMU_API_KEY: ${{ secrets.KUMU_API_KEY }}
+          KUMU_ACCOUNT: ${{ secrets.KUMU_ACCOUNT }}
+          KUMU_PROJECT: ${{ secrets.KUMU_PROJECT }}
+        run: |
+          python3 scripts/sync_blueprint_to_kumu.py
+
+      - name: Report Status
+        if: success()
+        run: |
+          echo "✅ Blueprint successfully synchronized to KUMU"
+          echo "Repository: $(git config --get remote.origin.url)"
+          echo "Commit: $(git rev-parse --short HEAD)"
+          echo "Timestamp: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+
+      - name: Report Error
+        if: failure()
+        run: |
+          echo "❌ Failed to synchronize Blueprint to KUMU"
+          echo "Please check KUMU API credentials and connection"
+          exit 1
