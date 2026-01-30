@@ -606,8 +606,8 @@
         "reach-efficiency": 0,
         "micmac influence": 0,
         "micmac exposure": 0,
-        "measurability": 0.7,
-        "influenceability": 0.8
+        "measurability": 0.5,
+        "influenceability": 1
       }
     },
     {
@@ -2262,6 +2262,7 @@
         "influenceability": 0.5
       }
     },
+    
     {
       "_id": "elem-9piyQ4RZ",
       "attributes": {
@@ -3063,6 +3064,32 @@
       }
     },
     {
+      "_id": "elem-komKomplexitaet",
+      "attributes": {
+        "label": "Komplexität der Kommunikationsaufgabe",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Komplexität"
+        ],
+        "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
+    },
+    {
       "_id": "elem-VALUE-CREATION",
       "attributes": {
         "label": "Menge der Wertgenerierung",
@@ -3086,6 +3113,49 @@
       }
     },
     {
+      "_id": "elem-strukturelleMediaRichness",
+      "attributes": {
+        "label": "Strukturelle Medienreichhaltigkeit",
+        "element type": "Einflussfaktoren",
+        "tags": ["Kommunikation", "Medium", "MRT", "Informationsübertragung"],
+        "description": "Die durch objektive Mediencharakteristiken definierte Basis-Reichhaltigkeit eines Kommunikationsmediums gemäß Media Richness Theory (Daft & Lengel, 1986). Diese wird durch vier messbare Kriterien definiert: (1) Anzahl der Hinweise/Cues (nonverbale Signale, Körpersprache, Tonfall), (2) Reaktionszeit bzw. Feedbackgeschwindigkeit (synchron vs. asynchron), (3) Anpassbarkeit der Antwort (Grad der Individualisierung), und (4) Natürlichkeit der Sprache (technisch vs. natürlich). Dies ergibt eine strukturelle Rangfolge: Face-to-Face (höchste Richheit mit allen Cues und sofortiger Anpassung) > Video (viele Cues, schnelles Feedback) > Telefon (Audio-Cues, schnelles Feedback) > schriftliche Medien wie Email (minimale Cues, asynchron). Diese Rangfolge ist objektiv, aber ihre tatsächliche Effektivität für eine konkrete Aufgabe wird durch die Erfahrung der Kommunikationspartner moduliert (siehe: Wahrgenommene Medienreichhaltigkeit).",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-wahrgenommeneMediaRichness",
+      "attributes": {
+        "label": "Wahrgenommene Medienreichhaltigkeit",
+        "element type": "Einflussfaktoren",
+        "tags": ["Kommunikation", "Medium", "CET", "Erfahrung", "Wahrnehmung"],
+        "description": "Die subjektive Effektivität und gefühlte Reichhaltigkeit eines Kommunikationsmediums durch einen Nutzer, bestimmt durch vierdimensionale Erfahrung gemäß Channel Expansion Theory (Carlson & Zmud, 1999). Die vier Erfahrungsdimensionen sind: (1) Erfahrung mit dem Medium selbst (Vertrautheit mit dem Tool, z.B. Video-Call-Software), (2) Erfahrung mit dem Thema (Fachwissen über Inhalt und Domain), (3) Erfahrung mit dem Partner (Verständnis von Paradigmen, Denkweisen, Kommunikationsstilen), und (4) Erfahrung mit dem Kontext (Kenntnis der Constraints, des Projekt-Hintergrunds, historischer Entscheidungen). Ein kritischer Effekt: Personen mit hoher Erfahrung in allen 4 Dimensionen können strukturell arme Medien (z.B. 2D-Skizze, Email) quasi-reichhaltig nutzen und erzielen damit Ergebnisse wie mit reicheren Medien. Umgekehrt kann mangelnde Erfahrung auch ein strukturell reiches Medium (z.B. kompliziertes Video-Konferenz-Tool) arm machen. Dies erklärt, warum manche Teams mit den gleichen Tools unterschiedlich effektiv kommunizieren.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
       "_id": "elem-koordin001",
       "attributes": {
         "label": "Koordinationsaufwand",
@@ -4011,6 +4081,7 @@
       "from": "elem-QOBGtWqO",
       "to": "elem-bh4G3Yqp"
     },
+    
 
     {
       "_id": "conn-JI8xVbGX",
@@ -5917,19 +5988,6 @@
       }
     },
     {
-      "_id": "conn-auto-005",
-      "from": "elem-8DovrrfU",
-      "to": "elem-9UL9boAn",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    
-    {
       "_id": "conn-auto-006",
       "from": "elem-umR71vJA",
       "to": "elem-ldnDdueE",
@@ -6400,19 +6458,6 @@
         "connection type": "++"
       }
     },
-    {
-      "_id": "conn-auto-051",
-      "from": "elem-9UL9boAn",
-      "to": "elem-8DovrrfU",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    
     {
       "_id": "conn-auto-052",
       "from": "elem-79TGQTNN",
@@ -6908,6 +6953,12 @@
       }
     },
     {
+      "_id": "conn-strukturMed-komQual",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-bh4G3Yqp",
+      "_id": "conn-kom-Abhängigkeiten-IN",
+      "from": "elem-7sSep5II",
+      "to": "elem-komKomplexitaet",
       "_id": "conn-COMPLEXITY-TO-COORDINATION",
       "from": "elem-1T8mAYkP",
       "to": "elem-koordin001",
@@ -6915,6 +6966,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Strukturell reichhaltigere Medien (mit vielen Cues, schnellerem Feedback, natürlicherer Sprache) ermöglichen bessere Kommunikationsqualität durch weniger Missverständnisse, besseren Informationstransfer und schnellere Klärung von Unklarheiten. Face-to-Face-Gespräche über komplexe Themen führen zu weniger Fehlinterpretationen als Email-basierte Diskussionen."
+      }
+    },
+    {
+      "_id": "conn-strukturMed-konverg",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-VombH8FP",
         "label": "[X]",
         "connection type": "++",
         "description": "Komplexere Systeme mit mehr Komponenten und Beziehungen erfordern intensivere Abstimmungsprozesse zwischen Entwicklern, um Abhängigkeiten zu koordinieren und Integrationsprobleme zu vermeiden."
@@ -6928,6 +6988,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Reichhaltige Medien mit nonverbalen Cues und sofortigen Feedback-Möglichkeiten ermöglichen schnellere und sicherere Bildung von gemeinsamen Verständnisses. Team-Mitglieder können schneller erkennen, wenn gegenseitiges Verständnis besteht oder Gaps vorhanden sind."
+      }
+    },
+    {
+      "_id": "conn-strukturMed-wahrMed",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-wahrgenommeneMediaRichness",
         "label": "[X]",
         "connection type": "-+",
         "description": "Effektive Koordination und gemeinsames mentales Modell reduzieren die wahrgenommene Komplexität und ermöglichen besseres Verständnis von Systemzusammenhängen."
@@ -6941,6 +7010,24 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[S]",
+        "connection type": "++",
+        "description": "Die strukturellen Charakteristiken eines Mediums (Cues, Feedback-Zeit, Natürlichkeit) beeinflussen, wie reich das Medium wahrgenommen wird. Ein Medium mit vielen objektiven Merkmalen wird tendenziell auch als reicher wahrgenommen, auch wenn die Wahrnehmung durch Erfahrung moduliert wird."
+      }
+    },
+    {
+      "_id": "conn-strukturMed-aufgabeBel",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-34Kwzpr1",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr Abhängigkeiten und Hindernisse erfordern intensivere Kommunikation zwischen Teams/Stakeholdern, was die Komplexität der Kommunikationsaufgabe erhöht. Abhängigkeiten schaffen Koordinationsbedarf und Informationsbedarf zwischen verschiedenen Parteien."
+      }
+    },
+    {
+      "_id": "conn-kom-Systemkomplexität-IN",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Mehr Abhängigkeiten und identifizierte Hindernisse erfordern erhöhte Koordination und Abstimmung zur Aufgabenplanung und Problemlösung."
@@ -6954,6 +7041,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Reichhaltige Medien ermöglichen effizientere Abstimmung (weniger Missverständnisse, schnellere Lösungen), reduzieren aber oft Asynchronität und erfordern synchrone Präsenz, was psychologisch belastend sein kann. Die Balance zwischen Effektivität und Belastung variiert nach Kontext und Persönlichkeit."
+      }
+    },
+    {
+      "_id": "conn-strukturMed-ambigRedukt",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-1mAqDgJB",
         "label": "[X]",
         "connection type": "-+",
         "description": "Strukturierte Koordinationsprozesse und transparente Kommunikation erhöhen die Sichtbarkeit von Abhängigkeiten und Hindernissen, was diese besser identifizierbar macht."
@@ -6967,6 +7063,24 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[S]",
+        "connection type": "--",
+        "description": "Reichhaltige Medien mit unmittelbarem Feedback reduzieren Prozess-Ambiguität durch Echtzeit-Klärung und Rückfragen. Arme Medien verstärken Ambiguität, da Missverständnisse nicht schnell bemerkt oder behoben werden."
+      }
+    },
+    {
+      "_id": "conn-komplKomm-strukturMed",
+      "from": "elem-VBKokGEh",
+      "to": "elem-strukturelleMediaRichness",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Komplexere Systeme erfordern komplexere Kommunikation zur Abstimmung zwischen Teams. Die technische Systemkomplexität spiegelt sich in erhöhter Kommunikationskomplexität wider, da mehr Nuancen und Abhängigkeiten erklärt und koordiniert werden müssen."
+      }
+    },
+    {
+      "_id": "conn-kom-Volatilität-IN",
+      "from": "elem-yvMeM1BT",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Größere Teams erfordern exponentiell mehr Koordination aufgrund der steigenden Anzahl von Kommunikationskanälen (n*(n-1)/2) und Abhängigkeiten zwischen Teamzellen."
@@ -6980,6 +7094,24 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Komplexere Kommunikationsaufgaben (z.B. Architekturdiskussionen, komplexe technische Probleme) erfordern reichhaltigere Medien für Kontextübergabe und schnelles Feedback. Email allein würde zu Verzögerungen und Missverständnissen führen."
+      }
+    },
+    {
+      "_id": "conn-sysKomplx-strukturMed",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-strukturelleMediaRichness",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Volatile Randbedingungen erfordern häufigere Synchronisations- und Klärungskommunikation zwischen Stakeholdern. Instabilität führt zu erhöhtem Informationsaustausch und komplexeren Abstimmungsprozessen."
+      }
+    },
+    {
+      "_id": "conn-kom-Anzahl-TM-IN",
+      "from": "elem-DbXXPgu4",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "+-",
         "description": "Hoher Koordinationsaufwand kann durch Umverteilung oder Reduktion von Teamgröße gesenkt werden, wenn Koordinationsmechanismen ineffektiv sind. Jedoch kann sinnvolle Reduktion auch zu Bottlenecks führen."
@@ -6993,6 +7125,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Komplexe Systeme benötigen reichhaltige Medien (Video, Face-to-Face) zur vollständigen Kontextvermittlung von Subtilitäten und gegenseitigen Abhängigkeiten. Schrift-basierte Dokumentation reicht nicht aus."
+      }
+    },
+    {
+      "_id": "conn-ambigProz-strukturMed",
+      "from": "elem-1mAqDgJB",
+      "to": "elem-strukturelleMediaRichness",
         "label": "[X]",
         "connection type": "++",
         "description": "Höherer Koordinationsaufwand durch Meetings, Abstimmungen und Kommunikation reduziert verfügbare Zeit für direkte Entwicklungsarbeit und erhöht die Belastung der Teammitglieder."
@@ -7006,6 +7147,24 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Mehrdeutige oder schlecht definierte Anforderungen benötigen reichhaltige Medien mit sofortiger Feedback-Möglichkeit zur Klärung. Asynchrone (arme) Medien sind bei Ambiguität kontraproduktiv."
+      }
+    },
+    {
+      "_id": "conn-teamVert-strukturMed",
+      "from": "elem-gRqiMiBS",
+      "to": "elem-strukturelleMediaRichness",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Größere Teams führen exponentiell zu mehr Kommunikationspfaden. Mit n Personen gibt es n*(n-1)/2 mögliche Kommunikationspfade, was die Komplexität der Kommunikationsaufgabe signifikant erhöht."
+      }
+    },
+    {
+      "_id": "conn-kom-Unschärfe-IN",
+      "from": "elem-syHyf0Ed",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Überlastete Entwickler haben weniger Kapazität für Koordination und Kommunikation, was zu unzureichender Abstimmung und erhöhtem Koordinationsaufwand führt."
@@ -7032,6 +7191,23 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Geografisch verteilte oder verstreute Teams haben technische und logistische Constraints, die die praktische Nutzung reichhaltiger Medien begrenzen. Unterschiedliche Zeitzonen erzwingen oft asynchrone (arme) Medien, auch wenn komplexe Aufgaben Reichhaltigkeit benötigen würden."
+      }
+    },
+    {
+      "_id": "conn-wahrMed-komQual",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-bh4G3Yqp",
+        "connection type": "++",
+        "description": "Unschärfe in Randbedingungen erfordert intensive Klärungskommunikation. Fehlende Klarheit zwingt Teams, mehr Zeit in Diskussionen zur Präzisierung von Anforderungen, Prioritäten und Ressourcen zu investieren."
+      }
+    },
+    {
+      "_id": "conn-kom-KommunikationQualität-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-bh4G3Yqp",
         "label": "[X]",
         "connection type": "++",
         "description": "Häufige Fehler durch unzureichende Abstimmung erzeugen zusätzlichen Koordinationsaufwand für Debugging, Fehleranalyse und Reparatur."
@@ -7045,6 +7221,23 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn ein Individuum ein Medium als reichhaltig und effektiv wahrnimmt, nutzt es das Medium mit mehr Sorgfalt und Engagement, was zu besserer Kommunikationsqualität führt. Die wahrgenommene Reichhaltigkeit bestimmt, wie viel Effort der Nutzer in die Nutzung des Mediums investiert."
+      }
+    },
+    {
+      "_id": "conn-wahrMed-kommuniBereit",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-T2T9LxPn",
+        "connection type": "+-",
+        "description": "Höhere Kommunikationskomplexität erschwert die Kommunikationsqualität. Je komplexer die Kommunikationsaufgabe, desto höher ist das Risiko für Missverständnisse, Verzerrungen und Fehler in der Informationsvermittlung."
+      }
+    },
+    {
+      "_id": "conn-kom-Aufgabenbelastung-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-34Kwzpr1",
         "label": "[X]",
         "connection type": "-+",
         "description": "Zu viele Meetings und Koordinationsprozesse können echte Partizipation und aktive Mitgestaltung ersticken, wenn zu viel Zeit in Abstimmung statt in sinnvoller Arbeit verwendet wird."
@@ -7097,6 +7290,21 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn ein Medium als unzureichend oder ineffektiv wahrgenommen wird (zu arm, zu frustrierend), sinkt die Bereitschaft, es zu nutzen. Personen weichen auf andere Kanäle aus oder vermeiden Kommunikation ganz. Positive Wahrnehmung erhöht Kommunikationsbereitschaft."
+      }
+    },
+    {
+      "_id": "conn-wahrMed-zufriedenheit",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-bh4G3Yqp",
+        "description": "Komplexe Kommunikationsaufgaben erfordern mehr Zeitaufwand und mentale Ressourcen von Entwicklern. Intensive Kommunikation unter schwierigen Bedingungen erhöht die Aufgabenbelastung und Erschöpfung."
+      }
+    },
+    {
+      "_id": "conn-kom-Ambiguität-OUT",
+      "from": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Unklare Prozessanforderungen und mehrdeutige Koordinationsprozesse (z.B. unklar definierte Dailies oder Abhängigkeitsmanagement) erfordern zusätzliche Abstimmung und Klärung."
@@ -7110,6 +7318,22 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höher wahrgenommene Reichhaltigkeit und Effektivität führt zu höherer Zufriedenheit mit Abstimmungsprozessen. Wenn ein Medium funktioniert und Nutzer es als effektiv erleben, empfinden sie den Prozess als gut gestaltet und zufriedenstellend."
+      }
+    },
+    {
+      "_id": "conn-wahrMed-verstProz",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-JmXiROgv",
+        "description": "Komplexe Kommunikationen führen leichter zu mehrdeutigen Anforderungen. Wenn viele Stakeholder mit verschiedenen Perspektiven kommunizieren, entstehen leicht Mehrdeutigkeiten in den Prozessanforderungen."
+      }
+    },
+    {
+      "_id": "conn-kom-Verständlichkeit-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-JmXiROgv",
         "label": "[X]",
         "connection type": "-+",
         "description": "Gut strukturierte Koordinationsprozesse und regelmäßige Abstimmung reduzieren Ambiguität bei Prozessanforderungen durch klare Kommunikation und gemeinsame Verständigung."
@@ -7123,6 +7347,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn ein Medium als reich und effektiv wahrgenommen wird, kann es besser genutzt werden, um Prozess-Kontexte zu vermitteln und zu erklären. Eine Video-Walkthrough wird verstanden, wenn das Medium als effektiv wahrgenommen wird."
+      }
+    },
+    {
+      "_id": "conn-wahrMed-aufgabenBel",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-34Kwzpr1",
         "label": "[X]",
         "connection type": "-+",
         "description": "Strukturierte Koordinationsprozesse (z.B. regelmäßige Status-Updates in Meetings) erhöhen die Transparenz des Aufgabenstatus, insbesondere in virtuellen Umgebungen."
@@ -7136,6 +7369,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Wenn ein Medium als reich und effektiv wahrgenommen wird, reduziert sich die psychologische und kognitive Belastung von Kommunikation. Menschen, die Vertrauen in ein Medium haben, fühlen sich weniger belastet. Umgekehrt: Frustration mit ineffektiven Medien erhöht Belastung."
+      }
+    },
+    {
+      "_id": "conn-mediumExp-wahrMed",
+      "from": "elem-k8VAutpT",
+      "to": "elem-wahrgenommeneMediaRichness",
         "label": "[X]",
         "connection type": "-+",
         "description": "Hohe Transparenz des Aufgabenstatus (Board-Sichtbarkeit, digitale Tools) reduziert Koordinationsaufwand durch weniger notwendige manuelle Status-Abfragen und Meetings."
@@ -7145,6 +7387,127 @@
       "_id": "conn-UNCERTAINTY-TO-GOAL-FLEXIBILITY",
       "from": "elem-uRg5n0iS",
       "to": "elem-0gOh0zC4",
+      "_id": "conn-KNOWLEDGE-SHARING-TO-PARTICIPATION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Je besser ein Individuum mit Kommunikationsmedien und Tools vertraut ist (z.B. Video-Call-Tool, Prototyping-Software), desto reicher wird es wahrgenommen und desto effizienter wird es genutzt. Jemand, der Zoom täglich nutzt, findet es effektiver als jemand, der es zum ersten Mal nutzt."
+      }
+    },
+    {
+      "_id": "conn-themExp-wahrMed",
+      "from": "elem-SfaQSG8R",
+      "to": "elem-wahrgenommeneMediaRichness",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch unter Teammitgliedern fördert echte Partizipation und gemeinsame Entscheidungsfindung durch besseres Verständnis der Zusammenhänge."
+      }
+    },
+    {
+      "_id": "conn-EXPLICIT-KNOWLEDGE-TO-SHARING",
+      "from": "elem-0er3OquT",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Experten können Informationen aus strukturell armen Medien effizient extrahieren, weil sie viel Kontext haben und weniger Erklärungen benötigen. Ein erfahrener Architekt versteht aus einer 2D-Skizze mehr als ein Anfänger aus einem Video. Fachkompetenz kompensiert Medium-Armheit."
+      }
+    },
+    {
+      "_id": "conn-partnerExp-wahrMed",
+      "from": "elem-k8VAutpT",
+      "to": "elem-wahrgenommeneMediaRichness",
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Besserer expliziter Wissensstand (Dokumentation, Best Practices, Standards) erleichtert und ermöglicht intensiveren Wissensaustausch im Team."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-ERRORS",
+      "from": "elem-gdWissAust01",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Je besser man die Paradigmen und Denkweisen seiner Kommunikationspartner kennt und vertraut ist, desto effizienter kann man arme Medien nutzen. Wenn ich meinen Tech-Lead gut kenne, verstehe ich seine kurze Email; bei unbekannten Personen brauche ich mehr Kontext und reichhaltigere Medien."
+      }
+    },
+    {
+      "_id": "conn-kontextExp-wahrMed",
+      "from": "elem-E4veLPLX",
+      "to": "elem-wahrgenommeneMediaRichness",
+        "connection type": "--",
+        "description": "Hohe Kommunikationskomplexität erschwert das Verständnis des Entwicklungsprozesses. Komplexe Kommunikationsstrukturen und mehrteilige Abstimmungsprozesse reduzieren die Klarheit, wie der Prozess tatsächlich funktioniert."
+      }
+    },
+    {
+      "_id": "conn-kom-Konvergenz-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-VombH8FP",
+        "label": "[X]",
+        "connection type": "--",
+        "description": "Intensiver Wissensaustausch reduziert Fehlerhäufigkeit durch besseres gegenseitiges Verständnis, schnellere Fehleridentifikation und präventive Diskussionen über bekannte Probleme."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-COORDINATION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Personen, die den Projektkontext, historischen Background, Entscheidungslogiken und Constraints kennen, können Informationen aus armen Medien besser interpretieren. Neue Team-Mitglieder mit geringem Kontext-Verständnis benötigen reichhaltigere Medien für das gleiche Verständnis."
+        "connection type": "--",
+        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen."
+        "label": "[X]",
+        "connection type": "--",
+        "description": "Starker Wissensaustausch reduziert Koordinationsaufwand durch gemeinsames mentales Modell und geteiltes Verständnis von Systemzusammenhängen und Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-TRUST-TO-KNOWLEDGE-SHARING",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Hohes Vertrauen zwischen Teammitgliedern fördert offenen und ehrlichen Wissensaustausch, besonders bei Fehlern, Unsicherheiten und implizitem Wissen."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-REFLECTION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-KOUdbt3n",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Wissensaustausch und Team-Reflexion verstärken sich gegenseitig: Gemeinsame Reflexion über Erfahrungen führt zu besserem Wissensaustausch und tieferem Verständnis."
+      }
+    },
+    {
+      "_id": "conn-komplArchit-wahrMed",
+      "from": "elem-VBKokGEh",
+      "to": "elem-wahrgenommeneMediaRichness",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7158,6 +7521,39 @@
       "_id": "conn-COMPLEXITY-TO-GOAL-FLEXIBILITY",
       "from": "elem-1T8mAYkP",
       "to": "elem-0gOh0zC4",
+        "description": "Höhere Systemarchitektur-Komplexität erfordert mehr mediale Reichhaltigkeit, um alle notwendigen Aspekte, Abhängigkeiten und Auswirkungen kommunizieren zu können. Komplexe technische Konzepte können in armen Medien (z.B. Text) schwer vollständig vermittelt werden und bedürfen synchroner Diskussion mit visuellen Hilfsmitteln."
+      }
+    },
+    {
+      "_id": "conn-mediaKomp-wahrMed",
+      "from": "elem-4b82cTxp",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Personen mit hoher Medienkompetenz nutzen alle verfügbaren Kanäle und Features eines Mediums optimal aus, was dazu führt, dass sie das Medium als reicher wahrnehmen als technisch weniger versierte Personen. Ein erfahrener Remote-Worker kann aus Zoom mehr rausholen als jemand mit weniger Erfahrung."
+      }
+    },
+    {
+      "_id": "conn-kommQual-konvergenz",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige Kommunikation führt zu besserer gegenseitiger Verständigung und Konvergenz des Teamverständnisses. Klare, präzise und empathische Kommunikation ermöglicht es Team-Mitgliedern, schneller zu gemeinsamen Verständnis über Anforderungen, Probleme und Lösungsansätze zu gelangen."
+      }
+    },
+    {
+      "_id": "conn-kommModus-feedQual",
+      "from": "elem-jxhfFnIX",
+      "to": "elem-cHlGVpZ5",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7165,6 +7561,7 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Eine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen."
+        "description": "Synchrone Kommunikationsmodi (z.B. Video-Calls, Face-to-Face) ermöglichen unmittelbares Feedback und schnellere Feedback-Schleifen, was zu höherer Feedback-Qualität führt. Asynchrone Modi (z.B. Email, Slack) haben längere Feedback-Zyklen und können zu Missverständnissen führen, wenn komplexe Themen verhandelt werden."
       }
     }
   ]
