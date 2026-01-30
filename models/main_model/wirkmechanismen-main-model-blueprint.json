@@ -3064,6 +3064,32 @@
       }
     },
     {
+      "_id": "elem-komKomplexitaet",
+      "attributes": {
+        "label": "Komplexität der Kommunikationsaufgabe",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Komplexität"
+        ],
+        "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
+    },
+    {
       "_id": "elem-VALUE-CREATION",
       "attributes": {
         "label": "Menge der Wertgenerierung",
@@ -6910,6 +6936,9 @@
       }
     },
     {
+      "_id": "conn-kom-Abhängigkeiten-IN",
+      "from": "elem-7sSep5II",
+      "to": "elem-komKomplexitaet",
       "_id": "conn-COMPLEXITY-TO-COORDINATION",
       "from": "elem-1T8mAYkP",
       "to": "elem-koordin001",
@@ -6943,6 +6972,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr Abhängigkeiten und Hindernisse erfordern intensivere Kommunikation zwischen Teams/Stakeholdern, was die Komplexität der Kommunikationsaufgabe erhöht. Abhängigkeiten schaffen Koordinationsbedarf und Informationsbedarf zwischen verschiedenen Parteien."
+      }
+    },
+    {
+      "_id": "conn-kom-Systemkomplexität-IN",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Mehr Abhängigkeiten und identifizierte Hindernisse erfordern erhöhte Koordination und Abstimmung zur Aufgabenplanung und Problemlösung."
@@ -6969,6 +7007,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Komplexere Systeme erfordern komplexere Kommunikation zur Abstimmung zwischen Teams. Die technische Systemkomplexität spiegelt sich in erhöhter Kommunikationskomplexität wider, da mehr Nuancen und Abhängigkeiten erklärt und koordiniert werden müssen."
+      }
+    },
+    {
+      "_id": "conn-kom-Volatilität-IN",
+      "from": "elem-yvMeM1BT",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Größere Teams erfordern exponentiell mehr Koordination aufgrund der steigenden Anzahl von Kommunikationskanälen (n*(n-1)/2) und Abhängigkeiten zwischen Teamzellen."
@@ -6982,6 +7029,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Volatile Randbedingungen erfordern häufigere Synchronisations- und Klärungskommunikation zwischen Stakeholdern. Instabilität führt zu erhöhtem Informationsaustausch und komplexeren Abstimmungsprozessen."
+      }
+    },
+    {
+      "_id": "conn-kom-Anzahl-TM-IN",
+      "from": "elem-DbXXPgu4",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "+-",
         "description": "Hoher Koordinationsaufwand kann durch Umverteilung oder Reduktion von Teamgröße gesenkt werden, wenn Koordinationsmechanismen ineffektiv sind. Jedoch kann sinnvolle Reduktion auch zu Bottlenecks führen."
@@ -7008,6 +7064,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Größere Teams führen exponentiell zu mehr Kommunikationspfaden. Mit n Personen gibt es n*(n-1)/2 mögliche Kommunikationspfade, was die Komplexität der Kommunikationsaufgabe signifikant erhöht."
+      }
+    },
+    {
+      "_id": "conn-kom-Unschärfe-IN",
+      "from": "elem-syHyf0Ed",
+      "to": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Überlastete Entwickler haben weniger Kapazität für Koordination und Kommunikation, was zu unzureichender Abstimmung und erhöhtem Koordinationsaufwand führt."
@@ -7034,6 +7099,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unschärfe in Randbedingungen erfordert intensive Klärungskommunikation. Fehlende Klarheit zwingt Teams, mehr Zeit in Diskussionen zur Präzisierung von Anforderungen, Prioritäten und Ressourcen zu investieren."
+      }
+    },
+    {
+      "_id": "conn-kom-KommunikationQualität-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-bh4G3Yqp",
         "label": "[X]",
         "connection type": "++",
         "description": "Häufige Fehler durch unzureichende Abstimmung erzeugen zusätzlichen Koordinationsaufwand für Debugging, Fehleranalyse und Reparatur."
@@ -7047,6 +7121,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Kommunikationskomplexität erschwert die Kommunikationsqualität. Je komplexer die Kommunikationsaufgabe, desto höher ist das Risiko für Missverständnisse, Verzerrungen und Fehler in der Informationsvermittlung."
+      }
+    },
+    {
+      "_id": "conn-kom-Aufgabenbelastung-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-34Kwzpr1",
         "label": "[X]",
         "connection type": "-+",
         "description": "Zu viele Meetings und Koordinationsprozesse können echte Partizipation und aktive Mitgestaltung ersticken, wenn zu viel Zeit in Abstimmung statt in sinnvoller Arbeit verwendet wird."
@@ -7099,6 +7182,14 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Komplexe Kommunikationsaufgaben erfordern mehr Zeitaufwand und mentale Ressourcen von Entwicklern. Intensive Kommunikation unter schwierigen Bedingungen erhöht die Aufgabenbelastung und Erschöpfung."
+      }
+    },
+    {
+      "_id": "conn-kom-Ambiguität-OUT",
+      "from": "elem-komKomplexitaet",
         "label": "[X]",
         "connection type": "++",
         "description": "Unklare Prozessanforderungen und mehrdeutige Koordinationsprozesse (z.B. unklar definierte Dailies oder Abhängigkeitsmanagement) erfordern zusätzliche Abstimmung und Klärung."
@@ -7112,6 +7203,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Komplexe Kommunikationen führen leichter zu mehrdeutigen Anforderungen. Wenn viele Stakeholder mit verschiedenen Perspektiven kommunizieren, entstehen leicht Mehrdeutigkeiten in den Prozessanforderungen."
+      }
+    },
+    {
+      "_id": "conn-kom-Verständlichkeit-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-JmXiROgv",
         "label": "[X]",
         "connection type": "-+",
         "description": "Gut strukturierte Koordinationsprozesse und regelmäßige Abstimmung reduzieren Ambiguität bei Prozessanforderungen durch klare Kommunikation und gemeinsame Verständigung."
@@ -7177,6 +7277,15 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hohe Kommunikationskomplexität erschwert das Verständnis des Entwicklungsprozesses. Komplexe Kommunikationsstrukturen und mehrteilige Abstimmungsprozesse reduzieren die Klarheit, wie der Prozess tatsächlich funktioniert."
+      }
+    },
+    {
+      "_id": "conn-kom-Konvergenz-OUT",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-VombH8FP",
         "label": "[X]",
         "connection type": "--",
         "description": "Intensiver Wissensaustausch reduziert Fehlerhäufigkeit durch besseres gegenseitiges Verständnis, schnellere Fehleridentifikation und präventive Diskussionen über bekannte Probleme."
@@ -7190,6 +7299,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen."
         "label": "[X]",
         "connection type": "--",
         "description": "Starker Wissensaustausch reduziert Koordinationsaufwand durch gemeinsames mentales Modell und geteiltes Verständnis von Systemzusammenhängen und Anforderungen."
