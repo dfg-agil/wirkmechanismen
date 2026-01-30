@@ -7140,6 +7140,84 @@
         "connection type": "-+",
         "description": "Hohe Transparenz des Aufgabenstatus (Board-Sichtbarkeit, digitale Tools) reduziert Koordinationsaufwand durch weniger notwendige manuelle Status-Abfragen und Meetings."
       }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-PARTICIPATION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch unter Teammitgliedern fördert echte Partizipation und gemeinsame Entscheidungsfindung durch besseres Verständnis der Zusammenhänge."
+      }
+    },
+    {
+      "_id": "conn-EXPLICIT-KNOWLEDGE-TO-SHARING",
+      "from": "elem-0er3OquT",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Besserer expliziter Wissensstand (Dokumentation, Best Practices, Standards) erleichtert und ermöglicht intensiveren Wissensaustausch im Team."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-ERRORS",
+      "from": "elem-gdWissAust01",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "--",
+        "description": "Intensiver Wissensaustausch reduziert Fehlerhäufigkeit durch besseres gegenseitiges Verständnis, schnellere Fehleridentifikation und präventive Diskussionen über bekannte Probleme."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-COORDINATION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "--",
+        "description": "Starker Wissensaustausch reduziert Koordinationsaufwand durch gemeinsames mentales Modell und geteiltes Verständnis von Systemzusammenhängen und Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-TRUST-TO-KNOWLEDGE-SHARING",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Hohes Vertrauen zwischen Teammitgliedern fördert offenen und ehrlichen Wissensaustausch, besonders bei Fehlern, Unsicherheiten und implizitem Wissen."
+      }
+    },
+    {
+      "_id": "conn-KNOWLEDGE-SHARING-TO-REFLECTION",
+      "from": "elem-gdWissAust01",
+      "to": "elem-KOUdbt3n",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[X]",
+        "connection type": "++",
+        "description": "Wissensaustausch und Team-Reflexion verstärken sich gegenseitig: Gemeinsame Reflexion über Erfahrungen führt zu besserem Wissensaustausch und tieferem Verständnis."
+      }
     }
   ]
 }
