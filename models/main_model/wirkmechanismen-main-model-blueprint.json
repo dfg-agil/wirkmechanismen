@@ -1030,6 +1030,31 @@
       }
     },
     {
+      "_id": "elem-boundarySpannerNeed",
+      "attributes": {
+        "label": "Notwendigkeit eines Boundary Spanners",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation"
+        ],
+        "description": "Bedarf an Rollen/Personen, die zwischen Teamgrenzen vermitteln, Übersetzungen leisten und Abstimmung koordinieren.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-T2T9LxPn",
       "attributes": {
         "label": "Kommunikationsbereitschaft",
@@ -7844,6 +7869,97 @@
         "label": "[E]",
         "connection type": "++",
         "description": "Hochwertige Kommunikation führt zu besserer gegenseitiger Verständigung und Konvergenz des Teamverständnisses. Klare, präzise und empathische Kommunikation ermöglicht es Team-Mitgliedern, schneller zu gemeinsamen Verständnis über Anforderungen, Probleme und Lösungsansätze zu gelangen."
+      }
+    },
+    {
+      "_id": "conn-SYSTEM-COMPLEXITY-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-boundarySpannerNeed",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Systemkomplexität erhöht den Bedarf an Boundary Spanning, um Abhängigkeiten über Teamgrenzen zu koordinieren."
+      }
+    },
+    {
+      "_id": "conn-DEPENDENCIES-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-7sSep5II",
+      "to": "elem-boundarySpannerNeed",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr Abhängigkeiten und Hindernisse erhöhen den Bedarf an Boundary Spanning zwischen Teams."
+      }
+    },
+    {
+      "_id": "conn-COMM-COMPLEXITY-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-boundarySpannerNeed",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Kommunikationskomplexität steigert den Bedarf an Boundary Spanning zur Übersetzung und Abstimmung."
+      }
+    },
+    {
+      "_id": "conn-TASK-EQUIVOCALITY-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-boundarySpannerNeed",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Aufgabenmehrdeutigkeit erhöht den Bedarf an Boundary Spanning, um ein gemeinsames Verständnis herzustellen."
+      }
+    },
+    {
+      "_id": "conn-BOUNDARY-SPANNER-NEED-TO-COORDINATION",
+      "from": "elem-boundarySpannerNeed",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher."
+      }
+    },
+    {
+      "_id": "conn-BOUNDARY-SPANNER-NEED-TO-BOUNDARY-OBJECT",
+      "from": "elem-boundarySpannerNeed",
+      "to": "elem-Siz8fExz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hoher Boundary-Spanning-Bedarf erhöht die Notwendigkeit gemeinsamer Boundary Objects."
+      }
+    },
+    {
+      "_id": "conn-BOUNDARY-SPANNER-NEED-TO-TEAM-UNDERSTANDING",
+      "from": "elem-boundarySpannerNeed",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "-+",
+        "description": "Ein hoher Bedarf an Boundary Spanning senkt ohne wirksame Vermittlung die Konvergenz des Teamverständnisses."
       }
     },
     {
