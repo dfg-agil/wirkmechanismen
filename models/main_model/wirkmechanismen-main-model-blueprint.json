@@ -1930,6 +1930,32 @@
       }
     },
     {
+      "_id": "elem-reviewQualitaet",
+      "attributes": {
+        "label": "Qualität des Reviews",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Kommunikation"
+        ],
+        "description": "Qualität von Reviews (z.B. Code- und Design-Reviews): Klarheit der Kriterien, Tiefe der Analyse, konstruktive Rückmeldungen, Nachverfolgung und Umsetzung von Review-Ergebnissen.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-pyHxoybV",
       "attributes": {
         "label": "Umfang der Technischen Schulden",
@@ -7844,6 +7870,136 @@
         "label": "[E]",
         "connection type": "++",
         "description": "Hochwertige Kommunikation führt zu besserer gegenseitiger Verständigung und Konvergenz des Teamverständnisses. Klare, präzise und empathische Kommunikation ermöglicht es Team-Mitgliedern, schneller zu gemeinsamen Verständnis über Anforderungen, Probleme und Lösungsansätze zu gelangen."
+      }
+    },
+    {
+      "_id": "conn-COMM-TO-REVIEW-QUALITY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Kommunikationsqualität unterstützt klarere und wirksamere Reviews."
+      }
+    },
+    {
+      "_id": "conn-CUSTOMER-CLARITY-TO-REVIEW-QUALITY",
+      "from": "elem-jnhWVH9C",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Kundenanforderungen ermöglichen zielgerichtete Reviews mit eindeutigen Prüfkriterien."
+      }
+    },
+    {
+      "_id": "conn-DEV-COMP-TO-REVIEW-QUALITY",
+      "from": "elem-SfaQSG8R",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Fachkompetenz der Entwickler verbessert die Qualität von Reviews."
+      }
+    },
+    {
+      "_id": "conn-TIME-MGMT-TO-REVIEW-QUALITY",
+      "from": "elem-bYpJc5sG",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gutes Zeitmanagement schafft Raum für gründliche Reviews."
+      }
+    },
+    {
+      "_id": "conn-MEETING-STRUCTURE-TO-REVIEW-QUALITY",
+      "from": "elem-DyjLKFjk",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Meetings erhöhen die Wirksamkeit von Reviews."
+      }
+    },
+    {
+      "_id": "conn-ARTEFACT-TO-REVIEW-QUALITY",
+      "from": "elem-lcDSwFU2",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Artefaktqualität erleichtert zielführende Reviews."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-ARTEFACT",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Review-Qualität verbessert die Artefaktqualität durch bessere Rückmeldungen und Korrekturen."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-FEEDBACK",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Reviews führen zu hochwertigem Feedback."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-BACKLOG-REFINEMENT",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Erkenntnisse aus Reviews verbessern das Backlog-Refinement."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-ERRORS",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Review-Qualität senkt die Fehlerhäufigkeit."
       }
     },
     {
