@@ -7847,6 +7847,19 @@
       }
     },
     {
+      "_id": "conn-TEAMSIZE-TO-AGILE-SCALING",
+      "from": "elem-DbXXPgu4",
+      "to": "elem-bOQiQpQ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Mit zunehmender Teamgröße sinkt die Skalierbarkeit agiler Praktiken."
+      }
+    },
+    {
       "_id": "conn-kommModus-feedQual",
       "from": "elem-jxhfFnIX",
       "to": "elem-cHlGVpZ5",
