@@ -1459,6 +1459,21 @@
       }
     },
     {
+      "_id": "elem-synchronisationsfrequenz",
+      "attributes": {
+        "label": "Synchronisationsfrequenz",
+        "description": "Häufigkeit geplanter Abstimmungen zwischen Teammitgliedern/Teams pro Zeiteinheit (z.B. Dailies, Sync-Meetings).",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Daily",
+          "Planning"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-cHlGVpZ5",
       "attributes": {
         "label": "Qualität des Feedbacks",
