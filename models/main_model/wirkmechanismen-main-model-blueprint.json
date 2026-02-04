@@ -7847,6 +7847,19 @@
       }
     },
     {
+      "_id": "conn-DEADLINES-TO-CUSTOMER-SAT",
+      "from": "elem-nAA1gU0l",
+      "to": "elem-iRqjN94r",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Einhaltung der Deadlines erhöht die Kundenzufriedenheit."
+      }
+    },
+    {
       "_id": "conn-kommModus-feedQual",
       "from": "elem-jxhfFnIX",
       "to": "elem-cHlGVpZ5",
