@@ -187,6 +187,7 @@ Adherence to these criteria is essential for maintaining the model's value as a 
 ## Ergänzung: Obligatorische Metriken für neue Einflussfaktoren
 
 - **MANDATORY**: Jeder neue Einflussfaktor, der in das `main`-Modell integriert werden soll, darf nur dann automatisch übernommen werden, wenn sowohl `measurability` als auch `influenceability` explizit angegeben sind.
+- **MANDATORY (ABSOLUT)**: `measurability` und `influenceability` dürfen **niemals** vom Assistenzsystem frei gewählt werden. Die Werte müssen **immer** vom Entwickler vorgegeben oder **explizit bestätigt** werden.
 - **Zulässige Werte**: `0`, `0.5`, `1` (oder eine dokumentiert vereinbarte alternative Skala).
 - **REJECT**: Vorschläge, die neue Faktoren ohne beide Metrikwerte hinzufügen, werden nicht automatisch gemergt.
 
