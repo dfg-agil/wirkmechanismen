@@ -7847,6 +7847,19 @@
       }
     },
     {
+      "_id": "conn-WORKHOURS-TO-PUNCTUALITY",
+      "from": "elem-7iCVuvkI",
+      "to": "elem-TE0p3sHi",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Konsequente Einhaltung der Arbeitszeiten erhöht die Einhaltungsrate von Zeitangaben der Teammitglieder."
+      }
+    },
+    {
       "_id": "conn-kommModus-feedQual",
       "from": "elem-jxhfFnIX",
       "to": "elem-cHlGVpZ5",
