@@ -7858,6 +7858,19 @@
         "connection type": "++",
         "description": "Die Qualität der Retrospektive bestimmt direkt den Grad der Team-Reflexion - strukturierte Retrospektiven fördern tiefere Reflexionsprozesse.\n\nEine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen.\n\nSynchrone Kommunikationsmodi (z.B. Video-Calls, Face-to-Face) ermöglichen unmittelbares Feedback und schnellere Feedback-Schleifen, was zu höherer Feedback-Qualität führt. Asynchrone Modi (z.B. Email, Slack) haben längere Feedback-Zyklen und können zu Missverständnissen führen, wenn komplexe Themen verhandelt werden."
       }
+    },
+    {
+      "_id": "conn-TASK-AMBIGUITY-TO-COMM-COMPLEXITY",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-komKomplexitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs- und Abstimmungsbedarf."
+      }
     }
   ]
 }
