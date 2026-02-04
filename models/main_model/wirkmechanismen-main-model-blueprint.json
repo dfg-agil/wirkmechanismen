@@ -1030,6 +1030,84 @@
       }
     },
     {
+      "_id": "elem-raumnaeheTeam",
+      "attributes": {
+        "label": "Räumliche Nähe der Teammitglieder",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "description": "Grad der physischen Nähe bzw. Co-Location der Teammitglieder im Arbeitsalltag.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-arbeitszeitOverlap",
+      "attributes": {
+        "label": "Zeitliche Überlappung der Arbeitszeiten",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Zeitmanagement",
+          "Kommunikation"
+        ],
+        "description": "Ausmaß der gemeinsamen Arbeitszeitfenster zwischen Teammitgliedern (z.B. Zeitzonen-Overlap).",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-informelleBegegnungen",
+      "attributes": {
+        "label": "Häufigkeit der informellen Begegnungen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "description": "Häufigkeit ungeplanter, informeller Kontakte (z.B. kurze Absprachen, zufällige Treffen).",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-T2T9LxPn",
       "attributes": {
         "label": "Kommunikationsbereitschaft",
@@ -7844,6 +7922,136 @@
         "label": "[E]",
         "connection type": "++",
         "description": "Hochwertige Kommunikation führt zu besserer gegenseitiger Verständigung und Konvergenz des Teamverständnisses. Klare, präzise und empathische Kommunikation ermöglicht es Team-Mitgliedern, schneller zu gemeinsamen Verständnis über Anforderungen, Probleme und Lösungsansätze zu gelangen."
+      }
+    },
+    {
+      "_id": "conn-RESOURCES-TO-SPATIAL-PROXIMITY",
+      "from": "elem-Q3uEEe5Q",
+      "to": "elem-raumnaeheTeam",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr verfügbare Ressourcen (z.B. Räume/Arbeitsplätze) ermöglichen höhere räumliche Nähe der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-COLLAB-ENV",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-ldnDdueE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere räumliche Nähe verbessert die Qualität der kollaborativen Arbeitsumgebung."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFO-FLOW",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-4DZnGitO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Informationsdurchlässigkeit der Arbeitsumgebung (osmotische Kommunikation)."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-VISIBILITY",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-gRqiMiBS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Sichtbarkeit der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-WORKHOURS-TO-OVERLAP",
+      "from": "elem-7iCVuvkI",
+      "to": "elem-arbeitszeitOverlap",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Konsequente Einhaltung der Arbeitszeiten erhöht die zeitliche Überlappung der Arbeitszeiten."
+      }
+    },
+    {
+      "_id": "conn-OVERLAP-TO-COMM-MODE",
+      "from": "elem-arbeitszeitOverlap",
+      "to": "elem-jxhfFnIX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr zeitliche Überlappung ermöglicht häufiger synchrone Kommunikation."
+      }
+    },
+    {
+      "_id": "conn-OVERLAP-TO-COORDINATION",
+      "from": "elem-arbeitszeitOverlap",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Mehr zeitliche Überlappung reduziert den Koordinationsaufwand durch schnellere Abstimmung."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFORMAL",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-informelleBegegnungen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Häufigkeit informeller Begegnungen."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-TO-INFO-FLOW",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-4DZnGitO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige informelle Begegnungen erhöhen die Informationsdurchlässigkeit der Arbeitsumgebung."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-TO-TEAM-UNDERSTANDING",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Informelle Begegnungen fördern die Konvergenz des Teamverständnisses."
       }
     },
     {
