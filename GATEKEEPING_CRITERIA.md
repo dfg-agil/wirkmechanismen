@@ -71,6 +71,11 @@ This document establishes mandatory criteria for accepting or rejecting changes 
 - **REJECT**: Claims without evidence or clear assumption marking
 - **ESCALATE**: Contradictory evidence requiring expert resolution
 
+#### 3.3 Developer Confirmation for New Connections
+- **MANDATORY (ABSOLUT)**: Neue Verbindungen (inkl. `from`, `to`, Richtung und `connection type`) dürfen **niemals** vom Assistenzsystem eigenständig festgelegt werden.
+- **MANDATORY (ABSOLUT)**: Jede neue Verbindung muss **immer** vom Entwickler **explizit vorgegeben oder bestätigt** werden.
+- **REVIEW REQUIRED**: Wenn der Entwickler die Bestätigung nicht gegeben hat, MUSS der Assistenzsystem dies aktiv einfordern und darf die Verbindung nicht implementieren.
+
 ### 4. Model Evolution Governance
 
 #### 4.1 Reference vs Impact Model Integrity
