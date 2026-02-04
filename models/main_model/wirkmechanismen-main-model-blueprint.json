@@ -634,6 +634,34 @@
       }
     },
     {
+      "_id": "elem-productBacklogQuality",
+      "attributes": {
+        "label": "Qualität des Product Backlogs",
+        "description": "Grad der Klarheit, Priorisierung, Vollständigkeit und Umsetzbarkeit der Product-Backlog-Einträge (z.B. klare Akzeptanzkriterien, gut geschnittene Items).",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Backlog Refinement",
+          "Planning"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-sprintBacklogQuality",
+      "attributes": {
+        "label": "Qualität des Sprint Backlogs",
+        "description": "Grad der Klarheit, Konsistenz und Realisierbarkeit des Sprint Backlogs inkl. Sprint-Ziel, Aufgaben-Zuschnitt und Commitment.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Sprint"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-F9HioTuT",
       "attributes": {
         "label": "Klarheit und Verständlichkeit der Ziele",
@@ -7857,6 +7885,45 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Die Qualität der Retrospektive bestimmt direkt den Grad der Team-Reflexion - strukturierte Retrospektiven fördern tiefere Reflexionsprozesse.\n\nEine höhere Systemkomplexität erfordert flexiblere Ziele in der Teamzielsetzung, da komplexe Systeme schwerer vorhersehbar sind und Anpassungsfähigkeit benötigen.\n\nSynchrone Kommunikationsmodi (z.B. Video-Calls, Face-to-Face) ermöglichen unmittelbares Feedback und schnellere Feedback-Schleifen, was zu höherer Feedback-Qualität führt. Asynchrone Modi (z.B. Email, Slack) haben längere Feedback-Zyklen und können zu Missverständnissen führen, wenn komplexe Themen verhandelt werden."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REFINEMENT-TO-PB-QUALITY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-productBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Backlog-Refinement verbessert die Qualität des Product Backlogs durch klarere und besser priorisierte Einträge."
+      }
+    },
+    {
+      "_id": "conn-PB-QUALITY-TO-SB-QUALITY",
+      "from": "elem-productBacklogQuality",
+      "to": "elem-sprintBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein hochwertiges Product Backlog ermöglicht ein klareres und konsistenteres Sprint Backlog."
+      }
+    },
+    {
+      "_id": "conn-SB-QUALITY-TO-COORDINATION",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Qualität des Sprint Backlogs reduziert den Koordinationsaufwand durch klarere Aufgaben und Zuständigkeiten."
       }
     }
   ]
