@@ -7886,6 +7886,58 @@
         "connection type": "++",
         "description": "Eine höhere Verfügbarkeit reichhaltiger Kommunikationsmedien erhöht die wahrgenommene Medienreichhaltigkeit durch mehr Auswahl und Eignung für die Aufgabe."
       }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-COORDINATION",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Eine höhere Synchronisationsfrequenz erhöht den Koordinationsaufwand durch zusätzlichen Abstimmungsaufwand und Kontextwechsel."
+      }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-COMM-QUALITY",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Regelmäßige Synchronisation verbessert die Kommunikationsqualität durch kontinuierliche Klärung und Alignment."
+      }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-TASK-STATUS-TRANSPARENCY",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-mzeWXZfS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige Synchronisation erhöht die Transparenz des Aufgabenstatus durch regelmäßige Updates."
+      }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-DAILY-QUALITY",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-YDXh1U6N",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine passende Synchronisationsfrequenz stärkt die Qualität der Struktur und Zielorientierung im Daily durch klare Rhythmik."
+      }
     }
   ]
 }
