@@ -1930,6 +1930,111 @@
       }
     },
     {
+      "_id": "elem-poKompetenz",
+      "attributes": {
+        "label": "Kompetenz des Product Owners",
+        "description": "Fähigkeit des Product Owners, Vision, Priorisierung und Stakeholder-Management wirksam umzusetzen.",
+        "tags": [
+          "Planning",
+          "Backlog Refinement",
+          "Struktur und Zielorientierung"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-teamLeadFachkompetenz",
+      "attributes": {
+        "label": "Fachkompetenz des Team Lead",
+        "description": "Fachliche Kompetenz des Team Leads, technische Inhalte zu verstehen, zu bewerten und Entscheidungen fachlich zu steuern.",
+        "tags": [
+          "Planning",
+          "Impliziter Wissensstand des Entwicklers"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-teamLeadSozialkompetenz",
+      "attributes": {
+        "label": "Sozialkompetenz des Team Lead",
+        "description": "Soziale Kompetenz des Team Leads zur Förderung von Zusammenarbeit, Kommunikation und Konfliktlösung.",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-teamLeadHandlungskompetenz",
+      "attributes": {
+        "label": "Handlungskompetenz des Team Lead",
+        "description": "Handlungskompetenz des Team Leads, situativ angemessen zu entscheiden und umzusetzen.",
+        "tags": [
+          "Planning",
+          "Expliziter Wissensstand der Organisation"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-pyHxoybV",
       "attributes": {
         "label": "Umfang der Technischen Schulden",
@@ -7948,6 +8053,110 @@
         "label": "[E]",
         "connection type": "++",
         "description": "Hochwertige Kommunikation führt zu besserer gegenseitiger Verständigung und Konvergenz des Teamverständnisses. Klare, präzise und empathische Kommunikation ermöglicht es Team-Mitgliedern, schneller zu gemeinsamen Verständnis über Anforderungen, Probleme und Lösungsansätze zu gelangen."
+      }
+    },
+    {
+      "_id": "conn-CLARITY-TO-PO-COMPETENCE",
+      "from": "elem-wDnzlLwI",
+      "to": "elem-poKompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klarere Aufgabenstellungen unterstützen den Product Owner dabei, Priorisierung und Stakeholder-Abstimmung wirksam umzusetzen."
+      }
+    },
+    {
+      "_id": "conn-PO-COMPETENCE-TO-BACKLOG-REFINEMENT",
+      "from": "elem-poKompetenz",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners verbessert die Qualität des Backlog-Refinements durch bessere Priorisierung und Klarheit der Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-EXPLICIT-KNOWLEDGE-TO-TL-FACHKOMPETENZ",
+      "from": "elem-0er3OquT",
+      "to": "elem-teamLeadFachkompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer expliziter Wissensstand der Organisation fördert die fachliche Kompetenz des Team Leads."
+      }
+    },
+    {
+      "_id": "conn-TL-FACHKOMPETENZ-TO-ERRORS",
+      "from": "elem-teamLeadFachkompetenz",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Höhere fachliche Kompetenz des Team Leads reduziert Fehler durch bessere fachliche Entscheidungen und Guidance."
+      }
+    },
+    {
+      "_id": "conn-PERSONALITY-TO-TL-SOZIALKOMPETENZ",
+      "from": "elem-a0dvE9xS",
+      "to": "elem-teamLeadSozialkompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Persönlichkeitsmerkmale der Teammitglieder beeinflussen die Ausprägung sozialer Kompetenzen des Team Leads."
+      }
+    },
+    {
+      "_id": "conn-TL-SOZIALKOMPETENZ-TO-TEAMDYNAMIK",
+      "from": "elem-teamLeadSozialkompetenz",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Sozialkompetenz des Team Leads verbessert die Teamdynamik durch bessere Kommunikation und Konfliktlösung."
+      }
+    },
+    {
+      "_id": "conn-EXPLICIT-KNOWLEDGE-TO-TL-HANDLUNGSKOMPETENZ",
+      "from": "elem-0er3OquT",
+      "to": "elem-teamLeadHandlungskompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer expliziter Wissensstand der Organisation unterstützt die Handlungskompetenz des Team Leads."
+      }
+    },
+    {
+      "_id": "conn-TL-HANDLUNGSKOMPETENZ-TO-COORDINATION",
+      "from": "elem-teamLeadHandlungskompetenz",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Höhere Handlungskompetenz des Team Leads reduziert Koordinationsaufwand durch klare Entscheidungen und Priorisierung."
       }
     },
     {
