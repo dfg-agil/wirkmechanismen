@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-TECH-DEBT-TO-ERROR-FREQUENCY",
+      "from": "elem-pyHxoybV",
+      "to": "elem-0PyumJeh",
       "_id": "conn-RELEVANCE-COMM-TO-COMM-QUALITY",
       "from": "elem-IdAdH9K8",
       "to": "elem-bh4G3Yqp",
@@ -8547,6 +8550,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Ein hoher Umfang technischer Schulden erhöht die Fehlerhäufigkeit durch erhöhte Komplexität, fragile Architektur und geringe Wartbarkeit."
         "description": "Relevanzbezogene Kommunikation der Inhalte steigert die Kommunikationsqualität durch Fokus auf entscheidungsrelevante Informationen."
         "description": "Eine hochwertige kollaborative Arbeitsumgebung erhöht die Informationsdurchlässigkeit durch bessere Sichtbarkeit, Zugänglichkeit und Austauschmöglichkeiten."
         "description": "Persönlichkeitsmerkmale der Teammitglieder beeinflussen die Teamdynamik durch Verhalten, Konfliktstil und Kooperationsbereitschaft."
