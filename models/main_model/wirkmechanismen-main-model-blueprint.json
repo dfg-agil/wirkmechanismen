@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-RELEVANCE-COMM-TO-COMM-QUALITY",
+      "from": "elem-IdAdH9K8",
+      "to": "elem-bh4G3Yqp",
       "_id": "conn-COLLAB-ENV-TO-INFO-PERMEABILITY",
       "from": "elem-ldnDdueE",
       "to": "elem-4DZnGitO",
@@ -8544,6 +8547,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Relevanzbezogene Kommunikation der Inhalte steigert die Kommunikationsqualität durch Fokus auf entscheidungsrelevante Informationen."
         "description": "Eine hochwertige kollaborative Arbeitsumgebung erhöht die Informationsdurchlässigkeit durch bessere Sichtbarkeit, Zugänglichkeit und Austauschmöglichkeiten."
         "description": "Persönlichkeitsmerkmale der Teammitglieder beeinflussen die Teamdynamik durch Verhalten, Konfliktstil und Kooperationsbereitschaft."
         "description": "Nonverbale Kommunikation verbessert die Kommunikationsqualität durch zusätzliche Kontext- und Beziehungssignale."
