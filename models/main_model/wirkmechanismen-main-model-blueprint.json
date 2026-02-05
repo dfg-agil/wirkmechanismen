@@ -634,6 +634,34 @@
       }
     },
     {
+      "_id": "elem-productBacklogQuality",
+      "attributes": {
+        "label": "Qualität des Product Backlogs",
+        "description": "Grad der Klarheit, Priorisierung, Vollständigkeit und Umsetzbarkeit der Product-Backlog-Einträge (z.B. klare Akzeptanzkriterien, gut geschnittene Items).",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Backlog Refinement",
+          "Planning"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-sprintBacklogQuality",
+      "attributes": {
+        "label": "Qualität des Sprint Backlogs",
+        "description": "Grad der Klarheit, Konsistenz und Realisierbarkeit des Sprint Backlogs inkl. Sprint-Ziel, Aufgaben-Zuschnitt und Commitment.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Sprint"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-F9HioTuT",
       "attributes": {
         "label": "Klarheit und Verständlichkeit der Ziele",
@@ -8529,6 +8557,9 @@
       }
     },
     {
+      "_id": "conn-BACKLOG-REFINEMENT-TO-PB-QUALITY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-productBacklogQuality",
       "_id": "conn-MEDIA-AVAILABILITY-TO-PERCEIVED-RICHNESS",
       "from": "elem-medienVerfügbarkeit",
       "to": "elem-wahrgenommeneMediaRichness",
@@ -8640,6 +8671,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Hochwertiges Backlog-Refinement verbessert die Qualität des Product Backlogs durch klarere und besser priorisierte Einträge."
+      }
+    },
+    {
+      "_id": "conn-PB-QUALITY-TO-SB-QUALITY",
+      "from": "elem-productBacklogQuality",
+      "to": "elem-sprintBacklogQuality",
         "description": "Regelmäßige Synchronisation verbessert die Kommunikationsqualität durch kontinuierliche Klärung und Alignment."
       }
     },
@@ -8653,6 +8691,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Ein hochwertiges Product Backlog ermöglicht ein klareres und konsistenteres Sprint Backlog."
+      }
+    },
+    {
+      "_id": "conn-SB-QUALITY-TO-COORDINATION",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-koordin001",
         "description": "Häufige Synchronisation erhöht die Transparenz des Aufgabenstatus durch regelmäßige Updates."
       }
     },
@@ -8665,6 +8710,8 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Qualität des Sprint Backlogs reduziert den Koordinationsaufwand durch klarere Aufgaben und Zuständigkeiten."
         "connection type": "++",
         "description": "Eine passende Synchronisationsfrequenz stärkt die Qualität der Struktur und Zielorientierung im Daily durch klare Rhythmik."
       }
