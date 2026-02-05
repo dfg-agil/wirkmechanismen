@@ -8152,6 +8152,8 @@
       }
     },
     {
+      "_id": "conn-DEPENDENCY-TYPE-TO-COORDINATION",
+      "from": "elem-wtELkHfE",
       "_id": "conn-TEAMSIZE-TO-AGILE-SCALING",
       "from": "elem-DbXXPgu4",
       "to": "elem-bOQiQpQ5",
@@ -8471,6 +8473,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Komplexere Abhängigkeitstypen erhöhen den Koordinationsaufwand."
         "description": "Konsequente Einhaltung der Arbeitszeiten erhöht die Einhaltungsrate von Zeitangaben der Teammitglieder."
         "description": "Informelle Begegnungen fördern die Konvergenz des Teamverständnisses."
         "connection type": "-+",
