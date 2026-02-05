@@ -189,6 +189,9 @@ Adherence to these criteria is essential for maintaining the model's value as a 
 - **MANDATORY**: Jeder neue Einflussfaktor, der in das `main`-Modell integriert werden soll, darf nur dann automatisch übernommen werden, wenn sowohl `measurability` als auch `influenceability` explizit angegeben sind.
 - **Zulässige Werte**: `0`, `0.5`, `1` (oder eine dokumentiert vereinbarte alternative Skala).
 - **REJECT**: Vorschläge, die neue Faktoren ohne beide Metrikwerte hinzufügen, werden nicht automatisch gemergt.
+- **REJECT**: Neue Einflussfaktoren dürfen nicht „lose“ im Modell stehen. Jeder neue Einflussfaktor muss **mindestens 1 eingehende** und **1 ausgehende** Verbindung haben. Fehlt dies, wird der Merge blockiert.
+
+- **Agenten-/Chat-Regel (Connectivity)**: Wenn neue Einflussfaktoren ohne mindestens 1 `indegree` und 1 `outdegree` vorgeschlagen werden, **muss** der Agent im Chat ablehnen und einen **Vorschlag für passende Verbindungen** machen. Erst nach Bestätigung/Anpassung durch den User darf weitergearbeitet werden.
 
 - **Verfahren bei fehlenden Werten**:
   - Neue Faktoren dürfen per Pull Request vorgeschlagen werden, **müssen** aber in der PR-Beschreibung deutlich kennzeichnen, dass Werte fehlen, und die Begründung angeben.
