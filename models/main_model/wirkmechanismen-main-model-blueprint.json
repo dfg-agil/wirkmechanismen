@@ -1930,6 +1930,15 @@
       }
     },
     {
+      "_id": "elem-reviewQualitaet",
+      "attributes": {
+        "label": "Qualität des Reviews",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Kommunikation"
+        ],
+        "description": "Qualität von Reviews (z.B. Code- und Design-Reviews): Klarheit der Kriterien, Tiefe der Analyse, konstruktive Rückmeldungen, Nachverfolgung und Umsetzung von Review-Ergebnissen.",
       "_id": "elem-poKompetenz",
       "attributes": {
         "label": "Kompetenz des Product Owners",
@@ -8056,6 +8065,9 @@
       }
     },
     {
+      "_id": "conn-COMM-TO-REVIEW-QUALITY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-reviewQualitaet",
       "_id": "conn-CLARITY-TO-PO-COMPETENCE",
       "from": "elem-wDnzlLwI",
       "to": "elem-poKompetenz",
@@ -8065,6 +8077,39 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Bessere Kommunikationsqualität unterstützt klarere und wirksamere Reviews."
+      }
+    },
+    {
+      "_id": "conn-CUSTOMER-CLARITY-TO-REVIEW-QUALITY",
+      "from": "elem-jnhWVH9C",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Kundenanforderungen ermöglichen zielgerichtete Reviews mit eindeutigen Prüfkriterien."
+      }
+    },
+    {
+      "_id": "conn-DEV-COMP-TO-REVIEW-QUALITY",
+      "from": "elem-SfaQSG8R",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Fachkompetenz der Entwickler verbessert die Qualität von Reviews."
+      }
+    },
+    {
+      "_id": "conn-TIME-MGMT-TO-REVIEW-QUALITY",
+      "from": "elem-bYpJc5sG",
+      "to": "elem-reviewQualitaet",
         "description": "Klarere Aufgabenstellungen unterstützen den Product Owner dabei, Priorisierung und Stakeholder-Abstimmung wirksam umzusetzen."
       }
     },
@@ -8078,6 +8123,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Gutes Zeitmanagement schafft Raum für gründliche Reviews."
+      }
+    },
+    {
+      "_id": "conn-MEETING-STRUCTURE-TO-REVIEW-QUALITY",
+      "from": "elem-DyjLKFjk",
+      "to": "elem-reviewQualitaet",
         "description": "Höhere Kompetenz des Product Owners verbessert die Qualität des Backlog-Refinements durch bessere Priorisierung und Klarheit der Anforderungen."
       }
     },
@@ -8091,6 +8143,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Strukturierte Meetings erhöhen die Wirksamkeit von Reviews."
+      }
+    },
+    {
+      "_id": "conn-ARTEFACT-TO-REVIEW-QUALITY",
+      "from": "elem-lcDSwFU2",
+      "to": "elem-reviewQualitaet",
         "description": "Ein höherer expliziter Wissensstand der Organisation fördert die fachliche Kompetenz des Team Leads."
       }
     },
@@ -8103,6 +8162,14 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Artefaktqualität erleichtert zielführende Reviews."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-ARTEFACT",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-lcDSwFU2",
         "connection type": "--",
         "description": "Höhere fachliche Kompetenz des Team Leads reduziert Fehler durch bessere fachliche Entscheidungen und Guidance."
       }
@@ -8117,6 +8184,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Höhere Review-Qualität verbessert die Artefaktqualität durch bessere Rückmeldungen und Korrekturen."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-FEEDBACK",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-cHlGVpZ5",
         "description": "Persönlichkeitsmerkmale der Teammitglieder beeinflussen die Ausprägung sozialer Kompetenzen des Team Leads."
       }
     },
@@ -8130,6 +8204,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Gute Reviews führen zu hochwertigem Feedback."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-BACKLOG-REFINEMENT",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-backlogRefinement",
         "description": "Höhere Sozialkompetenz des Team Leads verbessert die Teamdynamik durch bessere Kommunikation und Konfliktlösung."
       }
     },
@@ -8143,6 +8224,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Erkenntnisse aus Reviews verbessern das Backlog-Refinement."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-ERRORS",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-0PyumJeh",
         "description": "Ein höherer expliziter Wissensstand der Organisation unterstützt die Handlungskompetenz des Team Leads."
       }
     },
@@ -8155,6 +8243,8 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Review-Qualität senkt die Fehlerhäufigkeit."
         "connection type": "--",
         "description": "Höhere Handlungskompetenz des Team Leads reduziert Koordinationsaufwand durch klare Entscheidungen und Priorisierung."
       }
