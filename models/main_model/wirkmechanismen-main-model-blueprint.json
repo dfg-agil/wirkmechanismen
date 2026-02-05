@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-MEDIA-AVAILABILITY-TO-PERCEIVED-RICHNESS",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-wahrgenommeneMediaRichness",
       "_id": "conn-SKILL-TRANSPARENCY-TO-TASK-PRIORITIZATION",
       "from": "elem-transpFahig01",
       "to": "elem-QgfybLh0",
@@ -8574,6 +8577,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine höhere Verfügbarkeit reichhaltiger Kommunikationsmedien erhöht die wahrgenommene Medienreichhaltigkeit durch mehr Auswahl und Eignung für die Aufgabe."
         "description": "Transparenz über Fähigkeiten der Teammitglieder verbessert die Aufgabenzuteilung und Priorisierung durch passgenauere Zuordnung."
         "description": "Transparenz des Aufgabenstatus macht sichtbar, wer woran arbeitet, und erhöht so die Transparenz der Fähigkeiten im Team."
         "connection type": "--",
