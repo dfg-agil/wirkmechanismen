@@ -8152,6 +8152,8 @@
       }
     },
     {
+      "_id": "conn-LEADERSHIP-ADAPT-TO-TEAM-DYNAMICS",
+      "from": "elem-Cp80iMCp",
       "_id": "conn-DEPENDENCY-TYPE-TO-COORDINATION",
       "from": "elem-wtELkHfE",
       "_id": "conn-TEAMSIZE-TO-AGILE-SCALING",
@@ -8412,6 +8414,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Ein anpassungsfähiger Führungsstil verbessert die Qualität der Teamdynamik."
         "description": "Räumliche Nähe erhöht die Häufigkeit informeller Begegnungen."
       }
     },
