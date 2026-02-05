@@ -8071,6 +8071,8 @@
     {
       "_id": "conn-TL-SOCIAL-TO-TEAMDYNAMIK",
       "from": "elem-teamLeadSozialkompetenz",
+      "_id": "conn-DEV-SOCIAL-TO-TEAMDYNAMIK",
+      "from": "elem-VzcqeqTN",
       "to": "elem-kpdrF0zk",
       "direction": "directed",
       "delayed": false,
@@ -8079,6 +8081,7 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Sozialkompetenz des Team Leads fördert eine positive Teamdynamik durch kooperatives, empathisches und konstruktives Führungsverhalten."
+        "description": "Sozialkompetenz des Entwicklers fördert eine positive Teamdynamik durch kooperatives, empathisches und konstruktives Verhalten."
       }
     }
   ]
