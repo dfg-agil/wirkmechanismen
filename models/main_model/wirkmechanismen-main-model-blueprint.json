@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-COLLAB-ENV-TO-INFO-PERMEABILITY",
+      "from": "elem-ldnDdueE",
+      "to": "elem-4DZnGitO",
       "_id": "conn-PERSONALITY-TO-TEAMDYNAMIK",
       "from": "elem-a0dvE9xS",
       "to": "elem-kpdrF0zk",
@@ -8541,6 +8544,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine hochwertige kollaborative Arbeitsumgebung erhöht die Informationsdurchlässigkeit durch bessere Sichtbarkeit, Zugänglichkeit und Austauschmöglichkeiten."
         "description": "Persönlichkeitsmerkmale der Teammitglieder beeinflussen die Teamdynamik durch Verhalten, Konfliktstil und Kooperationsbereitschaft."
         "description": "Nonverbale Kommunikation verbessert die Kommunikationsqualität durch zusätzliche Kontext- und Beziehungssignale."
         "description": "Klarheit über die Planungsfrequenz verbessert die Qualität der Planung durch verlässliche Taktung und gemeinsame Erwartungshaltung."
