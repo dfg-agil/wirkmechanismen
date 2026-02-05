@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-FEHLERKULTUR-TO-ERROR-ACCEPTANCE",
+      "from": "elem-8DovrrfU",
+      "to": "elem-1L5rJCH1",
       "_id": "conn-TEAM-GOAL-CLARITY-TO-PARTICIPATION",
       "from": "elem-ivDOaa1S",
       "to": "elem-1oLVNA94",
@@ -8556,6 +8559,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine ausgeprägte Fehlerkultur erhöht die Fehlerakzeptanz im Teamumfeld durch Offenheit und Lernorientierung."
         "description": "Zielklarheit der Teammitglieder erhöht die Team-Partizipation durch gemeinsames Verständnis und Orientierung."
         "description": "Eine verhältnismäßige Verteilung der Beiträge im Team fördert die Teamdynamik durch Fairness und Beteiligungsgerechtigkeit."
         "description": "Ein hoher Umfang technischer Schulden erhöht die Fehlerhäufigkeit durch erhöhte Komplexität, fragile Architektur und geringe Wartbarkeit."
