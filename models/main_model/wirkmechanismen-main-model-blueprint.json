@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-PLANNING-FREQUENCY-TO-PLANNING-QUALITY",
+      "from": "elem-cFhW9nNR",
+      "to": "elem-K1bUPwjJ",
       "_id": "conn-TEAMDYNAMIK-TO-CHANGE-READINESS",
       "from": "elem-kpdrF0zk",
       "to": "elem-CuaFkCcT",
@@ -8532,6 +8535,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Klarheit über die Planungsfrequenz verbessert die Qualität der Planung durch verlässliche Taktung und gemeinsame Erwartungshaltung."
         "description": "Eine positive Teamdynamik erhöht die Bereitschaft zur Veränderung durch Vertrauen, Offenheit und gemeinsames Commitment."
         "description": "Eine ausgeprägte Fehlerkultur fördert eine offene, respektvolle Teamdynamik durch Lernen aus Fehlern und psychologische Sicherheit."
         "connection type": "-+",
