@@ -1030,6 +1030,67 @@
       }
     },
     {
+      "_id": "elem-raumnaeheTeam",
+      "attributes": {
+        "label": "Räumliche Nähe der Teammitglieder",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "description": "Grad der physischen Nähe bzw. Co-Location der Teammitglieder im Arbeitsalltag.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-arbeitszeitOverlap",
+      "attributes": {
+        "label": "Zeitliche Überlappung der Arbeitszeiten",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Zeitmanagement",
+          "Kommunikation"
+        ],
+        "description": "Ausmaß der gemeinsamen Arbeitszeitfenster zwischen Teammitgliedern (z.B. Zeitzonen-Overlap).",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-informelleBegegnungen",
+      "attributes": {
+        "label": "Häufigkeit der informellen Begegnungen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "description": "Häufigkeit ungeplanter, informeller Kontakte (z.B. kurze Absprachen, zufällige Treffen).",
       "_id": "elem-boundarySpannerNeed",
       "attributes": {
         "label": "Notwendigkeit eines Boundary Spanners",
@@ -1050,6 +1111,7 @@
         "reach-efficiency": 0,
         "micmac influence": 0,
         "micmac exposure": 0,
+        "measurability": 0.5,
         "measurability": 0,
         "influenceability": 0.5
       }
@@ -8090,6 +8152,9 @@
       }
     },
     {
+      "_id": "conn-RESOURCES-TO-SPATIAL-PROXIMITY",
+      "from": "elem-Q3uEEe5Q",
+      "to": "elem-raumnaeheTeam",
       "_id": "conn-SYSTEM-COMPLEXITY-TO-BOUNDARY-SPANNER-NEED",
       "from": "elem-1T8mAYkP",
       "to": "elem-boundarySpannerNeed",
@@ -8105,6 +8170,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Mehr verfügbare Ressourcen (z.B. Räume/Arbeitsplätze) ermöglichen höhere räumliche Nähe der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-COLLAB-ENV",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-ldnDdueE",
         "description": "Höhere Systemkomplexität erhöht den Bedarf an Boundary Spanning, um Abhängigkeiten über Teamgrenzen zu koordinieren."
       }
     },
@@ -8125,6 +8197,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Höhere räumliche Nähe verbessert die Qualität der kollaborativen Arbeitsumgebung."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFO-FLOW",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-4DZnGitO",
         "description": "Mehr Abhängigkeiten und Hindernisse erhöhen den Bedarf an Boundary Spanning zwischen Teams."
       }
     },
@@ -8145,6 +8224,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Informationsdurchlässigkeit der Arbeitsumgebung (osmotische Kommunikation)."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-VISIBILITY",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-gRqiMiBS",
         "description": "Hohe Kommunikationskomplexität steigert den Bedarf an Boundary Spanning zur Übersetzung und Abstimmung."
       }
     },
@@ -8172,6 +8258,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Sichtbarkeit der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-WORKHOURS-TO-OVERLAP",
+      "from": "elem-7iCVuvkI",
+      "to": "elem-arbeitszeitOverlap",
         "description": "Hohe Aufgabenmehrdeutigkeit erhöht den Bedarf an Boundary Spanning, um ein gemeinsames Verständnis herzustellen."
       }
     },
@@ -8199,6 +8292,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Konsequente Einhaltung der Arbeitszeiten erhöht die zeitliche Überlappung der Arbeitszeiten."
+      }
+    },
+    {
+      "_id": "conn-OVERLAP-TO-COMM-MODE",
+      "from": "elem-arbeitszeitOverlap",
+      "to": "elem-jxhfFnIX",
         "description": "Strukturierte Meetings erhöhen die Wirksamkeit von Reviews."
       }
     },
@@ -8219,6 +8319,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Mehr zeitliche Überlappung ermöglicht häufiger synchrone Kommunikation."
+      }
+    },
+    {
+      "_id": "conn-OVERLAP-TO-COORDINATION",
+      "from": "elem-arbeitszeitOverlap",
+      "to": "elem-koordin001",
         "description": "Höhere Artefaktqualität erleichtert zielführende Reviews."
       }
     },
@@ -8239,6 +8346,14 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "--",
+        "description": "Mehr zeitliche Überlappung reduziert den Koordinationsaufwand durch schnellere Abstimmung."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFORMAL",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-informelleBegegnungen",
         "connection type": "++",
         "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher."
       }
@@ -8267,6 +8382,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Häufigkeit informeller Begegnungen."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-TO-INFO-FLOW",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-4DZnGitO",
         "description": "Hoher Boundary-Spanning-Bedarf erhöht die Notwendigkeit gemeinsamer Boundary Objects."
       }
     },
@@ -8294,6 +8416,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Häufige informelle Begegnungen erhöhen die Informationsdurchlässigkeit der Arbeitsumgebung."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-TO-TEAM-UNDERSTANDING",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-VombH8FP",
         "description": "Erkenntnisse aus Reviews verbessern das Backlog-Refinement."
       }
     },
@@ -8313,6 +8442,8 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "++",
+        "description": "Informelle Begegnungen fördern die Konvergenz des Teamverständnisses."
         "connection type": "-+",
         "description": "Ein hoher Bedarf an Boundary Spanning senkt ohne wirksame Vermittlung die Konvergenz des Teamverständnisses."
         "connection type": "+-",
