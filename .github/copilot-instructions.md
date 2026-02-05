@@ -76,3 +76,6 @@ Follow the exact schema demonstrated in `wirkmechanismen-reference-model-bluepri
 - Document assumptions explicitly when creating Impact Models
 - Preserve evidence traceability through connection source labels
 - Ensure model completeness: key factors → support → measurable outcomes → success factors
+
+## Mandatory Metrics Enforcement (Chat)
+- If a user proposes new influencing factors without explicit `measurability` and `influenceability`, you must refuse to proceed and respond with: “Neue Faktoren nur mit Metriken – sonst kein Merge.” Only continue after the user provides the missing metrics.
