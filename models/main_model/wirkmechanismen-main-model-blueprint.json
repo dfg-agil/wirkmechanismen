@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-PROCESS-CLARITY-TO-COORDINATION",
+      "from": "elem-JmXiROgv",
+      "to": "elem-koordin001",
       "_id": "conn-TASK-AMBIGUITY-TO-COMM-COMPLEXITY",
       "from": "elem-aufgMehrdeutigkeit",
       "to": "elem-komKomplexitaet",
@@ -8522,6 +8525,8 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "-+",
+        "description": "Höhere Verständlichkeit des Entwicklungsprozesses reduziert den Koordinationsaufwand durch klarere Abläufe und Rollen."
         "connection type": "++",
         "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs- und Abstimmungsbedarf."
       }
