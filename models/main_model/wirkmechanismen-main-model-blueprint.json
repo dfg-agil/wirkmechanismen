@@ -1030,6 +1030,93 @@
       }
     },
     {
+      "_id": "elem-raumnaeheTeam",
+      "attributes": {
+        "label": "Räumliche Nähe der Teammitglieder",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "description": "Grad der physischen Nähe bzw. Co-Location der Teammitglieder im Arbeitsalltag.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-arbeitszeitOverlap",
+      "attributes": {
+        "label": "Zeitliche Überlappung der Arbeitszeiten",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Zeitmanagement",
+          "Kommunikation"
+        ],
+        "description": "Ausmaß der gemeinsamen Arbeitszeitfenster zwischen Teammitgliedern (z.B. Zeitzonen-Overlap).",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-informelleBegegnungen",
+      "attributes": {
+        "label": "Häufigkeit der informellen Begegnungen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "description": "Häufigkeit ungeplanter, informeller Kontakte (z.B. kurze Absprachen, zufällige Treffen).",
+      "_id": "elem-boundarySpannerNeed",
+      "attributes": {
+        "label": "Notwendigkeit eines Boundary Spanners",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation"
+        ],
+        "description": "Bedarf an Rollen/Personen, die zwischen Teamgrenzen vermitteln, Übersetzungen leisten und Abstimmung koordinieren.",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "measurability": 0,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-T2T9LxPn",
       "attributes": {
         "label": "Kommunikationsbereitschaft",
@@ -1927,6 +2014,120 @@
         "micmac exposure": 0.8919942924225034,
         "measurability": 0.5,
         "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-reviewQualitaet",
+      "attributes": {
+        "label": "Qualität des Reviews",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Kommunikation"
+        ],
+        "description": "Qualität von Reviews (z.B. Code- und Design-Reviews): Klarheit der Kriterien, Tiefe der Analyse, konstruktive Rückmeldungen, Nachverfolgung und Umsetzung von Review-Ergebnissen.",
+      "_id": "elem-poKompetenz",
+      "attributes": {
+        "label": "Kompetenz des Product Owners",
+        "description": "Fähigkeit des Product Owners, Vision, Priorisierung und Stakeholder-Management wirksam umzusetzen.",
+        "tags": [
+          "Planning",
+          "Backlog Refinement",
+          "Struktur und Zielorientierung"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-teamLeadFachkompetenz",
+      "attributes": {
+        "label": "Fachkompetenz des Team Lead",
+        "description": "Fachliche Kompetenz des Team Leads, technische Inhalte zu verstehen, zu bewerten und Entscheidungen fachlich zu steuern.",
+        "tags": [
+          "Planning",
+          "Impliziter Wissensstand des Entwicklers"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-teamLeadSozialkompetenz",
+      "attributes": {
+        "label": "Sozialkompetenz des Team Lead",
+        "description": "Soziale Kompetenz des Team Leads zur Förderung von Zusammenarbeit, Kommunikation und Konfliktlösung.",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-teamLeadHandlungskompetenz",
+      "attributes": {
+        "label": "Handlungskompetenz des Team Lead",
+        "description": "Handlungskompetenz des Team Leads, situativ angemessen zu entscheiden und umzusetzen.",
+        "tags": [
+          "Planning",
+          "Expliziter Wissensstand der Organisation"
+        ],
+        "element type": "Einflussfaktoren",
+        "closeness": 0,
+        "metrics::last": 0,
+        "degree": 0,
+        "size": 1,
+        "indegree": 0,
+        "outdegree": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0,
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -7587,6 +7788,110 @@
       }
     },
     {
+      "_id": "conn-mr-001",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-strukturelleMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Höhere Aufgaben-Mehrdeutigkeit erfordert reichhaltigere strukturelle Medien für effektive Kommunikation."
+      }
+    },
+    {
+      "_id": "conn-mr-002",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ambige Aufgaben erhöhen die Erwartung an wahrgenommene Media-Richness."
+      }
+    },
+    {
+      "_id": "conn-mr-003",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-strukturelleMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare reichhaltige Medien ermöglichen höhere strukturelle Medienreichhaltigkeit."
+      }
+    },
+    {
+      "_id": "conn-mr-004",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbarkeit reichhaltiger Medien verbessert deren wahrgenommene Richness."
+      }
+    },
+    {
+      "_id": "conn-mr-005",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-wDnzlLwI",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "--",
+        "description": "Höhere Mehrdeutigkeit der Aufgabe führt zu geringerer Klarheit der Aufgabenstellung."
+      }
+    },
+    {
+      "_id": "conn-mr-006",
+      "from": "elem-1mAqDgJB",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ambige Prozessanforderungen erhöhen die Mehrdeutigkeit einzelner Aufgaben."
+      }
+    },
+    {
+      "_id": "conn-mr-007",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbarkeit reichhaltiger Medien ermöglicht bessere Feedback-Qualität."
+      }
+    },
+    {
+      "_id": "conn-mr-008",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "--",
+        "description": "Höhere Aufgaben-Mehrdeutigkeit erschwert die Konvergenz des Teamverständnisses."
+      }
+    },
+    {
       "_id": "conn-themExp-wahrMed",
       "from": "elem-SfaQSG8R",
       "to": "elem-wahrgenommeneMediaRichness",
@@ -7847,6 +8152,355 @@
       }
     },
     {
+      "_id": "conn-DECISION-FREEDOM-TO-PARTICIPATION",
+      "from": "elem-EUSEMqlc",
+      "to": "elem-1oLVNA94",
+      "_id": "conn-ERROR-ACCEPTANCE-TO-RETRO",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-retrospektive001",
+      "_id": "conn-DEADLINES-TO-CUSTOMER-SAT",
+      "from": "elem-nAA1gU0l",
+      "to": "elem-iRqjN94r",
+      "_id": "conn-LEADERSHIP-ADAPT-TO-TEAM-DYNAMICS",
+      "from": "elem-Cp80iMCp",
+      "_id": "conn-DEPENDENCY-TYPE-TO-COORDINATION",
+      "from": "elem-wtELkHfE",
+      "_id": "conn-TEAMSIZE-TO-AGILE-SCALING",
+      "from": "elem-DbXXPgu4",
+      "to": "elem-bOQiQpQ5",
+      "_id": "conn-COMM-MODE-TO-FEEDBACK-QUANTITY",
+      "from": "elem-jxhfFnIX",
+      "to": "elem-y6GVV12J",
+      "_id": "conn-TEAMDYNAMIK-TO-RETRO-QUALITY",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-retrospektive001",
+      "_id": "conn-COMM-TO-PLANNING-QUALITY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-K1bUPwjJ",
+      "_id": "conn-REFINEMENT-TO-PRIO-LEVEL",
+      "from": "elem-backlogRefinement",
+      "to": "elem-0hB3d0e3",
+      "_id": "conn-TEAMDYNAMIK-TO-PRINZIPIEN",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-bewbUDp6",
+      "_id": "conn-WORKHOURS-TO-PUNCTUALITY",
+      "from": "elem-7iCVuvkI",
+      "to": "elem-TE0p3sHi",
+      "_id": "conn-RESOURCES-TO-SPATIAL-PROXIMITY",
+      "from": "elem-Q3uEEe5Q",
+      "to": "elem-raumnaeheTeam",
+      "_id": "conn-SYSTEM-COMPLEXITY-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-boundarySpannerNeed",
+      "_id": "conn-COMM-TO-REVIEW-QUALITY",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-reviewQualitaet",
+      "_id": "conn-CLARITY-TO-PO-COMPETENCE",
+      "from": "elem-wDnzlLwI",
+      "to": "elem-poKompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr Entscheidungsfreiheit erhöht die Qualität der Team-Partizipation."
+        "description": "Höhere Fehlerakzeptanz im Teamumfeld verbessert die Qualität der Retrospektive."
+        "description": "Bessere Einhaltung der Deadlines erhöht die Kundenzufriedenheit."
+        "connection type": "--",
+        "description": "Mit zunehmender Teamgröße sinkt die Skalierbarkeit agiler Praktiken."
+        "connection type": "++",
+        "description": "Ein synchronerer Kommunikationsmodus erhöht die Quantität des Feedbacks."
+        "description": "Bessere Teamdynamik erhöht die Qualität der Retrospektive."
+        "description": "Bessere Kommunikationsqualität erhöht die Qualität der Planung."
+        "description": "Besseres Backlog-Refinement erhöht das Priorisierungsniveau der Aufgaben."
+        "description": "Eine bessere Teamdynamik fördert die Prinzipienpriorisierung im Team."
+        "description": "Mehr verfügbare Ressourcen (z.B. Räume/Arbeitsplätze) ermöglichen höhere räumliche Nähe der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-COLLAB-ENV",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-ldnDdueE",
+        "description": "Höhere Systemkomplexität erhöht den Bedarf an Boundary Spanning, um Abhängigkeiten über Teamgrenzen zu koordinieren."
+      }
+    },
+    {
+      "_id": "conn-DEPENDENCIES-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-7sSep5II",
+      "to": "elem-boundarySpannerNeed",
+        "description": "Bessere Kommunikationsqualität unterstützt klarere und wirksamere Reviews."
+      }
+    },
+    {
+      "_id": "conn-CUSTOMER-CLARITY-TO-REVIEW-QUALITY",
+      "from": "elem-jnhWVH9C",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere räumliche Nähe verbessert die Qualität der kollaborativen Arbeitsumgebung."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFO-FLOW",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-4DZnGitO",
+        "description": "Mehr Abhängigkeiten und Hindernisse erhöhen den Bedarf an Boundary Spanning zwischen Teams."
+      }
+    },
+    {
+      "_id": "conn-COMM-COMPLEXITY-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-boundarySpannerNeed",
+        "description": "Klare Kundenanforderungen ermöglichen zielgerichtete Reviews mit eindeutigen Prüfkriterien."
+      }
+    },
+    {
+      "_id": "conn-DEV-COMP-TO-REVIEW-QUALITY",
+      "from": "elem-SfaQSG8R",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Informationsdurchlässigkeit der Arbeitsumgebung (osmotische Kommunikation)."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-VISIBILITY",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-gRqiMiBS",
+        "description": "Hohe Kommunikationskomplexität steigert den Bedarf an Boundary Spanning zur Übersetzung und Abstimmung."
+      }
+    },
+    {
+      "_id": "conn-TASK-EQUIVOCALITY-TO-BOUNDARY-SPANNER-NEED",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-boundarySpannerNeed",
+        "description": "Höhere Fachkompetenz der Entwickler verbessert die Qualität von Reviews."
+      }
+    },
+    {
+      "_id": "conn-TIME-MGMT-TO-REVIEW-QUALITY",
+      "from": "elem-bYpJc5sG",
+      "to": "elem-reviewQualitaet",
+        "description": "Klarere Aufgabenstellungen unterstützen den Product Owner dabei, Priorisierung und Stakeholder-Abstimmung wirksam umzusetzen."
+      }
+    },
+    {
+      "_id": "conn-PO-COMPETENCE-TO-BACKLOG-REFINEMENT",
+      "from": "elem-poKompetenz",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe erhöht die Sichtbarkeit der Teammitglieder."
+      }
+    },
+    {
+      "_id": "conn-WORKHOURS-TO-OVERLAP",
+      "from": "elem-7iCVuvkI",
+      "to": "elem-arbeitszeitOverlap",
+        "description": "Hohe Aufgabenmehrdeutigkeit erhöht den Bedarf an Boundary Spanning, um ein gemeinsames Verständnis herzustellen."
+      }
+    },
+    {
+      "_id": "conn-BOUNDARY-SPANNER-NEED-TO-COORDINATION",
+      "from": "elem-boundarySpannerNeed",
+      "to": "elem-koordin001",
+        "description": "Gutes Zeitmanagement schafft Raum für gründliche Reviews."
+      }
+    },
+    {
+      "_id": "conn-MEETING-STRUCTURE-TO-REVIEW-QUALITY",
+      "from": "elem-DyjLKFjk",
+      "to": "elem-reviewQualitaet",
+        "description": "Höhere Kompetenz des Product Owners verbessert die Qualität des Backlog-Refinements durch bessere Priorisierung und Klarheit der Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-EXPLICIT-KNOWLEDGE-TO-TL-FACHKOMPETENZ",
+      "from": "elem-0er3OquT",
+      "to": "elem-teamLeadFachkompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Konsequente Einhaltung der Arbeitszeiten erhöht die zeitliche Überlappung der Arbeitszeiten."
+      }
+    },
+    {
+      "_id": "conn-OVERLAP-TO-COMM-MODE",
+      "from": "elem-arbeitszeitOverlap",
+      "to": "elem-jxhfFnIX",
+        "description": "Strukturierte Meetings erhöhen die Wirksamkeit von Reviews."
+      }
+    },
+    {
+      "_id": "conn-ARTEFACT-TO-REVIEW-QUALITY",
+      "from": "elem-lcDSwFU2",
+      "to": "elem-reviewQualitaet",
+        "description": "Ein höherer expliziter Wissensstand der Organisation fördert die fachliche Kompetenz des Team Leads."
+      }
+    },
+    {
+      "_id": "conn-TL-FACHKOMPETENZ-TO-ERRORS",
+      "from": "elem-teamLeadFachkompetenz",
+      "to": "elem-0PyumJeh",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr zeitliche Überlappung ermöglicht häufiger synchrone Kommunikation."
+      }
+    },
+    {
+      "_id": "conn-OVERLAP-TO-COORDINATION",
+      "from": "elem-arbeitszeitOverlap",
+      "to": "elem-koordin001",
+        "description": "Höhere Artefaktqualität erleichtert zielführende Reviews."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-ARTEFACT",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-lcDSwFU2",
+        "connection type": "--",
+        "description": "Höhere fachliche Kompetenz des Team Leads reduziert Fehler durch bessere fachliche Entscheidungen und Guidance."
+      }
+    },
+    {
+      "_id": "conn-PERSONALITY-TO-TL-SOZIALKOMPETENZ",
+      "from": "elem-a0dvE9xS",
+      "to": "elem-teamLeadSozialkompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Mehr zeitliche Überlappung reduziert den Koordinationsaufwand durch schnellere Abstimmung."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFORMAL",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-informelleBegegnungen",
+        "connection type": "++",
+        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher."
+      }
+    },
+    {
+      "_id": "conn-BOUNDARY-SPANNER-NEED-TO-BOUNDARY-OBJECT",
+      "from": "elem-boundarySpannerNeed",
+      "to": "elem-Siz8fExz",
+        "description": "Höhere Review-Qualität verbessert die Artefaktqualität durch bessere Rückmeldungen und Korrekturen."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-FEEDBACK",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-cHlGVpZ5",
+        "description": "Persönlichkeitsmerkmale der Teammitglieder beeinflussen die Ausprägung sozialer Kompetenzen des Team Leads."
+      }
+    },
+    {
+      "_id": "conn-TL-SOZIALKOMPETENZ-TO-TEAMDYNAMIK",
+      "from": "elem-teamLeadSozialkompetenz",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein anpassungsfähiger Führungsstil verbessert die Qualität der Teamdynamik."
+        "description": "Räumliche Nähe erhöht die Häufigkeit informeller Begegnungen."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-TO-INFO-FLOW",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-4DZnGitO",
+        "description": "Hoher Boundary-Spanning-Bedarf erhöht die Notwendigkeit gemeinsamer Boundary Objects."
+      }
+    },
+    {
+      "_id": "conn-BOUNDARY-SPANNER-NEED-TO-TEAM-UNDERSTANDING",
+      "from": "elem-boundarySpannerNeed",
+      "to": "elem-VombH8FP",
+        "description": "Gute Reviews führen zu hochwertigem Feedback."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-BACKLOG-REFINEMENT",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-backlogRefinement",
+        "description": "Höhere Sozialkompetenz des Team Leads verbessert die Teamdynamik durch bessere Kommunikation und Konfliktlösung."
+      }
+    },
+    {
+      "_id": "conn-EXPLICIT-KNOWLEDGE-TO-TL-HANDLUNGSKOMPETENZ",
+      "from": "elem-0er3OquT",
+      "to": "elem-teamLeadHandlungskompetenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige informelle Begegnungen erhöhen die Informationsdurchlässigkeit der Arbeitsumgebung."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-TO-TEAM-UNDERSTANDING",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-VombH8FP",
+        "description": "Erkenntnisse aus Reviews verbessern das Backlog-Refinement."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-QUALITY-TO-ERRORS",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-0PyumJeh",
+        "description": "Ein höherer expliziter Wissensstand der Organisation unterstützt die Handlungskompetenz des Team Leads."
+      }
+    },
+    {
+      "_id": "conn-TL-HANDLUNGSKOMPETENZ-TO-COORDINATION",
+      "from": "elem-teamLeadHandlungskompetenz",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Komplexere Abhängigkeitstypen erhöhen den Koordinationsaufwand."
+        "description": "Konsequente Einhaltung der Arbeitszeiten erhöht die Einhaltungsrate von Zeitangaben der Teammitglieder."
+        "description": "Informelle Begegnungen fördern die Konvergenz des Teamverständnisses."
+        "connection type": "-+",
+        "description": "Ein hoher Bedarf an Boundary Spanning senkt ohne wirksame Vermittlung die Konvergenz des Teamverständnisses."
+        "connection type": "+-",
+        "description": "Höhere Review-Qualität senkt die Fehlerhäufigkeit."
+        "connection type": "--",
+        "description": "Höhere Handlungskompetenz des Team Leads reduziert Koordinationsaufwand durch klare Entscheidungen und Priorisierung."
+      }
+    },
+    {
       "_id": "conn-kommModus-feedQual",
       "from": "elem-jxhfFnIX",
       "to": "elem-cHlGVpZ5",
@@ -7863,6 +8517,36 @@
       "_id": "conn-CONTRIBUTION-BALANCE-TO-TEAMDYNAMIK",
       "from": "elem-JvpOipbD",
       "to": "elem-kpdrF0zk",
+      "_id": "conn-TECH-DEBT-TO-ERROR-FREQUENCY",
+      "from": "elem-pyHxoybV",
+      "to": "elem-0PyumJeh",
+      "_id": "conn-RELEVANCE-COMM-TO-COMM-QUALITY",
+      "from": "elem-IdAdH9K8",
+      "to": "elem-bh4G3Yqp",
+      "_id": "conn-COLLAB-ENV-TO-INFO-PERMEABILITY",
+      "from": "elem-ldnDdueE",
+      "to": "elem-4DZnGitO",
+      "_id": "conn-PERSONALITY-TO-TEAMDYNAMIK",
+      "from": "elem-a0dvE9xS",
+      "to": "elem-kpdrF0zk",
+      "_id": "conn-NONVERBAL-TO-COMM-QUALITY",
+      "from": "elem-OFCjtV2w",
+      "to": "elem-bh4G3Yqp",
+      "_id": "conn-PLANNING-FREQUENCY-TO-PLANNING-QUALITY",
+      "from": "elem-cFhW9nNR",
+      "to": "elem-K1bUPwjJ",
+      "_id": "conn-TEAMDYNAMIK-TO-CHANGE-READINESS",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-CuaFkCcT",
+      "_id": "conn-FEHLERKULTUR-TO-TEAMDYNAMIK",
+      "from": "elem-8DovrrfU",
+      "to": "elem-kpdrF0zk",
+      "_id": "conn-PROCESS-CLARITY-TO-COORDINATION",
+      "from": "elem-JmXiROgv",
+      "to": "elem-koordin001",
+      "_id": "conn-TASK-AMBIGUITY-TO-COMM-COMPLEXITY",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-komKomplexitaet",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -7870,6 +8554,18 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Eine verhältnismäßige Verteilung der Beiträge im Team fördert die Teamdynamik durch Fairness und Beteiligungsgerechtigkeit."
+        "description": "Ein hoher Umfang technischer Schulden erhöht die Fehlerhäufigkeit durch erhöhte Komplexität, fragile Architektur und geringe Wartbarkeit."
+        "description": "Relevanzbezogene Kommunikation der Inhalte steigert die Kommunikationsqualität durch Fokus auf entscheidungsrelevante Informationen."
+        "description": "Eine hochwertige kollaborative Arbeitsumgebung erhöht die Informationsdurchlässigkeit durch bessere Sichtbarkeit, Zugänglichkeit und Austauschmöglichkeiten."
+        "description": "Persönlichkeitsmerkmale der Teammitglieder beeinflussen die Teamdynamik durch Verhalten, Konfliktstil und Kooperationsbereitschaft."
+        "description": "Nonverbale Kommunikation verbessert die Kommunikationsqualität durch zusätzliche Kontext- und Beziehungssignale."
+        "description": "Klarheit über die Planungsfrequenz verbessert die Qualität der Planung durch verlässliche Taktung und gemeinsame Erwartungshaltung."
+        "description": "Eine positive Teamdynamik erhöht die Bereitschaft zur Veränderung durch Vertrauen, Offenheit und gemeinsames Commitment."
+        "description": "Eine ausgeprägte Fehlerkultur fördert eine offene, respektvolle Teamdynamik durch Lernen aus Fehlern und psychologische Sicherheit."
+        "connection type": "-+",
+        "description": "Höhere Verständlichkeit des Entwicklungsprozesses reduziert den Koordinationsaufwand durch klarere Abläufe und Rollen."
+        "connection type": "++",
+        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs- und Abstimmungsbedarf."
       }
     }
   ]
