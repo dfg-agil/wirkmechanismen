@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-CONTRIBUTION-BALANCE-TO-TEAMDYNAMIK",
+      "from": "elem-JvpOipbD",
+      "to": "elem-kpdrF0zk",
       "_id": "conn-TECH-DEBT-TO-ERROR-FREQUENCY",
       "from": "elem-pyHxoybV",
       "to": "elem-0PyumJeh",
@@ -8550,6 +8553,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine verhältnismäßige Verteilung der Beiträge im Team fördert die Teamdynamik durch Fairness und Beteiligungsgerechtigkeit."
         "description": "Ein hoher Umfang technischer Schulden erhöht die Fehlerhäufigkeit durch erhöhte Komplexität, fragile Architektur und geringe Wartbarkeit."
         "description": "Relevanzbezogene Kommunikation der Inhalte steigert die Kommunikationsqualität durch Fokus auf entscheidungsrelevante Informationen."
         "description": "Eine hochwertige kollaborative Arbeitsumgebung erhöht die Informationsdurchlässigkeit durch bessere Sichtbarkeit, Zugänglichkeit und Austauschmöglichkeiten."
