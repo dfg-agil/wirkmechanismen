@@ -1546,6 +1546,21 @@
       }
     },
     {
+      "_id": "elem-synchronisationsfrequenz",
+      "attributes": {
+        "label": "Synchronisationsfrequenz",
+        "description": "Häufigkeit geplanter Abstimmungen zwischen Teammitgliedern/Teams pro Zeiteinheit (z.B. Dailies, Sync-Meetings).",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Daily",
+          "Planning"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-cHlGVpZ5",
       "attributes": {
         "label": "Qualität des Feedbacks",
@@ -8600,6 +8615,58 @@
         "description": "Höhere Verständlichkeit des Entwicklungsprozesses reduziert den Koordinationsaufwand durch klarere Abläufe und Rollen."
         "connection type": "++",
         "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs- und Abstimmungsbedarf."
+      }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-COORDINATION",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Eine höhere Synchronisationsfrequenz erhöht den Koordinationsaufwand durch zusätzlichen Abstimmungsaufwand und Kontextwechsel."
+      }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-COMM-QUALITY",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Regelmäßige Synchronisation verbessert die Kommunikationsqualität durch kontinuierliche Klärung und Alignment."
+      }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-TASK-STATUS-TRANSPARENCY",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-mzeWXZfS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige Synchronisation erhöht die Transparenz des Aufgabenstatus durch regelmäßige Updates."
+      }
+    },
+    {
+      "_id": "conn-SYNC-FREQ-TO-DAILY-QUALITY",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-YDXh1U6N",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine passende Synchronisationsfrequenz stärkt die Qualität der Struktur und Zielorientierung im Daily durch klare Rhythmik."
       }
     }
   ]
