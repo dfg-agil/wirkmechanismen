@@ -8069,6 +8069,8 @@
       }
     },
     {
+      "_id": "conn-TL-TECH-TO-TEAMDYNAMIK",
+      "from": "elem-teamLeadFachkompetenz",
       "_id": "conn-TL-SOCIAL-TO-TEAMDYNAMIK",
       "from": "elem-teamLeadSozialkompetenz",
       "_id": "conn-DEV-SOCIAL-TO-TEAMDYNAMIK",
@@ -8080,6 +8082,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Fachkompetenz des Team Leads stärkt die Teamdynamik durch bessere Unterstützung, Coaching und fundierte Entscheidungen im Team."
         "description": "Sozialkompetenz des Team Leads fördert eine positive Teamdynamik durch kooperatives, empathisches und konstruktives Führungsverhalten."
         "description": "Sozialkompetenz des Entwicklers fördert eine positive Teamdynamik durch kooperatives, empathisches und konstruktives Verhalten."
       }
