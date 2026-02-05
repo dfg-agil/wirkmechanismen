@@ -8152,6 +8152,9 @@
       }
     },
     {
+      "_id": "conn-DEADLINES-TO-CUSTOMER-SAT",
+      "from": "elem-nAA1gU0l",
+      "to": "elem-iRqjN94r",
       "_id": "conn-LEADERSHIP-ADAPT-TO-TEAM-DYNAMICS",
       "from": "elem-Cp80iMCp",
       "_id": "conn-DEPENDENCY-TYPE-TO-COORDINATION",
@@ -8194,6 +8197,8 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Einhaltung der Deadlines erhöht die Kundenzufriedenheit."
         "connection type": "--",
         "description": "Mit zunehmender Teamgröße sinkt die Skalierbarkeit agiler Praktiken."
         "connection type": "++",
