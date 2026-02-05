@@ -8514,6 +8514,9 @@
       }
     },
     {
+      "_id": "conn-CHANGE-READINESS-TO-WORKFLOW-ADAPTABILITY",
+      "from": "elem-CuaFkCcT",
+      "to": "elem-6709ipyy",
       "_id": "conn-FEHLERKULTUR-TO-ERROR-ACCEPTANCE",
       "from": "elem-8DovrrfU",
       "to": "elem-1L5rJCH1",
@@ -8559,6 +8562,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Bereitschaft zur Veränderung fördert die Anpassungsfähigkeit der Workflowdefinition durch Offenheit für neue Arbeitsweisen."
         "description": "Eine ausgeprägte Fehlerkultur erhöht die Fehlerakzeptanz im Teamumfeld durch Offenheit und Lernorientierung."
         "description": "Zielklarheit der Teammitglieder erhöht die Team-Partizipation durch gemeinsames Verständnis und Orientierung."
         "description": "Eine verhältnismäßige Verteilung der Beiträge im Team fördert die Teamdynamik durch Fairness und Beteiligungsgerechtigkeit."
