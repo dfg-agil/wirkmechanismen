@@ -8857,6 +8857,19 @@
       }
     },
     {
+      "_id": "conn-BACKLOG-REFINEMENT-TO-DOD",
+      "from": "elem-backlogRefinement",
+      "to": "elem-uDiTVbXE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Backlog-Refinement klär und etabliert Fertigstellungskriterien (DoD) durch strukturierte Diskussionen und Festlegung von Akzeptanzkriterien."
+      }
+    },
+    {
       "_id": "conn-MEDIA-AVAILABILITY-TO-PERCEIVED-RICHNESS",
       "from": "elem-medienVerfügbarkeit",
       "to": "elem-wahrgenommeneMediaRichness",
