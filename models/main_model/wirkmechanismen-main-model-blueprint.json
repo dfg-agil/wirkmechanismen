@@ -8857,6 +8857,19 @@
       }
     },
     {
+      "_id": "conn-SM-COMP-TO-RETRO-QUALITY",
+      "from": "elem-p5ivPyza",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters verbessert die Qualität der Retrospektive durch bessere Moderation, psychologische Sicherheit und strukturierte Reflexion."
+      }
+    },
+    {
       "_id": "conn-MEDIA-AVAILABILITY-TO-PERCEIVED-RICHNESS",
       "from": "elem-medienVerfügbarkeit",
       "to": "elem-wahrgenommeneMediaRichness",
