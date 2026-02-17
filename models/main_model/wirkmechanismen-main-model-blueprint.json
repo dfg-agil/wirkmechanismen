@@ -8857,6 +8857,19 @@
       }
     },
     {
+      "_id": "conn-PLANNING-QUALITY-TO-DOD",
+      "from": "elem-8Gqgaih7",
+      "to": "elem-uDiTVbXE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Planungsqualität integriert klare Fertigstellungskriterien (DoD) durch präzise Definition der Akzeptanzkriterien und Realismus der Schätzungen."
+      }
+    },
+    {
       "_id": "conn-MEDIA-AVAILABILITY-TO-PERCEIVED-RICHNESS",
       "from": "elem-medienVerfügbarkeit",
       "to": "elem-wahrgenommeneMediaRichness",
