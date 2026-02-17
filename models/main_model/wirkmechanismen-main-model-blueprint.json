@@ -8857,6 +8857,19 @@
       }
     },
     {
+      "_id": "conn-REVIEW-QUALITY-TO-PB-QUALITY",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-productBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Reviews liefern Erkenntnisse und generieren neue oder geänderte Product-Backlog-Einträge basierend auf Feedback und Verbesserungsvorschlägen."
+      }
+    },
+    {
       "_id": "conn-MEDIA-AVAILABILITY-TO-PERCEIVED-RICHNESS",
       "from": "elem-medienVerfügbarkeit",
       "to": "elem-wahrgenommeneMediaRichness",
