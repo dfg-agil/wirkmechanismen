@@ -9216,6 +9216,84 @@
         "connection type": "++",
         "description": "Höhere Kompetenz des Product Owners verbessert das Stakeholder-Management durch bessere Kommunikation und Strategieentwicklung."
       }
+    },
+    {
+      "_id": "conn-CLARITY-RESP-TO-DAILY-QUALITY",
+      "from": "elem-6tHZ4FNz",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Verantwortlichkeiten im Team ermöglichen hochwertigere Dailies durch präzisere Status-Updates und weniger Klärungsbedarf."
+      }
+    },
+    {
+      "_id": "conn-DAILY-QUALITY-TO-CLARITY-RESP",
+      "from": "elem-QOBGtWqO",
+      "to": "elem-6tHZ4FNz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Dailies stärken die Klarheit der Verantwortlichkeiten durch regelmäßige Bekräftigung von Rollen und Zuständigkeiten."
+      }
+    },
+    {
+      "_id": "conn-SM-COMP-TO-CLARITY-RESP",
+      "from": "elem-p5ivPyza",
+      "to": "elem-6tHZ4FNz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters unterstützt die Klarheit der Verantwortlichkeiten durch bessere Rollenfacilitierung und -moderation."
+      }
+    },
+    {
+      "_id": "conn-CLARITY-RESP-TO-COORD-EFFORT",
+      "from": "elem-6tHZ4FNz",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Klare Verantwortlichkeiten reduzieren den Koordinationsaufwand durch weniger Abstimmungsbedarf und klarere Entscheidungswege."
+      }
+    },
+    {
+      "_id": "conn-CLARITY-RESP-TO-STATUS-TRANSPARENCY",
+      "from": "elem-6tHZ4FNz",
+      "to": "elem-mzeWXZfS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Verantwortlichkeiten erhöhen die Transparenz des Aufgabenstatus, da klar ist, wer für welche Aufgaben verantwortlich ist."
+      }
+    },
+    {
+      "_id": "conn-SM-COMP-TO-DAILY-QUALITY",
+      "from": "elem-p5ivPyza",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters verbessert die Qualität der Dailies durch bessere Moderation, Fokus und Timeboxing."
+      }
     }
   ]
 }
