@@ -9177,6 +9177,45 @@
         "connection type": "++",
         "description": "Eine passende Synchronisationsfrequenz stärkt die Qualität der Struktur und Zielorientierung im Daily durch klare Rhythmik."
       }
+    },
+    {
+      "_id": "conn-RAUMNAE-TO-MEDIEN",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-medienVerfügbarkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe der Teammitglieder erhöht die Verfügbarkeit reichhaltiger Kommunikationsmedien durch erhöhte Möglichkeiten für Face-to-Face und synchrone Zusammenarbeit."
+      }
+    },
+    {
+      "_id": "conn-PO-KOMP-TO-BACKLOG",
+      "from": "elem-poKompetenz",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners verbessert die Qualität des Backlog-Refinements durch bessere Priorisierung und Klarheit der Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-PO-KOMP-TO-STAKEHOLDER",
+      "from": "elem-poKompetenz",
+      "to": "elem-YXuvo4kt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners verbessert das Stakeholder-Management durch bessere Kommunikation und Strategieentwicklung."
+      }
     }
   ]
 }
