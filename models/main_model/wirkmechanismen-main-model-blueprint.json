@@ -8857,6 +8857,8 @@
       }
     },
     {
+      "_id": "conn-DOD-TO-SB-QUALITY",
+      "from": "elem-uDiTVbXE",
       "_id": "conn-REVIEW-QUALITY-TO-PB-QUALITY",
       "from": "elem-reviewQualitaet",
       "to": "elem-productBacklogQuality",
@@ -8869,6 +8871,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Klare Fertigstellungskriterien (DoD) verbessern die Qualität des Sprint Backlogs durch realistische Schätzungen und eindeutige Definition der Arbeitspakete."
         "description": "Hochwertige Reviews liefern Erkenntnisse und generieren neue oder geänderte Product-Backlog-Einträge basierend auf Feedback und Verbesserungsvorschlägen."
         "description": "Höhere Handlungskompetenz der Entwickler verbessert die Qualität des Sprint Backlogs durch realistischere Schätzungen und stärkere Ownership."
       }
