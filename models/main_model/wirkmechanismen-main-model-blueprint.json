@@ -8857,6 +8857,9 @@
       }
     },
     {
+      "_id": "conn-SM-COMP-TO-RETRO-QUALITY",
+      "from": "elem-p5ivPyza",
+      "to": "elem-retrospektive001",
       "_id": "conn-PLANNING-QUALITY-TO-DOD",
       "from": "elem-8Gqgaih7",
       "to": "elem-uDiTVbXE",
@@ -8877,6 +8880,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters verbessert die Qualität der Retrospektive durch bessere Moderation, psychologische Sicherheit und strukturierte Reflexion."
         "description": "Hohe Planungsqualität integriert klare Fertigstellungskriterien (DoD) durch präzise Definition der Akzeptanzkriterien und Realismus der Schätzungen."
         "description": "Hochwertiges Backlog-Refinement klär und etabliert Fertigstellungskriterien (DoD) durch strukturierte Diskussionen und Festlegung von Akzeptanzkriterien."
         "description": "Klare Fertigstellungskriterien (DoD) verbessern die Qualität des Sprint Backlogs durch realistische Schätzungen und eindeutige Definition der Arbeitspakete."
