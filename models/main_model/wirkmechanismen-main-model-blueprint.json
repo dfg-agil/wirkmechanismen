@@ -8857,6 +8857,9 @@
       }
     },
     {
+      "_id": "conn-REVIEW-QUALITY-TO-PB-QUALITY",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-productBacklogQuality",
       "_id": "conn-DEV-HANDL-TO-SB-QUALITY",
       "from": "elem-axja1imq",
       "to": "elem-sprintBacklogQuality",
@@ -8866,6 +8869,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Hochwertige Reviews liefern Erkenntnisse und generieren neue oder geänderte Product-Backlog-Einträge basierend auf Feedback und Verbesserungsvorschlägen."
         "description": "Höhere Handlungskompetenz der Entwickler verbessert die Qualität des Sprint Backlogs durch realistischere Schätzungen und stärkere Ownership."
       }
     },
