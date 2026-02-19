@@ -8857,6 +8857,9 @@
       }
     },
     {
+      "_id": "conn-PLANNING-QUALITY-TO-DOD",
+      "from": "elem-8Gqgaih7",
+      "to": "elem-uDiTVbXE",
       "_id": "conn-BACKLOG-REFINEMENT-TO-DOD",
       "from": "elem-backlogRefinement",
       "to": "elem-uDiTVbXE",
@@ -8874,6 +8877,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Hohe Planungsqualität integriert klare Fertigstellungskriterien (DoD) durch präzise Definition der Akzeptanzkriterien und Realismus der Schätzungen."
         "description": "Hochwertiges Backlog-Refinement klär und etabliert Fertigstellungskriterien (DoD) durch strukturierte Diskussionen und Festlegung von Akzeptanzkriterien."
         "description": "Klare Fertigstellungskriterien (DoD) verbessern die Qualität des Sprint Backlogs durch realistische Schätzungen und eindeutige Definition der Arbeitspakete."
         "description": "Hochwertige Reviews liefern Erkenntnisse und generieren neue oder geänderte Product-Backlog-Einträge basierend auf Feedback und Verbesserungsvorschlägen."
