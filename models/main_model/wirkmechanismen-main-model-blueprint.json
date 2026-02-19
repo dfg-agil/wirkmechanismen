@@ -463,9 +463,9 @@
         "description": "=Timebox-Einhaltung",
         "closeness": 0.3294999999999998,
         "metrics::last": 0.8830036809263201,
-        "degree": 4,
-        "size": 5,
-        "indegree": 1,
+        "degree": 5,
+        "size": 6,
+        "indegree": 2,
         "outdegree": 3,
         "betweenness": 0.01383910533910534,
         "eigenvector": 0.002806812667520127,
@@ -2049,10 +2049,10 @@
       "_id": "elem-p5ivPyza",
       "attributes": {
         "label": "Kompetenz des Scrum Masters",
-        "description": "= Moderation (ScrumMaster)",
-        "tags": [
-          "Team-Partizipation",
-          "Planning",
+        "descripti4,
+        "size": 5,
+        "indegree": 2,
+        "outdegree": 2
           "Struktur und Zielorientierung"
         ],
         "element type": "Einflussfaktoren",
