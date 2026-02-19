@@ -6907,6 +6907,19 @@
       }
     },
     {
+      "_id": "conn-SM-TO-MEETDUR",
+      "from": "elem-p5ivPyza",
+      "to": "elem-9PG4amih",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kompetenz des Scrum Masters fördert die Einhaltung der Dauer des Meetings durch Moderation und Timeboxing."
+      }
+    },
+    {
       "_id": "conn-bridge-013",
       "from": "elem-VBKokGEh",
       "to": "elem-xUIM8LMt",
