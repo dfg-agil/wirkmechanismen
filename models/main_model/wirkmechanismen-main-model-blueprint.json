@@ -8859,6 +8859,11 @@
     {
       "_id": "conn-DOD-TO-SB-QUALITY",
       "from": "elem-uDiTVbXE",
+      "_id": "conn-REVIEW-QUALITY-TO-PB-QUALITY",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-productBacklogQuality",
+      "_id": "conn-DEV-HANDL-TO-SB-QUALITY",
+      "from": "elem-axja1imq",
       "to": "elem-sprintBacklogQuality",
       "direction": "directed",
       "delayed": false,
@@ -8867,6 +8872,8 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Klare Fertigstellungskriterien (DoD) verbessern die Qualität des Sprint Backlogs durch realistische Schätzungen und eindeutige Definition der Arbeitspakete."
+        "description": "Hochwertige Reviews liefern Erkenntnisse und generieren neue oder geänderte Product-Backlog-Einträge basierend auf Feedback und Verbesserungsvorschlägen."
+        "description": "Höhere Handlungskompetenz der Entwickler verbessert die Qualität des Sprint Backlogs durch realistischere Schätzungen und stärkere Ownership."
       }
     },
     {
@@ -9192,6 +9199,215 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Eine passende Synchronisationsfrequenz stärkt die Qualität der Struktur und Zielorientierung im Daily durch klare Rhythmik."
+      }
+    },
+    {
+      "_id": "conn-RAUMNAE-TO-MEDIEN",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-medienVerfügbarkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe der Teammitglieder erhöht die Verfügbarkeit reichhaltiger Kommunikationsmedien durch erhöhte Möglichkeiten für Face-to-Face und synchrone Zusammenarbeit."
+      }
+    },
+    {
+      "_id": "conn-PO-KOMP-TO-BACKLOG",
+      "from": "elem-poKompetenz",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners verbessert die Qualität des Backlog-Refinements durch bessere Priorisierung und Klarheit der Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-PO-KOMP-TO-STAKEHOLDER",
+      "from": "elem-poKompetenz",
+      "to": "elem-YXuvo4kt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners verbessert das Stakeholder-Management durch bessere Kommunikation und Strategieentwicklung."
+      }
+    },
+    {
+      "_id": "conn-CLARITY-RESP-TO-DAILY-QUALITY",
+      "from": "elem-6tHZ4FNz",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Verantwortlichkeiten im Team ermöglichen hochwertigere Dailies durch präzisere Status-Updates und weniger Klärungsbedarf."
+      }
+    },
+    {
+      "_id": "conn-DAILY-QUALITY-TO-CLARITY-RESP",
+      "from": "elem-QOBGtWqO",
+      "to": "elem-6tHZ4FNz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Dailies stärken die Klarheit der Verantwortlichkeiten durch regelmäßige Bekräftigung von Rollen und Zuständigkeiten."
+      }
+    },
+    {
+      "_id": "conn-SM-COMP-TO-CLARITY-RESP",
+      "from": "elem-p5ivPyza",
+      "to": "elem-6tHZ4FNz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters unterstützt die Klarheit der Verantwortlichkeiten durch bessere Rollenfacilitierung und -moderation."
+      }
+    },
+    {
+      "_id": "conn-CLARITY-RESP-TO-COORD-EFFORT",
+      "from": "elem-6tHZ4FNz",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Klare Verantwortlichkeiten reduzieren den Koordinationsaufwand durch weniger Abstimmungsbedarf und klarere Entscheidungswege."
+      }
+    },
+    {
+      "_id": "conn-CLARITY-RESP-TO-STATUS-TRANSPARENCY",
+      "from": "elem-6tHZ4FNz",
+      "to": "elem-mzeWXZfS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Verantwortlichkeiten erhöhen die Transparenz des Aufgabenstatus, da klar ist, wer für welche Aufgaben verantwortlich ist."
+      }
+    },
+    {
+      "_id": "conn-SM-COMP-TO-DAILY-QUALITY",
+      "from": "elem-p5ivPyza",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters verbessert die Qualität der Dailies durch bessere Moderation, Fokus und Timeboxing."
+      }
+    }
+    ,
+    {
+      "_id": "conn-PO-KOMP-TO-PB-QUALITY",
+      "from": "elem-poKompetenz",
+      "to": "elem-productBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners wirkt direkt auf die Qualität des Product Backlogs durch klarere Priorisierung und bessere Item-Definition."
+      }
+    },
+    {
+      "_id": "conn-BACKLOGREF-TO-STATUS-TRANSPARENCY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-mzeWXZfS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Backlog-Refinement erhöht die Transparenz des Aufgabenstatus durch klarere Arbeitspakete und Definitionen."
+      }
+    },
+    {
+      "_id": "conn-MEDIA-TO-DAILY-QUALITY",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbarkeit reichhaltiger Kommunikationsmedien verbessert die Qualität der Dailies durch bessere Synchronisation und Kontextvermittlung."
+      }
+    },
+    {
+      "_id": "conn-RAUMNAE-TO-DAILY-QUALITY-2",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe der Teammitglieder fördert effektive Dailies durch erleichterte Face-to-Face-Kommunikation und schnellen Austausch."
+      }
+    },
+    {
+      "_id": "conn-SPRINTBACKLOG-TO-COORD",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Qualität des Sprint Backlogs reduziert den Koordinationsaufwand durch klarere Aufgaben und Zuständigkeiten."
+      }
+    },
+    {
+      "_id": "conn-STATUS-TRANSP-TO-COORD",
+      "from": "elem-mzeWXZfS",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Transparenz des Aufgabenstatus reduziert den Koordinationsaufwand, da weniger Abstimmungsbedarf entsteht."
+      }
+    },
+    {
+      "_id": "conn-SM-COMP-TO-TEAM-PART",
+      "from": "elem-p5ivPyza",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters fördert die Qualität der Team-Partizipation durch bessere Moderation und Förderung von Engagement."
       }
     }
   ]
