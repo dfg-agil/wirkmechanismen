@@ -1084,6 +1084,15 @@
       }
     },
     {
+      "_id": "elem-vertrautheitTeam",
+      "attributes": {
+        "label": "Vertrautheit zwischen Teammitgliedern",
+        "element type": "Einflussfaktoren",
+        "measurability": 0,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-arbeitszeitOverlap",
       "attributes": {
         "label": "Zeitliche Überlappung der Arbeitszeiten",
@@ -8724,6 +8733,32 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Räumliche Nähe erhöht die Häufigkeit informeller Begegnungen."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-FAMILIARITY",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-vertrautheitTeam",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe fördert Vertrautheit zwischen Teammitgliedern."
+      }
+    },
+    {
+      "_id": "conn-FAMILIARITY-TO-TRUST",
+      "from": "elem-vertrautheitTeam",
+      "to": "elem-1qjjXjCN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Vertrautheit erhöht das Vertrauen in Beziehungen der Teammitglieder."
       }
     },
     {
