@@ -4059,6 +4059,32 @@
       "to": "elem-bh4G3Yqp"
     },
     {
+      "_id": "conn-SOZ-TO-TRUST",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Sozialkompetenz fördert den Aufbau von Vertrauen zwischen Teammitgliedern."
+      },
+      "from": "elem-VzcqeqTN",
+      "to": "elem-1qjjXjCN"
+    },
+    {
+      "_id": "conn-SOZ-TO-PARTICIPATION",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sozialkompetenz des Entwicklers steigert die Qualität der Team Partizipation."
+      },
+      "from": "elem-VzcqeqTN",
+      "to": "elem-1oLVNA94"
+    },
+    {
       "_id": "conn-ACuCxU86",
       "direction": "directed",
       "delayed": false,
