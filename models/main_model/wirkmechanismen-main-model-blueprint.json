@@ -463,9 +463,9 @@
         "description": "=Timebox-Einhaltung",
         "closeness": 0.3294999999999998,
         "metrics::last": 0.8830036809263201,
-        "degree": 4,
-        "size": 5,
-        "indegree": 1,
+        "degree": 5,
+        "size": 6,
+        "indegree": 2,
         "outdegree": 3,
         "betweenness": 0.01383910533910534,
         "eigenvector": 0.002806812667520127,
@@ -2049,10 +2049,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.01,
         "metrics::last": 0.8919942924225034,
-        "degree": 3,
-        "size": 4,
+        "degree": 4,
+        "size": 5,
         "indegree": 2,
-        "outdegree": 1,
+        "outdegree": 2,
         "betweenness": 0,
         "eigenvector": 0.006887915252168991,
         "reach": 0.019801980198019802,
@@ -6904,6 +6904,19 @@
       "attributes": {
         "label": "[X]",
         "connection type": "++"
+      }
+    },
+    {
+      "_id": "conn-SM-TO-MEETDUR",
+      "from": "elem-p5ivPyza",
+      "to": "elem-9PG4amih",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kompetenz des Scrum Masters fördert die Einhaltung der Dauer des Meetings durch Moderation und Timeboxing."
       }
     },
     {
