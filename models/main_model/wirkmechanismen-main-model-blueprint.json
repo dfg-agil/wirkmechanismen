@@ -8692,6 +8692,19 @@
           "description": "Gute Medienwahl unterstützt die Konvergenz des Teamverständnisses durch Kanäle, die Nuancen, nonverbale Signale und unmittelbares Feedback transportieren."
         }
       },
+      {
+        "_id": "conn-feedback-to-teamverstaendnis",
+        "from": "elem-cHlGVpZ5",
+        "to": "elem-VombH8FP",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
+        }
+      },
     {
       "_id": "conn-RETROSPECTIVE-TO-IMPROVEMENT",
       "from": "elem-retrospektive001",
