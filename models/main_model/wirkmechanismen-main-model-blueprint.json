@@ -10041,6 +10041,97 @@
         "connection type": "++",
         "description": "Bessere gemeinsame mentale Modelle verbessern die Team-Performance durch schnellere, autonomere und bessere Entscheidungen, reduzierte Rework und höhere Konsistenz der Arbeit."
       }
+    },
+    {
+      "_id": "conn-DAILY-TO-MENTAL-MODELS",
+      "from": "elem-QOBGtWqO",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Daily Standups fördern gemeinsame mentale Modelle durch tägliche Synchronisation von Annahmen, Status-Updates und Blockers, was das Team-Verständnis konsistent hält."
+      }
+    },
+    {
+      "_id": "conn-SPRINT-PLANNING-TO-MENTAL-MODELS",
+      "from": "elem-K1bUPwjJ",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Planungsqualität kodifiziert gemeinsame mentale Modelle, indem Sprint-Ziele, Commitments und zugrundeliegende Annahmen explizit definiert werden."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REFINEMENT-TO-MENTAL-MODELS",
+      "from": "elem-backlogRefinement",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Backlog-Refinement formt gemeinsame mentale Modelle durch kollaborative Diskussion und Klärung von Anforderungen, Annahmen und technischen Lösungsansätzen."
+      }
+    },
+    {
+      "_id": "conn-SB-QUALITY-TO-DAILY",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein hochwertiges Sprint Backlog ermöglicht bessere Dailies durch klare, aktualisierte Task-Definition und explizite Abhängigkeiten, was effektive Synchronisation unterstützt."
+      }
+    },
+    {
+      "_id": "conn-DOD-TO-REVIEW-QUALITY",
+      "from": "elem-uDiTVbXE",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Definition of Done (DoD) verbessert die Code Review Qualität, indem sie als expliziter Maßstab für Reviewer dient und Akzeptanzkriterien kodifiziert."
+      }
+    },
+    {
+      "_id": "conn-SB-TO-TASK-VISIBILITY",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-mzeWXZfS",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein strukturiertes und aktualisiertes Sprint Backlog als zentrales Artefakt verbessert die Transparenz des Aufgabenstatus durch klare Task-Definition, Ownership und Progress-Tracking."
+      }
+    },
+    {
+      "_id": "conn-PB-QUALITY-TO-SPRINT-PLANNING",
+      "from": "elem-productBacklogQuality",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein hochwertiges Product Backlog verbessert die Sprint Planning Qualität, da klare, priorisierte und gut geschnittene Items schnellere und bessere Entscheidungen in der Planung ermöglichen."
+      }
     }
   ]
 }
