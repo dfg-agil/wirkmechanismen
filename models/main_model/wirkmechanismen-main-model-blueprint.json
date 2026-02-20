@@ -3759,6 +3759,25 @@
         "degree": 6,
         "size": 7
       }
+    },
+    {
+      "_id": "elem-dorStartkriterien",
+      "attributes": {
+        "label": "Klarheit über Startkriterien (DoR)",
+        "description": "Definition of Ready (DoR): Klare, verbindliche Kriterien, die ein Item erfüllen muss, bevor es in den Sprint aufgenommen wird. Messbar über DoR-Erfüllungsquote, Anzahl der Items, die DoR erfüllen, und Qualität der Anforderungsdefinition.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Planning",
+          "Backlog Refinement",
+          "Struktur und Zielorientierung"
+        ],
+        "measurability": 1,
+        "influenceability": 1,
+        "indegree": 4,
+        "outdegree": 3,
+        "degree": 7,
+        "size": 8
+      }
     }
   ],
   "connections": [
@@ -9806,6 +9825,97 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Höhere Kompetenz des Product Owners setzt klare Fertigstellungskriterien und Akzeptanzkriterien, indem er die Definition of Done prägt und durchsetzt."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REF-TO-DOR",
+      "from": "elem-backlogRefinement",
+      "to": "elem-dorStartkriterien",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Backlog-Refinement etabliert klare Startkriterien (DoR) durch strukturierte Definition von Anforderungen und Voraussetzungen für Sprint-Ready Items."
+      }
+    },
+    {
+      "_id": "conn-PO-KOMP-TO-DOR",
+      "from": "elem-poKompetenz",
+      "to": "elem-dorStartkriterien",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners setzt klare Startkriterien (DoR) durch strukturierte Anforderungsdefinition und Alignment mit dem Team fest."
+      }
+    },
+    {
+      "_id": "conn-SM-KOMP-TO-DOR",
+      "from": "elem-p5ivPyza",
+      "to": "elem-dorStartkriterien",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Scrum Masters fördert klare Startkriterien (DoR) durch bessere Moderation der Refinement-Sessions und Etablierung von Team-Standards."
+      }
+    },
+    {
+      "_id": "conn-WISSENAUSTAUSCH-TO-DOR",
+      "from": "elem-gdWissAust01",
+      "to": "elem-dorStartkriterien",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch fördert das gemeinsame Verständnis von Startkriterien (DoR) durch transparente Kommunikation der Anforderungen und Voraussetzungen."
+      }
+    },
+    {
+      "_id": "conn-DOR-TO-PB-QUALITY",
+      "from": "elem-dorStartkriterien",
+      "to": "elem-productBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Startkriterien (DoR) verbessern die Qualität des Product Backlogs durch bessere Struktur und durchgängige Erfüllung der Anforderungskriterien."
+      }
+    },
+    {
+      "_id": "conn-DOR-TO-BACKLOG-REF",
+      "from": "elem-dorStartkriterien",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Startkriterien (DoR) strukturieren die Backlog-Refinement-Sessions, indem sie als Maßstab für die Bewertung von Item-Reife dienen."
+      }
+    },
+    {
+      "_id": "conn-DOR-TO-SB-QUALITY",
+      "from": "elem-dorStartkriterien",
+      "to": "elem-sprintBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Startkriterien (DoR) verbessern die Qualität des Sprint Backlogs, da nur Items mit erfüllter DoR in den Sprint aufgenommen werden."
       }
     }
   ]
