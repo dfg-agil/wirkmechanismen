@@ -3818,6 +3818,26 @@
         "degree": 11,
         "size": 12
       }
+    },
+    {
+      "_id": "elem-gradMediaNutzung",
+      "attributes": {
+        "label": "Grad der Mediennutzung",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Media Richness",
+          "Adoption",
+          "Kompetenzaufbau"
+        ],
+        "description": "Häufigkeit und Intensität der Nutzung eines bestimmten Kommunikationsmediums durch das Team innerhalb von Scrum-Events und Routinen (z.B. tägliche Video-Calls für Standups, regelmäßige Board-Tool-Nutzung für Planung, Retrospektiven im virtuellen Raum). Höherer Grad der Mediennutzung führt zu verbesserter Medienkompetenz (Vertrautheit mit Tool, Verbesserung der Nutzungseffektivität) und erhöhter wahrgenommener Medienreichhaltigkeit (Team sieht das Medium als effektiver an). Messbar durch: Adoption-Metriken (How often is the tool used), Logging (Session Duration, Feature Usage, Engagement), Team-Feedback (Zufriedenheit mit Medium). Beeinflussbar durch: Policy-Entscheidungen (wir nutzen Video für Dailies), Kultur und Norm-Setzung, Mandatory-vs-Optional-Regelungen.",
+        "measurability": 0.5,
+        "influenceability": 1,
+        "indegree": 3,
+        "outdegree": 2,
+        "degree": 5,
+        "size": 6
+      }
     }
   ],
   "connections": [
@@ -10229,6 +10249,84 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Kommunikationsmedium-Aufgabe-Passung verbessert die generelle Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
+      }
+    },
+    {
+      "_id": "conn-MEDIENKOMPETENZ-TO-MEDIUM-PASSUNG",
+      "from": "elem-4b82cTxp",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Medienkompetenz ermöglicht bessere Medium-Auswahl und -Nutzung: Teams mit mehr Erfahrung und Vertrautheit mit verschiedenen Tools können die richtige Wahl für die Aufgabenkomplexität treffen und das Medium optimal nutzen."
+      }
+    },
+    {
+      "_id": "conn-STRUKTURELLE-RICHNESS-TO-MEDIUM-PASSUNG",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare reichhaltige Infrastruktur (Face-to-Face Räume, Video-Equipment, Board-Tools, Echtzeit-Kollaborations-Software) ermöglicht bessere Medium-Passung durch Wahlmöglichkeit und Einsetzbarkeit des richtigen Mediums für die Aufgabe."
+      }
+    },
+    {
+      "_id": "conn-WAHRGEN-RICHNESS-TO-MEDIUM-PASSUNG",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team ein Medium als reichhaltig empfindet (subjektive Effektivität durch Erfahrung), nutzt es die verfügbare Medium-Passung effektiver und schöpft das Potenzial des gewählten Mediums aus."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-WAHRGEN-RICHNESS",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "(Bidirektionales Feedback) Bessere Passung erhöht auch die wahrgenommene Medienreichhaltigkeit: Wenn ein Medium wirklich zu einer Aufgabe passt, empfindet das Team das Medium als reicher und effektiver an."
+      }
+    },
+    {
+      "_id": "conn-GRAD-MEDIA-NUTZUNG-TO-MEDIENKOMPETENZ",
+      "from": "elem-gradMediaNutzung",
+      "to": "elem-4b82cTxp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Learning Loop B - Practice Effect: Regelmäßige Nutzung eines Mediums (z.B. tägliche Video-Calls, ständige Board-Tool-Nutzung) erhöht die Medienkompetenz durch Vertrautheit, Routine und Meisterung des Tools. Mit mehr Erfahrung werden Nutzer schneller, effektiver und komfortabler mit dem Medium."
+      }
+    },
+    {
+      "_id": "conn-DAILY-TO-GRAD-MEDIA-NUTZUNG",
+      "from": "elem-QOBGtWqO",
+      "to": "elem-gradMediaNutzung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Learning Loop B - Event Enforcement: Daily Standups (als wiederkehrendes Event) erhöhen den Grad der Mediennutzung, insbesondere für synchrone Formate (Video/F2F). Die Regelmäßigkeit und Stabilität des Events zwingt das Team, das Medium täglich zu praktizieren."
       }
     }
   ]
