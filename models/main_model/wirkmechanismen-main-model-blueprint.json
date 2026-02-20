@@ -3798,6 +3798,26 @@
         "degree": 8,
         "size": 9
       }
+    },
+    {
+      "_id": "elem-kommunikationsMediumPassung",
+      "attributes": {
+        "label": "Kommunikationsmedium-Aufgabe-Passung",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Infrastruktur",
+          "Media Richness",
+          "Event-Effektivität"
+        ],
+        "description": "Grad der Kongruenz zwischen der Komplexität und Mehrdeutigkeit der Kommunikationsaufgabe und der Reichhaltigkeit des eingesetzten Kommunikationsmediums. Basiert auf Media Richness Theorie: Face-to-Face ist reichhaltig (unmittelbares Feedback, mehrere Kanäle, nonverbale Signale), asynchrone Text ist effizient, aber manchmal unzureichend für komplexe, mehrdeutige Aufgaben. Im Scrum-Kontext: Daily braucht synchron/nonverbal, Planning braucht Board-Tools, Retrospektive braucht Vertrauen-Umgebung, Review braucht geteilte Artefakt-Sicht. Messbar über Team-Feedback zu Medium-Eignung, Fehlerquoten in Kommunikation (Missverständnisse), Post-Event-Klarheits-Scores.",
+        "measurability": 0.5,
+        "influenceability": 1,
+        "indegree": 5,
+        "outdegree": 6,
+        "degree": 11,
+        "size": 12
+      }
     }
   ],
   "connections": [
@@ -10131,6 +10151,84 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Ein hochwertiges Product Backlog verbessert die Sprint Planning Qualität, da klare, priorisierte und gut geschnittene Items schnellere und bessere Entscheidungen in der Planung ermöglichen."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-DAILY",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung für Dailies (Face-to-Face oder Video) verbessert die Daily-Qualität durch nonverbale Signale, Sichtbarkeit und synchrones Feedback."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-PLANNING",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung für Planning (synchron + Board-Tools) verbessert die Planungsqualität durch visuelle Strukturierung und kollaborative Arbeit."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-RETROSPEKTIVE",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung für Retrospektiven (Face-to-Face, vertrauensvoller Raum) verbessert die Retro-Qualität durch psychologische Sicherheit und echtes Feedback."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-REVIEW",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung für Reviews (gemeinsame Artefakt-Sicht, synchron) verbessert die Review-Qualität durch Klarheit und reduzierte Missverständnisse."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-REFINEMENT",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung für Backlog Refinement (synchron + Board-Tools + geteilte Dokumente) verbessert die Refinement-Qualität durch Explizitheit und Zusammenarbeit."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-KOMMUNIKATION",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung verbessert die generelle Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
       }
     }
   ]
