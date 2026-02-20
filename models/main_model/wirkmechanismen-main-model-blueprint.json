@@ -447,7 +447,7 @@
         "reach-efficiency": 0.06030603060306031,
         "micmac influence": 0.8242995350611015,
         "micmac exposure": 0.9351918269288337,
-        "measurability": 0.5,
+        "measurability": 1,
         "influenceability": 1
       }
     },
@@ -965,8 +965,8 @@
         "reach-efficiency": 0.07029702970297029,
         "micmac influence": 0.8346285630615506,
         "micmac exposure": 0.8116975053138835,
-        "measurability": 0.5,
-        "influenceability": 0.5
+        "measurability": 1,
+        "influenceability": 1
       }
     },
     {
@@ -2108,6 +2108,8 @@
           "Kommunikation"
         ],
         "description": "Qualität von Reviews (z.B. Code- und Design-Reviews): Klarheit der Kriterien, Tiefe der Analyse, konstruktive Rückmeldungen, Nachverfolgung und Umsetzung von Review-Ergebnissen.",
+        "measurability": 1,
+        "influenceability": 1
         "measurability": 0.5,
         "influenceability": 0.5,
         "indegree": 6,
