@@ -3778,6 +3778,26 @@
         "degree": 7,
         "size": 8
       }
+    },
+    {
+      "_id": "elem-mentalModelle",
+      "attributes": {
+        "label": "Qualität gemeinsamer mentaler Modelle",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Team Learning",
+          "Team Synchronisation",
+          "Shared Understanding",
+          "Selbstorganisation"
+        ],
+        "description": "Grad, in welchem das Team ein korrektes, einheitliches Verständnis über Prozess, Architektur, Anforderungen und gegenseitige Verantwortlichkeiten hat. Teams mit hoher Qualität gemeinsamer mentaler Modelle treffen schnellere, bessere Entscheidungen, brauchen weniger Koordination und können sich selbst organisieren. Messbar über Planning-Poker-Varianz, Retrospektive-Insights zu Missverständnissen und Code-Review-Diskussionen über implizite Annahmen.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 5,
+        "outdegree": 3,
+        "degree": 8,
+        "size": 9
+      }
     }
   ],
   "connections": [
@@ -9916,6 +9936,110 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Klare Startkriterien (DoR) verbessern die Qualität des Sprint Backlogs, da nur Items mit erfüllter DoR in den Sprint aufgenommen werden."
+      }
+    },
+    {
+      "_id": "conn-WISSENAUSTAUSCH-TO-MENTAL-MODELS",
+      "from": "elem-gdWissAust01",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch fördert die Qualität gemeinsamer mentaler Modelle, indem implizite Annahmen explizit gemacht und divergierende Verständnisse angeglichen werden."
+      }
+    },
+    {
+      "_id": "conn-RETRO-TO-MENTAL-MODELS",
+      "from": "elem-retrospektive001",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven fördern die Qualität gemeinsamer mentaler Modelle durch strukturierte Reflexion über Annahmen, Lernprozesse und gegenseitige Verständigung."
+      }
+    },
+    {
+      "_id": "conn-TEAM-PART-TO-MENTAL-MODELS",
+      "from": "elem-1oLVNA94",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Team-Partizipation fördert gemeinsame mentale Modelle, da alle Stimmen gehört werden und ein gemeinsames Verständnis kokreiert wird."
+      }
+    },
+    {
+      "_id": "conn-REVIEW-TO-MENTAL-MODELS",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Code Reviews kodifizieren und verhandeln implizite Annahmen über Architektur, Standards und best practices, was gemeinsame mentale Modelle stärkt."
+      }
+    },
+    {
+      "_id": "conn-CLARITY-RESP-TO-MENTAL-MODELS",
+      "from": "elem-6tHZ4FNz",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Verantwortlichkeiten fördern gemeinsame mentale Modelle über \"wer tut was\", was Koordination vereinfacht und Team-Autonomie erhöht."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELS-TO-TEAM-PART",
+      "from": "elem-mentalModelle",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere gemeinsame mentale Modelle erhöhen die Team-Partizipation, weil Mitglieder sich verstanden fühlen und wissen, dass ihre Beiträge auf gemeinsamen Annahmen basieren."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELS-TO-COORDINATION",
+      "from": "elem-mentalModelle",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere gemeinsame mentale Modelle reduzieren den Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen autonom und konsistent getroffen werden können."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELS-TO-TEAM-PERFORMANCE",
+      "from": "elem-mentalModelle",
+      "to": "elem-AEqctl8J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere gemeinsame mentale Modelle verbessern die Team-Performance durch schnellere, autonomere und bessere Entscheidungen, reduzierte Rework und höhere Konsistenz der Arbeit."
       }
     }
   ]
