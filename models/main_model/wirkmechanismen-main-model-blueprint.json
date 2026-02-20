@@ -10328,6 +10328,58 @@
         "connection type": "++",
         "description": "Learning Loop B - Event Enforcement: Daily Standups (als wiederkehrendes Event) erhöhen den Grad der Mediennutzung, insbesondere für synchrone Formate (Video/F2F). Die Regelmäßigkeit und Stabilität des Events zwingt das Team, das Medium täglich zu praktizieren."
       }
+    },
+    {
+      "_id": "conn-KOMKOMPLEXITAET-TO-MEDIUM-PASSUNG",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "INPUT FACTOR - Task Complexity: Höhere Kommunikationsaufgaben-Komplexität erfordert reichhaltigere Medien. Media Richness Theory zeigt: Einfache Koordination (niedrige Ambiguität, etablierte Prozesse) kommt mit Chat oder Email aus. Komplexe Problemlösung (hohe Mehrdeutigkeit, viele Variablen, schnelle Rückkopplung nötig) erfordert F2F oder Video. Teams müssen ihre Medium-Wahl an die aktuelle Aufgabenkomplexität anpassen."
+      }
+    },
+    {
+      "_id": "conn-AMBIGUITY-TO-MEDIUM-PASSUNG",
+      "from": "elem-1mAqDgJB",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "INPUT FACTOR - Process Ambiguity: Mehrdeutige, unklar formulierte Anforderungen erfordern reichere Medien für schnelle Klärung. Asynchrone Kommunikation (Email, Chat mit Verzögerung) verschärft Ambiguität durch fehlende Rückkopplung und nonverbale Signale. Synchrone, reichhaltige Medien (F2F, Video, synchrone Board-Tools) ermöglichen sofortige Rückfragen, Klärungszyklen und Verständnisbestätigung."
+      }
+    },
+    {
+      "_id": "conn-KOMMUNIKATIONSQUALITAET-TO-MEDIUM-PASSUNG-FEEDBACK",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "FEEDBACK LOOP - Quality Signal: Wenn Kommunikationsqualität niedrig ist (viele Missverständnisse, Fehler, Verzögerungen), signalisiert das dem Team implizit: 'Unser aktuelles Medium passt nicht zu dieser Aufgabe.' Teams passen darauf hin die Medium-Passung an - wechseln zu synchron/F2F (wenn bisher async), nutzen bessere Tools, suchen Konferenzräume. Bessere Passung führt zu höherer Qualität → positive Verstärkung schließt sich."
+      }
+    },
+    {
+      "_id": "conn-WAHRNEHMUNG-MEDIENKOMPETENZ-RÜCKKOPPLUNG",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-4b82cTxp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "COMPETENCE REINFORCEMENT LOOP (bidirectional): Wenn Team ein Medium als reichhaltig und effektiv empfindet (durch erfolgreiche Nutzung, positive Ergebnisse), erhöht das nicht nur die Zufriedenheit, sondern auch die Medienkompetenz - das Team vertieft sich mehr in das Tool, nutzt mehr Features, wird routinierter. Erfolg + Wahrnehmung → Mehr Vertrauen → Mehr Kompetenz (virtuous cycle)."
+      }
     }
   ]
 }
