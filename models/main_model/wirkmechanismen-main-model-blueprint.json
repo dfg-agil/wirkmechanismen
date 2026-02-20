@@ -9794,6 +9794,19 @@
         "connection type": "++",
         "description": "Höhere Kompetenz des Scrum Masters fördert die Qualität der Team-Partizipation durch bessere Moderation und Förderung von Engagement."
       }
+    },
+    {
+      "_id": "conn-PO-TO-DOR-DOD",
+      "from": "elem-poKompetenz",
+      "to": "elem-uDiTVbXE",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kompetenz des Product Owners setzt klare Fertigstellungskriterien und Akzeptanzkriterien, indem er die Definition of Done prägt und durchsetzt."
+      }
     }
   ]
 }
