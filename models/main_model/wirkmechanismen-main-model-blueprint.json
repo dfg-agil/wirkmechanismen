@@ -2109,9 +2109,7 @@
         ],
         "description": "Qualität von Reviews (z.B. Code- und Design-Reviews): Klarheit der Kriterien, Tiefe der Analyse, konstruktive Rückmeldungen, Nachverfolgung und Umsetzung von Review-Ergebnissen.",
         "measurability": 1,
-        "influenceability": 1
-        "measurability": 0.5,
-        "influenceability": 0.5,
+        "influenceability": 1,
         "indegree": 6,
         "outdegree": 5,
         "degree": 11,
