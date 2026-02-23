@@ -3878,6 +3878,28 @@
         "degree": 0,
         "size": 1
       }
+    },
+    {
+      "_id": "elem-artefaktVerfuegbarkeitQualitaet",
+      "attributes": {
+        "label": "Verfügbarkeit und Qualität kommunikativer Artefakte",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Artefakte",
+          "Prototypen",
+          "Boundary Objects",
+          "Visualisierung",
+          "Dokumentation"
+        ],
+        "description": "Grad der Verfügbarkeit und Qualität von Prototypen, Mockups, Boundary Objects, Diagrammen, Skizzen und anderen visuellen/dokumentarischen Artefakten, die der Kommunikation und Mehrdeutigkeitsreduktion dienen. Diese Artefakte ermöglichen eine gemeinsame Referenzbasis, besonders bei asynchroner Kommunikation oder in virtuellen Settings. Messbar über Anzahl und Qualität verfügbarer Artefakte, Aktualität, Zugänglichkeit für relevante Stakeholder. Beeinflussbar durch Prototyping-Kultur, Design-Practices, Dokumentationsprozesse, Tool-Verfügbarkeit.",
+        "measurability": 0.5,
+        "influenceability": 1.0,
+        "indegree": 0,
+        "outdegree": 0,
+        "degree": 0,
+        "size": 1
+      }
     }
   ],
   "connections": [
@@ -8653,19 +8675,7 @@
           "description": "Höheres Erfahrungsniveau unterstützt bessere Aufgabenpriorisierung durch bessere Einschätzung von Risiken, Aufwand und Abhängigkeiten."
         }
       },
-      {
-        "_id": "conn-artefaktNutzung-mehrdeutigkeit",
-        "from": "elem-artefaktNutzung",
-        "to": "elem-reduktionMehrdeutigkeit",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Artefakt-Nutzung reduziert Mehrdeutigkeit durch explizite Dokumentation und Visualisierung."
-        }
-      },
+
       {
         "_id": "conn-raumnaeheTeam-to-medienwahl",
         "from": "elem-raumnaeheTeam",
@@ -8742,6 +8752,71 @@
           "label": "[A]",
           "connection type": "++",
           "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
+        }
+      },
+      {
+        "_id": "conn-artefaktVerfuegbarkeit-to-mehrdeutigkeit",
+        "from": "elem-artefaktVerfuegbarkeitQualitaet",
+        "to": "elem-aufgMehrdeutigkeit",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "--",
+          "description": "Höhere Verfügbarkeit und Qualität kommunikativer Artefakte (Prototypen, MockUps, Boundary Objects, Diagramme) reduziert die Mehrdeutigkeit von Aufgaben durch explizite Visualisierung und gemeinsame Referenzbasis."
+        }
+      },
+      {
+        "_id": "conn-artefaktVerfuegbarkeit-to-kommqual",
+        "from": "elem-artefaktVerfuegbarkeitQualitaet",
+        "to": "elem-bh4G3Yqp",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Hochwertige Artefakte verbessern die Kommunikationsqualität, da visuelle und dokumentarische Artefakte Missverständnisse reduzieren und asynchrone Kommunikation ermöglichen."
+        }
+      },
+      {
+        "_id": "conn-artefaktVerfuegbarkeit-to-media-richness",
+        "from": "elem-artefaktVerfuegbarkeitQualitaet",
+        "to": "elem-wahrgenommeneMediaRichness",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Verfügbarkeit hochwertiger Artefakte erhöht die wahrgenommene Medienreichhaltigkeit, besonders bei asynchroner Kommunikation und virtuellen Settings."
+        }
+      },
+      {
+        "_id": "conn-artefaktVerfuegbarkeit-to-review",
+        "from": "elem-artefaktVerfuegbarkeitQualitaet",
+        "to": "elem-reviewQualitaet",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Hochwertige und verfügbare Artefakte ermöglichen tiefere und konstruktivere Reviews durch klare Basis für Feedback."
+        }
+      },
+      {
+        "_id": "conn-artefaktVerfuegbarkeit-to-teamverstaendnis",
+        "from": "elem-artefaktVerfuegbarkeitQualitaet",
+        "to": "elem-VombH8FP",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Gemeinsame und hochwertige Artefakte fördern die Konvergenz des Teamverständnisses durch explizite Visualisierung von konzeptualen Modellen, Designs und Anforderungen."
         }
       },
     {

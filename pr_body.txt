@@ -1,0 +1,14 @@
+## Summary
+Korrigiert fehlerhafte Zuordnungen und Vorzeichen im Media-Richness/Kommunikations-Block des Main-Models.
+
+## Key changes
+- Beschreibungen in mehreren Verbindungen im Media-Richness-Block neu zugeordnet, damit sie wieder zur jeweiligen Kante passen.
+- Vorzeichen (`connection type`) an die tatsächliche Wirkungsrichtung angepasst (z.B. reduzierte Ambiguität, reduzierte Koordination, gesteigerte Qualität).
+- `conn-kommModus-feedQual` bereinigt (nur noch Feedback-Modus-Bezug).
+- JSON-Syntaxfehler in `conn-split-001` und `conn-split-002` behoben (fehlende Kommata).
+
+## Scope
+- Datei: models/main_model/wirkmechanismen-main-model-blueprint.json
+
+## Validation
+- JSON-Parsefehler beseitigt (fehlende Kommata).
