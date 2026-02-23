@@ -8654,19 +8654,6 @@
         }
       },
       {
-        "_id": "conn-artefaktNutzung-mehrdeutigkeit",
-        "from": "elem-artefaktNutzung",
-        "to": "elem-reduktionMehrdeutigkeit",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Artefakt-Nutzung reduziert Mehrdeutigkeit durch explizite Dokumentation und Visualisierung."
-        }
-      },
-      {
         "_id": "conn-raumnaeheTeam-to-medienwahl",
         "from": "elem-raumnaeheTeam",
         "to": "elem-medienwahlStrategie",
