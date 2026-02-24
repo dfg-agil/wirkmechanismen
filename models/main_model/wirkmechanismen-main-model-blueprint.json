@@ -3913,6 +3913,21 @@
         "degree": 7,
         "size": 8
       }
+    },
+    {
+      "_id": "elem-artefaktAufgabePassung",
+      "attributes": {
+        "label": "Artefakt-Aufgabe-Passung",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Artefakte",
+          "Kommunikation",
+          "Media Richness"
+        ],
+        "description": "Passung zwischen dem Reifegrad und der Reichhaltigkeit des Artefakts und der Komplexität sowie Mehrdeutigkeit der Kommunikationsaufgabe. Analog zur Media Richness Theory für Medien: Aufgaben mit hoher Komplexität und Mehrdeutigkeit erfordern reichhaltigere, detailliertere Artefakte (detaillierte Prototypen, vollständige Mockups, umfassende Spezifikationen), während einfache, vorwiegend koordinative Aufgaben mit skizzenhaften oder minimalen Artefakten ausreichen. Messbar über Alignment zwischen Artefakt-Detaigrad und übertragene Aufgabenkomplexität, Team-Feedback zur Artefakt-Angemessenheit. Beeinflussbar durch explizite Conversations über erforderlichen Detailgrad, Priorisierung von Refinement, Tool-Wahl für Artefakt-Erstellung.",
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
     }
   ],
   "connections": [
@@ -10727,6 +10742,71 @@
         "label": "[E]",
         "connection type": "++",
         "description": "Explizite Reflexion über Medienwirksamkeit führt zu besserer Kommunikationsmedium-Aufgabe-Passung durch dokumentierte Erkenntnisse, konkrete Action-Items und bewusste Medium-Anpassungen in zukünftigen Events."
+      }
+    },
+    {
+      "_id": "conn-REIFEGRAD-TO-ARTEFAKT-AUFGABE-PASSUNG",
+      "from": "elem-reifeGradArtefakt",
+      "to": "elem-artefaktAufgabePassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer Reifegrad des Artefakts (mehr Details, Vollständigkeit, Klarheit) ermöglicht bessere Artefakt-Aufgabe-Passung durch reichhaltigere Informationsvermittlung und explicitere Representation von komplexen Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-MEHRDEUTIGKEIT-TO-ARTEFAKT-PASSUNG",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-artefaktAufgabePassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Mehrdeutigkeit der Aufgabe erfordert reichhaltigere, detailliertere Artefakte und damit bessere Artefakt-Aufgabe-Passung. Mehrdeutige Anforderungen brauchen explizite Visualisierung, Prototypen oder detaillierte Spezifikationen zur Klärung."
+      }
+    },
+    {
+      "_id": "conn-SYSTEMKOMPLEXITAET-TO-ARTEFAKT-PASSUNG",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-artefaktAufgabePassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Systemkomplexität erfordert reichhaltigere Artefakte (detaillierte Architektur-Diagramme, Prototypen, umfassende Spezifikationen) für effektive Kommunikation und Verständigung. Komplexe Systeme können nicht mit minimalen Sketches verstanden werden."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-PASSUNG-TO-REVIEW",
+      "from": "elem-artefaktAufgabePassung",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Artefakt-Aufgabe-Passung (richtige Menge und Form von Details für die Aufgabenkomplexität) verbessert die Review-Qualität durch Klarheit, Vollständigkeit und bessere gemeinsame Verständnisbasis zwischen Reviewer und Autor."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-PASSUNG-TO-KOMMUNIKATION",
+      "from": "elem-artefaktAufgabePassung",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
       }
     }
   ]
