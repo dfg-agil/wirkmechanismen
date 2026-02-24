@@ -10861,6 +10861,19 @@
         "connection type": "+-",
         "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt."
       }
+    },
+    {
+      "_id": "conn-RETRO-TO-IMPLICIT-KNOWLEDGE",
+      "from": "elem-retrospektive001",
+      "to": "elem-E4veLPLX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven fördern den impliziten Wissensstand der Entwickler durch strukturierte Reflexion von Fehlern, erfolgreichen Mustern und Lernpunkten. Die gemeinsame Diskussion über 'Warum hat das funktioniert/nicht funktioniert?' macht implizites Erfahrungswissen der Beteiligten explizit und nachhaltig für das Team."
+      }
     }
   ]
 }
