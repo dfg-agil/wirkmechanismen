@@ -10725,6 +10725,32 @@
         "connection type": "++",
         "description": "Hohes Engagement der Teammitglieder führt zu intensiverer Nutzung verfügbarer Kommunikationsmedien: Engaged Teams nehmen aktiver an synchronen Events teil, nutzen Channels konsequenter und investieren in reichhaltige Medienformate."
       }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-MEDIUM-PASSUNG",
+      "from": "elem-retrospektive001",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven fördern explizite Reflexion über die Wirksamkeit der eingesetzten Kommunikationsmedien und leiten konkrete Anpassungen der Medium-Passung ein. Teams identifizieren in der Retrospektive, welche Medien für welche Aufgaben gut funktioniert haben und passen ihre Medienwahl entsprechend an."
+      }
+    },
+    {
+      "_id": "conn-MEDIA-AVAILABILITY-TO-MEDIUM-PASSUNG",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Verfügbarkeit reichhaltiger Kommunikationsmedien ermöglicht bessere Realisierung der optimalen Medium-Passung durch mehr Optionen und Flexibilität. Teams mit Zugang zu Video, Whiteboard-Tools und reichhaltigen Synchronisations-Kanälen können ihre Medium-Passung-Strategie besser an Aufgabenkomplexität anpassen."
+      }
     }
   ]
 }
