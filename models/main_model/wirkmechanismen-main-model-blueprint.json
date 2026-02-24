@@ -2870,10 +2870,29 @@
         "micmac exposure": 0,
         "measurability": 1.0,
         "influenceability": 0.5,
-        "indegree": 1,
-        "outdegree": 1,
-        "degree": 2,
-        "size": 3
+        "indegree": 2,
+        "outdegree": 2,
+        "degree": 4,
+        "size": 5
+      }
+    },
+    {
+      "_id": "elem-psychSicherheit",
+      "attributes": {
+        "label": "Psychologische Sicherheit im Team",
+        "description": "Grad, in welchem Teammitglieder das Vertrauen haben, interpersonale Risiken einzugehen, z.B. Fragen stellen, Fehler eingestehen, abweichende Meinungen äußern, ohne Angst vor negativen Konsequenzen. Psychologische Sicherheit entsteht durch Fehlerakzeptanz, konstruktive Konfliktkultur und gegenseitiges Vertrauen. Sie ermöglicht offene Kommunikation, ehrliches Feedback und kontinuierliches Lernen im Team. Messbar über Retrospektive-Feedback, Fehler-Reporting-Raten, Beteiligung in Diskussionen über schwierige Themen.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Team-Partizipation",
+          "Teamdynamik",
+          "Kommunikation"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 3,
+        "outdegree": 3,
+        "degree": 6,
+        "size": 7
       }
     },
     {
@@ -10807,6 +10826,175 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
+      }
+    },
+    {
+      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
+      "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
+      }
+    },
+    {
+      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
+      "from": "elem-bewusstseinMismatch",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnissen führt."
+      }
+    },
+    {
+      "_id": "conn-ZEITDRUCK-TO-BEWUSSTSEIN",
+      "from": "elem-niveauZeitdruck",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hoher Zeitdruck reduziert das Bewusstsein für Medium-Aufgabe-Mismatches. Unter Zeit- und Ressourcendruck fokussieren Teams auf kurzfristige Lösungen und vernachlässigen reflektive Aktivitäten, weshalb Probleme mit der Medienwahl übersehen werden."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-BEWUSSTSEIN",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine starke Fehlerakzeptanz-Kultur im Team fördert das Bewusstsein für Medium-Mismatches. Teams mit höherer psychologischer Sicherheit teilen offener mit, wenn ein Medium nicht funktioniert, und diskutieren Probleme aktiv statt sie zu ignorieren."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-PSYCH-SICHERHEIT",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-psychSicherheit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Fehlerakzeptanz im Teamumfeld fördert psychologische Sicherheit, weil Fehler als Lernchance statt als Versagen gesehen werden und das Risiko der Schambeladung sinkt."
+      }
+    },
+    {
+      "_id": "conn-KONFLIKTKULTUR-TO-PSYCH-SICHERHEIT",
+      "from": "elem-umR71vJA",
+      "to": "elem-psychSicherheit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine konstruktive Konfliktkultur mit Mechanismen zur zeitnahen Klärung und Auflösung erhöht psychologische Sicherheit, da Spannungen nicht unterschwellig wirken und das Team offen über Differenzen sprechen kann."
+      }
+    },
+    {
+      "_id": "conn-VERTRAUEN-TO-PSYCH-SICHERHEIT",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-psychSicherheit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Vertrauen in Beziehungen zwischen Teammitgliedern ist die Grundlage für psychologische Sicherheit. Wenn Menschen sich gegenseitig zutrauen, gute Absichten zu haben, sinkt die Angst vor interpersonalen Risiken."
+      }
+    },
+    {
+      "_id": "conn-PSYCH-SICHERHEIT-TO-KOMMUNIKATION",
+      "from": "elem-psychSicherheit",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit verbessert die Kommunikationsqualität, weil Teammitglieder offener Unsicherheiten äußern, komplexe Themen ehrlich diskutieren und Missverständnisse schneller aufdecken können ohne Angst vor Konsequenzen."
+      }
+    },
+    {
+      "_id": "conn-PSYCH-SICHERHEIT-TO-RETRO",
+      "from": "elem-psychSicherheit",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit ist Voraussetzung für hochwertige Retrospektiven. Teams mit hoher psychologischer Sicherheit sprechen schwierige Themen an, geben sich ehrliches Feedback und erkennen Verbesserungsmöglichkeiten, die kritisch sein können."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELLE-TO-BOUNDARY-SPANNER",
+      "from": "elem-mentalModelle",
+      "to": "elem-boundarySpannerNeed",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Schlechte Qualität gemeinsamer mentaler Modelle über Team-Grenzen erhöht die Notwendigkeit von Boundary Spanning, weil mehr Übersetzungs- und Koordinationsaufwand nötig ist, um Missverständnisse zu klären. Gute Qualität reduziert diesen Bedarf."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELLE-TO-BOUNDARY-OBJECT",
+      "from": "elem-mentalModelle",
+      "to": "elem-Siz8fExz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Schlechte Qualität gemeinsamer mentaler Modelle führt zu höherem Bedarf an expliziten Boundary Objects (z.B. API-Spezifikationen, Schnittstellenkontrakte, formale Artefakte), um Missverständnisse zwischen Teams zu vermeiden. Gute Modelle reduzieren diesen Bedarf."
+      }
+    },
+    {
+      "_id": "conn-STRUKTUR-MEDIA-RICHNESS-TO-FEEDBACK",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturell reichhaltigere Medien (mit mehr Cues, schnellerem Feedback, höherer Anpassbarkeit) ermöglichen qualitativ besseres Feedback. Face-to-Face und Video ermöglichen Echtzeit-Feedback mit nonverbalen Signalen und sofortiger Klärung, während asynchrone Text-Medien verzögertes, weniger reichhaltiges Feedback geben."
+      }
+    },
+    {
+      "_id": "conn-WAHRGENOMMENE-MEDIA-RICHNESS-TO-FEEDBACK",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn Team-Mitglieder ein Medium als reichhaltig und vertraut wahrnehmen (hohe wahrgenommene Richness), geben sie besseres, tiefergehendes Feedback, weil sie dem Medium zutrauen, Nuancen zu transportieren. Geringe wahrgenommene Richness führt zu oberflächlichem Feedback und Missverständnis-Vermeidung (communication avoidance)."
       }
     }
   ]
