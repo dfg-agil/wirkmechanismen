@@ -3928,6 +3928,21 @@
         "measurability": 0.5,
         "influenceability": 1.0
       }
+    },
+    {
+      "_id": "elem-akzeptanzMedium",
+      "attributes": {
+        "label": "Akzeptanz des gewählten Mediums durch Team",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Medienwahl",
+          "Team-Verhalten"
+        ],
+        "description": "Der Grad, in dem das Team das gewählte Kommunikationsmedium akzeptiert, nutzt und sich damit identifiziert. Akzeptanz ist essentiell für die tatsächliche Nutzung und Wirksamkeit eines Mediums. Ein Medium mit hoher theoretischer Reichhaltigkeit kann unwirksam sein, wenn das Team es ablehnt oder ungern nutzt. Messbar über Nutzungshäufigkeit, User-Engagement-Metriken, Team-Feedback zur Medium-Akzeptanz. Beeinflussbar durch Team-Kompetenz, Gewöhnung, positive Erfahrungen im Einsatz, Kultur und Unterstützung durch Leadership.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -10807,6 +10822,32 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
+      }
+    },
+    {
+      "_id": "conn-MEDIENKOMPETENZ-TO-AKZEPTANZ",
+      "from": "elem-4b82cTxp",
+      "to": "elem-akzeptanzMedium",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Medienkompetenz des Teams erhöht die Akzeptanz des gewählten Mediums. Teams mit besseren Fähigkeiten und Erfahrung mit verschiedenen Kommunikationsmitteln haben weniger Resistenz gegen neue oder unbekannte Medien und können diese effektiver nutzen."
+      }
+    },
+    {
+      "_id": "conn-AKZEPTANZ-TO-REFLEXION",
+      "from": "elem-akzeptanzMedium",
+      "to": "elem-reflexionMedianwirksamkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team das gewählte Medium akzeptiert und aktiv nutzt, entstehen mehr Erfahrungen und Daten für Reflexion über die Wirksamkeit des Mediums. Höhere Akzeptanz führt zu stärkerem Engagement und somit zu besseren Einsichten beim Reflektieren über Medium-Passung."
       }
     }
   ]
