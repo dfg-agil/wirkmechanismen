@@ -1153,6 +1153,25 @@
       }
     },
     {
+      "_id": "elem-informelleRoutinen",
+      "attributes": {
+        "label": "Verfügbarkeit informeller Routinen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Teamdynamik",
+          "Kommunikation",
+          "Kultur"
+        ],
+        "description": "Vorhandensein und Zugänglichkeit von etablierten, wiederkehrenden informellen Interaktionsmöglichkeiten im Teamalltag (z.B. Kaffeepausen, gemeinsame Mittagessen, Stehtisch-Chats, Gemeinschaftsräume). Unterscheidet sich von Häufigkeit informeller Begegnungen durch den Fokus auf die Infrastruktur/Kultur, die diese ermöglicht. Messbar über: Verfügbarkeit von Gemeinschaftsräumen, Angebot informeller Time-Slots, Team-Feedback zu Gelegenheitsstrukturen.",
+        "measurability": 0.5,
+        "influenceability": 1,
+        "indegree": 2,
+        "outdegree": 2,
+        "degree": 4,
+        "size": 5
+      }
+    },
+    {
       "_id": "elem-boundarySpannerNeed",
       "attributes": {
         "label": "Notwendigkeit eines Boundary Spanners",
@@ -9474,6 +9493,58 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Informelle Begegnungen fördern die Konvergenz des Teamverständnisses."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFORMAL-ROUTINES",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-informelleRoutinen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe ermöglicht die Etablierung informeller Routinen."
+      }
+    },
+    {
+      "_id": "conn-WORKLOAD-TO-INFORMAL-ROUTINES",
+      "from": "elem-34Kwzpr1",
+      "to": "elem-informelleRoutinen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hohe Workload reduziert die Möglichkeit, informelle Routinen zu etablieren."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-ROUTINES-TO-FREQ-ENCOUNTERS",
+      "from": "elem-informelleRoutinen",
+      "to": "elem-informelleBegegnungen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare informelle Routinen erhöhen die Häufigkeit informeller Begegnungen."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-ROUTINES-TO-FAMILIARITY",
+      "from": "elem-informelleRoutinen",
+      "to": "elem-vertrautheitTeam",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Etablierte informelle Routinen fördern Vertrautheit durch kontinuierliche, niedrigschwellige Interaktionen."
       }
     },
     {
