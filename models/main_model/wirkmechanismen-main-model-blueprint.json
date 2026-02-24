@@ -3966,6 +3966,25 @@
         "measurability": 0.5,
         "influenceability": 1.0
       }
+    },
+    {
+      "_id": "elem-kollabArtefaktInfra",
+      "attributes": {
+        "label": "Verfügbarkeit kollaborativer Artefakt-Infrastruktur",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Artefakte",
+          "Kommunikation",
+          "Infrastruktur"
+        ],
+        "description": "Vorhandensein und Zugänglichkeit von Tools und Räumen für gemeinsame Artefakt-Erstellung und -Nutzung (Whiteboards, Skizzen-Tools, Visualisierungs-Software, Prototyping-Tools, geteilte Workspaces, kollaborative Design-Plattformen). Unterscheidet sich von Artefakt-Qualität/-Reifegrad durch Fokus auf Infrastruktur-Verfügbarkeit. Messbar über: Anzahl verfügbarer Tools/Räume, Accessibility, Lizenz-Verfügbarkeit, Team-Feedback zur Tool-Abdeckung. Beeinflussbar durch: Budget-Allocation, Procurement-Entscheidungen, Workspace-Design.",
+        "measurability": 1,
+        "influenceability": 1,
+        "indegree": 1,
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
+      }
     }
   ],
   "connections": [
@@ -10910,6 +10929,45 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
+      }
+    },
+    {
+      "_id": "conn-COLLAB-WORKSPACE-TO-ARTEFAKT-INFRA",
+      "from": "elem-ldnDdueE",
+      "to": "elem-kollabArtefaktInfra",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine hochwertige kollaborative Arbeitsumgebung beinhaltet verfügbare Artefakt-Tools und Visualisierungsmöglichkeiten (Whiteboards, gemeinsame Workspaces)."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-INFRA-TO-KOMMUNIKATION",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kollaborative Artefakt-Tools verbessern die Kommunikation durch geteilte Visualisierungen und gemeinsame Referenzpunkte."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-INFRA-TO-TEAM-UNDERSTANDING",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsame Artefakt-Erstellung fördert Alignment und geteilte mentale Modelle zwischen Teammitgliedern."
       }
     },
     {
