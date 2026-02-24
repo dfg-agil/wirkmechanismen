@@ -10686,6 +10686,19 @@
         "connection type": "--",
         "description": "Ein höherer Reifegrad des Artefakts reduziert die Mehrdeutigkeit der Aufgabe durch explizite Visualisierung, detaillierte Spezifikation und Klärung von unklar Anforderungen."
       }
+    },
+    {
+      "_id": "conn-ERFAHRUNGSWISSEN-TO-MEDIUM-PASSUNG",
+      "from": "elem-hHvH3JMB",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Ausmaß der Nutzung von Erfahrungswissen ermöglicht bessere Medium-Aufgabe-Passung: Erfahrene Teams wissen, welches Kommunikationsmedium für welche Aufgabentypen am effektivsten ist."
+      }
     }
   ]
 }
