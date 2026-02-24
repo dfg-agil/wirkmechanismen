@@ -3773,7 +3773,11 @@
         ],
         "description": "Explizite und systematische Reflexion während Retrospektiven darüber, wie wirksam die eingesetzten Kommunikationsmedien und -kanäle waren. Umfasst: Diskussionen über 'Was hat gut/nicht gut funktioniert bei unserer Kommunikation?', explizites Feedback zu Medium-Eignung pro Event/Aufgabe, Ableitung von Änderungen in der Medienwahl (z.B. 'Video für Daily', 'Whiteboard für Planning'). Messbar über: Häufigkeit von Medien-/Kommunikations-Diskussionen in Retro-Agendas, Dokumentierte Medium-Feedback und daraus resultierende Action-Items, Retro-Protokolle. Beeinflussbar durch: Moderations-Training zur gezielten Reflexion, explizite Agenda-Punkte ('Kommunikation Assessment'), psychologische Sicherheit.",
         "measurability": 0.5,
-        "influenceability": 1.0
+        "influenceability": 1.0,
+        "indegree": 1,
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
       }
     },
     {
@@ -3926,7 +3930,11 @@
         ],
         "description": "Passung zwischen dem Reifegrad und der Reichhaltigkeit des Artefakts und der Komplexität sowie Mehrdeutigkeit der Kommunikationsaufgabe. Analog zur Media Richness Theory für Medien: Aufgaben mit hoher Komplexität und Mehrdeutigkeit erfordern reichhaltigere, detailliertere Artefakte (detaillierte Prototypen, vollständige Mockups, umfassende Spezifikationen), während einfache, vorwiegend koordinative Aufgaben mit skizzenhaften oder minimalen Artefakten ausreichen. Messbar über Alignment zwischen Artefakt-Detaigrad und übertragene Aufgabenkomplexität, Team-Feedback zur Artefakt-Angemessenheit. Beeinflussbar durch explizite Conversations über erforderlichen Detailgrad, Priorisierung von Refinement, Tool-Wahl für Artefakt-Erstellung.",
         "measurability": 0.5,
-        "influenceability": 1.0
+        "influenceability": 1.0,
+        "indegree": 3,
+        "outdegree": 2,
+        "degree": 5,
+        "size": 6
       }
     }
   ],
