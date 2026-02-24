@@ -3761,6 +3761,22 @@
       }
     },
     {
+      "_id": "elem-reflexionMedianwirksamkeit",
+      "attributes": {
+        "label": "Reflexion der Medienwirksamkeit",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Retrospektive",
+          "Kommunikation",
+          "Kontinuierliche Verbesserung",
+          "Media Richness"
+        ],
+        "description": "Explizite und systematische Reflexion während Retrospektiven darüber, wie wirksam die eingesetzten Kommunikationsmedien und -kanäle waren. Umfasst: Diskussionen über 'Was hat gut/nicht gut funktioniert bei unserer Kommunikation?', explizites Feedback zu Medium-Eignung pro Event/Aufgabe, Ableitung von Änderungen in der Medienwahl (z.B. 'Video für Daily', 'Whiteboard für Planning'). Messbar über: Häufigkeit von Medien-/Kommunikations-Diskussionen in Retro-Agendas, Dokumentierte Medium-Feedback und daraus resultierende Action-Items, Retro-Protokolle. Beeinflussbar durch: Moderations-Training zur gezielten Reflexion, explizite Agenda-Punkte ('Kommunikation Assessment'), psychologische Sicherheit.",
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
+    },
+    {
       "_id": "elem-dorStartkriterien",
       "attributes": {
         "label": "Klarheit über Startkriterien (DoR)",
@@ -10685,6 +10701,32 @@
         "label": "[A]",
         "connection type": "--",
         "description": "Ein höherer Reifegrad des Artefakts reduziert die Mehrdeutigkeit der Aufgabe durch explizite Visualisierung, detaillierte Spezifikation und Klärung von unklar Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-REFLECTION-MEDIA-EFFECTIVENESS",
+      "from": "elem-retrospektive001",
+      "to": "elem-reflexionMedianwirksamkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven schaffen den Raum und die Struktur für explizite Reflexion über Kommunikationsmedien-Effektivität. Gute Retros ermöglichen tiefere Diskussionen über 'Was funktioniert/funktioniert nicht bei unserer Medienwahl?'"
+      }
+    },
+    {
+      "_id": "conn-REFLECTION-MEDIA-EFFECTIVENESS-TO-MEDIUM-PASSUNG",
+      "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Explizite Reflexion über Medienwirksamkeit führt zu besserer Kommunikationsmedium-Aufgabe-Passung durch dokumentierte Erkenntnisse, konkrete Action-Items und bewusste Medium-Anpassungen in zukünftigen Events."
       }
     }
   ]
