@@ -3928,6 +3928,37 @@
         "measurability": 0.5,
         "influenceability": 1.0
       }
+    },
+    {
+      "_id": "elem-akzeptanzMedium",
+      "attributes": {
+        "label": "Akzeptanz des gewählten Mediums durch Team",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Medienwahl",
+          "Team-Verhalten"
+        ],
+        "description": "Der Grad, in dem das Team das gewählte Kommunikationsmedium akzeptiert, nutzt und sich damit identifiziert. Akzeptanz ist essentiell für die tatsächliche Nutzung und Wirksamkeit eines Mediums. Ein Medium mit hoher theoretischer Reichhaltigkeit kann unwirksam sein, wenn das Team es ablehnt oder ungern nutzt. Messbar über Nutzungshäufigkeit, User-Engagement-Metriken, Team-Feedback zur Medium-Akzeptanz. Beeinflussbar durch Team-Kompetenz, Gewöhnung, positive Erfahrungen im Einsatz, Kultur und Unterstützung durch Leadership.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-bewusstseinMismatch",
+      "attributes": {
+        "label": "Bewusstsein für Mismatch zwischen Aufgabe und Medium",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Reflexion",
+          "Medienwahl",
+          "Feedback",
+          "Verbesserung"
+        ],
+        "description": "Der Grad, in dem Teamitglieder aktiv wahrnehmen und articulate, ob das gewählte Medium adäquat für die aktuelle Kommunikationsaufgabe ist – oder nicht. Bewusstsein für Mismatches ermöglicht korrigierende Maßnahmen und kontinuierliche Verbesserung. Wenn Teams nicht bemerken, dass ein Medium nicht passt, können sie ihre Medienwahl nicht anpassen. Dies wird oft durch Reflexion in Retrospektiven, Feedback-Prozessen und Fehlerdiskussionen gefördert. Messbar über Häufigkeit von Mismatch-Erkenntnissen, Qualität von Reflexions-Outputs. Beeinflussbar durch strukturierte Reflexion, Retrospektiven-Qualität, psychologische Sicherheit für Feedback, Error-Awareness-Kultur.",
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
     }
   ],
   "connections": [
@@ -10807,6 +10838,71 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
+      }
+    },
+    {
+      "_id": "conn-MEDIENKOMPETENZ-TO-AKZEPTANZ",
+      "from": "elem-4b82cTxp",
+      "to": "elem-akzeptanzMedium",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Medienkompetenz des Teams erhöht die Akzeptanz des gewählten Mediums. Teams mit besseren Fähigkeiten und Erfahrung mit verschiedenen Kommunikationsmitteln haben weniger Resistenz gegen neue oder unbekannte Medien und können diese effektiver nutzen."
+      }
+    },
+    {
+      "_id": "conn-AKZEPTANZ-TO-REFLEXION",
+      "from": "elem-akzeptanzMedium",
+      "to": "elem-reflexionMedianwirksamkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team das gewählte Medium akzeptiert und aktiv nutzt, entstehen mehr Erfahrungen und Daten für Reflexion über die Wirksamkeit des Mediums. Höhere Akzeptanz führt zu stärkerem Engagement und somit zu besseren Einsichten beim Reflektieren über Medium-Passung."
+      }
+    },
+    {
+      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
+      "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
+      }
+    },
+    {
+      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
+      "from": "elem-bewusstseinMismatch",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnisse führt."
+      }
+    },
+    {
+      "_id": "conn-BEWUSSTSEIN-TO-MEDIUM-PASSUNG",
+      "from": "elem-bewusstseinMismatch",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bewusstsein für Mismatches ermöglicht gezielte Verbesserungen der Medienauswahl. Teams, die Probleme mit ihrer Medienwahl erkennen, können bewusster und gezielter bessere Medien für zukünftige Kommunikationsaufgaben wählen, was zu besserer Passung führt."
       }
     }
   ]
