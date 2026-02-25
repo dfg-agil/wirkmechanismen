@@ -8568,6 +8568,45 @@
         "description": "Höhere Medienkompetenz erhöht die wahrgenommene Medienreichhaltigkeit durch effizientere Nutzung."
       }
     },
+      {
+        "_id": "conn-komKomplexitaet-wahrMedRichness",
+        "from": "elem-komKomplexitaet",
+        "to": "elem-wahrgenommeneMediaRichness",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
+        }
+      },
+      {
+        "_id": "conn-erfahrung-medienwahl-strategie",
+        "from": "elem-Erfahrungsniveau",
+        "to": "elem-medienwahlStrategie",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Erfahrung und implizites Wissen beeinflussen die Medienwahl und Kommunikationsstrategie durch bessere Einschätzung der Situation."
+        }
+      },
+      {
+        "_id": "conn-artefaktNutzung-mehrdeutigkeit",
+        "from": "elem-artefaktNutzung",
+        "to": "elem-reduktionMehrdeutigkeit",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Artefakt-Nutzung reduziert Mehrdeutigkeit durch explizite Dokumentation und Visualisierung."
+        }
+      },
     {
       "_id": "conn-RETROSPECTIVE-TO-IMPROVEMENT",
       "from": "elem-retrospektive001",
