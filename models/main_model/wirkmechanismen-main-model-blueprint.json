@@ -137,10 +137,10 @@
         "description": "System dann komplex, wenn z.B. seine Elemente und/oder Beziehungen nicht mehr vollständig erfassbar bzw. verstehbar sind (keine vollständige Beschreibung der Struktur und des Verhaltens des Systems möglich). -> z.B. beim emergenten Verhalten\n\n\n\nEvtl. Reduktion durch Etappenbasierte Zielzerlegung?",
         "closeness": 0.3621666666666667,
         "metrics::last": 0.9870619624638166,
-        "degree": 18,
-        "size": 19,
+        "degree": 19,
+        "size": 20,
         "indegree": 8,
-        "outdegree": 10,
+        "outdegree": 11,
         "betweenness": 0.0903997494103156,
         "eigenvector": 0.03226843832188821,
         "reach": 0.25742574257425743,
@@ -189,10 +189,10 @@
         "description": "Beispiele:\n- Anwendung/Nutzung welcher Methoden/Werkzeuge zur (technischen) Realisierbarkeit der Anforderungen gemäß den Akzeptanzkriterien-\n- Welche Kommunikations- und Koordinationsprozesse im Team sind nötig (z.B. Dailys)\n- Zeitliche Rahmenbedingungen und Iterationszyklen",
         "closeness": 0.3216666666666664,
         "metrics::last": 0.8395856653198618,
-        "degree": 18,
-        "size": 19,
+        "degree": 19,
+        "size": 20,
         "indegree": 9,
-        "outdegree": 9,
+        "outdegree": 10,
         "betweenness": 0.01684235209235209,
         "eigenvector": 0.01729435417197838,
         "reach": 0.13861386138613863,
@@ -214,10 +214,10 @@
         "description": "Team Partizipation: Aktive beteiligen und Engagement des Teams.",
         "closeness": 0.3575,
         "metrics::last": 0.6790810682586852,
-        "degree": 18,
-        "size": 19,
-        "indegree": 10,
-        "outdegree": 8,
+        "degree": 20,
+        "size": 21,
+        "indegree": 11,
+        "outdegree": 9,
         "betweenness": 0.06300318167124387,
         "eigenvector": 0.010148676162080853,
         "reach": 0.22772277227722773,
@@ -318,10 +318,10 @@
         "description": "= Umgang mit digitalen Medien",
         "closeness": 0.21992857142857136,
         "metrics::last": 0.8160049503978034,
-        "degree": 4,
-        "size": 5,
-        "indegree": 3,
-        "outdegree": 1,
+        "degree": 7,
+        "size": 8,
+        "indegree": 5,
+        "outdegree": 2,
         "betweenness": 0.0018350168350168348,
         "eigenvector": 0.002549503497441467,
         "reach": 0.039603960396039604,
@@ -391,10 +391,10 @@
         "description": "= Klare Rollenverteilung",
         "closeness": 0.01,
         "metrics::last": 0.8830036809263201,
-        "degree": 10,
-        "size": 11,
+        "degree": 11,
+        "size": 12,
         "indegree": 5,
-        "outdegree": 5,
+        "outdegree": 6,
         "betweenness": 0,
         "eigenvector": 0.002806812667520127,
         "reach": 0.019801980198019802,
@@ -413,10 +413,10 @@
         "description": "Hindernisse: Systematische Ermittlung und effektive Beseitigung von Hindernissen.\n\nund \n\nAbhängigkeiten: Förderung der Ermittlung und Lösung von Abhängigkeiten.",
         "closeness": 0.37066666666666664,
         "metrics::last": 0.7417492173396959,
-        "degree": 24,
-        "size": 25,
-        "indegree": 8,
-        "outdegree": 16,
+        "degree": 26,
+        "size": 27,
+        "indegree": 9,
+        "outdegree": 17,
         "betweenness": 0.09467588584255247,
         "eigenvector": 0.03182159524718312,
         "reach": 0.25742574257425743,
@@ -594,10 +594,10 @@
         "description": "Prozessqualität der Refinement-Sessions: Moderation, Teilnahme, Story-Splitting, Pflege von Definition-of-Ready/Done und Akzeptanzkriterien. Bewertet wird, wie effektiv das Team während der Events Informationen synchronisiert und Items sprint-fähig macht. Messbar z.B. über Backlog-Health-Indikatoren (Nacharbeitsaufwand nach Sprintstart, DoR-Erfüllungsquote, Zeit bis zur Klarheit). Fokus liegt auf dem \"Wie\" der Operationalisierung bestehender Anforderungen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 12,
-        "size": 13,
-        "indegree": 3,
-        "outdegree": 9,
+        "degree": 17,
+        "size": 18,
+        "indegree": 5,
+        "outdegree": 12,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -645,10 +645,10 @@
         ],
         "measurability": 1.0,
         "influenceability": 0.5,
-        "indegree": 3,
-        "outdegree": 1,
-        "degree": 4,
-        "size": 5
+        "indegree": 4,
+        "outdegree": 2,
+        "degree": 6,
+        "size": 7
       }
     },
     {
@@ -663,10 +663,10 @@
         ],
         "measurability": 1.0,
         "influenceability": 0.5,
-        "indegree": 3,
-        "outdegree": 2,
-        "degree": 5,
-        "size": 6
+        "indegree": 5,
+        "outdegree": 4,
+        "degree": 9,
+        "size": 10
       }
     },
     {
@@ -955,10 +955,10 @@
         ],
         "closeness": 0.4558333333333334,
         "metrics::last": 0.8116975053138835,
-        "degree": 15,
-        "size": 16,
-        "indegree": 6,
-        "outdegree": 9,
+        "degree": 21,
+        "size": 22,
+        "indegree": 9,
+        "outdegree": 12,
         "betweenness": 0.1379524446402437,
         "eigenvector": 0.005820037054878206,
         "reach": 0.7029702970297029,
@@ -981,9 +981,9 @@
         "description": "= Priorisierung von Aufgaben",
         "closeness": 0.2859999999999999,
         "metrics::last": 0.6330977784961899,
-        "degree": 8,
-        "size": 9,
-        "indegree": 6,
+        "degree": 9,
+        "size": 10,
+        "indegree": 7,
         "outdegree": 2,
         "betweenness": 0.006662578162578163,
         "eigenvector": 0.008800877593691837,
@@ -1081,10 +1081,10 @@
         "description": "Grad der physischen Nähe bzw. Co-Location der Teammitglieder im Arbeitsalltag.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 8,
-        "size": 9,
+        "degree": 9,
+        "size": 10,
         "indegree": 1,
-        "outdegree": 7,
+        "outdegree": 8,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -1120,10 +1120,10 @@
         "description": "Ausmaß der gemeinsamen Arbeitszeitfenster zwischen Teammitgliedern (z.B. Zeitzonen-Overlap).",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 3,
-        "size": 4,
+        "degree": 4,
+        "size": 5,
         "indegree": 1,
-        "outdegree": 2,
+        "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -1343,9 +1343,9 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.21808333333333324,
         "metrics::last": 0.8908053592313775,
-        "degree": 11,
-        "size": 12,
-        "indegree": 8,
+        "degree": 13,
+        "size": 14,
+        "indegree": 10,
         "outdegree": 3,
         "betweenness": 0.0027218213884880557,
         "eigenvector": 0.007332591615659199,
@@ -1567,10 +1567,10 @@
         "description": "Vorschlag für die Definition (bzw. Bewertung der Qualität): \n\nKommunikationsmodell von Shannon und Weaver als Grundlage\n-> Das was gesendet wird, soll auch im Optimallfall ohne merkliche Verluste beim Empfänger ankommen\n\n-> weitere Modelle je Situation (5 Axiome der Kommunikation von Watzlawick, Kommunikationsquadrat von Schulz von Thun, etc.)\n\nWichitge Eigenschaften einer \"guten\" Kommunikation:\n- Klarheit der Botschaft\n- Transparenz des Inhaltes (der Absicht)\n- situations- und adressatengerecht (Tonfall, Sprache, Inhalt)\n- Kohärenz (logisch und nicht widersprüchlich)\n- Aufmerksamkeit (aktives Zuhören)\n- Soziale Faktoren (Respekt, Wertschätzung, Empathie)\n- Sprachliche und nonverbale Kongruenz",
         "closeness": 0.3901666666666666,
         "metrics::last": 0.9657893118665918,
-        "degree": 34,
-        "size": 35,
-        "indegree": 15,
-        "outdegree": 19,
+        "degree": 40,
+        "size": 41,
+        "indegree": 19,
+        "outdegree": 21,
         "betweenness": 0.07141844849580097,
         "eigenvector": 0.009218315731945956,
         "reach": 0.3465346534653465,
@@ -1633,9 +1633,9 @@
         "measurability": 0.5,
         "influenceability": 1.0,
         "indegree": 3,
-        "outdegree": 2,
-        "degree": 5,
-        "size": 6
+        "outdegree": 3,
+        "degree": 6,
+        "size": 7
       }
     },
     {
@@ -1866,10 +1866,10 @@
         "description": "= Kompetenz und Erfahrung",
         "closeness": 0.2614285714285714,
         "metrics::last": 0.8100859716926461,
-        "degree": 9,
-        "size": 10,
+        "degree": 14,
+        "size": 15,
         "indegree": 2,
-        "outdegree": 7,
+        "outdegree": 12,
         "betweenness": 0.01467015392015392,
         "eigenvector": 0.0191832717738395,
         "reach": 0.09900990099009901,
@@ -2059,9 +2059,9 @@
         "element type": "Einflussfaktoren",
         "closeness": 0,
         "metrics::last": 0.6330977784961899,
-        "degree": 8,
-        "size": 9,
-        "indegree": 5,
+        "degree": 9,
+        "size": 10,
+        "indegree": 6,
         "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0.008800877593691837,
@@ -2084,10 +2084,10 @@
         ],
         "closeness": 0.01,
         "metrics::last": 0.8919942924225034,
-        "degree": 9,
-        "size": 10,
+        "degree": 10,
+        "size": 11,
         "indegree": 3,
-        "outdegree": 6,
+        "outdegree": 7,
         "betweenness": 0,
         "eigenvector": 0.006887915252168991,
         "reach": 0.019801980198019802,
@@ -2110,10 +2110,10 @@
         "description": "Qualität von Reviews (z.B. Code- und Design-Reviews): Klarheit der Kriterien, Tiefe der Analyse, konstruktive Rückmeldungen, Nachverfolgung und Umsetzung von Review-Ergebnissen.",
         "measurability": 1,
         "influenceability": 1,
-        "indegree": 6,
-        "outdegree": 5,
-        "degree": 11,
-        "size": 12
+        "indegree": 9,
+        "outdegree": 6,
+        "degree": 15,
+        "size": 16
       }
     },
     {
@@ -2129,10 +2129,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 5,
-        "size": 6,
+        "degree": 7,
+        "size": 8,
         "indegree": 1,
-        "outdegree": 4,
+        "outdegree": 6,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -2354,10 +2354,10 @@
         "description": "= Definition of Done (DoD)",
         "closeness": 0,
         "metrics::last": 0.9708004396048325,
-        "degree": 6,
-        "size": 7,
-        "indegree": 4,
-        "outdegree": 2,
+        "degree": 8,
+        "size": 9,
+        "indegree": 5,
+        "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0.004081102584648864,
         "reach": 0.009900990099009901,
@@ -2890,10 +2890,10 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 1.0,
-        "indegree": 2,
-        "outdegree": 2,
-        "degree": 4,
-        "size": 5
+        "indegree": 4,
+        "outdegree": 3,
+        "degree": 7,
+        "size": 8
       }
     },
     {
@@ -3270,10 +3270,10 @@
         "micmac exposure": 0.6885549396250221,
         "measurability": 1.0,
         "influenceability": 0.5,
-        "indegree": 2,
+        "indegree": 3,
         "outdegree": 2,
-        "degree": 4,
-        "size": 5
+        "degree": 5,
+        "size": 6
       }
     },
     {
@@ -3530,10 +3530,10 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 2,
-        "outdegree": 4,
-        "degree": 6,
-        "size": 7
+        "indegree": 3,
+        "outdegree": 6,
+        "degree": 9,
+        "size": 10
       }
     },
     {
@@ -3588,10 +3588,10 @@
         "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 12,
-        "size": 13,
+        "degree": 14,
+        "size": 15,
         "indegree": 6,
-        "outdegree": 6,
+        "outdegree": 8,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -3644,10 +3644,10 @@
         "description": "Die durch objektive Mediencharakteristiken definierte Basis-Reichhaltigkeit eines Kommunikationsmediums gemäß Media Richness Theory (Daft & Lengel, 1986). Diese wird durch vier messbare Kriterien definiert: (1) Anzahl der Hinweise/Cues (nonverbale Signale, Körpersprache, Tonfall), (2) Reaktionszeit bzw. Feedbackgeschwindigkeit (synchron vs. asynchron), (3) Anpassbarkeit der Antwort (Grad der Individualisierung), und (4) Natürlichkeit der Sprache (technisch vs. natürlich). Dies ergibt eine strukturelle Rangfolge: Face-to-Face (höchste Richheit mit allen Cues und sofortiger Anpassung) > Video (viele Cues, schnelles Feedback) > Telefon (Audio-Cues, schnelles Feedback) > schriftliche Medien wie Email (minimale Cues, asynchron). Diese Rangfolge ist objektiv, aber ihre tatsächliche Effektivität für eine konkrete Aufgabe wird durch die Erfahrung der Kommunikationspartner moduliert (siehe: Wahrgenommene Medienreichhaltigkeit).",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 11,
-        "size": 12,
+        "degree": 12,
+        "size": 13,
         "indegree": 6,
-        "outdegree": 5,
+        "outdegree": 6,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -3673,10 +3673,10 @@
         "description": "Die subjektive Effektivität und gefühlte Reichhaltigkeit eines Kommunikationsmediums durch einen Nutzer, bestimmt durch vierdimensionale Erfahrung gemäß Channel Expansion Theory (Carlson & Zmud, 1999). Die vier Erfahrungsdimensionen sind: (1) Erfahrung mit dem Medium selbst (Vertrautheit mit dem Tool, z.B. Video-Call-Software), (2) Erfahrung mit dem Thema (Fachwissen über Inhalt und Domain), (3) Erfahrung mit dem Partner (Verständnis von Paradigmen, Denkweisen, Kommunikationsstilen), und (4) Erfahrung mit dem Kontext (Kenntnis der Constraints, des Projekt-Hintergrunds, historischer Entscheidungen). Ein kritischer Effekt: Personen mit hoher Erfahrung in allen 4 Dimensionen können strukturell arme Medien (z.B. 2D-Skizze, Email) quasi-reichhaltig nutzen und erzielen damit Ergebnisse wie mit reicheren Medien. Umgekehrt kann mangelnde Erfahrung auch ein strukturell reiches Medium (z.B. kompliziertes Video-Konferenz-Tool) arm machen. Dies erklärt, warum manche Teams mit den gleichen Tools unterschiedlich effektiv kommunizieren.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 15,
-        "size": 16,
-        "indegree": 10,
-        "outdegree": 5,
+        "degree": 20,
+        "size": 21,
+        "indegree": 13,
+        "outdegree": 7,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -3695,10 +3695,10 @@
         "element type": "Einflussfaktoren",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 21,
+        "indegree": 22,
         "outdegree": 9,
-        "degree": 30,
-        "size": 31
+        "degree": 31,
+        "size": 32
       }
     },
     {
@@ -3715,10 +3715,10 @@
         "description": "Beschreibt das Ausmaß, in dem eine Aufgabe mehrdeutig interpretiert werden kann. Hoher Grad = viele mögliche Verständnisinterpretationen, hohes Missverständnisrisiko. Niedriger Grad = klare, eindeutige Anforderungen mit wenig Interpretationsspielraum. Zentral für Media Richness Theory (Daft & Lengel 1986): Aufgaben mit hoher Mehrdeutigkeit erfordern reichhaltigere Medien.",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 4,
-        "outdegree": 6,
-        "degree": 10,
-        "size": 11
+        "indegree": 5,
+        "outdegree": 8,
+        "degree": 13,
+        "size": 14
       }
     },
     {
@@ -3754,10 +3754,10 @@
         "description": "Prozessqualität der Retrospektive-Events: Regelmäßigkeit, psychologische Sicherheit, Strukturierung der Reflexion, Ableitung und Umsetzung konkreter Verbesserungsmaßnahmen. Die Retrospektive ist der primäre Mechanismus für kontinuierliche Prozessverbesserung und Lernen aus Erfahrungen. Messbar über Teilnahmequote, Anzahl umgesetzter Action Items, wahrgenommene psychologische Sicherheit im Team.",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 3,
-        "outdegree": 3,
-        "degree": 6,
-        "size": 7
+        "indegree": 4,
+        "outdegree": 5,
+        "degree": 9,
+        "size": 10
       }
     },
     {
@@ -3773,7 +3773,11 @@
         ],
         "description": "Explizite und systematische Reflexion während Retrospektiven darüber, wie wirksam die eingesetzten Kommunikationsmedien und -kanäle waren. Umfasst: Diskussionen über 'Was hat gut/nicht gut funktioniert bei unserer Kommunikation?', explizites Feedback zu Medium-Eignung pro Event/Aufgabe, Ableitung von Änderungen in der Medienwahl (z.B. 'Video für Daily', 'Whiteboard für Planning'). Messbar über: Häufigkeit von Medien-/Kommunikations-Diskussionen in Retro-Agendas, Dokumentierte Medium-Feedback und daraus resultierende Action-Items, Retro-Protokolle. Beeinflussbar durch: Moderations-Training zur gezielten Reflexion, explizite Agenda-Punkte ('Kommunikation Assessment'), psychologische Sicherheit.",
         "measurability": 0.5,
-        "influenceability": 1.0
+        "influenceability": 1.0,
+        "indegree": 1,
+        "outdegree": 1,
+        "degree": 2,
+        "size": 3
       }
     },
     {
@@ -3809,10 +3813,10 @@
         "description": "Grad, in welchem das Team ein korrektes, einheitliches Verständnis über Prozess, Architektur, Anforderungen und gegenseitige Verantwortlichkeiten hat. Teams mit hoher Qualität gemeinsamer mentaler Modelle treffen schnellere, bessere Entscheidungen, brauchen weniger Koordination und können sich selbst organisieren. Messbar über Planning-Poker-Varianz, Retrospektive-Insights zu Missverständnissen und Code-Review-Diskussionen über implizite Annahmen.",
         "measurability": 0.5,
         "influenceability": 0.5,
-        "indegree": 5,
+        "indegree": 8,
         "outdegree": 3,
-        "degree": 8,
-        "size": 9
+        "degree": 11,
+        "size": 12
       }
     },
     {
@@ -3829,10 +3833,10 @@
         "description": "Grad der Kongruenz zwischen der Komplexität und Mehrdeutigkeit der Kommunikationsaufgabe und der Reichhaltigkeit des eingesetzten Kommunikationsmediums. Basiert auf Media Richness Theorie: Face-to-Face ist reichhaltig (unmittelbares Feedback, mehrere Kanäle, nonverbale Signale), asynchrone Text ist effizient, aber manchmal unzureichend für komplexe, mehrdeutige Aufgaben. Im Scrum-Kontext: Daily braucht synchron/nonverbal, Planning braucht Board-Tools, Retrospektive braucht Vertrauen-Umgebung, Review braucht geteilte Artefakt-Sicht. Messbar über Team-Feedback zu Medium-Eignung, Fehlerquoten in Kommunikation (Missverständnisse), Post-Event-Klarheits-Scores.",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 5,
-        "outdegree": 6,
-        "degree": 11,
-        "size": 12
+        "indegree": 8,
+        "outdegree": 7,
+        "degree": 15,
+        "size": 16
       }
     },
     {
@@ -3849,10 +3853,10 @@
         "description": "Häufigkeit und Intensität der Nutzung eines bestimmten Kommunikationsmediums durch das Team innerhalb von Scrum-Events und Routinen (z.B. tägliche Video-Calls für Standups, regelmäßige Board-Tool-Nutzung für Planung, Retrospektiven im virtuellen Raum). Höherer Grad der Mediennutzung führt zu verbesserter Medienkompetenz (Vertrautheit mit Tool, Verbesserung der Nutzungseffektivität) und erhöhter wahrgenommener Medienreichhaltigkeit (Team sieht das Medium als effektiver an). Messbar durch: Adoption-Metriken (How often is the tool used), Logging (Session Duration, Feature Usage, Engagement), Team-Feedback (Zufriedenheit mit Medium). Beeinflussbar durch: Policy-Entscheidungen (wir nutzen Video für Dailies), Kultur und Norm-Setzung, Mandatory-vs-Optional-Regelungen.",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 3,
-        "outdegree": 2,
-        "degree": 5,
-        "size": 6
+        "indegree": 1,
+        "outdegree": 1,
+        "degree": 2,
+        "size": 3
       }
     },
     {
@@ -3869,8 +3873,8 @@
         "description": "Praktische Leichtigkeit und psychologischer Komfort, ein bestimmtes Medium in dieser spezifischen Situation zu nutzen. Bestimmt durch: (1) räumliche Nähe (Co-Location %), (2) zeitliche Überlappung (Zeitzonen-Kompatibilität), (3) Tool-Vertrautheit (Habitualisierung, Learning Curve), (4) organisatorische Verfügbarkeit (Raum-Buchung, Infrastruktur, Lizenzen), (5) psychologische Barrieren (individuelle Komfortzonen, Technik-Angst, Norm-Alignment). Höhere Bequemlichkeit führt zu besserer Adoption und praktisch effektiverer Medium-Nutzung, auch wenn theoretisch bessere Alternativen existieren. Messbar über Co-Location-Metriken, Zeitzonen-Analyse, Tool-Usage-Logs, Infrastruktur-Verfügbarkeit, Retro-Feedback zu 'friction'. Beeinflussbar durch Team-Kultur (Norm-Setting), Management (Infrastruktur-Investition, Home-Office-Policy), Training (Skill-Building).",
         "measurability": 0.5,
         "influenceability": 0.5,
-        "indegree": 1,
-        "outdegree": 1,
+        "indegree": 0,
+        "outdegree": 2,
         "degree": 2,
         "size": 3
       }
@@ -3889,10 +3893,10 @@
         "description": "Die deliberate oder habitualisierte Entscheidung und Umsetzung über die Wahl des Kommunikationsmediums und der damit verbundenen Kommunikationsstrategie für eine spezifische Aufgabe oder Situation. Bestimmt durch: Aufgabenkomplexität, verfügbare Medien, Kontextuelle Variablen (räumliche Nähe, zeitliche Überlappung), Erfahrung und Medienkompetenz, sowie organisatorische Normen. Beeinflusst die Effektivität von Kommunikation und damit die Kommunikationsqualität. Messbar über Häufigkeit/Typ der gewählten Medien, Alignment mit Best Practices. Beeinflussbar durch Training, Norm-Setting, Medium-Verfügbarkeit, Erfahrungsfeedback.",
         "measurability": 0.5,
         "influenceability": 1.0,
-        "indegree": 0,
-        "outdegree": 0,
-        "degree": 0,
-        "size": 1
+        "indegree": 4,
+        "outdegree": 2,
+        "degree": 6,
+        "size": 7
       }
     },
     {
@@ -3909,9 +3913,9 @@
         "measurability": 1.0,
         "influenceability": 1.0,
         "indegree": 4,
-        "outdegree": 3,
-        "degree": 7,
-        "size": 8
+        "outdegree": 4,
+        "degree": 8,
+        "size": 9
       }
     },
     {
@@ -3926,7 +3930,11 @@
         ],
         "description": "Passung zwischen dem Reifegrad und der Reichhaltigkeit des Artefakts und der Komplexität sowie Mehrdeutigkeit der Kommunikationsaufgabe. Analog zur Media Richness Theory für Medien: Aufgaben mit hoher Komplexität und Mehrdeutigkeit erfordern reichhaltigere, detailliertere Artefakte (detaillierte Prototypen, vollständige Mockups, umfassende Spezifikationen), während einfache, vorwiegend koordinative Aufgaben mit skizzenhaften oder minimalen Artefakten ausreichen. Messbar über Alignment zwischen Artefakt-Detaigrad und übertragene Aufgabenkomplexität, Team-Feedback zur Artefakt-Angemessenheit. Beeinflussbar durch explizite Conversations über erforderlichen Detailgrad, Priorisierung von Refinement, Tool-Wahl für Artefakt-Erstellung.",
         "measurability": 0.5,
-        "influenceability": 1.0
+        "influenceability": 1.0,
+        "indegree": 3,
+        "outdegree": 2,
+        "degree": 5,
+        "size": 6
       }
     }
   ],
@@ -8638,149 +8646,149 @@
         "description": "Höhere Medienkompetenz erhöht die wahrgenommene Medienreichhaltigkeit durch effizientere Nutzung."
       }
     },
-      {
-        "_id": "conn-komKomplexitaet-wahrMedRichness",
-        "from": "elem-komKomplexitaet",
-        "to": "elem-wahrgenommeneMediaRichness",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
-        }
-      },
-      {
-        "_id": "conn-erfahrung-medienwahl-strategie",
-        "from": "elem-k8VAutpT",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Erfahrung und implizites Wissen beeinflussen die Medienwahl und Kommunikationsstrategie durch bessere Einschätzung der Situation."
-        }
-      },
-      {
-        "_id": "conn-erfahrung-to-kommunikationsqualitaet",
-        "from": "elem-k8VAutpT",
-        "to": "elem-bh4G3Yqp",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höheres Erfahrungsniveau der Teammitglieder verbessert die Kommunikationsqualität durch effektivere Informationsvermittlung und besseres gegenseitiges Verständnis."
-        }
-      },
-      {
-        "_id": "conn-erfahrung-to-sprintBacklog",
-        "from": "elem-k8VAutpT",
-        "to": "elem-sprintBacklogQuality",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höheres Erfahrungsniveau ermöglicht realistischere Aufgabenschätzungen und bessere Aufgabenzuschnitte im Sprint Backlog."
-        }
-      },
-      {
-        "_id": "conn-erfahrung-to-aufgabenpriorisierung",
-        "from": "elem-k8VAutpT",
-        "to": "elem-QgfybLh0",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höheres Erfahrungsniveau unterstützt bessere Aufgabenpriorisierung durch bessere Einschätzung von Risiken, Aufwand und Abhängigkeiten."
-        }
-      },
-      {
-        "_id": "conn-raumnaeheTeam-to-medienwahl",
-        "from": "elem-raumnaeheTeam",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere räumliche Nähe der Teammitglieder ermöglicht und bevorzugt Face-to-Face und synchrone Kommunikation als Medienwahl."
-        }
-      },
-      {
-        "_id": "conn-arbeitszeitOverlap-to-medienwahl",
-        "from": "elem-arbeitszeitOverlap",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere zeitliche Überlappung der Arbeitszeiten ermöglicht synchrone Kommunikationsmedien und beeinflusst die Medienwahl zur Bevorzugung synchroner Kanäle."
-        }
-      },
-      {
-        "_id": "conn-kontextBequemlichkeit-to-medienwahl",
-        "from": "elem-kontextBequemlichkeit",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere kontextuelle Bequemlichkeit (Verfügbarkeit, Vertrautheit, psychologischer Komfort) erhöht die Wahrscheinlichkeit, dass Teams bequemere Medien bevorzugen, auch wenn komplexere Medien theoretisch besser wären."
-        }
-      },
-      {
-        "_id": "conn-medienwahl-to-kommqual",
-        "from": "elem-medienwahlStrategie",
-        "to": "elem-bh4G3Yqp",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Gute Medienwahl (passend zur Aufgabenkomplexität und zum Kontext) verbessert die Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
-        }
-      },
-      {
-        "_id": "conn-medienwahl-to-teamverstaendnis",
-        "from": "elem-medienwahlStrategie",
-        "to": "elem-VombH8FP",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Gute Medienwahl unterstützt die Konvergenz des Teamverständnisses durch Kanäle, die Nuancen, nonverbale Signale und unmittelbares Feedback transportieren."
-        }
-      },
-      {
-        "_id": "conn-feedback-to-teamverstaendnis",
-        "from": "elem-cHlGVpZ5",
-        "to": "elem-VombH8FP",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
-        }
-      },
+    {
+      "_id": "conn-komKomplexitaet-wahrMedRichness",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
+      }
+    },
+    {
+      "_id": "conn-erfahrung-medienwahl-strategie",
+      "from": "elem-k8VAutpT",
+      "to": "elem-medienwahlStrategie",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Erfahrung und implizites Wissen beeinflussen die Medienwahl und Kommunikationsstrategie durch bessere Einschätzung der Situation."
+      }
+    },
+    {
+      "_id": "conn-erfahrung-to-kommunikationsqualitaet",
+      "from": "elem-k8VAutpT",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Erfahrungsniveau der Teammitglieder verbessert die Kommunikationsqualität durch effektivere Informationsvermittlung und besseres gegenseitiges Verständnis."
+      }
+    },
+    {
+      "_id": "conn-erfahrung-to-sprintBacklog",
+      "from": "elem-k8VAutpT",
+      "to": "elem-sprintBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Erfahrungsniveau ermöglicht realistischere Aufgabenschätzungen und bessere Aufgabenzuschnitte im Sprint Backlog."
+      }
+    },
+    {
+      "_id": "conn-erfahrung-to-aufgabenpriorisierung",
+      "from": "elem-k8VAutpT",
+      "to": "elem-QgfybLh0",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Erfahrungsniveau unterstützt bessere Aufgabenpriorisierung durch bessere Einschätzung von Risiken, Aufwand und Abhängigkeiten."
+      }
+    },
+    {
+      "_id": "conn-raumnaeheTeam-to-medienwahl",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-medienwahlStrategie",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere räumliche Nähe der Teammitglieder ermöglicht und bevorzugt Face-to-Face und synchrone Kommunikation als Medienwahl."
+      }
+    },
+    {
+      "_id": "conn-arbeitszeitOverlap-to-medienwahl",
+      "from": "elem-arbeitszeitOverlap",
+      "to": "elem-medienwahlStrategie",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere zeitliche Überlappung der Arbeitszeiten ermöglicht synchrone Kommunikationsmedien und beeinflusst die Medienwahl zur Bevorzugung synchroner Kanäle."
+      }
+    },
+    {
+      "_id": "conn-kontextBequemlichkeit-to-medienwahl",
+      "from": "elem-kontextBequemlichkeit",
+      "to": "elem-medienwahlStrategie",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere kontextuelle Bequemlichkeit (Verfügbarkeit, Vertrautheit, psychologischer Komfort) erhöht die Wahrscheinlichkeit, dass Teams bequemere Medien bevorzugen, auch wenn komplexere Medien theoretisch besser wären."
+      }
+    },
+    {
+      "_id": "conn-medienwahl-to-kommqual",
+      "from": "elem-medienwahlStrategie",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Medienwahl (passend zur Aufgabenkomplexität und zum Kontext) verbessert die Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
+      }
+    },
+    {
+      "_id": "conn-medienwahl-to-teamverstaendnis",
+      "from": "elem-medienwahlStrategie",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Medienwahl unterstützt die Konvergenz des Teamverständnisses durch Kanäle, die Nuancen, nonverbale Signale und unmittelbares Feedback transportieren."
+      }
+    },
+    {
+      "_id": "conn-feedback-to-teamverstaendnis",
+      "from": "elem-cHlGVpZ5",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
+      }
+    },
     {
       "_id": "conn-RETROSPECTIVE-TO-IMPROVEMENT",
       "from": "elem-retrospektive001",
@@ -10807,6 +10815,32 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
+      }
+    },
+    {
+      "_id": "conn-DAILY-QUALITY-TO-IMPEDIMENTS",
+      "from": "elem-QOBGtWqO",
+      "to": "elem-7sSep5II",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere Struktur und Zielorientierung des Daily reduziert Hindernisse und Abhängigkeiten durch frühzeitige Identifikation, transparente Thematisierung von Blockaden und schnelle Eskalation an Scrum Master oder Team."
+      }
+    },
+    {
+      "_id": "conn-IMPEDIMENTS-TO-DAILY-QUALITY",
+      "from": "elem-7sSep5II",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr Hindernisse und Abhängigkeiten erhöhen den Bedarf an strukturierter Daily-Koordination zur schnellen Identifikation, Abstimmung und Problemlösung."
       }
     }
   ]
