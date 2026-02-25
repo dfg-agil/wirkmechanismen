@@ -34,10 +34,10 @@
         "description": "Innerhalb der Organisation verfügbare und zugängliche, formalisierte und dokumentierte Informationen.\nZ.B.:\n- Prozesse und Methoden (Entwicklungsmethodiken und Vorgehensmodelle, Best Practices und Routinen, Agile Methoden usw.)\n- Dokumente und Artefakte (Pläne und Zeitpläne, CAD-Daten, FE-Ergebnisse, Bibliotheken, Vorlagen usw.)\n- Organisationsstrukturen und IT-Infrastrukturen",
         "closeness": 0.3795,
         "metrics::last": 0.6412190894986812,
-        "degree": 21,
-        "size": 22,
+        "degree": 22,
+        "size": 23,
         "indegree": 4,
-        "outdegree": 17,
+        "outdegree": 18,
         "betweenness": 0.023227664635559364,
         "eigenvector": 0.019431330169857194,
         "reach": 0.2871287128712871,
@@ -214,9 +214,9 @@
         "description": "Team Partizipation: Aktive beteiligen und Engagement des Teams.",
         "closeness": 0.3575,
         "metrics::last": 0.6790810682586852,
-        "degree": 22,
-        "size": 23,
-        "indegree": 12,
+        "degree": 23,
+        "size": 24,
+        "indegree": 13,
         "outdegree": 10,
         "betweenness": 0.06300318167124387,
         "eigenvector": 0.010148676162080853,
@@ -542,10 +542,10 @@
         ],
         "closeness": 0.40950000000000003,
         "metrics::last": 0.759192611956293,
-        "degree": 23,
-        "size": 24,
+        "degree": 24,
+        "size": 25,
         "indegree": 6,
-        "outdegree": 17,
+        "outdegree": 18,
         "betweenness": 0.13626852696449984,
         "eigenvector": 0.025250823478588827,
         "reach": 0.33663366336633666,
@@ -1031,10 +1031,10 @@
         ],
         "closeness": 0.22959523809523805,
         "metrics::last": 0.8729263522091324,
-        "degree": 8,
-        "size": 9,
+        "degree": 9,
+        "size": 10,
         "indegree": 3,
-        "outdegree": 5,
+        "outdegree": 6,
         "betweenness": 0,
         "eigenvector": 0.006983603582685004,
         "reach": 0.0594059405940594,
@@ -1387,10 +1387,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.30149999999999977,
         "metrics::last": 0.8729263522091324,
-        "degree": 7,
-        "size": 8,
+        "degree": 8,
+        "size": 9,
         "indegree": 2,
-        "outdegree": 5,
+        "outdegree": 6,
         "betweenness": 0.022723062092081227,
         "eigenvector": 0.006983603582685004,
         "reach": 0.19801980198019803,
@@ -1652,9 +1652,9 @@
         "measurability": 0.5,
         "influenceability": 1.0,
         "indegree": 3,
-        "outdegree": 3,
-        "degree": 6,
-        "size": 7
+        "outdegree": 4,
+        "degree": 7,
+        "size": 8
       }
     },
     {
@@ -1960,9 +1960,9 @@
         "description": "Teamdynamik: Für eine offene und respektvolle Atmosphäre sorgen.",
         "closeness": 0.27863095238095226,
         "metrics::last": 0.8782324152268047,
-        "degree": 23,
-        "size": 24,
-        "indegree": 8,
+        "degree": 24,
+        "size": 25,
+        "indegree": 9,
         "outdegree": 15,
         "betweenness": 0.06251515151515152,
         "eigenvector": 0.007286865098605407,
@@ -3569,10 +3569,10 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 4,
+        "indegree": 5,
         "outdegree": 7,
-        "degree": 11,
-        "size": 12
+        "degree": 12,
+        "size": 13
       }
     },
     {
@@ -3734,10 +3734,10 @@
         "element type": "Einflussfaktoren",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 24,
+        "indegree": 25,
         "outdegree": 9,
-        "degree": 33,
-        "size": 34
+        "degree": 34,
+        "size": 35
       }
     },
     {
@@ -4013,9 +4013,9 @@
         "measurability": 0.5,
         "influenceability": 1.0,
         "indegree": 4,
-        "outdegree": 4,
-        "degree": 8,
-        "size": 9
+        "outdegree": 5,
+        "degree": 9,
+        "size": 10
       }
     },
     {
@@ -4129,6 +4129,25 @@
         "outdegree": 2,
         "degree": 3,
         "size": 4
+      }
+    },
+    {
+      "_id": "elem-selbstkoordinationEntwickler",
+      "attributes": {
+        "label": "Selbstkoordination des Entwicklers",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Individuell",
+          "Koordination",
+          "Selbstorganisation"
+        ],
+        "description": "Faehigkeit und Praxis, die eigene Arbeit selbst zu strukturieren, zu priorisieren und proaktiv mit Abhaengigkeiten umzugehen, ohne staendige externe Steuerung.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 6,
+        "outdegree": 4,
+        "degree": 10,
+        "size": 11
       }
     }
   ],
@@ -12045,6 +12064,136 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Hochwertige informelle Kommunikation reduziert Koordinationsaufwand durch fruehe Klaerung und weniger Eskalation."
+      }
+    },
+    {
+      "_id": "conn-EXPLIZITWISSEN-TO-SELBSTKOORD",
+      "from": "elem-0er3OquT",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hoher expliziter Wissensstand erleichtert Selbstkoordination durch klare Standards, Regeln und Dokumentation."
+      }
+    },
+    {
+      "_id": "conn-IMPLWISSEN-TO-SELBSTKOORD",
+      "from": "elem-E4veLPLX",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Implizites Wissen ermoeglicht bessere Selbstkoordination durch Erfahrung, Intuition und Routinen."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-SELBSTKOORD",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gutes Onboarding beschleunigt Selbstkoordination durch fruehes Verstaendnis von Prozessen, Rollen und Abhaengigkeiten."
+      }
+    },
+    {
+      "_id": "conn-FACHKOMPETENZ-TO-SELBSTKOORD",
+      "from": "elem-SfaQSG8R",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Fachkompetenz ermoeglicht realistische Selbsteinschaetzung, Task-Splitting und eigenstaendige Planung."
+      }
+    },
+    {
+      "_id": "conn-SOZKOMPETENZ-TO-SELBSTKOORD",
+      "from": "elem-VzcqeqTN",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sozialkompetenz unterstuetzt Selbstkoordination durch bessere Abstimmung, Rueckfragen und Konfliktklaerung."
+      }
+    },
+    {
+      "_id": "conn-FEEDBACKQUAL-TO-SELBSTKOORD",
+      "from": "elem-cHlGVpZ5",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Feedback verbessert Selbstkoordination durch klarere Erwartungen und schnelleres Lernen."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere Selbstkoordination reduziert Koordinationsaufwand durch weniger Rueckfragen und Nachsteuerung."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-TEAMDYNAMIK",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Selbstkoordination foerdert Teamdynamik durch verlaessliche Zusagen und weniger Reibung."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-PARTIZIPATION",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Selbstkoordination erhoeht die Qualitaet der Team Partizipation durch proaktives Einbringen."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-WISSENSAUSTAUSCH",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Selbstkoordination foerdert Wissensaustausch durch eigenstaendige Dokumentation und aktives Teilen."
       }
     }
   ]
