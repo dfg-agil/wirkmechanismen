@@ -3987,6 +3987,22 @@
         "measurability": 1.0,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-bewusstseinMismatch",
+      "attributes": {
+        "label": "Bewusstsein für Mismatch zwischen Aufgabe und Medium",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Reflexion",
+          "Medienwahl",
+          "Feedback",
+          "Verbesserung"
+        ],
+        "description": "Der Grad, in dem Teamitglieder aktiv wahrnehmen und articulate, ob das gewählte Medium adäquat für die aktuelle Kommunikationsaufgabe ist – oder nicht. Bewusstsein für Mismatches ermöglicht korrigierende Maßnahmen und kontinuierliche Verbesserung. Wenn Teams nicht bemerken, dass ein Medium nicht passt, können sie ihre Medienwahl nicht anpassen. Dies wird oft durch Reflexion in Retrospektiven, Feedback-Prozessen und Fehlerdiskussionen gefördert. Messbar über Häufigkeit von Mismatch-Erkenntnissen, Qualität von Reflexions-Outputs. Beeinflussbar durch strukturierte Reflexion, Retrospektiven-Qualität, psychologische Sicherheit für Feedback, Error-Awareness-Kultur.",
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
     }
   ],
   "connections": [
@@ -11042,6 +11058,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Teampräferenzen beeinflussen die Medienwahl, können aber positiv oder negativ wirken. Wenn Team-Vorlieben mit der Task-Komplexität aligned sind (Preference = Best-Practice), wird die Medium-Passung besser. Wenn aber Gewohnheit über optimale Wahl siegt, wird die Passung schlechter."
+      }
+    },
+    {
+      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
+      "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
+      }
+    },
+    {
+      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
+      "from": "elem-bewusstseinMismatch",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnisse führt."
       }
     }
   ]
