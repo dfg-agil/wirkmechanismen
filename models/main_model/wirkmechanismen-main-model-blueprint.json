@@ -10758,6 +10758,84 @@
         "connection type": "++",
         "description": "Hohes Engagement der Teammitglieder führt zu intensiverer Nutzung verfügbarer Kommunikationsmedien: Engaged Teams nehmen aktiver an synchronen Events teil, nutzen Channels konsequenter und investieren in reichhaltige Medienformate."
       }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-MEDIUM-PASSUNG",
+      "from": "elem-retrospektive001",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven fördern explizite Reflexion über die Wirksamkeit der eingesetzten Kommunikationsmedien und leiten konkrete Anpassungen der Medium-Passung ein. Teams identifizieren in der Retrospektive, welche Medien für welche Aufgaben gut funktioniert haben und passen ihre Medienwahl entsprechend an."
+      }
+    },
+    {
+      "_id": "conn-MEDIA-AVAILABILITY-TO-MEDIUM-PASSUNG",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Verfügbarkeit reichhaltiger Kommunikationsmedien ermöglicht bessere Realisierung der optimalen Medium-Passung durch mehr Optionen und Flexibilität. Teams mit Zugang zu Video, Whiteboard-Tools und reichhaltigen Synchronisations-Kanälen können ihre Medium-Passung-Strategie besser an Aufgabenkomplexität anpassen."
+      }
+    },
+    {
+      "_id": "conn-WORKFLOW-VIZ-TO-DAILY-QUALITY",
+      "from": "elem-dCCyLXD0",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Workflow-Visualisierung (Kanban Board, Task-Status-Tracking) strukturiert die Qualität der Dailies durch geteilte Sicht auf Blockers, WIP und Fortschritt. Teams mit transparenten, aktuellen Boards brauchen weniger verbale Erklärungen und können sich gezielter auf Probleme fokussieren."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-GOAL-CLARITY",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-F9HioTuT",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Medium-Aufgabe-Passung führt zu höherer Klarheit und Verständlichkeit der Sprint-Ziele. Wenn Ziele durch das richtige Medium (synchrone F2F für komplexe Ziele, asynchrone Boards für klare Ziele) kommuniziert werden, verringert sich Ambiguittät und erhöht sich gemeinsames Verständnis."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-PLANNING-QUALITY",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Medium-Passung während Planning führt zu höherer Planungsqualität. Wenn mehrdeutige Items in synchronen, reichhaltigen Medien (Whiteboard, F2F-Sessions) geklärt werden, entsteht bessere Item-Klarheit, realistische Schätzungen und höheres Commitment. Asynchrone Planung für klare Items spart Zeit ohne Qualitätseinbußen."
+      }
+    },
+    {
+      "_id": "conn-ERROR-ACCEPTANCE-TO-FEEDBACK-QUALITY",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Fehlerakzeptanz im Team ermöglicht bessere Feedback-Qualität durch psychologische Sicherheit. Teams mit hoher Fehlerakzeptanz geben offeneres, konstruktiveres Feedback ohne Angst vor Konfrontation oder negativen Konsequenzen. Fehler werden als Lernchancen kommuniziert, nicht als Vorwürfe."
+      }
     }
   ]
 }
