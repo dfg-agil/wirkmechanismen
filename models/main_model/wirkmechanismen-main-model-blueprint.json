@@ -515,10 +515,10 @@
         "description": "=Agenda-Struktur/ Ablaufklarheit",
         "closeness": 0,
         "metrics::last": 0.9708004396048325,
-        "degree": 3,
-        "size": 4,
+        "degree": 4,
+        "size": 5,
         "indegree": 1,
-        "outdegree": 2,
+        "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0.004081102584648864,
         "reach": 0.009900990099009901,
@@ -955,9 +955,9 @@
         ],
         "closeness": 0.4558333333333334,
         "metrics::last": 0.8116975053138835,
-        "degree": 19,
-        "size": 20,
-        "indegree": 8,
+        "degree": 20,
+        "size": 21,
+        "indegree": 9,
         "outdegree": 11,
         "betweenness": 0.1379524446402437,
         "eigenvector": 0.005820037054878206,
@@ -11659,6 +11659,19 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Anforderungsänderungen während des Sprints erhöhen die Aufgabenbelastung durch zusätzliche Umplanungen, Neubewertungen und Rework-Aktivitäten."
+      }
+    },
+    {
+      "_id": "conn-MEETING-STRUCTURE-TO-DAILY-QUALITY",
+      "from": "elem-DyjLKFjk",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Agenda-Struktur und Moderationsstandards im Meeting allgemein verbessern die Struktur & Zielorientierung des Daily konkret durch konsistente Ablaufklarheit, wodurch sich das Team besser auf Sprint-Ziele ausrichtet."
       }
     }
   ]
