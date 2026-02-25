@@ -214,10 +214,6 @@
         "description": "Team Partizipation: Aktive beteiligen und Engagement des Teams.",
         "closeness": 0.3575,
         "metrics::last": 0.6790810682586852,
-        "degree": 20,
-        "size": 21,
-        "indegree": 11,
-        "outdegree": 9,
         "degree": 24,
         "size": 25,
         "indegree": 13,
@@ -322,10 +318,6 @@
         "description": "= Umgang mit digitalen Medien",
         "closeness": 0.21992857142857136,
         "metrics::last": 0.8160049503978034,
-        "degree": 7,
-        "size": 8,
-        "indegree": 5,
-        "outdegree": 2,
         "degree": 8,
         "size": 9,
         "indegree": 5,
@@ -602,10 +594,6 @@
         "description": "Prozessqualität der Refinement-Sessions: Moderation, Teilnahme, Story-Splitting, Pflege von Definition-of-Ready/Done und Akzeptanzkriterien. Bewertet wird, wie effektiv das Team während der Events Informationen synchronisiert und Items sprint-fähig macht. Messbar z.B. über Backlog-Health-Indikatoren (Nacharbeitsaufwand nach Sprintstart, DoR-Erfüllungsquote, Zeit bis zur Klarheit). Fokus liegt auf dem \"Wie\" der Operationalisierung bestehender Anforderungen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 17,
-        "size": 18,
-        "indegree": 5,
-        "outdegree": 12,
         "degree": 18,
         "size": 19,
         "indegree": 5,
@@ -679,10 +667,6 @@
         "outdegree": 4,
         "degree": 9,
         "size": 10
-        "indegree": 6,
-        "outdegree": 4,
-        "degree": 10,
-        "size": 11
       }
     },
     {
@@ -971,9 +955,6 @@
         ],
         "closeness": 0.4558333333333334,
         "metrics::last": 0.8116975053138835,
-        "degree": 19,
-        "size": 20,
-        "indegree": 8,
         "degree": 20,
         "size": 21,
         "indegree": 9,
@@ -1100,10 +1081,6 @@
         "description": "Grad der physischen Nähe bzw. Co-Location der Teammitglieder im Arbeitsalltag.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 9,
-        "size": 10,
-        "indegree": 1,
-        "outdegree": 8,
         "degree": 10,
         "size": 11,
         "indegree": 1,
@@ -1387,13 +1364,6 @@
         "metrics::last": 0.8908053592313775,
         "degree": 14,
         "size": 15,
-        "indegree": 10,
-        "outdegree": 4,
-        "degree": 13,
-        "size": 14,
-        "indegree": 10,
-        "degree": 14,
-        "size": 15,
         "indegree": 11,
         "outdegree": 3,
         "betweenness": 0.0027218213884880557,
@@ -1618,13 +1588,6 @@
         "metrics::last": 0.9657893118665918,
         "degree": 41,
         "size": 42,
-        "indegree": 19,
-        "outdegree": 22,
-        "degree": 40,
-        "size": 41,
-        "indegree": 19,
-        "degree": 41,
-        "size": 42,
         "indegree": 20,
         "outdegree": 21,
         "betweenness": 0.07141844849580097,
@@ -1692,9 +1655,6 @@
         "outdegree": 3,
         "degree": 6,
         "size": 7
-        "outdegree": 5,
-        "degree": 8,
-        "size": 9
       }
     },
     {
@@ -2973,10 +2933,6 @@
         "outdegree": 3,
         "degree": 7,
         "size": 8
-        "indegree": 6,
-        "outdegree": 4,
-        "degree": 10,
-        "size": 11
       }
     },
     {
@@ -3357,10 +3313,6 @@
         "outdegree": 2,
         "degree": 6,
         "size": 7
-        "indegree": 3,
-        "outdegree": 2,
-        "degree": 5,
-        "size": 6
       }
     },
     {
@@ -3621,10 +3573,6 @@
         "outdegree": 6,
         "degree": 9,
         "size": 10
-        "indegree": 6,
-        "outdegree": 8,
-        "degree": 14,
-        "size": 15
       }
     },
     {
@@ -3679,10 +3627,6 @@
         "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 14,
-        "size": 15,
-        "indegree": 6,
-        "outdegree": 8,
         "degree": 15,
         "size": 16,
         "indegree": 6,
@@ -3742,13 +3686,6 @@
         "degree": 12,
         "size": 13,
         "indegree": 6,
-        "degree": 13,
-        "size": 14,
-        "indegree": 6,
-        "outdegree": 7,
-        "degree": 12,
-        "size": 13,
-        "indegree": 6,
         "outdegree": 6,
         "betweenness": 0,
         "eigenvector": 0,
@@ -3801,17 +3738,6 @@
         "outdegree": 9,
         "degree": 32,
         "size": 33
-        "indegree": 22,
-        "outdegree": 9,
-        "degree": 31,
-        "size": 32
-        "outdegree": 9,
-        "degree": 31,
-        "size": 32
-        "indegree": 27,
-        "outdegree": 9,
-        "degree": 36,
-        "size": 37
       }
     },
     {
@@ -3832,10 +3758,6 @@
         "outdegree": 8,
         "degree": 13,
         "size": 14
-        "indegree": 6,
-        "outdegree": 8,
-        "degree": 14,
-        "size": 15
       }
     },
     {
@@ -3875,9 +3797,6 @@
         "outdegree": 5,
         "degree": 9,
         "size": 10
-        "outdegree": 7,
-        "degree": 11,
-        "size": 12
       }
     },
     {
@@ -3898,9 +3817,6 @@
         "outdegree": 1,
         "degree": 2,
         "size": 3
-        "outdegree": 2,
-        "degree": 3,
-        "size": 4
       }
     },
     {
@@ -3940,13 +3856,6 @@
         "outdegree": 4,
         "degree": 12,
         "size": 13
-        "outdegree": 3,
-        "degree": 11,
-        "size": 12
-        "indegree": 12,
-        "outdegree": 3,
-        "degree": 15,
-        "size": 16
       }
     },
     {
@@ -4141,6 +4050,9 @@
         "outdegree": 5,
         "degree": 11,
         "size": 12
+      }
+    },
+    {
       "_id": "elem-akzeptanzMedium",
       "attributes": {
         "label": "Akzeptanz des gewählten Mediums durch Team",
@@ -4187,22 +4099,6 @@
       }
     },
     {
-      "_id": "elem-bewusstseinMismatch",
-      "attributes": {
-        "label": "Bewusstsein für Mismatch zwischen Aufgabe und Medium",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "Reflexion",
-          "Medienwahl",
-          "Feedback",
-          "Verbesserung"
-        ],
-        "description": "Der Grad, in dem Teamitglieder aktiv wahrnehmen und articulate, ob das gewählte Medium adäquat für die aktuelle Kommunikationsaufgabe ist – oder nicht. Bewusstsein für Mismatches ermöglicht korrigierende Maßnahmen und kontinuierliche Verbesserung. Wenn Teams nicht bemerken, dass ein Medium nicht passt, können sie ihre Medienwahl nicht anpassen. Dies wird oft durch Reflexion in Retrospektiven, Feedback-Prozessen und Fehlerdiskussionen gefördert. Messbar über Häufigkeit von Mismatch-Erkenntnissen, Qualität von Reflexions-Outputs. Beeinflussbar durch strukturierte Reflexion, Retrospektiven-Qualität, psychologische Sicherheit für Feedback, Error-Awareness-Kultur.",
-        "measurability": 0.5,
-        "influenceability": 1.0
-      }
-    },
-    {
       "_id": "elem-absichtKoordinationsmechanismus",
       "attributes": {
         "label": "Bewusstsein für gezielte Absicht eines Koordinationsmechanismus",
@@ -4219,6 +4115,9 @@
         "outdegree": 6,
         "degree": 10,
         "size": 11
+      }
+    },
+    {
       "_id": "elem-kollabArtefaktInfra",
       "attributes": {
         "label": "Verfügbarkeit kollaborativer Artefakt-Infrastruktur",
@@ -4688,7 +4587,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": ""
+        "label": "[?]"
       },
       "from": "elem-YDXh1U6N",
       "to": "elem-hAWDYq8W"
@@ -5076,7 +4975,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "+",
+        "connection type": "++",
         "label": "[E]"
       },
       "from": "elem-bh4G3Yqp",
@@ -5206,7 +5105,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "+",
+        "connection type": "++",
         "label": "[E]"
       },
       "from": "elem-QOBGtWqO",
@@ -5604,7 +5503,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "+"
+        "connection type": "++",
+        "label": "[?]"
       },
       "from": "elem-QOBGtWqO",
       "to": "elem-rs4KlIHZ"
@@ -9156,73 +9056,6 @@
         "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
       }
     },
-      {
-        "_id": "conn-komKomplexitaet-wahrMedRichness",
-        "from": "elem-komKomplexitaet",
-        "to": "elem-wahrgenommeneMediaRichness",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
-        }
-      },
-
-      {
-        "_id": "conn-erfahrung-to-kommunikationsqualitaet",
-        "from": "elem-k8VAutpT",
-        "to": "elem-bh4G3Yqp",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höheres Erfahrungsniveau der Teammitglieder verbessert die Kommunikationsqualität durch effektivere Informationsvermittlung und besseres gegenseitiges Verständnis."
-        }
-      },
-      {
-        "_id": "conn-erfahrung-to-sprintBacklog",
-        "from": "elem-k8VAutpT",
-        "to": "elem-sprintBacklogQuality",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höheres Erfahrungsniveau ermöglicht realistischere Aufgabenschätzungen und bessere Aufgabenzuschnitte im Sprint Backlog."
-        }
-      },
-      {
-        "_id": "conn-erfahrung-to-aufgabenpriorisierung",
-        "from": "elem-k8VAutpT",
-        "to": "elem-QgfybLh0",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höheres Erfahrungsniveau unterstützt bessere Aufgabenpriorisierung durch bessere Einschätzung von Risiken, Aufwand und Abhängigkeiten."
-        }
-      },
-
-      {
-        "_id": "conn-feedback-to-teamverstaendnis",
-        "from": "elem-cHlGVpZ5",
-        "to": "elem-VombH8FP",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
-        }
-      },
     {
       "_id": "conn-RETROSPECTIVE-TO-IMPROVEMENT",
       "from": "elem-retrospektive001",
@@ -11226,14 +11059,6 @@
       }
     },
     {
-      "_id": "conn-ZEITDRUCK-TO-MEDIUM-PASSUNG",
-      "from": "elem-niveauZeitdruck",
-      "_id": "conn-RETROSPECTIVE-TO-REFLECTION-MEDIA-EFFECTIVENESS",
-      "from": "elem-retrospektive001",
-      "to": "elem-reflexionMedianwirksamkeit",
-      "_id": "conn-ERFAHRUNGSWISSEN-TO-MEDIUM-PASSUNG",
-      "from": "elem-hHvH3JMB",
-      "to": "elem-kommunikationsMediumPassung",
       "_id": "conn-SB-QUALITY-TO-ARTEFAKT",
       "from": "elem-sprintBacklogQuality",
       "to": "elem-lcDSwFU2",
@@ -11249,10 +11074,14 @@
     {
       "_id": "conn-REFLECTION-MEDIA-EFFECTIVENESS-TO-MEDIUM-PASSUNG",
       "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Höheres Ausmaß der Nutzung von Erfahrungswissen ermöglicht bessere Medium-Aufgabe-Passung: Erfahrene Teams wissen, welches Kommunikationsmedium für welche Aufgabentypen am effektivsten ist."
-        "description": "Höhere Qualität des Sprint Backlogs ermöglicht bessere Artefaktqualität durch klarere Anforderungen, bessere Task-Definition und realistische Planung."
+        "description": "Höheres Ausmaß der Nutzung von Erfahrungswissen ermöglicht bessere Medium-Aufgabe-Passung: Erfahrene Teams wissen, welches Kommunikationsmedium für welche Aufgabentypen am effektivsten ist.\n\nHöhere Qualität des Sprint Backlogs ermöglicht bessere Artefaktqualität durch klarere Anforderungen, bessere Task-Definition und realistische Planung."
       }
     },
     {
@@ -11324,6 +11153,11 @@
       "_id": "conn-REIFEGRAD-TO-ARTEFAKT-AUFGABE-PASSUNG",
       "from": "elem-reifeGradArtefakt",
       "to": "elem-artefaktAufgabePassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[?]",
         "description": "Hochwertige Retrospektiven fördern explizite Reflexion über die Wirksamkeit der eingesetzten Kommunikationsmedien und leiten konkrete Anpassungen der Medium-Passung ein. Teams identifizieren in der Retrospektive, welche Medien für welche Aufgaben gut funktioniert haben und passen ihre Medienwahl entsprechend an."
       }
     },
@@ -11344,6 +11178,11 @@
       "_id": "conn-RAUMNAEHETEAM-TO-VERFÜGBARKEIT-ENTWICKLER",
       "from": "elem-raumnaeheTeam",
       "to": "elem-GzVWvit5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[?]",
         "connection type": "++",
         "description": "Ein höherer Reifegrad des Artefakts (mehr Details, Vollständigkeit, Klarheit) ermöglicht bessere Artefakt-Aufgabe-Passung durch reichhaltigere Informationsvermittlung und explicitere Representation von komplexen Anforderungen."
       }
@@ -11352,6 +11191,11 @@
       "_id": "conn-MEHRDEUTIGKEIT-TO-ARTEFAKT-PASSUNG",
       "from": "elem-aufgMehrdeutigkeit",
       "to": "elem-artefaktAufgabePassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[?]",
         "description": "Höhere Verfügbarkeit reichhaltiger Kommunikationsmedien ermöglicht bessere Realisierung der optimalen Medium-Passung durch mehr Optionen und Flexibilität. Teams mit Zugang zu Video, Whiteboard-Tools und reichhaltigen Synchronisations-Kanälen können ihre Medium-Passung-Strategie besser an Aufgabenkomplexität anpassen."
       }
     },
@@ -11372,6 +11216,11 @@
       "_id": "conn-VERFÜGBARKEIT-ENTWICKLER-TO-MEDIEN-VERFÜGBARKEIT",
       "from": "elem-GzVWvit5",
       "to": "elem-medienVerfügbarkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[?]",
         "description": "Höhere Mehrdeutigkeit der Aufgabe erfordert reichhaltigere, detailliertere Artefakte und damit bessere Artefakt-Aufgabe-Passung. Mehrdeutige Anforderungen brauchen explizite Visualisierung, Prototypen oder detaillierte Spezifikationen zur Klärung."
       }
     },
@@ -11379,6 +11228,11 @@
       "_id": "conn-SYSTEMKOMPLEXITAET-TO-ARTEFAKT-PASSUNG",
       "from": "elem-1T8mAYkP",
       "to": "elem-artefaktAufgabePassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[?]",
         "description": "Hochwertige Workflow-Visualisierung (Kanban Board, Task-Status-Tracking) strukturiert die Qualität der Dailies durch geteilte Sicht auf Blockers, WIP und Fortschritt. Teams mit transparenten, aktuellen Boards brauchen weniger verbale Erklärungen und können sich gezielter auf Probleme fokussieren."
       }
     },
@@ -11392,15 +11246,18 @@
       "attributes": {
         "label": "[A]",
         "connection type": "--",
-        "description": "Geringe praktische Verfügbarkeit des Entwicklers (remote, nicht kolokalisiert, zu anderen Zeiten) reduziert die praktisch verfügbaren reichhaltigen Kommunikationsmedien für diesen Entwickler: Face-to-Face-Kommunikation wird unmöglich, synchrone Medien (Video, Phone) sind schwerer zu koordinieren. Remote-Entwickler können nur auf asynchrone/schriftliche oder zeitversetzte Medien zugreifen → praktisch reduzierte Media-Richness."
-        "connection type": "++",
-        "description": "Höhere Systemkomplexität erfordert reichhaltigere Artefakte (detaillierte Architektur-Diagramme, Prototypen, umfassende Spezifikationen) für effektive Kommunikation und Verständigung. Komplexe Systeme können nicht mit minimalen Sketches verstanden werden."
+        "description": "Geringe praktische Verfügbarkeit des Entwicklers (remote, nicht kolokalisiert, zu anderen Zeiten) reduziert die praktisch verfügbaren reichhaltigen Kommunikationsmedien für diesen Entwickler: Face-to-Face-Kommunikation wird unmöglich, synchrone Medien (Video, Phone) sind schwerer zu koordinieren. Remote-Entwickler können nur auf asynchrone/schriftliche oder zeitversetzte Medien zugreifen → praktisch reduzierte Media-Richness.\n\nHöhere Systemkomplexität erfordert reichhaltigere Artefakte (detaillierte Architektur-Diagramme, Prototypen, umfassende Spezifikationen) für effektive Kommunikation und Verständigung. Komplexe Systeme können nicht mit minimalen Sketches verstanden werden."
       }
     },
     {
       "_id": "conn-ARTEFAKT-PASSUNG-TO-REVIEW",
       "from": "elem-artefaktAufgabePassung",
       "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[?]",
         "description": "Bessere Medium-Aufgabe-Passung führt zu höherer Klarheit und Verständlichkeit der Sprint-Ziele. Wenn Ziele durch das richtige Medium (synchrone F2F für komplexe Ziele, asynchrone Boards für klare Ziele) kommuniziert werden, verringert sich Ambiguittät und erhöht sich gemeinsames Verständnis."
       }
     },
@@ -11421,6 +11278,11 @@
       "_id": "conn-ARTEFAKT-PASSUNG-TO-KOMMUNIKATION",
       "from": "elem-artefaktAufgabePassung",
       "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[?]",
         "description": "Bessere Medium-Passung während Planning führt zu höherer Planungsqualität. Wenn mehrdeutige Items in synchronen, reichhaltigen Medien (Whiteboard, F2F-Sessions) geklärt werden, entsteht bessere Item-Klarheit, realistische Schätzungen und höheres Commitment. Asynchrone Planung für klare Items spart Zeit ohne Qualitätseinbußen."
       }
     },
@@ -11434,8 +11296,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
-        "description": "Höhere Fehlerakzeptanz im Team ermöglicht bessere Feedback-Qualität durch psychologische Sicherheit. Teams mit hoher Fehlerakzeptanz geben offeneres, konstruktiveres Feedback ohne Angst vor Konfrontation oder negativen Konsequenzen. Fehler werden als Lernchancen kommuniziert, nicht als Vorwürfe."
+        "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung.\n\nHöhere Fehlerakzeptanz im Team ermöglicht bessere Feedback-Qualität durch psychologische Sicherheit. Teams mit hoher Fehlerakzeptanz geben offeneres, konstruktiveres Feedback ohne Angst vor Konfrontation oder negativen Konsequenzen. Fehler werden als Lernchancen kommuniziert, nicht als Vorwürfe."
       }
     },
     {
@@ -11543,58 +11404,6 @@
       }
     },
     {
-      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
-      "from": "elem-reflexionMedianwirksamkeit",
-      "to": "elem-bewusstseinMismatch",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
-      }
-    },
-    {
-      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
-      "from": "elem-bewusstseinMismatch",
-      "to": "elem-retrospektive001",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnissen führt."
-      }
-    },
-    {
-      "_id": "conn-ZEITDRUCK-TO-BEWUSSTSEIN",
-      "from": "elem-niveauZeitdruck",
-      "to": "elem-bewusstseinMismatch",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "--",
-        "description": "Hoher Zeitdruck reduziert das Bewusstsein für Medium-Aufgabe-Mismatches. Unter Zeit- und Ressourcendruck fokussieren Teams auf kurzfristige Lösungen und vernachlässigen reflektive Aktivitäten, weshalb Probleme mit der Medienwahl übersehen werden."
-      }
-    },
-    {
-      "_id": "conn-FEHLERAKZEPTANZ-TO-BEWUSSTSEIN",
-      "from": "elem-1L5rJCH1",
-      "to": "elem-bewusstseinMismatch",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Eine starke Fehlerakzeptanz-Kultur im Team fördert das Bewusstsein für Medium-Mismatches. Teams mit höherer psychologischer Sicherheit teilen offener mit, wenn ein Medium nicht funktioniert, und diskutieren Probleme aktiv statt sie zu ignorieren."
-      }
-    },
-    {
       "_id": "conn-STRUKTUR-MEDIA-RICHNESS-TO-FEEDBACK",
       "from": "elem-strukturelleMediaRichness",
       "to": "elem-cHlGVpZ5",
@@ -11657,58 +11466,6 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsame Artefakt-Erstellung fördert Alignment und geteilte mentale Modelle zwischen Teammitgliedern."
-      }
-    },
-    {
-      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
-      "from": "elem-reflexionMedianwirksamkeit",
-      "to": "elem-bewusstseinMismatch",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
-      }
-    },
-    {
-      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
-      "from": "elem-bewusstseinMismatch",
-      "to": "elem-retrospektive001",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnissen führt."
-      }
-    },
-    {
-      "_id": "conn-ZEITDRUCK-TO-BEWUSSTSEIN",
-      "from": "elem-niveauZeitdruck",
-      "to": "elem-bewusstseinMismatch",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "--",
-        "description": "Hoher Zeitdruck reduziert das Bewusstsein für Medium-Aufgabe-Mismatches. Unter Zeit- und Ressourcendruck fokussieren Teams auf kurzfristige Lösungen und vernachlässigen reflektive Aktivitäten, weshalb Probleme mit der Medienwahl übersehen werden."
-      }
-    },
-    {
-      "_id": "conn-FEHLERAKZEPTANZ-TO-BEWUSSTSEIN",
-      "from": "elem-1L5rJCH1",
-      "to": "elem-bewusstseinMismatch",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Eine starke Fehlerakzeptanz-Kultur im Team fördert das Bewusstsein für Medium-Mismatches. Teams mit höherer psychologischer Sicherheit teilen offener mit, wenn ein Medium nicht funktioniert, und diskutieren Probleme aktiv statt sie zu ignorieren."
       }
     },
     {
@@ -11800,32 +11557,6 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Schlechte Qualität gemeinsamer mentaler Modelle führt zu höherem Bedarf an expliziten Boundary Objects (z.B. API-Spezifikationen, Schnittstellenkontrakte, formale Artefakte), um Missverständnisse zwischen Teams zu vermeiden. Gute Modelle reduzieren diesen Bedarf."
-      }
-    },
-    {
-      "_id": "conn-STRUKTUR-MEDIA-RICHNESS-TO-FEEDBACK",
-      "from": "elem-strukturelleMediaRichness",
-      "to": "elem-cHlGVpZ5",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Strukturell reichhaltigere Medien (mit mehr Cues, schnellerem Feedback, höherer Anpassbarkeit) ermöglichen qualitativ besseres Feedback. Face-to-Face und Video ermöglichen Echtzeit-Feedback mit nonverbalen Signalen und sofortiger Klärung, während asynchrone Text-Medien verzögertes, weniger reichhaltiges Feedback geben."
-      }
-    },
-    {
-      "_id": "conn-WAHRGENOMMENE-MEDIA-RICHNESS-TO-FEEDBACK",
-      "from": "elem-wahrgenommeneMediaRichness",
-      "to": "elem-cHlGVpZ5",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Wenn Team-Mitglieder ein Medium als reichhaltig und vertraut wahrnehmen (hohe wahrgenommene Richness), geben sie besseres, tiefergehendes Feedback, weil sie dem Medium zutrauen, Nuancen zu transportieren. Geringe wahrgenommene Richness führt zu oberflächlichem Feedback und Missverständnis-Vermeidung (communication avoidance)."
       }
     },
     {
@@ -12710,19 +12441,6 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Anforderungsänderungen während des Sprints erhöhen die Aufgabenbelastung durch zusätzliche Umplanungen, Neubewertungen und Rework-Aktivitäten."
-      }
-    },
-    {
-      "_id": "conn-MEETING-STRUCTURE-TO-DAILY-QUALITY",
-      "from": "elem-DyjLKFjk",
-      "to": "elem-QOBGtWqO",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Klare Agenda-Struktur und Moderationsstandards im Meeting allgemein verbessern die Struktur & Zielorientierung des Daily konkret durch konsistente Ablaufklarheit, wodurch sich das Team besser auf Sprint-Ziele ausrichtet."
       }
     },
     {
