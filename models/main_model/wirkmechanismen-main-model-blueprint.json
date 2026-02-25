@@ -1385,6 +1385,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.21808333333333324,
         "metrics::last": 0.8908053592313775,
+        "degree": 14,
+        "size": 15,
+        "indegree": 10,
+        "outdegree": 4,
         "degree": 13,
         "size": 14,
         "indegree": 10,
@@ -1612,6 +1616,10 @@
         "description": "Vorschlag für die Definition (bzw. Bewertung der Qualität): \n\nKommunikationsmodell von Shannon und Weaver als Grundlage\n-> Das was gesendet wird, soll auch im Optimallfall ohne merkliche Verluste beim Empfänger ankommen\n\n-> weitere Modelle je Situation (5 Axiome der Kommunikation von Watzlawick, Kommunikationsquadrat von Schulz von Thun, etc.)\n\nWichitge Eigenschaften einer \"guten\" Kommunikation:\n- Klarheit der Botschaft\n- Transparenz des Inhaltes (der Absicht)\n- situations- und adressatengerecht (Tonfall, Sprache, Inhalt)\n- Kohärenz (logisch und nicht widersprüchlich)\n- Aufmerksamkeit (aktives Zuhören)\n- Soziale Faktoren (Respekt, Wertschätzung, Empathie)\n- Sprachliche und nonverbale Kongruenz",
         "closeness": 0.3901666666666666,
         "metrics::last": 0.9657893118665918,
+        "degree": 41,
+        "size": 42,
+        "indegree": 19,
+        "outdegree": 22,
         "degree": 40,
         "size": 41,
         "indegree": 19,
@@ -3345,6 +3353,10 @@
         "micmac exposure": 0.6885549396250221,
         "measurability": 1.0,
         "influenceability": 0.5,
+        "indegree": 4,
+        "outdegree": 2,
+        "degree": 6,
+        "size": 7
         "indegree": 3,
         "outdegree": 2,
         "degree": 5,
@@ -3727,6 +3739,9 @@
         "description": "Die durch objektive Mediencharakteristiken definierte Basis-Reichhaltigkeit eines Kommunikationsmediums gemäß Media Richness Theory (Daft & Lengel, 1986). Diese wird durch vier messbare Kriterien definiert: (1) Anzahl der Hinweise/Cues (nonverbale Signale, Körpersprache, Tonfall), (2) Reaktionszeit bzw. Feedbackgeschwindigkeit (synchron vs. asynchron), (3) Anpassbarkeit der Antwort (Grad der Individualisierung), und (4) Natürlichkeit der Sprache (technisch vs. natürlich). Dies ergibt eine strukturelle Rangfolge: Face-to-Face (höchste Richheit mit allen Cues und sofortiger Anpassung) > Video (viele Cues, schnelles Feedback) > Telefon (Audio-Cues, schnelles Feedback) > schriftliche Medien wie Email (minimale Cues, asynchron). Diese Rangfolge ist objektiv, aber ihre tatsächliche Effektivität für eine konkrete Aufgabe wird durch die Erfahrung der Kommunikationspartner moduliert (siehe: Wahrgenommene Medienreichhaltigkeit).",
         "closeness": 0,
         "metrics::last": 0,
+        "degree": 12,
+        "size": 13,
+        "indegree": 6,
         "degree": 13,
         "size": 14,
         "indegree": 6,
@@ -3782,6 +3797,10 @@
         "element type": "Einflussfaktoren",
         "measurability": 0.5,
         "influenceability": 1,
+        "indegree": 23,
+        "outdegree": 9,
+        "degree": 32,
+        "size": 33
         "indegree": 22,
         "outdegree": 9,
         "degree": 31,
@@ -3918,6 +3937,9 @@
         "measurability": 0.5,
         "influenceability": 0.5,
         "indegree": 8,
+        "outdegree": 4,
+        "degree": 12,
+        "size": 13
         "outdegree": 3,
         "degree": 11,
         "size": 12
@@ -4059,6 +4081,24 @@
         "description": "Passung zwischen dem Reifegrad und der Reichhaltigkeit des Artefakts und der Komplexität sowie Mehrdeutigkeit der Kommunikationsaufgabe. Analog zur Media Richness Theory für Medien: Aufgaben mit hoher Komplexität und Mehrdeutigkeit erfordern reichhaltigere, detailliertere Artefakte (detaillierte Prototypen, vollständige Mockups, umfassende Spezifikationen), während einfache, vorwiegend koordinative Aufgaben mit skizzenhaften oder minimalen Artefakten ausreichen. Messbar über Alignment zwischen Artefakt-Detaigrad und übertragene Aufgabenkomplexität, Team-Feedback zur Artefakt-Angemessenheit. Beeinflussbar durch explizite Conversations über erforderlichen Detailgrad, Priorisierung von Refinement, Tool-Wahl für Artefakt-Erstellung.",
         "measurability": 0.5,
         "influenceability": 1.0,
+        "indegree": 3,
+        "outdegree": 2,
+        "degree": 5,
+        "size": 6
+      }
+    },
+    {
+      "_id": "elem-gemeinsamVerstaendnis",
+      "attributes": {
+        "label": "Gemeinsames Verständnis des Teams",
+        "element type": "Erfolgsfaktor",
+        "tags": [
+          "Kommunikation",
+          "O&B Framework"
+        ],
+        "description": "Grad des gemeinsamen Verständnisses im Team über Ziele, Anforderungen, Aufgaben und Kontext. Zentrale Erfolgsdimension gemäß Okhuysen & Bechky (2009) Common Understanding. Messbar über Team-Befragungen zu geteiltem Verständnis, Anzahl Missverständnisse/Rework durch Fehlinterpretationen, Konsistenz in Entscheidungen. Beeinflussbar durch Qualität der Kommunikation, Konvergenz-Mechanismen, geteilte mentale Modelle.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
         "indegree": 3,
         "outdegree": 2,
         "degree": 5,
@@ -12709,6 +12749,71 @@
         "label": "[E]",
         "connection type": "--",
         "description": "Strukturell reichhaltige Medien (F2F, Video, synchrone Board-Tools) ermöglichen schnelle Klärungszyklen durch nonverbale Signale, unmittelbares Feedback und Kontext-Vermittlung, reduzieren Ambiguität und Missverständnisse."
+      }
+    },
+    {
+      "_id": "conn-KONVERGENZ-TO-COMMON-UNDERSTANDING",
+      "from": "elem-VombH8FP",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Konvergenz des Teamverständnisses führt zu besserem gemeinsamen Verständnis des Teams. Konvergenz-Mechanismen (iterative Klärung, Feedback-Zyklen) bauen systematisch gemeinsames Verständnis auf."
+      }
+    },
+    {
+      "_id": "conn-COMM-QUALITY-TO-COMMON-UNDERSTANDING",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Qualität der Kommunikation fördert gemeinsames Verständnis durch Klarheit, Vollständigkeit, Konsistenz und wechselseitiges Verständnis der ausgetauschten Informationen."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELS-TO-COMMON-UNDERSTANDING",
+      "from": "elem-mentalModelle",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Geteilte mentale Modelle ermöglichen gemeinsames Verständnis durch konsistente Interpretation von Informationen, gleiche Annahmen über Kausalzusammenhänge und gemeinsame Problemlösungsstrategien."
+      }
+    },
+    {
+      "_id": "conn-COMMON-UNDERSTANDING-TO-TEAM-PERFORMANCE",
+      "from": "elem-gemeinsamVerstaendnis",
+      "to": "elem-AEqctl8J",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsames Verständnis verbessert die Team-Performance durch reduzierte Missverständnisse, weniger Rework, konsistentere Entscheidungen und effizientere Koordination."
+      }
+    },
+    {
+      "_id": "conn-COMMON-UNDERSTANDING-TO-COORDINATION",
+      "from": "elem-gemeinsamVerstaendnis",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsames Verständnis verbessert den Grad der Koordination durch bessere implizite Koordination, konsistente Erwartungen und reduzierte Koordinationskosten."
       }
     }
   ]
