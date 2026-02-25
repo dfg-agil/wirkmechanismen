@@ -11085,6 +11085,32 @@
         "connection type": "++",
         "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnisse führt."
       }
+    },
+    {
+      "_id": "conn-ZEITDRUCK-TO-BEWUSSTSEIN",
+      "from": "elem-niveauZeitdruck",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hoher Zeitdruck reduziert das Bewusstsein für Medium-Aufgabe-Mismatches. Unter Zeit- und Ressourcendruck fokussieren Teams auf kurzfristige Lösungen und vernachlässigen reflektive Aktivitäten, weshalb Probleme mit der Medienwahl übersehen werden."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-BEWUSSTSEIN",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine starke Fehlerakzeptanz-Kultur im Team fördert das Bewusstsein für Medium-Mismatches. Teams mit höherer psychologischer Sicherheit teilen offener mit, wenn ein Medium nicht funktioniert, und diskutieren Probleme aktiv statt sie zu ignorieren."
+      }
     }
   ]
 }
