@@ -3972,6 +3972,21 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-teampraeferenz",
+      "attributes": {
+        "label": "Teampräferenz für Kommunikationskanäle",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Medienwahl",
+          "Team-Kultur"
+        ],
+        "description": "Die habituellen Vorlieben und tradierten Gewohnheiten der Team-Mitglieder für bestimmte Kommunikationskanäle und Medien. Jedes Team entwickelt über die Zeit gewisse Präferenzen für Kommunikationstools, Protokolle und Kanäle (z.B. Slack vs. Email, Synchron vs. Asynchron, F2F vs. Remote-Tools). Diese Präferenzen sind oft pfadabhängig (einmal etabliert, schwer zu ändern) und können von reiner Media-Richness-Theorie abweichen. Teampräferenzen können pragmatisch sinnvoll sein (bewährte Werkzeuge) oder suboptimal (Gewöhnung übertrumpft bessere Optionen). Messbar über Tool-Nutzungsstatistiken, Kommunikationsmuster-Analysen, Team-Feedback zu Kanal-Vorlieben. Beeinflussbar durch Führungs-Initiative, Schulung, positives Feedback bei neuen Kanälen, Zug-Zang-Momente.",
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -11001,6 +11016,32 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Wenn das Team das gewählte Medium akzeptiert und aktiv nutzt, entstehen mehr Erfahrungen und Daten für Reflexion über die Wirksamkeit des Mediums. Höhere Akzeptanz führt zu stärkerem Engagement und somit zu besseren Einsichten beim Reflektieren über Medium-Passung."
+      }
+    },
+    {
+      "_id": "conn-ERFAHRUNG-TO-TEAMPRAEFERENZ",
+      "from": "elem-k8VAutpT",
+      "to": "elem-teampraeferenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Erfahrungsniveau der Teammitglieder prägt stärkere und informiertere Teampräferenzen für Kommunikationskanäle. Erfahrene Teams entwickeln bewusster Vorlieben basierend auf Best Practices und genauen Wahrnehmungen."
+      }
+    },
+    {
+      "_id": "conn-TEAMPRAEFERENZ-TO-MEDIUM-PASSUNG",
+      "from": "elem-teampraeferenz",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Teampräferenzen beeinflussen die Medienwahl, können aber positiv oder negativ wirken. Wenn Team-Vorlieben mit der Task-Komplexität aligned sind (Preference = Best-Practice), wird die Medium-Passung besser. Wenn aber Gewohnheit über optimale Wahl siegt, wird die Passung schlechter."
       }
     }
   ]
