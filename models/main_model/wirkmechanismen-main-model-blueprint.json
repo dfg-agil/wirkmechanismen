@@ -3838,6 +3838,26 @@
         "degree": 5,
         "size": 6
       }
+    },
+    {
+      "_id": "elem-kontextBequemlichkeit",
+      "attributes": {
+        "label": "Kontextuelle Bequemlichkeit",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Media Richness",
+          "Adoption",
+          "Context"
+        ],
+        "description": "Praktische Leichtigkeit und psychologischer Komfort, ein bestimmtes Medium in dieser spezifischen Situation zu nutzen. Bestimmt durch: (1) räumliche Nähe (Co-Location %), (2) zeitliche Überlappung (Zeitzonen-Kompatibilität), (3) Tool-Vertrautheit (Habitualisierung, Learning Curve), (4) organisatorische Verfügbarkeit (Raum-Buchung, Infrastruktur, Lizenzen), (5) psychologische Barrieren (individuelle Komfortzonen, Technik-Angst, Norm-Alignment). Höhere Bequemlichkeit führt zu besserer Adoption und praktisch effektiverer Medium-Nutzung, auch wenn theoretisch bessere Alternativen existieren. Messbar über Co-Location-Metriken, Zeitzonen-Analyse, Tool-Usage-Logs, Infrastruktur-Verfügbarkeit, Retro-Feedback zu 'friction'. Beeinflussbar durch Team-Kultur (Norm-Setting), Management (Infrastruktur-Investition, Home-Office-Policy), Training (Skill-Building).",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 1,
+        "outdegree": 1,
+        "degree": 2,
+        "size": 3
+      }
     }
   ],
   "connections": [
@@ -10379,6 +10399,19 @@
         "label": "[A]",
         "connection type": "++",
         "description": "COMPETENCE REINFORCEMENT LOOP (bidirectional): Wenn Team ein Medium als reichhaltig und effektiv empfindet (durch erfolgreiche Nutzung, positive Ergebnisse), erhöht das nicht nur die Zufriedenheit, sondern auch die Medienkompetenz - das Team vertieft sich mehr in das Tool, nutzt mehr Features, wird routinierter. Erfolg + Wahrnehmung → Mehr Vertrauen → Mehr Kompetenz (virtuous cycle)."
+      }
+    },
+    {
+      "_id": "conn-KONTEXTUELLE-BEQU-TO-MEDIUM-PASSUNG",
+      "from": "elem-kontextBequemlichkeit",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "MODERATING FACTOR - Contextual Ease: Höhere kontextuelle Bequemlichkeit ermöglicht bessere praktische Realisierung der optimalen Medium-Passung. Auch wenn Aufgabenkomplexität Video erfordert: wenn Zeitzonen ungünstig sind, keine Kameras verfügbar sind oder Team wenig Erfahrung mit dem Tool hat, wird die praktische Passung erschwert. Teams weichen auf bequemere Alternativen aus. Umgekehrt: wenn F2F oder Video psychologisch bequem und institutionalisiert ist (gute Erfahrung, verfügbarer Raum, zeitliche Überlappung), nutzen Teams diese reichhaltigeren Medien lieber, auch für moderately-komplexe Aufgaben."
       }
     }
   ]
