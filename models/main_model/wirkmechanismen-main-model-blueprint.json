@@ -110,10 +110,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.22026190476190471,
         "metrics::last": 0.8830036809263201,
-        "degree": 5,
-        "size": 6,
+        "degree": 6,
+        "size": 7,
         "indegree": 3,
-        "outdegree": 2,
+        "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0.002806812667520127,
         "reach": 0.039603960396039604,
@@ -1343,9 +1343,9 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.21808333333333324,
         "metrics::last": 0.8908053592313775,
-        "degree": 13,
-        "size": 14,
-        "indegree": 10,
+        "degree": 14,
+        "size": 15,
+        "indegree": 11,
         "outdegree": 3,
         "betweenness": 0.0027218213884880557,
         "eigenvector": 0.007332591615659199,
@@ -1633,9 +1633,9 @@
         "measurability": 0.5,
         "influenceability": 1.0,
         "indegree": 3,
-        "outdegree": 4,
-        "degree": 7,
-        "size": 8
+        "outdegree": 5,
+        "degree": 8,
+        "size": 9
       }
     },
     {
@@ -1941,10 +1941,10 @@
         "description": "Teamdynamik: Für eine offene und respektvolle Atmosphäre sorgen.",
         "closeness": 0.27863095238095226,
         "metrics::last": 0.8782324152268047,
-        "degree": 24,
-        "size": 25,
+        "degree": 25,
+        "size": 26,
         "indegree": 9,
-        "outdegree": 15,
+        "outdegree": 16,
         "betweenness": 0.06251515151515152,
         "eigenvector": 0.007286865098605407,
         "reach": 0.1485148514851485,
@@ -3531,9 +3531,9 @@
         "measurability": 0.5,
         "influenceability": 1,
         "indegree": 5,
-        "outdegree": 7,
-        "degree": 12,
-        "size": 13
+        "outdegree": 8,
+        "degree": 13,
+        "size": 14
       }
     },
     {
@@ -3755,9 +3755,9 @@
         "measurability": 0.5,
         "influenceability": 1,
         "indegree": 4,
-        "outdegree": 5,
-        "degree": 9,
-        "size": 10
+        "outdegree": 6,
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -3813,10 +3813,10 @@
         "description": "Grad, in welchem das Team ein korrektes, einheitliches Verständnis über Prozess, Architektur, Anforderungen und gegenseitige Verantwortlichkeiten hat. Teams mit hoher Qualität gemeinsamer mentaler Modelle treffen schnellere, bessere Entscheidungen, brauchen weniger Koordination und können sich selbst organisieren. Messbar über Planning-Poker-Varianz, Retrospektive-Insights zu Missverständnissen und Code-Review-Diskussionen über implizite Annahmen.",
         "measurability": 0.5,
         "influenceability": 0.5,
-        "indegree": 9,
+        "indegree": 10,
         "outdegree": 3,
-        "degree": 12,
-        "size": 13
+        "degree": 13,
+        "size": 14
       }
     },
     {
@@ -3992,6 +3992,25 @@
         "outdegree": 4,
         "degree": 10,
         "size": 11
+      }
+    },
+    {
+      "_id": "elem-externalisierungAnnahmen",
+      "attributes": {
+        "label": "Externalisierung impliziter Annahmen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kognitiv",
+          "Reflexion",
+          "Wissensmanagement"
+        ],
+        "description": "Prozess und Faehigkeit, unreflektierte Annahmen und implizites Wissen explizit zu machen und mit dem Team zu kommunizieren. Ermoeglicht gemeinsame Modelle und vermeidet verdeckte Konflikte.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 5,
+        "outdegree": 2,
+        "degree": 7,
+        "size": 8
       }
     }
   ],
@@ -11249,6 +11268,97 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Selbstkoordination foerdert Wissensaustausch durch eigenstaendige Dokumentation und aktives Teilen."
+      }
+    },
+    {
+      "_id": "conn-PSYCH-SICHERHEIT-TO-EXTERNALISIERUNG",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit erleichtert Externalisierung, da Annahmen ohne Angst vor Kritik geaußert werden koennen."
+      }
+    },
+    {
+      "_id": "conn-FEEDBACK-TO-EXTERNALISIERUNG",
+      "from": "elem-cHlGVpZ5",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Feedback foerdert Externalisierung durch explizite Rueckmeldung zu Annahmen und Missverstaendnissen."
+      }
+    },
+    {
+      "_id": "conn-TEAMDYNAMIK-TO-EXTERNALISIERUNG",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Teamdynamik schafft ein Umfeld, in dem Annahmen offen geaußert und verhandelt werden koennen."
+      }
+    },
+    {
+      "_id": "conn-WISSENSAUSTAUSCH-TO-EXTERNALISIERUNG",
+      "from": "elem-gdWissAust01",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch formt einen Klima, in dem implizites Wissen geteilt und explizit gemacht wird."
+      }
+    },
+    {
+      "_id": "conn-RETROSPEKTIVE-TO-EXTERNALISIERUNG",
+      "from": "elem-retrospektive001",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven schaffen Raum, um Annahmen explizit zu machen und aus Erfahrungen zu lernen."
+      }
+    },
+    {
+      "_id": "conn-EXTERNALISIERUNG-TO-MENTALMODELLE",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Externalisierung verbesert gemeinsame mentale Modelle durch explizite Klaerung von Annahmen und gegenseitiger Verstaendigung."
+      }
+    },
+    {
+      "_id": "conn-EXTERNALISIERUNG-TO-KONVERGENZ",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Externalisierung foerdert die Konvergenz des Teamverstaendnisses durch transparente Diskussion und Alignment von Perspektiven."
       }
     }
   ]
