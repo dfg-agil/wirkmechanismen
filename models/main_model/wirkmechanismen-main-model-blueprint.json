@@ -3878,6 +3878,25 @@
         "degree": 0,
         "size": 1
       }
+    },
+    {
+      "_id": "elem-reifeGradArtefakt",
+      "attributes": {
+        "label": "Reifegrad des Artefakts",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Artefakte",
+          "Prototypen",
+          "Design"
+        ],
+        "description": "Der Reifegrad eines Artefakts beschreibt den Grad der Vollständigkeit, Detailliertheit, Genauigkeit und Verständlichkeit von visuellen und dokumentarischen Artefakten (Prototypen, Mockups, Wireframes, Diagramme, Skizzen). Reife Artefakte enthalten mehr Informationen, sind expliziter in ihrer Darstellung und ermögliche bessere gemeinsame mentale Modelle zwischen Stakeholdern. Messbar über Vollständigkeits-Checklisten, Iterations-Count, Feedback-Zyklen, Detailgrad. Beeinflussbar durch iterative Verbesserung, Refinement-Qualität, Erfahrung und Kommunikation im Team.",
+        "measurability": 1.0,
+        "influenceability": 1.0,
+        "indegree": 4,
+        "outdegree": 3,
+        "degree": 7,
+        "size": 8
+      }
     }
   ],
   "connections": [
@@ -8654,19 +8673,6 @@
         }
       },
       {
-        "_id": "conn-artefaktNutzung-mehrdeutigkeit",
-        "from": "elem-artefaktNutzung",
-        "to": "elem-reduktionMehrdeutigkeit",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Artefakt-Nutzung reduziert Mehrdeutigkeit durch explizite Dokumentation und Visualisierung."
-        }
-      },
-      {
         "_id": "conn-raumnaeheTeam-to-medienwahl",
         "from": "elem-raumnaeheTeam",
         "to": "elem-medienwahlStrategie",
@@ -10588,6 +10594,97 @@
         "label": "[A]",
         "connection type": "++",
         "description": "MODERATING FACTOR - Contextual Ease: Höhere kontextuelle Bequemlichkeit ermöglicht bessere praktische Realisierung der optimalen Medium-Passung. Auch wenn Aufgabenkomplexität Video erfordert: wenn Zeitzonen ungünstig sind, keine Kameras verfügbar sind oder Team wenig Erfahrung mit dem Tool hat, wird die praktische Passung erschwert. Teams weichen auf bequemere Alternativen aus. Umgekehrt: wenn F2F oder Video psychologisch bequem und institutionalisiert ist (gute Erfahrung, verfügbarer Raum, zeitliche Überlappung), nutzen Teams diese reichhaltigeren Medien lieber, auch für moderately-komplexe Aufgaben."
+      }
+    },
+    {
+      "_id": "conn-REFINEMENT-TO-REIFEGRAD",
+      "from": "elem-backlogRefinement",
+      "to": "elem-reifeGradArtefakt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Backlog-Refinement förert einen höheren Reifegrad des Artefakts durch klare und präzise Anforderungsdefinition, die detaillierte und genaue Artefakte ermöglicht."
+      }
+    },
+    {
+      "_id": "conn-ERFAHRUNG-TO-REIFEGRAD",
+      "from": "elem-k8VAutpT",
+      "to": "elem-reifeGradArtefakt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Erfahrungsniveau der Teammitglieder führt zu schneller und direkter höherem Reifegrad des Artefakts durch bessere Entwurfsfähigkeiten und Iterationserfahrung."
+      }
+    },
+    {
+      "_id": "conn-KOMMUNIKATION-TO-REIFEGRAD",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-reifeGradArtefakt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Kommunikationsqualität unterstützt einen höheren Reifegrad des Artefakts durch effektivere iterative Verbesserung und Feedback-Schleifen zur Artefaktentwicklung."
+      }
+    },
+    {
+      "_id": "conn-MEHRDEUTIGKEIT-TO-REIFEGRAD",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-reifeGradArtefakt",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Höhere Mehrdeutigkeit der Aufgabe erschwert die Entwicklung eines hohen Artefakt-Reifegrads, da unklar Anforderungen zu weniger präzisen und weniger detaillierten Artefakten führen."
+      }
+    },
+    {
+      "_id": "conn-REIFEGRAD-TO-KOMMUNIKATION",
+      "from": "elem-reifeGradArtefakt",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höherer Reifegrad des Artefakts verbessert die Kommunikationsqualität durch explizitere, detailliertere und genauerere Darstellung von Anforderungen und Designs."
+      }
+    },
+    {
+      "_id": "conn-REIFEGRAD-TO-WAHRGENOMMENE-RICHNESS",
+      "from": "elem-reifeGradArtefakt",
+      "to": "elem-wahrgenommeneMediaRichness",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer Reifegrad des Artefakts erhöht die wahrgenommene Medienreichhaltigkeit, da detaillierte Prototypen und Mockups ähnliche Informationsdichten wie Face-to-Face-Kommunikation erreichen können."
+      }
+    },
+    {
+      "_id": "conn-REIFEGRAD-TO-MEHRDEUTIGKEIT",
+      "from": "elem-reifeGradArtefakt",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Ein höherer Reifegrad des Artefakts reduziert die Mehrdeutigkeit der Aufgabe durch explizite Visualisierung, detaillierte Spezifikation und Klärung von unklar Anforderungen."
       }
     }
   ]
