@@ -2011,6 +2011,7 @@
       "attributes": {
         "label": "Qualität des Artefakts",
         "element type": "Einflussfaktoren",
+        "description": "Grad der Übereinstimmung und Erfüllung des Artefakts mit den Kundenanforderungen, Akzeptanzkriterien und Sprintzielen. Misst, wie gut ein Artefakt (Prototyp, Mockup, Code, Design, etc.) die gestellten Anforderungen umsetzt und festgelegten Qualitätskriterien entspricht.",
         "closeness": 0.04,
         "metrics::last": 0.8915911447464404,
         "degree": 7,
@@ -3761,6 +3762,26 @@
       }
     },
     {
+      "_id": "elem-reflexionMedianwirksamkeit",
+      "attributes": {
+        "label": "Reflexion der Medienwirksamkeit",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Retrospektive",
+          "Kommunikation",
+          "Kontinuierliche Verbesserung",
+          "Media Richness"
+        ],
+        "description": "Explizite und systematische Reflexion während Retrospektiven darüber, wie wirksam die eingesetzten Kommunikationsmedien und -kanäle waren. Umfasst: Diskussionen über 'Was hat gut/nicht gut funktioniert bei unserer Kommunikation?', explizites Feedback zu Medium-Eignung pro Event/Aufgabe, Ableitung von Änderungen in der Medienwahl (z.B. 'Video für Daily', 'Whiteboard für Planning'). Messbar über: Häufigkeit von Medien-/Kommunikations-Diskussionen in Retro-Agendas, Dokumentierte Medium-Feedback und daraus resultierende Action-Items, Retro-Protokolle. Beeinflussbar durch: Moderations-Training zur gezielten Reflexion, explizite Agenda-Punkte ('Kommunikation Assessment'), psychologische Sicherheit.",
+        "measurability": 0.5,
+        "influenceability": 1.0,
+        "indegree": 1,
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
+      }
+    },
+    {
       "_id": "elem-dorStartkriterien",
       "attributes": {
         "label": "Klarheit über Startkriterien (DoR)",
@@ -3917,6 +3938,25 @@
         "degree": 7,
         "size": 8
       }
+    },
+    {
+      "_id": "elem-artefaktAufgabePassung",
+      "attributes": {
+        "label": "Artefakt-Aufgabe-Passung",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Artefakte",
+          "Kommunikation",
+          "Media Richness"
+        ],
+        "description": "Passung zwischen dem Reifegrad und der Reichhaltigkeit des Artefakts und der Komplexität sowie Mehrdeutigkeit der Kommunikationsaufgabe. Analog zur Media Richness Theory für Medien: Aufgaben mit hoher Komplexität und Mehrdeutigkeit erfordern reichhaltigere, detailliertere Artefakte (detaillierte Prototypen, vollständige Mockups, umfassende Spezifikationen), während einfache, vorwiegend koordinative Aufgaben mit skizzenhaften oder minimalen Artefakten ausreichen. Messbar über Alignment zwischen Artefakt-Detaigrad und übertragene Aufgabenkomplexität, Team-Feedback zur Artefakt-Angemessenheit. Beeinflussbar durch explizite Conversations über erforderlichen Detailgrad, Priorisierung von Refinement, Tool-Wahl für Artefakt-Erstellung.",
+        "measurability": 0.5,
+        "influenceability": 1.0,
+        "indegree": 3,
+        "outdegree": 2,
+        "degree": 5,
+        "size": 6
+      }
     }
   ],
   "connections": [
@@ -4006,11 +4046,12 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "--",
-        "label": "[A]"
+        "connection type": "++",
+        "label": "[A]",
+        "description": "Höhere Qualität der Entscheidungen verbessert die Artefaktqualität durch bessere Design- und Implementierungsentscheidungen."
       },
-      "from": "elem-NmSn5Afu",
-      "to": "elem-lcDSwFU2"
+      "from": "elem-lcDSwFU2",
+      "to": "elem-NmSn5Afu"
     },
     {
       "_id": "conn-12Ehp7nZ",
@@ -4799,8 +4840,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "--",
-        "label": "[A]"
+        "connection type": "++",
+        "label": "[A]",
+        "description": "Höhere Artefaktqualität verbessert die Qualität des Endprodukts durch präzise und vollständige Umsetzung der Anforderungen."
       },
       "from": "elem-lcDSwFU2",
       "to": "elem-rf8OZmMz"
@@ -10710,6 +10752,108 @@
     {
       "_id": "conn-ZEITDRUCK-TO-MEDIUM-PASSUNG",
       "from": "elem-niveauZeitdruck",
+      "_id": "conn-RETROSPECTIVE-TO-REFLECTION-MEDIA-EFFECTIVENESS",
+      "from": "elem-retrospektive001",
+      "to": "elem-reflexionMedianwirksamkeit",
+      "_id": "conn-ERFAHRUNGSWISSEN-TO-MEDIUM-PASSUNG",
+      "from": "elem-hHvH3JMB",
+      "to": "elem-kommunikationsMediumPassung",
+      "_id": "conn-SB-QUALITY-TO-ARTEFAKT",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven schaffen den Raum und die Struktur für explizite Reflexion über Kommunikationsmedien-Effektivität. Gute Retros ermöglichen tiefere Diskussionen über 'Was funktioniert/funktioniert nicht bei unserer Medienwahl?'"
+      }
+    },
+    {
+      "_id": "conn-REFLECTION-MEDIA-EFFECTIVENESS-TO-MEDIUM-PASSUNG",
+      "from": "elem-reflexionMedianwirksamkeit",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Ausmaß der Nutzung von Erfahrungswissen ermöglicht bessere Medium-Aufgabe-Passung: Erfahrene Teams wissen, welches Kommunikationsmedium für welche Aufgabentypen am effektivsten ist."
+        "description": "Höhere Qualität des Sprint Backlogs ermöglicht bessere Artefaktqualität durch klarere Anforderungen, bessere Task-Definition und realistische Planung."
+      }
+    },
+    {
+      "_id": "conn-DOD-TO-ARTEFAKT-QUALITY",
+      "from": "elem-uDiTVbXE",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Definition of Done verbessert die Artefaktqualität, da explizite Fertigstellungskriterien als Qualitätsmaßstab für Entwicklung und Review dienen."
+      }
+    },
+    {
+      "_id": "conn-PB-QUALITY-TO-PLANNING-QUALITY",
+      "from": "elem-productBacklogQuality",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Qualität des Product Backlogs verbessert die Planungsqualität durch bessere Informationen, klarere Priorisierung und realistischere Schätzungen."
+      }
+    },
+    {
+      "_id": "conn-TRUST-TO-FEEDBACK-QUALITY",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohes Vertrauen in Beziehungen ermöglicht ehrliches, konstruktives Feedback ohne Angst vor negativen Konsequenzen oder Gesichtsverlust. Vertrauen reduziert Hemmschwellen für offene Kommunikation über Probleme und Unsicherheiten."
+      }
+    },
+    {
+      "_id": "conn-ENGAGEMENT-TO-MEDIA-USAGE",
+      "from": "elem-Nhi8cwn5",
+      "to": "elem-gradMediaNutzung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohes Engagement der Teammitglieder führt zu intensiverer Nutzung verfügbarer Kommunikationsmedien: Engaged Teams nehmen aktiver an synchronen Events teil, nutzen Channels konsequenter und investieren in reichhaltige Medienformate."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-MEDIUM-PASSUNG",
+      "from": "elem-retrospektive001",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "++",
+        "description": "Explizite Reflexion über Medienwirksamkeit führt zu besserer Kommunikationsmedium-Aufgabe-Passung durch dokumentierte Erkenntnisse, konkrete Action-Items und bewusste Medium-Anpassungen in zukünftigen Events."
+      }
+    },
+    {
+      "_id": "conn-REIFEGRAD-TO-ARTEFAKT-AUFGABE-PASSUNG",
+      "from": "elem-reifeGradArtefakt",
+      "to": "elem-artefaktAufgabePassung",
+        "description": "Hochwertige Retrospektiven fördern explizite Reflexion über die Wirksamkeit der eingesetzten Kommunikationsmedien und leiten konkrete Anpassungen der Medium-Passung ein. Teams identifizieren in der Retrospektive, welche Medien für welche Aufgaben gut funktioniert haben und passen ihre Medienwahl entsprechend an."
+      }
+    },
+    {
+      "_id": "conn-MEDIA-AVAILABILITY-TO-MEDIUM-PASSUNG",
+      "from": "elem-medienVerfügbarkeit",
       "to": "elem-kommunikationsMediumPassung",
       "direction": "directed",
       "delayed": false,
@@ -10724,6 +10868,21 @@
       "_id": "conn-RAUMNAEHETEAM-TO-VERFÜGBARKEIT-ENTWICKLER",
       "from": "elem-raumnaeheTeam",
       "to": "elem-GzVWvit5",
+        "connection type": "++",
+        "description": "Ein höherer Reifegrad des Artefakts (mehr Details, Vollständigkeit, Klarheit) ermöglicht bessere Artefakt-Aufgabe-Passung durch reichhaltigere Informationsvermittlung und explicitere Representation von komplexen Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-MEHRDEUTIGKEIT-TO-ARTEFAKT-PASSUNG",
+      "from": "elem-aufgMehrdeutigkeit",
+      "to": "elem-artefaktAufgabePassung",
+        "description": "Höhere Verfügbarkeit reichhaltiger Kommunikationsmedien ermöglicht bessere Realisierung der optimalen Medium-Passung durch mehr Optionen und Flexibilität. Teams mit Zugang zu Video, Whiteboard-Tools und reichhaltigen Synchronisations-Kanälen können ihre Medium-Passung-Strategie besser an Aufgabenkomplexität anpassen."
+      }
+    },
+    {
+      "_id": "conn-WORKFLOW-VIZ-TO-DAILY-QUALITY",
+      "from": "elem-dCCyLXD0",
+      "to": "elem-QOBGtWqO",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -10737,6 +10896,20 @@
       "_id": "conn-VERFÜGBARKEIT-ENTWICKLER-TO-MEDIEN-VERFÜGBARKEIT",
       "from": "elem-GzVWvit5",
       "to": "elem-medienVerfügbarkeit",
+        "description": "Höhere Mehrdeutigkeit der Aufgabe erfordert reichhaltigere, detailliertere Artefakte und damit bessere Artefakt-Aufgabe-Passung. Mehrdeutige Anforderungen brauchen explizite Visualisierung, Prototypen oder detaillierte Spezifikationen zur Klärung."
+      }
+    },
+    {
+      "_id": "conn-SYSTEMKOMPLEXITAET-TO-ARTEFAKT-PASSUNG",
+      "from": "elem-1T8mAYkP",
+      "to": "elem-artefaktAufgabePassung",
+        "description": "Hochwertige Workflow-Visualisierung (Kanban Board, Task-Status-Tracking) strukturiert die Qualität der Dailies durch geteilte Sicht auf Blockers, WIP und Fortschritt. Teams mit transparenten, aktuellen Boards brauchen weniger verbale Erklärungen und können sich gezielter auf Probleme fokussieren."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-GOAL-CLARITY",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-F9HioTuT",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -10744,6 +10917,49 @@
         "label": "[A]",
         "connection type": "--",
         "description": "Geringe praktische Verfügbarkeit des Entwicklers (remote, nicht kolokalisiert, zu anderen Zeiten) reduziert die praktisch verfügbaren reichhaltigen Kommunikationsmedien für diesen Entwickler: Face-to-Face-Kommunikation wird unmöglich, synchrone Medien (Video, Phone) sind schwerer zu koordinieren. Remote-Entwickler können nur auf asynchrone/schriftliche oder zeitversetzte Medien zugreifen → praktisch reduzierte Media-Richness."
+        "connection type": "++",
+        "description": "Höhere Systemkomplexität erfordert reichhaltigere Artefakte (detaillierte Architektur-Diagramme, Prototypen, umfassende Spezifikationen) für effektive Kommunikation und Verständigung. Komplexe Systeme können nicht mit minimalen Sketches verstanden werden."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-PASSUNG-TO-REVIEW",
+      "from": "elem-artefaktAufgabePassung",
+      "to": "elem-reviewQualitaet",
+        "description": "Bessere Medium-Aufgabe-Passung führt zu höherer Klarheit und Verständlichkeit der Sprint-Ziele. Wenn Ziele durch das richtige Medium (synchrone F2F für komplexe Ziele, asynchrone Boards für klare Ziele) kommuniziert werden, verringert sich Ambiguittät und erhöht sich gemeinsames Verständnis."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-PLANNING-QUALITY",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Artefakt-Aufgabe-Passung (richtige Menge und Form von Details für die Aufgabenkomplexität) verbessert die Review-Qualität durch Klarheit, Vollständigkeit und bessere gemeinsame Verständnisbasis zwischen Reviewer und Autor."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-PASSUNG-TO-KOMMUNIKATION",
+      "from": "elem-artefaktAufgabePassung",
+      "to": "elem-bh4G3Yqp",
+        "description": "Bessere Medium-Passung während Planning führt zu höherer Planungsqualität. Wenn mehrdeutige Items in synchronen, reichhaltigen Medien (Whiteboard, F2F-Sessions) geklärt werden, entsteht bessere Item-Klarheit, realistische Schätzungen und höheres Commitment. Asynchrone Planung für klare Items spart Zeit ohne Qualitätseinbußen."
+      }
+    },
+    {
+      "_id": "conn-ERROR-ACCEPTANCE-TO-FEEDBACK-QUALITY",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
+        "description": "Höhere Fehlerakzeptanz im Team ermöglicht bessere Feedback-Qualität durch psychologische Sicherheit. Teams mit hoher Fehlerakzeptanz geben offeneres, konstruktiveres Feedback ohne Angst vor Konfrontation oder negativen Konsequenzen. Fehler werden als Lernchancen kommuniziert, nicht als Vorwürfe."
       }
     }
   ]
