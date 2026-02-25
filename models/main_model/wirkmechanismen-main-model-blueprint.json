@@ -34,10 +34,10 @@
         "description": "Innerhalb der Organisation verfügbare und zugängliche, formalisierte und dokumentierte Informationen.\nZ.B.:\n- Prozesse und Methoden (Entwicklungsmethodiken und Vorgehensmodelle, Best Practices und Routinen, Agile Methoden usw.)\n- Dokumente und Artefakte (Pläne und Zeitpläne, CAD-Daten, FE-Ergebnisse, Bibliotheken, Vorlagen usw.)\n- Organisationsstrukturen und IT-Infrastrukturen",
         "closeness": 0.3795,
         "metrics::last": 0.6412190894986812,
-        "degree": 20,
-        "size": 21,
+        "degree": 22,
+        "size": 23,
         "indegree": 4,
-        "outdegree": 16,
+        "outdegree": 18,
         "betweenness": 0.023227664635559364,
         "eigenvector": 0.019431330169857194,
         "reach": 0.2871287128712871,
@@ -110,10 +110,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.22026190476190471,
         "metrics::last": 0.8830036809263201,
-        "degree": 4,
-        "size": 5,
+        "degree": 7,
+        "size": 8,
         "indegree": 3,
-        "outdegree": 1,
+        "outdegree": 4,
         "betweenness": 0,
         "eigenvector": 0.002806812667520127,
         "reach": 0.039603960396039604,
@@ -218,6 +218,10 @@
         "size": 21,
         "indegree": 11,
         "outdegree": 9,
+        "degree": 24,
+        "size": 25,
+        "indegree": 13,
+        "outdegree": 11,
         "betweenness": 0.06300318167124387,
         "eigenvector": 0.010148676162080853,
         "reach": 0.22772277227722773,
@@ -240,10 +244,10 @@
         ],
         "closeness": 0.01,
         "metrics::last": 0.8768586518434335,
-        "degree": 5,
-        "size": 6,
+        "degree": 6,
+        "size": 7,
         "indegree": 3,
-        "outdegree": 2,
+        "outdegree": 3,
         "betweenness": 3.367003367003367e-05,
         "eigenvector": 0.0020153234706311056,
         "reach": 0.019801980198019802,
@@ -266,9 +270,9 @@
         "description": "=Workload",
         "closeness": 0.2228095238095239,
         "metrics::last": 0.7450491750778246,
-        "degree": 10,
-        "size": 11,
-        "indegree": 6,
+        "degree": 11,
+        "size": 12,
+        "indegree": 7,
         "outdegree": 4,
         "betweenness": 0.008062650312650313,
         "eigenvector": 0.002230018255098111,
@@ -322,6 +326,10 @@
         "size": 8,
         "indegree": 5,
         "outdegree": 2,
+        "degree": 8,
+        "size": 9,
+        "indegree": 5,
+        "outdegree": 3,
         "betweenness": 0.0018350168350168348,
         "eigenvector": 0.002549503497441467,
         "reach": 0.039603960396039604,
@@ -515,10 +523,10 @@
         "description": "=Agenda-Struktur/ Ablaufklarheit",
         "closeness": 0,
         "metrics::last": 0.9708004396048325,
-        "degree": 3,
-        "size": 4,
+        "degree": 4,
+        "size": 5,
         "indegree": 1,
-        "outdegree": 2,
+        "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0.004081102584648864,
         "reach": 0.009900990099009901,
@@ -542,10 +550,10 @@
         ],
         "closeness": 0.40950000000000003,
         "metrics::last": 0.759192611956293,
-        "degree": 22,
-        "size": 23,
-        "indegree": 5,
-        "outdegree": 17,
+        "degree": 24,
+        "size": 25,
+        "indegree": 6,
+        "outdegree": 18,
         "betweenness": 0.13626852696449984,
         "eigenvector": 0.025250823478588827,
         "reach": 0.33663366336633666,
@@ -598,6 +606,10 @@
         "size": 18,
         "indegree": 5,
         "outdegree": 12,
+        "degree": 18,
+        "size": 19,
+        "indegree": 5,
+        "outdegree": 13,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -667,6 +679,10 @@
         "outdegree": 4,
         "degree": 9,
         "size": 10
+        "indegree": 6,
+        "outdegree": 4,
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -958,6 +974,9 @@
         "degree": 19,
         "size": 20,
         "indegree": 8,
+        "degree": 20,
+        "size": 21,
+        "indegree": 9,
         "outdegree": 11,
         "betweenness": 0.1379524446402437,
         "eigenvector": 0.005820037054878206,
@@ -1031,10 +1050,10 @@
         ],
         "closeness": 0.22959523809523805,
         "metrics::last": 0.8729263522091324,
-        "degree": 7,
-        "size": 8,
-        "indegree": 2,
-        "outdegree": 5,
+        "degree": 9,
+        "size": 10,
+        "indegree": 3,
+        "outdegree": 6,
         "betweenness": 0,
         "eigenvector": 0.006983603582685004,
         "reach": 0.0594059405940594,
@@ -1085,6 +1104,10 @@
         "size": 10,
         "indegree": 1,
         "outdegree": 8,
+        "degree": 10,
+        "size": 11,
+        "indegree": 1,
+        "outdegree": 9,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -1150,6 +1173,25 @@
         "outdegree": 2,
         "degree": 3,
         "size": 4
+      }
+    },
+    {
+      "_id": "elem-informelleRoutinen",
+      "attributes": {
+        "label": "Verfügbarkeit informeller Routinen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Teamdynamik",
+          "Kommunikation",
+          "Kultur"
+        ],
+        "description": "Vorhandensein und Zugänglichkeit von etablierten, wiederkehrenden informellen Interaktionsmöglichkeiten im Teamalltag (z.B. Kaffeepausen, gemeinsame Mittagessen, Stehtisch-Chats, Gemeinschaftsräume). Unterscheidet sich von Häufigkeit informeller Begegnungen durch den Fokus auf die Infrastruktur/Kultur, die diese ermöglicht. Messbar über: Verfügbarkeit von Gemeinschaftsräumen, Angebot informeller Time-Slots, Team-Feedback zu Gelegenheitsstrukturen.",
+        "measurability": 0.5,
+        "influenceability": 1,
+        "indegree": 2,
+        "outdegree": 2,
+        "degree": 4,
+        "size": 5
       }
     },
     {
@@ -1346,6 +1388,9 @@
         "degree": 13,
         "size": 14,
         "indegree": 10,
+        "degree": 14,
+        "size": 15,
+        "indegree": 11,
         "outdegree": 3,
         "betweenness": 0.0027218213884880557,
         "eigenvector": 0.007332591615659199,
@@ -1368,10 +1413,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.30149999999999977,
         "metrics::last": 0.8729263522091324,
-        "degree": 7,
-        "size": 8,
+        "degree": 9,
+        "size": 10,
         "indegree": 2,
-        "outdegree": 5,
+        "outdegree": 7,
         "betweenness": 0.022723062092081227,
         "eigenvector": 0.006983603582685004,
         "reach": 0.19801980198019803,
@@ -1570,6 +1615,9 @@
         "degree": 40,
         "size": 41,
         "indegree": 19,
+        "degree": 41,
+        "size": 42,
+        "indegree": 20,
         "outdegree": 21,
         "betweenness": 0.07141844849580097,
         "eigenvector": 0.009218315731945956,
@@ -1636,6 +1684,9 @@
         "outdegree": 3,
         "degree": 6,
         "size": 7
+        "outdegree": 5,
+        "degree": 8,
+        "size": 9
       }
     },
     {
@@ -1695,10 +1746,10 @@
         "description": "= Jeder hat jeden gesehen",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 3,
-        "size": 4,
+        "degree": 4,
+        "size": 5,
         "indegree": 1,
-        "outdegree": 2,
+        "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0.009900990099009901,
@@ -1758,27 +1809,27 @@
     {
       "_id": "elem-ivDOaa1S",
       "attributes": {
-        "label": "Zielklarheit der Teammitglieder",
+        "label": "Zielkongruenz des Teams",
         "element type": "Einflussfaktoren",
         "tags": [
           "Teamdynamik",
           "Planning"
         ],
-        "description": "= Vision und Motivation",
+        "description": "Grad, in welchem sich das Team auf die gleichen Sprint-Ziele, deren Sinnhaftigkeit und gemeinsamen Purpose geeinigt hat. Teams mit hoher Zielkongruenz ziehen an einem gemeinsamen Strang, brauchen weniger Klärungsdiskussionen und können autonomer selbst organisieren. Messbar über Planning-Poker-Consensus, Retro-Feedback zu unterschiedlichen Goal-Verständnissen, Engagement-Leveln.",
         "closeness": 0.22026190476190471,
         "metrics::last": 0.8768586518434335,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
+        "degree": 14,
+        "size": 15,
+        "indegree": 7,
+        "outdegree": 7,
         "betweenness": 0.001095832220234134,
         "eigenvector": 0.0020153234706311056,
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
         "micmac exposure": 0.8768586518434335,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1941,10 +1992,10 @@
         "description": "Teamdynamik: Für eine offene und respektvolle Atmosphäre sorgen.",
         "closeness": 0.27863095238095226,
         "metrics::last": 0.8782324152268047,
-        "degree": 21,
-        "size": 22,
-        "indegree": 7,
-        "outdegree": 14,
+        "degree": 26,
+        "size": 27,
+        "indegree": 10,
+        "outdegree": 16,
         "betweenness": 0.06251515151515152,
         "eigenvector": 0.007286865098605407,
         "reach": 0.1485148514851485,
@@ -2011,6 +2062,7 @@
       "attributes": {
         "label": "Qualität des Artefakts",
         "element type": "Einflussfaktoren",
+        "description": "Grad der Übereinstimmung und Erfüllung des Artefakts mit den Kundenanforderungen, Akzeptanzkriterien und Sprintzielen. Misst, wie gut ein Artefakt (Prototyp, Mockup, Code, Design, etc.) die gestellten Anforderungen umsetzt und festgelegten Qualitätskriterien entspricht.",
         "closeness": 0.04,
         "metrics::last": 0.8915911447464404,
         "degree": 7,
@@ -2181,10 +2233,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 2,
-        "size": 3,
+        "degree": 3,
+        "size": 4,
         "indegree": 1,
-        "outdegree": 1,
+        "outdegree": 2,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -2870,10 +2922,29 @@
         "micmac exposure": 0,
         "measurability": 1.0,
         "influenceability": 0.5,
-        "indegree": 1,
-        "outdegree": 1,
-        "degree": 2,
-        "size": 3
+        "indegree": 2,
+        "outdegree": 2,
+        "degree": 4,
+        "size": 5
+      }
+    },
+    {
+      "_id": "elem-psychSicherheit",
+      "attributes": {
+        "label": "Psychologische Sicherheit im Team",
+        "description": "Grad, in welchem Teammitglieder das Vertrauen haben, interpersonale Risiken einzugehen, z.B. Fragen stellen, Fehler eingestehen, abweichende Meinungen äußern, ohne Angst vor negativen Konsequenzen. Psychologische Sicherheit entsteht durch Fehlerakzeptanz, konstruktive Konfliktkultur und gegenseitiges Vertrauen. Sie ermöglicht offene Kommunikation, ehrliches Feedback und kontinuierliches Lernen im Team. Messbar über Retrospektive-Feedback, Fehler-Reporting-Raten, Beteiligung in Diskussionen über schwierige Themen.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Team-Partizipation",
+          "Teamdynamik",
+          "Kommunikation"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 3,
+        "outdegree": 3,
+        "degree": 6,
+        "size": 7
       }
     },
     {
@@ -2894,6 +2965,10 @@
         "outdegree": 3,
         "degree": 7,
         "size": 8
+        "indegree": 6,
+        "outdegree": 4,
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -3171,9 +3246,9 @@
         "measurability": 1,
         "influenceability": 1,
         "indegree": 1,
-        "outdegree": 1,
-        "degree": 2,
-        "size": 3
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
       }
     },
     {
@@ -3534,6 +3609,10 @@
         "outdegree": 6,
         "degree": 9,
         "size": 10
+        "indegree": 6,
+        "outdegree": 8,
+        "degree": 14,
+        "size": 15
       }
     },
     {
@@ -3592,6 +3671,10 @@
         "size": 15,
         "indegree": 6,
         "outdegree": 8,
+        "degree": 15,
+        "size": 16,
+        "indegree": 6,
+        "outdegree": 9,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -3648,6 +3731,10 @@
         "size": 14,
         "indegree": 6,
         "outdegree": 7,
+        "degree": 12,
+        "size": 13,
+        "indegree": 6,
+        "outdegree": 6,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -3699,6 +3786,13 @@
         "outdegree": 9,
         "degree": 31,
         "size": 32
+        "outdegree": 9,
+        "degree": 31,
+        "size": 32
+        "indegree": 27,
+        "outdegree": 9,
+        "degree": 36,
+        "size": 37
       }
     },
     {
@@ -3715,6 +3809,10 @@
         "description": "Beschreibt das Ausmaß, in dem eine Aufgabe mehrdeutig interpretiert werden kann. Hoher Grad = viele mögliche Verständnisinterpretationen, hohes Missverständnisrisiko. Niedriger Grad = klare, eindeutige Anforderungen mit wenig Interpretationsspielraum. Zentral für Media Richness Theory (Daft & Lengel 1986): Aufgaben mit hoher Mehrdeutigkeit erfordern reichhaltigere Medien.",
         "measurability": 0.5,
         "influenceability": 1,
+        "indegree": 5,
+        "outdegree": 8,
+        "degree": 13,
+        "size": 14
         "indegree": 6,
         "outdegree": 8,
         "degree": 14,
@@ -3758,6 +3856,9 @@
         "outdegree": 5,
         "degree": 9,
         "size": 10
+        "outdegree": 7,
+        "degree": 11,
+        "size": 12
       }
     },
     {
@@ -3778,6 +3879,9 @@
         "outdegree": 1,
         "degree": 2,
         "size": 3
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
       }
     },
     {
@@ -3817,6 +3921,10 @@
         "outdegree": 3,
         "degree": 11,
         "size": 12
+        "indegree": 12,
+        "outdegree": 3,
+        "degree": 15,
+        "size": 16
       }
     },
     {
@@ -3880,6 +3988,26 @@
       }
     },
     {
+      "_id": "elem-niveauZeitdruck",
+      "attributes": {
+        "label": "Niveau des Zeitdrucks",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Media Richness",
+          "Sprint-Management",
+          "Pragmatismus"
+        ],
+        "description": "Ausmaß des zeitlichen Drucks/Engagement-Druck im aktuellen Sprint oder über eine längere Periode. Bestimmt durch: Days-to-Deadline, geschätzte vs. verfügbare Kapazität, externe Deadlines, organisatorischer Druck, Burndown-Geschwindigkeit. Unter hohem Zeitdruck wählen Teams pragmatischere, bequemere Kommunikationsmedien statt theoretisch optimaler (z.B. schnelle Chat-Absprache statt ausführliche Synchronisation). Messbar über Deadline-Nähe, Burndown-Geschwindigkeit, Velocity-Abweichung, Overtime-Stunden, Team-Feedback. Beeinflussbar durch bessere Estimation, Scope-Management, Visualisierung von Kapazität, Priorisierung. Quelle: Ishii et al. (2019) - pragmatische Faktoren der Medienwahl.",
+        "measurability": 1.0,
+        "influenceability": 0.5,
+        "indegree": 0,
+        "outdegree": 0,
+        "degree": 0,
+        "size": 1
+      }
+    },
+    {
       "_id": "elem-medienwahlStrategie",
       "attributes": {
         "label": "Medienwahl und Kommunikationsstrategie",
@@ -3935,6 +4063,203 @@
         "outdegree": 2,
         "degree": 5,
         "size": 6
+      }
+    },
+    {
+      "_id": "elem-onboardingQualitaet",
+      "attributes": {
+        "label": "Qualitaet des Onboardings",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Wissensaustausch",
+          "Teamdynamik",
+          "Onboarding"
+        ],
+        "description": "Qualitaet des strukturierten Einstiegs neuer Teammitglieder: Vermittlung von Kontext, Arbeitsweisen, Rollen und vorhandenen Wissensbestaenden. Gute Onboarding-Prozesse reduzieren Ramp-up-Zeit und erhoehen Sicherheit und Anschlussfaehigkeit.",
+        "measurability": 0.5,
+        "influenceability": 1.0,
+        "indegree": 4,
+        "outdegree": 6,
+        "degree": 10,
+        "size": 11
+      }
+    },
+    {
+      "_id": "elem-informelleKommunikationQualitaet",
+      "attributes": {
+        "label": "Qualitaet der informellen Kommunikation",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Teamdynamik",
+          "Informell"
+        ],
+        "description": "Qualitaet spontaner, nicht formalisierter Kommunikation (z.B. kurze Rueckfragen, Ad-hoc-Abstimmungen, informeller Austausch). Hohe Qualitaet bedeutet: schnell, respektvoll, loesungsorientiert und mit ausreichendem Kontext.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 6,
+        "outdegree": 5,
+        "degree": 11,
+        "size": 12
+      "_id": "elem-akzeptanzMedium",
+      "attributes": {
+        "label": "Akzeptanz des gewählten Mediums durch Team",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Medienwahl",
+          "Team-Verhalten"
+        ],
+        "description": "Der Grad, in dem das Team das gewählte Kommunikationsmedium akzeptiert, nutzt und sich damit identifiziert. Akzeptanz ist essentiell für die tatsächliche Nutzung und Wirksamkeit eines Mediums. Ein Medium mit hoher theoretischer Reichhaltigkeit kann unwirksam sein, wenn das Team es ablehnt oder ungern nutzt. Messbar über Nutzungshäufigkeit, User-Engagement-Metriken, Team-Feedback zur Medium-Akzeptanz. Beeinflussbar durch Team-Kompetenz, Gewöhnung, positive Erfahrungen im Einsatz, Kultur und Unterstützung durch Leadership.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-teampraeferenz",
+      "attributes": {
+        "label": "Teampräferenz für Kommunikationskanäle",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Medienwahl",
+          "Team-Kultur"
+        ],
+        "description": "Die habituellen Vorlieben und tradierten Gewohnheiten der Team-Mitglieder für bestimmte Kommunikationskanäle und Medien. Jedes Team entwickelt über die Zeit gewisse Präferenzen für Kommunikationstools, Protokolle und Kanäle (z.B. Slack vs. Email, Synchron vs. Asynchron, F2F vs. Remote-Tools). Diese Präferenzen sind oft pfadabhängig (einmal etabliert, schwer zu ändern) und können von reiner Media-Richness-Theorie abweichen. Teampräferenzen können pragmatisch sinnvoll sein (bewährte Werkzeuge) oder suboptimal (Gewöhnung übertrumpft bessere Optionen). Messbar über Tool-Nutzungsstatistiken, Kommunikationsmuster-Analysen, Team-Feedback zu Kanal-Vorlieben. Beeinflussbar durch Führungs-Initiative, Schulung, positives Feedback bei neuen Kanälen, Zug-Zang-Momente.",
+        "measurability": 1.0,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-bewusstseinMismatch",
+      "attributes": {
+        "label": "Bewusstsein für Mismatch zwischen Aufgabe und Medium",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Reflexion",
+          "Medienwahl",
+          "Feedback",
+          "Verbesserung"
+        ],
+        "description": "Der Grad, in dem Teamitglieder aktiv wahrnehmen und articulate, ob das gewählte Medium adäquat für die aktuelle Kommunikationsaufgabe ist – oder nicht. Bewusstsein für Mismatches ermöglicht korrigierende Maßnahmen und kontinuierliche Verbesserung. Wenn Teams nicht bemerken, dass ein Medium nicht passt, können sie ihre Medienwahl nicht anpassen. Dies wird oft durch Reflexion in Retrospektiven, Feedback-Prozessen und Fehlerdiskussionen gefördert. Messbar über Häufigkeit von Mismatch-Erkenntnissen, Qualität von Reflexions-Outputs. Beeinflussbar durch strukturierte Reflexion, Retrospektiven-Qualität, psychologische Sicherheit für Feedback, Error-Awareness-Kultur.",
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
+    },
+    {
+      "_id": "elem-bewusstseinMismatch",
+      "attributes": {
+        "label": "Bewusstsein für Mismatch zwischen Aufgabe und Medium",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Reflexion",
+          "Medienwahl",
+          "Feedback",
+          "Verbesserung"
+        ],
+        "description": "Der Grad, in dem Teamitglieder aktiv wahrnehmen und articulate, ob das gewählte Medium adäquat für die aktuelle Kommunikationsaufgabe ist – oder nicht. Bewusstsein für Mismatches ermöglicht korrigierende Maßnahmen und kontinuierliche Verbesserung. Wenn Teams nicht bemerken, dass ein Medium nicht passt, können sie ihre Medienwahl nicht anpassen. Dies wird oft durch Reflexion in Retrospektiven, Feedback-Prozessen und Fehlerdiskussionen gefördert. Messbar über Häufigkeit von Mismatch-Erkenntnissen, Qualität von Reflexions-Outputs. Beeinflussbar durch strukturierte Reflexion, Retrospektiven-Qualität, psychologische Sicherheit für Feedback, Error-Awareness-Kultur.",
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
+    },
+    {
+      "_id": "elem-absichtKoordinationsmechanismus",
+      "attributes": {
+        "label": "Bewusstsein für gezielte Absicht eines Koordinationsmechanismus",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Teamdynamik",
+          "Kommunikation",
+          "Sensemaking"
+        ],
+        "description": "Das Verständnis des Teams über den SPEZIFISCHEN Zweck eines Koordinationsmechanismus (z.B. Daily findet Blöcker FRÜH, Retro schafft Lernraum, Refinement schafft Klarheit). Teams, die verstehen WARUM ein Ritual existiert, nutzen es intentional statt als Overhead.",
+        "measurability": 0.5,
+        "influenceability": 1.0,
+        "indegree": 4,
+        "outdegree": 6,
+        "degree": 10,
+        "size": 11
+      "_id": "elem-kollabArtefaktInfra",
+      "attributes": {
+        "label": "Verfügbarkeit kollaborativer Artefakt-Infrastruktur",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Artefakte",
+          "Kommunikation",
+          "Infrastruktur"
+        ],
+        "description": "Vorhandensein und Zugänglichkeit von Tools und Räumen für gemeinsame Artefakt-Erstellung und -Nutzung (Whiteboards, Skizzen-Tools, Visualisierungs-Software, Prototyping-Tools, geteilte Workspaces, kollaborative Design-Plattformen). Unterscheidet sich von Artefakt-Qualität/-Reifegrad durch Fokus auf Infrastruktur-Verfügbarkeit. Messbar über: Anzahl verfügbarer Tools/Räume, Accessibility, Lizenz-Verfügbarkeit, Team-Feedback zur Tool-Abdeckung. Beeinflussbar durch: Budget-Allocation, Procurement-Entscheidungen, Workspace-Design.",
+        "measurability": 1,
+        "influenceability": 1,
+        "indegree": 1,
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
+      }
+    },
+    {
+      "_id": "elem-selbstkoordinationEntwickler",
+      "attributes": {
+        "label": "Selbstkoordination des Entwicklers",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Individuell",
+          "Koordination",
+          "Selbstorganisation"
+        ],
+        "description": "Faehigkeit und Praxis, die eigene Arbeit selbst zu strukturieren, zu priorisieren und proaktiv mit Abhaengigkeiten umzugehen, ohne staendige externe Steuerung.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 7,
+        "outdegree": 4,
+        "degree": 11,
+        "size": 12
+      }
+    },
+    {
+      "_id": "elem-externalisierungAnnahmen",
+      "attributes": {
+        "label": "Externalisierung impliziter Annahmen",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kognitiv",
+          "Reflexion",
+          "Wissensmanagement"
+        ],
+        "description": "Prozess und Faehigkeit, unreflektierte Annahmen und implizites Wissen explizit zu machen und mit dem Team zu kommunizieren. Ermoeglicht gemeinsame Modelle und vermeidet verdeckte Konflikte.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 5,
+        "outdegree": 2,
+        "degree": 7,
+        "size": 8
+      }
+    },
+    {
+      "_id": "elem-reqVolatilitaet",
+      "attributes": {
+        "label": "Häufigkeit von Anforderungsänderungen pro Sprint",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Hindernisse und Abhängigkeiten",
+          "Planning",
+          "Vorhersehbarkeit"
+        ],
+        "description": "Wie oft Anforderungen während eines Sprints hinzukommen oder sich ändern (Scope Creep Rate). Direkter Indikator für Anforderungsvolatilität und Vorhersehbarkeit. Umfasst neue Features, geänderte Akzeptanzkriterien, technische Umplanungen und externe Stakeholder-Anfragen mid-sprint. Eine hohe Volatilität destabilisiert Planung, erhöht Koordinationsaufwand und beeinträchtigt gemeinsame mentale Modelle.",
+        "measurability": 1.0,
+        "influenceability": 0.5,
+        "indegree": 3,
+        "outdegree": 6,
+        "degree": 9,
+        "size": 10,
+        "closeness": 0,
+        "metrics::last": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0
       }
     }
   ],
@@ -4025,11 +4350,12 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "--",
-        "label": "[A]"
+        "connection type": "++",
+        "label": "[A]",
+        "description": "Höhere Qualität der Entscheidungen verbessert die Artefaktqualität durch bessere Design- und Implementierungsentscheidungen."
       },
-      "from": "elem-NmSn5Afu",
-      "to": "elem-lcDSwFU2"
+      "from": "elem-lcDSwFU2",
+      "to": "elem-NmSn5Afu"
     },
     {
       "_id": "conn-12Ehp7nZ",
@@ -4818,8 +5144,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "--",
-        "label": "[A]"
+        "connection type": "++",
+        "label": "[A]",
+        "description": "Höhere Artefaktqualität verbessert die Qualität des Endprodukts durch präzise und vollständige Umsetzung der Anforderungen."
       },
       "from": "elem-lcDSwFU2",
       "to": "elem-rf8OZmMz"
@@ -8789,6 +9116,73 @@
         "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
       }
     },
+      {
+        "_id": "conn-komKomplexitaet-wahrMedRichness",
+        "from": "elem-komKomplexitaet",
+        "to": "elem-wahrgenommeneMediaRichness",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
+        }
+      },
+
+      {
+        "_id": "conn-erfahrung-to-kommunikationsqualitaet",
+        "from": "elem-k8VAutpT",
+        "to": "elem-bh4G3Yqp",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höheres Erfahrungsniveau der Teammitglieder verbessert die Kommunikationsqualität durch effektivere Informationsvermittlung und besseres gegenseitiges Verständnis."
+        }
+      },
+      {
+        "_id": "conn-erfahrung-to-sprintBacklog",
+        "from": "elem-k8VAutpT",
+        "to": "elem-sprintBacklogQuality",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höheres Erfahrungsniveau ermöglicht realistischere Aufgabenschätzungen und bessere Aufgabenzuschnitte im Sprint Backlog."
+        }
+      },
+      {
+        "_id": "conn-erfahrung-to-aufgabenpriorisierung",
+        "from": "elem-k8VAutpT",
+        "to": "elem-QgfybLh0",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höheres Erfahrungsniveau unterstützt bessere Aufgabenpriorisierung durch bessere Einschätzung von Risiken, Aufwand und Abhängigkeiten."
+        }
+      },
+
+      {
+        "_id": "conn-feedback-to-teamverstaendnis",
+        "from": "elem-cHlGVpZ5",
+        "to": "elem-VombH8FP",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Hochwertige Feedback trägt zur Konvergenz des Teamverständnisses bei, da explizite Rückmeldungen Missverständnisse klären und gemeinsames Verständnis aufbauen."
+        }
+      },
     {
       "_id": "conn-RETROSPECTIVE-TO-IMPROVEMENT",
       "from": "elem-retrospektive001",
@@ -9414,6 +9808,19 @@
       }
     },
     {
+      "_id": "conn-INFORMAL-TO-FAMILIARITY",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-vertrautheitTeam",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige informelle Begegnungen fördern Vertrautheit zwischen Teammitgliedern durch wiederholte, authentische Interaktionen außerhalb formaler Strukturen."
+      }
+    },
+    {
       "_id": "conn-BOUNDARY-SPANNER-NEED-TO-TEAM-UNDERSTANDING",
       "from": "elem-boundarySpannerNeed",
       "to": "elem-VombH8FP",
@@ -9450,6 +9857,58 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Informelle Begegnungen fördern die Konvergenz des Teamverständnisses."
+      }
+    },
+    {
+      "_id": "conn-SPATIAL-PROX-TO-INFORMAL-ROUTINES",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-informelleRoutinen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Räumliche Nähe ermöglicht die Etablierung informeller Routinen."
+      }
+    },
+    {
+      "_id": "conn-WORKLOAD-TO-INFORMAL-ROUTINES",
+      "from": "elem-34Kwzpr1",
+      "to": "elem-informelleRoutinen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hohe Workload reduziert die Möglichkeit, informelle Routinen zu etablieren."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-ROUTINES-TO-FREQ-ENCOUNTERS",
+      "from": "elem-informelleRoutinen",
+      "to": "elem-informelleBegegnungen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare informelle Routinen erhöhen die Häufigkeit informeller Begegnungen."
+      }
+    },
+    {
+      "_id": "conn-INFORMAL-ROUTINES-TO-FAMILIARITY",
+      "from": "elem-informelleRoutinen",
+      "to": "elem-vertrautheitTeam",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Etablierte informelle Routinen fördern Vertrautheit durch kontinuierliche, niedrigschwellige Interaktionen."
       }
     },
     {
@@ -10727,9 +11186,17 @@
       }
     },
     {
+      "_id": "conn-ZEITDRUCK-TO-MEDIUM-PASSUNG",
+      "from": "elem-niveauZeitdruck",
       "_id": "conn-RETROSPECTIVE-TO-REFLECTION-MEDIA-EFFECTIVENESS",
       "from": "elem-retrospektive001",
       "to": "elem-reflexionMedianwirksamkeit",
+      "_id": "conn-ERFAHRUNGSWISSEN-TO-MEDIUM-PASSUNG",
+      "from": "elem-hHvH3JMB",
+      "to": "elem-kommunikationsMediumPassung",
+      "_id": "conn-SB-QUALITY-TO-ARTEFAKT",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-lcDSwFU2",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -10742,6 +11209,67 @@
     {
       "_id": "conn-REFLECTION-MEDIA-EFFECTIVENESS-TO-MEDIUM-PASSUNG",
       "from": "elem-reflexionMedianwirksamkeit",
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Ausmaß der Nutzung von Erfahrungswissen ermöglicht bessere Medium-Aufgabe-Passung: Erfahrene Teams wissen, welches Kommunikationsmedium für welche Aufgabentypen am effektivsten ist."
+        "description": "Höhere Qualität des Sprint Backlogs ermöglicht bessere Artefaktqualität durch klarere Anforderungen, bessere Task-Definition und realistische Planung."
+      }
+    },
+    {
+      "_id": "conn-DOD-TO-ARTEFAKT-QUALITY",
+      "from": "elem-uDiTVbXE",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Definition of Done verbessert die Artefaktqualität, da explizite Fertigstellungskriterien als Qualitätsmaßstab für Entwicklung und Review dienen."
+      }
+    },
+    {
+      "_id": "conn-PB-QUALITY-TO-PLANNING-QUALITY",
+      "from": "elem-productBacklogQuality",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Qualität des Product Backlogs verbessert die Planungsqualität durch bessere Informationen, klarere Priorisierung und realistischere Schätzungen."
+      }
+    },
+    {
+      "_id": "conn-TRUST-TO-FEEDBACK-QUALITY",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohes Vertrauen in Beziehungen ermöglicht ehrliches, konstruktives Feedback ohne Angst vor negativen Konsequenzen oder Gesichtsverlust. Vertrauen reduziert Hemmschwellen für offene Kommunikation über Probleme und Unsicherheiten."
+      }
+    },
+    {
+      "_id": "conn-ENGAGEMENT-TO-MEDIA-USAGE",
+      "from": "elem-Nhi8cwn5",
+      "to": "elem-gradMediaNutzung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohes Engagement der Teammitglieder führt zu intensiverer Nutzung verfügbarer Kommunikationsmedien: Engaged Teams nehmen aktiver an synchronen Events teil, nutzen Channels konsequenter und investieren in reichhaltige Medienformate."
+      }
+    },
+    {
+      "_id": "conn-RETROSPECTIVE-TO-MEDIUM-PASSUNG",
+      "from": "elem-retrospektive001",
       "to": "elem-kommunikationsMediumPassung",
       "direction": "directed",
       "delayed": false,
@@ -10756,11 +11284,26 @@
       "_id": "conn-REIFEGRAD-TO-ARTEFAKT-AUFGABE-PASSUNG",
       "from": "elem-reifeGradArtefakt",
       "to": "elem-artefaktAufgabePassung",
+        "description": "Hochwertige Retrospektiven fördern explizite Reflexion über die Wirksamkeit der eingesetzten Kommunikationsmedien und leiten konkrete Anpassungen der Medium-Passung ein. Teams identifizieren in der Retrospektive, welche Medien für welche Aufgaben gut funktioniert haben und passen ihre Medienwahl entsprechend an."
+      }
+    },
+    {
+      "_id": "conn-MEDIA-AVAILABILITY-TO-MEDIUM-PASSUNG",
+      "from": "elem-medienVerfügbarkeit",
+      "to": "elem-kommunikationsMediumPassung",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "+-",
+        "description": "Hoher Zeitdruck führt zu pragmatischerer Medium-Passung: Teams wählen unter Zeitdruck schneller verfügbare, bequemere Medien statt theoretisch optimal passendes Medium. Die praktische Medienwahl wird weniger von Aufgabenkomplexität und mehr von Verfügbarkeit und Bequemlichkeit bestimmt. Dies kann zu suboptimalen Entscheidungen führen (z.B. Email statt Sync für komplexe Themen), reduziert aber Koordinationsaufwand im aktuellen Moment."
+      }
+    },
+    {
+      "_id": "conn-RAUMNAEHETEAM-TO-VERFÜGBARKEIT-ENTWICKLER",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-GzVWvit5",
         "connection type": "++",
         "description": "Ein höherer Reifegrad des Artefakts (mehr Details, Vollständigkeit, Klarheit) ermöglicht bessere Artefakt-Aufgabe-Passung durch reichhaltigere Informationsvermittlung und explicitere Representation von komplexen Anforderungen."
       }
@@ -10769,12 +11312,26 @@
       "_id": "conn-MEHRDEUTIGKEIT-TO-ARTEFAKT-PASSUNG",
       "from": "elem-aufgMehrdeutigkeit",
       "to": "elem-artefaktAufgabePassung",
+        "description": "Höhere Verfügbarkeit reichhaltiger Kommunikationsmedien ermöglicht bessere Realisierung der optimalen Medium-Passung durch mehr Optionen und Flexibilität. Teams mit Zugang zu Video, Whiteboard-Tools und reichhaltigen Synchronisations-Kanälen können ihre Medium-Passung-Strategie besser an Aufgabenkomplexität anpassen."
+      }
+    },
+    {
+      "_id": "conn-WORKFLOW-VIZ-TO-DAILY-QUALITY",
+      "from": "elem-dCCyLXD0",
+      "to": "elem-QOBGtWqO",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Höhere räumliche Nähe der Teammitglieder erhöht die praktische Verfügbarkeit des Entwicklers: Co-location ermöglicht spontane Kontakte, Sichtbarkeit, leichtere Erreichbarkeit. Remote-Entwickler sind grundsätzlich weniger spontan/synchron verfügbar. Messbar über Co-Location-%, Zeitpunkte mit Überlappung."
+      }
+    },
+    {
+      "_id": "conn-VERFÜGBARKEIT-ENTWICKLER-TO-MEDIEN-VERFÜGBARKEIT",
+      "from": "elem-GzVWvit5",
+      "to": "elem-medienVerfügbarkeit",
         "description": "Höhere Mehrdeutigkeit der Aufgabe erfordert reichhaltigere, detailliertere Artefakte und damit bessere Artefakt-Aufgabe-Passung. Mehrdeutige Anforderungen brauchen explizite Visualisierung, Prototypen oder detaillierte Spezifikationen zur Klärung."
       }
     },
@@ -10782,11 +11339,20 @@
       "_id": "conn-SYSTEMKOMPLEXITAET-TO-ARTEFAKT-PASSUNG",
       "from": "elem-1T8mAYkP",
       "to": "elem-artefaktAufgabePassung",
+        "description": "Hochwertige Workflow-Visualisierung (Kanban Board, Task-Status-Tracking) strukturiert die Qualität der Dailies durch geteilte Sicht auf Blockers, WIP und Fortschritt. Teams mit transparenten, aktuellen Boards brauchen weniger verbale Erklärungen und können sich gezielter auf Probleme fokussieren."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-GOAL-CLARITY",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-F9HioTuT",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "--",
+        "description": "Geringe praktische Verfügbarkeit des Entwicklers (remote, nicht kolokalisiert, zu anderen Zeiten) reduziert die praktisch verfügbaren reichhaltigen Kommunikationsmedien für diesen Entwickler: Face-to-Face-Kommunikation wird unmöglich, synchrone Medien (Video, Phone) sind schwerer zu koordinieren. Remote-Entwickler können nur auf asynchrone/schriftliche oder zeitversetzte Medien zugreifen → praktisch reduzierte Media-Richness."
         "connection type": "++",
         "description": "Höhere Systemkomplexität erfordert reichhaltigere Artefakte (detaillierte Architektur-Diagramme, Prototypen, umfassende Spezifikationen) für effektive Kommunikation und Verständigung. Komplexe Systeme können nicht mit minimalen Sketches verstanden werden."
       }
@@ -10795,6 +11361,13 @@
       "_id": "conn-ARTEFAKT-PASSUNG-TO-REVIEW",
       "from": "elem-artefaktAufgabePassung",
       "to": "elem-reviewQualitaet",
+        "description": "Bessere Medium-Aufgabe-Passung führt zu höherer Klarheit und Verständlichkeit der Sprint-Ziele. Wenn Ziele durch das richtige Medium (synchrone F2F für komplexe Ziele, asynchrone Boards für klare Ziele) kommuniziert werden, verringert sich Ambiguittät und erhöht sich gemeinsames Verständnis."
+      }
+    },
+    {
+      "_id": "conn-MEDIUM-PASSUNG-TO-PLANNING-QUALITY",
+      "from": "elem-kommunikationsMediumPassung",
+      "to": "elem-K1bUPwjJ",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -10808,6 +11381,13 @@
       "_id": "conn-ARTEFAKT-PASSUNG-TO-KOMMUNIKATION",
       "from": "elem-artefaktAufgabePassung",
       "to": "elem-bh4G3Yqp",
+        "description": "Bessere Medium-Passung während Planning führt zu höherer Planungsqualität. Wenn mehrdeutige Items in synchronen, reichhaltigen Medien (Whiteboard, F2F-Sessions) geklärt werden, entsteht bessere Item-Klarheit, realistische Schätzungen und höheres Commitment. Asynchrone Planung für klare Items spart Zeit ohne Qualitätseinbußen."
+      }
+    },
+    {
+      "_id": "conn-ERROR-ACCEPTANCE-TO-FEEDBACK-QUALITY",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-cHlGVpZ5",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -10815,6 +11395,1307 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Artefakt-Aufgabe-Passung verbessert die Qualität der Kommunikation durch adäquate Visualisierung und Dokumentation der Anforderungen. Artefakte mit passender Reichhaltigkeit reduzieren Missverständnisse und ermöglichen effizientere gemeinsame Verständigung."
+        "description": "Höhere Fehlerakzeptanz im Team ermöglicht bessere Feedback-Qualität durch psychologische Sicherheit. Teams mit hoher Fehlerakzeptanz geben offeneres, konstruktiveres Feedback ohne Angst vor Konfrontation oder negativen Konsequenzen. Fehler werden als Lernchancen kommuniziert, nicht als Vorwürfe."
+      }
+    },
+    {
+      "_id": "conn-MEDIENKOMPETENZ-TO-AKZEPTANZ",
+      "from": "elem-4b82cTxp",
+      "to": "elem-akzeptanzMedium",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Medienkompetenz des Teams erhöht die Akzeptanz des gewählten Mediums. Teams mit besseren Fähigkeiten und Erfahrung mit verschiedenen Kommunikationsmitteln haben weniger Resistenz gegen neue oder unbekannte Medien und können diese effektiver nutzen."
+      }
+    },
+    {
+      "_id": "conn-AKZEPTANZ-TO-REFLEXION",
+      "from": "elem-akzeptanzMedium",
+      "to": "elem-reflexionMedianwirksamkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team das gewählte Medium akzeptiert und aktiv nutzt, entstehen mehr Erfahrungen und Daten für Reflexion über die Wirksamkeit des Mediums. Höhere Akzeptanz führt zu stärkerem Engagement und somit zu besseren Einsichten beim Reflektieren über Medium-Passung."
+      }
+    },
+    {
+      "_id": "conn-ERFAHRUNG-TO-TEAMPRAEFERENZ",
+      "from": "elem-k8VAutpT",
+      "to": "elem-teampraeferenz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höheres Erfahrungsniveau der Teammitglieder prägt stärkere und informiertere Teampräferenzen für Kommunikationskanäle. Erfahrene Teams entwickeln bewusster Vorlieben basierend auf Best Practices und genauen Wahrnehmungen."
+      }
+    },
+    {
+      "_id": "conn-TEAMPRAEFERENZ-TO-MEDIUM-PASSUNG",
+      "from": "elem-teampraeferenz",
+      "to": "elem-kommunikationsMediumPassung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Teampräferenzen beeinflussen die Medienwahl, können aber positiv oder negativ wirken. Wenn Team-Vorlieben mit der Task-Komplexität aligned sind (Preference = Best-Practice), wird die Medium-Passung besser. Wenn aber Gewohnheit über optimale Wahl siegt, wird die Passung schlechter."
+      }
+    },
+    {
+      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
+      "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
+      }
+    },
+    {
+      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
+      "from": "elem-bewusstseinMismatch",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnisse führt."
+      }
+    },
+    {
+      "_id": "conn-ZEITDRUCK-TO-BEWUSSTSEIN",
+      "from": "elem-niveauZeitdruck",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hoher Zeitdruck reduziert das Bewusstsein für Medium-Aufgabe-Mismatches. Unter Zeit- und Ressourcendruck fokussieren Teams auf kurzfristige Lösungen und vernachlässigen reflektive Aktivitäten, weshalb Probleme mit der Medienwahl übersehen werden."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-BEWUSSTSEIN",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine starke Fehlerakzeptanz-Kultur im Team fördert das Bewusstsein für Medium-Mismatches. Teams mit höherer psychologischer Sicherheit teilen offener mit, wenn ein Medium nicht funktioniert, und diskutieren Probleme aktiv statt sie zu ignorieren."
+      }
+    },
+    {
+      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
+      "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
+      }
+    },
+    {
+      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
+      "from": "elem-bewusstseinMismatch",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnissen führt."
+      }
+    },
+    {
+      "_id": "conn-ZEITDRUCK-TO-BEWUSSTSEIN",
+      "from": "elem-niveauZeitdruck",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hoher Zeitdruck reduziert das Bewusstsein für Medium-Aufgabe-Mismatches. Unter Zeit- und Ressourcendruck fokussieren Teams auf kurzfristige Lösungen und vernachlässigen reflektive Aktivitäten, weshalb Probleme mit der Medienwahl übersehen werden."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-BEWUSSTSEIN",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine starke Fehlerakzeptanz-Kultur im Team fördert das Bewusstsein für Medium-Mismatches. Teams mit höherer psychologischer Sicherheit teilen offener mit, wenn ein Medium nicht funktioniert, und diskutieren Probleme aktiv statt sie zu ignorieren."
+      }
+    },
+    {
+      "_id": "conn-STRUKTUR-MEDIA-RICHNESS-TO-FEEDBACK",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturell reichhaltigere Medien (mit mehr Cues, schnellerem Feedback, höherer Anpassbarkeit) ermöglichen qualitativ besseres Feedback. Face-to-Face und Video ermöglichen Echtzeit-Feedback mit nonverbalen Signalen und sofortiger Klärung, während asynchrone Text-Medien verzögertes, weniger reichhaltiges Feedback geben."
+      }
+    },
+    {
+      "_id": "conn-WAHRGENOMMENE-MEDIA-RICHNESS-TO-FEEDBACK",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn Team-Mitglieder ein Medium als reichhaltig und vertraut wahrnehmen (hohe wahrgenommene Richness), geben sie besseres, tiefergehendes Feedback, weil sie dem Medium zutrauen, Nuancen zu transportieren. Geringe wahrgenommene Richness führt zu oberflächlichem Feedback und Missverständnis-Vermeidung (communication avoidance)."
+      }
+    },
+    {
+      "_id": "conn-COLLAB-WORKSPACE-TO-ARTEFAKT-INFRA",
+      "from": "elem-ldnDdueE",
+      "to": "elem-kollabArtefaktInfra",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine hochwertige kollaborative Arbeitsumgebung beinhaltet verfügbare Artefakt-Tools und Visualisierungsmöglichkeiten (Whiteboards, gemeinsame Workspaces)."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-INFRA-TO-KOMMUNIKATION",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kollaborative Artefakt-Tools verbessern die Kommunikation durch geteilte Visualisierungen und gemeinsame Referenzpunkte."
+      }
+    },
+    {
+      "_id": "conn-ARTEFAKT-INFRA-TO-TEAM-UNDERSTANDING",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsame Artefakt-Erstellung fördert Alignment und geteilte mentale Modelle zwischen Teammitgliedern."
+      }
+    },
+    {
+      "_id": "conn-REFLEXION-TO-BEWUSSTSEIN",
+      "from": "elem-reflexionMedianwirksamkeit",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturierte Reflexion über Medienwirksamkeit hilft Teamitgliedern, Mismatches zwischen gewähltem Medium und aktueller Aufgabe zu erkennen. Gute Reflexion articulates unbewusste Probleme und macht Mismatches explizit und adressierbar."
+      }
+    },
+    {
+      "_id": "conn-BEWUSSTSEIN-TO-RETROSPEKTIVE",
+      "from": "elem-bewusstseinMismatch",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bewusstsein für Medium-Aufgabe-Mismatches führt zu besseren Retrospektiven. Teams, die Mismatch-Probleme erkannt haben, können diese explizit in der Retro diskutieren, was zu höherer Qualität und effektiverem Verbesserungsergebnissen führt."
+      }
+    },
+    {
+      "_id": "conn-ZEITDRUCK-TO-BEWUSSTSEIN",
+      "from": "elem-niveauZeitdruck",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hoher Zeitdruck reduziert das Bewusstsein für Medium-Aufgabe-Mismatches. Unter Zeit- und Ressourcendruck fokussieren Teams auf kurzfristige Lösungen und vernachlässigen reflektive Aktivitäten, weshalb Probleme mit der Medienwahl übersehen werden."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-BEWUSSTSEIN",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-bewusstseinMismatch",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine starke Fehlerakzeptanz-Kultur im Team fördert das Bewusstsein für Medium-Mismatches. Teams mit höherer psychologischer Sicherheit teilen offener mit, wenn ein Medium nicht funktioniert, und diskutieren Probleme aktiv statt sie zu ignorieren."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-PSYCH-SICHERHEIT",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-psychSicherheit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Fehlerakzeptanz im Teamumfeld fördert psychologische Sicherheit, weil Fehler als Lernchance statt als Versagen gesehen werden und das Risiko der Schambeladung sinkt."
+      }
+    },
+    {
+      "_id": "conn-KONFLIKTKULTUR-TO-PSYCH-SICHERHEIT",
+      "from": "elem-umR71vJA",
+      "to": "elem-psychSicherheit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine konstruktive Konfliktkultur mit Mechanismen zur zeitnahen Klärung und Auflösung erhöht psychologische Sicherheit, da Spannungen nicht unterschwellig wirken und das Team offen über Differenzen sprechen kann."
+      }
+    },
+    {
+      "_id": "conn-VERTRAUEN-TO-PSYCH-SICHERHEIT",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-psychSicherheit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Vertrauen in Beziehungen zwischen Teammitgliedern ist die Grundlage für psychologische Sicherheit. Wenn Menschen sich gegenseitig zutrauen, gute Absichten zu haben, sinkt die Angst vor interpersonalen Risiken."
+      }
+    },
+    {
+      "_id": "conn-PSYCH-SICHERHEIT-TO-KOMMUNIKATION",
+      "from": "elem-psychSicherheit",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit verbessert die Kommunikationsqualität, weil Teammitglieder offener Unsicherheiten äußern, komplexe Themen ehrlich diskutieren und Missverständnisse schneller aufdecken können ohne Angst vor Konsequenzen."
+      }
+    },
+    {
+      "_id": "conn-PSYCH-SICHERHEIT-TO-RETRO",
+      "from": "elem-psychSicherheit",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit ist Voraussetzung für hochwertige Retrospektiven. Teams mit hoher psychologischer Sicherheit sprechen schwierige Themen an, geben sich ehrliches Feedback und erkennen Verbesserungsmöglichkeiten, die kritisch sein können."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELLE-TO-BOUNDARY-SPANNER",
+      "from": "elem-mentalModelle",
+      "to": "elem-boundarySpannerNeed",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Schlechte Qualität gemeinsamer mentaler Modelle über Team-Grenzen erhöht die Notwendigkeit von Boundary Spanning, weil mehr Übersetzungs- und Koordinationsaufwand nötig ist, um Missverständnisse zu klären. Gute Qualität reduziert diesen Bedarf."
+      }
+    },
+    {
+      "_id": "conn-MENTAL-MODELLE-TO-BOUNDARY-OBJECT",
+      "from": "elem-mentalModelle",
+      "to": "elem-Siz8fExz",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Schlechte Qualität gemeinsamer mentaler Modelle führt zu höherem Bedarf an expliziten Boundary Objects (z.B. API-Spezifikationen, Schnittstellenkontrakte, formale Artefakte), um Missverständnisse zwischen Teams zu vermeiden. Gute Modelle reduzieren diesen Bedarf."
+      }
+    },
+    {
+      "_id": "conn-STRUKTUR-MEDIA-RICHNESS-TO-FEEDBACK",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturell reichhaltigere Medien (mit mehr Cues, schnellerem Feedback, höherer Anpassbarkeit) ermöglichen qualitativ besseres Feedback. Face-to-Face und Video ermöglichen Echtzeit-Feedback mit nonverbalen Signalen und sofortiger Klärung, während asynchrone Text-Medien verzögertes, weniger reichhaltiges Feedback geben."
+      }
+    },
+    {
+      "_id": "conn-WAHRGENOMMENE-MEDIA-RICHNESS-TO-FEEDBACK",
+      "from": "elem-wahrgenommeneMediaRichness",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn Team-Mitglieder ein Medium als reichhaltig und vertraut wahrnehmen (hohe wahrgenommene Richness), geben sie besseres, tiefergehendes Feedback, weil sie dem Medium zutrauen, Nuancen zu transportieren. Geringe wahrgenommene Richness führt zu oberflächlichem Feedback und Missverständnis-Vermeidung (communication avoidance)."
+      }
+    },
+    {
+      "_id": "conn-TEAMLEAD-SOZIALKOMPETENZ-TO-ABSICHT",
+      "from": "elem-teamLeadSozialkompetenz",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein Team Lead mit hoher Sozialkompetenz kann den Zweck und die Intention hinter Koordinationsmechanismen besser vermitteln und das Team für diese Absichten sensibilisieren."
+      }
+    },
+    {
+      "_id": "conn-EXPLIZIT-WISSENSSTAND-TO-ABSICHT",
+      "from": "elem-0er3OquT",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn die Organisation explizit über den Zweck ihrer Koordinationsmechanismen nachdenkt und dieses Wissen dokumentiert/teilt, entwickelt das Team ein stärkeres Bewusstsein für die Absichten hinter diesen Ritualen."
+      }
+    },
+    {
+      "_id": "conn-RETROSPEKTIVE-TO-ABSICHT",
+      "from": "elem-retrospektive001",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine hochqualitative Retrospektive schafft Raum, um über den SINN und die Effektivität von Koordinationsmechanismen zu reflektieren, was das Bewusstsein für ihre Absicht erhöht."
+      }
+    },
+    {
+      "_id": "conn-ERFAHRUNG-TO-ABSICHT",
+      "from": "elem-k8VAutpT",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Erfahrenere Teammitglieder verstehen intuitiv schneller, warum bestimmte Koordinationsmechanismen existieren, und können andere darin sensibilisieren."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-DAILY",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team versteht, dass das Daily dazu dient, Blöcker früh zu identifizieren, nutzt es das Ritual mit dieser Absicht und erzeugt bessere Qualität durch fokussierte Kommunikation auf Blöcker statt oberflächlicher Status-Updates."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-RETROSPEKTIVE",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team versteht, dass die Retrospektive ein Lernraum ist und nicht nur ein kritischer Austausch, führt dies zu konstruktiverer, psychologisch sicherer Partizipation und besserer Qualität."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-REFINEMENT",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team versteht, dass Refinement dazu dient, Klarheit über Anforderungen zu schaffen (nicht nur Geschichten schnell durchzuarbeiten), nutzt es das Ritual tiefgründiger und erzeugt bessere Anforderungsklarheit."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-PARTIZIPATION",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn Team-Mitglieder verstehen, WARUM sie in Koordinationsmechanismen partizipieren sollen (z.B. Daily: Early Blocker Detection, Retro: Learning), steigt ihre intentionale Partizipation und ihr Engagement."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-KOMMUNIKATION",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klares Verständnis der Absicht von Kommunikationsmechanismen führt zu gezielteren, fokussierteren Kommunikationsinteraktionen, die die Kommunikationsqualität erhöhen (weniger Lärm, mehr Signal)."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt."
+      }
+    },
+    {
+      "_id": "conn-RETRO-TO-IMPLICIT-KNOWLEDGE",
+      "from": "elem-retrospektive001",
+      "to": "elem-E4veLPLX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven fördern den impliziten Wissensstand der Entwickler durch strukturierte Reflexion von Fehlern, erfolgreichen Mustern und Lernpunkten. Die gemeinsame Diskussion über 'Warum hat das funktioniert/nicht funktioniert?' macht implizites Erfahrungswissen der Beteiligten explizit und nachhaltig für das Team."
+      }
+    },
+    {
+      "_id": "conn-EXPLIZITWISSEN-TO-ONBOARDING",
+      "from": "elem-0er3OquT",
+      "to": "elem-onboardingQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein hoher expliziter Wissensstand der Organisation erleichtert strukturiertes Onboarding durch verfuegbaren Kontext, Standards und Dokumentation."
+      }
+    },
+    {
+      "_id": "conn-WISSENSAUSTAUSCH-TO-ONBOARDING",
+      "from": "elem-gdWissAust01",
+      "to": "elem-onboardingQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch im Team verbessert das Onboarding durch zugaengliche Erfahrungswerte und aktives Mentoring."
+      }
+    },
+    {
+      "_id": "conn-TL-SOZIAL-TO-ONBOARDING",
+      "from": "elem-teamLeadSozialkompetenz",
+      "to": "elem-onboardingQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sozialkompetente Team Leads foerdern ein gutes Onboarding durch Orientierung, klare Erwartungen und Unterstuetzung neuer Mitglieder."
+      }
+    },
+    {
+      "_id": "conn-PARTIZIPATION-TO-ONBOARDING",
+      "from": "elem-1oLVNA94",
+      "to": "elem-onboardingQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Team-Partizipation verbessert das Onboarding durch Einbindung, Hilfsbereitschaft und geteilte Verantwortung."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-IMPLWISSEN",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-E4veLPLX",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gutes Onboarding erhoeht den impliziten Wissensstand der Entwickler durch schnelleres Lernen von Prozessen, Kontext und Praktiken."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-FACHKOMPETENZ",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-SfaQSG8R",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Strukturiertes Onboarding foerdert fachliche Kompetenz durch fruehe Lernpfade, Standards und Feedback."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-TEAMDYNAMIK",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gutes Onboarding verbessert die Teamdynamik durch schnellere Integration, Klarheit und Anschlussfaehigkeit."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Gutes Onboarding reduziert den Koordinationsaufwand, weil weniger Rueckfragen und Klaerungen noetig sind."
+      }
+    },
+    {
+      "_id": "conn-RAUMNAEHE-TO-INFORMELLKOMM",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-informelleKommunikationQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Raeumliche Naehe erhoeht die Qualitaet informeller Kommunikation durch spontane, unmittelbare Klaerungen."
+      }
+    },
+    {
+      "_id": "conn-SICHTBARKEIT-TO-INFORMELLKOMM",
+      "from": "elem-gRqiMiBS",
+      "to": "elem-informelleKommunikationQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sichtbarkeit der Teammitglieder erleichtert informelle Rueckfragen und kurzfristige Abstimmungen."
+      }
+    },
+    {
+      "_id": "conn-VERTRAUEN-TO-INFORMELLKOMM",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-informelleKommunikationQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Vertrauen zwischen Teammitgliedern foerdert offene, ehrliche und hilfreiche informelle Kommunikation."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-INFORMELLKOMM",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-informelleKommunikationQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fehlerakzeptanz senkt Barrieren fuer informelle Rueckfragen und fruehe Problemansprache."
+      }
+    },
+    {
+      "_id": "conn-TEAMDYNAMIK-TO-INFORMELLKOMM",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-informelleKommunikationQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine gute Teamdynamik erhoeht die Qualitaet informeller Kommunikation durch Offenheit und Respekt."
+      }
+    },
+    {
+      "_id": "conn-MEDIENKOMPETENZ-TO-INFORMELLKOMM",
+      "from": "elem-4b82cTxp",
+      "to": "elem-informelleKommunikationQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Medienkompetenz erleichtert informelle digitale Klaerungen und verringert Reibung in spontaner Kommunikation."
+      }
+    },
+    {
+      "_id": "conn-INFORMELLKOMM-TO-KOMMQUAL",
+      "from": "elem-informelleKommunikationQualitaet",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige informelle Kommunikation verbessert die allgemeine Kommunikationsqualitaet durch schnelle Klaerung und geteilten Kontext."
+      }
+    },
+    {
+      "_id": "conn-INFORMELLKOMM-TO-WISSENSAUSTAUSCH",
+      "from": "elem-informelleKommunikationQualitaet",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Informelle Kommunikation erhoeht den Wissensaustausch durch niedrigschwellige Weitergabe von Erfahrungen."
+      }
+    },
+    {
+      "_id": "conn-INFORMELLKOMM-TO-PARTIZIPATION",
+      "from": "elem-informelleKommunikationQualitaet",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute informelle Kommunikation foerdert Beteiligung, weil Rueckfragen und Einbringen einfacher werden."
+      }
+    },
+    {
+      "_id": "conn-INFORMELLKOMM-TO-MENTALMODELS",
+      "from": "elem-informelleKommunikationQualitaet",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Informelle Kommunikation foerdert gemeinsame mentale Modelle durch kontinuierliche Abgleiche und Mikroklaerungen."
+      }
+    },
+    {
+      "_id": "conn-INFORMELLKOMM-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-informelleKommunikationQualitaet",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Hochwertige informelle Kommunikation reduziert Koordinationsaufwand durch fruehe Klaerung und weniger Eskalation."
+      }
+    },
+    {
+      "_id": "conn-EXPLIZITWISSEN-TO-SELBSTKOORD",
+      "from": "elem-0er3OquT",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hoher expliziter Wissensstand erleichtert Selbstkoordination durch klare Standards, Regeln und Dokumentation."
+      }
+    },
+    {
+      "_id": "conn-IMPLWISSEN-TO-SELBSTKOORD",
+      "from": "elem-E4veLPLX",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Implizites Wissen ermoeglicht bessere Selbstkoordination durch Erfahrung, Intuition und Routinen."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-SELBSTKOORD",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gutes Onboarding beschleunigt Selbstkoordination durch fruehes Verstaendnis von Prozessen, Rollen und Abhaengigkeiten."
+      }
+    },
+    {
+      "_id": "conn-FACHKOMPETENZ-TO-SELBSTKOORD",
+      "from": "elem-SfaQSG8R",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Fachkompetenz ermoeglicht realistische Selbsteinschaetzung, Task-Splitting und eigenstaendige Planung."
+      }
+    },
+    {
+      "_id": "conn-SOZKOMPETENZ-TO-SELBSTKOORD",
+      "from": "elem-VzcqeqTN",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sozialkompetenz unterstuetzt Selbstkoordination durch bessere Abstimmung, Rueckfragen und Konfliktklaerung."
+      }
+    },
+    {
+      "_id": "conn-FEEDBACKQUAL-TO-SELBSTKOORD",
+      "from": "elem-cHlGVpZ5",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Feedback verbessert Selbstkoordination durch klarere Erwartungen und schnelleres Lernen."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere Selbstkoordination reduziert Koordinationsaufwand durch weniger Rueckfragen und Nachsteuerung."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-TEAMDYNAMIK",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Selbstkoordination foerdert Teamdynamik durch verlaessliche Zusagen und weniger Reibung."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-PARTIZIPATION",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Selbstkoordination erhoeht die Qualitaet der Team Partizipation durch proaktives Einbringen."
+      }
+    },
+    {
+      "_id": "conn-SELBSTKOORD-TO-WISSENSAUSTAUSCH",
+      "from": "elem-selbstkoordinationEntwickler",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Selbstkoordination foerdert Wissensaustausch durch eigenstaendige Dokumentation und aktives Teilen."
+      }
+    },
+    {
+      "_id": "conn-PSYCH-SICHERHEIT-TO-EXTERNALISIERUNG",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit erleichtert Externalisierung, da Annahmen ohne Angst vor Kritik geaußert werden koennen."
+      }
+    },
+    {
+      "_id": "conn-FEEDBACK-TO-EXTERNALISIERUNG",
+      "from": "elem-cHlGVpZ5",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Feedback foerdert Externalisierung durch explizite Rueckmeldung zu Annahmen und Missverstaendnissen."
+      }
+    },
+    {
+      "_id": "conn-TEAMDYNAMIK-TO-EXTERNALISIERUNG",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Teamdynamik schafft ein Umfeld, in dem Annahmen offen geaußert und verhandelt werden koennen."
+      }
+    },
+    {
+      "_id": "conn-WISSENSAUSTAUSCH-TO-EXTERNALISIERUNG",
+      "from": "elem-gdWissAust01",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktiver Wissensaustausch formt einen Klima, in dem implizites Wissen geteilt und explizit gemacht wird."
+      }
+    },
+    {
+      "_id": "conn-RETROSPEKTIVE-TO-EXTERNALISIERUNG",
+      "from": "elem-retrospektive001",
+      "to": "elem-externalisierungAnnahmen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven schaffen Raum, um Annahmen explizit zu machen und aus Erfahrungen zu lernen."
+      }
+    },
+    {
+      "_id": "conn-EXTERNALISIERUNG-TO-MENTALMODELLE",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Externalisierung verbesert gemeinsame mentale Modelle durch explizite Klaerung von Annahmen und gegenseitiger Verstaendigung."
+      }
+    },
+    {
+      "_id": "conn-EXTERNALISIERUNG-TO-KONVERGENZ",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Externalisierung foerdert die Konvergenz des Teamverstaendnisses durch transparente Diskussion und Alignment von Perspektiven."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-ZIELKONGRUENZ",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Onboarding alignt neue Teammitglieder auf gemeinsame Sprint-Ziele und den Purpose des Teams."
+      }
+    },
+    {
+      "_id": "conn-RETROSPEKTIVE-TO-ZIELKONGRUENZ",
+      "from": "elem-retrospektive001",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven sind primärer Ort für Alignment bezüglich Teamzielen, Purpose und gemeinsamer Sinnhaftigkeit."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-ZIELKONGRUENZ",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fehlerakzeptanz schafft psychologische Sicherheit, um unterschiedliche Zielverständnisse offen zu diskutieren und zu harmonisieren."
+      }
+    },
+    {
+      "_id": "conn-SOZIALKOMPETENZ-TO-ZIELKONGRUENZ",
+      "from": "elem-VzcqeqTN",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sozialkompetenz des Entwicklers fördert Zielkongruenz durch Fähigkeit, eigene und andere Ziele zu verstehen und zu harmonisieren."
+      }
+    },
+    {
+      "_id": "conn-PLANUNG-TO-ZIELKONGRUENZ",
+      "from": "elem-K1bUPwjJ",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Planungsqualität kodifiziert und alignt gemeinsame Sprint-Ziele und deren Sinnhaftigkeit explizit im Team."
+      }
+    },
+    {
+      "_id": "conn-PARTIZIPATION-TO-ZIELKONGRUENZ",
+      "from": "elem-1oLVNA94",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Team-Partizipation fördert Zielkongruenz durch aktive Mitwirkung aller bei Zielsetzung und Sinnhaftigkeit."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-SELBSTKOORDINATION",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mit klaren, kongruenten Zielen kann der Entwickler autonomer entscheiden und sich selbst koordinieren."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere Zielkongruenz reduziert Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen konsistent getroffen werden können."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-TEAMDYNAMIK",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsame Zielausrichtung verbessert die Teamdynamik und schafft Kohäsion durch gemeinsamen Purpose."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-WISSENSAUSTAUSCH",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mit gemeinsamen Zielen wird Wissensaustausch effizienter, da Kontext und Sinnhaftigkeit klar sind."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-MENTALMODELLE",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zielkongruenz ist fundamentale Basis für gemeinsame mentale Modelle über den Purpose und die Prioritäten des Teams."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-PLANUNG-BIDIRECTIONAL",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Zielkongruenz verbessert die Planungsqualität, da auf einer gemeinsamen Augenhöhe geplant wird und Commitment stärker ist."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REF-TO-REQ-VOLATILITY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hochwertiges Backlog-Refinement mit vollständiger, detaillierter Spezifikation reduziert die Notwendigkeit von mid-sprint Änderungen durch frühe Klärung."
+      }
+    },
+    {
+      "_id": "conn-STAKEHOLDER-MGMT-TO-REQ-VOLATILITY",
+      "from": "elem-YXuvo4kt",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Effektives Stakeholder Management stabilisiert Anforderungen durch frühe Abstimmung, klare Erwartungsmanagement und reduziert mid-sprint Scope Changes."
+      }
+    },
+    {
+      "_id": "conn-KOM-COMPLEXITY-TO-REQ-VOLATILITY",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Kommunikationskomplexität mit vielen Stakeholdern führt zu häufigeren Anforderungsänderungen durch fehlende Alignment und unterschiedliche Perspektiven."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-EQUIVOCALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige Anforderungsänderungen erhöhen die Aufgabenmehrdeutigkeit, da Team-Mitglieder unsicher sind über verfältliches Ziel und sich widersprechende Anforderungen existieren."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-COORDINATION",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Anforderungsvolatilität im Sprint erhöht den Koordinationsaufwand durch Umplanungen, Repriorisierungen und Abstimmungsbedarf über neue/geänderte Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-PLANNING-QUALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hohe Anforderungsvolatilität verschlechtert die Planungsqualität, da Schätzungen hinfällig werden und Sprint-Commitments nicht erfüllbar bleiben."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-SB-QUALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-sprintBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Anforderungsänderungen während des Sprints destabilisieren das Sprint Backlog durch Unstimmigkeiten zwischen Plan und Realität, Task-Invalidierung und verwirrten Ownership."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-MENTAL-MODELS",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Anforderungsvolatilität behindert die Bildung stabiler gemeinsamer mentaler Modelle, da sich das gemeinsame Zielverständnis ständig ändert und Verwirrung entsteht."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-WORKLOAD",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-34Kwzpr1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Anforderungsänderungen während des Sprints erhöhen die Aufgabenbelastung durch zusätzliche Umplanungen, Neubewertungen und Rework-Aktivitäten."
+      }
+    },
+    {
+      "_id": "conn-MEETING-STRUCTURE-TO-DAILY-QUALITY",
+      "from": "elem-DyjLKFjk",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Agenda-Struktur und Moderationsstandards im Meeting allgemein verbessern die Struktur & Zielorientierung des Daily konkret durch konsistente Ablaufklarheit, wodurch sich das Team besser auf Sprint-Ziele ausrichtet."
+      }
+    },
+    {
+      "_id": "conn-MEETING-STRUCTURE-TO-DAILY-QUALITY",
+      "from": "elem-DyjLKFjk",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Agenda-Struktur und Moderationsstandards im Meeting allgemein verbessern die Struktur & Zielorientierung des Daily konkret durch konsistente Ablaufklarheit, wodurch sich das Team besser auf Sprint-Ziele ausrichtet."
       }
     },
     {
