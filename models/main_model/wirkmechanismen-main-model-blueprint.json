@@ -4059,6 +4059,22 @@
       }
     },
     {
+      "_id": "elem-absichtKoordinationsmechanismus",
+      "attributes": {
+        "label": "Bewusstsein für gezielte Absicht eines Koordinationsmechanismus",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Teamdynamik",
+          "Kommunikation",
+          "Sensemaking"
+        ],
+        "description": "Das Verständnis des Teams über den SPEZIFISCHEN Zweck eines Koordinationsmechanismus (z.B. Daily findet Blöcker FRÜH, Retro schafft Lernraum, Refinement schafft Klarheit). Teams, die verstehen WARUM ein Ritual existiert, nutzen es intentional statt als Overhead.",
+        "measurability": 0.5,
+        "influenceability": 1.0,
+        "indegree": 4,
+        "outdegree": 6,
+        "degree": 10,
+        "size": 11
       "_id": "elem-kollabArtefaktInfra",
       "attributes": {
         "label": "Verfügbarkeit kollaborativer Artefakt-Infrastruktur",
@@ -8801,19 +8817,7 @@
           "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
         }
       },
-      {
-        "_id": "conn-erfahrung-medienwahl-strategie",
-        "from": "elem-k8VAutpT",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Erfahrung und implizites Wissen beeinflussen die Medienwahl und Kommunikationsstrategie durch bessere Einschätzung der Situation."
-        }
-      },
+
       {
         "_id": "conn-erfahrung-to-kommunikationsqualitaet",
         "from": "elem-k8VAutpT",
@@ -8853,71 +8857,7 @@
           "description": "Höheres Erfahrungsniveau unterstützt bessere Aufgabenpriorisierung durch bessere Einschätzung von Risiken, Aufwand und Abhängigkeiten."
         }
       },
-      {
-        "_id": "conn-raumnaeheTeam-to-medienwahl",
-        "from": "elem-raumnaeheTeam",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere räumliche Nähe der Teammitglieder ermöglicht und bevorzugt Face-to-Face und synchrone Kommunikation als Medienwahl."
-        }
-      },
-      {
-        "_id": "conn-arbeitszeitOverlap-to-medienwahl",
-        "from": "elem-arbeitszeitOverlap",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere zeitliche Überlappung der Arbeitszeiten ermöglicht synchrone Kommunikationsmedien und beeinflusst die Medienwahl zur Bevorzugung synchroner Kanäle."
-        }
-      },
-      {
-        "_id": "conn-kontextBequemlichkeit-to-medienwahl",
-        "from": "elem-kontextBequemlichkeit",
-        "to": "elem-medienwahlStrategie",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Höhere kontextuelle Bequemlichkeit (Verfügbarkeit, Vertrautheit, psychologischer Komfort) erhöht die Wahrscheinlichkeit, dass Teams bequemere Medien bevorzugen, auch wenn komplexere Medien theoretisch besser wären."
-        }
-      },
-      {
-        "_id": "conn-medienwahl-to-kommqual",
-        "from": "elem-medienwahlStrategie",
-        "to": "elem-bh4G3Yqp",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Gute Medienwahl (passend zur Aufgabenkomplexität und zum Kontext) verbessert die Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
-        }
-      },
-      {
-        "_id": "conn-medienwahl-to-teamverstaendnis",
-        "from": "elem-medienwahlStrategie",
-        "to": "elem-VombH8FP",
-        "direction": "directed",
-        "delayed": false,
-        "reversed": false,
-        "attributes": {
-          "label": "[A]",
-          "connection type": "++",
-          "description": "Gute Medienwahl unterstützt die Konvergenz des Teamverständnisses durch Kanäle, die Nuancen, nonverbale Signale und unmittelbares Feedback transportieren."
-        }
-      },
+
       {
         "_id": "conn-feedback-to-teamverstaendnis",
         "from": "elem-cHlGVpZ5",
@@ -11534,6 +11474,136 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Wenn Team-Mitglieder ein Medium als reichhaltig und vertraut wahrnehmen (hohe wahrgenommene Richness), geben sie besseres, tiefergehendes Feedback, weil sie dem Medium zutrauen, Nuancen zu transportieren. Geringe wahrgenommene Richness führt zu oberflächlichem Feedback und Missverständnis-Vermeidung (communication avoidance)."
+      }
+    },
+    {
+      "_id": "conn-TEAMLEAD-SOZIALKOMPETENZ-TO-ABSICHT",
+      "from": "elem-teamLeadSozialkompetenz",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein Team Lead mit hoher Sozialkompetenz kann den Zweck und die Intention hinter Koordinationsmechanismen besser vermitteln und das Team für diese Absichten sensibilisieren."
+      }
+    },
+    {
+      "_id": "conn-EXPLIZIT-WISSENSSTAND-TO-ABSICHT",
+      "from": "elem-0er3OquT",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn die Organisation explizit über den Zweck ihrer Koordinationsmechanismen nachdenkt und dieses Wissen dokumentiert/teilt, entwickelt das Team ein stärkeres Bewusstsein für die Absichten hinter diesen Ritualen."
+      }
+    },
+    {
+      "_id": "conn-RETROSPEKTIVE-TO-ABSICHT",
+      "from": "elem-retrospektive001",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine hochqualitative Retrospektive schafft Raum, um über den SINN und die Effektivität von Koordinationsmechanismen zu reflektieren, was das Bewusstsein für ihre Absicht erhöht."
+      }
+    },
+    {
+      "_id": "conn-ERFAHRUNG-TO-ABSICHT",
+      "from": "elem-k8VAutpT",
+      "to": "elem-absichtKoordinationsmechanismus",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Erfahrenere Teammitglieder verstehen intuitiv schneller, warum bestimmte Koordinationsmechanismen existieren, und können andere darin sensibilisieren."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-DAILY",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team versteht, dass das Daily dazu dient, Blöcker früh zu identifizieren, nutzt es das Ritual mit dieser Absicht und erzeugt bessere Qualität durch fokussierte Kommunikation auf Blöcker statt oberflächlicher Status-Updates."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-RETROSPEKTIVE",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-retrospektive001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team versteht, dass die Retrospektive ein Lernraum ist und nicht nur ein kritischer Austausch, führt dies zu konstruktiverer, psychologisch sicherer Partizipation und besserer Qualität."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-REFINEMENT",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-backlogRefinement",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn das Team versteht, dass Refinement dazu dient, Klarheit über Anforderungen zu schaffen (nicht nur Geschichten schnell durchzuarbeiten), nutzt es das Ritual tiefgründiger und erzeugt bessere Anforderungsklarheit."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-PARTIZIPATION",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-1oLVNA94",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wenn Team-Mitglieder verstehen, WARUM sie in Koordinationsmechanismen partizipieren sollen (z.B. Daily: Early Blocker Detection, Retro: Learning), steigt ihre intentionale Partizipation und ihr Engagement."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-KOMMUNIKATION",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-bh4G3Yqp",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klares Verständnis der Absicht von Kommunikationsmechanismen führt zu gezielteren, fokussierteren Kommunikationsinteraktionen, die die Kommunikationsqualität erhöhen (weniger Lärm, mehr Signal)."
+      }
+    },
+    {
+      "_id": "conn-ABSICHT-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-absichtKoordinationsmechanismus",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt."
       }
     }
   ]
