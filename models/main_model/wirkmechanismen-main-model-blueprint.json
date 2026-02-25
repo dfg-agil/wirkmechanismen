@@ -3858,6 +3858,26 @@
         "degree": 2,
         "size": 3
       }
+    },
+    {
+      "_id": "elem-medienwahlStrategie",
+      "attributes": {
+        "label": "Medienwahl und Kommunikationsstrategie",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Medium",
+          "Strategie",
+          "Entscheidungen"
+        ],
+        "description": "Die deliberate oder habitualisierte Entscheidung und Umsetzung über die Wahl des Kommunikationsmediums und der damit verbundenen Kommunikationsstrategie für eine spezifische Aufgabe oder Situation. Bestimmt durch: Aufgabenkomplexität, verfügbare Medien, Kontextuelle Variablen (räumliche Nähe, zeitliche Überlappung), Erfahrung und Medienkompetenz, sowie organisatorische Normen. Beeinflusst die Effektivität von Kommunikation und damit die Kommunikationsqualität. Messbar über Häufigkeit/Typ der gewählten Medien, Alignment mit Best Practices. Beeinflussbar durch Training, Norm-Setting, Medium-Verfügbarkeit, Erfahrungsfeedback.",
+        "measurability": 0.5,
+        "influenceability": 1.0,
+        "indegree": 0,
+        "outdegree": 0,
+        "degree": 0,
+        "size": 1
+      }
     }
   ],
   "connections": [
@@ -8605,6 +8625,71 @@
           "label": "[A]",
           "connection type": "++",
           "description": "Artefakt-Nutzung reduziert Mehrdeutigkeit durch explizite Dokumentation und Visualisierung."
+        }
+      },
+      {
+        "_id": "conn-raumnaeheTeam-to-medienwahl",
+        "from": "elem-raumnaeheTeam",
+        "to": "elem-medienwahlStrategie",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höhere räumliche Nähe der Teammitglieder ermöglicht und bevorzugt Face-to-Face und synchrone Kommunikation als Medienwahl."
+        }
+      },
+      {
+        "_id": "conn-arbeitszeitOverlap-to-medienwahl",
+        "from": "elem-arbeitszeitOverlap",
+        "to": "elem-medienwahlStrategie",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höhere zeitliche Überlappung der Arbeitszeiten ermöglicht synchrone Kommunikationsmedien und beeinflusst die Medienwahl zur Bevorzugung synchroner Kanäle."
+        }
+      },
+      {
+        "_id": "conn-kontextBequemlichkeit-to-medienwahl",
+        "from": "elem-kontextBequemlichkeit",
+        "to": "elem-medienwahlStrategie",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höhere kontextuelle Bequemlichkeit (Verfügbarkeit, Vertrautheit, psychologischer Komfort) erhöht die Wahrscheinlichkeit, dass Teams bequemere Medien bevorzugen, auch wenn komplexere Medien theoretisch besser wären."
+        }
+      },
+      {
+        "_id": "conn-medienwahl-to-kommqual",
+        "from": "elem-medienwahlStrategie",
+        "to": "elem-bh4G3Yqp",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Gute Medienwahl (passend zur Aufgabenkomplexität und zum Kontext) verbessert die Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
+        }
+      },
+      {
+        "_id": "conn-medienwahl-to-teamverstaendnis",
+        "from": "elem-medienwahlStrategie",
+        "to": "elem-VombH8FP",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Gute Medienwahl unterstützt die Konvergenz des Teamverständnisses durch Kanäle, die Nuancen, nonverbale Signale und unmittelbares Feedback transportieren."
         }
       },
     {
