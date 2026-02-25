@@ -2011,6 +2011,7 @@
       "attributes": {
         "label": "Qualität des Artefakts",
         "element type": "Einflussfaktoren",
+        "description": "Grad der Übereinstimmung und Erfüllung des Artefakts mit den Kundenanforderungen, Akzeptanzkriterien und Sprintzielen. Misst, wie gut ein Artefakt (Prototyp, Mockup, Code, Design, etc.) die gestellten Anforderungen umsetzt und festgelegten Qualitätskriterien entspricht.",
         "closeness": 0.04,
         "metrics::last": 0.8915911447464404,
         "degree": 7,
@@ -3986,11 +3987,12 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "--",
-        "label": "[A]"
+        "connection type": "++",
+        "label": "[A]",
+        "description": "Höhere Qualität der Entscheidungen verbessert die Artefaktqualität durch bessere Design- und Implementierungsentscheidungen."
       },
-      "from": "elem-NmSn5Afu",
-      "to": "elem-lcDSwFU2"
+      "from": "elem-lcDSwFU2",
+      "to": "elem-NmSn5Afu"
     },
     {
       "_id": "conn-12Ehp7nZ",
@@ -4779,8 +4781,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "connection type": "--",
-        "label": "[A]"
+        "connection type": "++",
+        "label": "[A]",
+        "description": "Höhere Artefaktqualität verbessert die Qualität des Endprodukts durch präzise und vollständige Umsetzung der Anforderungen."
       },
       "from": "elem-lcDSwFU2",
       "to": "elem-rf8OZmMz"
@@ -10685,6 +10688,45 @@
         "label": "[A]",
         "connection type": "--",
         "description": "Ein höherer Reifegrad des Artefakts reduziert die Mehrdeutigkeit der Aufgabe durch explizite Visualisierung, detaillierte Spezifikation und Klärung von unklar Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-SB-QUALITY-TO-ARTEFAKT",
+      "from": "elem-sprintBacklogQuality",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Qualität des Sprint Backlogs ermöglicht bessere Artefaktqualität durch klarere Anforderungen, bessere Task-Definition und realistische Planung."
+      }
+    },
+    {
+      "_id": "conn-DOD-TO-ARTEFAKT-QUALITY",
+      "from": "elem-uDiTVbXE",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Definition of Done verbessert die Artefaktqualität, da explizite Fertigstellungskriterien als Qualitätsmaßstab für Entwicklung und Review dienen."
+      }
+    },
+    {
+      "_id": "conn-PB-QUALITY-TO-PLANNING-QUALITY",
+      "from": "elem-productBacklogQuality",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Höhere Qualität des Product Backlogs verbessert die Planungsqualität durch bessere Informationen, klarere Priorisierung und realistischere Schätzungen."
       }
     }
   ]
