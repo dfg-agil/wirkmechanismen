@@ -296,10 +296,10 @@
         "description": "= Osmotische Kommunikation",
         "closeness": 0,
         "metrics::last": 0.8160049503978034,
-        "degree": 6,
-        "size": 7,
+        "degree": 7,
+        "size": 8,
         "indegree": 3,
-        "outdegree": 3,
+        "outdegree": 4,
         "betweenness": 0,
         "eigenvector": 0.002549503497441467,
         "reach": 0.009900990099009901,
@@ -1385,6 +1385,9 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.21808333333333324,
         "metrics::last": 0.8908053592313775,
+        "degree": 13,
+        "size": 14,
+        "indegree": 10,
         "degree": 14,
         "size": 15,
         "indegree": 10,
@@ -1616,6 +1619,9 @@
         "description": "Vorschlag für die Definition (bzw. Bewertung der Qualität): \n\nKommunikationsmodell von Shannon und Weaver als Grundlage\n-> Das was gesendet wird, soll auch im Optimallfall ohne merkliche Verluste beim Empfänger ankommen\n\n-> weitere Modelle je Situation (5 Axiome der Kommunikation von Watzlawick, Kommunikationsquadrat von Schulz von Thun, etc.)\n\nWichitge Eigenschaften einer \"guten\" Kommunikation:\n- Klarheit der Botschaft\n- Transparenz des Inhaltes (der Absicht)\n- situations- und adressatengerecht (Tonfall, Sprache, Inhalt)\n- Kohärenz (logisch und nicht widersprüchlich)\n- Aufmerksamkeit (aktives Zuhören)\n- Soziale Faktoren (Respekt, Wertschätzung, Empathie)\n- Sprachliche und nonverbale Kongruenz",
         "closeness": 0.3901666666666666,
         "metrics::last": 0.9657893118665918,
+        "degree": 40,
+        "size": 41,
+        "indegree": 19,
         "degree": 41,
         "size": 42,
         "indegree": 19,
@@ -3353,6 +3359,8 @@
         "micmac exposure": 0.6885549396250221,
         "measurability": 1.0,
         "influenceability": 0.5,
+        "indegree": 3,
+        "outdegree": 2,
         "indegree": 4,
         "outdegree": 2,
         "degree": 6,
@@ -3937,6 +3945,9 @@
         "measurability": 0.5,
         "influenceability": 0.5,
         "indegree": 8,
+        "outdegree": 3,
+        "degree": 11,
+        "size": 12
         "outdegree": 4,
         "degree": 12,
         "size": 13
@@ -12814,6 +12825,19 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis verbessert den Grad der Koordination durch bessere implizite Koordination, konsistente Erwartungen und reduzierte Koordinationskosten."
+      }
+    },
+    {
+      "_id": "conn-INFO-PERMEABILITY-TO-EQUIVOCALITY",
+      "from": "elem-4DZnGitO",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "+-",
+        "description": "Höhere Informationsdurchlässigkeit (osmotische Kommunikation) reduziert Aufgabenmehrdeutigkeit durch besseren Informationsfluss, schnellere Klärungszyklen und kontinuierliche gemeinsame Kontextualisierung im Team."
       }
     }
   ]
