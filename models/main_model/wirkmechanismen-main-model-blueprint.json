@@ -421,10 +421,10 @@
         "description": "Hindernisse: Systematische Ermittlung und effektive Beseitigung von Hindernissen.\n\nund \n\nAbhängigkeiten: Förderung der Ermittlung und Lösung von Abhängigkeiten.",
         "closeness": 0.37066666666666664,
         "metrics::last": 0.7417492173396959,
-        "degree": 24,
-        "size": 25,
-        "indegree": 8,
-        "outdegree": 16,
+        "degree": 26,
+        "size": 27,
+        "indegree": 9,
+        "outdegree": 17,
         "betweenness": 0.09467588584255247,
         "eigenvector": 0.03182159524718312,
         "reach": 0.25742574257425743,
@@ -971,6 +971,10 @@
         ],
         "closeness": 0.4558333333333334,
         "metrics::last": 0.8116975053138835,
+        "degree": 21,
+        "size": 22,
+        "indegree": 9,
+        "outdegree": 12,
         "degree": 19,
         "size": 20,
         "indegree": 8,
@@ -3806,6 +3810,9 @@
         "measurability": 0.5,
         "influenceability": 1,
         "indegree": 22,
+        "outdegree": 9,
+        "degree": 31,
+        "size": 32
         "outdegree": 9,
         "degree": 31,
         "size": 32
@@ -12855,6 +12862,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Besseres Backlog-Refinement reduziert Aufgabenmehrdeutigkeit durch Klärung von Anforderungen, Definition von Akzeptanzkriterien, Identifikation von Abhängigkeiten und frühzeitige Ausräumung von Unklarheiten."
+      }
+    },
+    {
+      "_id": "conn-DAILY-QUALITY-TO-IMPEDIMENTS",
+      "from": "elem-QOBGtWqO",
+      "to": "elem-7sSep5II",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere Struktur und Zielorientierung des Daily reduziert Hindernisse und Abhängigkeiten durch frühzeitige Identifikation, transparente Thematisierung von Blockaden und schnelle Eskalation an Scrum Master oder Team."
+      }
+    },
+    {
+      "_id": "conn-IMPEDIMENTS-TO-DAILY-QUALITY",
+      "from": "elem-7sSep5II",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mehr Hindernisse und Abhängigkeiten erhöhen den Bedarf an strukturierter Daily-Koordination zur schnellen Identifikation, Abstimmung und Problemlösung."
       }
     }
   ]
