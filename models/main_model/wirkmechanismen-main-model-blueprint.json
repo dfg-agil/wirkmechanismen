@@ -10691,6 +10691,9 @@
       }
     },
     {
+      "_id": "conn-ERFAHRUNGSWISSEN-TO-MEDIUM-PASSUNG",
+      "from": "elem-hHvH3JMB",
+      "to": "elem-kommunikationsMediumPassung",
       "_id": "conn-SB-QUALITY-TO-ARTEFAKT",
       "from": "elem-sprintBacklogQuality",
       "to": "elem-lcDSwFU2",
@@ -10700,6 +10703,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Höheres Ausmaß der Nutzung von Erfahrungswissen ermöglicht bessere Medium-Aufgabe-Passung: Erfahrene Teams wissen, welches Kommunikationsmedium für welche Aufgabentypen am effektivsten ist."
         "description": "Höhere Qualität des Sprint Backlogs ermöglicht bessere Artefaktqualität durch klarere Anforderungen, bessere Task-Definition und realistische Planung."
       }
     },
