@@ -10732,6 +10732,32 @@
         "connection type": "++",
         "description": "Höhere Qualität des Product Backlogs verbessert die Planungsqualität durch bessere Informationen, klarere Priorisierung und realistischere Schätzungen."
       }
+    },
+    {
+      "_id": "conn-TRUST-TO-FEEDBACK-QUALITY",
+      "from": "elem-1qjjXjCN",
+      "to": "elem-cHlGVpZ5",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohes Vertrauen in Beziehungen ermöglicht ehrliches, konstruktives Feedback ohne Angst vor negativen Konsequenzen oder Gesichtsverlust. Vertrauen reduziert Hemmschwellen für offene Kommunikation über Probleme und Unsicherheiten."
+      }
+    },
+    {
+      "_id": "conn-ENGAGEMENT-TO-MEDIA-USAGE",
+      "from": "elem-Nhi8cwn5",
+      "to": "elem-gradMediaNutzung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohes Engagement der Teammitglieder führt zu intensiverer Nutzung verfügbarer Kommunikationsmedien: Engaged Teams nehmen aktiver an synchronen Events teil, nutzen Channels konsequenter und investieren in reichhaltige Medienformate."
+      }
     }
   ]
 }
