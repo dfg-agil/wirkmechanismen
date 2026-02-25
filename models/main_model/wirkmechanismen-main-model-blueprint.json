@@ -971,6 +971,9 @@
         ],
         "closeness": 0.4558333333333334,
         "metrics::last": 0.8116975053138835,
+        "degree": 19,
+        "size": 20,
+        "indegree": 8,
         "degree": 20,
         "size": 21,
         "indegree": 9,
@@ -3724,6 +3727,10 @@
         "description": "Die durch objektive Mediencharakteristiken definierte Basis-Reichhaltigkeit eines Kommunikationsmediums gemäß Media Richness Theory (Daft & Lengel, 1986). Diese wird durch vier messbare Kriterien definiert: (1) Anzahl der Hinweise/Cues (nonverbale Signale, Körpersprache, Tonfall), (2) Reaktionszeit bzw. Feedbackgeschwindigkeit (synchron vs. asynchron), (3) Anpassbarkeit der Antwort (Grad der Individualisierung), und (4) Natürlichkeit der Sprache (technisch vs. natürlich). Dies ergibt eine strukturelle Rangfolge: Face-to-Face (höchste Richheit mit allen Cues und sofortiger Anpassung) > Video (viele Cues, schnelles Feedback) > Telefon (Audio-Cues, schnelles Feedback) > schriftliche Medien wie Email (minimale Cues, asynchron). Diese Rangfolge ist objektiv, aber ihre tatsächliche Effektivität für eine konkrete Aufgabe wird durch die Erfahrung der Kommunikationspartner moduliert (siehe: Wahrgenommene Medienreichhaltigkeit).",
         "closeness": 0,
         "metrics::last": 0,
+        "degree": 13,
+        "size": 14,
+        "indegree": 6,
+        "outdegree": 7,
         "degree": 12,
         "size": 13,
         "indegree": 6,
@@ -3776,6 +3783,9 @@
         "measurability": 0.5,
         "influenceability": 1,
         "indegree": 22,
+        "outdegree": 9,
+        "degree": 31,
+        "size": 32
         "outdegree": 9,
         "degree": 31,
         "size": 32
@@ -12686,6 +12696,19 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Klare Agenda-Struktur und Moderationsstandards im Meeting allgemein verbessern die Struktur & Zielorientierung des Daily konkret durch konsistente Ablaufklarheit, wodurch sich das Team besser auf Sprint-Ziele ausrichtet."
+      }
+    },
+    {
+      "_id": "conn-STRUCTURAL-RICHNESS-TO-EQUIVOCALITY",
+      "from": "elem-strukturelleMediaRichness",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[E]",
+        "connection type": "--",
+        "description": "Strukturell reichhaltige Medien (F2F, Video, synchrone Board-Tools) ermöglichen schnelle Klärungszyklen durch nonverbale Signale, unmittelbares Feedback und Kontext-Vermittlung, reduzieren Ambiguität und Missverständnisse."
       }
     }
   ]
