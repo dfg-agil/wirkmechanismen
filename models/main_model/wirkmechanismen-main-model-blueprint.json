@@ -8603,7 +8603,7 @@
       },
       {
         "_id": "conn-erfahrung-medienwahl-strategie",
-        "from": "elem-Erfahrungsniveau",
+        "from": "elem-k8VAutpT",
         "to": "elem-medienwahlStrategie",
         "direction": "directed",
         "delayed": false,
@@ -8612,6 +8612,45 @@
           "label": "[A]",
           "connection type": "++",
           "description": "Erfahrung und implizites Wissen beeinflussen die Medienwahl und Kommunikationsstrategie durch bessere Einschätzung der Situation."
+        }
+      },
+      {
+        "_id": "conn-erfahrung-to-kommunikationsqualitaet",
+        "from": "elem-k8VAutpT",
+        "to": "elem-bh4G3Yqp",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höheres Erfahrungsniveau der Teammitglieder verbessert die Kommunikationsqualität durch effektivere Informationsvermittlung und besseres gegenseitiges Verständnis."
+        }
+      },
+      {
+        "_id": "conn-erfahrung-to-sprintBacklog",
+        "from": "elem-k8VAutpT",
+        "to": "elem-sprintBacklogQuality",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höheres Erfahrungsniveau ermöglicht realistischere Aufgabenschätzungen und bessere Aufgabenzuschnitte im Sprint Backlog."
+        }
+      },
+      {
+        "_id": "conn-erfahrung-to-aufgabenpriorisierung",
+        "from": "elem-k8VAutpT",
+        "to": "elem-QgfybLh0",
+        "direction": "directed",
+        "delayed": false,
+        "reversed": false,
+        "attributes": {
+          "label": "[A]",
+          "connection type": "++",
+          "description": "Höheres Erfahrungsniveau unterstützt bessere Aufgabenpriorisierung durch bessere Einschätzung von Risiken, Aufwand und Abhängigkeiten."
         }
       },
       {
