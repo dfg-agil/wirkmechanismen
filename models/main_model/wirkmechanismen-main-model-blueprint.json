@@ -3881,6 +3881,26 @@
       }
     },
     {
+      "_id": "elem-niveauZeitdruck",
+      "attributes": {
+        "label": "Niveau des Zeitdrucks",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Kommunikation",
+          "Media Richness",
+          "Sprint-Management",
+          "Pragmatismus"
+        ],
+        "description": "Ausmaß des zeitlichen Drucks/Engagement-Druck im aktuellen Sprint oder über eine längere Periode. Bestimmt durch: Days-to-Deadline, geschätzte vs. verfügbare Kapazität, externe Deadlines, organisatorischer Druck, Burndown-Geschwindigkeit. Unter hohem Zeitdruck wählen Teams pragmatischere, bequemere Kommunikationsmedien statt theoretisch optimaler (z.B. schnelle Chat-Absprache statt ausführliche Synchronisation). Messbar über Deadline-Nähe, Burndown-Geschwindigkeit, Velocity-Abweichung, Overtime-Stunden, Team-Feedback. Beeinflussbar durch bessere Estimation, Scope-Management, Visualisierung von Kapazität, Priorisierung. Quelle: Ishii et al. (2019) - pragmatische Faktoren der Medienwahl.",
+        "measurability": 1.0,
+        "influenceability": 0.5,
+        "indegree": 0,
+        "outdegree": 0,
+        "degree": 0,
+        "size": 1
+      }
+    },
+    {
       "_id": "elem-medienwahlStrategie",
       "attributes": {
         "label": "Medienwahl und Kommunikationsstrategie",
@@ -10730,6 +10750,8 @@
       }
     },
     {
+      "_id": "conn-ZEITDRUCK-TO-MEDIUM-PASSUNG",
+      "from": "elem-niveauZeitdruck",
       "_id": "conn-RETROSPECTIVE-TO-REFLECTION-MEDIA-EFFECTIVENESS",
       "from": "elem-retrospektive001",
       "to": "elem-reflexionMedianwirksamkeit",
@@ -10838,6 +10860,14 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "+-",
+        "description": "Hoher Zeitdruck führt zu pragmatischerer Medium-Passung: Teams wählen unter Zeitdruck schneller verfügbare, bequemere Medien statt theoretisch optimal passendes Medium. Die praktische Medienwahl wird weniger von Aufgabenkomplexität und mehr von Verfügbarkeit und Bequemlichkeit bestimmt. Dies kann zu suboptimalen Entscheidungen führen (z.B. Email statt Sync für komplexe Themen), reduziert aber Koordinationsaufwand im aktuellen Moment."
+      }
+    },
+    {
+      "_id": "conn-RAUMNAEHETEAM-TO-VERFÜGBARKEIT-ENTWICKLER",
+      "from": "elem-raumnaeheTeam",
+      "to": "elem-GzVWvit5",
         "connection type": "++",
         "description": "Ein höherer Reifegrad des Artefakts (mehr Details, Vollständigkeit, Klarheit) ermöglicht bessere Artefakt-Aufgabe-Passung durch reichhaltigere Informationsvermittlung und explicitere Representation von komplexen Anforderungen."
       }
@@ -10859,6 +10889,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Höhere räumliche Nähe der Teammitglieder erhöht die praktische Verfügbarkeit des Entwicklers: Co-location ermöglicht spontane Kontakte, Sichtbarkeit, leichtere Erreichbarkeit. Remote-Entwickler sind grundsätzlich weniger spontan/synchron verfügbar. Messbar über Co-Location-%, Zeitpunkte mit Überlappung."
+      }
+    },
+    {
+      "_id": "conn-VERFÜGBARKEIT-ENTWICKLER-TO-MEDIEN-VERFÜGBARKEIT",
+      "from": "elem-GzVWvit5",
+      "to": "elem-medienVerfügbarkeit",
         "description": "Höhere Mehrdeutigkeit der Aufgabe erfordert reichhaltigere, detailliertere Artefakte und damit bessere Artefakt-Aufgabe-Passung. Mehrdeutige Anforderungen brauchen explizite Visualisierung, Prototypen oder detaillierte Spezifikationen zur Klärung."
       }
     },
@@ -10878,6 +10915,8 @@
       "reversed": false,
       "attributes": {
         "label": "[A]",
+        "connection type": "--",
+        "description": "Geringe praktische Verfügbarkeit des Entwicklers (remote, nicht kolokalisiert, zu anderen Zeiten) reduziert die praktisch verfügbaren reichhaltigen Kommunikationsmedien für diesen Entwickler: Face-to-Face-Kommunikation wird unmöglich, synchrone Medien (Video, Phone) sind schwerer zu koordinieren. Remote-Entwickler können nur auf asynchrone/schriftliche oder zeitversetzte Medien zugreifen → praktisch reduzierte Media-Richness."
         "connection type": "++",
         "description": "Höhere Systemkomplexität erfordert reichhaltigere Artefakte (detaillierte Architektur-Diagramme, Prototypen, umfassende Spezifikationen) für effektive Kommunikation und Verständigung. Komplexe Systeme können nicht mit minimalen Sketches verstanden werden."
       }
