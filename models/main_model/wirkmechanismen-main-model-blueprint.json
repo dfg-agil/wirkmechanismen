@@ -266,9 +266,9 @@
         "description": "=Workload",
         "closeness": 0.2228095238095239,
         "metrics::last": 0.7450491750778246,
-        "degree": 10,
-        "size": 11,
-        "indegree": 6,
+        "degree": 11,
+        "size": 12,
+        "indegree": 7,
         "outdegree": 4,
         "betweenness": 0.008062650312650313,
         "eigenvector": 0.002230018255098111,
@@ -594,10 +594,10 @@
         "description": "Prozessqualität der Refinement-Sessions: Moderation, Teilnahme, Story-Splitting, Pflege von Definition-of-Ready/Done und Akzeptanzkriterien. Bewertet wird, wie effektiv das Team während der Events Informationen synchronisiert und Items sprint-fähig macht. Messbar z.B. über Backlog-Health-Indikatoren (Nacharbeitsaufwand nach Sprintstart, DoR-Erfüllungsquote, Zeit bis zur Klarheit). Fokus liegt auf dem \"Wie\" der Operationalisierung bestehender Anforderungen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 17,
-        "size": 18,
+        "degree": 18,
+        "size": 19,
         "indegree": 5,
-        "outdegree": 12,
+        "outdegree": 13,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -663,10 +663,10 @@
         ],
         "measurability": 1.0,
         "influenceability": 0.5,
-        "indegree": 5,
+        "indegree": 6,
         "outdegree": 4,
-        "degree": 9,
-        "size": 10
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -2890,10 +2890,10 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 1.0,
-        "indegree": 5,
+        "indegree": 6,
         "outdegree": 4,
-        "degree": 9,
-        "size": 10
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -3171,9 +3171,9 @@
         "measurability": 1,
         "influenceability": 1,
         "indegree": 1,
-        "outdegree": 1,
-        "degree": 2,
-        "size": 3
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
       }
     },
     {
@@ -3588,10 +3588,10 @@
         "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 14,
-        "size": 15,
+        "degree": 15,
+        "size": 16,
         "indegree": 6,
-        "outdegree": 8,
+        "outdegree": 9,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -3695,10 +3695,10 @@
         "element type": "Einflussfaktoren",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 26,
+        "indegree": 27,
         "outdegree": 9,
-        "degree": 35,
-        "size": 36
+        "degree": 36,
+        "size": 37
       }
     },
     {
@@ -3715,10 +3715,10 @@
         "description": "Beschreibt das Ausmaß, in dem eine Aufgabe mehrdeutig interpretiert werden kann. Hoher Grad = viele mögliche Verständnisinterpretationen, hohes Missverständnisrisiko. Niedriger Grad = klare, eindeutige Anforderungen mit wenig Interpretationsspielraum. Zentral für Media Richness Theory (Daft & Lengel 1986): Aufgaben mit hoher Mehrdeutigkeit erfordern reichhaltigere Medien.",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 5,
+        "indegree": 6,
         "outdegree": 8,
-        "degree": 13,
-        "size": 14
+        "degree": 14,
+        "size": 15
       }
     },
     {
@@ -3813,10 +3813,10 @@
         "description": "Grad, in welchem das Team ein korrektes, einheitliches Verständnis über Prozess, Architektur, Anforderungen und gegenseitige Verantwortlichkeiten hat. Teams mit hoher Qualität gemeinsamer mentaler Modelle treffen schnellere, bessere Entscheidungen, brauchen weniger Koordination und können sich selbst organisieren. Messbar über Planning-Poker-Varianz, Retrospektive-Insights zu Missverständnissen und Code-Review-Diskussionen über implizite Annahmen.",
         "measurability": 0.5,
         "influenceability": 0.5,
-        "indegree": 11,
+        "indegree": 12,
         "outdegree": 3,
-        "degree": 14,
-        "size": 15
+        "degree": 15,
+        "size": 16
       }
     },
     {
@@ -4011,6 +4011,33 @@
         "outdegree": 2,
         "degree": 7,
         "size": 8
+      }
+    },
+    {
+      "_id": "elem-reqVolatilitaet",
+      "attributes": {
+        "label": "Häufigkeit von Anforderungsänderungen pro Sprint",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Hindernisse und Abhängigkeiten",
+          "Planning",
+          "Vorhersehbarkeit"
+        ],
+        "description": "Wie oft Anforderungen während eines Sprints hinzukommen oder sich ändern (Scope Creep Rate). Direkter Indikator für Anforderungsvolatilität und Vorhersehbarkeit. Umfasst neue Features, geänderte Akzeptanzkriterien, technische Umplanungen und externe Stakeholder-Anfragen mid-sprint. Eine hohe Volatilität destabilisiert Planung, erhöht Koordinationsaufwand und beeinträchtigt gemeinsame mentale Modelle.",
+        "measurability": 1.0,
+        "influenceability": 0.5,
+        "indegree": 3,
+        "outdegree": 6,
+        "degree": 9,
+        "size": 10,
+        "closeness": 0,
+        "metrics::last": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0
       }
     }
   ],
@@ -11515,6 +11542,123 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Zielkongruenz verbessert die Planungsqualität, da auf einer gemeinsamen Augenhöhe geplant wird und Commitment stärker ist."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REF-TO-REQ-VOLATILITY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hochwertiges Backlog-Refinement mit vollständiger, detaillierter Spezifikation reduziert die Notwendigkeit von mid-sprint Änderungen durch frühe Klärung."
+      }
+    },
+    {
+      "_id": "conn-STAKEHOLDER-MGMT-TO-REQ-VOLATILITY",
+      "from": "elem-YXuvo4kt",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Effektives Stakeholder Management stabilisiert Anforderungen durch frühe Abstimmung, klare Erwartungsmanagement und reduziert mid-sprint Scope Changes."
+      }
+    },
+    {
+      "_id": "conn-KOM-COMPLEXITY-TO-REQ-VOLATILITY",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Kommunikationskomplexität mit vielen Stakeholdern führt zu häufigeren Anforderungsänderungen durch fehlende Alignment und unterschiedliche Perspektiven."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-EQUIVOCALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige Anforderungsänderungen erhöhen die Aufgabenmehrdeutigkeit, da Team-Mitglieder unsicher sind über verfältliches Ziel und sich widersprechende Anforderungen existieren."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-COORDINATION",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Anforderungsvolatilität im Sprint erhöht den Koordinationsaufwand durch Umplanungen, Repriorisierungen und Abstimmungsbedarf über neue/geänderte Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-PLANNING-QUALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hohe Anforderungsvolatilität verschlechtert die Planungsqualität, da Schätzungen hinfällig werden und Sprint-Commitments nicht erfüllbar bleiben."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-SB-QUALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-sprintBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Anforderungsänderungen während des Sprints destabilisieren das Sprint Backlog durch Unstimmigkeiten zwischen Plan und Realität, Task-Invalidierung und verwirrten Ownership."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-MENTAL-MODELS",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Anforderungsvolatilität behindert die Bildung stabiler gemeinsamer mentaler Modelle, da sich das gemeinsame Zielverständnis ständig ändert und Verwirrung entsteht."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-WORKLOAD",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-34Kwzpr1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Anforderungsänderungen während des Sprints erhöhen die Aufgabenbelastung durch zusätzliche Umplanungen, Neubewertungen und Rework-Aktivitäten."
       }
     }
   ]
