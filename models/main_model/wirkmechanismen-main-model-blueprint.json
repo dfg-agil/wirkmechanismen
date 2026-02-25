@@ -110,10 +110,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.22026190476190471,
         "metrics::last": 0.8830036809263201,
-        "degree": 6,
-        "size": 7,
+        "degree": 7,
+        "size": 8,
         "indegree": 3,
-        "outdegree": 3,
+        "outdegree": 4,
         "betweenness": 0,
         "eigenvector": 0.002806812667520127,
         "reach": 0.039603960396039604,
@@ -214,10 +214,10 @@
         "description": "Team Partizipation: Aktive beteiligen und Engagement des Teams.",
         "closeness": 0.3575,
         "metrics::last": 0.6790810682586852,
-        "degree": 23,
-        "size": 24,
+        "degree": 24,
+        "size": 25,
         "indegree": 13,
-        "outdegree": 10,
+        "outdegree": 11,
         "betweenness": 0.06300318167124387,
         "eigenvector": 0.010148676162080853,
         "reach": 0.22772277227722773,
@@ -266,9 +266,9 @@
         "description": "=Workload",
         "closeness": 0.2228095238095239,
         "metrics::last": 0.7450491750778246,
-        "degree": 10,
-        "size": 11,
-        "indegree": 6,
+        "degree": 11,
+        "size": 12,
+        "indegree": 7,
         "outdegree": 4,
         "betweenness": 0.008062650312650313,
         "eigenvector": 0.002230018255098111,
@@ -515,10 +515,10 @@
         "description": "=Agenda-Struktur/ Ablaufklarheit",
         "closeness": 0,
         "metrics::last": 0.9708004396048325,
-        "degree": 3,
-        "size": 4,
+        "degree": 4,
+        "size": 5,
         "indegree": 1,
-        "outdegree": 2,
+        "outdegree": 3,
         "betweenness": 0,
         "eigenvector": 0.004081102584648864,
         "reach": 0.009900990099009901,
@@ -594,10 +594,10 @@
         "description": "Prozessqualität der Refinement-Sessions: Moderation, Teilnahme, Story-Splitting, Pflege von Definition-of-Ready/Done und Akzeptanzkriterien. Bewertet wird, wie effektiv das Team während der Events Informationen synchronisiert und Items sprint-fähig macht. Messbar z.B. über Backlog-Health-Indikatoren (Nacharbeitsaufwand nach Sprintstart, DoR-Erfüllungsquote, Zeit bis zur Klarheit). Fokus liegt auf dem \"Wie\" der Operationalisierung bestehender Anforderungen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 17,
-        "size": 18,
+        "degree": 18,
+        "size": 19,
         "indegree": 5,
-        "outdegree": 12,
+        "outdegree": 13,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -663,10 +663,10 @@
         ],
         "measurability": 1.0,
         "influenceability": 0.5,
-        "indegree": 5,
+        "indegree": 6,
         "outdegree": 4,
-        "degree": 9,
-        "size": 10
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -955,9 +955,9 @@
         ],
         "closeness": 0.4558333333333334,
         "metrics::last": 0.8116975053138835,
-        "degree": 19,
-        "size": 20,
-        "indegree": 8,
+        "degree": 20,
+        "size": 21,
+        "indegree": 9,
         "outdegree": 11,
         "betweenness": 0.1379524446402437,
         "eigenvector": 0.005820037054878206,
@@ -1387,10 +1387,10 @@
         "element type": "Einflussfaktoren",
         "closeness": 0.30149999999999977,
         "metrics::last": 0.8729263522091324,
-        "degree": 8,
-        "size": 9,
+        "degree": 9,
+        "size": 10,
         "indegree": 2,
-        "outdegree": 6,
+        "outdegree": 7,
         "betweenness": 0.022723062092081227,
         "eigenvector": 0.006983603582685004,
         "reach": 0.19801980198019803,
@@ -1777,27 +1777,27 @@
     {
       "_id": "elem-ivDOaa1S",
       "attributes": {
-        "label": "Zielklarheit der Teammitglieder",
+        "label": "Zielkongruenz des Teams",
         "element type": "Einflussfaktoren",
         "tags": [
           "Teamdynamik",
           "Planning"
         ],
-        "description": "= Vision und Motivation",
+        "description": "Grad, in welchem sich das Team auf die gleichen Sprint-Ziele, deren Sinnhaftigkeit und gemeinsamen Purpose geeinigt hat. Teams mit hoher Zielkongruenz ziehen an einem gemeinsamen Strang, brauchen weniger Klärungsdiskussionen und können autonomer selbst organisieren. Messbar über Planning-Poker-Consensus, Retro-Feedback zu unterschiedlichen Goal-Verständnissen, Engagement-Leveln.",
         "closeness": 0.22026190476190471,
         "metrics::last": 0.8768586518434335,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
+        "degree": 14,
+        "size": 15,
+        "indegree": 7,
+        "outdegree": 7,
         "betweenness": 0.001095832220234134,
         "eigenvector": 0.0020153234706311056,
         "reach": 0.039603960396039604,
         "reach-efficiency": 0.013201320132013201,
         "micmac influence": 1,
         "micmac exposure": 0.8768586518434335,
-        "measurability": null,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -1960,9 +1960,9 @@
         "description": "Teamdynamik: Für eine offene und respektvolle Atmosphäre sorgen.",
         "closeness": 0.27863095238095226,
         "metrics::last": 0.8782324152268047,
-        "degree": 25,
-        "size": 26,
-        "indegree": 9,
+        "degree": 26,
+        "size": 27,
+        "indegree": 10,
         "outdegree": 16,
         "betweenness": 0.06251515151515152,
         "eigenvector": 0.007286865098605407,
@@ -2929,10 +2929,10 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 1.0,
-        "indegree": 4,
-        "outdegree": 3,
-        "degree": 7,
-        "size": 8
+        "indegree": 6,
+        "outdegree": 4,
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -3210,9 +3210,9 @@
         "measurability": 1,
         "influenceability": 1,
         "indegree": 1,
-        "outdegree": 1,
-        "degree": 2,
-        "size": 3
+        "outdegree": 2,
+        "degree": 3,
+        "size": 4
       }
     },
     {
@@ -3569,10 +3569,10 @@
         "micmac exposure": 0,
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 5,
+        "indegree": 6,
         "outdegree": 8,
-        "degree": 13,
-        "size": 14
+        "degree": 14,
+        "size": 15
       }
     },
     {
@@ -3627,10 +3627,10 @@
         "description": "Die Komplexität der zu bewältigenden Kommunikationsaufgabe im Team oder zwischen Teams. Umfasst Faktoren wie Anzahl der Stakeholder, Diversität der Kommunikationskanäle, Abhängigkeitsdichte und Grad der Ambiguität. Hohe Kommunikationskomplexität kann zu Missverständnissen, Fehlerquoten und Koordinationsproblemen führen.",
         "closeness": 0,
         "metrics::last": 0,
-        "degree": 14,
-        "size": 15,
+        "degree": 15,
+        "size": 16,
         "indegree": 6,
-        "outdegree": 8,
+        "outdegree": 9,
         "betweenness": 0,
         "eigenvector": 0,
         "reach": 0,
@@ -3734,10 +3734,10 @@
         "element type": "Einflussfaktoren",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 25,
+        "indegree": 27,
         "outdegree": 9,
-        "degree": 34,
-        "size": 35
+        "degree": 36,
+        "size": 37
       }
     },
     {
@@ -3754,10 +3754,10 @@
         "description": "Beschreibt das Ausmaß, in dem eine Aufgabe mehrdeutig interpretiert werden kann. Hoher Grad = viele mögliche Verständnisinterpretationen, hohes Missverständnisrisiko. Niedriger Grad = klare, eindeutige Anforderungen mit wenig Interpretationsspielraum. Zentral für Media Richness Theory (Daft & Lengel 1986): Aufgaben mit hoher Mehrdeutigkeit erfordern reichhaltigere Medien.",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 5,
+        "indegree": 6,
         "outdegree": 8,
-        "degree": 13,
-        "size": 14
+        "degree": 14,
+        "size": 15
       }
     },
     {
@@ -3794,9 +3794,9 @@
         "measurability": 0.5,
         "influenceability": 1,
         "indegree": 4,
-        "outdegree": 6,
-        "degree": 10,
-        "size": 11
+        "outdegree": 7,
+        "degree": 11,
+        "size": 12
       }
     },
     {
@@ -3855,10 +3855,10 @@
         "description": "Grad, in welchem das Team ein korrektes, einheitliches Verständnis über Prozess, Architektur, Anforderungen und gegenseitige Verantwortlichkeiten hat. Teams mit hoher Qualität gemeinsamer mentaler Modelle treffen schnellere, bessere Entscheidungen, brauchen weniger Koordination und können sich selbst organisieren. Messbar über Planning-Poker-Varianz, Retrospektive-Insights zu Missverständnissen und Code-Review-Diskussionen über implizite Annahmen.",
         "measurability": 0.5,
         "influenceability": 0.5,
-        "indegree": 10,
+        "indegree": 12,
         "outdegree": 3,
-        "degree": 13,
-        "size": 14
+        "degree": 15,
+        "size": 16
       }
     },
     {
@@ -4013,9 +4013,9 @@
         "measurability": 0.5,
         "influenceability": 1.0,
         "indegree": 4,
-        "outdegree": 5,
-        "degree": 9,
-        "size": 10
+        "outdegree": 6,
+        "degree": 10,
+        "size": 11
       }
     },
     {
@@ -4144,10 +4144,10 @@
         "description": "Faehigkeit und Praxis, die eigene Arbeit selbst zu strukturieren, zu priorisieren und proaktiv mit Abhaengigkeiten umzugehen, ohne staendige externe Steuerung.",
         "measurability": 0.5,
         "influenceability": 0.5,
-        "indegree": 6,
+        "indegree": 7,
         "outdegree": 4,
-        "degree": 10,
-        "size": 11
+        "degree": 11,
+        "size": 12
       }
     },
     {
@@ -4167,6 +4167,33 @@
         "outdegree": 2,
         "degree": 7,
         "size": 8
+      }
+    },
+    {
+      "_id": "elem-reqVolatilitaet",
+      "attributes": {
+        "label": "Häufigkeit von Anforderungsänderungen pro Sprint",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Hindernisse und Abhängigkeiten",
+          "Planning",
+          "Vorhersehbarkeit"
+        ],
+        "description": "Wie oft Anforderungen während eines Sprints hinzukommen oder sich ändern (Scope Creep Rate). Direkter Indikator für Anforderungsvolatilität und Vorhersehbarkeit. Umfasst neue Features, geänderte Akzeptanzkriterien, technische Umplanungen und externe Stakeholder-Anfragen mid-sprint. Eine hohe Volatilität destabilisiert Planung, erhöht Koordinationsaufwand und beeinträchtigt gemeinsame mentale Modelle.",
+        "measurability": 1.0,
+        "influenceability": 0.5,
+        "indegree": 3,
+        "outdegree": 6,
+        "degree": 9,
+        "size": 10,
+        "closeness": 0,
+        "metrics::last": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0
       }
     }
   ],
@@ -12304,6 +12331,292 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Externalisierung foerdert die Konvergenz des Teamverstaendnisses durch transparente Diskussion und Alignment von Perspektiven."
+      }
+    },
+    {
+      "_id": "conn-ONBOARDING-TO-ZIELKONGRUENZ",
+      "from": "elem-onboardingQualitaet",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertiges Onboarding alignt neue Teammitglieder auf gemeinsame Sprint-Ziele und den Purpose des Teams."
+      }
+    },
+    {
+      "_id": "conn-RETROSPEKTIVE-TO-ZIELKONGRUENZ",
+      "from": "elem-retrospektive001",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige Retrospektiven sind primärer Ort für Alignment bezüglich Teamzielen, Purpose und gemeinsamer Sinnhaftigkeit."
+      }
+    },
+    {
+      "_id": "conn-FEHLERAKZEPTANZ-TO-ZIELKONGRUENZ",
+      "from": "elem-1L5rJCH1",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fehlerakzeptanz schafft psychologische Sicherheit, um unterschiedliche Zielverständnisse offen zu diskutieren und zu harmonisieren."
+      }
+    },
+    {
+      "_id": "conn-SOZIALKOMPETENZ-TO-ZIELKONGRUENZ",
+      "from": "elem-VzcqeqTN",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sozialkompetenz des Entwicklers fördert Zielkongruenz durch Fähigkeit, eigene und andere Ziele zu verstehen und zu harmonisieren."
+      }
+    },
+    {
+      "_id": "conn-PLANUNG-TO-ZIELKONGRUENZ",
+      "from": "elem-K1bUPwjJ",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Planungsqualität kodifiziert und alignt gemeinsame Sprint-Ziele und deren Sinnhaftigkeit explizit im Team."
+      }
+    },
+    {
+      "_id": "conn-PARTIZIPATION-TO-ZIELKONGRUENZ",
+      "from": "elem-1oLVNA94",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Team-Partizipation fördert Zielkongruenz durch aktive Mitwirkung aller bei Zielsetzung und Sinnhaftigkeit."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-SELBSTKOORDINATION",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-selbstkoordinationEntwickler",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mit klaren, kongruenten Zielen kann der Entwickler autonomer entscheiden und sich selbst koordinieren."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-KOORDINATIONSAUFWAND",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bessere Zielkongruenz reduziert Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen konsistent getroffen werden können."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-TEAMDYNAMIK",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-kpdrF0zk",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsame Zielausrichtung verbessert die Teamdynamik und schafft Kohäsion durch gemeinsamen Purpose."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-WISSENSAUSTAUSCH",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Mit gemeinsamen Zielen wird Wissensaustausch effizienter, da Kontext und Sinnhaftigkeit klar sind."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-MENTALMODELLE",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zielkongruenz ist fundamentale Basis für gemeinsame mentale Modelle über den Purpose und die Prioritäten des Teams."
+      }
+    },
+    {
+      "_id": "conn-ZIELKONGRUENZ-TO-PLANUNG-BIDIRECTIONAL",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bessere Zielkongruenz verbessert die Planungsqualität, da auf einer gemeinsamen Augenhöhe geplant wird und Commitment stärker ist."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REF-TO-REQ-VOLATILITY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hochwertiges Backlog-Refinement mit vollständiger, detaillierter Spezifikation reduziert die Notwendigkeit von mid-sprint Änderungen durch frühe Klärung."
+      }
+    },
+    {
+      "_id": "conn-STAKEHOLDER-MGMT-TO-REQ-VOLATILITY",
+      "from": "elem-YXuvo4kt",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Effektives Stakeholder Management stabilisiert Anforderungen durch frühe Abstimmung, klare Erwartungsmanagement und reduziert mid-sprint Scope Changes."
+      }
+    },
+    {
+      "_id": "conn-KOM-COMPLEXITY-TO-REQ-VOLATILITY",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Kommunikationskomplexität mit vielen Stakeholdern führt zu häufigeren Anforderungsänderungen durch fehlende Alignment und unterschiedliche Perspektiven."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-EQUIVOCALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige Anforderungsänderungen erhöhen die Aufgabenmehrdeutigkeit, da Team-Mitglieder unsicher sind über verfältliches Ziel und sich widersprechende Anforderungen existieren."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-COORDINATION",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Anforderungsvolatilität im Sprint erhöht den Koordinationsaufwand durch Umplanungen, Repriorisierungen und Abstimmungsbedarf über neue/geänderte Anforderungen."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-PLANNING-QUALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-K1bUPwjJ",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Hohe Anforderungsvolatilität verschlechtert die Planungsqualität, da Schätzungen hinfällig werden und Sprint-Commitments nicht erfüllbar bleiben."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-SB-QUALITY",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-sprintBacklogQuality",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Anforderungsänderungen während des Sprints destabilisieren das Sprint Backlog durch Unstimmigkeiten zwischen Plan und Realität, Task-Invalidierung und verwirrten Ownership."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-MENTAL-MODELS",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Anforderungsvolatilität behindert die Bildung stabiler gemeinsamer mentaler Modelle, da sich das gemeinsame Zielverständnis ständig ändert und Verwirrung entsteht."
+      }
+    },
+    {
+      "_id": "conn-REQ-VOLATILITY-TO-WORKLOAD",
+      "from": "elem-reqVolatilitaet",
+      "to": "elem-34Kwzpr1",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Anforderungsänderungen während des Sprints erhöhen die Aufgabenbelastung durch zusätzliche Umplanungen, Neubewertungen und Rework-Aktivitäten."
+      }
+    },
+    {
+      "_id": "conn-MEETING-STRUCTURE-TO-DAILY-QUALITY",
+      "from": "elem-DyjLKFjk",
+      "to": "elem-QOBGtWqO",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare Agenda-Struktur und Moderationsstandards im Meeting allgemein verbessern die Struktur & Zielorientierung des Daily konkret durch konsistente Ablaufklarheit, wodurch sich das Team besser auf Sprint-Ziele ausrichtet."
       }
     }
   ]
