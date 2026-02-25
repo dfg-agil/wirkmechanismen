@@ -3805,6 +3805,10 @@
         "element type": "Einflussfaktoren",
         "measurability": 0.5,
         "influenceability": 1,
+        "indegree": 22,
+        "outdegree": 9,
+        "degree": 31,
+        "size": 32
         "indegree": 23,
         "outdegree": 9,
         "degree": 32,
@@ -12838,6 +12842,19 @@
         "label": "[E]",
         "connection type": "+-",
         "description": "Höhere Informationsdurchlässigkeit (osmotische Kommunikation) reduziert Aufgabenmehrdeutigkeit durch besseren Informationsfluss, schnellere Klärungszyklen und kontinuierliche gemeinsame Kontextualisierung im Team."
+      }
+    },
+    {
+      "_id": "conn-BACKLOG-REFINEMENT-TO-EQUIVOCALITY",
+      "from": "elem-backlogRefinement",
+      "to": "elem-aufgMehrdeutigkeit",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Besseres Backlog-Refinement reduziert Aufgabenmehrdeutigkeit durch Klärung von Anforderungen, Definition von Akzeptanzkriterien, Identifikation von Abhängigkeiten und frühzeitige Ausräumung von Unklarheiten."
       }
     }
   ]
