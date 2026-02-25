@@ -9518,6 +9518,19 @@
       }
     },
     {
+      "_id": "conn-INFORMAL-TO-FAMILIARITY",
+      "from": "elem-informelleBegegnungen",
+      "to": "elem-vertrautheitTeam",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufige informelle Begegnungen fördern Vertrautheit zwischen Teammitgliedern durch wiederholte, authentische Interaktionen außerhalb formaler Strukturen."
+      }
+    },
+    {
       "_id": "conn-BOUNDARY-SPANNER-NEED-TO-TEAM-UNDERSTANDING",
       "from": "elem-boundarySpannerNeed",
       "to": "elem-VombH8FP",
