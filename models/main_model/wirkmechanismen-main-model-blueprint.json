@@ -3749,13 +3749,6 @@
         "element type": "Einflussfaktoren",
         "measurability": 0.5,
         "influenceability": 1,
-        "indegree": 22,
-        "outdegree": 9,
-        "degree": 31,
-        "size": 32
-        "outdegree": 9,
-        "degree": 31,
-        "size": 32
         "indegree": 23,
         "outdegree": 9,
         "degree": 32,
@@ -3875,9 +3868,6 @@
         "measurability": 0.5,
         "influenceability": 0.5,
         "indegree": 8,
-        "outdegree": 3,
-        "degree": 11,
-        "size": 12
         "outdegree": 4,
         "degree": 12,
         "size": 13
