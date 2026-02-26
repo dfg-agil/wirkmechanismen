@@ -4200,6 +4200,59 @@
         "micmac influence": 0,
         "micmac exposure": 0
       }
+    },
+    {
+      "_id": "elem-gradKollaboration",
+      "attributes": {
+        "label": "Grad der Kollaboration",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Teamdynamik",
+          "Zusammenarbeit"
+        ],
+        "description": "Ausmaß, in dem Arbeit gemeinsam und ko-kreativ statt nur arbeitsteilig/kooperativ erfolgt.",
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "indegree": 0,
+        "outdegree": 0,
+        "degree": 0,
+        "size": 1,
+        "closeness": 0,
+        "metrics::last": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0
+      }
+    },
+    {
+      "_id": "elem-effektivitaetKollaboration",
+      "attributes": {
+        "label": "Effektivität der Kollaboration",
+        "element type": "Messbarer Erfolgsfaktor",
+        "tags": [
+          "Teamdynamik",
+          "Zusammenarbeit",
+          "Erfolg"
+        ],
+        "description": "Ergebniswirksamkeit der Zusammenarbeit im Team.",
+        "measurability": 1.0,
+        "influenceability": 1.0,
+        "indegree": 0,
+        "outdegree": 0,
+        "degree": 0,
+        "size": 1,
+        "closeness": 0,
+        "metrics::last": 0,
+        "betweenness": 0,
+        "eigenvector": 0,
+        "reach": 0,
+        "reach-efficiency": 0,
+        "micmac influence": 0,
+        "micmac exposure": 0
+      }
     }
   ],
   "connections": [
@@ -12584,6 +12637,58 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Mehr Hindernisse und Abhängigkeiten erhöhen den Bedarf an strukturierter Daily-Koordination zur schnellen Identifikation, Abstimmung und Problemlösung."
+      }
+    },
+    {
+      "_id": "conn-partizipation-zu-grad-kollaboration",
+      "from": "elem-1oLVNA94",
+      "to": "elem-gradKollaboration",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hohe Partizipation der Teamnutzer fördert kollaboratives Arbeiten und ko-kreative Problemlösung."
+      }
+    },
+    {
+      "_id": "conn-teamdynamik-zu-grad-kollaboration",
+      "from": "elem-kpdrF0zk",
+      "to": "elem-gradKollaboration",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gute Teamdynamik schafft Vertrauen und psychologische Sicherheit, essentiell für effektive Kollaboration."
+      }
+    },
+    {
+      "_id": "conn-grad-zu-effektivitaet-kollaboration",
+      "from": "elem-gradKollaboration",
+      "to": "elem-effektivitaetKollaboration",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein hoher Grad echter Kollaboration führt zu besseren Ergebnissen durch geteiltes Wissen, Cross-Funktionalität und ko-kreative Lösungsfindung."
+      }
+    },
+    {
+      "_id": "conn-gemeinsam-verstaendnis-zu-effektivitaet-kollaboration",
+      "from": "elem-gemeinsamVerstaendnis",
+      "to": "elem-effektivitaetKollaboration",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
       }
     }
   ]
