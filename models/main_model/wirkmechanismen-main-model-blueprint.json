@@ -8532,9 +8532,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[X]",
+        "label": "[S]",
         "connection type": "+-",
-        "description": "Steigende Kommunikationskomplexität reduziert die Verständlichkeit des Entwicklungsprozesses."
+        "description": "Steigende Kommunikationskomplexität reduziert die Verständlichkeit des Entwicklungsprozesses. Hauptquelle ist Daft & Lengel (1986): Bei komplexen bzw. mehrdeutigen Kommunikationsaufgaben steigt der Bedarf an reichhaltiger Kommunikation, um Kontext und Bedeutung verständlich zu vermitteln. Stützend zeigt Okhuysen & Bechky (2009), dass Prozessklarheit und Vorhersagbarkeit zentrale Voraussetzungen wirksamer Koordination sind."
       }
     },
     {
