@@ -10653,7 +10653,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Hochwertige Code Reviews kodifizieren und verhandeln implizite Annahmen über Architektur, Standards und best practices, was gemeinsame mentale Modelle stärkt. Theoretischer Bezug (stützend): Okhuysen & Bechky (2009) sowie Dingsøyr et al. (2018)."
+        "description": "Hochwertige Code Reviews kodifizieren und verhandeln implizite Annahmen über Architektur, Standards und Best Practices, was gemeinsame mentale Modelle stärken kann. [A], da keine der Quellen die spezifische Einzelkausalität 'Code-Review-Qualität -> gemeinsame mentale Modelle' direkt testet. Theoretisch stützend: Okhuysen & Bechky (2009) zu Common Understanding als Integrationsbedingung wirksamer Koordination; Dingsøyr et al. (2005) zu Postmortem-Reviews als Lern-/Externalisierungsmechanismus; Haselsteiner (2022) zu Shared Mental Models als Träger integrierten Wissens in agilen Teams."
       }
     },
     {
