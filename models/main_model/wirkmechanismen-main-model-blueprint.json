@@ -10653,7 +10653,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Hochwertige Code Reviews kodifizieren und verhandeln implizite Annahmen über Architektur, Standards und best practices, was gemeinsame mentale Modelle stärkt."
+        "description": "Hochwertige Code Reviews kodifizieren und verhandeln implizite Annahmen über Architektur, Standards und best practices, was gemeinsame mentale Modelle stärkt. Theoretischer Bezug (stützend): Okhuysen & Bechky (2009) sowie Dingsøyr et al. (2018)."
       }
     },
     {
