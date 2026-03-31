@@ -11726,7 +11726,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
-        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt."
+        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt. Hinweis: Diese Aussage ist zum aktuellen Zeitpunkt eine eigene Schlussfolgerung aus der vorhandenen Logik des Modells."
       }
     },
     {
