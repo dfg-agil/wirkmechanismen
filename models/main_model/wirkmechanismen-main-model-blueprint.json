@@ -12322,9 +12322,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "+-",
-        "description": "Bessere Zielkongruenz reduziert Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen konsistent getroffen werden können."
+        "description": "Bessere Zielkongruenz reduziert Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen konsistent getroffen werden können. Hauptquelle: Okhuysen & Bechky (2009), da Zielkongruenz Common Understanding und Predictability stärkt und damit den Abstimmungsbedarf direkt senkt. Stützend: Dingsøyr et al. (2018) für den agilen Koordinationskontext."
       }
     },
     {
