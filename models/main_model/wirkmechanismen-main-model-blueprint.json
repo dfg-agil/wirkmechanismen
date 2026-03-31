@@ -9507,9 +9507,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Hohe Kommunikationskomplexität steigert den Bedarf an Boundary Spanning zur Übersetzung und Abstimmung."
+        "description": "Hohe Kommunikationskomplexität steigert den Bedarf an Boundary Spanning zur Übersetzung und Abstimmung. Hauptquelle ist Daft & Lengel (1986): Bei hoher Equivocality und unterschiedlichen Interpretationsrahmen steigt der Bedarf an Integratoren/Boundary Spanners, um reichhaltige Kommunikation und gemeinsame Interpretation herzustellen. Stützend zeigen Dingsøyr et al. (2018) Boundary Spanning als Koordinationsmechanismus in Multi-Team-Agile-Kontexten; Carlile (2002) präzisiert die zugrunde liegenden Wissens- und Bedeutungsgrenzen über die Boundary-Object-Perspektive."
       }
     },
     {
