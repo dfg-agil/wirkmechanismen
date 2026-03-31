@@ -9585,9 +9585,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher."
+        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher. Hauptquelle ist Dingsøyr et al. (2018): In Multi-Team-Settings erhöht zusätzlicher Abstimmungs- und Vermittlungsbedarf über Teamgrenzen den Koordinationsaufwand. Stützend zeigt Carlile (2002), dass das Überbrücken von Wissens- und Bedeutungsgrenzen zusätzliche Übersetzungs- und Abstimmungsarbeit erfordert."
       }
     },
     {
