@@ -10196,9 +10196,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "+-",
-        "description": "Höhere Verständlichkeit des Entwicklungsprozesses reduziert den Koordinationsaufwand durch klarere Abläufe und Rollen."
+        "description": "Höhere Verständlichkeit des Entwicklungsprozesses reduziert den Koordinationsaufwand durch klarere Abläufe und Rollen. Hauptquelle: Okhuysen & Bechky (2009), da bessere gemeinsame Orientierung und Vorhersehbarkeit den Abstimmungsbedarf senken. Stützend: Dingsøyr et al. (2018) für den agilen Koordinationskontext."
       }
     },
     {
