@@ -10224,7 +10224,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
-        "description": "Eine höhere Synchronisationsfrequenz erhöht den Koordinationsaufwand durch zusätzlichen Abstimmungsaufwand und Kontextwechsel."
+        "description": "Eine höhere Synchronisationsfrequenz erhöht den Koordinationsaufwand durch zusätzlichen Abstimmungsaufwand und Kontextwechsel. Stützend: Haselsteiner (2022), Dingsøyr et al. (2018)."
       }
     },
     {
