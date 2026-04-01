@@ -11310,8 +11310,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[?]",
-        "description": "Bessere Medium-Aufgabe-Passung führt zu höherer Klarheit und Verständlichkeit der Sprint-Ziele. Wenn Ziele durch das richtige Medium (synchrone F2F für komplexe Ziele, asynchrone Boards für klare Ziele) kommuniziert werden, verringert sich Ambiguittät und erhöht sich gemeinsames Verständnis."
+        "label": "[S]",
+        "description": "Eine hohe Artefakt-Aufgabe-Passung erhöht die Qualität des Reviews, weil Reifegrad und Detailtiefe des Artefakts zur Aufgabe passen und dadurch Verständlichkeit, Präzision und Feedback-Qualität steigen. Hauptquelle: Paetzold (2017) zur Passung von Prototyp-/Artefaktwahl und verlässlichem Feedback. Stützend: Carlile (2002) zu Prototypen/Design-Reviews als Boundary Objects sowie Okhuysen & Bechky (2009) und Haselsteiner (2022) zur Klärung gemeinsamer Interpretation und Reduktion von Missverständnissen."
       }
     },
     {
