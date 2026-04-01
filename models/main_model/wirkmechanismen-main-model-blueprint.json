@@ -8740,9 +8740,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[E]",
+        "label": "[S]",
         "connection type": "--",
-        "description": "Höhere Aufgaben-Mehrdeutigkeit erschwert die Konvergenz des Teamverständnisses."
+        "description": "Höhere Aufgaben-Mehrdeutigkeit erschwert die Konvergenz des Teamverständnisses, weil mehrdeutige Anforderungen konkurrierende Interpretationen erzeugen und damit gemeinsame Interpretation langsamer entsteht. Hauptquelle: Daft & Lengel (1986) als theoretische Ableitung (Equivocality wird durch Richness und shared interpretation reduziert). Stützend: Okhuysen & Bechky (2009) sowie Haselsteiner (2022) zu steigendem Kommunikations- und Koordinationsbedarf bei Task-Unsicherheit und Novelty."
       }
     },
     {
