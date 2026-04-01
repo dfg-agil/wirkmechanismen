@@ -8649,9 +8649,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[E]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Höhere Aufgaben-Mehrdeutigkeit erfordert reichhaltigere strukturelle Medien für effektive Kommunikation."
+        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht den Bedarf an reichhaltigeren strukturellen Medien, um effektive Kommunikation zu ermöglichen. Hauptquelle: Daft & Lengel (1986) – höhere Equivocality erfordert reichhaltigere Medien zur schnellen Rückkopplung und gemeinsamen Interpretation. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenmehrdeutigkeit die Notwendigkeit aufgabengerechter, reichhaltiger Kommunikation. Ergänzend: Ishii (2019) – die Medienwahl wird in anspruchsvollen Kommunikationssituationen pragmatisch an den Klärungsbedarf angepasst."
       }
     },
     {
