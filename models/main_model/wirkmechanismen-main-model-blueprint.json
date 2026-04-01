@@ -9546,9 +9546,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Hohe Aufgabenmehrdeutigkeit erhöht den Bedarf an Boundary Spanning, um ein gemeinsames Verständnis herzustellen."
+        "description": "Hohe Aufgabenmehrdeutigkeit erhöht den Bedarf an Boundary Spanning, um Interpretationsunterschiede zwischen Bereichen zu überbrücken und gemeinsames Verständnis herzustellen. Hauptquelle: Daft & Lengel (1986) – Equivocality/Uncertainty in interdepartmental contexts erhöht den Bedarf an Integrations- und Verknüpfungsmechanismen. Stützend: Carlile (2002/2004) – Novelty und neue Anforderungen erzeugen Boundary-Probleme und erhöhen den Bedarf an Grenzarbeit."
       }
     },
     {
