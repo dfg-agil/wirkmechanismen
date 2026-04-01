@@ -10924,9 +10924,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "(Bidirektionales Feedback) Bessere Passung erhöht auch die wahrgenommene Medienreichhaltigkeit: Wenn ein Medium wirklich zu einer Aufgabe passt, empfindet das Team das Medium als reicher und effektiver an."
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung erhöht die wahrgenommene Medienreichhaltigkeit, weil Teams ein zur Aufgabe passendes Medium als reicher, geeigneter und wirksamer erleben. Hauptquelle: Ishii (2019) – Medienreichhaltigkeit wird subjektiv und situationsabhängig wahrgenommen; die Passung zwischen Aufgabe und Medium prägt die wahrgenommene Eignung. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext verbessert aufgabengerechte Mediumwahl die erlebte Wirksamkeit der Kommunikation. Unterstützend: Daft & Lengel (1986) – die Media-Richness-Logik liefert das theoretische Grundgerüst der Passung zwischen Aufgabenanforderung und Medienreichhaltigkeit."
       }
     },
     {
