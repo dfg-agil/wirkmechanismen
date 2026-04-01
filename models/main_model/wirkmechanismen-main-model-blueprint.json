@@ -3941,15 +3941,15 @@
     {
       "_id": "elem-medienwahlStrategie",
       "attributes": {
-        "label": "Medienwahl und Kommunikationsstrategie",
+        "label": "Kontextuelle Medienwahl",
         "element type": "Einflussfaktoren",
         "tags": [
           "Kommunikation",
           "Medium",
-          "Strategie",
+          "Kontext",
           "Entscheidungen"
         ],
-        "description": "Die deliberate oder habitualisierte Entscheidung und Umsetzung über die Wahl des Kommunikationsmediums und der damit verbundenen Kommunikationsstrategie für eine spezifische Aufgabe oder Situation. Bestimmt durch: Aufgabenkomplexität, verfügbare Medien, Kontextuelle Variablen (räumliche Nähe, zeitliche Überlappung), Erfahrung und Medienkompetenz, sowie organisatorische Normen. Beeinflusst die Effektivität von Kommunikation und damit die Kommunikationsqualität. Messbar über Häufigkeit/Typ der gewählten Medien, Alignment mit Best Practices. Beeinflussbar durch Training, Norm-Setting, Medium-Verfügbarkeit, Erfahrungsfeedback.",
+        "description": "Die deliberate oder habitualisierte Entscheidung und Umsetzung der Wahl des Kommunikationsmediums basierend auf Kontextvariablen (räumliche Nähe, zeitliche Überlappung, Aufgabenkomplexität, Stakeholder-Präferenzen). Dies unterscheidet sich von Kontextueller Bequemlichkeit: Während KB die Komforterfahrung und Gewöhnung an ein Medium beschreibt, bezieht sich Kontextuelle Medienwahl auf die zielgerichtete, situationsabhängige Auswahl des RICHTIGEN Mediums. Kontextuelle Bequemlichkeit ist ein Einflussfaktor, der zur Medienwahl beiträgt, aber nicht gleichzusetzen mit ihrer bewussten Auswahl. Beeinflusst die Effektivität von Kommunikation und damit die Kommunikationsqualität. Messbar über Häufigkeit und Alignment mit Best Practices pro Kontext. Beeinflussbar durch Training, kontextspezifische Richtlinien, Norm-Setting, Medium-Verfügbarkeit und Erfahrungsfeedback.",
         "measurability": 0.5,
         "influenceability": 1.0,
         "indegree": 4,
