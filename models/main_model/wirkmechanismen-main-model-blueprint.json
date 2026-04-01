@@ -8974,9 +8974,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
+        "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit, weil Teams bei komplexen Abstimmungs- und Klärungsaufgaben reichhaltigere Medien als passender und wirksamer erleben. Hauptquelle: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenkomplexität der Bedarf an aufgabengerechter, reichhaltiger Kommunikation. Theoretisches Fundament: Daft & Lengel (1986) – bei höherer Equivocality sind reichhaltigere Medien wirksamer zur Herstellung gemeinsamer Interpretation und schneller Rückkopplung."
       }
     },
     {
