@@ -10872,9 +10872,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung verbessert die generelle Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung erhöht den Grad des Wissensaustauschs, weil passende (reichhaltige) Medien bei mehrdeutigen Aufgaben die gemeinsame Interpretation, Rückfragen und wechselseitiges Verstehen erleichtern. Hauptquelle: Daft & Lengel (1986) – reichhaltige Medien reduzieren Equivocality durch Enactment gemeinsamer Interpretation. Stützend: Paetzold (2017) – Mediumwahl entlang der Kommunikationsaufgabe verbessert Verständigung im agilen Kontext; Haselsteiner (2022) – bessere Abstimmung und gemeinsames Verständnis fördern wissensbezogenen Austausch und Integration in agilen Teams."
       }
     },
     {
