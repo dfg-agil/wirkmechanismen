@@ -10898,9 +10898,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Verfügbare reichhaltige Infrastruktur (Face-to-Face Räume, Video-Equipment, Board-Tools, Echtzeit-Kollaborations-Software) ermöglicht bessere Medium-Passung durch Wahlmöglichkeit und Einsetzbarkeit des richtigen Mediums für die Aufgabe."
+        "description": "Höhere strukturelle Medienreichhaltigkeit erhöht die Kommunikationsmedium-Aufgabe-Passung, weil verfügbare reichhaltige Kommunikationsinfrastruktur die Wahl und Einsetzbarkeit des passenden Mediums für die Aufgabe ermöglicht. Hauptquelle: Daft & Lengel (1986) – unterschiedliche Medien verfügen über unterschiedliche Richness und ermöglichen je nach Aufgabenanforderung unterschiedlich gute Passung. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext hängt gute Medium-Aufgabe-Passung von den tatsächlich verfügbaren synchronen, visuellen und kollaborativen Medien ab. Unterstützend: Ishii (2019) – aktuelle Medienwirksamkeit ist kontextabhängig und kann nur realisiert werden, wenn passende Medienoptionen überhaupt verfügbar sind."
       }
     },
     {
