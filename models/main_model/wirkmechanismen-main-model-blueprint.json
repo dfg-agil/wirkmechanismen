@@ -10976,9 +10976,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "INPUT FACTOR - Process Ambiguity: Mehrdeutige, unklar formulierte Anforderungen erfordern reichere Medien für schnelle Klärung. Asynchrone Kommunikation (Email, Chat mit Verzögerung) verschärft Ambiguität durch fehlende Rückkopplung und nonverbale Signale. Synchrone, reichhaltige Medien (F2F, Video, synchrone Board-Tools) ermöglichen sofortige Rückfragen, Klärungszyklen und Verständnisbestätigung."
+        "description": "Ambiguität der Prozessanforderungen reduziert die Kommunikationsmedium-Aufgabe-Passung, wenn zu wenig reichhaltige Medien genutzt werden; hohe Ambiguität erfordert reichhaltigere, synchrone Medien zur schnellen Klärung und geteilten Interpretation (Hauptquelle: Daft & Lengel 1986 zu Equivocality und Media Richness). Stützend: Paetzold 2017 (Passungslogik zwischen Aufgabenanforderung und Medienreichhaltigkeit im agilen Kontext), Haselsteiner 2022 (Klärungsbedarf bei Unsicherheiten/Ambiguitäten)."
       }
     },
     {
