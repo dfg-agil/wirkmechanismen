@@ -10209,9 +10209,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs- und Abstimmungsbedarf."
+        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs-, Interpretations- und Abstimmungsbedarf. Hauptquelle: Paetzold (2017) zur Abhängigkeit der Kommunikationsaufgaben-Komplexität von passender Richness-/Prototypwahl. Stützend: Daft & Lengel (1986) zu Equivocality und Informationsverarbeitungsbedarf, Okhuysen & Bechky (2009) sowie Dingsøyr/Haselsteiner zu steigendem Koordinations- und Kommunikationsbedarf bei Task-Unsicherheit und Novelty."
       }
     },
     {
