@@ -10963,9 +10963,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "INPUT FACTOR - Task Complexity: Höhere Kommunikationsaufgaben-Komplexität erfordert reichhaltigere Medien. Media Richness Theory zeigt: Einfache Koordination (niedrige Ambiguität, etablierte Prozesse) kommt mit Chat oder Email aus. Komplexe Problemlösung (hohe Mehrdeutigkeit, viele Variablen, schnelle Rückkopplung nötig) erfordert F2F oder Video. Teams müssen ihre Medium-Wahl an die aktuelle Aufgabenkomplexität anpassen."
+        "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht den Bedarf an passender Medienreichhaltigkeit und damit die Relevanz einer guten Kommunikationsmedium-Aufgabe-Passung. Hauptquelle: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenkomplexität und Abstimmungsbedarf die Notwendigkeit, Kommunikationsmedien entlang der Aufgabe zu wählen (z. B. reichhaltigere synchrone Formate bei komplexen Klärungen). Theoretisches Fundament: Daft & Lengel (1986) – bei höherer Equivocality sind reichhaltigere Medien wirksamer, um gemeinsame Interpretation und schnelle Rückkopplung zu ermöglichen."
       }
     },
     {
