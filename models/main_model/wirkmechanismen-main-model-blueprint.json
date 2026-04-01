@@ -8662,9 +8662,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Ambige Aufgaben erhöhen die Erwartung an wahrgenommene Media-Richness."
+        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die wahrgenommene Medienreichhaltigkeit, weil Teams in ambigen Kommunikationssituationen reichhaltigere Medien als passender und wirksamer erleben. Hauptquelle: Ishii (2019) – Medienreichhaltigkeit wird in aktuellen Nutzungskontexten subjektiv und situationsabhängig wahrgenommen; die Passung zwischen Aufgabe und Medium prägt die wahrgenommene Eignung. Theoretisches Fundament: Daft & Lengel (1986) – höhere Equivocality erhöht den Bedarf an reichhaltiger Kommunikation. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenmehrdeutigkeit die Notwendigkeit aufgabengerechter, reichhaltiger Kommunikation."
       }
     },
     {
