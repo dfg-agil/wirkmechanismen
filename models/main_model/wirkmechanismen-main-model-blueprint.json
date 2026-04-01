@@ -10911,9 +10911,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Wenn das Team ein Medium als reichhaltig empfindet (subjektive Effektivität durch Erfahrung), nutzt es die verfügbare Medium-Passung effektiver und schöpft das Potenzial des gewählten Mediums aus."
+        "description": "Höhere wahrgenommene Medienreichhaltigkeit erhöht die Kommunikationsmedium-Aufgabe-Passung, weil ein als reichhaltig und wirksam erlebtes Medium von Teams gezielter, sicherer und aufgabenangemessener genutzt wird. Hauptquelle: Ishii (2019) – Medienreichhaltigkeit wird subjektiv und situationsabhängig wahrgenommen; diese Wahrnehmung beeinflusst die tatsächliche Mediennutzung und erlebte Wirksamkeit. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext hängt wirksame Mediumwahl von der erlebten Eignung für die Kommunikationsaufgabe ab. Unterstützend: Daft & Lengel (1986) – die Richness-/Fit-Logik liefert das theoretische Grundgerüst."
       }
     },
     {
