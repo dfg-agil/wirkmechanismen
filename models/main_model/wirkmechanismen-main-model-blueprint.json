@@ -8116,9 +8116,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[X]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Die objektive Medienreichhaltigkeit beeinflusst die wahrgenommene Reichhaltigkeit; reichere Medien werden in der Regel auch als reicher empfunden (moduliert durch Erfahrung)."
+        "description": "Höhere strukturelle Medienreichhaltigkeit erhöht in der Regel auch die wahrgenommene Medienreichhaltigkeit, wobei dieser Effekt durch Erfahrung und Nutzungskontext moduliert wird. Hauptquellen: Ishii (2019) – Medienreichhaltigkeit wird subjektiv und situationsabhängig wahrgenommen; Daft & Lengel (1986) – objektive Richness-Eigenschaften eines Mediums bilden das theoretische Grundgerüst dafür, dass reichere Medien auch mehr Cues, Feedbackgeschwindigkeit und Kontexttransport ermöglichen."
       }
     },
     {
