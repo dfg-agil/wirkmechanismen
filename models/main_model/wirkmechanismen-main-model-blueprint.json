@@ -11015,9 +11015,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "MODERATING FACTOR - Contextual Ease: Höhere kontextuelle Bequemlichkeit ermöglicht bessere praktische Realisierung der optimalen Medium-Passung. Auch wenn Aufgabenkomplexität Video erfordert: wenn Zeitzonen ungünstig sind, keine Kameras verfügbar sind oder Team wenig Erfahrung mit dem Tool hat, wird die praktische Passung erschwert. Teams weichen auf bequemere Alternativen aus. Umgekehrt: wenn F2F oder Video psychologisch bequem und institutionalisiert ist (gute Erfahrung, verfügbarer Raum, zeitliche Überlappung), nutzen Teams diese reichhaltigeren Medien lieber, auch für moderately-komplexe Aufgaben."
+        "description": "Höhere kontextuelle Bequemlichkeit erhöht die Kommunikationsmedium-Aufgabe-Passung, weil Teams ein Medium unter günstigen Kontextbedingungen eher praktisch wirksam, zugänglich und passend einsetzen können. Hauptquelle: Ishii (2019) – Mediennutzung und erlebte Wirksamkeit sind kontext- und situationsabhängig; praktische Medienwahl folgt nicht nur objektiver Richness, sondern auch subjektiver Nutzbarkeit. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext verbessert aufgabengerechte Mediumwahl die Kommunikationswirksamkeit, wird aber durch reale Nutzungskontexte mitbestimmt. Unterstützend: Daft & Lengel (1986) – die Media-Richness-Logik liefert das theoretische Grundgerüst der Passung zwischen Aufgabenanforderung und Medienreichhaltigkeit."
       }
     },
     {
