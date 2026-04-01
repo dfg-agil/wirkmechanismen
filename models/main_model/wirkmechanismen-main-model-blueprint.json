@@ -8714,9 +8714,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Ambige Prozessanforderungen erhöhen die Mehrdeutigkeit einzelner Aufgaben."
+        "description": "Ambiguität der Prozessanforderungen erhöht den Grad der Mehrdeutigkeit der Aufgabe, da unklare Anforderungen interpretive Unterschiede erzeugen (Hauptquelle: Daft & Lengel 1986 zu Equivocality); stützend: Carlile 2004 (neue/unklare Anforderungen -> interpretive Differenzen), Haselsteiner 2022 (Klärungsbedarf bei Unsicherheiten/Ambiguitäten), Okhuysen & Bechky 2009 (Prozessstandardisierung reduziert Ambiguität)."
       }
     },
     {
