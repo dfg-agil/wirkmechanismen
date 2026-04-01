@@ -10846,9 +10846,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung für Reviews (gemeinsame Artefakt-Sicht, synchron) verbessert die Review-Qualität durch Klarheit und reduzierte Missverständnisse."
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung erhöht die Qualität des Reviews, weil passende (reichhaltige) Medien bei mehrdeutigen Review-Aufgaben gemeinsame Interpretation, Rückfragen und geteiltes Verständnis des Artefakts erleichtern. Hauptquelle: Daft & Lengel (1986) – reichhaltige Medien reduzieren Equivocality durch Enactment gemeinsamer Interpretation. Stützend: Paetzold/Schmidt et al. (2017) – Mediumwahl entlang der Kommunikationsaufgabe verbessert Verständigung im agilen Kontext; Sprint Review profitiert von geteilter Artefakt-Sicht und geeignetem Feedback-Setting. Ergänzend: Haselsteiner (2022) – bessere Abstimmung und gemeinsames Verständnis fördern wissensbezogenen Austausch und Integration in agilen Teams, was Reviews wirksamer macht."
       }
     },
     {
