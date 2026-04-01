@@ -12426,9 +12426,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Häufige Anforderungsänderungen erhöhen die Aufgabenmehrdeutigkeit, da Team-Mitglieder unsicher sind über verfältliches Ziel und sich widersprechende Anforderungen existieren."
+        "description": "Häufige Anforderungsänderungen erhöhen die Aufgabenmehrdeutigkeit, weil neue oder veränderte Anforderungen Interpretationsunterschiede über Ziele, Bedeutungen und erwartete Ergebnisse erzeugen. Hauptquelle: Carlile (2004) – neue Anforderungen erzeugen semantische bzw. interpretative Grenzen, an denen Bedeutungen ambig werden. Stützend: Dingsøyr (Koordination in agiler Softwareentwicklung) – changing requirements erzeugen zusätzliche Herausforderungen und erhöhten Abstimmungsbedarf; Paetzold (2017) – agile Entwicklung ist besonders in Kontexten wertvoll, in denen Unsicherheiten hoch sind und Änderungen wahrscheinlich sind."
       }
     },
     {
