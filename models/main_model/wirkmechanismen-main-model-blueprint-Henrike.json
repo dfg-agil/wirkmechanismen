@@ -12691,5 +12691,36 @@
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
       }
     }
+  ],
+  "clusters": [
+    {
+      "_id": "cluster-Mensch",
+      "label": "Mensch",
+      "color": "#9B59B6",
+      "elements": [
+        "elem-raumnaeheTeam",
+        "elem-informelleBegegnungen",
+        "elem-VzcqeqTN",
+        "elem-teamLeadSozialkompetenz",
+        "elem-wDnzlLwI",
+        "elem-psychSicherheit",
+        "elem-informelleKommunikationQualitaet",
+        "elem-akzeptanzMedium",
+        "elem-68KZOQXM",
+        "elem-GzVWvit5",
+        "elem-U5tPKB1A",
+        "elem-lKD0abzp",
+        "elem-8DovrrfU",
+        "elem-kTvnvfVI",
+        "elem-xGnKBSH9",
+        "elem-SVQRqUSA",
+        "elem-97NjDQTs",
+        "elem-5kn48AvH",
+        "elem-Tc7Rjavq",
+        "elem-transpFahig01",
+        "elem-gradKollaboration",
+        "elem-effektivitaetKollaboration"
+      ]
+    }
   ]
 }
