@@ -8487,15 +8487,15 @@
     },
     {
       "_id": "conn-kom-Ambiguität-OUT",
-      "from": "elem-komKomplexitaet",
-      "to": "elem-1mAqDgJB",
+      "from": "elem-1mAqDgJB",
+      "to": "elem-komKomplexitaet",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[X]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Hohe Kommunikationskomplexität verstärkt Prozess-Ambiguität, weil Informationen uneinheitlich oder widersprüchlich ankommen."
+        "description": "Hohe Ambiguität der Prozessanforderungen erhöht die Komplexität der Kommunikationsaufgabe, weil zusätzlicher Klärungs- und Abstimmungsbedarf entsteht. Quelle: Daft, R. L., & Lengel, R. H. (1986). Organizational information requirements, media richness and structural design. Management Science, 32(5), 554-571."
       }
     },
     {
