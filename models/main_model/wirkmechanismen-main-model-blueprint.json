@@ -9585,9 +9585,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher."
+        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher. Hauptquelle ist Dingsøyr et al. (2018): In Multi-Team-Settings erhöhen Boundary-Spanning-Anforderungen den zusätzlichen Abstimmungsbedarf über Teamgrenzen; Koordination steigt u. a. über zusätzliche Planungs-, Synchronisations- und Review-Arbeit. Stützend zeigt Daft & Lengel (1986), dass Integratoren/Boundary-Spanner bei hoher Equivocality für interdependente Abstimmung benötigt werden. Ergänzend weist Haselsteiner (2022) in agilen Kontexten auf zusätzlichen Kommunikations- und Koordinationsaufwand bei grenzüberschreitender Wissensintegration hin."
       }
     },
     {
