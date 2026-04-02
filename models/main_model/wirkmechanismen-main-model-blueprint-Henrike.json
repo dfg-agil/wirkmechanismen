@@ -376,7 +376,8 @@
         "micmac influence": 0.7548661438233901,
         "micmac exposure": 0.8564567254911214,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -719,7 +720,8 @@
         "micmac influence": 0.846642757927137,
         "micmac exposure": 0.7070802409585855,
         "measurability": 1,
-        "influenceability": 1
+        "influenceability": 1,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1092,7 +1094,8 @@
         "micmac influence": 0,
         "micmac exposure": 0,
         "measurability": 1,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1149,7 +1152,8 @@
         "indegree": 1,
         "outdegree": 2,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1269,7 +1273,8 @@
         "micmac influence": 0.9128294249797513,
         "micmac exposure": 0.7613808958525524,
         "measurability": 0.5,
-        "influenceability": 1.0
+        "influenceability": 1.0,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1398,7 +1403,8 @@
         "micmac influence": 0.8083060056236697,
         "micmac exposure": 0.8729263522091324,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2022,7 +2028,8 @@
         "micmac exposure": 0.6831262050163229,
         "description": "Alternativ einfach \"Fähigkeiten des Entwicklers\"\n\nHier geht es sowohl um die Anzahl, als auch um die Ausprägung der jeweiligen vorhandenen Fähigkeiten (z.B. schlecht, mittel, gut)",
         "measurability": 0.5,
-        "influenceability": 1
+        "influenceability": 1,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2212,7 +2219,8 @@
         "micmac influence": 0,
         "micmac exposure": 0,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2437,7 +2445,8 @@
         "micmac influence": 0.72739390631389,
         "micmac exposure": 0.8243146607693502,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2853,7 +2862,8 @@
         "indegree": 0,
         "outdegree": 2,
         "degree": 2,
-        "size": 3
+        "size": 3,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2912,7 +2922,8 @@
         "indegree": 3,
         "outdegree": 3,
         "degree": 6,
-        "size": 7
+        "size": 7,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3012,7 +3023,8 @@
         "indegree": 2,
         "outdegree": 1,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3072,7 +3084,8 @@
         "indegree": 8,
         "outdegree": 1,
         "degree": 9,
-        "size": 10
+        "size": 10,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3272,7 +3285,8 @@
         "indegree": 1,
         "outdegree": 1,
         "degree": 2,
-        "size": 3
+        "size": 3,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3332,7 +3346,8 @@
         "indegree": 2,
         "outdegree": 1,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3412,7 +3427,8 @@
         "indegree": 1,
         "outdegree": 2,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3552,7 +3568,8 @@
         "indegree": 3,
         "outdegree": 1,
         "degree": 4,
-        "size": 5
+        "size": 5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3592,7 +3609,8 @@
         "indegree": 1,
         "outdegree": 1,
         "degree": 2,
-        "size": 3
+        "size": 3,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4049,7 +4067,8 @@
         "indegree": 6,
         "outdegree": 5,
         "degree": 11,
-        "size": 12
+        "size": 12,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4064,7 +4083,8 @@
         ],
         "description": "Der Grad, in dem das Team das gewählte Kommunikationsmedium akzeptiert, nutzt und sich damit identifiziert. Akzeptanz ist essentiell für die tatsächliche Nutzung und Wirksamkeit eines Mediums. Ein Medium mit hoher theoretischer Reichhaltigkeit kann unwirksam sein, wenn das Team es ablehnt oder ungern nutzt. Messbar über Nutzungshäufigkeit, User-Engagement-Metriken, Team-Feedback zur Medium-Akzeptanz. Beeinflussbar durch Team-Kompetenz, Gewöhnung, positive Erfahrungen im Einsatz, Kultur und Unterstützung durch Leadership.",
         "measurability": 0.5,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4224,7 +4244,8 @@
         "reach": 0,
         "reach-efficiency": 0,
         "micmac influence": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4251,7 +4272,8 @@
         "reach": 0,
         "reach-efficiency": 0,
         "micmac influence": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "cluster": "Mensch"
       }
     }
   ],
@@ -12690,37 +12712,6 @@
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
       }
-    }
-  ],
-  "clusters": [
-    {
-      "_id": "cluster-Mensch",
-      "label": "Mensch",
-      "color": "#9B59B6",
-      "elements": [
-        "elem-raumnaeheTeam",
-        "elem-informelleBegegnungen",
-        "elem-VzcqeqTN",
-        "elem-teamLeadSozialkompetenz",
-        "elem-wDnzlLwI",
-        "elem-psychSicherheit",
-        "elem-informelleKommunikationQualitaet",
-        "elem-akzeptanzMedium",
-        "elem-68KZOQXM",
-        "elem-GzVWvit5",
-        "elem-U5tPKB1A",
-        "elem-lKD0abzp",
-        "elem-8DovrrfU",
-        "elem-kTvnvfVI",
-        "elem-xGnKBSH9",
-        "elem-SVQRqUSA",
-        "elem-97NjDQTs",
-        "elem-5kn48AvH",
-        "elem-Tc7Rjavq",
-        "elem-transpFahig01",
-        "elem-gradKollaboration",
-        "elem-effektivitaetKollaboration"
-      ]
     }
   ]
 }
