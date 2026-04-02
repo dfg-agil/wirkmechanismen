@@ -8467,9 +8467,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Ambiguität der Prozessanforderungen erhöht den Koordinationsaufwand, weil mehr Klärung und Synchronisation nötig ist."
+        "description": "Ambiguität der Prozessanforderungen erhöht den Koordinationsaufwand, weil zur Herstellung von Common Understanding und Predictability zusätzlicher Klärungs- und Abstimmungsbedarf entsteht. Quelle: Okhuysen, G. A., & Bechky, B. A. (2009). Coordination in organizations: An integrative perspective. Academy of Management Annals, 3(1), 463-502."
       }
     },
     {
@@ -8496,19 +8496,6 @@
         "label": "[S]",
         "connection type": "++",
         "description": "Hohe Ambiguität der Prozessanforderungen erhöht die Komplexität der Kommunikationsaufgabe, weil zusätzlicher Klärungs- und Abstimmungsbedarf entsteht. Quelle: Daft, R. L., & Lengel, R. H. (1986). Organizational information requirements, media richness and structural design. Management Science, 32(5), 554-571."
-      }
-    },
-    {
-      "_id": "conn-COORDINATION-TO-PROCESS-AMBIGUITY",
-      "from": "elem-koordin001",
-      "to": "elem-1mAqDgJB",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "+-",
-        "description": "Gute Koordination reduziert Prozess-Ambiguität durch klare Abstimmung und gemeinsame Regeln."
       }
     },
     {
