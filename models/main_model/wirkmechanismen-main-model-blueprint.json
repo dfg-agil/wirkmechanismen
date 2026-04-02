@@ -10224,7 +10224,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
-        "description": "Eine höhere Synchronisationsfrequenz erhöht den Koordinationsaufwand durch zusätzlichen Abstimmungsaufwand und Kontextwechsel."
+        "description": "Eine höhere Synchronisationsfrequenz kann den Koordinationsaufwand erhöhen, weil zusätzliche Planungs-, Synchronisations- und Review-Zyklen mehr Abstimmungsarbeit erzeugen. [A], da keine Quelle die exakte Einzelkausalität in dieser Form direkt testet. Stützend: Dingsøyr et al. (2018) berichten in Multi-Team-Agile-Kontexten erhöhte Koordinationsarbeit durch zusätzliche Synchronisations- und Meetingpraktiken; Haselsteiner (2022) beschreibt im agilen Kontext den Aufwand aus regelmäßigen Meetings und formalen Koordinationsmechanismen."
       }
     },
     {
