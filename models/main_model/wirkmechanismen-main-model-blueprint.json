@@ -8467,9 +8467,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Ambiguität der Prozessanforderungen erhöht den Koordinationsaufwand, weil mehr Klärung und Synchronisation nötig ist."
+        "description": "Ambiguität der Prozessanforderungen erhöht den Koordinationsaufwand, weil zur Herstellung von Common Understanding und Predictability zusätzlicher Klärungs- und Abstimmungsbedarf entsteht. Quelle: Okhuysen, G. A., & Bechky, B. A. (2009). Coordination in organizations: An integrative perspective. Academy of Management Annals, 3(1), 463-502."
       }
     },
     {
@@ -8487,28 +8487,15 @@
     },
     {
       "_id": "conn-kom-Ambiguität-OUT",
-      "from": "elem-komKomplexitaet",
-      "to": "elem-1mAqDgJB",
+      "from": "elem-1mAqDgJB",
+      "to": "elem-komKomplexitaet",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[X]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Hohe Kommunikationskomplexität verstärkt Prozess-Ambiguität, weil Informationen uneinheitlich oder widersprüchlich ankommen."
-      }
-    },
-    {
-      "_id": "conn-COORDINATION-TO-PROCESS-AMBIGUITY",
-      "from": "elem-koordin001",
-      "to": "elem-1mAqDgJB",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "+-",
-        "description": "Gute Koordination reduziert Prozess-Ambiguität durch klare Abstimmung und gemeinsame Regeln."
+        "description": "Hohe Ambiguität der Prozessanforderungen erhöht die Komplexität der Kommunikationsaufgabe, weil zusätzlicher Klärungs- und Abstimmungsbedarf entsteht. Quelle: Daft, R. L., & Lengel, R. H. (1986). Organizational information requirements, media richness and structural design. Management Science, 32(5), 554-571."
       }
     },
     {
@@ -11739,7 +11726,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
-        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt."
+        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt. Hinweis: Diese Aussage ist zum aktuellen Zeitpunkt eine eigene Schlussfolgerung aus der vorhandenen Logik des Modells."
       }
     },
     {
