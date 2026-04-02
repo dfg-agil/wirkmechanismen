@@ -1,0 +1,222 @@
+{
+  "elements": [
+    {
+      "_id": "elem-ivDOaa1S",
+      "attributes": {
+        "label": "Zielkongruenz des Teams",
+        "element type": "Schlüsselfaktor",
+        "tags": ["Teamdynamik", "Planning"],
+        "description": "Grad, in welchem sich das Team auf die gleichen Sprint-Ziele geeinigt hat. IM-Kontext: Support-Maßnahmen ERHÖHEN die (im RM niedrige) Zielkongruenz.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-support-sinnbildung",
+      "attributes": {
+        "label": "Support: Strukturierte Sinnbildungsroutinen (Retros/Reviews als Resonanzpunkte)",
+        "description": "Systematische Nutzung von Retrospektiven und Reviews als Sinnbildungs- und Resonanzräume. Nach Matsumae et al. (2020): (1) Moderation-Guides für Retros mit explizitem Fokus auf Sinnbildung und Purpose-Alignment; (2) Artefakte (Whiteboards, Visualisierungen) zur Externalisierung von Design-Rationale; (3) Story-Telling-Practices zur Reflexion von Decision-Logik. Measurability: Häufigkeit strukturierter Sinnbildungs-Sessions, Qualität externalisierter Annahmen, Team-Feedback zu Purpose-Klarheit.",
+        "element type": "Support",
+        "measurability": 0.9,
+        "influenceability": 1.0
+      }
+    },
+    {
+      "_id": "elem-support-externalisierung",
+      "attributes": {
+        "label": "Support: Strukturierte Externalisierung (Assumption Maps, Boundary Objects)",
+        "description": "Co-Design Practice nach Matsumae & Ehkirch (2022): Explizite Methoden zur Visualisierung und Dokumentation von Annahmen. Tools: Assumption Mapping Workshops, Lightweight Decision Logging. Diese Artefakte dienen als Boundary Objects (Carlile 2004) für Koordination über Wissensgrenzen hinweg. Measurability: Anzahl dokumentierter Entscheidungen, Nutzungsrate der Decision-Logs, Team-Feedback zur Nützlichkeit.",
+        "element type": "Support",
+        "measurability": 0.85,
+        "influenceability": 0.95
+      }
+    },
+    {
+      "_id": "elem-support-narrative",
+      "attributes": {
+        "label": "Support: Aushandlung gemeinsamer Narrative & Goals (Intersubjektivität)",
+        "description": "Nach Matsumae et al. (2020): Intersubjektivität basiert auf Resonanz - der Fähigkeit, die Perspektive des anderen zu verstehen. Practices: (1) Purpose-Workshops zur Aushandlung gemeinsamer 'warum wir das tun'; (2) Narrative-Circles in Retrospektiven; (3) Gemeinsame Decision-Making-Rituale, die Divergenzen offen ansprechen und auflösen. Measurability: Grad der Alignment über Purpose (Umfragen), Konsistenz in Decision-Logs, Abwesenheit von Narrativ-Konflikten.",
+        "element type": "Support",
+        "measurability": 0.75,
+        "influenceability": 0.9
+      }
+    },
+    {
+      "_id": "elem-mentalModelle",
+      "attributes": {
+        "label": "Qualität gemeinsamer mentaler Modelle",
+        "element type": "Einflussfaktoren",
+        "tags": ["Team Learning", "Shared Understanding"],
+        "description": "IM-Kontext: Durch Support-Externalisierung VERBESSERT.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-koordin001",
+      "attributes": {
+        "label": "Koordinationsaufwand",
+        "description": "IM-Kontext: Durch ERHÖHTE Zielkongruenz REDUZIERT.",
+        "element type": "Einflussfaktoren",
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-VombH8FP",
+      "attributes": {
+        "label": "Konvergenz des Teamverständnisses",
+        "description": "IM-Kontext: Durch bessere mentale Modelle ERHÖHT.",
+        "tags": ["Kommunikation"],
+        "element type": "Einflussfaktoren",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-NmSn5Afu",
+      "attributes": {
+        "label": "Qualität der Entscheidung",
+        "element type": "Einflussfaktoren",
+        "description": "IM-Kontext: Durch bessere mentale Modelle ERHÖHT.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-gemeinsamVerstaendnis",
+      "attributes": {
+        "label": "Gemeinsames Verständnis des Teams",
+        "element type": "Erfolgsfaktor",
+        "tags": ["Kommunikation", "O&B Framework"],
+        "description": "IM-Kontext: Durch Support-Interventionen ERHÖHT (positive Outcome-Situation).",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-SUPPORT-SINNBILDUNG-TO-ZIELKONGRUENZ",
+      "from": "elem-support-sinnbildung",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Matsumae et al. (2020): Strukturierte Sinnbildungsroutinen ERHÖHEN Zielkongruenz durch kontinuierliche Resonanzbildung und Purpose-Alignment."
+      }
+    },
+    {
+      "_id": "conn-SUPPORT-EXTERNALISIERUNG-TO-MENTAL",
+      "from": "elem-support-externalisierung",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Carlile (2004), Matsumae (2020): Strukturierte Externalisierung durch Boundary Objects VERBESSERT mentale Modelle durch Explizierung impliziter Annahmen."
+      }
+    },
+    {
+      "_id": "conn-SUPPORT-NARRATIVE-TO-ZIELKONGRUENZ",
+      "from": "elem-support-narrative",
+      "to": "elem-ivDOaa1S",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Matsumae et al. (2020): Intersubjektivität durch Aushandlung gemeinsamer Narrative ERHÖHT Zielkongruenz durch geteilte 'Warum'-Erzählungen."
+      }
+    },
+    {
+      "_id": "conn-ERHÖHTE-ZIELKONGRUENZ-TO-BESSERE-MENTAL",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "IM: ERHÖHTE Zielkongruenz führt zu BESSEREN mentalen Modellen (Umkehrung der RM-Logik)."
+      }
+    },
+    {
+      "_id": "conn-ERHÖHTE-ZIELKONGRUENZ-TO-REDUZIERTER-KOORDINATION",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "IM: ERHÖHTE Zielkongruenz REDUZIERT Koordinationsaufwand (Umkehrung der RM-Logik)."
+      }
+    },
+    {
+      "_id": "conn-BESSERE-MENTAL-TO-HÖHERE-KONVERGENZ",
+      "from": "elem-mentalModelle",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "IM: BESSERE mentale Modelle fördern HÖHERE Konvergenz (Umkehrung der RM-Logik)."
+      }
+    },
+    {
+      "_id": "conn-BESSERE-MENTAL-TO-HÖHERE-ENTSCHEIDUNG",
+      "from": "elem-mentalModelle",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "IM: BESSERE mentale Modelle führen zu HÖHERER Entscheidungsqualität (Umkehrung der RM-Logik)."
+      }
+    },
+
+    {
+      "_id": "conn-HÖHERE-KONVERGENZ-TO-HÖHERES-GEMEINSAM",
+      "from": "elem-VombH8FP",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "IM: HÖHERE Konvergenz führt zu HÖHEREM gemeinsamen Verständnis (Umkehrung der RM-Logik)."
+      }
+    },
+    {
+      "_id": "conn-HÖHERES-GEMEINSAM-TO-HÖHERE-ENTSCHEIDUNG",
+      "from": "elem-gemeinsamVerstaendnis",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "IM: HÖHERES gemeinsames Verständnis führt zu HÖHERER Entscheidungsqualität."
+      }
+    },
+    {
+      "_id": "conn-HÖHERE-ENTSCHEIDUNG-TO-REDUZIERTER-KOORDINATION",
+      "from": "elem-NmSn5Afu",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+- ",
+        "description": "IM: HÖHERE Entscheidungsqualität REDUZIERT Koordinationsaufwand."
+      }
+    },
+    {
+      "_id": "conn-HÖHERES-GEMEINSAM-TO-REDUZIERTER-KOORDINATION",
+      "from": "elem-gemeinsamVerstaendnis",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "IM: HÖHERES gemeinsames Verständnis REDUZIERT Koordinationsaufwand."
+      }
+    }
+  ]
+}

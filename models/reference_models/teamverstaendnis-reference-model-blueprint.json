@@ -1,0 +1,148 @@
+{
+  "elements": [
+    {
+      "_id": "elem-ivDOaa1S",
+      "attributes": {
+        "label": "Zielkongruenz des Teams",
+        "element type": "Schlüsselfaktor",
+        "tags": ["Teamdynamik", "Planning"],
+        "description": "Grad, in welchem sich das Team auf die gleichen Sprint-Ziele, deren Sinnhaftigkeit und gemeinsamen Purpose geeinigt hat. RM-Kontext: NIEDRIGE Zielkongruenz ist das zentrale Problem - Teams mit schwacher Zielkongruenz haben divergente Zielvorstellungen, ständige Klärungsdiskussionen und fragmentierte Selbstorganisation. Messbar über Planning-Poker-Consensus (hohe Abweichungen), Retro-Feedback zu unterschiedlichen Goal-Verständnissen, niedrige Engagement-Level.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-mentalModelle",
+      "attributes": {
+        "label": "Qualität gemeinsamer mentaler Modelle",
+        "element type": "Einflussfaktoren",
+        "tags": ["Team Learning", "Team Synchronisation", "Shared Understanding", "Selbstorganisation"],
+        "description": "Grad, in welchem das Team ein korrektes, einheitliches Verständnis über Prozess, Architektur, Anforderungen und gegenseitige Verantwortlichkeiten hat. RM-Kontext: Bei NIEDRIGER Qualität haben Teammitglieder inkonsistente Annahmen, treffen widersprüchliche Entscheidungen und benötigen excessive Koordination.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-koordin001",
+      "attributes": {
+        "label": "Koordinationsaufwand",
+        "description": "Der Aufwand, der für die Synchronisation und Abstimmung zwischen Teammitgliedern erforderlich ist. RM-Kontext: HOHER Koordinationsaufwand durch ständige Klärungsdiskussionen, Meeting-Overhead und Kontextwechsel reduziert verfügbare Zeit für direkte Entwicklungsarbeit.",
+        "element type": "Einflussfaktoren",
+        "measurability": 0.5,
+        "influenceability": 1
+      }
+    },
+    {
+      "_id": "elem-VombH8FP",
+      "attributes": {
+        "label": "Konvergenz des Teamverständnisses",
+        "description": "Grad des gemeinsamen Teamverständnisses. RM-Kontext: NIEDRIGE Konvergenz bedeutet divergente Interpretationen und Missverständnisse.",
+        "tags": ["Kommunikation"],
+        "element type": "Einflussfaktoren",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-NmSn5Afu",
+      "attributes": {
+        "label": "Qualität der Entscheidung",
+        "element type": "Einflussfaktoren",
+        "tags": ["Interpretierbarkeit vorhandener Informationen", "Informationsverfügbarkeit"],
+        "description": "RM-Kontext: NIEDRIGE Entscheidungsqualität durch inkonsistente Bewertungskriterien und fragmentierte Problemlösungsansätze.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-gemeinsamVerstaendnis",
+      "attributes": {
+        "label": "Gemeinsames Verständnis des Teams",
+        "element type": "Erfolgsfaktor",
+        "tags": ["Kommunikation", "O&B Framework"],
+        "description": "Grad des gemeinsamen Verständnisses im Team über Ziele, Anforderungen, Aufgaben und Kontext. RM-Kontext: NIEDRIGES gemeinsames Verständnis führt zu Missverständnissen, Rework und ineffizienter Koordination (negative Ausgangssituation ohne Support).",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-NIEDRIGE-ZIELKONGRUENZ-TO-SCHLECHTE-MENTAL",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "NIEDRIGE Zielkongruenz führt zu SCHLECHTER Qualität gemeinsamer mentaler Modelle: Wenn das Team keine gemeinsamen Ziele hat, entwickeln sich divergente mentale Modelle über Purpose und Prioritäten."
+      }
+    },
+    {
+      "_id": "conn-NIEDRIGE-ZIELKONGRUENZ-TO-HOHER-KOORDINATION",
+      "from": "elem-ivDOaa1S",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "NIEDRIGE Zielkongruenz führt zu HOHEM Koordinationsaufwand: Ohne gemeinsame Zielausrichtung sind ständige Klärungsdiskussionen nötig, Missverständnisse häufen sich und Entscheidungen können nicht konsistent getroffen werden."
+      }
+    },
+    {
+      "_id": "conn-SCHLECHTE-MENTAL-TO-NIEDRIGE-KONVERGENZ",
+      "from": "elem-mentalModelle",
+      "to": "elem-VombH8FP",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "SCHLECHTE mentale Modelle führen zu NIEDRIGER Konvergenz: Inkonsistente Annahmen und divergente Interpretationen verhindern gemeinsames Verständnis."
+      }
+    },
+    {
+      "_id": "conn-SCHLECHTE-MENTAL-TO-NIEDRIGE-ENTSCHEIDUNG",
+      "from": "elem-mentalModelle",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "SCHLECHTE mentale Modelle führen zu NIEDRIGER Entscheidungsqualität: Ohne konsistente Bewertungskriterien werden Entscheidungen fragmentiert und widersprüchlich getroffen."
+      }
+    },
+    {
+      "_id": "conn-HOHER-KOORDINATION-TO-NIEDRIGES-GEMEINSAM",
+      "from": "elem-koordin001",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[O]",
+        "connection type": "-+",
+        "description": "HOHER Koordinationsaufwand senkt GEMEINSAMES Verständnis: Übermäßiger Koordinationsoverhead führt zu Isolation, Silobildung und Frust über ineffiziente Prozesse."
+      }
+    },
+    {
+      "_id": "conn-NIEDRIGE-KONVERGENZ-TO-NIEDRIGES-GEMEINSAM",
+      "from": "elem-VombH8FP",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "NIEDRIGE Konvergenz führt zu NIEDRIGEM gemeinsamen Verständnis: Divergente Teamverständnisse bauen systematisch Missverständnisse und Inkonsistenz auf."
+      }
+    },
+    {
+      "_id": "conn-NIEDRIGE-ENTSCHEIDUNG-TO-NIEDRIGES-GEMEINSAM",
+      "from": "elem-NmSn5Afu",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "NIEDRIGE Entscheidungsqualität senkt GEMEINSAMES Verständnis: Inkonsistente, fragmentierte Entscheidungen untergraben das Vertrauen in gemeinsame Urteilsfähigkeit."
+      }
+    }
+  ]
+}
