@@ -8844,9 +8844,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[X]",
+        "label": "[S]",
         "connection type": "--",
-        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen."
+        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen. Hauptquelle ist Daft & Lengel (1986): Bei komplexen bzw. mehrdeutigen Kommunikationsaufgaben steigt der Bedarf an reichhaltiger Kommunikation, um zu einer geteilten Interpretation zu gelangen. Stützend zeigt Okhuysen & Bechky (2009), dass Common Understanding eine zentrale Voraussetzung wirksamer Koordination ist."
       }
     },
     {
