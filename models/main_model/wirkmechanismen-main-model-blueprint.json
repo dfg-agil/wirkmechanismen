@@ -8285,9 +8285,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[X]",
+        "label": "[S]",
         "connection type": "++",
-        "description": "Mehrdeutige Prozessanforderungen erfordern reichhaltigere Medien zur Klärung von Rollen, Regeln und Abläufen."
+        "description": "Ambiguität der Prozessanforderungen erhöht die erforderliche strukturelle Medienreichhaltigkeit. Hauptquelle: Daft & Lengel (1986) stützen direkt den Kernmechanismus, dass höhere Equivocality/Ambiguität reichhaltigere Medien erfordert. Stützend: Paetzold (2017) bestätigt die Aufgaben-Medien-Passungslogik im agilen Kontext; Haselsteiner (2022) zeigt zusätzlichen Klärungsbedarf bei Ambiguität/Unsicherheit."
       }
     },
     {
