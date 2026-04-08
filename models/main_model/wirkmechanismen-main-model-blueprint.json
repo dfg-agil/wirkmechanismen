@@ -376,7 +376,8 @@
         "micmac influence": 0.7548661438233901,
         "micmac exposure": 0.8564567254911214,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -719,7 +720,8 @@
         "micmac influence": 0.846642757927137,
         "micmac exposure": 0.7070802409585855,
         "measurability": 1,
-        "influenceability": 1
+        "influenceability": 1,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1092,7 +1094,8 @@
         "micmac influence": 0,
         "micmac exposure": 0,
         "measurability": 1,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1149,7 +1152,8 @@
         "indegree": 1,
         "outdegree": 2,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1269,7 +1273,8 @@
         "micmac influence": 0.9128294249797513,
         "micmac exposure": 0.7613808958525524,
         "measurability": 0.5,
-        "influenceability": 1.0
+        "influenceability": 1.0,
+        "cluster": "Mensch"
       }
     },
     {
@@ -1398,7 +1403,8 @@
         "micmac influence": 0.8083060056236697,
         "micmac exposure": 0.8729263522091324,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2022,7 +2028,8 @@
         "micmac exposure": 0.6831262050163229,
         "description": "Alternativ einfach \"Fähigkeiten des Entwicklers\"\n\nHier geht es sowohl um die Anzahl, als auch um die Ausprägung der jeweiligen vorhandenen Fähigkeiten (z.B. schlecht, mittel, gut)",
         "measurability": 0.5,
-        "influenceability": 1
+        "influenceability": 1,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2212,7 +2219,8 @@
         "micmac influence": 0,
         "micmac exposure": 0,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2437,7 +2445,8 @@
         "micmac influence": 0.72739390631389,
         "micmac exposure": 0.8243146607693502,
         "measurability": 0,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2853,7 +2862,8 @@
         "indegree": 0,
         "outdegree": 2,
         "degree": 2,
-        "size": 3
+        "size": 3,
+        "cluster": "Mensch"
       }
     },
     {
@@ -2912,7 +2922,8 @@
         "indegree": 3,
         "outdegree": 3,
         "degree": 6,
-        "size": 7
+        "size": 7,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3012,7 +3023,8 @@
         "indegree": 2,
         "outdegree": 1,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3072,7 +3084,8 @@
         "indegree": 8,
         "outdegree": 1,
         "degree": 9,
-        "size": 10
+        "size": 10,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3272,7 +3285,8 @@
         "indegree": 1,
         "outdegree": 1,
         "degree": 2,
-        "size": 3
+        "size": 3,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3332,7 +3346,8 @@
         "indegree": 2,
         "outdegree": 1,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3412,7 +3427,8 @@
         "indegree": 1,
         "outdegree": 2,
         "degree": 3,
-        "size": 4
+        "size": 4,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3552,7 +3568,8 @@
         "indegree": 3,
         "outdegree": 1,
         "degree": 4,
-        "size": 5
+        "size": 5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -3592,7 +3609,8 @@
         "indegree": 1,
         "outdegree": 1,
         "degree": 2,
-        "size": 3
+        "size": 3,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4049,7 +4067,8 @@
         "indegree": 6,
         "outdegree": 5,
         "degree": 11,
-        "size": 12
+        "size": 12,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4064,7 +4083,8 @@
         ],
         "description": "Der Grad, in dem das Team das gewählte Kommunikationsmedium akzeptiert, nutzt und sich damit identifiziert. Akzeptanz ist essentiell für die tatsächliche Nutzung und Wirksamkeit eines Mediums. Ein Medium mit hoher theoretischer Reichhaltigkeit kann unwirksam sein, wenn das Team es ablehnt oder ungern nutzt. Messbar über Nutzungshäufigkeit, User-Engagement-Metriken, Team-Feedback zur Medium-Akzeptanz. Beeinflussbar durch Team-Kompetenz, Gewöhnung, positive Erfahrungen im Einsatz, Kultur und Unterstützung durch Leadership.",
         "measurability": 0.5,
-        "influenceability": 0.5
+        "influenceability": 0.5,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4224,7 +4244,8 @@
         "reach": 0,
         "reach-efficiency": 0,
         "micmac influence": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "cluster": "Mensch"
       }
     },
     {
@@ -4251,7 +4272,8 @@
         "reach": 0,
         "reach-efficiency": 0,
         "micmac influence": 0,
-        "micmac exposure": 0
+        "micmac exposure": 0,
+        "cluster": "Mensch"
       }
     }
   ],
@@ -4278,7 +4300,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "-+",
-        "description": "Ein hoher Bedarf an Boundary Spanning senkt ohne wirksame Vermittlung die Konvergenz des Teamverständnisses. Hauptquelle ist Daft & Lengel (1986): Bei hoher Equivocality braucht es Integratoren/Boundary Spanners, um unterschiedliche Interpretationsrahmen zusammenzuführen und gemeinsame Interpretation herzustellen. Stützend zeigen Dingsøyr et al. (2018) Boundary Spanning als Koordinationsmechanismus in Multi-Team-Agile-Kontexten; Carlile (2002) präzisiert die zugrunde liegenden Wissens- und Bedeutungsgrenzen.",
+        "description": "Wahrgenommene Medienreichhaltigkeit erhöht Zufriedenheit mit der Kommunikation und verbessert damit die Kommunikationsqualität.",
         "source": "user-request"
       }
     },
@@ -8090,7 +8112,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[X]",
         "connection type": "++",
         "description": "Reichhaltige Medien unterstützen die Konvergenz des Teamverständnisses, weil sie Kontext, Nuancen und unmittelbares Feedback besser transportieren."
       }
@@ -8116,9 +8138,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[X]",
         "connection type": "++",
-        "description": "Höhere strukturelle Medienreichhaltigkeit erhöht in der Regel auch die wahrgenommene Medienreichhaltigkeit, wobei dieser Effekt durch Erfahrung und Nutzungskontext moduliert wird. Hauptquellen: Ishii (2019) – Medienreichhaltigkeit wird subjektiv und situationsabhängig wahrgenommen; Daft & Lengel (1986) – objektive Richness-Eigenschaften eines Mediums bilden das theoretische Grundgerüst dafür, dass reichere Medien auch mehr Cues, Feedbackgeschwindigkeit und Kontexttransport ermöglichen."
+        "description": "Die objektive Medienreichhaltigkeit beeinflusst die wahrgenommene Reichhaltigkeit; reichere Medien werden in der Regel auch als reicher empfunden (moduliert durch Erfahrung)."
       }
     },
     {
@@ -8181,7 +8203,7 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[X]",
         "connection type": "+-",
         "description": "Reichhaltige Medien reduzieren Prozess-Ambiguität durch schnelle Rückfragen, gemeinsame Klärung und unmittelbares Feedback."
       }
@@ -8285,9 +8307,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[X]",
         "connection type": "++",
-        "description": "Ambiguität der Prozessanforderungen erhöht die erforderliche strukturelle Medienreichhaltigkeit. Hauptquelle: Daft & Lengel (1986) stützen direkt den Kernmechanismus, dass höhere Equivocality/Ambiguität reichhaltigere Medien erfordert. Stützend: Paetzold (2017) bestätigt die Aufgaben-Medien-Passungslogik im agilen Kontext; Haselsteiner (2022) zeigt zusätzlichen Klärungsbedarf bei Ambiguität/Unsicherheit."
+        "description": "Mehrdeutige Prozessanforderungen erfordern reichhaltigere Medien zur Klärung von Rollen, Regeln und Abläufen."
       }
     },
     {
@@ -8467,9 +8489,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Ambiguität der Prozessanforderungen erhöht den Koordinationsaufwand, weil zur Herstellung von Common Understanding und Predictability zusätzlicher Klärungs- und Abstimmungsbedarf entsteht. Quelle: Okhuysen, G. A., & Bechky, B. A. (2009). Coordination in organizations: An integrative perspective. Academy of Management Annals, 3(1), 463-502."
+        "description": "Ambiguität der Prozessanforderungen erhöht den Koordinationsaufwand, weil mehr Klärung und Synchronisation nötig ist."
       }
     },
     {
@@ -8487,15 +8509,28 @@
     },
     {
       "_id": "conn-kom-Ambiguität-OUT",
-      "from": "elem-1mAqDgJB",
-      "to": "elem-komKomplexitaet",
+      "from": "elem-komKomplexitaet",
+      "to": "elem-1mAqDgJB",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[X]",
         "connection type": "++",
-        "description": "Hohe Ambiguität der Prozessanforderungen erhöht die Komplexität der Kommunikationsaufgabe, weil zusätzlicher Klärungs- und Abstimmungsbedarf entsteht. Quelle: Daft, R. L., & Lengel, R. H. (1986). Organizational information requirements, media richness and structural design. Management Science, 32(5), 554-571."
+        "description": "Hohe Kommunikationskomplexität verstärkt Prozess-Ambiguität, weil Informationen uneinheitlich oder widersprüchlich ankommen."
+      }
+    },
+    {
+      "_id": "conn-COORDINATION-TO-PROCESS-AMBIGUITY",
+      "from": "elem-koordin001",
+      "to": "elem-1mAqDgJB",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Gute Koordination reduziert Prozess-Ambiguität durch klare Abstimmung und gemeinsame Regeln."
       }
     },
     {
@@ -8506,9 +8541,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[?]",
         "connection type": "++",
-        "description": "Höhere wahrgenommene Medienreichhaltigkeit erleichtert das Verständnis des Entwicklungsprozesses, weil als reichhaltig und passend erlebte Medien mehr Kontext, Rückfragen und gemeinsame Interpretation ermöglichen. Hauptquelle: Daft & Lengel (1986) – reichhaltige Medien unterstützen Equivocality-Reduktion durch schnelle Rückkopplung und geteilte Interpretation. Stützend: Paetzold/Schmidt et al. (2017) – aufgabengerechte reichhaltige Kommunikation verbessert Verständigung im agilen Kontext. Ergänzend: Ishii (2019) – pragmatisch als wirksam erlebte Medien fördern tatsächliche Verständigung in der Zusammenarbeit."
+        "description": "Reichhaltig wahrgenommene Medien erleichtern das Verständnis des Entwicklungsprozesses durch bessere Kontextvermittlung."
       }
     },
     {
@@ -8519,9 +8554,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[X]",
         "connection type": "+-",
-        "description": "Steigende Kommunikationskomplexität reduziert die Verständlichkeit des Entwicklungsprozesses. Hauptquelle ist Daft & Lengel (1986): Bei hoher Equivocality steigt der Bedarf an reichhaltiger Kommunikation, um Kontext und Bedeutung verständlich zu vermitteln und zu gemeinsamer Interpretation zu gelangen. Stützend zeigen Okhuysen & Bechky (2009), dass wirksame Koordination auf Predictability und Common Understanding beruht, die durch missverständnisarme Kommunikation erleichtert werden."
+        "description": "Steigende Kommunikationskomplexität reduziert die Verständlichkeit des Entwicklungsprozesses."
       }
     },
     {
@@ -8636,9 +8671,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[E]",
         "connection type": "++",
-        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht den Bedarf an reichhaltigeren strukturellen Medien, um effektive Kommunikation zu ermöglichen. Hauptquelle: Daft & Lengel (1986) – höhere Equivocality erfordert reichhaltigere Medien zur schnellen Rückkopplung und gemeinsamen Interpretation. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenmehrdeutigkeit die Notwendigkeit aufgabengerechter, reichhaltiger Kommunikation. Ergänzend: Ishii (2019) – die Medienwahl wird in anspruchsvollen Kommunikationssituationen pragmatisch an den Klärungsbedarf angepasst."
+        "description": "Höhere Aufgaben-Mehrdeutigkeit erfordert reichhaltigere strukturelle Medien für effektive Kommunikation."
       }
     },
     {
@@ -8649,9 +8684,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die wahrgenommene Medienreichhaltigkeit, weil Teams in ambigen Kommunikationssituationen reichhaltigere Medien als passender und wirksamer erleben. Hauptquelle: Ishii (2019) – Medienreichhaltigkeit wird in aktuellen Nutzungskontexten subjektiv und situationsabhängig wahrgenommen; die Passung zwischen Aufgabe und Medium prägt die wahrgenommene Eignung. Theoretisches Fundament: Daft & Lengel (1986) – höhere Equivocality erhöht den Bedarf an reichhaltiger Kommunikation. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenmehrdeutigkeit die Notwendigkeit aufgabengerechter, reichhaltiger Kommunikation."
+        "description": "Ambige Aufgaben erhöhen die Erwartung an wahrgenommene Media-Richness."
       }
     },
     {
@@ -8701,9 +8736,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Ambiguität der Prozessanforderungen erhöht den Grad der Mehrdeutigkeit der Aufgabe, da unklare Anforderungen interpretive Unterschiede erzeugen (Hauptquelle: Daft & Lengel 1986 zu Equivocality); stützend: Carlile 2004 (neue/unklare Anforderungen -> interpretive Differenzen), Haselsteiner 2022 (Klärungsbedarf bei Unsicherheiten/Ambiguitäten), Okhuysen & Bechky 2009 (Prozessstandardisierung reduziert Ambiguität)."
+        "description": "Ambige Prozessanforderungen erhöhen die Mehrdeutigkeit einzelner Aufgaben."
       }
     },
     {
@@ -8727,9 +8762,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[E]",
         "connection type": "--",
-        "description": "Höhere Aufgaben-Mehrdeutigkeit erschwert die Konvergenz des Teamverständnisses, weil mehrdeutige Anforderungen konkurrierende Interpretationen erzeugen und damit gemeinsame Interpretation langsamer entsteht. Hauptquelle: Daft & Lengel (1986) als theoretische Ableitung (Equivocality wird durch Richness und shared interpretation reduziert). Stützend: Okhuysen & Bechky (2009) sowie Haselsteiner (2022) zu steigendem Kommunikations- und Koordinationsbedarf bei Task-Unsicherheit und Novelty."
+        "description": "Höhere Aufgaben-Mehrdeutigkeit erschwert die Konvergenz des Teamverständnisses."
       }
     },
     {
@@ -8831,9 +8866,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[X]",
         "connection type": "--",
-        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen. Hauptquelle ist Daft & Lengel (1986): Bei komplexen bzw. mehrdeutigen Kommunikationsaufgaben steigt der Bedarf an reichhaltiger Kommunikation, um zu einer geteilten Interpretation zu gelangen. Stützend zeigt Okhuysen & Bechky (2009), dass Common Understanding eine zentrale Voraussetzung wirksamer Koordination ist."
+        "description": "Komplexe Kommunikation erschwert die Konvergenz des Teamverständnisses. Je mehr Stakeholder beteiligt sind und je komplexer die Kommunikation, desto schwieriger ist es, zu einem gemeinsamen Verständnis zu gelangen."
       }
     },
     {
@@ -8961,9 +8996,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit, weil Teams bei komplexen Abstimmungs- und Klärungsaufgaben reichhaltigere Medien als passender und wirksamer erleben. Hauptquelle: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenkomplexität der Bedarf an aufgabengerechter, reichhaltiger Kommunikation. Theoretisches Fundament: Daft & Lengel (1986) – bei höherer Equivocality sind reichhaltigere Medien wirksamer zur Herstellung gemeinsamer Interpretation und schneller Rückkopplung."
+        "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht die wahrgenommene Medienreichhaltigkeit durch gesteigerten Bedarf an reichhaltigen Medien."
       }
     },
     {
@@ -9494,9 +9529,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Hohe Kommunikationskomplexität steigert den Bedarf an Boundary Spanning zur Übersetzung und Abstimmung. Hauptquelle ist Daft & Lengel (1986): Bei hoher Equivocality und unterschiedlichen Interpretationsrahmen steigt der Bedarf an Integratoren/Boundary Spanners, um reichhaltige Kommunikation und gemeinsame Interpretation herzustellen. Stützend zeigen Dingsøyr et al. (2018) Boundary Spanning als Koordinationsmechanismus in Multi-Team-Agile-Kontexten; Carlile (2002) präzisiert die zugrunde liegenden Wissens- und Bedeutungsgrenzen über die Boundary-Object-Perspektive."
+        "description": "Hohe Kommunikationskomplexität steigert den Bedarf an Boundary Spanning zur Übersetzung und Abstimmung."
       }
     },
     {
@@ -9533,9 +9568,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Hohe Aufgabenmehrdeutigkeit erhöht den Bedarf an Boundary Spanning, um Interpretationsunterschiede zwischen Bereichen zu überbrücken und gemeinsames Verständnis herzustellen. Hauptquelle: Daft & Lengel (1986) – Equivocality/Uncertainty in interdepartmental contexts erhöht den Bedarf an Integrations- und Verknüpfungsmechanismen. Stützend: Carlile (2002/2004) – Novelty und neue Anforderungen erzeugen Boundary-Probleme und erhöhen den Bedarf an Grenzarbeit."
+        "description": "Hohe Aufgabenmehrdeutigkeit erhöht den Bedarf an Boundary Spanning, um ein gemeinsames Verständnis herzustellen."
       }
     },
     {
@@ -9572,9 +9607,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher. Hauptquelle ist Dingsøyr et al. (2018): In Multi-Team-Settings erhöhen Boundary-Spanning-Anforderungen den zusätzlichen Abstimmungsbedarf über Teamgrenzen; Koordination steigt u. a. über zusätzliche Planungs-, Synchronisations- und Review-Arbeit. Stützend zeigt Daft & Lengel (1986), dass Integratoren/Boundary-Spanner bei hoher Equivocality für interdependente Abstimmung benötigt werden. Ergänzend weist Haselsteiner (2022) in agilen Kontexten auf zusätzlichen Kommunikations- und Koordinationsaufwand bei grenzüberschreitender Wissensintegration hin."
+        "description": "Ein hoher Bedarf an Boundary Spanning geht mit höherem Koordinationsaufwand einher."
       }
     },
     {
@@ -9741,9 +9776,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "+-",
-        "description": "Ein hoher Bedarf an Boundary Spanning senkt ohne wirksame Vermittlung die Konvergenz des Teamverständnisses. Hauptquelle ist Daft & Lengel (1986): Bei hoher Equivocality braucht es Integratoren/Boundary Spanners, um unterschiedliche Interpretationsrahmen zusammenzuführen und gemeinsame Interpretation herzustellen. Stützend zeigen Dingsøyr et al. (2018) Boundary Spanning als Koordinationsmechanismus in Multi-Team-Agile-Kontexten; Carlile (2002) präzisiert die zugrunde liegenden Wissens- und Bedeutungsgrenzen."
+        "description": "Ein hoher Bedarf an Boundary Spanning senkt ohne wirksame Vermittlung die Konvergenz des Teamverständnisses."
       }
     },
     {
@@ -10183,9 +10218,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "+-",
-        "description": "Höhere Verständlichkeit des Entwicklungsprozesses reduziert den Koordinationsaufwand, weil Interdependenzen, Zuständigkeiten und Abläufe für Beteiligte besser antizipierbar werden. Hauptquelle: Okhuysen & Bechky (2009), da wirksame Koordination auf Predictability und Common Understanding beruht und diese den Abstimmungsbedarf senken. Stützend: Dingsøyr et al. (2018) und Haselsteiner (2022) für den agilen Multi-Team-Kontext mit zusätzlicher Planungs-/Meeting-Koordination."
+        "description": "Höhere Verständlichkeit des Entwicklungsprozesses reduziert den Koordinationsaufwand durch klarere Abläufe und Rollen."
       }
     },
     {
@@ -10196,9 +10231,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs-, Interpretations- und Abstimmungsbedarf. Hauptquelle: Paetzold (2017) zur Abhängigkeit der Kommunikationsaufgaben-Komplexität von passender Richness-/Prototypwahl. Stützend: Daft & Lengel (1986) zu Equivocality und Informationsverarbeitungsbedarf, Okhuysen & Bechky (2009) sowie Dingsøyr/Haselsteiner zu steigendem Koordinations- und Kommunikationsbedarf bei Task-Unsicherheit und Novelty."
+        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht die Komplexität der Kommunikationsaufgabe durch zusätzlichen Klärungs- und Abstimmungsbedarf."
       }
     },
     {
@@ -10211,7 +10246,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
-        "description": "Eine höhere Synchronisationsfrequenz kann den Koordinationsaufwand erhöhen, weil zusätzliche Planungs-, Synchronisations- und Review-Zyklen mehr Abstimmungsarbeit erzeugen. [A], da keine Quelle die exakte Einzelkausalität in dieser Form direkt testet. Stützend: Dingsøyr et al. (2018) berichten in Multi-Team-Agile-Kontexten erhöhte Koordinationsarbeit durch zusätzliche Synchronisations- und Meetingpraktiken; Haselsteiner (2022) beschreibt im agilen Kontext den Aufwand aus regelmäßigen Meetings und formalen Koordinationsmechanismen."
+        "description": "Eine höhere Synchronisationsfrequenz erhöht den Koordinationsaufwand durch zusätzlichen Abstimmungsaufwand und Kontextwechsel."
       }
     },
     {
@@ -10365,9 +10400,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "+-",
-        "description": "Klare Verantwortlichkeiten reduzieren den Koordinationsaufwand durch weniger Abstimmungsbedarf und klarere Entscheidungswege. Okhuysen & Bechky (2009) benennen Accountability – die Klarheit darüber, wer für was verantwortlich ist – als eine der drei zentralen Eigenschaften von Koordinationsmechanismen. Klare Accountability-Strukturen ermöglichen implizite Koordination, ohne dass Zuständigkeiten erst ausgehandelt werden müssen."
+        "description": "Klare Verantwortlichkeiten reduzieren den Koordinationsaufwand durch weniger Abstimmungsbedarf und klarere Entscheidungswege."
       }
     },
     {
@@ -10640,7 +10675,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Hochwertige Code Reviews kodifizieren und verhandeln implizite Annahmen über Architektur, Standards und Best Practices, was gemeinsame mentale Modelle stärken kann. [A], da keine der Quellen die spezifische Einzelkausalität 'Code-Review-Qualität -> gemeinsame mentale Modelle' direkt testet. Theoretisch stützend: Okhuysen & Bechky (2009) zu Common Understanding als Integrationsbedingung wirksamer Koordination; Dingsøyr et al. (2005) zu Postmortem-Reviews als Lern-/Externalisierungsmechanismus; Haselsteiner (2022) zu Shared Mental Models als Träger integrierten Wissens in agilen Teams."
+        "description": "Hochwertige Code Reviews kodifizieren und verhandeln implizite Annahmen über Architektur, Standards und best practices, was gemeinsame mentale Modelle stärkt."
       }
     },
     {
@@ -10677,9 +10712,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "+-",
-        "description": "Bessere gemeinsame mentale Modelle reduzieren den Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen konsistenter getroffen werden können. Hauptquelle ist Okhuysen & Bechky (2009): Wirksame Koordination beruht auf den Integrationsbedingungen Common Understanding und Predictability; im Modell wird die Qualität gemeinsamer mentaler Modelle als operative Ausprägung dieser geteilten Verständigungsbasis interpretiert. Stützend zeigen Haselsteiner (2022) und Dingsøyr et al. (2018), dass in agilen Multi-Team-Kontexten geteiltes Verständnis und grenzüberschreitende Abstimmung eng mit Koordinationsaufwand verknüpft sind."
+        "description": "Bessere gemeinsame mentale Modelle reduzieren den Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen autonom und konsistent getroffen werden können."
       }
     },
     {
@@ -10833,9 +10868,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung erhöht die Qualität des Reviews, weil passende (reichhaltige) Medien bei mehrdeutigen Review-Aufgaben gemeinsame Interpretation, Rückfragen und geteiltes Verständnis des Artefakts erleichtern. Hauptquelle: Daft & Lengel (1986) – reichhaltige Medien reduzieren Equivocality durch Enactment gemeinsamer Interpretation. Stützend: Paetzold/Schmidt et al. (2017) – Mediumwahl entlang der Kommunikationsaufgabe verbessert Verständigung im agilen Kontext; Sprint Review profitiert von geteilter Artefakt-Sicht und geeignetem Feedback-Setting. Ergänzend: Haselsteiner (2022) – bessere Abstimmung und gemeinsames Verständnis fördern wissensbezogenen Austausch und Integration in agilen Teams, was Reviews wirksamer macht."
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung für Reviews (gemeinsame Artefakt-Sicht, synchron) verbessert die Review-Qualität durch Klarheit und reduzierte Missverständnisse."
       }
     },
     {
@@ -10859,9 +10894,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung erhöht den Grad des Wissensaustauschs, weil passende (reichhaltige) Medien bei mehrdeutigen Aufgaben die gemeinsame Interpretation, Rückfragen und wechselseitiges Verstehen erleichtern. Hauptquelle: Daft & Lengel (1986) – reichhaltige Medien reduzieren Equivocality durch Enactment gemeinsamer Interpretation. Stützend: Paetzold (2017) – Mediumwahl entlang der Kommunikationsaufgabe verbessert Verständigung im agilen Kontext; Haselsteiner (2022) – bessere Abstimmung und gemeinsames Verständnis fördern wissensbezogenen Austausch und Integration in agilen Teams."
+        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung verbessert die generelle Kommunikationsqualität durch Reduktion von Missverständnissen und effizientere Informationsflüsse."
       }
     },
     {
@@ -10885,9 +10920,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Höhere strukturelle Medienreichhaltigkeit erhöht die Kommunikationsmedium-Aufgabe-Passung, weil verfügbare reichhaltige Kommunikationsinfrastruktur die Wahl und Einsetzbarkeit des passenden Mediums für die Aufgabe ermöglicht. Hauptquelle: Daft & Lengel (1986) – unterschiedliche Medien verfügen über unterschiedliche Richness und ermöglichen je nach Aufgabenanforderung unterschiedlich gute Passung. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext hängt gute Medium-Aufgabe-Passung von den tatsächlich verfügbaren synchronen, visuellen und kollaborativen Medien ab. Unterstützend: Ishii (2019) – aktuelle Medienwirksamkeit ist kontextabhängig und kann nur realisiert werden, wenn passende Medienoptionen überhaupt verfügbar sind."
+        "description": "Verfügbare reichhaltige Infrastruktur (Face-to-Face Räume, Video-Equipment, Board-Tools, Echtzeit-Kollaborations-Software) ermöglicht bessere Medium-Passung durch Wahlmöglichkeit und Einsetzbarkeit des richtigen Mediums für die Aufgabe."
       }
     },
     {
@@ -10898,9 +10933,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Höhere wahrgenommene Medienreichhaltigkeit erhöht die Kommunikationsmedium-Aufgabe-Passung, weil ein als reichhaltig und wirksam erlebtes Medium von Teams gezielter, sicherer und aufgabenangemessener genutzt wird. Hauptquelle: Ishii (2019) – Medienreichhaltigkeit wird subjektiv und situationsabhängig wahrgenommen; diese Wahrnehmung beeinflusst die tatsächliche Mediennutzung und erlebte Wirksamkeit. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext hängt wirksame Mediumwahl von der erlebten Eignung für die Kommunikationsaufgabe ab. Unterstützend: Daft & Lengel (1986) – die Richness-/Fit-Logik liefert das theoretische Grundgerüst."
+        "description": "Wenn das Team ein Medium als reichhaltig empfindet (subjektive Effektivität durch Erfahrung), nutzt es die verfügbare Medium-Passung effektiver und schöpft das Potenzial des gewählten Mediums aus."
       }
     },
     {
@@ -10911,9 +10946,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Bessere Kommunikationsmedium-Aufgabe-Passung erhöht die wahrgenommene Medienreichhaltigkeit, weil Teams ein zur Aufgabe passendes Medium als reicher, geeigneter und wirksamer erleben. Hauptquelle: Ishii (2019) – Medienreichhaltigkeit wird subjektiv und situationsabhängig wahrgenommen; die Passung zwischen Aufgabe und Medium prägt die wahrgenommene Eignung. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext verbessert aufgabengerechte Mediumwahl die erlebte Wirksamkeit der Kommunikation. Unterstützend: Daft & Lengel (1986) – die Media-Richness-Logik liefert das theoretische Grundgerüst der Passung zwischen Aufgabenanforderung und Medienreichhaltigkeit."
+        "description": "(Bidirektionales Feedback) Bessere Passung erhöht auch die wahrgenommene Medienreichhaltigkeit: Wenn ein Medium wirklich zu einer Aufgabe passt, empfindet das Team das Medium als reicher und effektiver an."
       }
     },
     {
@@ -10950,9 +10985,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Höhere Komplexität der Kommunikationsaufgabe erhöht den Bedarf an passender Medienreichhaltigkeit und damit die Relevanz einer guten Kommunikationsmedium-Aufgabe-Passung. Hauptquelle: Paetzold/Schmidt et al. (2017) – im agilen Kontext steigt mit Aufgabenkomplexität und Abstimmungsbedarf die Notwendigkeit, Kommunikationsmedien entlang der Aufgabe zu wählen (z. B. reichhaltigere synchrone Formate bei komplexen Klärungen). Theoretisches Fundament: Daft & Lengel (1986) – bei höherer Equivocality sind reichhaltigere Medien wirksamer, um gemeinsame Interpretation und schnelle Rückkopplung zu ermöglichen."
+        "description": "INPUT FACTOR - Task Complexity: Höhere Kommunikationsaufgaben-Komplexität erfordert reichhaltigere Medien. Media Richness Theory zeigt: Einfache Koordination (niedrige Ambiguität, etablierte Prozesse) kommt mit Chat oder Email aus. Komplexe Problemlösung (hohe Mehrdeutigkeit, viele Variablen, schnelle Rückkopplung nötig) erfordert F2F oder Video. Teams müssen ihre Medium-Wahl an die aktuelle Aufgabenkomplexität anpassen."
       }
     },
     {
@@ -10963,9 +10998,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Ambiguität der Prozessanforderungen reduziert die Kommunikationsmedium-Aufgabe-Passung, wenn zu wenig reichhaltige Medien genutzt werden; hohe Ambiguität erfordert reichhaltigere, synchrone Medien zur schnellen Klärung und geteilten Interpretation (Hauptquelle: Daft & Lengel 1986 zu Equivocality und Media Richness). Stützend: Paetzold 2017 (Passungslogik zwischen Aufgabenanforderung und Medienreichhaltigkeit im agilen Kontext), Haselsteiner 2022 (Klärungsbedarf bei Unsicherheiten/Ambiguitäten)."
+        "description": "INPUT FACTOR - Process Ambiguity: Mehrdeutige, unklar formulierte Anforderungen erfordern reichere Medien für schnelle Klärung. Asynchrone Kommunikation (Email, Chat mit Verzögerung) verschärft Ambiguität durch fehlende Rückkopplung und nonverbale Signale. Synchrone, reichhaltige Medien (F2F, Video, synchrone Board-Tools) ermöglichen sofortige Rückfragen, Klärungszyklen und Verständnisbestätigung."
       }
     },
     {
@@ -11002,9 +11037,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Höhere kontextuelle Bequemlichkeit erhöht die Kommunikationsmedium-Aufgabe-Passung, weil Teams ein Medium unter günstigen Kontextbedingungen eher praktisch wirksam, zugänglich und passend einsetzen können. Hauptquelle: Ishii (2019) – Mediennutzung und erlebte Wirksamkeit sind kontext- und situationsabhängig; praktische Medienwahl folgt nicht nur objektiver Richness, sondern auch subjektiver Nutzbarkeit. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext verbessert aufgabengerechte Mediumwahl die Kommunikationswirksamkeit, wird aber durch reale Nutzungskontexte mitbestimmt. Unterstützend: Daft & Lengel (1986) – die Media-Richness-Logik liefert das theoretische Grundgerüst der Passung zwischen Aufgabenanforderung und Medienreichhaltigkeit."
+        "description": "MODERATING FACTOR - Contextual Ease: Höhere kontextuelle Bequemlichkeit ermöglicht bessere praktische Realisierung der optimalen Medium-Passung. Auch wenn Aufgabenkomplexität Video erfordert: wenn Zeitzonen ungünstig sind, keine Kameras verfügbar sind oder Team wenig Erfahrung mit dem Tool hat, wird die praktische Passung erschwert. Teams weichen auf bequemere Alternativen aus. Umgekehrt: wenn F2F oder Video psychologisch bequem und institutionalisiert ist (gute Erfahrung, verfügbarer Raum, zeitliche Überlappung), nutzen Teams diese reichhaltigeren Medien lieber, auch für moderately-komplexe Aufgaben."
       }
     },
     {
@@ -11184,9 +11219,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[A]",
+        "label": "[E]",
         "connection type": "++",
-        "description": "Explizite Reflexion über Medienwirksamkeit kann zu besserer Kommunikationsmedium-Aufgabe-Passung beitragen, indem dokumentierte Erkenntnisse, konkrete Action-Items und bewusste Medium-Anpassungen in zukünftigen Events ermöglicht werden. Fachliche Einordnung: Ishii (2019) ist hierfür die naheliegendste Quelle, weil Medienwirksamkeit und Medienwahl kontext- und situationsabhängig reflektiert werden; stützend verweist Paetzold/Schmidt et al. (2017) auf die Bedeutung aufgabengerechter Mediumwahl im agilen Kontext. Daft & Lengel (1986) liefert nur das theoretische Grundgerüst und bleibt hier unterstützend."
+        "description": "Explizite Reflexion über Medienwirksamkeit führt zu besserer Kommunikationsmedium-Aufgabe-Passung durch dokumentierte Erkenntnisse, konkrete Action-Items und bewusste Medium-Anpassungen in zukünftigen Events."
       }
     },
     {
@@ -11235,8 +11270,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
-        "description": "Ein höherer Grad der Mehrdeutigkeit der Aufgabe erhöht den Bedarf an hoher Artefakt-Aufgabe-Passung: Je mehr Interpretationsspielraum und Klärungsbedarf besteht, desto stärker müssen Reifegrad und Detailtiefe des Artefakts zur Aufgabe passen. Hauptquelle: Paetzold (2017) zur Passung von Prototyp-/Artefaktwahl und Aufgabenkomplexität. Stützend: Daft & Lengel (1986) zu Equivocality und Richness-Bedarf, Carlile (2002) zu Prototypen/Boundary Objects bei komplexen Anforderungen, Haselsteiner (2022) zu zusätzlichem Klärungsbedarf bei Ambiguität."
+        "label": "[?]",
+        "description": "Höhere Verfügbarkeit reichhaltiger Kommunikationsmedien ermöglicht bessere Realisierung der optimalen Medium-Passung durch mehr Optionen und Flexibilität. Teams mit Zugang zu Video, Whiteboard-Tools und reichhaltigen Synchronisations-Kanälen können ihre Medium-Passung-Strategie besser an Aufgabenkomplexität anpassen."
       }
     },
     {
@@ -11297,8 +11332,8 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
-        "description": "Eine hohe Artefakt-Aufgabe-Passung erhöht die Qualität des Reviews, weil Reifegrad und Detailtiefe des Artefakts zur Aufgabe passen und dadurch Verständlichkeit, Präzision und Feedback-Qualität steigen. Hauptquelle: Paetzold (2017) zur Passung von Prototyp-/Artefaktwahl und verlässlichem Feedback. Stützend: Carlile (2002) zu Prototypen/Design-Reviews als Boundary Objects sowie Okhuysen & Bechky (2009) und Haselsteiner (2022) zur Klärung gemeinsamer Interpretation und Reduktion von Missverständnissen."
+        "label": "[?]",
+        "description": "Bessere Medium-Aufgabe-Passung führt zu höherer Klarheit und Verständlichkeit der Sprint-Ziele. Wenn Ziele durch das richtige Medium (synchrone F2F für komplexe Ziele, asynchrone Boards für klare Ziele) kommuniziert werden, verringert sich Ambiguittät und erhöht sich gemeinsames Verständnis."
       }
     },
     {
@@ -11581,9 +11616,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "+-",
-        "description": "Schlechte Qualität gemeinsamer mentaler Modelle über Team-Grenzen erhöht die Notwendigkeit von Boundary Spanning, weil mehr Übersetzungs- und Koordinationsaufwand nötig ist, um Missverständnisse zu klären. Gute Qualität reduziert diesen Bedarf. Hauptquelle ist Daft & Lengel (1986): Bei hoher Equivocality und divergierenden Interpretationsrahmen steigt der Bedarf an Integratoren/Boundary-Spanning-Rollen, um gemeinsame Interpretation herzustellen. Stützend zeigen Okhuysen & Bechky (2009) die zentrale Rolle von Common Understanding, Haselsteiner (2022) die Bedeutung geteilter mentaler Modelle für Wissensintegration in agilen Teams, und Carlile (2002) die zugrunde liegenden Wissens- und Bedeutungsgrenzen."
+        "description": "Schlechte Qualität gemeinsamer mentaler Modelle über Team-Grenzen erhöht die Notwendigkeit von Boundary Spanning, weil mehr Übersetzungs- und Koordinationsaufwand nötig ist, um Missverständnisse zu klären. Gute Qualität reduziert diesen Bedarf."
       }
     },
     {
@@ -11726,7 +11761,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
-        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt. Hinweis: Diese Aussage ist zum aktuellen Zeitpunkt eine eigene Schlussfolgerung aus der vorhandenen Logik des Modells."
+        "description": "Wenn ein Team die Absicht von Koordinationsmechanismen versteht, nutzt es diese effizienter (nicht als Overhead, sondern als Mittel zum Zweck), was den erforderlichen Koordinationsaufwand senkt."
       }
     },
     {
@@ -12116,7 +12151,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Selbstkoordination foerdert Wissensaustausch durch eigenstaendige Dokumentation und aktives Teilen. [A], da die spezifische Einzelkausalität nicht direkt getestet wird. Stützend: Haselsteiner (2022) zu Knowledge Integration/Knowledge Exchange in agilen Produktentwicklungsteams sowie Dingsøyr et al. (2018) zu selbstorganisierten Teams und kooperationsfördernden Koordinationspraktiken in agilen Multi-Team-Kontexten."
+        "description": "Selbstkoordination foerdert Wissensaustausch durch eigenstaendige Dokumentation und aktives Teilen."
       }
     },
     {
@@ -12298,7 +12333,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Annahme: Hohe Zielkongruenz des Teams stärkt die Selbstkoordination des Entwicklers, weil gemeinsame Zielorientierung Abstimmungsunsicherheit reduziert; stützend zeigen Okhuysen & Bechky (shared goals als Koordinationsmechanismus) sowie Haselsteiner (klare Ziele, Autonomie, Selbstorganisation) einen plausiblen Zusammenhang."
+        "description": "Mit klaren, kongruenten Zielen kann der Entwickler autonomer entscheiden und sich selbst koordinieren."
       }
     },
     {
@@ -12311,7 +12346,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
-        "description": "Bessere Zielkongruenz reduziert Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen konsistent getroffen werden können. [A] – kein direkt belegendes Quellenstatement: O&B (2009) thematisiert 'goal congruence' nicht (0 Treffer), 'shared goals' nur als Gittell-Zitat. Konzeptuell stützend: das Common-Understanding-Konzept aus O&B (2009) und der agile Koordinationskontext bei Dingsøyr et al. (2018), aber nicht als kausale Aussage zur Koordinationsaufwandsreduktion durch Zielkongruenz belegt."
+        "description": "Bessere Zielkongruenz reduziert Koordinationsaufwand, da Missverständnisse sinken und Entscheidungen konsistent getroffen werden können."
       }
     },
     {
@@ -12413,9 +12448,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Häufige Anforderungsänderungen erhöhen die Aufgabenmehrdeutigkeit, weil neue oder veränderte Anforderungen Interpretationsunterschiede über Ziele, Bedeutungen und erwartete Ergebnisse erzeugen. Hauptquelle: Carlile (2004) – neue Anforderungen erzeugen semantische bzw. interpretative Grenzen, an denen Bedeutungen ambig werden. Stützend: Dingsøyr (Koordination in agiler Softwareentwicklung) – changing requirements erzeugen zusätzliche Herausforderungen und erhöhten Abstimmungsbedarf; Paetzold (2017) – agile Entwicklung ist besonders in Kontexten wertvoll, in denen Unsicherheiten hoch sind und Änderungen wahrscheinlich sind."
+        "description": "Häufige Anforderungsänderungen erhöhen die Aufgabenmehrdeutigkeit, da Team-Mitglieder unsicher sind über verfältliches Ziel und sich widersprechende Anforderungen existieren."
       }
     },
     {
@@ -12504,9 +12539,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[S]",
+        "label": "[E]",
         "connection type": "--",
-        "description": "Höhere strukturelle Medienreichhaltigkeit senkt den Grad der Mehrdeutigkeit der Aufgabe, weil reichhaltige Medien schnelle Klärungszyklen, unmittelbares Feedback und gemeinsame Interpretation ermöglichen. Hauptquelle: Daft & Lengel (1986) – reichhaltige Medien reduzieren Equivocality durch mehr Cues, schnelle Rückkopplung und Enactment gemeinsamer Interpretation. Stützend: Paetzold/Schmidt et al. (2017) – im agilen Kontext reduzieren reichhaltigere, passendere Medien Missverständnisse und Klärungsaufwand. Unterstützend: Ishii (2019) – aktuelle Mediennutzung bestätigt die Relevanz reichhaltiger Kommunikationsformen für anspruchsvolle Verständigungssituationen."
+        "description": "Strukturell reichhaltige Medien (F2F, Video, synchrone Board-Tools) ermöglichen schnelle Klärungszyklen durch nonverbale Signale, unmittelbares Feedback und Kontext-Vermittlung, reduzieren Ambiguität und Missverständnisse."
       }
     },
     {
