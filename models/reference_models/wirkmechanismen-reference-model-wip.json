@@ -97,6 +97,15 @@
           "Expliziter Wissensstand der Organisation"
         ]
       }
+    },
+    {
+      "_id": "elem-Pq7J2mN9",
+      "attributes": {
+        "label": "Produktionsqualität",
+        "element type": "Einflussfaktoren",
+        "measurability": 0.5,
+        "influenceability": 0.4
+      }
     }
   ],
   "connections": [
