@@ -9,24 +9,23 @@ This document defines specific criteria for generating Reference Models in the W
 ### 1. Element Taxonomy (MANDATORY)
 
 #### 1.1 Key Factor Constraint
-- **MANDATORY**: At least ONE (1) primary Key Factor per reference model
-- **OPTIONAL**: Additional secondary Key Factors are allowed (to represent multi-causal starting points / multiple intervention levers)
+- **MANDATORY**: Exactly ONE (1) Key Factor per Reference Model
 - **DEFINITION**: The central factor representing the main problem and serving as primary intervention target
 - **CLASSIFICATION**: `"element type": "Schlüsselfaktor"` (Key Factor)
-- **REJECT**: models with zero Key Factors (but do not reject models with multiple Key Factors)
+- **REJECT**: Models with zero or multiple Key Factors
 
 #### 1.2 Success Factor Structure
-- **MANDATORY**: At least ONE (1) Success Factor per reference model
-- **ALLOWED**: Multiple Success Factors are permitted (to reflect multi-dimensional objectives)
+- **MANDATORY**: Exactly ONE (1) Success Factor per Reference Model
 - **DEFINITION**: Long-term, overarching goal (e.g., product quality, customer satisfaction)
 - **CLASSIFICATION**: `"element type": "Erfolgsfaktor"` (Success Factor)
-- **MANDATORY**:If a Success Factor is not directly measurable (measurability < 0,8), a Measurable Success Factor proxy must be added for that Success Factor.
+- **MANDATORY**: If Success Factor is not directly measurable (measurability < 0.8), MUST add a Measurable Success Factor as proxy
 - **CLASSIFICATION Proxy**: `"element type": "Messbarer Erfolgsfaktor"` (Measurable Success Factor)
 - **REJECT**: Models without Success Factor or with multiple Success Factors
 
 #### 1.3 Influencing Factors Classification
 - **MANDATORY**: All other factors MUST be classified as Influencing Factors
 - **CLASSIFICATION**: `"element type": "Einflussfaktoren"` (Influencing Factors)
+- **RECOMMENDATION**: 3-7 Influencing Factors for balanced model complexity
 - **REVIEW REQUIRED**: Models with >10 Influencing Factors (complexity check)
 
 ### 2. Causal Chain Structure (MANDATORY)
@@ -35,7 +34,7 @@ This document defines specific criteria for generating Reference Models in the W
 - **MANDATORY**: Key Factor is the **only start node** (no incoming connections)
 - **MANDATORY**: Success Factor is the **only end node** (no outgoing connections)
 - **MANDATORY**: All Influencing Factors MUST be causally positioned between Key Factor and Success Factor
-- **STRUCTURE**: `Key Factor → [Influencing Factors] → [Measurable Success Factor] → Success Factor`
+- **STRUCTURE**: `Key Factor -> [Influencing Factors] -> [Measurable Success Factor] -> Success Factor`
 
 #### 2.2 Path Requirements
 - **MANDATORY**: At least one direct path from Key Factor to Success Factor
@@ -64,14 +63,14 @@ This document defines specific criteria for generating Reference Models in the W
 ### 4. Measurability and Influenceability Criteria
 
 #### 4.1 Measurability
-- **MANDATORY**: Key Factor MUST be measurable (measurability ≥ 0.6)
-- **MANDATORY**: Measurable Success Factor MUST be highly measurable (measurability ≥ 0.8)
-- **MANDATORY**: Success Factor can have lower measurability (measurability ≥ 0.3)
+- **MANDATORY**: Key Factor MUST be measurable (measurability >= 0.6)
+- **MANDATORY**: Measurable Success Factor MUST be highly measurable (measurability >= 0.8)
+- **MANDATORY**: Success Factor can have lower measurability (measurability >= 0.3)
 - **DOCUMENTATION**: Measurement methods MUST be specified in `description`
 
 #### 4.2 Influenceability
-- **MANDATORY**: Key Factor MUST be influenceable (influenceability ≥ 0.7)
-- **EXPECTATION**: Success Factors typically have low influenceability (≤ 0.3)
+- **MANDATORY**: Key Factor MUST be influenceable (influenceability >= 0.7)
+- **EXPECTATION**: Success Factors typically have low influenceability (<= 0.3)
 - **LOGIC CHECK**: Influenceability MUST be consistent with factor role
 
 ### 5. Connection Semantics
@@ -97,28 +96,28 @@ This document defines specific criteria for generating Reference Models in the W
 
 ### Content Validation
 1. **Network Topology**: Key Factor without incoming, Success Factor without outgoing connections
-2. **Path Completeness**: At least one path Key Factor → Success Factor
+2. **Path Completeness**: At least one path Key Factor -> Success Factor
 3. **Influencing Factors Integration**: All Influencing Factors between start and end nodes
 4. Calculate source attribution ratio
 5. Validate measurability/influenceability consistency
 6. Check factor formulation according to DRM principles
 
 ### Quality Metrics
-- **Evidence Coverage**: ≥75% literature sources `[1-9]+`
-- **Topological Integrity**: 100% - Key Factor (start) → Success Factor (end) structure
+- **Evidence Coverage**: >=75% literature sources `[1-9]+`
+- **Topological Integrity**: 100% - Key Factor (start) -> Success Factor (end) structure
 - **Path Completeness**: 100% - At least one complete path present
 - **Factor Integration**: 100% - All Influencing Factors integrated on main path
 - **Factor Precision**: 100% - All factors follow "attribute-of-element" formulation
-- **Measurability Consistency**: Measurable Success Factors ≥0.8, Key Factors ≥0.6
+- **Measurability Consistency**: Measurable Success Factors >=0.8, Key Factors >=0.6
 
 ## Compliance Checklist
 
 ### Pre-Submission
-- [ ] At least 1 Key Factor present (one may be designated primary)
-- [ ] At least 1 Success Factor present
+- [ ] Exactly 1 Key Factor present
+- [ ] Exactly 1 Success Factor present
 - [ ] Measurable Success Factor added if low-measurable Success Factor
 - [ ] All other factors classified as "Influencing Factors"
-- [ ] Direct causal chain Key Factor → Success Factor present
+- [ ] Direct causal chain Key Factor -> Success Factor present
 - [ ] >50% connections with literature sources
 - [ ] All literature sources documented
 - [ ] No `[?]` sources in Reference Model
@@ -134,9 +133,9 @@ This document defines specific criteria for generating Reference Models in the W
 
 ## Rejection Criteria
 
-- **AUTOMATIC REJECT**: No Key Factor
-- **AUTOMATIC REJECT**: No Success Factor
-- **AUTOMATIC REJECT**: Broken causal chain Key Factor → Success Factor
+- **AUTOMATIC REJECT**: More or less than 1 Key Factor
+- **AUTOMATIC REJECT**: More or less than 1 Success Factor
+- **AUTOMATIC REJECT**: Broken causal chain Key Factor -> Success Factor
 - **AUTOMATIC REJECT**: <50% literature sources
 - **AUTOMATIC REJECT**: Unknown sources `[?]`
 - **AUTOMATIC REJECT**: JSON schema violations
