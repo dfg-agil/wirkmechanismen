@@ -1,0 +1,105 @@
+{
+  "elements": [
+    {
+      "_id": "elem-unterbrechungen-01",
+      "attributes": {
+        "label": "Anzahl der Ablenkungen",
+        "description": "Anzahl und Häufigkeit von Unterbrechungen, Ablenkungen und Kontextwechseln im Arbeitsalltag. Messbar z.B. über Interruptions pro Tag, spontane Anfragen, Wechsel zwischen Aufgaben oder verlorene Fokuszeit.",
+        "element type": "Schlüsselfaktor",
+        "tags": [
+          "Agile",
+          "Unterbrechungen",
+          "Fokus"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.8
+      }
+    },
+    {
+      "_id": "elem-commitment-02",
+      "attributes": {
+        "label": "Grad des Commitments",
+        "description": "Umfasst die Bindung des Teams an gemeinsame Ziele und an laufende Arbeit trotz äußerer Störungen. Ein hohes Commitment stützt kontinuierliche Konzentration, Verlässlichkeit und aktive Beteiligung am Sprintziel.",
+        "element type": "Einflussfaktoren",
+        "tags": [
+          "Teamdynamik",
+          "Fokus",
+          "Agile"
+        ],
+        "measurability": 0.5,
+        "influenceability": 1.0
+      }
+    },
+    {
+      "_id": "elem-throughput-03",
+      "attributes": {
+        "label": "Durchschnittlicher Durchsatz",
+        "description": "Menge abgeschlossener Arbeit pro Zeiteinheit. Als operative Flow-Metrik zeigt der Durchsatz, wie viel Arbeit das Team trotz laufender Unterbrechungen tatsächlich fertigstellt.",
+        "element type": "Messbarer Erfolgsfaktor",
+        "tags": [
+          "Flow",
+          "Metrik",
+          "Durchsatz"
+        ],
+        "measurability": 1.0,
+        "influenceability": 0.7
+      }
+    },
+    {
+      "_id": "elem-team-performance-04",
+      "attributes": {
+        "label": "Qualität der Team-Performance",
+        "description": "Nachhaltige und konstante Lieferfähigkeit des Teams nach einer Einarbeitungszeit. Der Faktor beschreibt, ob das Team trotz Unterbrechungen stabil, planbar und mit ausreichender Geschwindigkeit Ergebnisse liefert.",
+        "element type": "Erfolgsfaktor",
+        "tags": [
+          "Lieferfähigkeit",
+          "Performance",
+          "Agile"
+        ],
+        "measurability": 0.6,
+        "influenceability": 0.2
+      }
+    }
+  ],
+  "connections": [
+    {
+      "_id": "conn-unterbrechungen-to-commitment-01",
+      "from": "elem-unterbrechungen-01",
+      "to": "elem-commitment-02",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "--",
+        "description": "Häufige Unterbrechungen schwächen das Commitments des Teams, weil Kontextwechsel die ungeteilte Aufmerksamkeit auf die laufende Arbeit zerstreuen. Im agilen Arbeitskontext wird damit die Bindung an Sprint-Ziele und kontinuierliche Arbeit gestört; die Verbindung greift die im Hauptmodell vorhandene Logik zu Ablenkungen und Fokusverlust auf."
+      }
+    },
+    {
+      "_id": "conn-commitment-to-throughput-02",
+      "from": "elem-commitment-02",
+      "to": "elem-throughput-03",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[S]",
+        "connection type": "++",
+        "description": "Ein höheres Commitment erhöht den Durchschnittsdurchsatz, weil fokussierte Teams weniger Zeit auf Unterbrechungen, Nachsteuerung und mentale Umschaltung verlieren und mehr Arbeit pro Zeiteinheit abschließen. Diese Beziehung folgt der Flow- und WIP-Logik des Kanban Guide for Scrum Teams (2021), der Fokus, Commitment und Zusammenarbeit als Effekte einer stabilen Arbeitsorganisation beschreibt."
+      }
+    },
+    {
+      "_id": "conn-throughput-to-team-performance-03",
+      "from": "elem-throughput-03",
+      "to": "elem-team-performance-04",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[S]",
+        "connection type": "++",
+        "description": "Ein höherer Durchschnittsdurchsatz verbessert die Qualität der Team-Performance, weil mehr Arbeit in einer gegebenen Zeitspanne abgeschlossen und die Liefergeschwindigkeit stabil gehalten werden kann. Die Verbindung operationalisiert die Flow-Logik aus dem Kanban Guide for Scrum Teams (2021) und folgt der Little's-Law-Perspektive auf Durchsatz und Ergebnisstabilität."
+      }
+    }
+  ]
+}
