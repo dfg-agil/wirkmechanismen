@@ -86,32 +86,7 @@
         "influenceability": 0.5
       }
     },
-    {
-      "_id": "elem-0hB3d0e3",
-      "attributes": {
-        "label": "Priorisierungsniveau der Aufgaben",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "Zeitmanagement",
-          "Planning"
-        ],
-        "description": "=Klarheit über Prioritäten",
-        "closeness": 0.2868333333333333,
-        "metrics::last": 0.5828729346045435,
-        "degree": 2,
-        "size": 3,
-        "indegree": 1,
-        "outdegree": 1,
-        "betweenness": 0.038720149489886335,
-        "eigenvector": 0.006185216152031607,
-        "reach": 0.13861386138613863,
-        "reach-efficiency": 0.027722772277227727,
-        "micmac influence": 0.9013990852927545,
-        "micmac exposure": 0.5828729346045435,
-        "measurability": 1.0,
-        "influenceability": 1.0
-      }
-    },
+     
     {
       "_id": "elem-1L5rJCH1",
       "attributes": {
@@ -376,6 +351,12 @@
         "label": "Anpassungsfähigkeit der Workflowdefinition",
         "description": "Die kontinuierliche Anpassungs- und Verbesserungsfähigkeit des Teamprozesses hinsichtlich neuer Anforderungen und gewonnener Erkenntnisse.\n\nDas Scrum Team verwendet die bestehenden Scrum Events, um die Definition seines  Workflows zu überprüfen und anzupassen und dadurch das empirische Vorgehen zu  verbessern und den Wert, den das Scrum Team liefert, zu optimieren. \nIm Folgenden finden sich Gesichtspunkte einer Workflowdefinition, die das Scrum Team übernehmen könnte: \n* Verfahrensweisen zur Visualisierung, z. B. der verschiedenen Zustände im Workflow, wodurch sich entweder der derzeitige Workflow verändert oder wodurch mehr Transparenz in einen Abschnitt des Workflows gebracht wird, den bzw. in dem (sich) das Team überprüfen und ggf. anpassen möchte. \n* Arbeitsvereinbarungen – diese können ein Hindernis direkt angehen. Beispielsweise  kann das Anpassen von WIP-Grenzwerten und SLE oder das Ändern der Losgröße (wie oft Arbeitseinheiten zwischen Stadien gezogen werden) erhebliche Auswirkungen haben.\n\n**Quelle**: Der Kanban Guide für Scrum Teams",
         "element type": "Schlüsselfaktor",
+        "cluster":"Informationsnutzung (Entscheidung/Handlung)",
+         "tags": [
+          "Technik",
+          "Organisation",
+          "taktisch"
+        ],
         "closeness": 0,
         "metrics::last": 0.7720321188028204,
         "degree": 4,
@@ -780,9 +761,10 @@
         "label": "Verfügbarkeit des Entwicklers",
         "description": "Notiz:\n\nProblem wird sein, wenn aber nur dieser Entwickler eine bestimmte Aufgabe erledigen kann (evtl. abhängig von Wissen oder Kompetenz)",
         "element type": "Einflussfaktoren",
+        "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Zeitmanagement",
-          "Team-Partizipation"
+          "Mensch",
+          "operativ"
         ],
         "closeness": 0.18891666666666665,
         "metrics::last": 0.7070802409585855,
@@ -797,8 +779,8 @@
         "micmac influence": 0.846642757927137,
         "micmac exposure": 0.7070802409585855,
         "measurability": 1,
-        "influenceability": 1,
-        "cluster": "Mensch"
+        "influenceability": 1
+        
       }
     },
     {
@@ -2641,6 +2623,7 @@
       "attributes": {
         "label": "Unschärfe der Randbedingungen",
         "element type": "Einflussfaktoren",
+        "cluster" : "Rahmenbedingungen (Kontext/Moderatoren)",
         "description": "z.B. verfügbare/notwendige Ressourcen, Budget, technische Anforderungen, Prioritäten",
         "tags": [
           "Mensch",
@@ -3336,8 +3319,13 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
         "tags": [
-          "MTO",
-          "alle"
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3608,8 +3596,14 @@
         "label": "Grad der fundierten Methodenwahl",
         "description": "Es sollte ein Schema geben, nach dem entschieden wird, ob ein traditioneller oder agiler Ansatz für ein Projekt gewählt wird. Dieses könnte beispielsweise aus den folgenden Kriterien bestehen: Funktionsanforderung (bekannt und stabil -vs- unbekannt und variabel), ökonomisches Risiko (kalkulierbar -vs- unkalkulierbar), Technologie (vertraut -vs- Neuland), Projekttyp (Wartung, Routine -vs- Neuentwicklung), Anzahl Teammitglieder (mehr als 30 -vs- bis zu 5), Businesswissen des Teams (sehr groß -vs- sehr klein).",
         "element type": "Einflussfaktoren",
+        "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "tags": [
-          "AgilityMap"
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch",
+          "strategisch",
+          "normativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0,
@@ -3674,7 +3668,7 @@
     {
       "_id": "elem-YXuvo4kt",
       "attributes": {
-        "label": "Qualität des Stakeholder-Managements",
+        "label": "Qualität des Stakeholderbeteiligung",
         "description": "Es sollte im Entwicklungsprozess eine hohe \"Stakeholder-Awareness\" geben und bei Bedarf sollte die Einbindung neuer Stakeholder in den Prozess erfolgen. Hierzu sollte es eine Strategie geben, wie wichtige Stakeholder identifiziert werden und die Quellen des Einflusses verstanden werden. Zur Identifikation der Stakeholder kann bspw. ein Viel-Level Framework verwendet werden, welches Stakeholder einordnet und in Relation zueinander setzt. Die Vier Level umfassen: Business Environment, Offering, Product, Service Delivery.",
         "element type": "Einflussfaktoren",
         "cluster":"Informationsinput (Erzeugung)",
@@ -4356,7 +4350,8 @@
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
-          "Technik + Organisation",
+          "Technik",
+          "Organisation",
           "taktisch"
         ],
         "description": "Beschreibt das Ausmaß, in dem technisch reichhaltige Medien (Video-Calls, Screen-Sharing, synchrone Collaboration Tools, Face-to-Face-Treffen) für das Team praktisch verfügbar und nutzbar sind. Wird durch geografische Verteilung, Infrastruktur, Zeitzonen-Unterschiede und organisatorische Rahmenbedingungen bestimmt. Ein Team kann nicht reichhaltige Medien nutzen, wenn diese nicht strukturell verfügbar sind (Hard Constraint).",
@@ -4679,7 +4674,7 @@
     {
       "_id": "elem-akzeptanzMedium",
       "attributes": {
-        "label": "Akzeptanz des gewählten Mediums durch Team",
+        "label": "Akzeptanz des Kommunikationsmediums",
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
@@ -4750,7 +4745,7 @@
     {
       "_id": "elem-kollabArtefaktInfra",
       "attributes": {
-        "label": "Verfügbarkeit kollaborativer Artefakt-Infrastruktur",
+        "label": "Verfügbarkeit kollaborativer Infrastruktur",
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
