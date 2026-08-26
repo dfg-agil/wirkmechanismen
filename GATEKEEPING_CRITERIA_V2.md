@@ -92,7 +92,15 @@ V2 keeps the proven V1 structure and quality gates, and adds explicit Main Model
 - **REJECT**: Support interventions in Reference Models
 - **REJECT**: Impact Models without clear intervention elements
 
-#### 4.2 Quantitative Attribute Consistency
+#### 4.2 Context-sensitive polarity handling for RM/IM
+- **MANDATORY**: RM and IM links MUST reflect the model context they represent.
+- **MANDATORY**: RM links MUST represent the current/existing situation, while IM links MUST represent the desired post-intervention situation.
+- **MANDATORY**: The polarity of RM/IM links MUST be chosen based on whether the link accurately represents that context, not by mechanically copying the Main Model.
+- **ALLOWED**: If a Main Model connection is already source-supported and its polarity still accurately represents the RM/IM context, it MAY be adopted unchanged.
+- **MANDATORY**: If the Main Model polarity would misrepresent the RM/IM context, the RM/IM connection MUST be adjusted and the rationale documented.
+- **REVIEW REQUIRED**: RM/IM connections that deviate from the Main Model polarity for context reasons SHOULD include a short explanation in `description` or accompanying documentation.
+
+#### 4.3 Quantitative Attribute Consistency
 - **MANDATORY**: `measurability` and `influenceability` scores (if present) MUST be in range [0, 1]. Valid values are [0, 0.5, 1.0].
 - **MANDATORY**: Main Model intake for new influencing factors requires both values explicitly provided.
 - **MANDATORY**: Quantitative attributes MUST have documented methodology/source
@@ -100,7 +108,7 @@ V2 keeps the proven V1 structure and quality gates, and adds explicit Main Model
 - **REJECT**: Arbitrary or unsupported quantitative values
 - **REJECT**: New influencing factor in Main Model without both `measurability` and `influenceability`
 
-#### 4.3 Main Model Growth Governance (new in V2)
+#### 4.4 Main Model Growth Governance (new in V2)
 - **MANDATORY**: New factors MUST be checked for semantic overlap with existing factors before insertion (MECE = mutually exclusive and collectively exhaustive).
 - **MANDATORY**: If overlap exists, split/merge decision and rationale MUST be documented.
 - **MANDATORY**: New factors SHOULD improve practical MECE quality (as far as realistically possible).
