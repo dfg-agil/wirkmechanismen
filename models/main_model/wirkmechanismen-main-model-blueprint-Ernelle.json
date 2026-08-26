@@ -3742,8 +3742,10 @@
         "label": "Grad der Anpassungsfähigkeit des Teams",
         "description": "Es sollte eine Anpassungs-Aktivität des Entwicklungsteams bzw. des Problemlösungsteams (PLT) nach Bedarf und Situation und entsprechend der zu bearbeitenden Aktivität. Dabei sollen fehlende Experten, bzw. Kompetenzen hinzugeholt werden, wie z.B. Methodenkompetenz, Fachkompetenz, Teamfähigkeit, Kreativität und Elaborationsfähigkeit. Die sorgfältige Zusammenstellung des Teams ist erfolgsentscheidend für dessen Zusammenarbeit.",
         "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
-          "AgilityMap"
+          "Mensch",
+          "operativ"
         ],
         "micmac influence": 0,
         "metrics::last": 0.8169155891558899,
@@ -3753,8 +3755,7 @@
         "indegree": 1,
         "outdegree": 1,
         "degree": 2,
-        "size": 3,
-        "cluster": "Mensch"
+        "size": 3
       }
     },
     {
