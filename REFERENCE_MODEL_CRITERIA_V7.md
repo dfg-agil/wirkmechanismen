@@ -109,8 +109,22 @@ Purpose: Prevents the use of generic placeholders that lack specific Main Model 
 #### 1.3 Influencing Factors classification (updated: remove 3–7 recommendation)
 - **MANDATORY**: All other factors MUST be classified as Influencing Factors.
 - **CLASSIFICATION**: `"element type": "Einflussfaktoren"`
-- **REMOVED**: No fixed recommendation of "3–7 Influencing Factors".
+- **MANDATORY**: A reference model MUST contain at least **5 influencing factors** as a minimum complexity threshold.
+  - From this minimum set, the model must contain at least:
+    - **1 Key Factor**
+    - **1 Success Factor**
+    - **1 Measurable Success Factor**
+    - **2 additional influencing factors** that play a decisive role in the causal chain from the Key Factor to the Success Factor
+- **TARGET RANGE (RECOMMENDED, not a quota)**: For a realistic RM, the relevant set of influencing factors should generally fall within **7–10 factors**.
+  - This range is intended to support meaningful causal complexity and a realistic effect chain.
+  - It is not a hard requirement to expand the model simply to meet a number target.
+- **PRIORITY RULE (MANDATORY)**: The decisive criterion is the **causal relevance for the described problem and the anticipated success criteria**. If semantic matching shows that only **5 relevant influencing factors** are necessary to represent the causal chain, then the RM does not need to be expanded to 7–10 factors merely to satisfy a numerical target.
+  - Conversely, if the causal logic and the problem context make **more than 7 factors** relevant, the RM may legitimately represent the chain up to **10 influencing factors**.
+- **REJECT**: Models that fail to include a meaningful causal chain for the relevant problem scope, even if they satisfy a raw count.
 - **REVIEW REQUIRED**: Models with **>10** Influencing Factors (complexity and maintainability check).
+
+> Additional documentation note (not a mandatory execution rule):
+> "Ergänzend könnte man unterschiedliche Stufen des RM anbieten, z. B. 'normal' und 'advanced'. Für 'normal' gilt die oben beschriebene Regel. Für 'advanced' (z. B. für den Scrum Master, der mehr Ahnung hat und ggf. mehrere Stellschrauben haben möchte) könnte man ein RM mit mehr als 10 Einflussfaktoren anbieten."
 
 ### 2. Causal chain / network structure (MANDATORY)
 
