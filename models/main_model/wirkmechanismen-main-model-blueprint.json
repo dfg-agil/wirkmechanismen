@@ -3557,7 +3557,7 @@
         "micmac influence": 0,
         "metrics::last": 0,
         "micmac exposure": 0,
-        "measurability": 0.5,
+        "measurability": 1,
         "influenceability": 0.5,
         "indegree": 1,
         "outdegree": 1,
@@ -4159,26 +4159,6 @@
       }
     },
     {
-      "_id": "elem-2D9XOVll",
-      "attributes": {
-        "label": "Strategie an Kundennutzen ausgerichtet",
-        "description": "Unternehmen richtet seine Strategie am Kunden aus und strebt nach Maximierung des Kundennutzens.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": 0.5,
-        "influenceability": 0.5,
-        "indegree": 3,
-        "outdegree": 1,
-        "degree": 4,
-        "size": 5
-      }
-    },
-    {
       "_id": "elem-komKomplexitaet",
       "attributes": {
         "label": "Komplexität der Kommunikationsaufgabe",
@@ -4233,7 +4213,7 @@
         "reach-efficiency": 0,
         "micmac influence": 0,
         "micmac exposure": 0,
-        "measurability": 0.5,
+        "measurability": 1,
         "influenceability": 0.5
       }
     },
@@ -6957,18 +6937,6 @@
       "to": "elem-l1DOGECe"
     },
     {
-      "_id": "conn-kwvOqLt8",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": true,
-      "attributes": {
-        "label": "[E]",
-        "connection type": "+-"
-      },
-      "from": "elem-0hB3d0e3",
-      "to": "elem-s2CSbNkg"
-    },
-    {
       "_id": "conn-kyWjraXG",
       "direction": "mutual",
       "delayed": false,
@@ -7729,18 +7697,6 @@
       }
     },
     {
-      "_id": "conn-auto-009",
-      "from": "elem-NarZ96yW",
-      "to": "elem-2D9XOVll",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
       "_id": "conn-auto-010",
       "from": "elem-r5uVEKtS",
       "to": "elem-1fahG9AM",
@@ -7969,18 +7925,6 @@
       }
     },
     {
-      "_id": "conn-auto-032",
-      "from": "elem-eXH0Cf1d",
-      "to": "elem-2D9XOVll",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
       "_id": "conn-auto-033",
       "from": "elem-pOq2hTBC",
       "to": "elem-Stbtoch1",
@@ -8065,18 +8009,6 @@
       }
     },
     {
-      "_id": "conn-auto-041",
-      "from": "elem-jb2Z3EpT",
-      "to": "elem-2D9XOVll",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
       "_id": "conn-auto-042",
       "from": "elem-NmRVFhyA",
       "to": "elem-ga15zxKL",
@@ -8128,18 +8060,6 @@
       "_id": "conn-auto-046",
       "from": "elem-bOQiQpQ5",
       "to": "elem-eXH0Cf1d",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
-      "_id": "conn-auto-047",
-      "from": "elem-2D9XOVll",
-      "to": "elem-jb2Z3EpT",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -10003,19 +9923,6 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Bessere Kommunikationsqualität erhöht die Qualität der Planung."
-      }
-    },
-    {
-      "_id": "conn-REFINEMENT-TO-PRIO-LEVEL",
-      "from": "elem-backlogRefinement",
-      "to": "elem-0hB3d0e3",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Besseres Backlog-Refinement erhöht das Priorisierungsniveau der Aufgaben."
       }
     },
     {
