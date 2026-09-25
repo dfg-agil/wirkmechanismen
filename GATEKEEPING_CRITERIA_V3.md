@@ -82,6 +82,21 @@ V2 keeps the proven V1 structure and quality gates, and adds explicit Main Model
 - **MANDATORY (ABSOLUT)**: Jede neue Verbindung muss **immer** vom Entwickler **explizit vorgegeben oder bestätigt** werden.
 - **REVIEW REQUIRED**: Wenn der Entwickler die Bestätigung nicht gegeben hat, MUSS das Assistenzsystem dies aktiv einfordern und darf die Verbindung nicht implementieren.
 
+**Exception for standalone Impact Model generation**
+- The confirmation rule above governs changes to the Main Model and merge-ready
+  model changes. It MUST NOT block generation of a standalone Impact Model for
+  a user-described problem.
+- In that workflow, the assistant MAY autonomously create Support elements and
+  their new `[A]` connections, including an explicitly labelled
+  `AI-generated support`, without intermediate developer confirmation.
+- The exception is valid only when the Impact Model criteria are satisfied:
+  the Support is explicitly labelled, targets inherited Main-Model factors,
+  follows the Main Model's causal logic, and documents mechanism, direction,
+  scoring, and validation plan.
+- This exception does not permit an autonomous change to the Main Model. Any
+  later promotion of an IM finding into the Main Model remains subject to this
+  developer-confirmation rule.
+
 ### 4. Model Evolution Governance
 
 #### 4.1 Reference vs Impact Model Integrity
