@@ -4,7 +4,7 @@
 
 This document establishes mandatory criteria for accepting or rejecting changes to the Wirkmechanismen factor network models. These criteria ensure model integrity, methodological consistency, and scientific rigor while maintaining compatibility with KUMU visualization and DRM methodology principles.
 
-V3 keeps the proven V2 structure and quality gates, and adds explicit Main Model governance rules for controlled growth.
+V4 keeps the proven V3 structure and quality gates, and adds explicit Main Model governance rules for controlled growth.
 
 **Scope and normative language**
 - Gatekeeping rules govern merge-ready changes, especially changes to the Main Model.
