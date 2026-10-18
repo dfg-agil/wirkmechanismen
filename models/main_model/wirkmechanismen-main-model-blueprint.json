@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-qualitaetDisziplinaererEingangsdaten",
+      "attributes": {
+        "label": "Qualität disziplinärer Eingangsdaten",
+        "description": "Ausmaß, in dem die tatsächlich in eine gemeinsame Forschungs- oder Entwicklungsaufgabe eingebrachten disziplinären Befunde, Daten und Quellen nach geeigneten fachlichen Methoden und Erkenntnismaßstäben belastbar sowie hinsichtlich Herkunft, Erhebung, Auswertung, Annahmen und Grenzen überprüfbar sind. Beurteilt werden die Eingangsgrundlagen einer abgegrenzten Arbeitsphase; Zugänglichkeit, Darstellungsverständlichkeit und disziplinübergreifende Integration sind eigenständige Eigenschaften.\n\nBeurteilung: fachkundige Prüfung von Methodenangemessenheit, Fehlerrisiken und Herkunftsnachweisen je Eingangsgrundlage; kein kompensierendes Gesamtmittel. Messbarkeit 0.5: strukturierte Bewertung mit Teilindikatoren. Beeinflussbarkeit 0.5: begrenzte Veränderbarkeit durch Korrektur, Neuerhebung oder begründete Auswahl. Quellen: NAS/NAE/IOM (2005), Kap. 8, S. 151, DOI: 10.17226/11153; Wang und Strong (1996), „Toward a Hierarchical Framework of Data Quality“, DOI: 10.1080/07421222.1996.11518099. Messverfahren noch zu pilotieren.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": [
+          "Mensch",
+          "Technik",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,50 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-qualitaetDisziplinaererEingangsdaten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachkundige Reviews können Fehler korrigieren und die Nachvollziehbarkeit eingebrachter Grundlagen verbessern, wenn passende Prüfverfahren angewandt und Rückmeldungen umgesetzt werden. Quellen: Barchard et al. (2020), Abstract, DOI: 10.3758/s13428-019-01207-3; Goodman et al. (1994), S. 12–15, DOI: 10.7326/0003-4819-121-1-199407010-00003. Übertragung von Datenprüfung und Publikationsbegutachtung auf den bestehenden Reviewfaktor."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-002",
+      "from": "elem-NmRVFhyA",
+      "to": "elem-qualitaetDisziplinaererEingangsdaten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Hochwertige, aufgabenbezogene Trainings können Erhebungs- und Auswertungsfehler verringern, wenn fachlich geeignete Verfahren praktisch eingeübt und im Arbeitsprozess angewandt werden. Quelle: Zozus et al. (2019), §§ 2.2–5, DOI: 10.3233/978-1-61499-951-5-526. Beobachtungsstudie ohne isolierten Trainingseffekt; Übertragung von klinischer Datenextraktion auf weitere disziplinäre Grundlagen bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-003",
+      "from": "elem-1fahG9AM",
+      "to": "elem-qualitaetDisziplinaererEingangsdaten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kontinuierliche Prozessverbesserung kann wiederkehrende Fehler in Eingangsdaten vermindern, wenn Fehlerursachen analysiert und Erhebungs- oder Verarbeitungsschritte tatsächlich verändert werden. Quelle: Gass et al. (2017), Abschnitte „DQA protocol“ und „Discussion“, DOI: 10.1186/s13063-017-2159-1. Untersucht wurde ein Maßnahmenbündel; der eigenständige Effekt allgemeiner Prozessverbesserung ist nicht isoliert nachgewiesen."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-004",
+      "from": "elem-qualitaetDisziplinaererEingangsdaten",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachlich belastbare Eingangsdaten können die Qualität daraus abgeleiteter Analyse- oder Entwicklungsartefakte erhöhen, wenn sie korrekt verarbeitet werden und die Qualitätskriterien sachliche Richtigkeit verlangen. Quelle: Barchard und Pace (2011), Abstract, DOI: 10.1016/j.chb.2011.04.004. Belegt sind Datenfehler und statistische Ergebnisse; die Übertragung auf andere, getrennte Artefakte bleibt eine Annahme."
       }
     }
   ]
