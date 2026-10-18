@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-gemeinsamesBegriffsverstaendnis",
+      "attributes": {
+        "label": "Gemeinsames Begriffsverständnis",
+        "description": "Ausmaß, in dem die für eine gemeinsame Forschungs- oder Entwicklungsaufgabe relevanten Teammitglieder fachübergreifend verwendete Schlüsselbegriffe in einer abgegrenzten Arbeitsphase übereinstimmend interpretieren und die jeweilige Verwendung wechselseitig nachvollziehen können. Maßgeblich ist die Anwendung im vereinbarten Kontext. Gleicher Wortlaut oder dokumentierte Definitionen allein genügen nicht; fachliche Richtigkeit und Einigkeit über Theorien, Werte oder Lösungen sind getrennt zu beurteilen.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,61 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-begriffsverstaendnis-001",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-gemeinsamesBegriffsverstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Offengelegte Annahmen können Unterschiede im Gebrauch von Schlüsselbegriffen bearbeitbar machen, wenn das Team deren Bedeutung anschließend anhand der gemeinsamen Aufgabe klärt. Quelle: Carlile (2004), S. 558–559, DOI: 10.1287/orsc.1040.0094. Theoriegestützte Übertragung; Offenlegung allein erzeugt noch kein gemeinsames Begriffsverständnis."
+      }
+    },
+    {
+      "_id": "conn-begriffsverstaendnis-002",
+      "from": "elem-artefaktAufgabePassung",
+      "to": "elem-gemeinsamesBegriffsverstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aufgabenpassende Artefakte können gemeinsam verstandene Begriffsbezüge fördern, wenn Beteiligte daran konkrete Anwendungssituationen erläutern und unterschiedliche Interpretationen prüfen. Quelle: Bechky (2003), S. 324–326, DOI: 10.1287/orsc.14.3.312.15162. Qualitative Befunde zu anschaulichen Arbeitsbeispielen; die Übertragung auf den vorhandenen Passungsfaktor bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-begriffsverstaendnis-003",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-gemeinsamesBegriffsverstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verständliche Beiträge und aufmerksame Rückfragen können die gemeinsame Auslegung von Schlüsselbegriffen fördern, wenn vorgeschlagene Bedeutungen wechselseitig geprüft werden. Quelle: Brennan und Clark (1996), S. 1491–1492, DOI: 10.1037/0278-7393.22.6.1482. Experimentelle Befunde zu partnerbezogenen Begriffsvereinbarungen; allgemeine Kommunikationsqualität wurde nicht als Modellfaktor untersucht."
+      }
+    },
+    {
+      "_id": "conn-begriffsverstaendnis-004",
+      "from": "elem-gemeinsamesBegriffsverstaendnis",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsam verstandene Schlüsselbegriffe können fachlichen Wissensaustausch erleichtern, wenn Beiträge verfügbar sind und tatsächlich geteilt werden; sie ermöglichen die wechselseitige Zuordnung fachlicher Aussagen. Quelle: Carlile (2004), S. 558–559, DOI: 10.1287/orsc.1040.0094. Theoriegestützte Übertragung; gleiche Terminologie allein überwindet weder Interessenkonflikte noch fehlende Austauschbereitschaft."
+      }
+    },
+    {
+      "_id": "conn-begriffsverstaendnis-005",
+      "from": "elem-gemeinsamesBegriffsverstaendnis",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Etabliertes Begriffsverständnis kann späteren sprachlichen Abstimmungsaufwand verringern, wenn dieselben Beteiligten die Begriffe im gleichen Kontext wiederverwenden. Quelle: Brennan und Clark (1996), S. 1486–1487 und 1491, DOI: 10.1037/0278-7393.22.6.1482 . Die Übertragung vereinfachter Bezugnahmen auf Koordinationsaufwand bleibt eine Annahme; anfänglicher Klärungsaufwand ist getrennt zu erfassen."
       }
     }
   ]
