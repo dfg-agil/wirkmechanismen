@@ -4869,6 +4869,21 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-vielfaltDisziplinaererPerspektiven",
+      "attributes": {
+        "label": "Vielfalt disziplinärer Perspektiven",
+        "description": "Ausmaß der inhaltlichen Unterschiedlichkeit disziplinär geprägter Sichtweisen, theoretischer Annahmen, methodischer Zugänge und erkenntnistheoretischer Grundlagen, die in die gemeinsame Bearbeitung einer Forschungs- oder Entwicklungsaufgabe tatsächlich eingebracht werden. Betrachtungseinheit ist das Team innerhalb einer abgegrenzten Arbeitsphase. Erfasst werden fachlich unterscheidbare Beiträge, nicht allein vertretene Disziplinen, Teamgröße oder unterschiedliche persönliche Meinungen. Die ergänzende Passung und die tatsächliche Integration der Beiträge sind davon getrennte Eigenschaften.\n\nMessverfahren – noch zu pilotierender Vorschlag: Zwei fachkundige Personen beurteilen unabhängig dokumentierte Beiträge einer abgegrenzten Arbeitsphase anhand von Gesprächsprotokollen und gemeinsamen Arbeitsartefakten. Erfasst werden tatsächlich eingebrachte Unterschiede in Problemrahmung, theoretischen Annahmen, methodischen Zugängen und Erkenntnismaßstäben. Wiederholungen und bloße persönliche Meinungsunterschiede zählen nicht als zusätzliche disziplinäre Perspektiven. Vorläufige Bewertungsanker: weitgehend gleichartige, teilweise unterschiedliche oder deutlich unterscheidbare disziplinäre Sichtweisen. Die Anker müssen anhand konkreter Beispiele pilotiert und ihre Beurteilerübereinstimmung geprüft werden. Es handelt sich nicht um eine validierte Skala; erhobene Daten werden nicht behauptet. Die tatsächliche Faktorausprägung ist von den beiden Gatekeeping-Scores getrennt.\n\nMetrikbegründung: Bewertungsgrundlage sind die Anker in REFERENCE_MODEL_CRITERIA_V8.md, Abschnitte 5.1–5.2; RM-spezifische Rollen- und Auswahlregeln werden nicht auf diese Main-Model-Aufnahme übertragen. Messbarkeit: 0 = keine klaren Indikatoren, 0.5 = strukturierte qualitative oder indirekte Beurteilung, 1 = direkte eindeutige Messung. measurability = 0.5, weil eine strukturierte qualitative Beurteilung möglich ist, aber kein unmittelbar eindeutiges Maß vorliegt. Beeinflussbarkeit: 0 = schwer oder nicht direkt beeinflussbar, 0.5 = mittelbar oder mehrstufig, 1 = direkt kontrollierbar. influenceability = 0.5, weil Team und Moderation unterschiedliche Beiträge durch Beteiligungsmöglichkeiten, gezielte Fragen und Offenlegung impliziter Annahmen fördern können; die Wirkung bleibt abhängig von vorhandenen Kompetenzen und der Bereitschaft, diese einzubringen. Operative Betrachtung: tatsächliches Einbringen der Perspektiven in einer abgegrenzten Arbeitsphase zur gemeinsamen Forschungs- oder Entwicklungsaufgabe; kein zusätzlicher fester Zeithorizont.\n\nFaktorquellen: National Academy of Sciences, National Academy of Engineering und Institute of Medicine (2005), Facilitating Interdisciplinary Research, Washington, DC: National Academies Press, DOI: 10.17226/11153, Kapitel 2, S. 26–29: begriffliche Grundlage zur Unterschiedlichkeit und Integration disziplinärer Beiträge; diese Seiten wurden gezielt eingesehen. Ergänzend: Klein, J. T. (2008), Evaluation of Interdisciplinary and Transdisciplinary Research: A Literature Review, American Journal of Preventive Medicine 35(2 Suppl.), S116–S123, DOI: 10.1016/j.amepre.2008.05.010: nur bibliografische Angaben und Abstract eingesehen, kein Volltextnachweis einzelner Kausalverbindungen. Keine der Quellen begründet eine validierte Perspektivenvielfaltsskala.\n\nAbgrenzung: Perspektivenvielfalt beschreibt die Unterschiedlichkeit tatsächlich eingebrachter fachlicher Beiträge. Komplementarität beschreibt deren ergänzende Passung, Externalisierung das Offenlegen impliziter Annahmen und gemeinsames Verständnis die Verständigung über Aufgabe und Kontext. Die gespeicherte Cross-Funktionalität beschreibt insbesondere informelle Rollen und ist deshalb kein semantisches Duplikat.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13247,61 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann das Einbringen abweichender disziplinärer Sichtweisen erleichtern, wenn entsprechende Perspektiven vorhanden sind und ohne Sanktionen geäußert werden können. Quelle: Edmondson (1999), S. 353–355, 366–367, DOI: 10.2307/2666999. Untersucht wurde Lernverhalten; die Übertragung auf tatsächlich eingebrachte disziplinäre Vielfalt bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-002",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Das Offenlegen bisher impliziter disziplinärer Annahmen kann zusätzliche Sichtweisen in die gemeinsame Arbeit einbringen, sofern fachliche Unterschiede vorhanden sind. Quelle: Carlile (2004), S. 558–559, DOI: 10.1287/orsc.1040.0094. Externalisierung schafft keine neuen Disziplinen; die Wirkung auf eingebrachte Perspektivenvielfalt ist eine Übertragungshypothese."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-003",
+      "from": "elem-1oLVNA94",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktive Beteiligung kann zusätzliche disziplinäre Perspektiven in die Bearbeitung einbringen, wenn fachlich unterschiedlich geprägte Mitglieder tatsächlich zu Wort kommen. Quelle: Haselsteiner (2022), S. 371, DOI: 10.5282/jums/v7i2pp354-389. Qualitative Befunde zu fachübergreifenden Beiträgen; mehr Beteiligung allein garantiert keine größere inhaltliche Vielfalt."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-004",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
+      "to": "elem-komKomplexitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unterschiedliche disziplinäre Begriffe und Deutungsrahmen können die Kommunikationsaufgabe komplexer machen, wenn voneinander abhängige Beiträge übersetzt und aufeinander bezogen werden müssen. Quelle: Carlile (2004), S. 556–559, DOI: 10.1287/orsc.1040.0094. Die Wirkung hängt von gemeinsamen Verständigungsgrundlagen ab; Vielfalt ist nicht mit Kommunikationsproblemen gleichzusetzen."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-006",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
+      "to": "elem-effektivitaetKollaboration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn relevante Beiträge vertieft verarbeitet und integriert werden und die Aufgabe unterschiedliche Sichtweisen erfordert. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; keine automatische Leistungssteigerung."
       }
     }
   ]
