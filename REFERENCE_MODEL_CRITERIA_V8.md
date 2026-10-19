@@ -95,9 +95,10 @@ Purpose: Prevents the use of generic placeholders that lack specific Main Model 
 - **DEFINITION**: Long-term, overarching objectives (e.g., product quality, customer satisfaction). These are the factors at ‘the top’ of the network, i.e., at the end of the cause–effect chains that provide the justification of the research.
 - **CLASSIFICATION**: `"element type": "Erfolgsfaktor"`
 - **MANDATORY (proxy rule)**: If a selected Success Factor has `measurability < 1.0`, the Success Factor remains unchanged and at least one measurable proxy MUST be added.
-  - **CLASSIFICATION (proxy)**: `"element type": "Messbarer Erfolgsfaktor"`, measurability = 1.0. 
+  - **CLASSIFICATION (proxy)**: `"element type": "Messbarer Erfolgsfaktor"`. The proxy MUST have `measurability = 1.0`, unless no eligible `measurability = 1.0` proxy exists on a valid Key-to-Success path within the applicable path-length limit; only then may a proxy with `measurability = 0.5` be used.
   - **DEFINITION**: The factors whose desired values are taken as Measurable Success Criteria are the Measurable Success Factors. Measurable Success Factor can be all influencing factors with measurability = 1.
-    **MANDATORY**: The proxy selection priority is: (1) measurability = 1.0 on a direct path to the selected Success Factor; (2) if none exists, measurability = 0.5 with explicit justification and measurement method. Factors with measurability = 0 are not allowed as measurable proxies.
+    **MANDATORY**: The proxy selection priority is: (1) measurability = 1.0 on a directed path from Key Factor to the selected Success Factor; the path may contain intermediate factors. Subject to the path-length rules in section 2.2 and 3.5. Among those eligible candidates, a factor with measurability = 1.0 MUST be selected whenever one exists; (2) A factor with measurability = 0.5 may be selected only if no eligible measurability = 1.0 factor exists. The candidate search and the reason for selecting a 0.5 proxy MUST be documented in the derivation log. Factors with measurability = 0 are not allowed as measurable proxies.
+
 
   - **TRACEABILITY (schema-neutral)**: The proxy relationship MUST be explained in the proxy's `attributes.description` (e.g., "Proxy for Erfolgsfaktor X because …").
 - **PROXY PRIORITY (MANDATORY)**: A proxy with `measurability = 1.0` MUST be
@@ -150,7 +151,7 @@ Purpose: Prevents the use of generic placeholders that lack specific Main Model 
 #### 2.2 Path requirements (updated to support dynamic network topology with feedback)
 - **MANDATORY**: There MUST be at least one directed path from the **primary Key Factor** to **at least one** Success Factor.
 - **MANDATORY**: Each Key Factor (primary and secondary) MUST have at least one directed path to **at least one** Success Factor.
-- **MANDATORY**: Maximum path length for primary chains: **4 directed connections** between any Key Factor and any Success Factor along a valid path.
+- **MANDATORY**: Maximum path length for primary chains: **4 directed connections** between any Key Factor and any Success Factor along a valid path. Key-to-Success paths MUST NOT exceed 4 directed connections, except for a valid Key-to-Success path containing the selected Measurable Success Factor proxy, which MAY contain up to 5 directed connections. This extension applies only to a path containing the selected Measurable Success Factor proxy. All other Key-to-Success paths remain limited to 4 connections.
 - **ALLOWED (NEW)**: Feedback loops and cyclic connections representing dynamic system behavior:
   - From Influencing Factors back to other Influencing Factors (reinforcement loops, time delays)
   - From Success Factors back to Influencing Factors (if representing dynamic outcomes feeding back into the system)
@@ -361,16 +362,18 @@ Tie-breakers (strict order):
 4. alphabetical
 
 #### 3.5 Step 5 - Proxy rule
-- For proxy selection, `reachable` means connected by a directed path of no
-  more than 4 edges from the proxy to the selected Success Factor, and the proxy relation
-  itself MUST be represented by an explicit directed connection. The assistant
-  MUST first inspect all reachable candidates with
-  `measurability = 1.0`. A `0.5` proxy is allowed only if no eligible `1.0`
-  candidate exists; the measurement method and exclusion rationale MUST then be
-  documented in the derivation log.
+- For proxy selection, `reachable` means that an eligible proxy MUST lie on at least one valid directed path from the
+  Key Factor (primary or secondary) to its selected Success Factor. The entire path, including
+  the proxy, MUST NOT exceed 5 directed connections. Every edge on that path
+  MUST be explicitly represented in the model and retain its Main-Model
+  direction. No proxy outside such a path is eligible. Among all eligible
+  proxies on such paths, a factor with `measurability = 1.0` MUST be selected
+  whenever one exists. A factor with `measurability = 0.5` may be selected
+  only if no eligible factor with `measurability = 1.0` exists. The candidate
+  search and, when applicable, the rationale and measurement method for a
+  `0.5` proxy MUST be documented in the derivation log.
 - If no Success Factor was found, the user must enter an anticipated “Success Criteria” and “Measurable Success Criteria” because “… criteria are needed to be able to judge the outcome of the research against the research goals.”
 - If the user is unable to explicitly name one or both of these, or actively refuses to provide the input, then one is anticipated and derived based on the "observed problem." However, this must then be appropriately marked as a criterion "generated by AI".
-- Proxy must have measurability = 1.0 and direct path to Success Factor.
 - Following the proposal ("generated by AI "), the user must be given the option to either accept the criterion and proceed with the subsequent steps or to modify it. This initial proposal ("generated by AI ") provides the user with a general frame of reference and allows them to evaluate whether the anticipated goal has been correctly selected from their perspective.
 Only after confirming or adjusting the criterion can either an RM based on the proposal (“generated by AI”) be finalized and a corresponding IM subsequently generated, or—following adjustment—the RM be iterated with the user until it is complete from their perspective, allowing the corresponding IM to be derived.
 The normative State A/B/C definitions are given in section 0. The following is
@@ -391,6 +394,17 @@ the operational summary for derivation and confirmation:
     proposal, marked `generated by AI`, followed by an explicit confirmation
     request.
   - Without confirmation: RM status = draft_only
+  - **RENDERABLE DRAFT (MANDATORY)**: `draft_only` describes validation or
+    confirmation status; it does not mean that the network is empty. Whenever
+    a causally valid provisional network can be constructed from Main Model
+    factors and relationships, the draft MUST include those actual factors in
+    `elements` and their actual directed relationships in `connections`, so
+    that the JSON can be imported and inspected in Kumu. Do not return empty
+    `elements`/`connections` merely because finalization is blocked. Record
+    unresolved issues, provisional choices, and failed checks in
+    `derivation_log.blocking_criteria`. Use empty network arrays only when no
+    valid provisional network can be constructed; explain why and identify
+    what is needed to construct one.
   - **DRAFT MINIMUM PACKAGE (MANDATORY, <mark>applies whenever any Success Factor or
     Measurable Success Factor was derived via semantic matching rather than
     pre-existing as a Main-Model ID supplied by the user</mark>)**: A `draft_only` RM MUST contain or
@@ -422,16 +436,16 @@ the operational summary for derivation and confirmation:
 ### 4. Source attribution (MANDATORY)
 
 #### 4.1 Literature-based connections (priority 1)
-- **MINIMUM**: ≥50% of all connections MUST have literature sources `[1]`, `[2]`, etc.; models below this threshold are rejected.
 - **TARGET**: ≥75% of all connections SHOULD have literature sources `[1]`, `[2]`, etc.
 - **MANDATORY**: Literature sources MUST be documented in `connection.attributes.description`.
 - **FORMAT**: Full academic citation (APA style).
 - **REJECT**: literature labels without corresponding documentation.
+- **FUTURE REQUIREMENT — NOT ACTIVE:**: ≥50% of all connections MUST have literature sources `[1]`, `[2]`, etc.; models below this threshold are rejected.
 
 #### 4.2 Empirical evidence (priority 2)
 - **ALLOWED**: stakeholder experience `[E]`, assumption `[A]`, or own investigations `[O]`.
 - **MANDATORY**: Describe the evidence basis in `connection.attributes.description`.
-- **LIMIT**: Max. 50% of connections without literature basis.
+- **FUTURE REQUIREMENT — NOT ACTIVE:**: LIMIT: Max. 50% of connections without literature basis.
 - `[A]`, `[E]`, and `[O]` are valid provisional evidence types during iterative
   RM development. Their presence MUST NOT exclude an otherwise relevant factor
   or causal path from the RM candidate set. They contribute to the evidence
@@ -464,7 +478,7 @@ the operational summary for derivation and confirmation:
   - Example: "Anzahl der gelösten Issues", "Durchschnittliche Cycle Time"
 
 - **MANDATORY**: Key Factors MUST be influenceable and measurable. preferred: `influenceability = 1`; only if no other option is available, then `influenceability = 0.5`, `measurability ≥ 0.5`, Preference for `measurability = 1.0`. ("No other option" = all candidates with influenceability=1 violate at least one MUST criterion (e.g., path completeness, source rule, taxonomy).)
-- **MANDATORY**: Measurable Success Factors MUST be highly measurable (`measurability = 1.0`).
+- **MANDATORY**: Measurable Success Factors MUST be highly measurable (`measurability = 1.0`). A Measurable Success Factor with measurability = 0.5 is permitted only when no eligible measurability = 1.0 proxy exists on a valid Key-to-Success path within the path-length limits defined in sections 2.2 and 3.5. The 0.5 value, its measurement method, and the completed 1.0-candidate search MUST be documented.
 - **MANDATORY**: Success Factors may have lower measurability (`measurability ≥ 0`), but at least one measurable proxy should exist.
 - **HARD RULE**: new factors only with metrics (influenceability and measurability) – otherwise, no merge.
 - **DOCUMENTATION**: Measurement methods MUST be specified in `attributes.description`.
@@ -603,7 +617,6 @@ Without this log, RM status is "not fully reproducible".
 - [ ] For each Success Factor with `measurability < 1.0`, a Measurable Success Factor proxy is included and documented
 - [ ] At least one causal path from primary Key Factor → some Success Factor exists
 - [ ] Each Key Factor has at least one causal path to at least one Success Factor
-- [ ] ≥50% of connections have literature sources (hard minimum)
 - [ ] Evidence coverage target of ≥75% is reported separately from the hard
   minimum and does not filter semantic candidates or causal paths
 - [ ] All literature sources are documented (APA style)
@@ -628,6 +641,9 @@ Without this log, RM status is "not fully reproducible".
 - [ ] Metrics are reported for all selected Key/Success/Influencing factors (in-degree, out-degree, degree delta, closeness, betweenness, shortest path)
 - [ ] Path-preservation test table is attached (single-factor removal test for each retained influencing factor)
 
+**FUTURE REQUIREMENT — NOT ACTIVE:** Re-enable the ≥50% literature-source
+  threshold before making it a binding RM requirement. (old version: ≥50% of connections have literature sources (hard minimum))
+
 ### Review criteria
 - [ ] Causal chains are scientifically plausible
 - [ ] Factor formulations are precise and unambiguous
@@ -648,7 +664,6 @@ Without this log, RM status is "not fully reproducible".
 - **AUTOMATIC REJECT**: More than one Key Factor tagged `[PRIMARY]`
 - **AUTOMATIC REJECT**: Zero Success Factors
 - **AUTOMATIC REJECT**: Broken causal chains (factors not connected to any Key→Success argument chain)
-- **AUTOMATIC REJECT**: <50% literature sources
 - **AUTOMATIC REJECT**: Unknown sources `[?]`
 - **AUTOMATIC REJECT**: JSON schema violations
 - **AUTOMATIC REJECT**: Factors not formulated as "attribute-of-an-element"
@@ -663,6 +678,9 @@ Without this log, RM status is "not fully reproducible".
 <mark>- **AUTOMATIC REJECT**: A user-provided Success Criterion or Measurable Success
   Criterion is used verbatim as a factor label without semantic matching to a
   concrete Main-Model ID</mark>
+
+  **FUTURE REQUIREMENT — NOT ACTIVE:**: <50% literature sources
+
 
 ## Summary (V8 - Refined User-Vocabulary Matching on Dynamic Network Topology)
 
@@ -684,4 +702,3 @@ Reference Models represent the current state for specific problems. They:
    Main-Model labels.</mark>
 
 Reference Models establish the baseline understanding of complex, dynamic systems necessary for designing and evaluating interventions.
-
