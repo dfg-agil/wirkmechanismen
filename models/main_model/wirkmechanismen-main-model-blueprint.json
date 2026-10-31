@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-standardisierungsgradMetadatenTerminologie",
+      "attributes": {
+        "label": "Standardisierungsgrad von Metadaten und Terminologie",
+        "description": "Forschungsdaten sind entsprechend festgelegter Metadatenschemata und kontrollierter Vokabulare beschrieben. Der Standardisierungsgrad bezeichnet die Einhaltung vereinbarter Felddefinitionen, Formate und Begriffszuordnungen innerhalb des gemeinsamen Datenbestands.\n\nQuellen: National Academies (2005), DOI: 10.17226/11153; Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.002. Beurteilung als getrenntes Konformitätsprofil gegen versionierte Schemata, Vokabulare und Zuordnungsregeln; fachliche Richtigkeit separat. Messbarkeit 1 setzt eindeutige, wiederholbar anwendbare Prüfregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt Grenzen durch Altdaten, Partneranforderungen und inkompatible Fachstandards.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsspeicherung (Persistenz)",
+        "tags": [
+          "Technik",
+          "Organisation",
+          "operativ"
+        ],
+        "measurability": 1,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-metadatenstandardisierung-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-standardisierungsgradMetadatenTerminologie",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann Standardkonformität fördern, wenn gemeinsam genutzte Metadatenwerkzeuge passende Schemata, kontrollierte Vokabulare und Prüfungen unterstützen und tatsächlich eingesetzt werden. Musen et al. (2022), Abschnitte zu CEDAR und FAIRware, DOI: 10.1038/s41597-022-01815-3. Die Übertragung auf Infrastrukturverfügbarkeit bleibt bedingt; zulässige Werte gewährleisten keine fachlich richtigen Zuordnungen."
+      }
+    },
+    {
+      "_id": "conn-metadatenstandardisierung-002",
+      "from": "elem-standardisierungsgradMetadatenTerminologie",
+      "to": "elem-zBsDMddD",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Regelkonforme Feldbeschreibungen und Begriffszuordnungen können die Interpretation gemeinsamer Forschungsdaten erleichtern, wenn fachlich angemessene Schemata, zugängliche Begriffserklärungen und benötigter Kontext vorliegen. Rashid et al. (2020), Abschnitte 1 und 3.4, DOI: 10.1162/dint_a_00058. Die Wirkung eines höheren Konformitätsgrads bleibt eine Annahme; formale Einheitlichkeit allein garantiert weder richtiges Verständnis noch inhaltliche Vergleichbarkeit."
       }
     }
   ]
