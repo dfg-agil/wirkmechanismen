@@ -4869,6 +4869,18 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-ausmassDisziplinaererSprachbarrieren",
+      "attributes": {
+        "label": "Ausmaß disziplinärer Sprachbarrieren",
+        "element type": "Einflussfaktoren",
+        "description": "Fachsprachlich bedingte Verständigungsschwierigkeiten bei der gemeinsamen Forschungs- oder Entwicklungsarbeit. Dazu zählen Hürden durch unbekannte Fachausdrücke, abweichende Bedeutungen gleicher Begriffe und disziplinspezifische Ausdrucksweisen. Bewertet werden Häufigkeit und Schwere der daraus entstehenden Verständnisprobleme bei aufgabenrelevanten Beiträgen. Quellen: National Academies (2005), DOI: 10.17226/11153; Carlile (2002), DOI: 10.1287/orsc.13.4.442.2953. Messbarkeit 0.5: Verständnisprobleme sind strukturiert beobachtbar; verdeckte Fehlinterpretationen und unsichere Ursachenzuordnung begrenzen die Erfassung. Beeinflussbarkeit 0.5: durch Erläuterung und Anpassung fachlicher Darstellungen mittelbar veränderbar, abhängig von Vorwissen und Spezialisierung. Häufigkeit und Schwere werden getrennt beurteilt.",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": ["Mensch", "operativ"],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13244,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-sprachbarrieren-001",
+      "from": "elem-gdWissAust01",
+      "to": "elem-ausmassDisziplinaererSprachbarrieren",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Aufgabenbezogener Wissensaustausch kann disziplinäre Sprachbarrieren verringern, wenn Beteiligte Bedeutungen anhand gemeinsamer Beispiele und Rückfragen tatsächlich abstimmen. Quelle: Bechky (2003), S. 324–325, DOI: 10.1287/orsc.14.3.312.15162. Übertragung von Berufsgruppen auf Disziplinen; mehr Austausch oder bloß häufiger erkannte Missverständnisse belegen keine Verringerung."
+      }
+    },
+    {
+      "_id": "conn-sprachbarrieren-003",
+      "from": "elem-ausmassDisziplinaererSprachbarrieren",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Disziplinäre Sprachbarrieren können den Koordinationsaufwand erhöhen, wenn fachsprachliche Fehlinterpretationen zusätzliche Rückfragen, Erläuterungen oder erneute Abstimmungen erfordern. Quelle: Bechky (2003), S. 324, DOI: 10.1287/orsc.14.3.312.15162. Die Übertragung beobachteter Klärungssequenzen auf den gesamten Koordinationsaufwand bleibt eine Annahme; unbemerkte Probleme erzeugen nicht zwangsläufig sofortigen Mehraufwand."
       }
     }
   ]
