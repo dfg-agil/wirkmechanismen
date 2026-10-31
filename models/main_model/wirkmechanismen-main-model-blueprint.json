@@ -4869,6 +4869,23 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "attributes": {
+        "label": "Grad des Transfers von Forschungsergebnissen in Anwendungskontexte",
+        "description": "Umfang, in dem Forschungsergebnisse in festgelegten Praxisfeldern nachweisbar in Entscheidungen, Arbeitsabläufe, Produkte oder Dienstleistungen eingehen. Bewertet wird die tatsächliche Anwendung innerhalb eines definierten Beobachtungszeitraums.\n\nEigene Operationalisierung nach Bammer (2013), Kap. 17 und 22, DOI: 10.22459/DI.01.2013. Beurteilung als Anwendungsprofil mit Ergebnisbezug, Nutzungsart, Umfang und Nachweisgrenzen. Messbarkeit 0.5 berücksichtigt Kontextabhängigkeit und begrenzte Zuordenbarkeit. Beeinflussbarkeit 0.5 berücksichtigt Gestaltungsmöglichkeiten des Forschungsteams und externe Übernahmeentscheidungen. Anwendung und nachfolgender Nutzen werden getrennt bewertet.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "strategisch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13249,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-forschungstransfer-001",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Adressatengerechte Kommunikation kann Forschungsanwendung erleichtern, wenn Erkenntnisse relevant und Handlungsmöglichkeiten vorhanden sind. Dobbins et al. (2009), DOI: 10.1186/1748-5908-4-61, berichten mehr selbstberichtete Umsetzung evidenzgestützter Programme, nicht nachgewiesene Nutzung konkreter Forschungsergebnisse. Die Übertragung auf tatsächliche Forschungsanwendung bleibt eine theoretisch begründete Annahme und erfordert fallbezogene Nutzungsnachweise."
+      }
+    },
+    {
+      "_id": "conn-forschungstransfer-002",
+      "from": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sachgerechte Forschungsanwendung kann bei Praxisentscheidungen eine ziel- und präferenzgerechte Wahl unterstützen, sofern belastbare Erkenntnisse, Kontextpassung und Abwägung vorliegen. Stacey et al. (2024), DOI: 10.1002/14651858.CD001431.pub6, Ergebnisse zur Werte-Wahl-Kongruenz. Der Befund betrifft kombinierte Entscheidungshilfen; die Übertragung bleibt theoretisch. Entscheidungsqualität ist unabhängig von Nutzung und Wissenszuwachs anhand vorab festgelegter Kriterien beim damaligen Informationsstand zu bewerten."
       }
     }
   ]
