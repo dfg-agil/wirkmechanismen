@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-fachuebergreifendeMethodenkompetenz",
+      "attributes": {
+        "label": "Niveau der fachübergreifenden Methodenkompetenz",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Fähigkeit der Beteiligten, für ihre Zusammenarbeit relevante Methoden anderer Disziplinen hinsichtlich Zweck, Voraussetzungen, Vorgehen und Aussagegrenzen einzuordnen. Dazu gehört, fachlich begründete Rückfragen zu stellen und die Eignung der Methoden für die gemeinsame Aufgabe einzuschätzen. Eine selbstständige Durchführung sämtlicher fachfremder Methoden wird damit nicht vorausgesetzt. Quelle: National Academies (2005), Facilitating Interdisciplinary Research, DOI: 10.17226/11153. Beurteilung durch individuelle aufgabenbezogene Fallaufgaben; Test und Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen erforderlicher fachlicher Bewertung; influenceability = 0.5 wegen gestaltbaren Lernens bei begrenztem Vorwissen, Lernzeit und verfügbarer Expertise.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-methodenkompetenz-001",
+      "from": "elem-NmRVFhyA",
+      "to": "elem-fachuebergreifendeMethodenkompetenz",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Methodenbezogene Trainings mit angeleiteter kritischer Analyse und fachlichen Rückmeldungen können die Beurteilungsfähigkeit fördern, wenn Inhalte relevant sind und aktiv bearbeitet werden. Quelle: MacRae et al. (2004), Abstract, DOI: 10.1016/j.surg.2004.02.003. Der Transfer klinischer Studienbeurteilung auf fremddisziplinäre Methoden und auf allgemeine Trainingsqualität bleibt eine Annahme; Teilnahme allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-methodenkompetenz-002",
+      "from": "elem-fachuebergreifendeMethodenkompetenz",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachübergreifende Methodenkompetenz kann methodenbezogene Analyse und begründete Rückmeldungen im Review verbessern, wenn sie tatsächlich eingesetzt wird und fachliche Kriterien, Informationen und Zeit verfügbar sind. Quelle: Black et al. (1998), S. 231–233, DOI: 10.1001/jama.280.3.231. Ausbildungszusammenhänge werden auf nachgewiesene Einordnungsfähigkeit und fachübergreifende Reviews übertragen; korrekte Urteile oder Umsetzung sind damit nicht garantiert."
       }
     }
   ]
