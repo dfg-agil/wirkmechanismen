@@ -4869,6 +4869,23 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "attributes": {
+        "label": "Nachvollziehbarkeit der Versionierung gemeinsamer Artefakte",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsspeicherung (Persistenz)",
+        "tags": [
+          "Technik",
+          "Mensch",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Die Entwicklung gemeinsamer Dokumente, Modelle und Software ist über eindeutig bezeichnete Versionen rekonstruierbar. Frühere Stände, Änderungen, Zeitpunkte, Urheberschaft und dokumentierte Änderungsgründe lassen sich den jeweils betroffenen Artefakten zuordnen. Quelle: Wilson et al. (2014), Best Practices for Scientific Computing, DOI: 10.1371/journal.pbio.1001745. Beurteilung durch strukturierte Artefakt- und Änderungsstichproben; technische Rekonstruierbarkeit und Verständlichkeit der Änderungsgründe werden getrennt bewertet. Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Beurteilung unterschiedlicher Artefakttypen; influenceability = 0.5 wegen gestaltbarer Regeln und Werkzeuge bei Grenzen durch bestehende Historienlücken, Berechtigungen und Beiträge Dritter.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13249,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-versionierungsnachvollziehbarkeit-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann nachvollziehbare Versionierung ermöglichen, wenn geeignete Historienfunktionen tatsächlich genutzt und Änderungsgründe gepflegt werden. Quelle: Blischak et al. (2016), „Introduction to Version Control“ und „Version Your Code“, DOI: 10.1371/journal.pcbi.1004668. Die technische Anleitung liefert keinen empirischen Qualitätsgradienten; die Übertragung auf unterschiedliche Artefakttypen bleibt eine Annahme. Toolzugang allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-versionierungsnachvollziehbarkeit-002",
+      "from": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Nachvollziehbare Versionshistorien können die Analyse und begründete Rückmeldungen im Review unterstützen, wenn Prüfende auf relevante Stände und Änderungsgründe zugreifen und sie nutzen. Quelle: Ebert et al. (2021), Abschn. 3.2.4–3.2.5, DOI: 10.1007/s10664-020-09909-5. Die Übertragung von Befunden zu fehlender Änderungsbegründung bei Quellcode auf allgemeine Artefakthistorien und Reviewqualität bleibt eine Annahme; Fehlererkennung ist nicht garantiert."
       }
     }
   ]
