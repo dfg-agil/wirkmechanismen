@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
+      "attributes": {
+        "label": "Stabilität der projektbezogenen Ressourcenversorgung",
+        "description": "Beständigkeit der für das Projekt zugesagten Finanzmittel, Personalkapazitäten und Infrastrukturleistungen über einen festgelegten Zeitraum. Erfasst werden unerwartete Kürzungen, Ausfälle und Unterbrechungen im Verhältnis zum dokumentierten Ressourcenplan. Ressourcenarten werden getrennt ausgewiesen.\n\nQuelle: Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.003. Beurteilung als getrenntes Versorgungsprofil gegen einen versionierten Ressourcenplan einschließlich Ereignisnachweisen und dokumentierter Kompensation. Messbarkeit 1 setzt eindeutige Zusagen, Zeitbezüge und Zuordnungsregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt begrenzte Befugnisse gegenüber Förderern, Personalentscheidungen und externen Anbietern. Stabilität und bedarfsgerechte Ausstattung werden getrennt bewertet.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Organisation",
+          "strategisch",
+          "taktisch"
+        ],
+        "measurability": 1,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-ressourcenstabilitaet-001",
+      "from": "elem-Q3uEEe5Q",
+      "to": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kurzfristige Bereitstellung geeigneter Ersatzgeräte oder Infrastrukturleistungen kann ungeplante Versorgungslücken verkürzen, wenn Ersatz tatsächlich nutzbar, kompatibel und rechtzeitig verfügbar ist. Tomlin (2006), S. 642–643 und 650, DOI: 10.1287/mnsc.1060.0515. Die Übertragung des Lieferkettenmodells auf Projektinfrastruktur bleibt eine Annahme; ursprüngliche Ausfälle werden weiterhin dokumentiert. Keine automatische Übertragung auf Finanzmittel oder Personal."
+      }
+    },
+    {
+      "_id": "conn-ressourcenstabilitaet-002",
+      "from": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
+      "to": "elem-nAA1gU0l",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Stabile Ressourcenversorgung kann die Einhaltung vereinbarter Projektfristen unterstützen, wenn Versorgungslücken terminrelevante Aufgaben betreffen und nicht anderweitig kompensiert werden. Ogbeifun und Pretorius (2022), S. 100–101, DOI: 10.2478/emj-2022-0008. Die Übertragung qualitativer Befunde zu verzögerten Förderzahlungen auf allgemeine Versorgungslücken bleibt eine Annahme. Ressourcenbedarf, Ersatz, Zeitpuffer und andere Verzögerungsursachen sind getrennt zu berücksichtigen."
       }
     }
   ]
