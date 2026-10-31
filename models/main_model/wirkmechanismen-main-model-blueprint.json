@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "attributes": {
+        "label": "Qualität disziplinübergreifender Synthese-Workshops",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Methodische und organisatorische Beschaffenheit von Workshops zur gemeinsamen Bearbeitung disziplinärer Beiträge. Bewertet werden die Aufgabenpassung des Vorgehens, die fachlich angemessene Beteiligung, die explizite Bearbeitung fachlicher Schnittstellen und die Nachvollziehbarkeit dokumentierter Zwischenschritte. Der tatsächlich erreichte Integrationsgrad wird gesondert erfasst. Quelle: Lang et al. (2012), Transdisciplinary research in sustainability science: practice, principles, and challenges, DOI: 10.1007/s11625-011-0149-x. Beurteilung durch Beobachtung und Dokumentenprüfung als getrenntes Qualitätsprofil; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Bewertung; influenceability = 0.5 wegen gestaltbarer Durchführung bei begrenzter Kontrolle über Expertise, Beteiligung und Ressourcen.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-syntheseworkshops-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann die Qualität der Workshopdurchführung unterstützen, indem Beteiligte fachliche Grenzen, Rückfragen und Widersprüche ohne befürchtete Sanktionen einbringen. Voraussetzung sind passende Expertise und nutzbare Beteiligungsmöglichkeiten. Quelle: Edmondson (1999), S. 353–355, 366–367, DOI: 10.2307/2666999. Die Übertragung von Teamlernverhalten auf Synthese-Workshopqualität bleibt eine Annahme; Aufgabenpassung und Dokumentation sind damit nicht gesichert."
+      }
+    },
+    {
+      "_id": "conn-syntheseworkshops-002",
+      "from": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aufgabenpassende Moderation und die gezielte Bearbeitung fachlicher Schnittstellen können den Austausch disziplinären Wissens fördern, wenn Beteiligte ihre Beiträge erläutern und aufeinander beziehen. Quelle: Zimmermann und Curran (2023), S. 353–357, DOI: 10.1002/sdr.1743. Die qualitative Einzelfallanalyse belegt keinen allgemeinen Qualitätsgradienten; die Übertragung auf Synthese-Workshops bleibt eine Annahme. Bloße Anwesenheit genügt nicht."
       }
     }
   ]
