@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "attributes": {
+        "label": "Grad der formalen Anerkennung interdisziplinärer Beiträge in institutionellen Bewertungssystemen",
+        "description": "Umfang, in dem die geltenden institutionellen Kriterien für Leistungsbewertung, Karriereentscheidungen und Ressourcenvergabe fachübergreifende Forschungs- und Integrationsbeiträge ausdrücklich berücksichtigen. Beurteilt werden dokumentierte Regeln und deren vorgesehene Gewichtung. Tatsächliche Anwendung und subjektiv erlebte Anerkennung werden gesondert betrachtet.\n\nQuelle: National Academy of Sciences, National Academy of Engineering und Institute of Medicine (2005), Facilitating Interdisciplinary Research, Kap. 5, Abschnitt „The Academic Reward System“, DOI: 10.17226/11153. Beurteilung durch strukturierte Dokumentenanalyse geltender Regelversionen mit getrennter Erfassung von Beitragsarten, Nachweisen und Gewichtungen. Messbarkeit 0.5: Auslegung und institutionelle Vergleichbarkeit erfordern fachliche Beurteilung. Beeinflussbarkeit 0 ausschließlich im Szenario eines Projektteams ohne relevantes Änderungsmandat innerhalb der Projektlaufzeit; keine Aussage über die grundsätzliche Veränderbarkeit institutioneller Regeln.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Organisation",
+          "normativ",
+          "strategisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-formaleAnerkennung-003",
+      "from": "elem-1fahG9AM",
+      "to": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Institutionelle Prozessverbesserung kann die formale Anerkennung interdisziplinärer Beiträge erhöhen, wenn Bewertungsregeln ausdrücklich überprüft, Anerkennungslücken als Änderungsziel behandelt und Revisionen zuständig beschlossen werden. Grundlage: Klein und Falk-Krzesinski (2017), Tabelle 1; Rosario-Moore et al. (2025), Policy Change Process und Abbildung 2. Die Übertragung auf einen allgemeinen Verbesserungsgrad bleibt eine bedingte Annahme."
+      }
+    },
+    {
+      "_id": "conn-formaleAnerkennung-004",
+      "from": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Formale Anerkennung kann Wissensaustausch fördern, wenn geteilte fachübergreifende Beiträge ausdrücklich zählen, Kriterien bekannt sind und ihre faire Anwendung glaubwürdig erwartet wird. Grundlage: Meurer et al. (2023), Tabelle 1; Bartol und Srivastava (2002), theoretischer Abstract; Taylor (2006), experimenteller Abstract. Die Übertragung auf akademische Bewertungssysteme bleibt eine Annahme; bloße Regeltexte garantieren keinen Austausch."
       }
     }
   ]
