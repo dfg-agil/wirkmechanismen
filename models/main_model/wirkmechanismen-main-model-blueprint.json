@@ -4869,6 +4869,18 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-offenlegungFachlicherUnsicherheiten",
+      "attributes": {
+        "label": "Grad der Offenlegung fachlicher Unsicherheiten",
+        "element type": "Einflussfaktoren",
+        "description": "Sichtbarkeit der den Beteiligten bekannten offenen Fragen, Evidenzgrenzen und methodischen Unsicherheiten in der fachübergreifenden Kommunikation. Bewertet wird, ob diese Einschränkungen gegenüber den betroffenen Disziplinen ausdrücklich benannt und den zugehörigen Aussagen oder Ergebnissen zugeordnet sind. Quelle: Edmondson (1999), DOI: 10.2307/2666999. Messbarkeit 0.5: Offenlegungen sind beobachtbar; bekannte, aber verschwiegene Unsicherheiten bleiben schwer erfassbar. Beeinflussbarkeit 0.5: durch Kommunikationsroutinen und Verhalten mittelbar veränderbar, abhängig von sozialen Risiken und individueller Zurückhaltung.",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": ["Mensch", "operativ"],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13244,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-unsicherheitsoffenlegung-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-offenlegungFachlicherUnsicherheiten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann die Offenlegung bekannter fachlicher Unsicherheiten erleichtern, wenn Beteiligte auch gegenüber den betroffenen Disziplinen geringe soziale Risiken erwarten und eine Kommunikationsgelegenheit nutzen. Quelle: Edmondson (1999), S. 354–355, 366–367, DOI: 10.2307/2666999. Übertragung allgemeinen Lernverhaltens auf aussagebezogene Unsicherheitsoffenlegung; ein unterstützendes Klima garantiert keine Offenlegung."
+      }
+    },
+    {
+      "_id": "conn-unsicherheitsoffenlegung-002",
+      "from": "elem-offenlegungFachlicherUnsicherheiten",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Offenlegung fachlicher Unsicherheiten kann Entscheidungen nach vorab festgelegten Ziel- und Kostenkriterien verbessern, wenn relevante Einschränkungen verstanden und handlungswirksam genutzt werden. Bewertet wird die Handlungswahl anhand der zum Entscheidungszeitpunkt verfügbaren Informationen, nicht des späteren Zufallsergebnisses. Quelle: Joslyn und LeClerc (2012), S. 128, 135, DOI: 10.1037/a0025185. Übertragung numerischer Prognosen auf fachübergreifende Entscheidungen bleibt Annahme."
       }
     }
   ]
