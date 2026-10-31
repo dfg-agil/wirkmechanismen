@@ -4869,6 +4869,18 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-transparenzDisziplinaererGrundannahmen",
+      "attributes": {
+        "label": "Transparenz disziplinärer Grundannahmen",
+        "description": "Ausmaß, in dem die für die gemeinsame Entwicklungsaufgabe relevanten theoretischen, erkenntnistheoretischen und methodischen Grundannahmen sowie zugrunde liegende Wertmaßstäbe der Beteiligten offengelegt sind. Bewertet wird, ob diese Annahmen ihren fachlichen Beiträgen zugeordnet und mit ihren Begründungen, Voraussetzungen und Geltungsgrenzen nachvollziehbar dargestellt sind. Quelle: Eigenbrode et al. (2007), DOI: 10.1641/B570109. Messbarkeit 0.5: dokumentierte Offenlegung ist strukturiert fachlich beurteilbar; unbekannte oder unbewusste Annahmen begrenzen die Erfassbarkeit. Beeinflussbarkeit 0.5: durch Reflexion und explizite Darstellung mittelbar veränderbar, abhängig von Erkennen und Offenlegen eigener Grundannahmen. Vollständige Erfassung wird nicht unterstellt.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": ["Mensch", "operativ"],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13244,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-grundannahmen-001",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-transparenzDisziplinaererGrundannahmen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Externalisierung kann die Transparenz disziplinärer Grundannahmen erhöhen, wenn erkannte Annahmen tatsächlich expliziert und ihren fachlichen Beiträgen mit Begründungen und Grenzen zugeordnet werden. Quelle: Carlile (2004), S. 559, DOI: 10.1287/orsc.1040.0094. Die Übertragung allgemeinen Explizierens auf diesen Offenlegungszustand bleibt eine Annahme; bloße Gesprächsaktivität genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-grundannahmen-002",
+      "from": "elem-transparenzDisziplinaererGrundannahmen",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
       }
     }
   ]
