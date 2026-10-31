@@ -4869,6 +4869,22 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "attributes": {
+        "label": "Verfügbarkeit fachübergreifender Übersetzungs- und Vermittlungsrollen",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "taktisch"
+        ],
+        "description": "Für fachliche Verständigungsbedarfe stehen erreichbare Personen mit geeigneten disziplinübergreifenden Kenntnissen, zeitlichen Kapazitäten und geklärter Zuständigkeit zur Verfügung. Ihre Vermittlungsfunktion umfasst Unterschiede zwischen fachlichen Begriffen, Modellen und Bewertungsmaßstäben. Quelle: Long, Cunningham und Braithwaite (2013), Bridges, brokers and boundary spanners in collaborative networks: a systematic review, DOI: 10.1186/1472-6963-13-158. Beurteilung durch ein bedarfsbezogenes Profil aus fachlicher Eignung, Erreichbarkeit, nutzbarer Zeit und Zuständigkeit; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Passungsbeurteilung; influenceability = 0.5 wegen gestaltbarer Zuständigkeiten und Zeitbudgets bei begrenzter Personalverfügbarkeit.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13248,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-vermittlungsrollen-001",
+      "from": "elem-Cp80iMCp",
+      "to": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine bedarfsbezogene, unterstützende Anpassung des Führungsstils kann nutzbare Vermittlungskapazität ermöglichen, wenn geeignete Personen verfügbar sind und die Führung tatsächliche Entlastung veranlasst. Quelle: Hunt et al. (2016), „Supporting boundary spanners“, DOI: 10.1186/s12875-016-0501-4. Die Übertragung von Managementunterstützung auf den Bestandsfaktor und fachübergreifende Rollen bleibt eine Annahme; Benennung allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-vermittlungsrollen-002",
+      "from": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare Vermittlungspersonen können den fachübergreifenden Wissensaustausch erleichtern, wenn sie tatsächlich angefragt werden, Zugang zu beiden Fachkontexten haben und Beiträge angemessen erläutern. Quelle: Cranefield und Yoong (2007), Abstract, DOI: 10.1504/IJKL.2007.012604. Die Übertragung aktiver Gatekeeper-Funktionen auf verfügbare disziplinübergreifende Kapazität bleibt eine Annahme; bloße Verfügbarkeit garantiert keinen Austausch."
       }
     }
   ]
