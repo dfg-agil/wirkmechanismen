@@ -4871,6 +4871,13 @@
       }
     },
     {
+      "_id": "elem-transparenzDisziplinaererGrundannahmen",
+      "attributes": {
+        "label": "Transparenz disziplinärer Grundannahmen",
+        "description": "Ausmaß, in dem die für die gemeinsame Entwicklungsaufgabe relevanten theoretischen, erkenntnistheoretischen und methodischen Grundannahmen sowie zugrunde liegende Wertmaßstäbe der Beteiligten offengelegt sind. Bewertet wird, ob diese Annahmen ihren fachlichen Beiträgen zugeordnet und mit ihren Begründungen, Voraussetzungen und Geltungsgrenzen nachvollziehbar dargestellt sind. Quelle: Eigenbrode et al. (2007), DOI: 10.1641/B570109. Messbarkeit 0.5: dokumentierte Offenlegung ist strukturiert fachlich beurteilbar; unbekannte oder unbewusste Annahmen begrenzen die Erfassbarkeit. Beeinflussbarkeit 0.5: durch Reflexion und explizite Darstellung mittelbar veränderbar, abhängig von Erkennen und Offenlegen eigener Grundannahmen. Vollständige Erfassung wird nicht unterstellt.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": ["Mensch", "operativ"],
       "_id": "elem-qualitaetDisziplinaererEingangsdaten",
       "attributes": {
         "label": "Qualität disziplinärer Eingangsdaten",
@@ -13261,6 +13268,9 @@
       }
     },
     {
+      "_id": "conn-grundannahmen-001",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-transparenzDisziplinaererGrundannahmen",
       "_id": "conn-eingangsdaten-001",
       "from": "elem-reviewQualitaet",
       "to": "elem-qualitaetDisziplinaererEingangsdaten",
@@ -13310,6 +13320,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Externalisierung kann die Transparenz disziplinärer Grundannahmen erhöhen, wenn erkannte Annahmen tatsächlich expliziert und ihren fachlichen Beiträgen mit Begründungen und Grenzen zugeordnet werden. Quelle: Carlile (2004), S. 559, DOI: 10.1287/orsc.1040.0094. Die Übertragung allgemeinen Explizierens auf diesen Offenlegungszustand bleibt eine Annahme; bloße Gesprächsaktivität genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-grundannahmen-002",
+      "from": "elem-transparenzDisziplinaererGrundannahmen",
+      "to": "elem-gemeinsamVerstaendnis",
         "description": "Belastbare, aufgabengeeignete Eingangsdaten können die Qualität daraus abgeleiteter, getrennter Artefakte erhöhen, wenn sie korrekt verarbeitet werden und sachliche Richtigkeit zu deren Akzeptanzkriterien gehört. Quelle: Barchard und Pace (2011), empirische Ergebnisangaben im Abstract, DOI: 10.1016/j.chb.2011.04.004. Übertragung statistischer Ergebnisrichtigkeit auf Entwicklungsartefakte; keine automatische Ergebnisverbesserung."
         "description": "Aktive Beteiligung kann zusätzliche disziplinäre Perspektiven in die Bearbeitung einbringen, wenn fachlich unterschiedlich geprägte Mitglieder ihre Sichtweisen tatsächlich beitragen. Quelle: Haselsteiner (2022), S. 371, DOI: 10.5282/jums/v7i2pp354-389. Qualitative Befunde betreffen fachübergreifende Beiträge; mehr Beteiligung oder Redezeit allein garantiert keine größere inhaltliche Vielfalt."
       }
@@ -13339,6 +13356,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
         "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn die Aufgabe unterschiedliche Sichtweisen erfordert und relevante Beiträge vertieft verarbeitet und integriert werden. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; Vielfalt allein garantiert keine Leistungssteigerung."
         "description": "Ergänzende Expertise kann die Ergebniswirksamkeit der Kollaboration erhöhen, wenn Beiträge zugänglich sind, gemeinsam geplant, angemessen gewichtet und tatsächlich integriert werden. Quelle: Woolley et al. (2008), S. 365–368, DOI: 10.1177/1046496408317792. Die Übertragung kognitiver Spezialfähigkeiten auf disziplinäre Komplementarität bleibt eine Annahme; aus Ergänzungspotenzial allein folgt kein gesicherter Ergebnisvorteil."
       }
