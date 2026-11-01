@@ -3198,26 +3198,6 @@
       }
     },
     {
-      "_id": "elem-DVflvzut",
-      "attributes": {
-        "label": "Verwendung eines Metamodels zur Prozessgestaltung",
-        "description": "Interne Kräfte (Entwickler, Abteilungsleiter, Manager, etc.) sowie Externe (Zulieferer, Dienstleister) nutzen alle das gleiche Metamodell zur Prozessgestaltung und Kommunikation. Eine gleiche Arbeitsweise verschiedener beteiligter Parteien sorgt für ein gemeinsames Verständnis des Aufbaus von Projekten. Dies erleichtert nicht nur die Kommunikation, sondern verhindert Fehler und ermöglicht effektives Arbeiten, beispielsweise bei einem Projekttransfer vom Innovationsmanagement zur Abteilung Forschung und Entwicklung.",
-        "element type": "Einflussfaktoren",
-        "tags": [
-          "AgilityMap"
-        ],
-        "micmac influence": 0,
-        "metrics::last": 0,
-        "micmac exposure": 0,
-        "measurability": 0.5,
-        "influenceability": 0.5,
-        "indegree": 1,
-        "outdegree": 1,
-        "degree": 2,
-        "size": 3
-      }
-    },
-    {
       "_id": "elem-8DovrrfU",
       "attributes": {
         "label": "Ausprägung der Fehlerkultur",
@@ -8423,18 +8403,6 @@
       }
     },
     {
-      "_id": "conn-auto-053",
-      "from": "elem-DVflvzut",
-      "to": "elem-lNs67X64",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
       "_id": "conn-auto-054",
       "from": "elem-4EcTGpUB",
       "to": "elem-79TGQTNN",
@@ -8691,18 +8659,6 @@
       "_id": "conn-bridge-024",
       "from": "elem-xmjrxxGb",
       "to": "elem-Tc7Rjavq",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
-      "_id": "conn-bridge-025",
-      "from": "elem-8Gqgaih7",
-      "to": "elem-DVflvzut",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
