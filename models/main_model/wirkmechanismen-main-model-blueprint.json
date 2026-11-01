@@ -4871,6 +4871,13 @@
       }
     },
     {
+      "_id": "elem-disziplinuebergreifendeWissensintegration",
+      "attributes": {
+        "label": "Grad der disziplinübergreifenden Wissensintegration",
+        "element type": "Einflussfaktoren",
+        "description": "Verknüpfung aufgabenrelevanter Theorien, Konzepte, Methoden und Befunde verschiedener Disziplinen zu einem fachübergreifenden Erklärungs-, Untersuchungs- oder Lösungszusammenhang. Bewertet wird, in welchem Umfang die Beiträge aufeinander bezogen werden und gemeinsam zur Bearbeitung der Aufgabe beitragen. Ein bloßes Nebeneinander disziplinärer Teilergebnisse stellt noch keine Integration dar. Quellen: National Academies (2005), DOI: 10.17226/11153; Klein (2008), DOI: 10.1016/j.amepre.2008.05.010. Messbarkeit 0.5: Arbeitsergebnisse sind fachlich beurteilbar; erforderlich ist ein aufgabenbezogenes Bewertungsraster. Beeinflussbarkeit 0.5: Zusammenarbeit und Methoden sind gestaltbar, fachliche Vereinbarkeit und vorhandene Expertise begrenzen die Steuerbarkeit. Integrationsgrad und Ergebnisqualität werden getrennt beurteilt.",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": ["Mensch", "Organisation", "taktisch", "operativ"],
       "_id": "elem-offenlegungFachlicherUnsicherheiten",
       "attributes": {
         "label": "Grad der Offenlegung fachlicher Unsicherheiten",
@@ -13282,6 +13289,9 @@
       }
     },
     {
+      "_id": "conn-wissensintegration-001",
+      "from": "elem-KOUdbt3n",
+      "to": "elem-disziplinuebergreifendeWissensintegration",
       "_id": "conn-unsicherheitsoffenlegung-001",
       "from": "elem-psychSicherheit",
       "to": "elem-offenlegungFachlicherUnsicherheiten",
@@ -13315,6 +13325,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Team-Reflexion kann disziplinübergreifende Wissensintegration fördern, wenn erkannte Verknüpfungslücken zu Änderungen des Vorgehens und anschließend zu nachweisbaren fachlichen Verbindungen führen. Quelle: Schippers et al. (2014), Autorenmanuskript S. 14–19, DOI: 10.1177/1046496414553473. Übertragung eines theoretischen Informationsverarbeitungsmodells; regelmäßige Retrospektiven allein genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-wissensintegration-002",
+      "from": "elem-mentalModelle",
+      "to": "elem-disziplinuebergreifendeWissensintegration",
         "description": "Fachkundige, datenbezogene Reviews können durch wirksame Korrektur erkannter Eingabefehler die Qualität eingebrachter Daten erhöhen, sofern andere erforderliche Qualitätsdimensionen nicht verschlechtert werden. Quelle: Barchard et al. (2020), Abstract, DOI: 10.3758/s13428-019-01207-3. Übertragung konkreter Prüfverfahren auf den allgemeinen Reviewfaktor und mehrdimensionale Datenqualität; bloße Fehlererkennung genügt nicht."
       }
     },
@@ -13333,6 +13350,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Gemeinsame, aufgabenangemessene mentale Modelle können die Verknüpfung disziplinärer Beiträge erleichtern, indem sie deren Einordnung unterstützen. Quelle: Robert et al. (2008), S. 324–327, DOI: 10.1287/isre.1080.0177. Übertragung von Modellähnlichkeit und Informationsnutzung auf disziplinäre Wissensintegration; Einigkeit allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-wissensintegration-003",
+      "from": "elem-disziplinuebergreifendeWissensintegration",
+      "to": "elem-NmSn5Afu",
         "description": "Psychologische Sicherheit kann die Offenlegung bekannter fachlicher Unsicherheiten erleichtern, wenn Beteiligte auch gegenüber den betroffenen Disziplinen geringe soziale Risiken erwarten und eine Kommunikationsgelegenheit nutzen. Quelle: Edmondson (1999), S. 354–355, 366–367, DOI: 10.2307/2666999. Übertragung allgemeinen Lernverhaltens auf aussagebezogene Unsicherheitsoffenlegung; ein unterstützendes Klima garantiert keine Offenlegung."
       }
     },
@@ -13394,6 +13418,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Disziplinübergreifende Wissensintegration kann Entscheidungen verbessern, wenn die Aufgabe verknüpfte Beiträge erfordert und deren fachliche Tragfähigkeit geprüft wird. Entscheidungsgüte wird unabhängig anhand vorab festgelegter Fachkriterien beurteilt. Quelle: Robert et al. (2008), S. 325–327, DOI: 10.1287/isre.1080.0177. Übertragung von Informationsnutzung auf disziplinäre Synthese bleibt Annahme; mehr Integration garantiert keine bessere Entscheidung."
         "description": "Offenlegung fachlicher Unsicherheiten kann Entscheidungen nach vorab festgelegten Ziel- und Kostenkriterien verbessern, wenn relevante Einschränkungen verstanden und handlungswirksam genutzt werden. Bewertet wird die Handlungswahl anhand der zum Entscheidungszeitpunkt verfügbaren Informationen, nicht des späteren Zufallsergebnisses. Quelle: Joslyn und LeClerc (2012), S. 128, 135, DOI: 10.1037/a0025185. Übertragung numerischer Prognosen auf fachübergreifende Entscheidungen bleibt Annahme."
         "description": "Disziplinäre Sprachbarrieren können den Koordinationsaufwand erhöhen, wenn fachsprachliche Fehlinterpretationen zusätzliche Rückfragen, Erläuterungen oder erneute Abstimmungen erfordern. Quelle: Bechky (2003), S. 324, DOI: 10.1287/orsc.14.3.312.15162. Die Übertragung beobachteter Klärungssequenzen auf den gesamten Koordinationsaufwand bleibt eine Annahme; unbemerkte Probleme erzeugen nicht zwangsläufig sofortigen Mehraufwand."
         "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
