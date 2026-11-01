@@ -6,7 +6,7 @@
         "label": "Fehlerhäufigkeit",
         "description": "= Anzahl der Fehler/Bugs\n\nFehlerhäufigkeit repräsentiert die Rate und das Ausmaß von Mängeln, Funktionsstörungen und Störungen, die während der Entwicklung oder im Betrieb eines Produkts oder Systems auftreten (Im Software-Umfeld oft als Bugs bezeichnet). Er umfasst messbare Indikatoren wie die Anzahl von Qualitätsabweichungen, Ausfällen, gemeldeten Fehlern oder die Häufigkeit von Regressionen (Wiederauftreten alter Probleme). Eine hohe Fehlerhäufigkeit deutet auf eine geringe Produktqualität und -zuverlässigkeit hin und ist oft eine direkte Folge von ungelösten Technischen Schulden und ineffizienten Work-in-Progress-Praktiken. Sie beeinflusst direkt die Zufriedenheit der Nutzer und die Betriebsstabilität des Produkts.",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
          "tags": [
           "Mensch",
           "Technik",
@@ -490,7 +490,7 @@
       "_id": "elem-9PG4amih",
       "attributes": {
         "label": "Einhaltung der Dauer des Meetings",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Organisation",
           "operativ"
@@ -904,7 +904,7 @@
         "label": "Durchschnittlicher Durchsatz",
         "description": "**Durchsatz**: Die Menge abgeschlossener Arbeit pro Zeiteinheit.\n\n**Quelle**: Der Kanban Guide für Scrum Teams (Januar 2021)",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
          "tags": [
           "Technik",
           "operativ"
@@ -1344,7 +1344,7 @@
       "_id": "elem-TE0p3sHi",
       "attributes": {
         "label": "Einhaltungsrate von Zeitangaben der Teammitglieder",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Technik",
           "operativ"
@@ -1626,7 +1626,7 @@
       "attributes": {
         "label": "Pünktlichkeit der Produktauslieferung",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Technik",
           "operativ"
@@ -1957,7 +1957,7 @@
       "attributes": {
         "label": "Grad der Kundenzufriedenheit",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
          "tags": [
           "Mensch",
           "operativ",
@@ -1986,7 +1986,7 @@
       "attributes": {
         "label": "Zielkongruenz des Teams",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Mensch",
           "operativ",
@@ -2185,7 +2185,7 @@
       "attributes": {
         "label": "Qualität der Teamdynamik",
         "element type": "Schlüsselfaktor",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Mensch",
           "operativ",
@@ -2271,7 +2271,7 @@
       "attributes": {
         "label": "Qualität des Artefakts",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Technik",
           "Organisation",
@@ -2299,7 +2299,7 @@
       "attributes": {
         "label": "Grad der Sprinterfüllung",
         "element type": "Problem",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
          "tags": [
           "Mensch",
           "operativ"
@@ -2540,7 +2540,7 @@
       "attributes": {
         "label": "Qualität des Endprodukts",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
          "tags": [
           "Mensch",
           "Technik",
@@ -2596,7 +2596,7 @@
       "attributes": {
         "label": "Durchschnittliche Anzahl von Work in Progress",
         "element type": "Problem",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Technik",
           "operativ"
@@ -2797,7 +2797,7 @@
       "attributes": {
         "label": "Anzahl der Iterationen",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
          "tags": [
           "Technik",
           "Organisation",
@@ -2955,7 +2955,7 @@
       "_id": "elem-7iCVuvkI",
       "attributes": {
         "label": "Einhaltung der Arbeitszeiten",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "description": "Es wird stark auf die Einhaltung der regulären Arbeitszeiten geachtet. Ziel ist es vielmehr hart zu arbeiten, aber nicht zu lange. Überstunden strengen an und haben einen negativen Einfluss auf die Kreativität, den Spaß und die Produktivität und führen zu hohen Fehlerraten.",
         "element type": "Einflussfaktoren",
         "tags": [
@@ -3786,7 +3786,7 @@
       "_id": "elem-AEqctl8J",
       "attributes": {
         "label": "Qualität der Team-Performance",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "description": "Von dem Entwicklerteam wird (nach einer Einarbeitungszeit) ein konstantes Performance-Level erwartet (\"velocity\"). Ziel ist eine nachhaltige und konstante Lieferung von Ergebnissen. Dieser Anspruch auf ein konstantes Tempo bezieht sich nicht nur auf das Entwicklerteam, sondern auf alle am Projekt beteiligten Parteien, um den Umfang von Arbeitspaketen besser abschätzen zu können und eine Planung im Kontext komplexer Projekte zu ermöglichen.",
         "element type": "Einflussfaktoren",
         "tags": [
@@ -4191,7 +4191,7 @@
       "attributes": {
         "label": "Menge der Wertgenerierung",
         "element type": "Messbarer Erfolgsfaktor",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "description": "Quantifizierbare Menge des durch das Team/Produkt generierten Werts für Stakeholder. Messbar durch Metriken wie Customer Satisfaction Scores, Net Promoter Score, Business Value Points, Feature Adoption Rate und Return on Investment. Repräsentiert das primäre Ziel agiler Entwicklungsprozesse: kontinuierliche Wertlieferung an Kunden und Organisation.",
         "tags": [
           "Mensch",
@@ -4285,7 +4285,7 @@
         "label": "Koordinationsaufwand",
         "description": "Der Aufwand, der für die Synchronisation und Abstimmung zwischen Teammitgliedern und Systemkomponenten erforderlich ist. Umfasst Meeting-Häufigkeit, Abstimmungsprozesse, Kommunikationsoverhead und Kontextwechsel. Erhöhter Koordinationsaufwand reduziert verfügbare Zeit für direkte Entwicklungsarbeit.",
         "element type": "Einflussfaktoren",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
           "tags": [
           "Mensch",
           "Technik",
@@ -4818,7 +4818,7 @@
       "attributes": {
         "label": "Grad der Kollaboration",
         "element type": "Schlüsselfaktor",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "tags": [
           "Mensch",
           "operativ",
@@ -4847,7 +4847,7 @@
       "_id": "elem-effektivitaetKollaboration",
       "attributes": {
         "label": "Effektivität der Kollaboration",
-        "cluster":" Ergebnisgrößen (Outcomes)",
+        "cluster":"Ergebnisgrößen (Outcomes)",
         "element type": "Messbarer Erfolgsfaktor",
         "tags": [
           "Mensch"
@@ -5012,7 +5012,7 @@
       "attributes": {
         "label": "Verfügbarkeit fachübergreifender Übersetzungs- und Vermittlungsrollen",
         "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Mensch",
           "Organisation",
@@ -5079,7 +5079,7 @@
         "label": "Stabilität der projektbezogenen Ressourcenversorgung",
         "description": "Beständigkeit der für das Projekt zugesagten Finanzmittel, Personalkapazitäten und Infrastrukturleistungen über einen festgelegten Zeitraum. Erfasst werden unerwartete Kürzungen, Ausfälle und Unterbrechungen im Verhältnis zum dokumentierten Ressourcenplan. Ressourcenarten werden getrennt ausgewiesen.\n\nQuelle: Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.003. Beurteilung als getrenntes Versorgungsprofil gegen einen versionierten Ressourcenplan einschließlich Ereignisnachweisen und dokumentierter Kompensation. Messbarkeit 1 setzt eindeutige Zusagen, Zeitbezüge und Zuordnungsregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt begrenzte Befugnisse gegenüber Förderern, Personalentscheidungen und externen Anbietern. Stabilität und bedarfsgerechte Ausstattung werden getrennt bewertet.",
         "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Organisation",
           "strategisch",
@@ -5095,7 +5095,7 @@
         "label": "Grad der formalen Anerkennung interdisziplinärer Beiträge in institutionellen Bewertungssystemen",
         "description": "Umfang, in dem die geltenden institutionellen Kriterien für Leistungsbewertung, Karriereentscheidungen und Ressourcenvergabe fachübergreifende Forschungs- und Integrationsbeiträge ausdrücklich berücksichtigen. Beurteilt werden dokumentierte Regeln und deren vorgesehene Gewichtung. Tatsächliche Anwendung und subjektiv erlebte Anerkennung werden gesondert betrachtet.\n\nQuelle: National Academy of Sciences, National Academy of Engineering und Institute of Medicine (2005), Facilitating Interdisciplinary Research, Kap. 5, Abschnitt „The Academic Reward System“, DOI: 10.17226/11153. Beurteilung durch strukturierte Dokumentenanalyse geltender Regelversionen mit getrennter Erfassung von Beitragsarten, Nachweisen und Gewichtungen. Messbarkeit 0.5: Auslegung und institutionelle Vergleichbarkeit erfordern fachliche Beurteilung. Beeinflussbarkeit 0 ausschließlich im Szenario eines Projektteams ohne relevantes Änderungsmandat innerhalb der Projektlaufzeit; keine Aussage über die grundsätzliche Veränderbarkeit institutioneller Regeln.",
         "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Organisation",
           "normativ",
@@ -5111,7 +5111,7 @@
         "label": "Ausmaß methodischer Integrationshindernisse zwischen disziplinären Beiträgen",
         "description": "Ausmaß, in dem methodische Voraussetzungen, Bezugsgrößen oder Gütekriterien disziplinärer Beiträge deren wissenschaftlich begründbare Verknüpfung für die gemeinsame Fragestellung erschweren. Der Faktor erfasst die daraus entstehenden Integrationshindernisse zum jeweiligen Arbeitsstand. Unterschiedliche Methoden oder widersprechende Befunde gelten allein noch nicht als Unvereinbarkeit.\n\nQuelle: Eigenbrode et al. (2007), Employing Philosophical Dialogue in Collaborative Science, BioScience 57(1), 55–64, DOI: 10.1641/B570109. Beurteilung anhand eines aufgabenbezogenen Hindernisprofils; wissenschaftlich unvertretbare Zusammenführung zählt nicht als Erfolg. Messbarkeit 0.5: fachkundige Beurteilung konkreter Verknüpfungen erforderlich. Beeinflussbarkeit 0.5: vertretbare Methoden- und Schnittstellenanpassungen können Hindernisse verringern; Gültigkeitsanforderungen und vorhandene Daten begrenzen dies.",
         "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Mensch",
           "Organisation",
@@ -5128,7 +5128,7 @@
         "label": "Ausmaß disziplinbezogener Einflussasymmetrien",
         "description": "Ungleichverteilung des tatsächlichen Einflusses der vertretenen Disziplinen auf verbindliche Projektentscheidungen, Ressourcenverteilung und Sichtbarkeit gemeinsamer Ergebnisse. Bewertet werden Unterschiede im festgelegten Projektzeitraum. Ihre Begründung durch Aufgabenmandate, Expertise oder institutionellen Status wird gesondert untersucht.\n\nQuellen: Gray (2008), DOI: 10.1016/j.amepre.2008.03.037; Nembhard und Edmondson (2006), DOI: 10.1002/job.413. Beurteilung anhand getrennter Einflussprofile für Entscheidungen, Ressourcenverteilung und Ergebnissichtbarkeit. Messbarkeit 0.5: tatsächliche Einflussnahme und disziplinäre Zuordnung erfordern triangulierte Fallbeurteilung. Beeinflussbarkeit 0.5: projektseitige Entscheidungs- und Beteiligungsverfahren sind teilweise gestaltbar; externe Mandate und institutionelle Machtpositionen begrenzen dies. Ungleichverteilung wird nicht mit ungerechtfertigter Dominanz gleichgesetzt.",
         "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Mensch",
           "Organisation",
