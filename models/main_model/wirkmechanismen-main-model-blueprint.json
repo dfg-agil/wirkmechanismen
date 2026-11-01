@@ -4871,6 +4871,17 @@
       }
     },
     {
+      "_id": "elem-fachuebergreifendeMethodenkompetenz",
+      "attributes": {
+        "label": "Niveau der fachübergreifenden Methodenkompetenz",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Fähigkeit der Beteiligten, für ihre Zusammenarbeit relevante Methoden anderer Disziplinen hinsichtlich Zweck, Voraussetzungen, Vorgehen und Aussagegrenzen einzuordnen. Dazu gehört, fachlich begründete Rückfragen zu stellen und die Eignung der Methoden für die gemeinsame Aufgabe einzuschätzen. Eine selbstständige Durchführung sämtlicher fachfremder Methoden wird damit nicht vorausgesetzt. Quelle: National Academies (2005), Facilitating Interdisciplinary Research, DOI: 10.17226/11153. Beurteilung durch individuelle aufgabenbezogene Fallaufgaben; Test und Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen erforderlicher fachlicher Bewertung; influenceability = 0.5 wegen gestaltbaren Lernens bei begrenztem Vorwissen, Lernzeit und verfügbarer Expertise.",
       "_id": "elem-disziplinuebergreifendeWissensintegration",
       "attributes": {
         "label": "Grad der disziplinübergreifenden Wissensintegration",
@@ -13289,6 +13300,9 @@
       }
     },
     {
+      "_id": "conn-methodenkompetenz-001",
+      "from": "elem-NmRVFhyA",
+      "to": "elem-fachuebergreifendeMethodenkompetenz",
       "_id": "conn-wissensintegration-001",
       "from": "elem-KOUdbt3n",
       "to": "elem-disziplinuebergreifendeWissensintegration",
@@ -13401,6 +13415,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Methodenbezogene Trainings mit angeleiteter kritischer Analyse und fachlichen Rückmeldungen können die Beurteilungsfähigkeit fördern, wenn Inhalte relevant sind und aktiv bearbeitet werden. Quelle: MacRae et al. (2004), Abstract, DOI: 10.1016/j.surg.2004.02.003. Der Transfer klinischer Studienbeurteilung auf fremddisziplinäre Methoden und auf allgemeine Trainingsqualität bleibt eine Annahme; Teilnahme allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-methodenkompetenz-002",
+      "from": "elem-fachuebergreifendeMethodenkompetenz",
+      "to": "elem-reviewQualitaet",
         "description": "Unterschiedliche disziplinäre Begriffe und Deutungsrahmen können die Kommunikationsaufgabe komplexer machen, wenn voneinander abhängige Beiträge übersetzt und aufeinander bezogen werden müssen. Quelle: Carlile (2004), S. 556–559, DOI: 10.1287/orsc.1040.0094. Die Übertragung auf den Modellfaktor bleibt eine Annahme; gemeinsame Verständigungsgrundlagen können den zusätzlichen Klärungsbedarf begrenzen."
       }
     },
@@ -13418,6 +13439,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Fachübergreifende Methodenkompetenz kann methodenbezogene Analyse und begründete Rückmeldungen im Review verbessern, wenn sie tatsächlich eingesetzt wird und fachliche Kriterien, Informationen und Zeit verfügbar sind. Quelle: Black et al. (1998), S. 231–233, DOI: 10.1001/jama.280.3.231. Ausbildungszusammenhänge werden auf nachgewiesene Einordnungsfähigkeit und fachübergreifende Reviews übertragen; korrekte Urteile oder Umsetzung sind damit nicht garantiert."
         "description": "Disziplinübergreifende Wissensintegration kann Entscheidungen verbessern, wenn die Aufgabe verknüpfte Beiträge erfordert und deren fachliche Tragfähigkeit geprüft wird. Entscheidungsgüte wird unabhängig anhand vorab festgelegter Fachkriterien beurteilt. Quelle: Robert et al. (2008), S. 325–327, DOI: 10.1287/isre.1080.0177. Übertragung von Informationsnutzung auf disziplinäre Synthese bleibt Annahme; mehr Integration garantiert keine bessere Entscheidung."
         "description": "Offenlegung fachlicher Unsicherheiten kann Entscheidungen nach vorab festgelegten Ziel- und Kostenkriterien verbessern, wenn relevante Einschränkungen verstanden und handlungswirksam genutzt werden. Bewertet wird die Handlungswahl anhand der zum Entscheidungszeitpunkt verfügbaren Informationen, nicht des späteren Zufallsergebnisses. Quelle: Joslyn und LeClerc (2012), S. 128, 135, DOI: 10.1037/a0025185. Übertragung numerischer Prognosen auf fachübergreifende Entscheidungen bleibt Annahme."
         "description": "Disziplinäre Sprachbarrieren können den Koordinationsaufwand erhöhen, wenn fachsprachliche Fehlinterpretationen zusätzliche Rückfragen, Erläuterungen oder erneute Abstimmungen erfordern. Quelle: Bechky (2003), S. 324, DOI: 10.1287/orsc.14.3.312.15162. Die Übertragung beobachteter Klärungssequenzen auf den gesamten Koordinationsaufwand bleibt eine Annahme; unbemerkte Probleme erzeugen nicht zwangsläufig sofortigen Mehraufwand."
