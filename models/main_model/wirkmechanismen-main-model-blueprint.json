@@ -4871,6 +4871,13 @@
       }
     },
     {
+      "_id": "elem-offenlegungFachlicherUnsicherheiten",
+      "attributes": {
+        "label": "Grad der Offenlegung fachlicher Unsicherheiten",
+        "element type": "Einflussfaktoren",
+        "description": "Sichtbarkeit der den Beteiligten bekannten offenen Fragen, Evidenzgrenzen und methodischen Unsicherheiten in der fachübergreifenden Kommunikation. Bewertet wird, ob diese Einschränkungen gegenüber den betroffenen Disziplinen ausdrücklich benannt und den zugehörigen Aussagen oder Ergebnissen zugeordnet sind. Quelle: Edmondson (1999), DOI: 10.2307/2666999. Messbarkeit 0.5: Offenlegungen sind beobachtbar; bekannte, aber verschwiegene Unsicherheiten bleiben schwer erfassbar. Beeinflussbarkeit 0.5: durch Kommunikationsroutinen und Verhalten mittelbar veränderbar, abhängig von sozialen Risiken und individueller Zurückhaltung.",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": ["Mensch", "operativ"],
       "_id": "elem-ausmassDisziplinaererSprachbarrieren",
       "attributes": {
         "label": "Ausmaß disziplinärer Sprachbarrieren",
@@ -13275,6 +13282,9 @@
       }
     },
     {
+      "_id": "conn-unsicherheitsoffenlegung-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-offenlegungFachlicherUnsicherheiten",
       "_id": "conn-sprachbarrieren-001",
       "from": "elem-gdWissAust01",
       "to": "elem-ausmassDisziplinaererSprachbarrieren",
@@ -13323,6 +13333,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Psychologische Sicherheit kann die Offenlegung bekannter fachlicher Unsicherheiten erleichtern, wenn Beteiligte auch gegenüber den betroffenen Disziplinen geringe soziale Risiken erwarten und eine Kommunikationsgelegenheit nutzen. Quelle: Edmondson (1999), S. 354–355, 366–367, DOI: 10.2307/2666999. Übertragung allgemeinen Lernverhaltens auf aussagebezogene Unsicherheitsoffenlegung; ein unterstützendes Klima garantiert keine Offenlegung."
+      }
+    },
+    {
+      "_id": "conn-unsicherheitsoffenlegung-002",
+      "from": "elem-offenlegungFachlicherUnsicherheiten",
+      "to": "elem-NmSn5Afu",
         "description": "Kontinuierliche Prozessverbesserung kann wiederkehrende Datenmängel vermindern, wenn Fehlerursachen analysiert und Erhebungs- oder Aufbereitungsschritte wirksam verändert werden, ohne andere erforderliche Qualitätsdimensionen zu verschlechtern. Quelle: Gass et al. (2017), „DQA protocol“ und „Discussion“, DOI: 10.1186/s13063-017-2159-1. Untersucht wurde ein Maßnahmenbündel; der eigenständige Effekt allgemeiner Prozessverbesserung bleibt eine Annahme."
       }
     },
@@ -13377,6 +13394,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Offenlegung fachlicher Unsicherheiten kann Entscheidungen nach vorab festgelegten Ziel- und Kostenkriterien verbessern, wenn relevante Einschränkungen verstanden und handlungswirksam genutzt werden. Bewertet wird die Handlungswahl anhand der zum Entscheidungszeitpunkt verfügbaren Informationen, nicht des späteren Zufallsergebnisses. Quelle: Joslyn und LeClerc (2012), S. 128, 135, DOI: 10.1037/a0025185. Übertragung numerischer Prognosen auf fachübergreifende Entscheidungen bleibt Annahme."
         "description": "Disziplinäre Sprachbarrieren können den Koordinationsaufwand erhöhen, wenn fachsprachliche Fehlinterpretationen zusätzliche Rückfragen, Erläuterungen oder erneute Abstimmungen erfordern. Quelle: Bechky (2003), S. 324, DOI: 10.1287/orsc.14.3.312.15162. Die Übertragung beobachteter Klärungssequenzen auf den gesamten Koordinationsaufwand bleibt eine Annahme; unbemerkte Probleme erzeugen nicht zwangsläufig sofortigen Mehraufwand."
         "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
         "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn die Aufgabe unterschiedliche Sichtweisen erfordert und relevante Beiträge vertieft verarbeitet und integriert werden. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; Vielfalt allein garantiert keine Leistungssteigerung."
