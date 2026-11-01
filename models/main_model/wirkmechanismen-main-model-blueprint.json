@@ -4871,6 +4871,13 @@
       }
     },
     {
+      "_id": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "attributes": {
+        "label": "Nachvollziehbarkeit der Versionierung gemeinsamer Artefakte",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsspeicherung (Persistenz)",
+        "tags": [
+          "Technik",
       "_id": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
       "attributes": {
         "label": "Verfügbarkeit fachübergreifender Übersetzungs- und Vermittlungsrollen",
@@ -4895,6 +4902,7 @@
           "Organisation",
           "operativ"
         ],
+        "description": "Die Entwicklung gemeinsamer Dokumente, Modelle und Software ist über eindeutig bezeichnete Versionen rekonstruierbar. Frühere Stände, Änderungen, Zeitpunkte, Urheberschaft und dokumentierte Änderungsgründe lassen sich den jeweils betroffenen Artefakten zuordnen. Quelle: Wilson et al. (2014), Best Practices for Scientific Computing, DOI: 10.1371/journal.pbio.1001745. Beurteilung durch strukturierte Artefakt- und Änderungsstichproben; technische Rekonstruierbarkeit und Verständlichkeit der Änderungsgründe werden getrennt bewertet. Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Beurteilung unterschiedlicher Artefakttypen; influenceability = 0.5 wegen gestaltbarer Regeln und Werkzeuge bei Grenzen durch bestehende Historienlücken, Berechtigungen und Beiträge Dritter.",
         "description": "Methodische und organisatorische Beschaffenheit von Workshops zur gemeinsamen Bearbeitung disziplinärer Beiträge. Bewertet werden die Aufgabenpassung des Vorgehens, die fachlich angemessene Beteiligung, die explizite Bearbeitung fachlicher Schnittstellen und die Nachvollziehbarkeit dokumentierter Zwischenschritte. Der tatsächlich erreichte Integrationsgrad wird gesondert erfasst. Quelle: Lang et al. (2012), Transdisciplinary research in sustainability science: practice, principles, and challenges, DOI: 10.1007/s11625-011-0149-x. Beurteilung durch Beobachtung und Dokumentenprüfung als getrenntes Qualitätsprofil; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Bewertung; influenceability = 0.5 wegen gestaltbarer Durchführung bei begrenzter Kontrolle über Expertise, Beteiligung und Ressourcen.",
           "operativ",
           "taktisch"
@@ -13318,6 +13326,9 @@
       }
     },
     {
+      "_id": "conn-versionierungsnachvollziehbarkeit-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
       "_id": "conn-vermittlungsrollen-001",
       "from": "elem-Cp80iMCp",
       "to": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
@@ -13363,6 +13374,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann nachvollziehbare Versionierung ermöglichen, wenn geeignete Historienfunktionen tatsächlich genutzt und Änderungsgründe gepflegt werden. Quelle: Blischak et al. (2016), „Introduction to Version Control“ und „Version Your Code“, DOI: 10.1371/journal.pcbi.1004668. Die technische Anleitung liefert keinen empirischen Qualitätsgradienten; die Übertragung auf unterschiedliche Artefakttypen bleibt eine Annahme. Toolzugang allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-versionierungsnachvollziehbarkeit-002",
+      "from": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "to": "elem-reviewQualitaet",
         "description": "Team-Reflexion kann disziplinübergreifende Wissensintegration fördern, wenn erkannte Verknüpfungslücken zu Änderungen des Vorgehens und anschließend zu nachweisbaren fachlichen Verbindungen führen. Quelle: Schippers et al. (2014), Autorenmanuskript S. 14–19, DOI: 10.1177/1046496414553473. Übertragung eines theoretischen Informationsverarbeitungsmodells; regelmäßige Retrospektiven allein genügen nicht."
       }
     },
@@ -13477,6 +13495,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Nachvollziehbare Versionshistorien können die Analyse und begründete Rückmeldungen im Review unterstützen, wenn Prüfende auf relevante Stände und Änderungsgründe zugreifen und sie nutzen. Quelle: Ebert et al. (2021), Abschn. 3.2.4–3.2.5, DOI: 10.1007/s10664-020-09909-5. Die Übertragung von Befunden zu fehlender Änderungsbegründung bei Quellcode auf allgemeine Artefakthistorien und Reviewqualität bleibt eine Annahme; Fehlererkennung ist nicht garantiert."
         "description": "Verfügbare Vermittlungspersonen können den fachübergreifenden Wissensaustausch erleichtern, wenn sie tatsächlich angefragt werden, Zugang zu beiden Fachkontexten haben und Beiträge angemessen erläutern. Quelle: Cranefield und Yoong (2007), Abstract, DOI: 10.1504/IJKL.2007.012604. Die Übertragung aktiver Gatekeeper-Funktionen auf verfügbare disziplinübergreifende Kapazität bleibt eine Annahme; bloße Verfügbarkeit garantiert keinen Austausch."
         "description": "Aufgabenpassende Moderation und die gezielte Bearbeitung fachlicher Schnittstellen können den Austausch disziplinären Wissens fördern, wenn Beteiligte ihre Beiträge erläutern und aufeinander beziehen. Quelle: Zimmermann und Curran (2023), S. 353–357, DOI: 10.1002/sdr.1743. Die qualitative Einzelfallanalyse belegt keinen allgemeinen Qualitätsgradienten; die Übertragung auf Synthese-Workshops bleibt eine Annahme. Bloße Anwesenheit genügt nicht."
         "description": "Fachübergreifende Methodenkompetenz kann methodenbezogene Analyse und begründete Rückmeldungen im Review verbessern, wenn sie tatsächlich eingesetzt wird und fachliche Kriterien, Informationen und Zeit verfügbar sind. Quelle: Black et al. (1998), S. 231–233, DOI: 10.1001/jama.280.3.231. Ausbildungszusammenhänge werden auf nachgewiesene Einordnungsfähigkeit und fachübergreifende Reviews übertragen; korrekte Urteile oder Umsetzung sind damit nicht garantiert."
