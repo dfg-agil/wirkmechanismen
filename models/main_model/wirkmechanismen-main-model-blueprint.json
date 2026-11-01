@@ -4869,6 +4869,23 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
+      "attributes": {
+        "label": "Nachnutzbarkeit gemeinsamer Forschungsergebnisse",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Technik",
+          "Organisation",
+          "taktisch",
+          "operativ"
+        ],
+        "description": "Eignung gemeinsam erarbeiteter Daten, Methoden, Software oder anderer Ergebnisartefakte für eine spätere Verwendung durch fachkundige Dritte. Maßgeblich sind ausreichende Dokumentation, nachvollziehbare Herkunft, zugängliche erforderliche Bestandteile und geklärte Nutzungsbedingungen für benannte Nachnutzungszwecke.\n\nQuelle: Wilkinson, M. D. et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. DOI: 10.1038/sdata.2016.18.\n\nBeurteilung: artefakt- und zweckbezogenes Prüfprofil mit fachkundigen Dritten; noch zu pilotieren. Messbarkeit 0.5: Operationalisierung und Vergleichbarkeit zwischen Szenarien sind noch zu prüfen. Beeinflussbarkeit 0.5: Ergebnisgestaltung und Bereitstellung liegen teilweise im Projektmandat; Rechte, externe Abhängigkeiten und spätere Anforderungen begrenzen den Einfluss.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13249,39 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-nachnutzbarkeit-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Reviews können die Nachnutzbarkeit erhöhen, wenn sie Nachnutzungshürden prüfen und fachlich vertretbare Korrekturen tatsächlich umgesetzt werden. Grundlage: Peer et al. (2014), S. 266–271; Marsolek et al. (2023), Ergebnisse, Abb. 3–4. Die Übertragung kuratorischer Datenreviews auf allgemeine Reviewqualität und unterschiedliche Forschungsartefakte bleibt eine Annahme; reine Prüfung genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-nachnutzbarkeit-002",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Externalisierung kann die Nachnutzbarkeit erhöhen, wenn zuvor implizite Herstellungsannahmen und Anwendungsgrenzen geklärt und für fachkundige Dritte im Ergebnisartefakt nutzbar gemacht werden. Grundlage: Hoeppe (2021), Abschn. 3.4 und 4.1. Die Übertragung der beobachteten Kataloggestaltung auf den allgemeinen Externalisierungsfaktor und andere Artefaktarten bleibt eine Annahme; bloße Kommunikation im Ursprungsteam genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-nachnutzbarkeit-003",
+      "from": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
       }
     }
   ]
