@@ -273,7 +273,7 @@ Ziel: Sicherstellen, dass jedes im Modell akzeptierte Element bewertbar (messbar
   3. Informationsverarbeitung (Verstehen/Bewerten)
   4. Informationsspeicherung (Persistenz)
   5. Informationsnutzung (Entscheidung/Handlung)
-  6. Rahmenbedingungen (Kontext & Moderatoren)
+  6. Rahmenbedingungen (Kontext/Moderatoren)
   7. Ergebnisgrößen (Outcomes)
 
 ## Ergänzung: Zuordnung für Einflussfaktoren zu MTO und St. Galler Management Model (TAGS)
