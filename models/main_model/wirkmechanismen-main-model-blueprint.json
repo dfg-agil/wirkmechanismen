@@ -4871,6 +4871,13 @@
       }
     },
     {
+      "_id": "elem-ausmassDisziplinaererSprachbarrieren",
+      "attributes": {
+        "label": "Ausmaß disziplinärer Sprachbarrieren",
+        "element type": "Einflussfaktoren",
+        "description": "Fachsprachlich bedingte Verständigungsschwierigkeiten bei der gemeinsamen Forschungs- oder Entwicklungsarbeit. Dazu zählen Hürden durch unbekannte Fachausdrücke, abweichende Bedeutungen gleicher Begriffe und disziplinspezifische Ausdrucksweisen. Bewertet werden Häufigkeit und Schwere der daraus entstehenden Verständnisprobleme bei aufgabenrelevanten Beiträgen. Quellen: National Academies (2005), DOI: 10.17226/11153; Carlile (2002), DOI: 10.1287/orsc.13.4.442.2953. Messbarkeit 0.5: Verständnisprobleme sind strukturiert beobachtbar; verdeckte Fehlinterpretationen und unsichere Ursachenzuordnung begrenzen die Erfassung. Beeinflussbarkeit 0.5: durch Erläuterung und Anpassung fachlicher Darstellungen mittelbar veränderbar, abhängig von Vorwissen und Spezialisierung. Häufigkeit und Schwere werden getrennt beurteilt.",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": ["Mensch", "operativ"],
       "_id": "elem-transparenzDisziplinaererGrundannahmen",
       "attributes": {
         "label": "Transparenz disziplinärer Grundannahmen",
@@ -13268,6 +13275,20 @@
       }
     },
     {
+      "_id": "conn-sprachbarrieren-001",
+      "from": "elem-gdWissAust01",
+      "to": "elem-ausmassDisziplinaererSprachbarrieren",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Aufgabenbezogener Wissensaustausch kann disziplinäre Sprachbarrieren verringern, wenn Beteiligte Bedeutungen anhand gemeinsamer Beispiele und Rückfragen tatsächlich abstimmen. Quelle: Bechky (2003), S. 324–325, DOI: 10.1287/orsc.14.3.312.15162. Übertragung von Berufsgruppen auf Disziplinen; mehr Austausch oder bloß häufiger erkannte Missverständnisse belegen keine Verringerung."
+      }
+    },
+    {
+      "_id": "conn-sprachbarrieren-003",
+      "from": "elem-ausmassDisziplinaererSprachbarrieren",
+      "to": "elem-koordin001",
       "_id": "conn-grundannahmen-001",
       "from": "elem-externalisierungAnnahmen",
       "to": "elem-transparenzDisziplinaererGrundannahmen",
@@ -13356,6 +13377,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Disziplinäre Sprachbarrieren können den Koordinationsaufwand erhöhen, wenn fachsprachliche Fehlinterpretationen zusätzliche Rückfragen, Erläuterungen oder erneute Abstimmungen erfordern. Quelle: Bechky (2003), S. 324, DOI: 10.1287/orsc.14.3.312.15162. Die Übertragung beobachteter Klärungssequenzen auf den gesamten Koordinationsaufwand bleibt eine Annahme; unbemerkte Probleme erzeugen nicht zwangsläufig sofortigen Mehraufwand."
         "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
         "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn die Aufgabe unterschiedliche Sichtweisen erfordert und relevante Beiträge vertieft verarbeitet und integriert werden. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; Vielfalt allein garantiert keine Leistungssteigerung."
         "description": "Ergänzende Expertise kann die Ergebniswirksamkeit der Kollaboration erhöhen, wenn Beiträge zugänglich sind, gemeinsam geplant, angemessen gewichtet und tatsächlich integriert werden. Quelle: Woolley et al. (2008), S. 365–368, DOI: 10.1177/1046496408317792. Die Übertragung kognitiver Spezialfähigkeiten auf disziplinäre Komplementarität bleibt eine Annahme; aus Ergänzungspotenzial allein folgt kein gesicherter Ergebnisvorteil."
