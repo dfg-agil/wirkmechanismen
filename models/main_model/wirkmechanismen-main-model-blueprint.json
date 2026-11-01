@@ -4871,6 +4871,10 @@
       }
     },
     {
+      "_id": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "attributes": {
+        "label": "Grad der formalen Anerkennung interdisziplinärer Beiträge in institutionellen Bewertungssystemen",
+        "description": "Umfang, in dem die geltenden institutionellen Kriterien für Leistungsbewertung, Karriereentscheidungen und Ressourcenvergabe fachübergreifende Forschungs- und Integrationsbeiträge ausdrücklich berücksichtigen. Beurteilt werden dokumentierte Regeln und deren vorgesehene Gewichtung. Tatsächliche Anwendung und subjektiv erlebte Anerkennung werden gesondert betrachtet.\n\nQuelle: National Academy of Sciences, National Academy of Engineering und Institute of Medicine (2005), Facilitating Interdisciplinary Research, Kap. 5, Abschnitt „The Academic Reward System“, DOI: 10.17226/11153. Beurteilung durch strukturierte Dokumentenanalyse geltender Regelversionen mit getrennter Erfassung von Beitragsarten, Nachweisen und Gewichtungen. Messbarkeit 0.5: Auslegung und institutionelle Vergleichbarkeit erfordern fachliche Beurteilung. Beeinflussbarkeit 0 ausschließlich im Szenario eines Projektteams ohne relevantes Änderungsmandat innerhalb der Projektlaufzeit; keine Aussage über die grundsätzliche Veränderbarkeit institutioneller Regeln.",
       "_id": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
       "attributes": {
         "label": "Stabilität der projektbezogenen Ressourcenversorgung",
@@ -4879,6 +4883,11 @@
         "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
         "tags": [
           "Organisation",
+          "normativ",
+          "strategisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0
           "strategisch",
           "taktisch"
         ],
@@ -13358,6 +13367,9 @@
       }
     },
     {
+      "_id": "conn-formaleAnerkennung-003",
+      "from": "elem-1fahG9AM",
+      "to": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
       "_id": "conn-ressourcenstabilitaet-001",
       "from": "elem-Q3uEEe5Q",
       "to": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
@@ -13486,6 +13498,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Institutionelle Prozessverbesserung kann die formale Anerkennung interdisziplinärer Beiträge erhöhen, wenn Bewertungsregeln ausdrücklich überprüft, Anerkennungslücken als Änderungsziel behandelt und Revisionen zuständig beschlossen werden. Grundlage: Klein und Falk-Krzesinski (2017), Tabelle 1; Rosario-Moore et al. (2025), Policy Change Process und Abbildung 2. Die Übertragung auf einen allgemeinen Verbesserungsgrad bleibt eine bedingte Annahme."
+      }
+    },
+    {
+      "_id": "conn-formaleAnerkennung-004",
+      "from": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "to": "elem-gdWissAust01",
         "description": "Kurzfristige Bereitstellung geeigneter Ersatzgeräte oder Infrastrukturleistungen kann ungeplante Versorgungslücken verkürzen, wenn Ersatz tatsächlich nutzbar, kompatibel und rechtzeitig verfügbar ist. Tomlin (2006), S. 642–643 und 650, DOI: 10.1287/mnsc.1060.0515. Die Übertragung des Lieferkettenmodells auf Projektinfrastruktur bleibt eine Annahme; ursprüngliche Ausfälle werden weiterhin dokumentiert. Keine automatische Übertragung auf Finanzmittel oder Personal."
       }
     },
@@ -13557,6 +13576,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Formale Anerkennung kann Wissensaustausch fördern, wenn geteilte fachübergreifende Beiträge ausdrücklich zählen, Kriterien bekannt sind und ihre faire Anwendung glaubwürdig erwartet wird. Grundlage: Meurer et al. (2023), Tabelle 1; Bartol und Srivastava (2002), theoretischer Abstract; Taylor (2006), experimenteller Abstract. Die Übertragung auf akademische Bewertungssysteme bleibt eine Annahme; bloße Regeltexte garantieren keinen Austausch."
         "description": "Stabile Ressourcenversorgung kann die Einhaltung vereinbarter Projektfristen unterstützen, wenn Versorgungslücken terminrelevante Aufgaben betreffen und nicht anderweitig kompensiert werden. Ogbeifun und Pretorius (2022), S. 100–101, DOI: 10.2478/emj-2022-0008. Die Übertragung qualitativer Befunde zu verzögerten Förderzahlungen auf allgemeine Versorgungslücken bleibt eine Annahme. Ressourcenbedarf, Ersatz, Zeitpuffer und andere Verzögerungsursachen sind getrennt zu berücksichtigen."
         "description": "Sachgerechte Forschungsanwendung kann bei Praxisentscheidungen eine ziel- und präferenzgerechte Wahl unterstützen, sofern belastbare Erkenntnisse, Kontextpassung und Abwägung vorliegen. Stacey et al. (2024), DOI: 10.1002/14651858.CD001431.pub6, Ergebnisse zur Werte-Wahl-Kongruenz. Der Befund betrifft kombinierte Entscheidungshilfen; die Übertragung bleibt theoretisch. Entscheidungsqualität ist unabhängig von Nutzung und Wissenszuwachs anhand vorab festgelegter Kriterien beim damaligen Informationsstand zu bewerten."
         "description": "Regelkonforme Feldbeschreibungen und Begriffszuordnungen können die Interpretation gemeinsamer Forschungsdaten erleichtern, wenn fachlich angemessene Schemata, zugängliche Begriffserklärungen und benötigter Kontext vorliegen. Rashid et al. (2020), Abschnitte 1 und 3.4, DOI: 10.1162/dint_a_00058. Die Wirkung eines höheren Konformitätsgrads bleibt eine Annahme; formale Einheitlichkeit allein garantiert weder richtiges Verständnis noch inhaltliche Vergleichbarkeit."
