@@ -4871,6 +4871,10 @@
       }
     },
     {
+      "_id": "elem-disziplinbezogeneEinflussasymmetrien",
+      "attributes": {
+        "label": "Ausmaß disziplinbezogener Einflussasymmetrien",
+        "description": "Ungleichverteilung des tatsächlichen Einflusses der vertretenen Disziplinen auf verbindliche Projektentscheidungen, Ressourcenverteilung und Sichtbarkeit gemeinsamer Ergebnisse. Bewertet werden Unterschiede im festgelegten Projektzeitraum. Ihre Begründung durch Aufgabenmandate, Expertise oder institutionellen Status wird gesondert untersucht.\n\nQuellen: Gray (2008), DOI: 10.1016/j.amepre.2008.03.037; Nembhard und Edmondson (2006), DOI: 10.1002/job.413. Beurteilung anhand getrennter Einflussprofile für Entscheidungen, Ressourcenverteilung und Ergebnissichtbarkeit. Messbarkeit 0.5: tatsächliche Einflussnahme und disziplinäre Zuordnung erfordern triangulierte Fallbeurteilung. Beeinflussbarkeit 0.5: projektseitige Entscheidungs- und Beteiligungsverfahren sind teilweise gestaltbar; externe Mandate und institutionelle Machtpositionen begrenzen dies. Ungleichverteilung wird nicht mit ungerechtfertigter Dominanz gleichgesetzt.",
       "_id": "elem-methodischeIntegrationshindernisse",
       "attributes": {
         "label": "Ausmaß methodischer Integrationshindernisse zwischen disziplinären Beiträgen",
@@ -4880,6 +4884,9 @@
         "tags": [
           "Mensch",
           "Organisation",
+          "strategisch",
+          "taktisch"
+        ],
           "taktisch",
           "operativ"
         ],
@@ -13379,6 +13386,9 @@
       }
     },
     {
+      "_id": "conn-einflussasymmetrien-001",
+      "from": "elem-ga15zxKL",
+      "to": "elem-disziplinbezogeneEinflussasymmetrien",
       "_id": "conn-methodischeIntegrationshindernisse-001",
       "from": "elem-reviewQualitaet",
       "to": "elem-methodischeIntegrationshindernisse",
@@ -13419,6 +13429,18 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
+        "description": "Delegierte Entscheidungsrechte können disziplinbezogene Einflussasymmetrien verringern, wenn sie zuvor einflussschwächere Disziplinen erreichen und praktisch nutzbar sind. Grundlage: Hays et al. (2022), Studie 2, Methodik. Untersucht wurden zugewiesene Machtstrukturen. Tatsächlich durchgeführte Delegation zwischen Disziplinen und deren Übergang in ausgeübten Einfluss sind zusätzliche Übertragungsannahmen; Delegation innerhalb der dominierenden Disziplin genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-einflussasymmetrien-004",
+      "from": "elem-disziplinbezogeneEinflussasymmetrien",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Disziplinbezogene Einflussasymmetrien können bei ausgeprägten Unterschieden im zugeschriebenen Respekt den tatsächlichen Wissensaustausch vermindern. Grundlage: Hays et al. (2022), Studien 1–2: selbstberichtete Austauschbreite beziehungsweise selbstberichtetes Wissensverbergen. Übertragungen auf Disziplinen und tatsächlichen Austausch bleiben Annahmen. Institutioneller Rang allein genügt nicht; bei geringer Statusdifferenzierung sind auch ausbleibende oder gegenläufige Effekte möglich."
         "description": "Fachübergreifende Reviews können methodische Integrationshindernisse verringern, wenn sie Gültigkeitsbereiche und Schnittstellen prüfen und vertretbare Korrekturen umgesetzt werden. Grundlage: MacLeod und Nagatsu (2016), S. 424–425. Die Übertragung beobachteter Modellkorrekturen auf Reviewqualität ist eine Annahme; bloße Diagnose oder zusätzliche Dokumentation zählt nicht als Hindernisabbau."
       }
     },
