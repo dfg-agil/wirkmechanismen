@@ -4871,6 +4871,9 @@
       }
     },
     {
+      "_id": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "attributes": {
+        "label": "Qualität disziplinübergreifender Synthese-Workshops",
       "_id": "elem-fachuebergreifendeMethodenkompetenz",
       "attributes": {
         "label": "Niveau der fachübergreifenden Methodenkompetenz",
@@ -4878,6 +4881,10 @@
         "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
         "tags": [
           "Mensch",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Methodische und organisatorische Beschaffenheit von Workshops zur gemeinsamen Bearbeitung disziplinärer Beiträge. Bewertet werden die Aufgabenpassung des Vorgehens, die fachlich angemessene Beteiligung, die explizite Bearbeitung fachlicher Schnittstellen und die Nachvollziehbarkeit dokumentierter Zwischenschritte. Der tatsächlich erreichte Integrationsgrad wird gesondert erfasst. Quelle: Lang et al. (2012), Transdisciplinary research in sustainability science: practice, principles, and challenges, DOI: 10.1007/s11625-011-0149-x. Beurteilung durch Beobachtung und Dokumentenprüfung als getrenntes Qualitätsprofil; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Bewertung; influenceability = 0.5 wegen gestaltbarer Durchführung bei begrenzter Kontrolle über Expertise, Beteiligung und Ressourcen.",
           "operativ",
           "taktisch"
         ],
@@ -13300,6 +13307,9 @@
       }
     },
     {
+      "_id": "conn-syntheseworkshops-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
       "_id": "conn-methodenkompetenz-001",
       "from": "elem-NmRVFhyA",
       "to": "elem-fachuebergreifendeMethodenkompetenz",
@@ -13415,6 +13425,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Psychologische Sicherheit kann die Qualität der Workshopdurchführung unterstützen, indem Beteiligte fachliche Grenzen, Rückfragen und Widersprüche ohne befürchtete Sanktionen einbringen. Voraussetzung sind passende Expertise und nutzbare Beteiligungsmöglichkeiten. Quelle: Edmondson (1999), S. 353–355, 366–367, DOI: 10.2307/2666999. Die Übertragung von Teamlernverhalten auf Synthese-Workshopqualität bleibt eine Annahme; Aufgabenpassung und Dokumentation sind damit nicht gesichert."
+      }
+    },
+    {
+      "_id": "conn-syntheseworkshops-002",
+      "from": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "to": "elem-gdWissAust01",
         "description": "Methodenbezogene Trainings mit angeleiteter kritischer Analyse und fachlichen Rückmeldungen können die Beurteilungsfähigkeit fördern, wenn Inhalte relevant sind und aktiv bearbeitet werden. Quelle: MacRae et al. (2004), Abstract, DOI: 10.1016/j.surg.2004.02.003. Der Transfer klinischer Studienbeurteilung auf fremddisziplinäre Methoden und auf allgemeine Trainingsqualität bleibt eine Annahme; Teilnahme allein genügt nicht."
       }
     },
@@ -13439,6 +13456,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Aufgabenpassende Moderation und die gezielte Bearbeitung fachlicher Schnittstellen können den Austausch disziplinären Wissens fördern, wenn Beteiligte ihre Beiträge erläutern und aufeinander beziehen. Quelle: Zimmermann und Curran (2023), S. 353–357, DOI: 10.1002/sdr.1743. Die qualitative Einzelfallanalyse belegt keinen allgemeinen Qualitätsgradienten; die Übertragung auf Synthese-Workshops bleibt eine Annahme. Bloße Anwesenheit genügt nicht."
         "description": "Fachübergreifende Methodenkompetenz kann methodenbezogene Analyse und begründete Rückmeldungen im Review verbessern, wenn sie tatsächlich eingesetzt wird und fachliche Kriterien, Informationen und Zeit verfügbar sind. Quelle: Black et al. (1998), S. 231–233, DOI: 10.1001/jama.280.3.231. Ausbildungszusammenhänge werden auf nachgewiesene Einordnungsfähigkeit und fachübergreifende Reviews übertragen; korrekte Urteile oder Umsetzung sind damit nicht garantiert."
         "description": "Disziplinübergreifende Wissensintegration kann Entscheidungen verbessern, wenn die Aufgabe verknüpfte Beiträge erfordert und deren fachliche Tragfähigkeit geprüft wird. Entscheidungsgüte wird unabhängig anhand vorab festgelegter Fachkriterien beurteilt. Quelle: Robert et al. (2008), S. 325–327, DOI: 10.1287/isre.1080.0177. Übertragung von Informationsnutzung auf disziplinäre Synthese bleibt Annahme; mehr Integration garantiert keine bessere Entscheidung."
         "description": "Offenlegung fachlicher Unsicherheiten kann Entscheidungen nach vorab festgelegten Ziel- und Kostenkriterien verbessern, wenn relevante Einschränkungen verstanden und handlungswirksam genutzt werden. Bewertet wird die Handlungswahl anhand der zum Entscheidungszeitpunkt verfügbaren Informationen, nicht des späteren Zufallsergebnisses. Quelle: Joslyn und LeClerc (2012), S. 128, 135, DOI: 10.1037/a0025185. Übertragung numerischer Prognosen auf fachübergreifende Entscheidungen bleibt Annahme."
