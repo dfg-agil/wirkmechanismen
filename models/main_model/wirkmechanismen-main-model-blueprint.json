@@ -4869,6 +4869,23 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-methodischeIntegrationshindernisse",
+      "attributes": {
+        "label": "Ausmaß methodischer Integrationshindernisse zwischen disziplinären Beiträgen",
+        "description": "Ausmaß, in dem methodische Voraussetzungen, Bezugsgrößen oder Gütekriterien disziplinärer Beiträge deren wissenschaftlich begründbare Verknüpfung für die gemeinsame Fragestellung erschweren. Der Faktor erfasst die daraus entstehenden Integrationshindernisse zum jeweiligen Arbeitsstand. Unterschiedliche Methoden oder widersprechende Befunde gelten allein noch nicht als Unvereinbarkeit.\n\nQuelle: Eigenbrode et al. (2007), Employing Philosophical Dialogue in Collaborative Science, BioScience 57(1), 55–64, DOI: 10.1641/B570109. Beurteilung anhand eines aufgabenbezogenen Hindernisprofils; wissenschaftlich unvertretbare Zusammenführung zählt nicht als Erfolg. Messbarkeit 0.5: fachkundige Beurteilung konkreter Verknüpfungen erforderlich. Beeinflussbarkeit 0.5: vertretbare Methoden- und Schnittstellenanpassungen können Hindernisse verringern; Gültigkeitsanforderungen und vorhandene Daten begrenzen dies.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "taktisch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13249,28 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-methodischeIntegrationshindernisse-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-methodischeIntegrationshindernisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Fachübergreifende Reviews können methodische Integrationshindernisse verringern, wenn sie Gültigkeitsbereiche und Schnittstellen prüfen und vertretbare Korrekturen umgesetzt werden. Grundlage: MacLeod und Nagatsu (2016), S. 424–425. Die Übertragung beobachteter Modellkorrekturen auf Reviewqualität ist eine Annahme; bloße Diagnose oder zusätzliche Dokumentation zählt nicht als Hindernisabbau."
+      }
+    },
+    {
+      "_id": "conn-methodischeIntegrationshindernisse-005",
+      "from": "elem-methodischeIntegrationshindernisse",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Methodische Integrationshindernisse können zusätzlichen Abstimmungsaufwand auslösen, solange eine gemeinsame Verknüpfung weiterverfolgt wird und Bezugsgrößen, Erhebungsdesigns oder Gültigkeitsanforderungen ausgehandelt werden müssen. Grundlage: Tobi und Kampen (2018), „Sampling design“; MacLeod und Nagatsu (2016), S. 428. Ein allgemeiner Aufwandsgradient bleibt eine Annahme; abgebrochene Integrationsversuche können weniger Abstimmung erzeugen."
       }
     }
   ]
