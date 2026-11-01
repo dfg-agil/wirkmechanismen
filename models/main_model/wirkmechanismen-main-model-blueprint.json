@@ -4871,6 +4871,10 @@
       }
     },
     {
+      "_id": "elem-standardisierungsgradMetadatenTerminologie",
+      "attributes": {
+        "label": "Standardisierungsgrad von Metadaten und Terminologie",
+        "description": "Forschungsdaten sind entsprechend festgelegter Metadatenschemata und kontrollierter Vokabulare beschrieben. Der Standardisierungsgrad bezeichnet die Einhaltung vereinbarter Felddefinitionen, Formate und Begriffszuordnungen innerhalb des gemeinsamen Datenbestands.\n\nQuellen: National Academies (2005), DOI: 10.17226/11153; Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.002. Beurteilung als getrenntes Konformitätsprofil gegen versionierte Schemata, Vokabulare und Zuordnungsregeln; fachliche Richtigkeit separat. Messbarkeit 1 setzt eindeutige, wiederholbar anwendbare Prüfregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt Grenzen durch Altdaten, Partneranforderungen und inkompatible Fachstandards.",
       "_id": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
       "attributes": {
         "label": "Nachvollziehbarkeit der Versionierung gemeinsamer Artefakte",
@@ -4878,6 +4882,10 @@
         "cluster": "Informationsspeicherung (Persistenz)",
         "tags": [
           "Technik",
+          "Organisation",
+          "operativ"
+        ],
+        "measurability": 1,
       "_id": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
       "attributes": {
         "label": "Verfügbarkeit fachübergreifender Übersetzungs- und Vermittlungsrollen",
@@ -13326,6 +13334,9 @@
       }
     },
     {
+      "_id": "conn-metadatenstandardisierung-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-standardisierungsgradMetadatenTerminologie",
       "_id": "conn-versionierungsnachvollziehbarkeit-001",
       "from": "elem-kollabArtefaktInfra",
       "to": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
@@ -13464,6 +13475,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann Standardkonformität fördern, wenn gemeinsam genutzte Metadatenwerkzeuge passende Schemata, kontrollierte Vokabulare und Prüfungen unterstützen und tatsächlich eingesetzt werden. Musen et al. (2022), Abschnitte zu CEDAR und FAIRware, DOI: 10.1038/s41597-022-01815-3. Die Übertragung auf Infrastrukturverfügbarkeit bleibt bedingt; zulässige Werte gewährleisten keine fachlich richtigen Zuordnungen."
+      }
+    },
+    {
+      "_id": "conn-metadatenstandardisierung-002",
+      "from": "elem-standardisierungsgradMetadatenTerminologie",
+      "to": "elem-zBsDMddD",
         "description": "Psychologische Sicherheit kann die Qualität der Workshopdurchführung unterstützen, indem Beteiligte fachliche Grenzen, Rückfragen und Widersprüche ohne befürchtete Sanktionen einbringen. Voraussetzung sind passende Expertise und nutzbare Beteiligungsmöglichkeiten. Quelle: Edmondson (1999), S. 353–355, 366–367, DOI: 10.2307/2666999. Die Übertragung von Teamlernverhalten auf Synthese-Workshopqualität bleibt eine Annahme; Aufgabenpassung und Dokumentation sind damit nicht gesichert."
       }
     },
@@ -13495,6 +13513,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Regelkonforme Feldbeschreibungen und Begriffszuordnungen können die Interpretation gemeinsamer Forschungsdaten erleichtern, wenn fachlich angemessene Schemata, zugängliche Begriffserklärungen und benötigter Kontext vorliegen. Rashid et al. (2020), Abschnitte 1 und 3.4, DOI: 10.1162/dint_a_00058. Die Wirkung eines höheren Konformitätsgrads bleibt eine Annahme; formale Einheitlichkeit allein garantiert weder richtiges Verständnis noch inhaltliche Vergleichbarkeit."
         "description": "Nachvollziehbare Versionshistorien können die Analyse und begründete Rückmeldungen im Review unterstützen, wenn Prüfende auf relevante Stände und Änderungsgründe zugreifen und sie nutzen. Quelle: Ebert et al. (2021), Abschn. 3.2.4–3.2.5, DOI: 10.1007/s10664-020-09909-5. Die Übertragung von Befunden zu fehlender Änderungsbegründung bei Quellcode auf allgemeine Artefakthistorien und Reviewqualität bleibt eine Annahme; Fehlererkennung ist nicht garantiert."
         "description": "Verfügbare Vermittlungspersonen können den fachübergreifenden Wissensaustausch erleichtern, wenn sie tatsächlich angefragt werden, Zugang zu beiden Fachkontexten haben und Beiträge angemessen erläutern. Quelle: Cranefield und Yoong (2007), Abstract, DOI: 10.1504/IJKL.2007.012604. Die Übertragung aktiver Gatekeeper-Funktionen auf verfügbare disziplinübergreifende Kapazität bleibt eine Annahme; bloße Verfügbarkeit garantiert keinen Austausch."
         "description": "Aufgabenpassende Moderation und die gezielte Bearbeitung fachlicher Schnittstellen können den Austausch disziplinären Wissens fördern, wenn Beteiligte ihre Beiträge erläutern und aufeinander beziehen. Quelle: Zimmermann und Curran (2023), S. 353–357, DOI: 10.1002/sdr.1743. Die qualitative Einzelfallanalyse belegt keinen allgemeinen Qualitätsgradienten; die Übertragung auf Synthese-Workshops bleibt eine Annahme. Bloße Anwesenheit genügt nicht."
