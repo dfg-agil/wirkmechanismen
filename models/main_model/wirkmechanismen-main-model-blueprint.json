@@ -4871,6 +4871,18 @@
       }
     },
     {
+      "_id": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "attributes": {
+        "label": "Grad des Transfers von Forschungsergebnissen in Anwendungskontexte",
+        "description": "Umfang, in dem Forschungsergebnisse in festgelegten Praxisfeldern nachweisbar in Entscheidungen, Arbeitsabläufe, Produkte oder Dienstleistungen eingehen. Bewertet wird die tatsächliche Anwendung innerhalb eines definierten Beobachtungszeitraums.\n\nEigene Operationalisierung nach Bammer (2013), Kap. 17 und 22, DOI: 10.22459/DI.01.2013. Beurteilung als Anwendungsprofil mit Ergebnisbezug, Nutzungsart, Umfang und Nachweisgrenzen. Messbarkeit 0.5 berücksichtigt Kontextabhängigkeit und begrenzte Zuordenbarkeit. Beeinflussbarkeit 0.5 berücksichtigt Gestaltungsmöglichkeiten des Forschungsteams und externe Übernahmeentscheidungen. Anwendung und nachfolgender Nutzen werden getrennt bewertet.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "strategisch",
+          "operativ"
+        ],
       "_id": "elem-standardisierungsgradMetadatenTerminologie",
       "attributes": {
         "label": "Standardisierungsgrad von Metadaten und Terminologie",
@@ -13334,6 +13346,9 @@
       }
     },
     {
+      "_id": "conn-forschungstransfer-001",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-transferForschungsergebnisseAnwendungskontexte",
       "_id": "conn-metadatenstandardisierung-001",
       "from": "elem-kollabArtefaktInfra",
       "to": "elem-standardisierungsgradMetadatenTerminologie",
@@ -13417,6 +13432,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Adressatengerechte Kommunikation kann Forschungsanwendung erleichtern, wenn Erkenntnisse relevant und Handlungsmöglichkeiten vorhanden sind. Dobbins et al. (2009), DOI: 10.1186/1748-5908-4-61, berichten mehr selbstberichtete Umsetzung evidenzgestützter Programme, nicht nachgewiesene Nutzung konkreter Forschungsergebnisse. Die Übertragung auf tatsächliche Forschungsanwendung bleibt eine theoretisch begründete Annahme und erfordert fallbezogene Nutzungsnachweise."
+      }
+    },
+    {
+      "_id": "conn-forschungstransfer-002",
+      "from": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "to": "elem-NmSn5Afu",
         "description": "Gemeinsame, aufgabenangemessene mentale Modelle können die Verknüpfung disziplinärer Beiträge erleichtern, indem sie deren Einordnung unterstützen. Quelle: Robert et al. (2008), S. 324–327, DOI: 10.1287/isre.1080.0177. Übertragung von Modellähnlichkeit und Informationsnutzung auf disziplinäre Wissensintegration; Einigkeit allein genügt nicht."
       }
     },
@@ -13513,6 +13535,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Sachgerechte Forschungsanwendung kann bei Praxisentscheidungen eine ziel- und präferenzgerechte Wahl unterstützen, sofern belastbare Erkenntnisse, Kontextpassung und Abwägung vorliegen. Stacey et al. (2024), DOI: 10.1002/14651858.CD001431.pub6, Ergebnisse zur Werte-Wahl-Kongruenz. Der Befund betrifft kombinierte Entscheidungshilfen; die Übertragung bleibt theoretisch. Entscheidungsqualität ist unabhängig von Nutzung und Wissenszuwachs anhand vorab festgelegter Kriterien beim damaligen Informationsstand zu bewerten."
         "description": "Regelkonforme Feldbeschreibungen und Begriffszuordnungen können die Interpretation gemeinsamer Forschungsdaten erleichtern, wenn fachlich angemessene Schemata, zugängliche Begriffserklärungen und benötigter Kontext vorliegen. Rashid et al. (2020), Abschnitte 1 und 3.4, DOI: 10.1162/dint_a_00058. Die Wirkung eines höheren Konformitätsgrads bleibt eine Annahme; formale Einheitlichkeit allein garantiert weder richtiges Verständnis noch inhaltliche Vergleichbarkeit."
         "description": "Nachvollziehbare Versionshistorien können die Analyse und begründete Rückmeldungen im Review unterstützen, wenn Prüfende auf relevante Stände und Änderungsgründe zugreifen und sie nutzen. Quelle: Ebert et al. (2021), Abschn. 3.2.4–3.2.5, DOI: 10.1007/s10664-020-09909-5. Die Übertragung von Befunden zu fehlender Änderungsbegründung bei Quellcode auf allgemeine Artefakthistorien und Reviewqualität bleibt eine Annahme; Fehlererkennung ist nicht garantiert."
         "description": "Verfügbare Vermittlungspersonen können den fachübergreifenden Wissensaustausch erleichtern, wenn sie tatsächlich angefragt werden, Zugang zu beiden Fachkontexten haben und Beiträge angemessen erläutern. Quelle: Cranefield und Yoong (2007), Abstract, DOI: 10.1504/IJKL.2007.012604. Die Übertragung aktiver Gatekeeper-Funktionen auf verfügbare disziplinübergreifende Kapazität bleibt eine Annahme; bloße Verfügbarkeit garantiert keinen Austausch."
