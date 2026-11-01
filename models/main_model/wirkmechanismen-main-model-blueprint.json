@@ -4871,6 +4871,307 @@
       }
     },
     {
+      "_id": "elem-komplementaritaetDisziplinaererExpertise",
+      "attributes": {
+        "label": "Komplementarität der disziplinären Expertise",
+        "description": "Ausmaß, in dem die im Team vorhandenen theoretischen und methodischen Fachkompetenzen verschiedener Disziplinen einander bei der Bearbeitung einer gemeinsamen Entwicklungsaufgabe ergänzen. Bewertet wird das aufgabenbezogene Ergänzungspotenzial der Kompetenzprofile. Die tatsächliche Integration der Beiträge, die Zahl vertretener Disziplinen und das individuelle Kompetenzniveau sind davon zu unterscheiden. Quelle: National Research Council (2015), Enhancing the Effectiveness of Team Science, Kap. 4, S. 81–96, insbesondere S. 91–92, DOI: 10.17226/19007. Messbarkeit 0.5: anhand von Aufgaben- und Kompetenzprofilen strukturiert, aber fachlich urteilsabhängig beurteilbar. Beeinflussbarkeit 0.5: durch Teambesetzung und Kompetenzentwicklung veränderbar, unter personellen und organisatorischen Grenzen.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": ["Mensch", "strategisch"],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-vielfaltDisziplinaererPerspektiven",
+      "attributes": {
+        "label": "Vielfalt disziplinärer Perspektiven",
+        "description": "Bandbreite der disziplinär geprägten Sichtweisen, die in die gemeinsame Bearbeitung einer Entwicklungsaufgabe eingebracht werden. Unterschiede können sich auf die Deutung des Problems, theoretische Annahmen, methodische Zugänge und fachliche Bewertungsmaßstäbe beziehen. Erfasst wird die inhaltliche Verschiedenheit dieser Sichtweisen. Ihre ergänzende Passung und tatsächliche Integration werden gesondert betrachtet. Quellen: National Academies (2005), DOI: 10.17226/11153; Pohl und Hirsch Hadorn (2008), S. 114, DOI: 10.1051/nss:2008035. Messbarkeit 0.5: strukturierte qualitative Inhaltsanalyse möglich, fachliche Interpretation erforderlich. Beeinflussbarkeit 0.5: durch Auswahl und tatsächliche Einbindung von Beteiligten mittelbar veränderbar, abhängig von vorhandenen Sichtweisen und ihrer Äußerung.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-qualitaetDisziplinaererEingangsdaten",
+      "attributes": {
+        "label": "Qualität disziplinärer Eingangsdaten",
+        "description": "Ausmaß, in dem die von den beteiligten Disziplinen eingebrachten Daten und empirischen Befunde nach den jeweils einschlägigen fachlichen Gütekriterien belastbar und für die gemeinsame Entwicklungsaufgabe geeignet sind. Bewertet werden insbesondere die Angemessenheit von Erhebung und Aufbereitung, aufgabenbezogene Vollständigkeit und Aktualität sowie die nachvollziehbare Dokumentation von Herkunft, Verarbeitung und Unsicherheiten. Quelle: Wang und Strong (1996), DOI: 10.1080/07421222.1996.11518099. Beurteilung anhand eines aufgabenbezogenen Qualitätsprofils; keine unbegründete Gesamtskala oder Gewichtung. Messbarkeit 0.5: dokumentierte Qualitätsprüfungen ermöglichen eine strukturierte, fachlich urteilsabhängige Bewertung. Beeinflussbarkeit 0.5: durch Auswahl, Korrektur und Aufbereitung mittelbar veränderbar, begrenzt durch verfügbare Daten und Erhebungsbedingungen.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": [
+          "Mensch",
+          "Technik",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-transparenzDisziplinaererGrundannahmen",
+      "attributes": {
+        "label": "Transparenz disziplinärer Grundannahmen",
+        "description": "Ausmaß, in dem die für die gemeinsame Entwicklungsaufgabe relevanten theoretischen, erkenntnistheoretischen und methodischen Grundannahmen sowie zugrunde liegende Wertmaßstäbe der Beteiligten offengelegt sind. Bewertet wird, ob diese Annahmen ihren fachlichen Beiträgen zugeordnet und mit ihren Begründungen, Voraussetzungen und Geltungsgrenzen nachvollziehbar dargestellt sind. Quelle: Eigenbrode et al. (2007), DOI: 10.1641/B570109. Messbarkeit 0.5: dokumentierte Offenlegung ist strukturiert fachlich beurteilbar; unbekannte oder unbewusste Annahmen begrenzen die Erfassbarkeit. Beeinflussbarkeit 0.5: durch Reflexion und explizite Darstellung mittelbar veränderbar, abhängig von Erkennen und Offenlegen eigener Grundannahmen. Vollständige Erfassung wird nicht unterstellt.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-ausmassDisziplinaererSprachbarrieren",
+      "attributes": {
+        "label": "Ausmaß disziplinärer Sprachbarrieren",
+        "element type": "Einflussfaktoren",
+        "description": "Fachsprachlich bedingte Verständigungsschwierigkeiten bei der gemeinsamen Forschungs- oder Entwicklungsarbeit. Dazu zählen Hürden durch unbekannte Fachausdrücke, abweichende Bedeutungen gleicher Begriffe und disziplinspezifische Ausdrucksweisen. Bewertet werden Häufigkeit und Schwere der daraus entstehenden Verständnisprobleme bei aufgabenrelevanten Beiträgen. Quellen: National Academies (2005), DOI: 10.17226/11153; Carlile (2002), DOI: 10.1287/orsc.13.4.442.2953. Messbarkeit 0.5: Verständnisprobleme sind strukturiert beobachtbar; verdeckte Fehlinterpretationen und unsichere Ursachenzuordnung begrenzen die Erfassung. Beeinflussbarkeit 0.5: durch Erläuterung und Anpassung fachlicher Darstellungen mittelbar veränderbar, abhängig von Vorwissen und Spezialisierung. Häufigkeit und Schwere werden getrennt beurteilt.",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-offenlegungFachlicherUnsicherheiten",
+      "attributes": {
+        "label": "Grad der Offenlegung fachlicher Unsicherheiten",
+        "element type": "Einflussfaktoren",
+        "description": "Sichtbarkeit der den Beteiligten bekannten offenen Fragen, Evidenzgrenzen und methodischen Unsicherheiten in der fachübergreifenden Kommunikation. Bewertet wird, ob diese Einschränkungen gegenüber den betroffenen Disziplinen ausdrücklich benannt und den zugehörigen Aussagen oder Ergebnissen zugeordnet sind. Quelle: Edmondson (1999), DOI: 10.2307/2666999. Messbarkeit 0.5: Offenlegungen sind beobachtbar; bekannte, aber verschwiegene Unsicherheiten bleiben schwer erfassbar. Beeinflussbarkeit 0.5: durch Kommunikationsroutinen und Verhalten mittelbar veränderbar, abhängig von sozialen Risiken und individueller Zurückhaltung.",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-disziplinuebergreifendeWissensintegration",
+      "attributes": {
+        "label": "Grad der disziplinübergreifenden Wissensintegration",
+        "element type": "Einflussfaktoren",
+        "description": "Verknüpfung aufgabenrelevanter Theorien, Konzepte, Methoden und Befunde verschiedener Disziplinen zu einem fachübergreifenden Erklärungs-, Untersuchungs- oder Lösungszusammenhang. Bewertet wird, in welchem Umfang die Beiträge aufeinander bezogen werden und gemeinsam zur Bearbeitung der Aufgabe beitragen. Ein bloßes Nebeneinander disziplinärer Teilergebnisse stellt noch keine Integration dar. Quellen: National Academies (2005), DOI: 10.17226/11153; Klein (2008), DOI: 10.1016/j.amepre.2008.05.010. Messbarkeit 0.5: Arbeitsergebnisse sind fachlich beurteilbar; erforderlich ist ein aufgabenbezogenes Bewertungsraster. Beeinflussbarkeit 0.5: Zusammenarbeit und Methoden sind gestaltbar, fachliche Vereinbarkeit und vorhandene Expertise begrenzen die Steuerbarkeit. Integrationsgrad und Ergebnisqualität werden getrennt beurteilt.",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "taktisch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-fachuebergreifendeMethodenkompetenz",
+      "attributes": {
+        "label": "Niveau der fachübergreifenden Methodenkompetenz",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Fähigkeit der Beteiligten, für ihre Zusammenarbeit relevante Methoden anderer Disziplinen hinsichtlich Zweck, Voraussetzungen, Vorgehen und Aussagegrenzen einzuordnen. Dazu gehört, fachlich begründete Rückfragen zu stellen und die Eignung der Methoden für die gemeinsame Aufgabe einzuschätzen. Eine selbstständige Durchführung sämtlicher fachfremder Methoden wird damit nicht vorausgesetzt. Quelle: National Academies (2005), Facilitating Interdisciplinary Research, DOI: 10.17226/11153. Beurteilung durch individuelle aufgabenbezogene Fallaufgaben; Test und Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen erforderlicher fachlicher Bewertung; influenceability = 0.5 wegen gestaltbaren Lernens bei begrenztem Vorwissen, Lernzeit und verfügbarer Expertise.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "attributes": {
+        "label": "Qualität disziplinübergreifender Synthese-Workshops",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Methodische und organisatorische Beschaffenheit von Workshops zur gemeinsamen Bearbeitung disziplinärer Beiträge. Bewertet werden die Aufgabenpassung des Vorgehens, die fachlich angemessene Beteiligung, die explizite Bearbeitung fachlicher Schnittstellen und die Nachvollziehbarkeit dokumentierter Zwischenschritte. Der tatsächlich erreichte Integrationsgrad wird gesondert erfasst. Quelle: Lang et al. (2012), Transdisciplinary research in sustainability science: practice, principles, and challenges, DOI: 10.1007/s11625-011-0149-x. Beurteilung durch Beobachtung und Dokumentenprüfung als getrenntes Qualitätsprofil; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Bewertung; influenceability = 0.5 wegen gestaltbarer Durchführung bei begrenzter Kontrolle über Expertise, Beteiligung und Ressourcen.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "attributes": {
+        "label": "Verfügbarkeit fachübergreifender Übersetzungs- und Vermittlungsrollen",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "taktisch"
+        ],
+        "description": "Für fachliche Verständigungsbedarfe stehen erreichbare Personen mit geeigneten disziplinübergreifenden Kenntnissen, zeitlichen Kapazitäten und geklärter Zuständigkeit zur Verfügung. Ihre Vermittlungsfunktion umfasst Unterschiede zwischen fachlichen Begriffen, Modellen und Bewertungsmaßstäben. Quelle: Long, Cunningham und Braithwaite (2013), Bridges, brokers and boundary spanners in collaborative networks: a systematic review, DOI: 10.1186/1472-6963-13-158. Beurteilung durch ein bedarfsbezogenes Profil aus fachlicher Eignung, Erreichbarkeit, nutzbarer Zeit und Zuständigkeit; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Passungsbeurteilung; influenceability = 0.5 wegen gestaltbarer Zuständigkeiten und Zeitbudgets bei begrenzter Personalverfügbarkeit.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "attributes": {
+        "label": "Nachvollziehbarkeit der Versionierung gemeinsamer Artefakte",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsspeicherung (Persistenz)",
+        "tags": [
+          "Technik",
+          "Mensch",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Die Entwicklung gemeinsamer Dokumente, Modelle und Software ist über eindeutig bezeichnete Versionen rekonstruierbar. Frühere Stände, Änderungen, Zeitpunkte, Urheberschaft und dokumentierte Änderungsgründe lassen sich den jeweils betroffenen Artefakten zuordnen. Quelle: Wilson et al. (2014), Best Practices for Scientific Computing, DOI: 10.1371/journal.pbio.1001745. Beurteilung durch strukturierte Artefakt- und Änderungsstichproben; technische Rekonstruierbarkeit und Verständlichkeit der Änderungsgründe werden getrennt bewertet. Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Beurteilung unterschiedlicher Artefakttypen; influenceability = 0.5 wegen gestaltbarer Regeln und Werkzeuge bei Grenzen durch bestehende Historienlücken, Berechtigungen und Beiträge Dritter.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-standardisierungsgradMetadatenTerminologie",
+      "attributes": {
+        "label": "Standardisierungsgrad von Metadaten und Terminologie",
+        "description": "Forschungsdaten sind entsprechend festgelegter Metadatenschemata und kontrollierter Vokabulare beschrieben. Der Standardisierungsgrad bezeichnet die Einhaltung vereinbarter Felddefinitionen, Formate und Begriffszuordnungen innerhalb des gemeinsamen Datenbestands.\n\nQuellen: National Academies (2005), DOI: 10.17226/11153; Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.002. Beurteilung als getrenntes Konformitätsprofil gegen versionierte Schemata, Vokabulare und Zuordnungsregeln; fachliche Richtigkeit separat. Messbarkeit 1 setzt eindeutige, wiederholbar anwendbare Prüfregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt Grenzen durch Altdaten, Partneranforderungen und inkompatible Fachstandards.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsspeicherung (Persistenz)",
+        "tags": [
+          "Technik",
+          "Organisation",
+          "operativ"
+        ],
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "attributes": {
+        "label": "Grad des Transfers von Forschungsergebnissen in Anwendungskontexte",
+        "description": "Umfang, in dem Forschungsergebnisse in festgelegten Praxisfeldern nachweisbar in Entscheidungen, Arbeitsabläufe, Produkte oder Dienstleistungen eingehen. Bewertet wird die tatsächliche Anwendung innerhalb eines definierten Beobachtungszeitraums.\n\nEigene Operationalisierung nach Bammer (2013), Kap. 17 und 22, DOI: 10.22459/DI.01.2013. Beurteilung als Anwendungsprofil mit Ergebnisbezug, Nutzungsart, Umfang und Nachweisgrenzen. Messbarkeit 0.5 berücksichtigt Kontextabhängigkeit und begrenzte Zuordenbarkeit. Beeinflussbarkeit 0.5 berücksichtigt Gestaltungsmöglichkeiten des Forschungsteams und externe Übernahmeentscheidungen. Anwendung und nachfolgender Nutzen werden getrennt bewertet.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "strategisch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
+      "attributes": {
+        "label": "Stabilität der projektbezogenen Ressourcenversorgung",
+        "description": "Beständigkeit der für das Projekt zugesagten Finanzmittel, Personalkapazitäten und Infrastrukturleistungen über einen festgelegten Zeitraum. Erfasst werden unerwartete Kürzungen, Ausfälle und Unterbrechungen im Verhältnis zum dokumentierten Ressourcenplan. Ressourcenarten werden getrennt ausgewiesen.\n\nQuelle: Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.003. Beurteilung als getrenntes Versorgungsprofil gegen einen versionierten Ressourcenplan einschließlich Ereignisnachweisen und dokumentierter Kompensation. Messbarkeit 1 setzt eindeutige Zusagen, Zeitbezüge und Zuordnungsregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt begrenzte Befugnisse gegenüber Förderern, Personalentscheidungen und externen Anbietern. Stabilität und bedarfsgerechte Ausstattung werden getrennt bewertet.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Organisation",
+          "strategisch",
+          "taktisch"
+        ],
+        "measurability": 1,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "attributes": {
+        "label": "Grad der formalen Anerkennung interdisziplinärer Beiträge in institutionellen Bewertungssystemen",
+        "description": "Umfang, in dem die geltenden institutionellen Kriterien für Leistungsbewertung, Karriereentscheidungen und Ressourcenvergabe fachübergreifende Forschungs- und Integrationsbeiträge ausdrücklich berücksichtigen. Beurteilt werden dokumentierte Regeln und deren vorgesehene Gewichtung. Tatsächliche Anwendung und subjektiv erlebte Anerkennung werden gesondert betrachtet.\n\nQuelle: National Academy of Sciences, National Academy of Engineering und Institute of Medicine (2005), Facilitating Interdisciplinary Research, Kap. 5, Abschnitt „The Academic Reward System“, DOI: 10.17226/11153. Beurteilung durch strukturierte Dokumentenanalyse geltender Regelversionen mit getrennter Erfassung von Beitragsarten, Nachweisen und Gewichtungen. Messbarkeit 0.5: Auslegung und institutionelle Vergleichbarkeit erfordern fachliche Beurteilung. Beeinflussbarkeit 0 ausschließlich im Szenario eines Projektteams ohne relevantes Änderungsmandat innerhalb der Projektlaufzeit; keine Aussage über die grundsätzliche Veränderbarkeit institutioneller Regeln.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Organisation",
+          "normativ",
+          "strategisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0
+      }
+    },
+    {
+      "_id": "elem-methodischeIntegrationshindernisse",
+      "attributes": {
+        "label": "Ausmaß methodischer Integrationshindernisse zwischen disziplinären Beiträgen",
+        "description": "Ausmaß, in dem methodische Voraussetzungen, Bezugsgrößen oder Gütekriterien disziplinärer Beiträge deren wissenschaftlich begründbare Verknüpfung für die gemeinsame Fragestellung erschweren. Der Faktor erfasst die daraus entstehenden Integrationshindernisse zum jeweiligen Arbeitsstand. Unterschiedliche Methoden oder widersprechende Befunde gelten allein noch nicht als Unvereinbarkeit.\n\nQuelle: Eigenbrode et al. (2007), Employing Philosophical Dialogue in Collaborative Science, BioScience 57(1), 55–64, DOI: 10.1641/B570109. Beurteilung anhand eines aufgabenbezogenen Hindernisprofils; wissenschaftlich unvertretbare Zusammenführung zählt nicht als Erfolg. Messbarkeit 0.5: fachkundige Beurteilung konkreter Verknüpfungen erforderlich. Beeinflussbarkeit 0.5: vertretbare Methoden- und Schnittstellenanpassungen können Hindernisse verringern; Gültigkeitsanforderungen und vorhandene Daten begrenzen dies.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "taktisch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-disziplinbezogeneEinflussasymmetrien",
+      "attributes": {
+        "label": "Ausmaß disziplinbezogener Einflussasymmetrien",
+        "description": "Ungleichverteilung des tatsächlichen Einflusses der vertretenen Disziplinen auf verbindliche Projektentscheidungen, Ressourcenverteilung und Sichtbarkeit gemeinsamer Ergebnisse. Bewertet werden Unterschiede im festgelegten Projektzeitraum. Ihre Begründung durch Aufgabenmandate, Expertise oder institutionellen Status wird gesondert untersucht.\n\nQuellen: Gray (2008), DOI: 10.1016/j.amepre.2008.03.037; Nembhard und Edmondson (2006), DOI: 10.1002/job.413. Beurteilung anhand getrennter Einflussprofile für Entscheidungen, Ressourcenverteilung und Ergebnissichtbarkeit. Messbarkeit 0.5: tatsächliche Einflussnahme und disziplinäre Zuordnung erfordern triangulierte Fallbeurteilung. Beeinflussbarkeit 0.5: projektseitige Entscheidungs- und Beteiligungsverfahren sind teilweise gestaltbar; externe Mandate und institutionelle Machtpositionen begrenzen dies. Ungleichverteilung wird nicht mit ungerechtfertigter Dominanz gleichgesetzt.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "strategisch",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "attributes": {
+        "label": "Neuartigkeitsgrad gemeinsamer Forschungsergebnisse",
+        "description": "Abweichung gemeinsam erarbeiteter Erklärungen, Methoden oder Lösungsansätze vom dokumentierten Stand einschlägigen Wissens und etablierter Lösungen. Bewertet werden neue Merkmale oder neue Verknüpfungen relativ zu einem festgelegten Referenzrahmen. Fachliche Qualität, Nutzen und tatsächliche Anwendung werden gesondert beurteilt. Quelle: Dean et al. (2006), Identifying Quality, Novel, and Creative Ideas, DOI: 10.17705/1jais.00106. Beurteilung konkreter Ergebnisse durch unabhängige Fachkundige gegenüber einem dokumentierten Referenzbestand und Stichtag. Messbarkeit 0.5: Rechercheabdeckung und Neuartigkeitsurteile bleiben kontextabhängig. Beeinflussbarkeit 0.5: Aufgabenwahl und kreative Zusammenarbeit sind gestaltbar, neue Erkenntnisse jedoch nicht garantierbar. Neuartigkeit, Qualität, Nutzen und Anwendung werden getrennt bewertet.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "strategisch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
+      "_id": "elem-zufriedenheitZusammenarbeitTeam",
+      "attributes": {
+        "label": "Zufriedenheit mit der Zusammenarbeit im Team",
+        "description": "Subjektive Gesamtbewertung der bisherigen Zusammenarbeit durch die Teammitglieder im festgelegten Projektzeitraum. Erfasst wird, wie zufrieden die Beteiligten mit ihrem Zusammenarbeitserleben sind. Individuelle Bewertungen und ihre Unterschiede bleiben sichtbar; eine gemeinsame Teamzufriedenheit wird nicht vorausgesetzt. Quelle: Behfar et al. (2008), DOI: 10.1037/0021-9010.93.1.170. Messvorschlag: anonyme, zeitraumbezogene Einzelbefragung mit getrennt ausgewiesenen Urteilsverteilungen; angepasste Items sind zu pilotieren. Messbarkeit 0.5: Operationalisierung, Sprachfassung und Vergleichbarkeit benötigen Prüfung. Beeinflussbarkeit 0.5: Team und zuständige Leitung können Arbeitsbedingungen und Konfliktbearbeitung gestalten, subjektive Bewertungen jedoch nicht garantieren.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
+    },
+    {
       "_id": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
       "attributes": {
         "label": "Nachnutzbarkeit gemeinsamer Forschungsergebnisse",
@@ -4883,162 +5184,6 @@
           "operativ"
         ],
         "description": "Eignung gemeinsam erarbeiteter Daten, Methoden, Software oder anderer Ergebnisartefakte für eine spätere Verwendung durch fachkundige Dritte. Maßgeblich sind ausreichende Dokumentation, nachvollziehbare Herkunft, zugängliche erforderliche Bestandteile und geklärte Nutzungsbedingungen für benannte Nachnutzungszwecke.\n\nQuelle: Wilkinson, M. D. et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Scientific Data, 3, 160018. DOI: 10.1038/sdata.2016.18.\n\nBeurteilung: artefakt- und zweckbezogenes Prüfprofil mit fachkundigen Dritten; noch zu pilotieren. Messbarkeit 0.5: Operationalisierung und Vergleichbarkeit zwischen Szenarien sind noch zu prüfen. Beeinflussbarkeit 0.5: Ergebnisgestaltung und Bereitstellung liegen teilweise im Projektmandat; Rechte, externe Abhängigkeiten und spätere Anforderungen begrenzen den Einfluss.",
-      "_id": "elem-zufriedenheitZusammenarbeitTeam",
-      "attributes": {
-        "label": "Zufriedenheit mit der Zusammenarbeit im Team",
-        "description": "Subjektive Gesamtbewertung der bisherigen Zusammenarbeit durch die Teammitglieder im festgelegten Projektzeitraum. Erfasst wird, wie zufrieden die Beteiligten mit ihrem Zusammenarbeitserleben sind. Individuelle Bewertungen und ihre Unterschiede bleiben sichtbar; eine gemeinsame Teamzufriedenheit wird nicht vorausgesetzt. Quelle: Behfar et al. (2008), DOI: 10.1037/0021-9010.93.1.170. Messvorschlag: anonyme, zeitraumbezogene Einzelbefragung mit getrennt ausgewiesenen Urteilsverteilungen; angepasste Items sind zu pilotieren. Messbarkeit 0.5: Operationalisierung, Sprachfassung und Vergleichbarkeit benötigen Prüfung. Beeinflussbarkeit 0.5: Team und zuständige Leitung können Arbeitsbedingungen und Konfliktbearbeitung gestalten, subjektive Bewertungen jedoch nicht garantieren.",
-      "_id": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
-      "attributes": {
-        "label": "Neuartigkeitsgrad gemeinsamer Forschungsergebnisse",
-        "description": "Abweichung gemeinsam erarbeiteter Erklärungen, Methoden oder Lösungsansätze vom dokumentierten Stand einschlägigen Wissens und etablierter Lösungen. Bewertet werden neue Merkmale oder neue Verknüpfungen relativ zu einem festgelegten Referenzrahmen. Fachliche Qualität, Nutzen und tatsächliche Anwendung werden gesondert beurteilt. Quelle: Dean et al. (2006), Identifying Quality, Novel, and Creative Ideas, DOI: 10.17705/1jais.00106. Beurteilung konkreter Ergebnisse durch unabhängige Fachkundige gegenüber einem dokumentierten Referenzbestand und Stichtag. Messbarkeit 0.5: Rechercheabdeckung und Neuartigkeitsurteile bleiben kontextabhängig. Beeinflussbarkeit 0.5: Aufgabenwahl und kreative Zusammenarbeit sind gestaltbar, neue Erkenntnisse jedoch nicht garantierbar. Neuartigkeit, Qualität, Nutzen und Anwendung werden getrennt bewertet.",
-      "_id": "elem-disziplinbezogeneEinflussasymmetrien",
-      "attributes": {
-        "label": "Ausmaß disziplinbezogener Einflussasymmetrien",
-        "description": "Ungleichverteilung des tatsächlichen Einflusses der vertretenen Disziplinen auf verbindliche Projektentscheidungen, Ressourcenverteilung und Sichtbarkeit gemeinsamer Ergebnisse. Bewertet werden Unterschiede im festgelegten Projektzeitraum. Ihre Begründung durch Aufgabenmandate, Expertise oder institutionellen Status wird gesondert untersucht.\n\nQuellen: Gray (2008), DOI: 10.1016/j.amepre.2008.03.037; Nembhard und Edmondson (2006), DOI: 10.1002/job.413. Beurteilung anhand getrennter Einflussprofile für Entscheidungen, Ressourcenverteilung und Ergebnissichtbarkeit. Messbarkeit 0.5: tatsächliche Einflussnahme und disziplinäre Zuordnung erfordern triangulierte Fallbeurteilung. Beeinflussbarkeit 0.5: projektseitige Entscheidungs- und Beteiligungsverfahren sind teilweise gestaltbar; externe Mandate und institutionelle Machtpositionen begrenzen dies. Ungleichverteilung wird nicht mit ungerechtfertigter Dominanz gleichgesetzt.",
-      "_id": "elem-methodischeIntegrationshindernisse",
-      "attributes": {
-        "label": "Ausmaß methodischer Integrationshindernisse zwischen disziplinären Beiträgen",
-        "description": "Ausmaß, in dem methodische Voraussetzungen, Bezugsgrößen oder Gütekriterien disziplinärer Beiträge deren wissenschaftlich begründbare Verknüpfung für die gemeinsame Fragestellung erschweren. Der Faktor erfasst die daraus entstehenden Integrationshindernisse zum jeweiligen Arbeitsstand. Unterschiedliche Methoden oder widersprechende Befunde gelten allein noch nicht als Unvereinbarkeit.\n\nQuelle: Eigenbrode et al. (2007), Employing Philosophical Dialogue in Collaborative Science, BioScience 57(1), 55–64, DOI: 10.1641/B570109. Beurteilung anhand eines aufgabenbezogenen Hindernisprofils; wissenschaftlich unvertretbare Zusammenführung zählt nicht als Erfolg. Messbarkeit 0.5: fachkundige Beurteilung konkreter Verknüpfungen erforderlich. Beeinflussbarkeit 0.5: vertretbare Methoden- und Schnittstellenanpassungen können Hindernisse verringern; Gültigkeitsanforderungen und vorhandene Daten begrenzen dies.",
-        "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
-        "tags": [
-          "Mensch",
-          "Organisation",
-          "strategisch",
-          "taktisch"
-        ],
-          "taktisch",
-          "operativ"
-        ],
-      "_id": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
-      "attributes": {
-        "label": "Grad der formalen Anerkennung interdisziplinärer Beiträge in institutionellen Bewertungssystemen",
-        "description": "Umfang, in dem die geltenden institutionellen Kriterien für Leistungsbewertung, Karriereentscheidungen und Ressourcenvergabe fachübergreifende Forschungs- und Integrationsbeiträge ausdrücklich berücksichtigen. Beurteilt werden dokumentierte Regeln und deren vorgesehene Gewichtung. Tatsächliche Anwendung und subjektiv erlebte Anerkennung werden gesondert betrachtet.\n\nQuelle: National Academy of Sciences, National Academy of Engineering und Institute of Medicine (2005), Facilitating Interdisciplinary Research, Kap. 5, Abschnitt „The Academic Reward System“, DOI: 10.17226/11153. Beurteilung durch strukturierte Dokumentenanalyse geltender Regelversionen mit getrennter Erfassung von Beitragsarten, Nachweisen und Gewichtungen. Messbarkeit 0.5: Auslegung und institutionelle Vergleichbarkeit erfordern fachliche Beurteilung. Beeinflussbarkeit 0 ausschließlich im Szenario eines Projektteams ohne relevantes Änderungsmandat innerhalb der Projektlaufzeit; keine Aussage über die grundsätzliche Veränderbarkeit institutioneller Regeln.",
-      "_id": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
-      "attributes": {
-        "label": "Stabilität der projektbezogenen Ressourcenversorgung",
-        "description": "Beständigkeit der für das Projekt zugesagten Finanzmittel, Personalkapazitäten und Infrastrukturleistungen über einen festgelegten Zeitraum. Erfasst werden unerwartete Kürzungen, Ausfälle und Unterbrechungen im Verhältnis zum dokumentierten Ressourcenplan. Ressourcenarten werden getrennt ausgewiesen.\n\nQuelle: Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.003. Beurteilung als getrenntes Versorgungsprofil gegen einen versionierten Ressourcenplan einschließlich Ereignisnachweisen und dokumentierter Kompensation. Messbarkeit 1 setzt eindeutige Zusagen, Zeitbezüge und Zuordnungsregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt begrenzte Befugnisse gegenüber Förderern, Personalentscheidungen und externen Anbietern. Stabilität und bedarfsgerechte Ausstattung werden getrennt bewertet.",
-        "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
-        "tags": [
-          "Organisation",
-          "normativ",
-          "strategisch"
-        ],
-        "measurability": 0.5,
-        "influenceability": 0
-          "strategisch",
-          "taktisch"
-        ],
-        "measurability": 1,
-      "_id": "elem-transferForschungsergebnisseAnwendungskontexte",
-      "attributes": {
-        "label": "Grad des Transfers von Forschungsergebnissen in Anwendungskontexte",
-        "description": "Umfang, in dem Forschungsergebnisse in festgelegten Praxisfeldern nachweisbar in Entscheidungen, Arbeitsabläufe, Produkte oder Dienstleistungen eingehen. Bewertet wird die tatsächliche Anwendung innerhalb eines definierten Beobachtungszeitraums.\n\nEigene Operationalisierung nach Bammer (2013), Kap. 17 und 22, DOI: 10.22459/DI.01.2013. Beurteilung als Anwendungsprofil mit Ergebnisbezug, Nutzungsart, Umfang und Nachweisgrenzen. Messbarkeit 0.5 berücksichtigt Kontextabhängigkeit und begrenzte Zuordenbarkeit. Beeinflussbarkeit 0.5 berücksichtigt Gestaltungsmöglichkeiten des Forschungsteams und externe Übernahmeentscheidungen. Anwendung und nachfolgender Nutzen werden getrennt bewertet.",
-        "element type": "Einflussfaktoren",
-        "cluster": "Ergebnisgrößen (Outcomes)",
-        "tags": [
-          "Mensch",
-          "operativ"
-        ],
-          "Organisation",
-          "strategisch",
-          "operativ"
-        ],
-      "_id": "elem-standardisierungsgradMetadatenTerminologie",
-      "attributes": {
-        "label": "Standardisierungsgrad von Metadaten und Terminologie",
-        "description": "Forschungsdaten sind entsprechend festgelegter Metadatenschemata und kontrollierter Vokabulare beschrieben. Der Standardisierungsgrad bezeichnet die Einhaltung vereinbarter Felddefinitionen, Formate und Begriffszuordnungen innerhalb des gemeinsamen Datenbestands.\n\nQuellen: National Academies (2005), DOI: 10.17226/11153; Stokols et al. (2008), DOI: 10.1016/j.amepre.2008.05.002. Beurteilung als getrenntes Konformitätsprofil gegen versionierte Schemata, Vokabulare und Zuordnungsregeln; fachliche Richtigkeit separat. Messbarkeit 1 setzt eindeutige, wiederholbar anwendbare Prüfregeln voraus. Beeinflussbarkeit 0.5 berücksichtigt Grenzen durch Altdaten, Partneranforderungen und inkompatible Fachstandards.",
-      "_id": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
-      "attributes": {
-        "label": "Nachvollziehbarkeit der Versionierung gemeinsamer Artefakte",
-        "element type": "Einflussfaktoren",
-        "cluster": "Informationsspeicherung (Persistenz)",
-        "tags": [
-          "Technik",
-          "Organisation",
-          "operativ"
-        ],
-        "measurability": 1,
-      "_id": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
-      "attributes": {
-        "label": "Verfügbarkeit fachübergreifender Übersetzungs- und Vermittlungsrollen",
-        "element type": "Einflussfaktoren",
-        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
-        "tags": [
-          "Mensch",
-          "Organisation",
-          "taktisch"
-        ],
-        "description": "Für fachliche Verständigungsbedarfe stehen erreichbare Personen mit geeigneten disziplinübergreifenden Kenntnissen, zeitlichen Kapazitäten und geklärter Zuständigkeit zur Verfügung. Ihre Vermittlungsfunktion umfasst Unterschiede zwischen fachlichen Begriffen, Modellen und Bewertungsmaßstäben. Quelle: Long, Cunningham und Braithwaite (2013), Bridges, brokers and boundary spanners in collaborative networks: a systematic review, DOI: 10.1186/1472-6963-13-158. Beurteilung durch ein bedarfsbezogenes Profil aus fachlicher Eignung, Erreichbarkeit, nutzbarer Zeit und Zuständigkeit; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Passungsbeurteilung; influenceability = 0.5 wegen gestaltbarer Zuständigkeiten und Zeitbudgets bei begrenzter Personalverfügbarkeit.",
-      "_id": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
-      "attributes": {
-        "label": "Qualität disziplinübergreifender Synthese-Workshops",
-      "_id": "elem-fachuebergreifendeMethodenkompetenz",
-      "attributes": {
-        "label": "Niveau der fachübergreifenden Methodenkompetenz",
-        "element type": "Einflussfaktoren",
-        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
-        "tags": [
-          "Mensch",
-          "Organisation",
-          "operativ"
-        ],
-        "description": "Die Entwicklung gemeinsamer Dokumente, Modelle und Software ist über eindeutig bezeichnete Versionen rekonstruierbar. Frühere Stände, Änderungen, Zeitpunkte, Urheberschaft und dokumentierte Änderungsgründe lassen sich den jeweils betroffenen Artefakten zuordnen. Quelle: Wilson et al. (2014), Best Practices for Scientific Computing, DOI: 10.1371/journal.pbio.1001745. Beurteilung durch strukturierte Artefakt- und Änderungsstichproben; technische Rekonstruierbarkeit und Verständlichkeit der Änderungsgründe werden getrennt bewertet. Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Beurteilung unterschiedlicher Artefakttypen; influenceability = 0.5 wegen gestaltbarer Regeln und Werkzeuge bei Grenzen durch bestehende Historienlücken, Berechtigungen und Beiträge Dritter.",
-        "description": "Methodische und organisatorische Beschaffenheit von Workshops zur gemeinsamen Bearbeitung disziplinärer Beiträge. Bewertet werden die Aufgabenpassung des Vorgehens, die fachlich angemessene Beteiligung, die explizite Bearbeitung fachlicher Schnittstellen und die Nachvollziehbarkeit dokumentierter Zwischenschritte. Der tatsächlich erreichte Integrationsgrad wird gesondert erfasst. Quelle: Lang et al. (2012), Transdisciplinary research in sustainability science: practice, principles, and challenges, DOI: 10.1007/s11625-011-0149-x. Beurteilung durch Beobachtung und Dokumentenprüfung als getrenntes Qualitätsprofil; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Bewertung; influenceability = 0.5 wegen gestaltbarer Durchführung bei begrenzter Kontrolle über Expertise, Beteiligung und Ressourcen.",
-          "operativ",
-          "taktisch"
-        ],
-        "description": "Fähigkeit der Beteiligten, für ihre Zusammenarbeit relevante Methoden anderer Disziplinen hinsichtlich Zweck, Voraussetzungen, Vorgehen und Aussagegrenzen einzuordnen. Dazu gehört, fachlich begründete Rückfragen zu stellen und die Eignung der Methoden für die gemeinsame Aufgabe einzuschätzen. Eine selbstständige Durchführung sämtlicher fachfremder Methoden wird damit nicht vorausgesetzt. Quelle: National Academies (2005), Facilitating Interdisciplinary Research, DOI: 10.17226/11153. Beurteilung durch individuelle aufgabenbezogene Fallaufgaben; Test und Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen erforderlicher fachlicher Bewertung; influenceability = 0.5 wegen gestaltbaren Lernens bei begrenztem Vorwissen, Lernzeit und verfügbarer Expertise.",
-      "_id": "elem-disziplinuebergreifendeWissensintegration",
-      "attributes": {
-        "label": "Grad der disziplinübergreifenden Wissensintegration",
-        "element type": "Einflussfaktoren",
-        "description": "Verknüpfung aufgabenrelevanter Theorien, Konzepte, Methoden und Befunde verschiedener Disziplinen zu einem fachübergreifenden Erklärungs-, Untersuchungs- oder Lösungszusammenhang. Bewertet wird, in welchem Umfang die Beiträge aufeinander bezogen werden und gemeinsam zur Bearbeitung der Aufgabe beitragen. Ein bloßes Nebeneinander disziplinärer Teilergebnisse stellt noch keine Integration dar. Quellen: National Academies (2005), DOI: 10.17226/11153; Klein (2008), DOI: 10.1016/j.amepre.2008.05.010. Messbarkeit 0.5: Arbeitsergebnisse sind fachlich beurteilbar; erforderlich ist ein aufgabenbezogenes Bewertungsraster. Beeinflussbarkeit 0.5: Zusammenarbeit und Methoden sind gestaltbar, fachliche Vereinbarkeit und vorhandene Expertise begrenzen die Steuerbarkeit. Integrationsgrad und Ergebnisqualität werden getrennt beurteilt.",
-        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
-        "tags": ["Mensch", "Organisation", "taktisch", "operativ"],
-      "_id": "elem-offenlegungFachlicherUnsicherheiten",
-      "attributes": {
-        "label": "Grad der Offenlegung fachlicher Unsicherheiten",
-        "element type": "Einflussfaktoren",
-        "description": "Sichtbarkeit der den Beteiligten bekannten offenen Fragen, Evidenzgrenzen und methodischen Unsicherheiten in der fachübergreifenden Kommunikation. Bewertet wird, ob diese Einschränkungen gegenüber den betroffenen Disziplinen ausdrücklich benannt und den zugehörigen Aussagen oder Ergebnissen zugeordnet sind. Quelle: Edmondson (1999), DOI: 10.2307/2666999. Messbarkeit 0.5: Offenlegungen sind beobachtbar; bekannte, aber verschwiegene Unsicherheiten bleiben schwer erfassbar. Beeinflussbarkeit 0.5: durch Kommunikationsroutinen und Verhalten mittelbar veränderbar, abhängig von sozialen Risiken und individueller Zurückhaltung.",
-        "cluster": "Informationsverteilung (Zugänglichkeit)",
-        "tags": ["Mensch", "operativ"],
-      "_id": "elem-ausmassDisziplinaererSprachbarrieren",
-      "attributes": {
-        "label": "Ausmaß disziplinärer Sprachbarrieren",
-        "element type": "Einflussfaktoren",
-        "description": "Fachsprachlich bedingte Verständigungsschwierigkeiten bei der gemeinsamen Forschungs- oder Entwicklungsarbeit. Dazu zählen Hürden durch unbekannte Fachausdrücke, abweichende Bedeutungen gleicher Begriffe und disziplinspezifische Ausdrucksweisen. Bewertet werden Häufigkeit und Schwere der daraus entstehenden Verständnisprobleme bei aufgabenrelevanten Beiträgen. Quellen: National Academies (2005), DOI: 10.17226/11153; Carlile (2002), DOI: 10.1287/orsc.13.4.442.2953. Messbarkeit 0.5: Verständnisprobleme sind strukturiert beobachtbar; verdeckte Fehlinterpretationen und unsichere Ursachenzuordnung begrenzen die Erfassung. Beeinflussbarkeit 0.5: durch Erläuterung und Anpassung fachlicher Darstellungen mittelbar veränderbar, abhängig von Vorwissen und Spezialisierung. Häufigkeit und Schwere werden getrennt beurteilt.",
-        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
-        "tags": ["Mensch", "operativ"],
-      "_id": "elem-transparenzDisziplinaererGrundannahmen",
-      "attributes": {
-        "label": "Transparenz disziplinärer Grundannahmen",
-        "description": "Ausmaß, in dem die für die gemeinsame Entwicklungsaufgabe relevanten theoretischen, erkenntnistheoretischen und methodischen Grundannahmen sowie zugrunde liegende Wertmaßstäbe der Beteiligten offengelegt sind. Bewertet wird, ob diese Annahmen ihren fachlichen Beiträgen zugeordnet und mit ihren Begründungen, Voraussetzungen und Geltungsgrenzen nachvollziehbar dargestellt sind. Quelle: Eigenbrode et al. (2007), DOI: 10.1641/B570109. Messbarkeit 0.5: dokumentierte Offenlegung ist strukturiert fachlich beurteilbar; unbekannte oder unbewusste Annahmen begrenzen die Erfassbarkeit. Beeinflussbarkeit 0.5: durch Reflexion und explizite Darstellung mittelbar veränderbar, abhängig von Erkennen und Offenlegen eigener Grundannahmen. Vollständige Erfassung wird nicht unterstellt.",
-        "element type": "Einflussfaktoren",
-        "cluster": "Informationsinput (Erzeugung)",
-        "tags": ["Mensch", "operativ"],
-      "_id": "elem-qualitaetDisziplinaererEingangsdaten",
-      "attributes": {
-        "label": "Qualität disziplinärer Eingangsdaten",
-        "description": "Ausmaß, in dem die von den beteiligten Disziplinen eingebrachten Daten und empirischen Befunde nach den jeweils einschlägigen fachlichen Gütekriterien belastbar und für die gemeinsame Entwicklungsaufgabe geeignet sind. Bewertet werden insbesondere die Angemessenheit von Erhebung und Aufbereitung, aufgabenbezogene Vollständigkeit und Aktualität sowie die nachvollziehbare Dokumentation von Herkunft, Verarbeitung und Unsicherheiten. Quelle: Wang und Strong (1996), DOI: 10.1080/07421222.1996.11518099. Beurteilung anhand eines aufgabenbezogenen Qualitätsprofils; keine unbegründete Gesamtskala oder Gewichtung. Messbarkeit 0.5: dokumentierte Qualitätsprüfungen ermöglichen eine strukturierte, fachlich urteilsabhängige Bewertung. Beeinflussbarkeit 0.5: durch Auswahl, Korrektur und Aufbereitung mittelbar veränderbar, begrenzt durch verfügbare Daten und Erhebungsbedingungen.",
-        "element type": "Einflussfaktoren",
-        "cluster": "Informationsinput (Erzeugung)",
-        "tags": ["Mensch", "Technik", "operativ"],
-      "_id": "elem-vielfaltDisziplinaererPerspektiven",
-      "attributes": {
-        "label": "Vielfalt disziplinärer Perspektiven",
-        "description": "Bandbreite der disziplinär geprägten Sichtweisen, die in die gemeinsame Bearbeitung einer Entwicklungsaufgabe eingebracht werden. Unterschiede können sich auf die Deutung des Problems, theoretische Annahmen, methodische Zugänge und fachliche Bewertungsmaßstäbe beziehen. Erfasst wird die inhaltliche Verschiedenheit dieser Sichtweisen. Ihre ergänzende Passung und tatsächliche Integration werden gesondert betrachtet. Quellen: National Academies (2005), DOI: 10.17226/11153; Pohl und Hirsch Hadorn (2008), S. 114, DOI: 10.1051/nss:2008035. Messbarkeit 0.5: strukturierte qualitative Inhaltsanalyse möglich, fachliche Interpretation erforderlich. Beeinflussbarkeit 0.5: durch Auswahl und tatsächliche Einbindung von Beteiligten mittelbar veränderbar, abhängig von vorhandenen Sichtweisen und ihrer Äußerung.",
-        "element type": "Einflussfaktoren",
-        "cluster": "Informationsinput (Erzeugung)",
-        "tags": ["Mensch", "operativ"],
-      "_id": "elem-komplementaritaetDisziplinaererExpertise",
-      "attributes": {
-        "label": "Komplementarität der disziplinären Expertise",
-        "description": "Ausmaß, in dem die im Team vorhandenen theoretischen und methodischen Fachkompetenzen verschiedener Disziplinen einander bei der Bearbeitung einer gemeinsamen Entwicklungsaufgabe ergänzen. Bewertet wird das aufgabenbezogene Ergänzungspotenzial der Kompetenzprofile. Die tatsächliche Integration der Beiträge, die Zahl vertretener Disziplinen und das individuelle Kompetenzniveau sind davon zu unterscheiden. Quelle: National Research Council (2015), Enhancing the Effectiveness of Team Science, Kap. 4, S. 81–96, insbesondere S. 91–92, DOI: 10.17226/19007. Messbarkeit 0.5: anhand von Aufgaben- und Kompetenzprofilen strukturiert, aber fachlich urteilsabhängig beurteilbar. Beeinflussbarkeit 0.5: durch Teambesetzung und Kompetenzentwicklung veränderbar, unter personellen und organisatorischen Grenzen.",
-        "element type": "Einflussfaktoren",
-        "cluster": "Informationsinput (Erzeugung)",
-        "tags": ["Mensch", "strategisch"],
         "measurability": 0.5,
         "influenceability": 0.5
       }
@@ -13408,72 +13553,416 @@
       }
     },
     {
-      "_id": "conn-nachnutzbarkeit-001",
-      "from": "elem-reviewQualitaet",
-      "to": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
-      "_id": "conn-teamzufriedenheit-001",
-      "from": "elem-umR71vJA",
-      "to": "elem-zufriedenheitZusammenarbeitTeam",
-      "_id": "conn-neuartigkeit-001",
-      "from": "elem-gradKollaboration",
-      "to": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "_id": "conn-komplementaritaet-001",
+      "from": "elem-SVQRqUSA",
+      "to": "elem-komplementaritaetDisziplinaererExpertise",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Eine konstruktive Konfliktkultur kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn Auseinandersetzungen fair bearbeitet und Interessen der Beteiligten berücksichtigt werden. Grundlage: Behfar et al. (2008), S. 178–185. Die Übertragung untersuchter Konfliktbearbeitungsmuster auf die bestehende Konfliktkultur bleibt eine Annahme; bloße Konfliktunterdrückung oder schnelle Einigung genügt nicht."
+        "description": "Bedarfsbezogene Anpassungsfähigkeit kann ergänzende Expertise ins Team bringen, wenn fehlende Beiträge erkannt und passende Personen tatsächlich eingebunden werden. Quelle: Ståhl (2023), Abschnitte 4 und 4.1.3–4.1.4, DOI: 10.1002/smr.2589. Die Übertragung dynamischer Besetzung auf disziplinäre Komplementarität bleibt eine Annahme; Anlaufprobleme und Verluste bestehender Expertise sind zu berücksichtigen."
       }
     },
     {
-      "_id": "conn-teamzufriedenheit-002",
-      "from": "elem-bh4G3Yqp",
-      "to": "elem-zufriedenheitZusammenarbeitTeam",
-        "description": "Ko-kreative Zusammenarbeit kann neuartige Verknüpfungen begünstigen, wenn unterschiedliche Ausgangsideen aufmerksam verarbeitet und gemeinsam weiterentwickelt werden. Grundlage: Kohn et al. (2011), Experiment 2. Der Befund ist bedingt durch Ausgangsideen und Arbeitsverfahren; ein allgemeiner Gruppenvorteil wurde nicht gefunden. Die Übertragung bewerteter Ideenkombinationen auf Forschungsergebnisse gegenüber dokumentiertem Fachwissen bleibt eine Annahme."
+      "_id": "conn-komplementaritaet-003",
+      "from": "elem-komplementaritaetDisziplinaererExpertise",
+      "to": "elem-effektivitaetKollaboration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ergänzende Expertise kann die Ergebniswirksamkeit der Kollaboration erhöhen, wenn Beiträge zugänglich sind, gemeinsam geplant, angemessen gewichtet und tatsächlich integriert werden. Quelle: Woolley et al. (2008), S. 365–368, DOI: 10.1177/1046496408317792. Die Übertragung kognitiver Spezialfähigkeiten auf disziplinäre Komplementarität bleibt eine Annahme; aus Ergänzungspotenzial allein folgt kein gesicherter Ergebnisvorteil."
       }
     },
     {
-      "_id": "conn-neuartigkeit-003",
-      "from": "elem-synchronisationsfrequenz",
-      "to": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
-      "_id": "conn-einflussasymmetrien-001",
-      "from": "elem-ga15zxKL",
-      "to": "elem-disziplinbezogeneEinflussasymmetrien",
-      "_id": "conn-methodischeIntegrationshindernisse-001",
+      "_id": "conn-perspektiven-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann das Einbringen abweichender disziplinärer Sichtweisen erleichtern, wenn entsprechende Perspektiven vorhanden sind und ohne befürchtete Sanktionen geäußert werden können. Quelle: Edmondson (1999), S. 353–355 und 366–367, DOI: 10.2307/2666999. Untersucht wurde Lernverhalten; die Übertragung auf tatsächlich eingebrachte disziplinäre Vielfalt bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-002",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Das Offenlegen bisher impliziter disziplinärer Annahmen kann zusätzliche Sichtweisen in die gemeinsame Bearbeitung einbringen, sofern fachliche Unterschiede vorhanden sind. Quelle: Carlile (2004), S. 558–559, DOI: 10.1287/orsc.1040.0094. Externalisierung erzeugt keine fachlichen Unterschiede; ihre Wirkung auf die Bandbreite tatsächlich eingebrachter Perspektiven bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-003",
+      "from": "elem-1oLVNA94",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktive Beteiligung kann zusätzliche disziplinäre Perspektiven in die Bearbeitung einbringen, wenn fachlich unterschiedlich geprägte Mitglieder ihre Sichtweisen tatsächlich beitragen. Quelle: Haselsteiner (2022), S. 371, DOI: 10.5282/jums/v7i2pp354-389. Qualitative Befunde betreffen fachübergreifende Beiträge; mehr Beteiligung oder Redezeit allein garantiert keine größere inhaltliche Vielfalt."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-004",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
+      "to": "elem-komKomplexitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unterschiedliche disziplinäre Begriffe und Deutungsrahmen können die Kommunikationsaufgabe komplexer machen, wenn voneinander abhängige Beiträge übersetzt und aufeinander bezogen werden müssen. Quelle: Carlile (2004), S. 556–559, DOI: 10.1287/orsc.1040.0094. Die Übertragung auf den Modellfaktor bleibt eine Annahme; gemeinsame Verständigungsgrundlagen können den zusätzlichen Klärungsbedarf begrenzen."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-006",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
+      "to": "elem-effektivitaetKollaboration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn die Aufgabe unterschiedliche Sichtweisen erfordert und relevante Beiträge vertieft verarbeitet und integriert werden. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; Vielfalt allein garantiert keine Leistungssteigerung."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-001",
       "from": "elem-reviewQualitaet",
-      "to": "elem-methodischeIntegrationshindernisse",
-      "_id": "conn-formaleAnerkennung-003",
+      "to": "elem-qualitaetDisziplinaererEingangsdaten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachkundige, datenbezogene Reviews können durch wirksame Korrektur erkannter Eingabefehler die Qualität eingebrachter Daten erhöhen, sofern andere erforderliche Qualitätsdimensionen nicht verschlechtert werden. Quelle: Barchard et al. (2020), Abstract, DOI: 10.3758/s13428-019-01207-3. Übertragung konkreter Prüfverfahren auf den allgemeinen Reviewfaktor und mehrdimensionale Datenqualität; bloße Fehlererkennung genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-003",
       "from": "elem-1fahG9AM",
-      "to": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
-      "_id": "conn-ressourcenstabilitaet-001",
-      "from": "elem-Q3uEEe5Q",
-      "to": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
-      "_id": "conn-forschungstransfer-001",
-      "from": "elem-bh4G3Yqp",
-      "to": "elem-transferForschungsergebnisseAnwendungskontexte",
-      "_id": "conn-metadatenstandardisierung-001",
-      "from": "elem-kollabArtefaktInfra",
-      "to": "elem-standardisierungsgradMetadatenTerminologie",
-      "_id": "conn-versionierungsnachvollziehbarkeit-001",
-      "from": "elem-kollabArtefaktInfra",
-      "to": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
-      "_id": "conn-vermittlungsrollen-001",
-      "from": "elem-Cp80iMCp",
-      "to": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
-      "_id": "conn-syntheseworkshops-001",
-      "from": "elem-psychSicherheit",
-      "to": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
-      "_id": "conn-methodenkompetenz-001",
-      "from": "elem-NmRVFhyA",
-      "to": "elem-fachuebergreifendeMethodenkompetenz",
-      "_id": "conn-wissensintegration-001",
-      "from": "elem-KOUdbt3n",
-      "to": "elem-disziplinuebergreifendeWissensintegration",
-      "_id": "conn-unsicherheitsoffenlegung-001",
-      "from": "elem-psychSicherheit",
-      "to": "elem-offenlegungFachlicherUnsicherheiten",
+      "to": "elem-qualitaetDisziplinaererEingangsdaten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kontinuierliche Prozessverbesserung kann wiederkehrende Datenmängel vermindern, wenn Fehlerursachen analysiert und Erhebungs- oder Aufbereitungsschritte wirksam verändert werden, ohne andere erforderliche Qualitätsdimensionen zu verschlechtern. Quelle: Gass et al. (2017), „DQA protocol“ und „Discussion“, DOI: 10.1186/s13063-017-2159-1. Untersucht wurde ein Maßnahmenbündel; der eigenständige Effekt allgemeiner Prozessverbesserung bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-004",
+      "from": "elem-qualitaetDisziplinaererEingangsdaten",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Belastbare, aufgabengeeignete Eingangsdaten können die Qualität daraus abgeleiteter, getrennter Artefakte erhöhen, wenn sie korrekt verarbeitet werden und sachliche Richtigkeit zu deren Akzeptanzkriterien gehört. Quelle: Barchard und Pace (2011), empirische Ergebnisangaben im Abstract, DOI: 10.1016/j.chb.2011.04.004. Übertragung statistischer Ergebnisrichtigkeit auf Entwicklungsartefakte; keine automatische Ergebnisverbesserung."
+      }
+    },
+    {
+      "_id": "conn-grundannahmen-001",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-transparenzDisziplinaererGrundannahmen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Externalisierung kann die Transparenz disziplinärer Grundannahmen erhöhen, wenn erkannte Annahmen tatsächlich expliziert und ihren fachlichen Beiträgen mit Begründungen und Grenzen zugeordnet werden. Quelle: Carlile (2004), S. 559, DOI: 10.1287/orsc.1040.0094. Die Übertragung allgemeinen Explizierens auf diesen Offenlegungszustand bleibt eine Annahme; bloße Gesprächsaktivität genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-grundannahmen-002",
+      "from": "elem-transparenzDisziplinaererGrundannahmen",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
+      }
+    },
+    {
       "_id": "conn-sprachbarrieren-001",
       "from": "elem-gdWissAust01",
       "to": "elem-ausmassDisziplinaererSprachbarrieren",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Aufgabenbezogener Wissensaustausch kann disziplinäre Sprachbarrieren verringern, wenn Beteiligte Bedeutungen anhand gemeinsamer Beispiele und Rückfragen tatsächlich abstimmen. Quelle: Bechky (2003), S. 324–325, DOI: 10.1287/orsc.14.3.312.15162. Übertragung von Berufsgruppen auf Disziplinen; mehr Austausch oder bloß häufiger erkannte Missverständnisse belegen keine Verringerung."
+      }
+    },
+    {
+      "_id": "conn-sprachbarrieren-003",
+      "from": "elem-ausmassDisziplinaererSprachbarrieren",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Disziplinäre Sprachbarrieren können den Koordinationsaufwand erhöhen, wenn fachsprachliche Fehlinterpretationen zusätzliche Rückfragen, Erläuterungen oder erneute Abstimmungen erfordern. Quelle: Bechky (2003), S. 324, DOI: 10.1287/orsc.14.3.312.15162. Die Übertragung beobachteter Klärungssequenzen auf den gesamten Koordinationsaufwand bleibt eine Annahme; unbemerkte Probleme erzeugen nicht zwangsläufig sofortigen Mehraufwand."
+      }
+    },
+    {
+      "_id": "conn-unsicherheitsoffenlegung-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-offenlegungFachlicherUnsicherheiten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann die Offenlegung bekannter fachlicher Unsicherheiten erleichtern, wenn Beteiligte auch gegenüber den betroffenen Disziplinen geringe soziale Risiken erwarten und eine Kommunikationsgelegenheit nutzen. Quelle: Edmondson (1999), S. 354–355, 366–367, DOI: 10.2307/2666999. Übertragung allgemeinen Lernverhaltens auf aussagebezogene Unsicherheitsoffenlegung; ein unterstützendes Klima garantiert keine Offenlegung."
+      }
+    },
+    {
+      "_id": "conn-unsicherheitsoffenlegung-002",
+      "from": "elem-offenlegungFachlicherUnsicherheiten",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Offenlegung fachlicher Unsicherheiten kann Entscheidungen nach vorab festgelegten Ziel- und Kostenkriterien verbessern, wenn relevante Einschränkungen verstanden und handlungswirksam genutzt werden. Bewertet wird die Handlungswahl anhand der zum Entscheidungszeitpunkt verfügbaren Informationen, nicht des späteren Zufallsergebnisses. Quelle: Joslyn und LeClerc (2012), S. 128, 135, DOI: 10.1037/a0025185. Übertragung numerischer Prognosen auf fachübergreifende Entscheidungen bleibt Annahme."
+      }
+    },
+    {
+      "_id": "conn-wissensintegration-001",
+      "from": "elem-KOUdbt3n",
+      "to": "elem-disziplinuebergreifendeWissensintegration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Team-Reflexion kann disziplinübergreifende Wissensintegration fördern, wenn erkannte Verknüpfungslücken zu Änderungen des Vorgehens und anschließend zu nachweisbaren fachlichen Verbindungen führen. Quelle: Schippers et al. (2014), Autorenmanuskript S. 14–19, DOI: 10.1177/1046496414553473. Übertragung eines theoretischen Informationsverarbeitungsmodells; regelmäßige Retrospektiven allein genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-wissensintegration-002",
+      "from": "elem-mentalModelle",
+      "to": "elem-disziplinuebergreifendeWissensintegration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Gemeinsame, aufgabenangemessene mentale Modelle können die Verknüpfung disziplinärer Beiträge erleichtern, indem sie deren Einordnung unterstützen. Quelle: Robert et al. (2008), S. 324–327, DOI: 10.1287/isre.1080.0177. Übertragung von Modellähnlichkeit und Informationsnutzung auf disziplinäre Wissensintegration; Einigkeit allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-wissensintegration-003",
+      "from": "elem-disziplinuebergreifendeWissensintegration",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Disziplinübergreifende Wissensintegration kann Entscheidungen verbessern, wenn die Aufgabe verknüpfte Beiträge erfordert und deren fachliche Tragfähigkeit geprüft wird. Entscheidungsgüte wird unabhängig anhand vorab festgelegter Fachkriterien beurteilt. Quelle: Robert et al. (2008), S. 325–327, DOI: 10.1287/isre.1080.0177. Übertragung von Informationsnutzung auf disziplinäre Synthese bleibt Annahme; mehr Integration garantiert keine bessere Entscheidung."
+      }
+    },
+    {
+      "_id": "conn-methodenkompetenz-001",
+      "from": "elem-NmRVFhyA",
+      "to": "elem-fachuebergreifendeMethodenkompetenz",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Methodenbezogene Trainings mit angeleiteter kritischer Analyse und fachlichen Rückmeldungen können die Beurteilungsfähigkeit fördern, wenn Inhalte relevant sind und aktiv bearbeitet werden. Quelle: MacRae et al. (2004), Abstract, DOI: 10.1016/j.surg.2004.02.003. Der Transfer klinischer Studienbeurteilung auf fremddisziplinäre Methoden und auf allgemeine Trainingsqualität bleibt eine Annahme; Teilnahme allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-methodenkompetenz-002",
+      "from": "elem-fachuebergreifendeMethodenkompetenz",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachübergreifende Methodenkompetenz kann methodenbezogene Analyse und begründete Rückmeldungen im Review verbessern, wenn sie tatsächlich eingesetzt wird und fachliche Kriterien, Informationen und Zeit verfügbar sind. Quelle: Black et al. (1998), S. 231–233, DOI: 10.1001/jama.280.3.231. Ausbildungszusammenhänge werden auf nachgewiesene Einordnungsfähigkeit und fachübergreifende Reviews übertragen; korrekte Urteile oder Umsetzung sind damit nicht garantiert."
+      }
+    },
+    {
+      "_id": "conn-syntheseworkshops-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann die Qualität der Workshopdurchführung unterstützen, indem Beteiligte fachliche Grenzen, Rückfragen und Widersprüche ohne befürchtete Sanktionen einbringen. Voraussetzung sind passende Expertise und nutzbare Beteiligungsmöglichkeiten. Quelle: Edmondson (1999), S. 353–355, 366–367, DOI: 10.2307/2666999. Die Übertragung von Teamlernverhalten auf Synthese-Workshopqualität bleibt eine Annahme; Aufgabenpassung und Dokumentation sind damit nicht gesichert."
+      }
+    },
+    {
+      "_id": "conn-syntheseworkshops-002",
+      "from": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aufgabenpassende Moderation und die gezielte Bearbeitung fachlicher Schnittstellen können den Austausch disziplinären Wissens fördern, wenn Beteiligte ihre Beiträge erläutern und aufeinander beziehen. Quelle: Zimmermann und Curran (2023), S. 353–357, DOI: 10.1002/sdr.1743. Die qualitative Einzelfallanalyse belegt keinen allgemeinen Qualitätsgradienten; die Übertragung auf Synthese-Workshops bleibt eine Annahme. Bloße Anwesenheit genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-vermittlungsrollen-001",
+      "from": "elem-Cp80iMCp",
+      "to": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine bedarfsbezogene, unterstützende Anpassung des Führungsstils kann nutzbare Vermittlungskapazität ermöglichen, wenn geeignete Personen verfügbar sind und die Führung tatsächliche Entlastung veranlasst. Quelle: Hunt et al. (2016), „Supporting boundary spanners“, DOI: 10.1186/s12875-016-0501-4. Die Übertragung von Managementunterstützung auf den Bestandsfaktor und fachübergreifende Rollen bleibt eine Annahme; Benennung allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-vermittlungsrollen-002",
+      "from": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare Vermittlungspersonen können den fachübergreifenden Wissensaustausch erleichtern, wenn sie tatsächlich angefragt werden, Zugang zu beiden Fachkontexten haben und Beiträge angemessen erläutern. Quelle: Cranefield und Yoong (2007), Abstract, DOI: 10.1504/IJKL.2007.012604. Die Übertragung aktiver Gatekeeper-Funktionen auf verfügbare disziplinübergreifende Kapazität bleibt eine Annahme; bloße Verfügbarkeit garantiert keinen Austausch."
+      }
+    },
+    {
+      "_id": "conn-versionierungsnachvollziehbarkeit-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann nachvollziehbare Versionierung ermöglichen, wenn geeignete Historienfunktionen tatsächlich genutzt und Änderungsgründe gepflegt werden. Quelle: Blischak et al. (2016), „Introduction to Version Control“ und „Version Your Code“, DOI: 10.1371/journal.pcbi.1004668. Die technische Anleitung liefert keinen empirischen Qualitätsgradienten; die Übertragung auf unterschiedliche Artefakttypen bleibt eine Annahme. Toolzugang allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-versionierungsnachvollziehbarkeit-002",
+      "from": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Nachvollziehbare Versionshistorien können die Analyse und begründete Rückmeldungen im Review unterstützen, wenn Prüfende auf relevante Stände und Änderungsgründe zugreifen und sie nutzen. Quelle: Ebert et al. (2021), Abschn. 3.2.4–3.2.5, DOI: 10.1007/s10664-020-09909-5. Die Übertragung von Befunden zu fehlender Änderungsbegründung bei Quellcode auf allgemeine Artefakthistorien und Reviewqualität bleibt eine Annahme; Fehlererkennung ist nicht garantiert."
+      }
+    },
+    {
+      "_id": "conn-metadatenstandardisierung-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-standardisierungsgradMetadatenTerminologie",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann Standardkonformität fördern, wenn gemeinsam genutzte Metadatenwerkzeuge passende Schemata, kontrollierte Vokabulare und Prüfungen unterstützen und tatsächlich eingesetzt werden. Musen et al. (2022), Abschnitte zu CEDAR und FAIRware, DOI: 10.1038/s41597-022-01815-3. Die Übertragung auf Infrastrukturverfügbarkeit bleibt bedingt; zulässige Werte gewährleisten keine fachlich richtigen Zuordnungen."
+      }
+    },
+    {
+      "_id": "conn-metadatenstandardisierung-002",
+      "from": "elem-standardisierungsgradMetadatenTerminologie",
+      "to": "elem-zBsDMddD",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Regelkonforme Feldbeschreibungen und Begriffszuordnungen können die Interpretation gemeinsamer Forschungsdaten erleichtern, wenn fachlich angemessene Schemata, zugängliche Begriffserklärungen und benötigter Kontext vorliegen. Rashid et al. (2020), Abschnitte 1 und 3.4, DOI: 10.1162/dint_a_00058. Die Wirkung eines höheren Konformitätsgrads bleibt eine Annahme; formale Einheitlichkeit allein garantiert weder richtiges Verständnis noch inhaltliche Vergleichbarkeit."
+      }
+    },
+    {
+      "_id": "conn-forschungstransfer-001",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Adressatengerechte Kommunikation kann Forschungsanwendung erleichtern, wenn Erkenntnisse relevant und Handlungsmöglichkeiten vorhanden sind. Dobbins et al. (2009), DOI: 10.1186/1748-5908-4-61, berichten mehr selbstberichtete Umsetzung evidenzgestützter Programme, nicht nachgewiesene Nutzung konkreter Forschungsergebnisse. Die Übertragung auf tatsächliche Forschungsanwendung bleibt eine theoretisch begründete Annahme und erfordert fallbezogene Nutzungsnachweise."
+      }
+    },
+    {
+      "_id": "conn-forschungstransfer-002",
+      "from": "elem-transferForschungsergebnisseAnwendungskontexte",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sachgerechte Forschungsanwendung kann bei Praxisentscheidungen eine ziel- und präferenzgerechte Wahl unterstützen, sofern belastbare Erkenntnisse, Kontextpassung und Abwägung vorliegen. Stacey et al. (2024), DOI: 10.1002/14651858.CD001431.pub6, Ergebnisse zur Werte-Wahl-Kongruenz. Der Befund betrifft kombinierte Entscheidungshilfen; die Übertragung bleibt theoretisch. Entscheidungsqualität ist unabhängig von Nutzung und Wissenszuwachs anhand vorab festgelegter Kriterien beim damaligen Informationsstand zu bewerten."
+      }
+    },
+    {
+      "_id": "conn-ressourcenstabilitaet-001",
+      "from": "elem-Q3uEEe5Q",
+      "to": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kurzfristige Bereitstellung geeigneter Ersatzgeräte oder Infrastrukturleistungen kann ungeplante Versorgungslücken verkürzen, wenn Ersatz tatsächlich nutzbar, kompatibel und rechtzeitig verfügbar ist. Tomlin (2006), S. 642–643 und 650, DOI: 10.1287/mnsc.1060.0515. Die Übertragung des Lieferkettenmodells auf Projektinfrastruktur bleibt eine Annahme; ursprüngliche Ausfälle werden weiterhin dokumentiert. Keine automatische Übertragung auf Finanzmittel oder Personal."
+      }
+    },
+    {
+      "_id": "conn-ressourcenstabilitaet-002",
+      "from": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
+      "to": "elem-nAA1gU0l",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Stabile Ressourcenversorgung kann die Einhaltung vereinbarter Projektfristen unterstützen, wenn Versorgungslücken terminrelevante Aufgaben betreffen und nicht anderweitig kompensiert werden. Ogbeifun und Pretorius (2022), S. 100–101, DOI: 10.2478/emj-2022-0008. Die Übertragung qualitativer Befunde zu verzögerten Förderzahlungen auf allgemeine Versorgungslücken bleibt eine Annahme. Ressourcenbedarf, Ersatz, Zeitpuffer und andere Verzögerungsursachen sind getrennt zu berücksichtigen."
+      }
+    },
+    {
+      "_id": "conn-formaleAnerkennung-003",
+      "from": "elem-1fahG9AM",
+      "to": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Institutionelle Prozessverbesserung kann die formale Anerkennung interdisziplinärer Beiträge erhöhen, wenn Bewertungsregeln ausdrücklich überprüft, Anerkennungslücken als Änderungsziel behandelt und Revisionen zuständig beschlossen werden. Grundlage: Klein und Falk-Krzesinski (2017), Tabelle 1; Rosario-Moore et al. (2025), Policy Change Process und Abbildung 2. Die Übertragung auf einen allgemeinen Verbesserungsgrad bleibt eine bedingte Annahme."
+      }
+    },
+    {
+      "_id": "conn-formaleAnerkennung-004",
+      "from": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Formale Anerkennung kann Wissensaustausch fördern, wenn geteilte fachübergreifende Beiträge ausdrücklich zählen, Kriterien bekannt sind und ihre faire Anwendung glaubwürdig erwartet wird. Grundlage: Meurer et al. (2023), Tabelle 1; Bartol und Srivastava (2002), theoretischer Abstract; Taylor (2006), experimenteller Abstract. Die Übertragung auf akademische Bewertungssysteme bleibt eine Annahme; bloße Regeltexte garantieren keinen Austausch."
+      }
+    },
+    {
+      "_id": "conn-methodischeIntegrationshindernisse-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-methodischeIntegrationshindernisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Fachübergreifende Reviews können methodische Integrationshindernisse verringern, wenn sie Gültigkeitsbereiche und Schnittstellen prüfen und vertretbare Korrekturen umgesetzt werden. Grundlage: MacLeod und Nagatsu (2016), S. 424–425. Die Übertragung beobachteter Modellkorrekturen auf Reviewqualität ist eine Annahme; bloße Diagnose oder zusätzliche Dokumentation zählt nicht als Hindernisabbau."
+      }
+    },
+    {
+      "_id": "conn-methodischeIntegrationshindernisse-005",
+      "from": "elem-methodischeIntegrationshindernisse",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Methodische Integrationshindernisse können zusätzlichen Abstimmungsaufwand auslösen, solange eine gemeinsame Verknüpfung weiterverfolgt wird und Bezugsgrößen, Erhebungsdesigns oder Gültigkeitsanforderungen ausgehandelt werden müssen. Grundlage: Tobi und Kampen (2018), „Sampling design“; MacLeod und Nagatsu (2016), S. 428. Ein allgemeiner Aufwandsgradient bleibt eine Annahme; abgebrochene Integrationsversuche können weniger Abstimmung erzeugen."
+      }
+    },
+    {
+      "_id": "conn-einflussasymmetrien-001",
+      "from": "elem-ga15zxKL",
+      "to": "elem-disziplinbezogeneEinflussasymmetrien",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
@@ -13489,117 +13978,68 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
+        "description": "Disziplinbezogene Einflussasymmetrien können bei ausgeprägten Unterschieden im zugeschriebenen Respekt den tatsächlichen Wissensaustausch vermindern. Grundlage: Hays et al. (2022), Studien 1–2: selbstberichtete Austauschbreite beziehungsweise selbstberichtetes Wissensverbergen. Übertragungen auf Disziplinen und tatsächlichen Austausch bleiben Annahmen. Institutioneller Rang allein genügt nicht; bei geringer Statusdifferenzierung sind auch ausbleibende oder gegenläufige Effekte möglich."
+      }
+    },
+    {
+      "_id": "conn-neuartigkeit-001",
+      "from": "elem-gradKollaboration",
+      "to": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ko-kreative Zusammenarbeit kann neuartige Verknüpfungen begünstigen, wenn unterschiedliche Ausgangsideen aufmerksam verarbeitet und gemeinsam weiterentwickelt werden. Grundlage: Kohn et al. (2011), Experiment 2. Der Befund ist bedingt durch Ausgangsideen und Arbeitsverfahren; ein allgemeiner Gruppenvorteil wurde nicht gefunden. Die Übertragung bewerteter Ideenkombinationen auf Forschungsergebnisse gegenüber dokumentiertem Fachwissen bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-neuartigkeit-003",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
         "description": "Häufigere zielbezogene Abstimmungen können Neuartigkeit vermindern, wenn zusätzliche Zwischentermine frühere Integration und weniger individuelle Entwurfsarbeit begünstigen. Grundlage: Ghosh und Wu (2023; online 2021), §4, Bedingungen 2/3. Untersucht wurde ein zusätzlicher Termin bei bestehender Zielneugewichtung. Die Übertragung von Produktentwürfen auf Forschungsergebnisse bleibt eine Annahme; allgemeine Abstimmungshäufigkeit ist damit nicht bewertet."
       }
     },
     {
       "_id": "conn-neuartigkeit-008",
       "from": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
-        "description": "Disziplinbezogene Einflussasymmetrien können bei ausgeprägten Unterschieden im zugeschriebenen Respekt den tatsächlichen Wissensaustausch vermindern. Grundlage: Hays et al. (2022), Studien 1–2: selbstberichtete Austauschbreite beziehungsweise selbstberichtetes Wissensverbergen. Übertragungen auf Disziplinen und tatsächlichen Austausch bleiben Annahmen. Institutioneller Rang allein genügt nicht; bei geringer Statusdifferenzierung sind auch ausbleibende oder gegenläufige Effekte möglich."
-        "description": "Fachübergreifende Reviews können methodische Integrationshindernisse verringern, wenn sie Gültigkeitsbereiche und Schnittstellen prüfen und vertretbare Korrekturen umgesetzt werden. Grundlage: MacLeod und Nagatsu (2016), S. 424–425. Die Übertragung beobachteter Modellkorrekturen auf Reviewqualität ist eine Annahme; bloße Diagnose oder zusätzliche Dokumentation zählt nicht als Hindernisabbau."
-      }
-    },
-    {
-      "_id": "conn-methodischeIntegrationshindernisse-005",
-      "from": "elem-methodischeIntegrationshindernisse",
-      "to": "elem-koordin001",
-        "description": "Aufgabenbezogener Wissensaustausch kann disziplinäre Sprachbarrieren verringern, wenn Beteiligte Bedeutungen anhand gemeinsamer Beispiele und Rückfragen tatsächlich abstimmen. Quelle: Bechky (2003), S. 324–325, DOI: 10.1287/orsc.14.3.312.15162. Übertragung von Berufsgruppen auf Disziplinen; mehr Austausch oder bloß häufiger erkannte Missverständnisse belegen keine Verringerung."
-      }
-    },
-    {
-      "_id": "conn-sprachbarrieren-003",
-      "from": "elem-ausmassDisziplinaererSprachbarrieren",
-      "to": "elem-koordin001",
-      "_id": "conn-grundannahmen-001",
-      "from": "elem-externalisierungAnnahmen",
-      "to": "elem-transparenzDisziplinaererGrundannahmen",
-      "_id": "conn-eingangsdaten-001",
-      "from": "elem-reviewQualitaet",
-      "to": "elem-qualitaetDisziplinaererEingangsdaten",
-      "_id": "conn-perspektiven-001",
-      "from": "elem-psychSicherheit",
-      "to": "elem-vielfaltDisziplinaererPerspektiven",
-      "_id": "conn-komplementaritaet-001",
-      "from": "elem-SVQRqUSA",
-      "to": "elem-komplementaritaetDisziplinaererExpertise",
+      "to": "elem-komKomplexitaet",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Reviews können die Nachnutzbarkeit erhöhen, wenn sie Nachnutzungshürden prüfen und fachlich vertretbare Korrekturen tatsächlich umgesetzt werden. Grundlage: Peer et al. (2014), S. 266–271; Marsolek et al. (2023), Ergebnisse, Abb. 3–4. Die Übertragung kuratorischer Datenreviews auf allgemeine Reviewqualität und unterschiedliche Forschungsartefakte bleibt eine Annahme; reine Prüfung genügt nicht."
+        "description": "Neuartige Forschungsergebnisse können die Kommunikationsaufgabe komplexer machen, wenn ihre Erklärung neue Begriffe oder Darstellungen und die Klärung veränderter fachlicher Abhängigkeiten erfordert. Grundlage: Carlile (2004), S. 557–559. Die Übertragung von Neuartigkeit an Wissensgrenzen auf Neuartigkeit gegenüber dokumentiertem Fachwissen bleibt eine Annahme; bloße Unvertrautheit genügt nicht."
       }
     },
     {
-      "_id": "conn-nachnutzbarkeit-002",
-      "from": "elem-externalisierungAnnahmen",
-      "to": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
-        "description": "Verfügbare kollaborative Infrastruktur kann nachvollziehbare Versionierung ermöglichen, wenn geeignete Historienfunktionen tatsächlich genutzt und Änderungsgründe gepflegt werden. Quelle: Blischak et al. (2016), „Introduction to Version Control“ und „Version Your Code“, DOI: 10.1371/journal.pcbi.1004668. Die technische Anleitung liefert keinen empirischen Qualitätsgradienten; die Übertragung auf unterschiedliche Artefakttypen bleibt eine Annahme. Toolzugang allein genügt nicht."
-      }
-    },
-    {
-      "_id": "conn-versionierungsnachvollziehbarkeit-002",
-      "from": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
-      "to": "elem-reviewQualitaet",
-        "description": "Team-Reflexion kann disziplinübergreifende Wissensintegration fördern, wenn erkannte Verknüpfungslücken zu Änderungen des Vorgehens und anschließend zu nachweisbaren fachlichen Verbindungen führen. Quelle: Schippers et al. (2014), Autorenmanuskript S. 14–19, DOI: 10.1177/1046496414553473. Übertragung eines theoretischen Informationsverarbeitungsmodells; regelmäßige Retrospektiven allein genügen nicht."
-      }
-    },
-    {
-      "_id": "conn-wissensintegration-002",
-      "from": "elem-mentalModelle",
-      "to": "elem-disziplinuebergreifendeWissensintegration",
-        "description": "Fachkundige, datenbezogene Reviews können durch wirksame Korrektur erkannter Eingabefehler die Qualität eingebrachter Daten erhöhen, sofern andere erforderliche Qualitätsdimensionen nicht verschlechtert werden. Quelle: Barchard et al. (2020), Abstract, DOI: 10.3758/s13428-019-01207-3. Übertragung konkreter Prüfverfahren auf den allgemeinen Reviewfaktor und mehrdimensionale Datenqualität; bloße Fehlererkennung genügt nicht."
-      }
-    },
-    {
-      "_id": "conn-eingangsdaten-003",
-      "from": "elem-1fahG9AM",
-      "to": "elem-qualitaetDisziplinaererEingangsdaten",
-        "description": "Psychologische Sicherheit kann das Einbringen abweichender disziplinärer Sichtweisen erleichtern, wenn entsprechende Perspektiven vorhanden sind und ohne befürchtete Sanktionen geäußert werden können. Quelle: Edmondson (1999), S. 353–355 und 366–367, DOI: 10.2307/2666999. Untersucht wurde Lernverhalten; die Übertragung auf tatsächlich eingebrachte disziplinäre Vielfalt bleibt eine Annahme."
-      }
-    },
-    {
-      "_id": "conn-perspektiven-002",
-      "from": "elem-externalisierungAnnahmen",
-      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "_id": "conn-neuartigkeit-010",
+      "from": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "to": "elem-koordin001",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Adressatengerechte Kommunikation kann Forschungsanwendung erleichtern, wenn Erkenntnisse relevant und Handlungsmöglichkeiten vorhanden sind. Dobbins et al. (2009), DOI: 10.1186/1748-5908-4-61, berichten mehr selbstberichtete Umsetzung evidenzgestützter Programme, nicht nachgewiesene Nutzung konkreter Forschungsergebnisse. Die Übertragung auf tatsächliche Forschungsanwendung bleibt eine theoretisch begründete Annahme und erfordert fallbezogene Nutzungsnachweise."
+        "description": "Neuartige Forschungsergebnisse können zusätzlichen Koordinationsaufwand auslösen, wenn ihre Weiterverwendung bestehende Arbeitsabhängigkeiten verändert und Zuständigkeiten oder Vorgehensweisen tatsächlich neu abgestimmt werden. Grundlage: Carlile und Rebentisch (2003), S. 1182, 1190–1191. Die Übertragung aus der Produktentwicklung auf bereits vorliegende Forschungsergebnisse bleibt eine Annahme; Neuartigkeit allein begründet keinen Mehraufwand."
       }
     },
     {
-      "_id": "conn-forschungstransfer-002",
-      "from": "elem-transferForschungsergebnisseAnwendungskontexte",
-      "to": "elem-NmSn5Afu",
-        "description": "Gemeinsame, aufgabenangemessene mentale Modelle können die Verknüpfung disziplinärer Beiträge erleichtern, indem sie deren Einordnung unterstützen. Quelle: Robert et al. (2008), S. 324–327, DOI: 10.1287/isre.1080.0177. Übertragung von Modellähnlichkeit und Informationsnutzung auf disziplinäre Wissensintegration; Einigkeit allein genügt nicht."
+      "_id": "conn-teamzufriedenheit-001",
+      "from": "elem-umR71vJA",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine konstruktive Konfliktkultur kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn Auseinandersetzungen fair bearbeitet und Interessen der Beteiligten berücksichtigt werden. Grundlage: Behfar et al. (2008), S. 178–185. Die Übertragung untersuchter Konfliktbearbeitungsmuster auf die bestehende Konfliktkultur bleibt eine Annahme; bloße Konfliktunterdrückung oder schnelle Einigung genügt nicht."
       }
     },
     {
-      "_id": "conn-wissensintegration-003",
-      "from": "elem-disziplinuebergreifendeWissensintegration",
-      "to": "elem-NmSn5Afu",
-        "description": "Psychologische Sicherheit kann die Offenlegung bekannter fachlicher Unsicherheiten erleichtern, wenn Beteiligte auch gegenüber den betroffenen Disziplinen geringe soziale Risiken erwarten und eine Kommunikationsgelegenheit nutzen. Quelle: Edmondson (1999), S. 354–355, 366–367, DOI: 10.2307/2666999. Übertragung allgemeinen Lernverhaltens auf aussagebezogene Unsicherheitsoffenlegung; ein unterstützendes Klima garantiert keine Offenlegung."
-      }
-    },
-    {
-      "_id": "conn-unsicherheitsoffenlegung-002",
-      "from": "elem-offenlegungFachlicherUnsicherheiten",
-      "to": "elem-NmSn5Afu",
-        "description": "Kontinuierliche Prozessverbesserung kann wiederkehrende Datenmängel vermindern, wenn Fehlerursachen analysiert und Erhebungs- oder Aufbereitungsschritte wirksam verändert werden, ohne andere erforderliche Qualitätsdimensionen zu verschlechtern. Quelle: Gass et al. (2017), „DQA protocol“ und „Discussion“, DOI: 10.1186/s13063-017-2159-1. Untersucht wurde ein Maßnahmenbündel; der eigenständige Effekt allgemeiner Prozessverbesserung bleibt eine Annahme."
-      }
-    },
-    {
-      "_id": "conn-eingangsdaten-004",
-      "from": "elem-qualitaetDisziplinaererEingangsdaten",
-      "to": "elem-lcDSwFU2",
-        "description": "Das Offenlegen bisher impliziter disziplinärer Annahmen kann zusätzliche Sichtweisen in die gemeinsame Bearbeitung einbringen, sofern fachliche Unterschiede vorhanden sind. Quelle: Carlile (2004), S. 558–559, DOI: 10.1287/orsc.1040.0094. Externalisierung erzeugt keine fachlichen Unterschiede; ihre Wirkung auf die Bandbreite tatsächlich eingebrachter Perspektiven bleibt eine Annahme."
-      }
-    },
-    {
-      "_id": "conn-perspektiven-003",
-      "from": "elem-1oLVNA94",
-      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "_id": "conn-teamzufriedenheit-002",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
@@ -13611,42 +14051,39 @@
       "_id": "conn-teamzufriedenheit-003",
       "from": "elem-JvpOipbD",
       "to": "elem-zufriedenheitZusammenarbeitTeam",
-        "description": "Institutionelle Prozessverbesserung kann die formale Anerkennung interdisziplinärer Beiträge erhöhen, wenn Bewertungsregeln ausdrücklich überprüft, Anerkennungslücken als Änderungsziel behandelt und Revisionen zuständig beschlossen werden. Grundlage: Klein und Falk-Krzesinski (2017), Tabelle 1; Rosario-Moore et al. (2025), Policy Change Process und Abbildung 2. Die Übertragung auf einen allgemeinen Verbesserungsgrad bleibt eine bedingte Annahme."
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine als angemessen erlebte Beitragsverteilung kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn individuelle Möglichkeiten berücksichtigt und Absprachen nachvollziehbar sind. Grundlage: Behfar et al. (2008), S. 182–183. Angemessenheit bedeutet nicht gleiche Arbeitsmengen. Die Übertragung qualitativer Muster auf das bestehende Verteilungsattribut bleibt eine Annahme."
       }
     },
     {
-      "_id": "conn-formaleAnerkennung-004",
-      "from": "elem-formaleAnerkennungInterdisziplinaererBeitraege",
-      "to": "elem-gdWissAust01",
-        "description": "Kurzfristige Bereitstellung geeigneter Ersatzgeräte oder Infrastrukturleistungen kann ungeplante Versorgungslücken verkürzen, wenn Ersatz tatsächlich nutzbar, kompatibel und rechtzeitig verfügbar ist. Tomlin (2006), S. 642–643 und 650, DOI: 10.1287/mnsc.1060.0515. Die Übertragung des Lieferkettenmodells auf Projektinfrastruktur bleibt eine Annahme; ursprüngliche Ausfälle werden weiterhin dokumentiert. Keine automatische Übertragung auf Finanzmittel oder Personal."
+      "_id": "conn-teamzufriedenheit-005",
+      "from": "elem-zufriedenheitZusammenarbeitTeam",
+      "to": "elem-xGnKBSH9",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zufriedenstellend erlebte Zusammenarbeit kann späteres Commitment zum Team stärken, wenn die Erfahrung als bedürfniserfüllend bewertet und für die weitere Zusammenarbeit erwartet wird. Grundlage: Levine und Moreland (1994), S. 308. Die Übertragung des gruppenbezogenen Bewertungsmodells auf den bestehenden Commitmentfaktor bleibt eine Annahme; tatsächlicher Einsatz oder Verbleib folgt daraus nicht automatisch."
       }
     },
     {
-      "_id": "conn-ressourcenstabilitaet-002",
-      "from": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
-      "to": "elem-nAA1gU0l",
-        "description": "Eine bedarfsbezogene, unterstützende Anpassung des Führungsstils kann nutzbare Vermittlungskapazität ermöglichen, wenn geeignete Personen verfügbar sind und die Führung tatsächliche Entlastung veranlasst. Quelle: Hunt et al. (2016), „Supporting boundary spanners“, DOI: 10.1186/s12875-016-0501-4. Die Übertragung von Managementunterstützung auf den Bestandsfaktor und fachübergreifende Rollen bleibt eine Annahme; Benennung allein genügt nicht."
+      "_id": "conn-nachnutzbarkeit-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Reviews können die Nachnutzbarkeit erhöhen, wenn sie Nachnutzungshürden prüfen und fachlich vertretbare Korrekturen tatsächlich umgesetzt werden. Grundlage: Peer et al. (2014), S. 266–271; Marsolek et al. (2023), Ergebnisse, Abb. 3–4. Die Übertragung kuratorischer Datenreviews auf allgemeine Reviewqualität und unterschiedliche Forschungsartefakte bleibt eine Annahme; reine Prüfung genügt nicht."
       }
     },
     {
-      "_id": "conn-vermittlungsrollen-002",
-      "from": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
-      "to": "elem-gdWissAust01",
-        "description": "Externalisierung kann die Transparenz disziplinärer Grundannahmen erhöhen, wenn erkannte Annahmen tatsächlich expliziert und ihren fachlichen Beiträgen mit Begründungen und Grenzen zugeordnet werden. Quelle: Carlile (2004), S. 559, DOI: 10.1287/orsc.1040.0094. Die Übertragung allgemeinen Explizierens auf diesen Offenlegungszustand bleibt eine Annahme; bloße Gesprächsaktivität genügt nicht."
-      }
-    },
-    {
-      "_id": "conn-grundannahmen-002",
-      "from": "elem-transparenzDisziplinaererGrundannahmen",
-      "to": "elem-gemeinsamVerstaendnis",
-        "description": "Belastbare, aufgabengeeignete Eingangsdaten können die Qualität daraus abgeleiteter, getrennter Artefakte erhöhen, wenn sie korrekt verarbeitet werden und sachliche Richtigkeit zu deren Akzeptanzkriterien gehört. Quelle: Barchard und Pace (2011), empirische Ergebnisangaben im Abstract, DOI: 10.1016/j.chb.2011.04.004. Übertragung statistischer Ergebnisrichtigkeit auf Entwicklungsartefakte; keine automatische Ergebnisverbesserung."
-        "description": "Aktive Beteiligung kann zusätzliche disziplinäre Perspektiven in die Bearbeitung einbringen, wenn fachlich unterschiedlich geprägte Mitglieder ihre Sichtweisen tatsächlich beitragen. Quelle: Haselsteiner (2022), S. 371, DOI: 10.5282/jums/v7i2pp354-389. Qualitative Befunde betreffen fachübergreifende Beiträge; mehr Beteiligung oder Redezeit allein garantiert keine größere inhaltliche Vielfalt."
-      }
-    },
-    {
-      "_id": "conn-perspektiven-004",
-      "from": "elem-vielfaltDisziplinaererPerspektiven",
-      "to": "elem-komKomplexitaet",
+      "_id": "conn-nachnutzbarkeit-002",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-nachnutzbarkeitGemeinsamerForschungsergebnisse",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
@@ -13663,75 +14100,6 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
-        "description": "Eine als angemessen erlebte Beitragsverteilung kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn individuelle Möglichkeiten berücksichtigt und Absprachen nachvollziehbar sind. Grundlage: Behfar et al. (2008), S. 182–183. Angemessenheit bedeutet nicht gleiche Arbeitsmengen. Die Übertragung qualitativer Muster auf das bestehende Verteilungsattribut bleibt eine Annahme."
-      }
-    },
-    {
-      "_id": "conn-teamzufriedenheit-005",
-      "from": "elem-zufriedenheitZusammenarbeitTeam",
-      "to": "elem-xGnKBSH9",
-        "description": "Neuartige Forschungsergebnisse können die Kommunikationsaufgabe komplexer machen, wenn ihre Erklärung neue Begriffe oder Darstellungen und die Klärung veränderter fachlicher Abhängigkeiten erfordert. Grundlage: Carlile (2004), S. 557–559. Die Übertragung von Neuartigkeit an Wissensgrenzen auf Neuartigkeit gegenüber dokumentiertem Fachwissen bleibt eine Annahme; bloße Unvertrautheit genügt nicht."
-      }
-    },
-    {
-      "_id": "conn-neuartigkeit-010",
-      "from": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
-      "to": "elem-koordin001",
-        "description": "Verfügbare kollaborative Infrastruktur kann Standardkonformität fördern, wenn gemeinsam genutzte Metadatenwerkzeuge passende Schemata, kontrollierte Vokabulare und Prüfungen unterstützen und tatsächlich eingesetzt werden. Musen et al. (2022), Abschnitte zu CEDAR und FAIRware, DOI: 10.1038/s41597-022-01815-3. Die Übertragung auf Infrastrukturverfügbarkeit bleibt bedingt; zulässige Werte gewährleisten keine fachlich richtigen Zuordnungen."
-      }
-    },
-    {
-      "_id": "conn-metadatenstandardisierung-002",
-      "from": "elem-standardisierungsgradMetadatenTerminologie",
-      "to": "elem-zBsDMddD",
-        "description": "Psychologische Sicherheit kann die Qualität der Workshopdurchführung unterstützen, indem Beteiligte fachliche Grenzen, Rückfragen und Widersprüche ohne befürchtete Sanktionen einbringen. Voraussetzung sind passende Expertise und nutzbare Beteiligungsmöglichkeiten. Quelle: Edmondson (1999), S. 353–355, 366–367, DOI: 10.2307/2666999. Die Übertragung von Teamlernverhalten auf Synthese-Workshopqualität bleibt eine Annahme; Aufgabenpassung und Dokumentation sind damit nicht gesichert."
-      }
-    },
-    {
-      "_id": "conn-syntheseworkshops-002",
-      "from": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
-      "to": "elem-gdWissAust01",
-        "description": "Methodenbezogene Trainings mit angeleiteter kritischer Analyse und fachlichen Rückmeldungen können die Beurteilungsfähigkeit fördern, wenn Inhalte relevant sind und aktiv bearbeitet werden. Quelle: MacRae et al. (2004), Abstract, DOI: 10.1016/j.surg.2004.02.003. Der Transfer klinischer Studienbeurteilung auf fremddisziplinäre Methoden und auf allgemeine Trainingsqualität bleibt eine Annahme; Teilnahme allein genügt nicht."
-      }
-    },
-    {
-      "_id": "conn-methodenkompetenz-002",
-      "from": "elem-fachuebergreifendeMethodenkompetenz",
-      "to": "elem-reviewQualitaet",
-        "description": "Unterschiedliche disziplinäre Begriffe und Deutungsrahmen können die Kommunikationsaufgabe komplexer machen, wenn voneinander abhängige Beiträge übersetzt und aufeinander bezogen werden müssen. Quelle: Carlile (2004), S. 556–559, DOI: 10.1287/orsc.1040.0094. Die Übertragung auf den Modellfaktor bleibt eine Annahme; gemeinsame Verständigungsgrundlagen können den zusätzlichen Klärungsbedarf begrenzen."
-      }
-    },
-    {
-      "_id": "conn-perspektiven-006",
-      "from": "elem-vielfaltDisziplinaererPerspektiven",
-        "description": "Bedarfsbezogene Anpassungsfähigkeit kann ergänzende Expertise ins Team bringen, wenn fehlende Beiträge erkannt und passende Personen tatsächlich eingebunden werden. Quelle: Ståhl (2023), Abschnitte 4 und 4.1.3–4.1.4, DOI: 10.1002/smr.2589. Die Übertragung dynamischer Besetzung auf disziplinäre Komplementarität bleibt eine Annahme; Anlaufprobleme und Verluste bestehender Expertise sind zu berücksichtigen."
-      }
-    },
-    {
-      "_id": "conn-komplementaritaet-003",
-      "from": "elem-komplementaritaetDisziplinaererExpertise",
-      "to": "elem-effektivitaetKollaboration",
-      "direction": "directed",
-      "attributes": {
-        "label": "[A]",
-        "connection type": "++",
-        "description": "Zufriedenstellend erlebte Zusammenarbeit kann späteres Commitment zum Team stärken, wenn die Erfahrung als bedürfniserfüllend bewertet und für die weitere Zusammenarbeit erwartet wird. Grundlage: Levine und Moreland (1994), S. 308. Die Übertragung des gruppenbezogenen Bewertungsmodells auf den bestehenden Commitmentfaktor bleibt eine Annahme; tatsächlicher Einsatz oder Verbleib folgt daraus nicht automatisch."
-        "description": "Neuartige Forschungsergebnisse können zusätzlichen Koordinationsaufwand auslösen, wenn ihre Weiterverwendung bestehende Arbeitsabhängigkeiten verändert und Zuständigkeiten oder Vorgehensweisen tatsächlich neu abgestimmt werden. Grundlage: Carlile und Rebentisch (2003), S. 1182, 1190–1191. Die Übertragung aus der Produktentwicklung auf bereits vorliegende Forschungsergebnisse bleibt eine Annahme; Neuartigkeit allein begründet keinen Mehraufwand."
-        "description": "Methodische Integrationshindernisse können zusätzlichen Abstimmungsaufwand auslösen, solange eine gemeinsame Verknüpfung weiterverfolgt wird und Bezugsgrößen, Erhebungsdesigns oder Gültigkeitsanforderungen ausgehandelt werden müssen. Grundlage: Tobi und Kampen (2018), „Sampling design“; MacLeod und Nagatsu (2016), S. 428. Ein allgemeiner Aufwandsgradient bleibt eine Annahme; abgebrochene Integrationsversuche können weniger Abstimmung erzeugen."
-        "description": "Formale Anerkennung kann Wissensaustausch fördern, wenn geteilte fachübergreifende Beiträge ausdrücklich zählen, Kriterien bekannt sind und ihre faire Anwendung glaubwürdig erwartet wird. Grundlage: Meurer et al. (2023), Tabelle 1; Bartol und Srivastava (2002), theoretischer Abstract; Taylor (2006), experimenteller Abstract. Die Übertragung auf akademische Bewertungssysteme bleibt eine Annahme; bloße Regeltexte garantieren keinen Austausch."
-        "description": "Stabile Ressourcenversorgung kann die Einhaltung vereinbarter Projektfristen unterstützen, wenn Versorgungslücken terminrelevante Aufgaben betreffen und nicht anderweitig kompensiert werden. Ogbeifun und Pretorius (2022), S. 100–101, DOI: 10.2478/emj-2022-0008. Die Übertragung qualitativer Befunde zu verzögerten Förderzahlungen auf allgemeine Versorgungslücken bleibt eine Annahme. Ressourcenbedarf, Ersatz, Zeitpuffer und andere Verzögerungsursachen sind getrennt zu berücksichtigen."
-        "description": "Sachgerechte Forschungsanwendung kann bei Praxisentscheidungen eine ziel- und präferenzgerechte Wahl unterstützen, sofern belastbare Erkenntnisse, Kontextpassung und Abwägung vorliegen. Stacey et al. (2024), DOI: 10.1002/14651858.CD001431.pub6, Ergebnisse zur Werte-Wahl-Kongruenz. Der Befund betrifft kombinierte Entscheidungshilfen; die Übertragung bleibt theoretisch. Entscheidungsqualität ist unabhängig von Nutzung und Wissenszuwachs anhand vorab festgelegter Kriterien beim damaligen Informationsstand zu bewerten."
-        "description": "Regelkonforme Feldbeschreibungen und Begriffszuordnungen können die Interpretation gemeinsamer Forschungsdaten erleichtern, wenn fachlich angemessene Schemata, zugängliche Begriffserklärungen und benötigter Kontext vorliegen. Rashid et al. (2020), Abschnitte 1 und 3.4, DOI: 10.1162/dint_a_00058. Die Wirkung eines höheren Konformitätsgrads bleibt eine Annahme; formale Einheitlichkeit allein garantiert weder richtiges Verständnis noch inhaltliche Vergleichbarkeit."
-        "description": "Nachvollziehbare Versionshistorien können die Analyse und begründete Rückmeldungen im Review unterstützen, wenn Prüfende auf relevante Stände und Änderungsgründe zugreifen und sie nutzen. Quelle: Ebert et al. (2021), Abschn. 3.2.4–3.2.5, DOI: 10.1007/s10664-020-09909-5. Die Übertragung von Befunden zu fehlender Änderungsbegründung bei Quellcode auf allgemeine Artefakthistorien und Reviewqualität bleibt eine Annahme; Fehlererkennung ist nicht garantiert."
-        "description": "Verfügbare Vermittlungspersonen können den fachübergreifenden Wissensaustausch erleichtern, wenn sie tatsächlich angefragt werden, Zugang zu beiden Fachkontexten haben und Beiträge angemessen erläutern. Quelle: Cranefield und Yoong (2007), Abstract, DOI: 10.1504/IJKL.2007.012604. Die Übertragung aktiver Gatekeeper-Funktionen auf verfügbare disziplinübergreifende Kapazität bleibt eine Annahme; bloße Verfügbarkeit garantiert keinen Austausch."
-        "description": "Aufgabenpassende Moderation und die gezielte Bearbeitung fachlicher Schnittstellen können den Austausch disziplinären Wissens fördern, wenn Beteiligte ihre Beiträge erläutern und aufeinander beziehen. Quelle: Zimmermann und Curran (2023), S. 353–357, DOI: 10.1002/sdr.1743. Die qualitative Einzelfallanalyse belegt keinen allgemeinen Qualitätsgradienten; die Übertragung auf Synthese-Workshops bleibt eine Annahme. Bloße Anwesenheit genügt nicht."
-        "description": "Fachübergreifende Methodenkompetenz kann methodenbezogene Analyse und begründete Rückmeldungen im Review verbessern, wenn sie tatsächlich eingesetzt wird und fachliche Kriterien, Informationen und Zeit verfügbar sind. Quelle: Black et al. (1998), S. 231–233, DOI: 10.1001/jama.280.3.231. Ausbildungszusammenhänge werden auf nachgewiesene Einordnungsfähigkeit und fachübergreifende Reviews übertragen; korrekte Urteile oder Umsetzung sind damit nicht garantiert."
-        "description": "Disziplinübergreifende Wissensintegration kann Entscheidungen verbessern, wenn die Aufgabe verknüpfte Beiträge erfordert und deren fachliche Tragfähigkeit geprüft wird. Entscheidungsgüte wird unabhängig anhand vorab festgelegter Fachkriterien beurteilt. Quelle: Robert et al. (2008), S. 325–327, DOI: 10.1287/isre.1080.0177. Übertragung von Informationsnutzung auf disziplinäre Synthese bleibt Annahme; mehr Integration garantiert keine bessere Entscheidung."
-        "description": "Offenlegung fachlicher Unsicherheiten kann Entscheidungen nach vorab festgelegten Ziel- und Kostenkriterien verbessern, wenn relevante Einschränkungen verstanden und handlungswirksam genutzt werden. Bewertet wird die Handlungswahl anhand der zum Entscheidungszeitpunkt verfügbaren Informationen, nicht des späteren Zufallsergebnisses. Quelle: Joslyn und LeClerc (2012), S. 128, 135, DOI: 10.1037/a0025185. Übertragung numerischer Prognosen auf fachübergreifende Entscheidungen bleibt Annahme."
-        "description": "Disziplinäre Sprachbarrieren können den Koordinationsaufwand erhöhen, wenn fachsprachliche Fehlinterpretationen zusätzliche Rückfragen, Erläuterungen oder erneute Abstimmungen erfordern. Quelle: Bechky (2003), S. 324, DOI: 10.1287/orsc.14.3.312.15162. Die Übertragung beobachteter Klärungssequenzen auf den gesamten Koordinationsaufwand bleibt eine Annahme; unbemerkte Probleme erzeugen nicht zwangsläufig sofortigen Mehraufwand."
-        "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
-        "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn die Aufgabe unterschiedliche Sichtweisen erfordert und relevante Beiträge vertieft verarbeitet und integriert werden. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; Vielfalt allein garantiert keine Leistungssteigerung."
-        "description": "Ergänzende Expertise kann die Ergebniswirksamkeit der Kollaboration erhöhen, wenn Beiträge zugänglich sind, gemeinsam geplant, angemessen gewichtet und tatsächlich integriert werden. Quelle: Woolley et al. (2008), S. 365–368, DOI: 10.1177/1046496408317792. Die Übertragung kognitiver Spezialfähigkeiten auf disziplinäre Komplementarität bleibt eine Annahme; aus Ergänzungspotenzial allein folgt kein gesicherter Ergebnisvorteil."
       }
     }
   ]
