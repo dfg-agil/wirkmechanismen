@@ -4869,6 +4869,21 @@
         "micmac exposure": 0
         
       }
+    },
+    {
+      "_id": "elem-zufriedenheitZusammenarbeitTeam",
+      "attributes": {
+        "label": "Zufriedenheit mit der Zusammenarbeit im Team",
+        "description": "Subjektive Gesamtbewertung der bisherigen Zusammenarbeit durch die Teammitglieder im festgelegten Projektzeitraum. Erfasst wird, wie zufrieden die Beteiligten mit ihrem Zusammenarbeitserleben sind. Individuelle Bewertungen und ihre Unterschiede bleiben sichtbar; eine gemeinsame Teamzufriedenheit wird nicht vorausgesetzt. Quelle: Behfar et al. (2008), DOI: 10.1037/0021-9010.93.1.170. Messvorschlag: anonyme, zeitraumbezogene Einzelbefragung mit getrennt ausgewiesenen Urteilsverteilungen; angepasste Items sind zu pilotieren. Messbarkeit 0.5: Operationalisierung, Sprachfassung und Vergleichbarkeit benötigen Prüfung. Beeinflussbarkeit 0.5: Team und zuständige Leitung können Arbeitsbedingungen und Konfliktbearbeitung gestalten, subjektive Bewertungen jedoch nicht garantieren.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -13232,6 +13247,50 @@
         "label": "[A]",
         "connection type": "++",
         "description": "Gemeinsames Verständnis der Anforderungen und Ziele ist eine Grundvoraussetzung für effektive Zusammenarbeit und präzise Ko-Kreation."
+      }
+    },
+    {
+      "_id": "conn-teamzufriedenheit-001",
+      "from": "elem-umR71vJA",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine konstruktive Konfliktkultur kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn Auseinandersetzungen fair bearbeitet und Interessen der Beteiligten berücksichtigt werden. Grundlage: Behfar et al. (2008), S. 178–185. Die Übertragung untersuchter Konfliktbearbeitungsmuster auf die bestehende Konfliktkultur bleibt eine Annahme; bloße Konfliktunterdrückung oder schnelle Einigung genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-teamzufriedenheit-002",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare, respektvolle und adressatengerechte Kommunikation kann zufriedenstellendes Zusammenarbeitserleben begünstigen, wenn Anliegen verstanden und Beiträge ernst genommen werden. Grundlage: Espinoza et al. (2018), qualitative Ergebnisse und Diskussion. Die Studie belegt keine kausale Einzelwirkung allgemeiner Kommunikationsqualität; die Übertragung aus interprofessionellen Krankenhausgruppen auf Projektteams bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-teamzufriedenheit-003",
+      "from": "elem-JvpOipbD",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine als angemessen erlebte Beitragsverteilung kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn individuelle Möglichkeiten berücksichtigt und Absprachen nachvollziehbar sind. Grundlage: Behfar et al. (2008), S. 182–183. Angemessenheit bedeutet nicht gleiche Arbeitsmengen. Die Übertragung qualitativer Muster auf das bestehende Verteilungsattribut bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-teamzufriedenheit-005",
+      "from": "elem-zufriedenheitZusammenarbeitTeam",
+      "to": "elem-xGnKBSH9",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zufriedenstellend erlebte Zusammenarbeit kann späteres Commitment zum Team stärken, wenn die Erfahrung als bedürfniserfüllend bewertet und für die weitere Zusammenarbeit erwartet wird. Grundlage: Levine und Moreland (1994), S. 308. Die Übertragung des gruppenbezogenen Bewertungsmodells auf den bestehenden Commitmentfaktor bleibt eine Annahme; tatsächlicher Einsatz oder Verbleib folgt daraus nicht automatisch."
       }
     }
   ]
