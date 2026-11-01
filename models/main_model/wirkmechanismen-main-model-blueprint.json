@@ -4871,6 +4871,13 @@
       }
     },
     {
+      "_id": "elem-vielfaltDisziplinaererPerspektiven",
+      "attributes": {
+        "label": "Vielfalt disziplinärer Perspektiven",
+        "description": "Bandbreite der disziplinär geprägten Sichtweisen, die in die gemeinsame Bearbeitung einer Entwicklungsaufgabe eingebracht werden. Unterschiede können sich auf die Deutung des Problems, theoretische Annahmen, methodische Zugänge und fachliche Bewertungsmaßstäbe beziehen. Erfasst wird die inhaltliche Verschiedenheit dieser Sichtweisen. Ihre ergänzende Passung und tatsächliche Integration werden gesondert betrachtet. Quellen: National Academies (2005), DOI: 10.17226/11153; Pohl und Hirsch Hadorn (2008), S. 114, DOI: 10.1051/nss:2008035. Messbarkeit 0.5: strukturierte qualitative Inhaltsanalyse möglich, fachliche Interpretation erforderlich. Beeinflussbarkeit 0.5: durch Auswahl und tatsächliche Einbindung von Beteiligten mittelbar veränderbar, abhängig von vorhandenen Sichtweisen und ihrer Äußerung.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": ["Mensch", "operativ"],
       "_id": "elem-komplementaritaetDisziplinaererExpertise",
       "attributes": {
         "label": "Komplementarität der disziplinären Expertise",
@@ -13247,6 +13254,9 @@
       }
     },
     {
+      "_id": "conn-perspektiven-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
       "_id": "conn-komplementaritaet-001",
       "from": "elem-SVQRqUSA",
       "to": "elem-komplementaritaetDisziplinaererExpertise",
@@ -13254,6 +13264,45 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Psychologische Sicherheit kann das Einbringen abweichender disziplinärer Sichtweisen erleichtern, wenn entsprechende Perspektiven vorhanden sind und ohne befürchtete Sanktionen geäußert werden können. Quelle: Edmondson (1999), S. 353–355 und 366–367, DOI: 10.2307/2666999. Untersucht wurde Lernverhalten; die Übertragung auf tatsächlich eingebrachte disziplinäre Vielfalt bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-002",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Das Offenlegen bisher impliziter disziplinärer Annahmen kann zusätzliche Sichtweisen in die gemeinsame Bearbeitung einbringen, sofern fachliche Unterschiede vorhanden sind. Quelle: Carlile (2004), S. 558–559, DOI: 10.1287/orsc.1040.0094. Externalisierung erzeugt keine fachlichen Unterschiede; ihre Wirkung auf die Bandbreite tatsächlich eingebrachter Perspektiven bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-003",
+      "from": "elem-1oLVNA94",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktive Beteiligung kann zusätzliche disziplinäre Perspektiven in die Bearbeitung einbringen, wenn fachlich unterschiedlich geprägte Mitglieder ihre Sichtweisen tatsächlich beitragen. Quelle: Haselsteiner (2022), S. 371, DOI: 10.5282/jums/v7i2pp354-389. Qualitative Befunde betreffen fachübergreifende Beiträge; mehr Beteiligung oder Redezeit allein garantiert keine größere inhaltliche Vielfalt."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-004",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
+      "to": "elem-komKomplexitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unterschiedliche disziplinäre Begriffe und Deutungsrahmen können die Kommunikationsaufgabe komplexer machen, wenn voneinander abhängige Beiträge übersetzt und aufeinander bezogen werden müssen. Quelle: Carlile (2004), S. 556–559, DOI: 10.1287/orsc.1040.0094. Die Übertragung auf den Modellfaktor bleibt eine Annahme; gemeinsame Verständigungsgrundlagen können den zusätzlichen Klärungsbedarf begrenzen."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-006",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
         "description": "Bedarfsbezogene Anpassungsfähigkeit kann ergänzende Expertise ins Team bringen, wenn fehlende Beiträge erkannt und passende Personen tatsächlich eingebunden werden. Quelle: Ståhl (2023), Abschnitte 4 und 4.1.3–4.1.4, DOI: 10.1002/smr.2589. Die Übertragung dynamischer Besetzung auf disziplinäre Komplementarität bleibt eine Annahme; Anlaufprobleme und Verluste bestehender Expertise sind zu berücksichtigen."
       }
     },
@@ -13265,6 +13314,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn die Aufgabe unterschiedliche Sichtweisen erfordert und relevante Beiträge vertieft verarbeitet und integriert werden. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; Vielfalt allein garantiert keine Leistungssteigerung."
         "description": "Ergänzende Expertise kann die Ergebniswirksamkeit der Kollaboration erhöhen, wenn Beiträge zugänglich sind, gemeinsam geplant, angemessen gewichtet und tatsächlich integriert werden. Quelle: Woolley et al. (2008), S. 365–368, DOI: 10.1177/1046496408317792. Die Übertragung kognitiver Spezialfähigkeiten auf disziplinäre Komplementarität bleibt eine Annahme; aus Ergänzungspotenzial allein folgt kein gesicherter Ergebnisvorteil."
       }
     }
