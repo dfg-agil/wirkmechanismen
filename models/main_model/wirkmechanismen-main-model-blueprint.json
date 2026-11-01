@@ -4871,6 +4871,10 @@
       }
     },
     {
+      "_id": "elem-zufriedenheitZusammenarbeitTeam",
+      "attributes": {
+        "label": "Zufriedenheit mit der Zusammenarbeit im Team",
+        "description": "Subjektive Gesamtbewertung der bisherigen Zusammenarbeit durch die Teammitglieder im festgelegten Projektzeitraum. Erfasst wird, wie zufrieden die Beteiligten mit ihrem Zusammenarbeitserleben sind. Individuelle Bewertungen und ihre Unterschiede bleiben sichtbar; eine gemeinsame Teamzufriedenheit wird nicht vorausgesetzt. Quelle: Behfar et al. (2008), DOI: 10.1037/0021-9010.93.1.170. Messvorschlag: anonyme, zeitraumbezogene Einzelbefragung mit getrennt ausgewiesenen Urteilsverteilungen; angepasste Items sind zu pilotieren. Messbarkeit 0.5: Operationalisierung, Sprachfassung und Vergleichbarkeit benötigen Prüfung. Beeinflussbarkeit 0.5: Team und zuständige Leitung können Arbeitsbedingungen und Konfliktbearbeitung gestalten, subjektive Bewertungen jedoch nicht garantieren.",
       "_id": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
       "attributes": {
         "label": "Neuartigkeitsgrad gemeinsamer Forschungsergebnisse",
@@ -4923,6 +4927,8 @@
         "cluster": "Ergebnisgrößen (Outcomes)",
         "tags": [
           "Mensch",
+          "operativ"
+        ],
           "Organisation",
           "strategisch",
           "operativ"
@@ -13390,6 +13396,9 @@
       }
     },
     {
+      "_id": "conn-teamzufriedenheit-001",
+      "from": "elem-umR71vJA",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
       "_id": "conn-neuartigkeit-001",
       "from": "elem-gradKollaboration",
       "to": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
@@ -13397,6 +13406,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine konstruktive Konfliktkultur kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn Auseinandersetzungen fair bearbeitet und Interessen der Beteiligten berücksichtigt werden. Grundlage: Behfar et al. (2008), S. 178–185. Die Übertragung untersuchter Konfliktbearbeitungsmuster auf die bestehende Konfliktkultur bleibt eine Annahme; bloße Konfliktunterdrückung oder schnelle Einigung genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-teamzufriedenheit-002",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
         "description": "Ko-kreative Zusammenarbeit kann neuartige Verknüpfungen begünstigen, wenn unterschiedliche Ausgangsideen aufmerksam verarbeitet und gemeinsam weiterentwickelt werden. Grundlage: Kohn et al. (2011), Experiment 2. Der Befund ist bedingt durch Ausgangsideen und Arbeitsverfahren; ein allgemeiner Gruppenvorteil wurde nicht gefunden. Die Übertragung bewerteter Ideenkombinationen auf Forschungsergebnisse gegenüber dokumentiertem Fachwissen bleibt eine Annahme."
       }
     },
@@ -13566,6 +13582,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Klare, respektvolle und adressatengerechte Kommunikation kann zufriedenstellendes Zusammenarbeitserleben begünstigen, wenn Anliegen verstanden und Beiträge ernst genommen werden. Grundlage: Espinoza et al. (2018), qualitative Ergebnisse und Diskussion. Die Studie belegt keine kausale Einzelwirkung allgemeiner Kommunikationsqualität; die Übertragung aus interprofessionellen Krankenhausgruppen auf Projektteams bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-teamzufriedenheit-003",
+      "from": "elem-JvpOipbD",
+      "to": "elem-zufriedenheitZusammenarbeitTeam",
         "description": "Institutionelle Prozessverbesserung kann die formale Anerkennung interdisziplinärer Beiträge erhöhen, wenn Bewertungsregeln ausdrücklich überprüft, Anerkennungslücken als Änderungsziel behandelt und Revisionen zuständig beschlossen werden. Grundlage: Klein und Falk-Krzesinski (2017), Tabelle 1; Rosario-Moore et al. (2025), Policy Change Process und Abbildung 2. Die Übertragung auf einen allgemeinen Verbesserungsgrad bleibt eine bedingte Annahme."
       }
     },
@@ -13606,6 +13629,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine als angemessen erlebte Beitragsverteilung kann die Zufriedenheit mit der Zusammenarbeit erhöhen, wenn individuelle Möglichkeiten berücksichtigt und Absprachen nachvollziehbar sind. Grundlage: Behfar et al. (2008), S. 182–183. Angemessenheit bedeutet nicht gleiche Arbeitsmengen. Die Übertragung qualitativer Muster auf das bestehende Verteilungsattribut bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-teamzufriedenheit-005",
+      "from": "elem-zufriedenheitZusammenarbeitTeam",
+      "to": "elem-xGnKBSH9",
         "description": "Neuartige Forschungsergebnisse können die Kommunikationsaufgabe komplexer machen, wenn ihre Erklärung neue Begriffe oder Darstellungen und die Klärung veränderter fachlicher Abhängigkeiten erfordert. Grundlage: Carlile (2004), S. 557–559. Die Übertragung von Neuartigkeit an Wissensgrenzen auf Neuartigkeit gegenüber dokumentiertem Fachwissen bleibt eine Annahme; bloße Unvertrautheit genügt nicht."
       }
     },
@@ -13651,6 +13681,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Zufriedenstellend erlebte Zusammenarbeit kann späteres Commitment zum Team stärken, wenn die Erfahrung als bedürfniserfüllend bewertet und für die weitere Zusammenarbeit erwartet wird. Grundlage: Levine und Moreland (1994), S. 308. Die Übertragung des gruppenbezogenen Bewertungsmodells auf den bestehenden Commitmentfaktor bleibt eine Annahme; tatsächlicher Einsatz oder Verbleib folgt daraus nicht automatisch."
         "description": "Neuartige Forschungsergebnisse können zusätzlichen Koordinationsaufwand auslösen, wenn ihre Weiterverwendung bestehende Arbeitsabhängigkeiten verändert und Zuständigkeiten oder Vorgehensweisen tatsächlich neu abgestimmt werden. Grundlage: Carlile und Rebentisch (2003), S. 1182, 1190–1191. Die Übertragung aus der Produktentwicklung auf bereits vorliegende Forschungsergebnisse bleibt eine Annahme; Neuartigkeit allein begründet keinen Mehraufwand."
         "description": "Methodische Integrationshindernisse können zusätzlichen Abstimmungsaufwand auslösen, solange eine gemeinsame Verknüpfung weiterverfolgt wird und Bezugsgrößen, Erhebungsdesigns oder Gültigkeitsanforderungen ausgehandelt werden müssen. Grundlage: Tobi und Kampen (2018), „Sampling design“; MacLeod und Nagatsu (2016), S. 428. Ein allgemeiner Aufwandsgradient bleibt eine Annahme; abgebrochene Integrationsversuche können weniger Abstimmung erzeugen."
         "description": "Formale Anerkennung kann Wissensaustausch fördern, wenn geteilte fachübergreifende Beiträge ausdrücklich zählen, Kriterien bekannt sind und ihre faire Anwendung glaubwürdig erwartet wird. Grundlage: Meurer et al. (2023), Tabelle 1; Bartol und Srivastava (2002), theoretischer Abstract; Taylor (2006), experimenteller Abstract. Die Übertragung auf akademische Bewertungssysteme bleibt eine Annahme; bloße Regeltexte garantieren keinen Austausch."
