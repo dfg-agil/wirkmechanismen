@@ -4871,6 +4871,17 @@
       }
     },
     {
+      "_id": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "attributes": {
+        "label": "Verfügbarkeit fachübergreifender Übersetzungs- und Vermittlungsrollen",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext & Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "taktisch"
+        ],
+        "description": "Für fachliche Verständigungsbedarfe stehen erreichbare Personen mit geeigneten disziplinübergreifenden Kenntnissen, zeitlichen Kapazitäten und geklärter Zuständigkeit zur Verfügung. Ihre Vermittlungsfunktion umfasst Unterschiede zwischen fachlichen Begriffen, Modellen und Bewertungsmaßstäben. Quelle: Long, Cunningham und Braithwaite (2013), Bridges, brokers and boundary spanners in collaborative networks: a systematic review, DOI: 10.1186/1472-6963-13-158. Beurteilung durch ein bedarfsbezogenes Profil aus fachlicher Eignung, Erreichbarkeit, nutzbarer Zeit und Zuständigkeit; Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen fachlicher Passungsbeurteilung; influenceability = 0.5 wegen gestaltbarer Zuständigkeiten und Zeitbudgets bei begrenzter Personalverfügbarkeit.",
       "_id": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
       "attributes": {
         "label": "Qualität disziplinübergreifender Synthese-Workshops",
@@ -13307,6 +13318,9 @@
       }
     },
     {
+      "_id": "conn-vermittlungsrollen-001",
+      "from": "elem-Cp80iMCp",
+      "to": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
       "_id": "conn-syntheseworkshops-001",
       "from": "elem-psychSicherheit",
       "to": "elem-qualitaetDisziplinuebergreifenderSyntheseWorkshops",
@@ -13406,6 +13420,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Eine bedarfsbezogene, unterstützende Anpassung des Führungsstils kann nutzbare Vermittlungskapazität ermöglichen, wenn geeignete Personen verfügbar sind und die Führung tatsächliche Entlastung veranlasst. Quelle: Hunt et al. (2016), „Supporting boundary spanners“, DOI: 10.1186/s12875-016-0501-4. Die Übertragung von Managementunterstützung auf den Bestandsfaktor und fachübergreifende Rollen bleibt eine Annahme; Benennung allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-vermittlungsrollen-002",
+      "from": "elem-verfuegbarkeitFachuebergreifenderVermittlungsrollen",
+      "to": "elem-gdWissAust01",
         "description": "Externalisierung kann die Transparenz disziplinärer Grundannahmen erhöhen, wenn erkannte Annahmen tatsächlich expliziert und ihren fachlichen Beiträgen mit Begründungen und Grenzen zugeordnet werden. Quelle: Carlile (2004), S. 559, DOI: 10.1287/orsc.1040.0094. Die Übertragung allgemeinen Explizierens auf diesen Offenlegungszustand bleibt eine Annahme; bloße Gesprächsaktivität genügt nicht."
       }
     },
@@ -13456,6 +13477,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Verfügbare Vermittlungspersonen können den fachübergreifenden Wissensaustausch erleichtern, wenn sie tatsächlich angefragt werden, Zugang zu beiden Fachkontexten haben und Beiträge angemessen erläutern. Quelle: Cranefield und Yoong (2007), Abstract, DOI: 10.1504/IJKL.2007.012604. Die Übertragung aktiver Gatekeeper-Funktionen auf verfügbare disziplinübergreifende Kapazität bleibt eine Annahme; bloße Verfügbarkeit garantiert keinen Austausch."
         "description": "Aufgabenpassende Moderation und die gezielte Bearbeitung fachlicher Schnittstellen können den Austausch disziplinären Wissens fördern, wenn Beteiligte ihre Beiträge erläutern und aufeinander beziehen. Quelle: Zimmermann und Curran (2023), S. 353–357, DOI: 10.1002/sdr.1743. Die qualitative Einzelfallanalyse belegt keinen allgemeinen Qualitätsgradienten; die Übertragung auf Synthese-Workshops bleibt eine Annahme. Bloße Anwesenheit genügt nicht."
         "description": "Fachübergreifende Methodenkompetenz kann methodenbezogene Analyse und begründete Rückmeldungen im Review verbessern, wenn sie tatsächlich eingesetzt wird und fachliche Kriterien, Informationen und Zeit verfügbar sind. Quelle: Black et al. (1998), S. 231–233, DOI: 10.1001/jama.280.3.231. Ausbildungszusammenhänge werden auf nachgewiesene Einordnungsfähigkeit und fachübergreifende Reviews übertragen; korrekte Urteile oder Umsetzung sind damit nicht garantiert."
         "description": "Disziplinübergreifende Wissensintegration kann Entscheidungen verbessern, wenn die Aufgabe verknüpfte Beiträge erfordert und deren fachliche Tragfähigkeit geprüft wird. Entscheidungsgüte wird unabhängig anhand vorab festgelegter Fachkriterien beurteilt. Quelle: Robert et al. (2008), S. 325–327, DOI: 10.1287/isre.1080.0177. Übertragung von Informationsnutzung auf disziplinäre Synthese bleibt Annahme; mehr Integration garantiert keine bessere Entscheidung."
