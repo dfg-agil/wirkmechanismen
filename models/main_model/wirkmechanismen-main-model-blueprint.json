@@ -4878,6 +4878,27 @@
         "element type": "Einflussfaktoren",
         "cluster": "Informationsinput (Erzeugung)",
         "tags": ["Mensch", "operativ"],
+      "_id": "elem-qualitaetDisziplinaererEingangsdaten",
+      "attributes": {
+        "label": "Qualität disziplinärer Eingangsdaten",
+        "description": "Ausmaß, in dem die von den beteiligten Disziplinen eingebrachten Daten und empirischen Befunde nach den jeweils einschlägigen fachlichen Gütekriterien belastbar und für die gemeinsame Entwicklungsaufgabe geeignet sind. Bewertet werden insbesondere die Angemessenheit von Erhebung und Aufbereitung, aufgabenbezogene Vollständigkeit und Aktualität sowie die nachvollziehbare Dokumentation von Herkunft, Verarbeitung und Unsicherheiten. Quelle: Wang und Strong (1996), DOI: 10.1080/07421222.1996.11518099. Beurteilung anhand eines aufgabenbezogenen Qualitätsprofils; keine unbegründete Gesamtskala oder Gewichtung. Messbarkeit 0.5: dokumentierte Qualitätsprüfungen ermöglichen eine strukturierte, fachlich urteilsabhängige Bewertung. Beeinflussbarkeit 0.5: durch Auswahl, Korrektur und Aufbereitung mittelbar veränderbar, begrenzt durch verfügbare Daten und Erhebungsbedingungen.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": ["Mensch", "Technik", "operativ"],
+      "_id": "elem-vielfaltDisziplinaererPerspektiven",
+      "attributes": {
+        "label": "Vielfalt disziplinärer Perspektiven",
+        "description": "Bandbreite der disziplinär geprägten Sichtweisen, die in die gemeinsame Bearbeitung einer Entwicklungsaufgabe eingebracht werden. Unterschiede können sich auf die Deutung des Problems, theoretische Annahmen, methodische Zugänge und fachliche Bewertungsmaßstäbe beziehen. Erfasst wird die inhaltliche Verschiedenheit dieser Sichtweisen. Ihre ergänzende Passung und tatsächliche Integration werden gesondert betrachtet. Quellen: National Academies (2005), DOI: 10.17226/11153; Pohl und Hirsch Hadorn (2008), S. 114, DOI: 10.1051/nss:2008035. Messbarkeit 0.5: strukturierte qualitative Inhaltsanalyse möglich, fachliche Interpretation erforderlich. Beeinflussbarkeit 0.5: durch Auswahl und tatsächliche Einbindung von Beteiligten mittelbar veränderbar, abhängig von vorhandenen Sichtweisen und ihrer Äußerung.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": ["Mensch", "operativ"],
+      "_id": "elem-komplementaritaetDisziplinaererExpertise",
+      "attributes": {
+        "label": "Komplementarität der disziplinären Expertise",
+        "description": "Ausmaß, in dem die im Team vorhandenen theoretischen und methodischen Fachkompetenzen verschiedener Disziplinen einander bei der Bearbeitung einer gemeinsamen Entwicklungsaufgabe ergänzen. Bewertet wird das aufgabenbezogene Ergänzungspotenzial der Kompetenzprofile. Die tatsächliche Integration der Beiträge, die Zahl vertretener Disziplinen und das individuelle Kompetenzniveau sind davon zu unterscheiden. Quelle: National Research Council (2015), Enhancing the Effectiveness of Team Science, Kap. 4, S. 81–96, insbesondere S. 91–92, DOI: 10.17226/19007. Messbarkeit 0.5: anhand von Aufgaben- und Kompetenzprofilen strukturiert, aber fachlich urteilsabhängig beurteilbar. Beeinflussbarkeit 0.5: durch Teambesetzung und Kompetenzentwicklung veränderbar, unter personellen und organisatorischen Grenzen.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": ["Mensch", "strategisch"],
         "measurability": 0.5,
         "influenceability": 0.5
       }
@@ -13250,6 +13271,51 @@
       "_id": "conn-grundannahmen-001",
       "from": "elem-externalisierungAnnahmen",
       "to": "elem-transparenzDisziplinaererGrundannahmen",
+      "_id": "conn-eingangsdaten-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-qualitaetDisziplinaererEingangsdaten",
+      "_id": "conn-perspektiven-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "_id": "conn-komplementaritaet-001",
+      "from": "elem-SVQRqUSA",
+      "to": "elem-komplementaritaetDisziplinaererExpertise",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachkundige, datenbezogene Reviews können durch wirksame Korrektur erkannter Eingabefehler die Qualität eingebrachter Daten erhöhen, sofern andere erforderliche Qualitätsdimensionen nicht verschlechtert werden. Quelle: Barchard et al. (2020), Abstract, DOI: 10.3758/s13428-019-01207-3. Übertragung konkreter Prüfverfahren auf den allgemeinen Reviewfaktor und mehrdimensionale Datenqualität; bloße Fehlererkennung genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-003",
+      "from": "elem-1fahG9AM",
+      "to": "elem-qualitaetDisziplinaererEingangsdaten",
+        "description": "Psychologische Sicherheit kann das Einbringen abweichender disziplinärer Sichtweisen erleichtern, wenn entsprechende Perspektiven vorhanden sind und ohne befürchtete Sanktionen geäußert werden können. Quelle: Edmondson (1999), S. 353–355 und 366–367, DOI: 10.2307/2666999. Untersucht wurde Lernverhalten; die Übertragung auf tatsächlich eingebrachte disziplinäre Vielfalt bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-002",
+      "from": "elem-externalisierungAnnahmen",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kontinuierliche Prozessverbesserung kann wiederkehrende Datenmängel vermindern, wenn Fehlerursachen analysiert und Erhebungs- oder Aufbereitungsschritte wirksam verändert werden, ohne andere erforderliche Qualitätsdimensionen zu verschlechtern. Quelle: Gass et al. (2017), „DQA protocol“ und „Discussion“, DOI: 10.1186/s13063-017-2159-1. Untersucht wurde ein Maßnahmenbündel; der eigenständige Effekt allgemeiner Prozessverbesserung bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-eingangsdaten-004",
+      "from": "elem-qualitaetDisziplinaererEingangsdaten",
+      "to": "elem-lcDSwFU2",
+        "description": "Das Offenlegen bisher impliziter disziplinärer Annahmen kann zusätzliche Sichtweisen in die gemeinsame Bearbeitung einbringen, sofern fachliche Unterschiede vorhanden sind. Quelle: Carlile (2004), S. 558–559, DOI: 10.1287/orsc.1040.0094. Externalisierung erzeugt keine fachlichen Unterschiede; ihre Wirkung auf die Bandbreite tatsächlich eingebrachter Perspektiven bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-003",
+      "from": "elem-1oLVNA94",
+      "to": "elem-vielfaltDisziplinaererPerspektiven",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
@@ -13261,11 +13327,38 @@
       "_id": "conn-grundannahmen-002",
       "from": "elem-transparenzDisziplinaererGrundannahmen",
       "to": "elem-gemeinsamVerstaendnis",
+        "description": "Belastbare, aufgabengeeignete Eingangsdaten können die Qualität daraus abgeleiteter, getrennter Artefakte erhöhen, wenn sie korrekt verarbeitet werden und sachliche Richtigkeit zu deren Akzeptanzkriterien gehört. Quelle: Barchard und Pace (2011), empirische Ergebnisangaben im Abstract, DOI: 10.1016/j.chb.2011.04.004. Übertragung statistischer Ergebnisrichtigkeit auf Entwicklungsartefakte; keine automatische Ergebnisverbesserung."
+        "description": "Aktive Beteiligung kann zusätzliche disziplinäre Perspektiven in die Bearbeitung einbringen, wenn fachlich unterschiedlich geprägte Mitglieder ihre Sichtweisen tatsächlich beitragen. Quelle: Haselsteiner (2022), S. 371, DOI: 10.5282/jums/v7i2pp354-389. Qualitative Befunde betreffen fachübergreifende Beiträge; mehr Beteiligung oder Redezeit allein garantiert keine größere inhaltliche Vielfalt."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-004",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
+      "to": "elem-komKomplexitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unterschiedliche disziplinäre Begriffe und Deutungsrahmen können die Kommunikationsaufgabe komplexer machen, wenn voneinander abhängige Beiträge übersetzt und aufeinander bezogen werden müssen. Quelle: Carlile (2004), S. 556–559, DOI: 10.1287/orsc.1040.0094. Die Übertragung auf den Modellfaktor bleibt eine Annahme; gemeinsame Verständigungsgrundlagen können den zusätzlichen Klärungsbedarf begrenzen."
+      }
+    },
+    {
+      "_id": "conn-perspektiven-006",
+      "from": "elem-vielfaltDisziplinaererPerspektiven",
+        "description": "Bedarfsbezogene Anpassungsfähigkeit kann ergänzende Expertise ins Team bringen, wenn fehlende Beiträge erkannt und passende Personen tatsächlich eingebunden werden. Quelle: Ståhl (2023), Abschnitte 4 und 4.1.3–4.1.4, DOI: 10.1002/smr.2589. Die Übertragung dynamischer Besetzung auf disziplinäre Komplementarität bleibt eine Annahme; Anlaufprobleme und Verluste bestehender Expertise sind zu berücksichtigen."
+      }
+    },
+    {
+      "_id": "conn-komplementaritaet-003",
+      "from": "elem-komplementaritaetDisziplinaererExpertise",
+      "to": "elem-effektivitaetKollaboration",
       "direction": "directed",
       "attributes": {
         "label": "[A]",
         "connection type": "++",
         "description": "Offengelegte Grundannahmen können gemeinsames Verständnis über Aufgabe und Kontext unterstützen, wenn Beteiligte ihre Bedeutung und Konsequenzen gemeinsam prüfen. Quelle: Eigenbrode et al. (2007), S. 62–63, DOI: 10.1641/B570109. Die Übertragung von Dialogerfahrungen auf den Transparenzzustand bleibt eine Annahme; Offenlegung allein bewirkt weder Verständnis noch Zustimmung oder Auflösung von Differenzen."
+        "description": "Eingebrachte disziplinäre Perspektiven können die Ergebniswirksamkeit gemeinsamer Arbeit verbessern, wenn die Aufgabe unterschiedliche Sichtweisen erfordert und relevante Beiträge vertieft verarbeitet und integriert werden. Quelle: van Knippenberg et al. (2004), S. 1011–1012, DOI: 10.1037/0021-9010.89.6.1008. Bedingte theoretische Übertragung; Vielfalt allein garantiert keine Leistungssteigerung."
+        "description": "Ergänzende Expertise kann die Ergebniswirksamkeit der Kollaboration erhöhen, wenn Beiträge zugänglich sind, gemeinsam geplant, angemessen gewichtet und tatsächlich integriert werden. Quelle: Woolley et al. (2008), S. 365–368, DOI: 10.1177/1046496408317792. Die Übertragung kognitiver Spezialfähigkeiten auf disziplinäre Komplementarität bleibt eine Annahme; aus Ergänzungspotenzial allein folgt kein gesicherter Ergebnisvorteil."
       }
     }
   ]
