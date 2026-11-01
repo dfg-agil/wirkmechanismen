@@ -4871,6 +4871,10 @@
       }
     },
     {
+      "_id": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "attributes": {
+        "label": "Neuartigkeitsgrad gemeinsamer Forschungsergebnisse",
+        "description": "Abweichung gemeinsam erarbeiteter Erklärungen, Methoden oder Lösungsansätze vom dokumentierten Stand einschlägigen Wissens und etablierter Lösungen. Bewertet werden neue Merkmale oder neue Verknüpfungen relativ zu einem festgelegten Referenzrahmen. Fachliche Qualität, Nutzen und tatsächliche Anwendung werden gesondert beurteilt. Quelle: Dean et al. (2006), Identifying Quality, Novel, and Creative Ideas, DOI: 10.17705/1jais.00106. Beurteilung konkreter Ergebnisse durch unabhängige Fachkundige gegenüber einem dokumentierten Referenzbestand und Stichtag. Messbarkeit 0.5: Rechercheabdeckung und Neuartigkeitsurteile bleiben kontextabhängig. Beeinflussbarkeit 0.5: Aufgabenwahl und kreative Zusammenarbeit sind gestaltbar, neue Erkenntnisse jedoch nicht garantierbar. Neuartigkeit, Qualität, Nutzen und Anwendung werden getrennt bewertet.",
       "_id": "elem-disziplinbezogeneEinflussasymmetrien",
       "attributes": {
         "label": "Ausmaß disziplinbezogener Einflussasymmetrien",
@@ -13386,6 +13390,20 @@
       }
     },
     {
+      "_id": "conn-neuartigkeit-001",
+      "from": "elem-gradKollaboration",
+      "to": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ko-kreative Zusammenarbeit kann neuartige Verknüpfungen begünstigen, wenn unterschiedliche Ausgangsideen aufmerksam verarbeitet und gemeinsam weiterentwickelt werden. Grundlage: Kohn et al. (2011), Experiment 2. Der Befund ist bedingt durch Ausgangsideen und Arbeitsverfahren; ein allgemeiner Gruppenvorteil wurde nicht gefunden. Die Übertragung bewerteter Ideenkombinationen auf Forschungsergebnisse gegenüber dokumentiertem Fachwissen bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-neuartigkeit-003",
+      "from": "elem-synchronisationsfrequenz",
+      "to": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
       "_id": "conn-einflussasymmetrien-001",
       "from": "elem-ga15zxKL",
       "to": "elem-disziplinbezogeneEinflussasymmetrien",
@@ -13440,6 +13458,12 @@
       "attributes": {
         "label": "[A]",
         "connection type": "+-",
+        "description": "Häufigere zielbezogene Abstimmungen können Neuartigkeit vermindern, wenn zusätzliche Zwischentermine frühere Integration und weniger individuelle Entwurfsarbeit begünstigen. Grundlage: Ghosh und Wu (2023; online 2021), §4, Bedingungen 2/3. Untersucht wurde ein zusätzlicher Termin bei bestehender Zielneugewichtung. Die Übertragung von Produktentwürfen auf Forschungsergebnisse bleibt eine Annahme; allgemeine Abstimmungshäufigkeit ist damit nicht bewertet."
+      }
+    },
+    {
+      "_id": "conn-neuartigkeit-008",
+      "from": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
         "description": "Disziplinbezogene Einflussasymmetrien können bei ausgeprägten Unterschieden im zugeschriebenen Respekt den tatsächlichen Wissensaustausch vermindern. Grundlage: Hays et al. (2022), Studien 1–2: selbstberichtete Austauschbreite beziehungsweise selbstberichtetes Wissensverbergen. Übertragungen auf Disziplinen und tatsächlichen Austausch bleiben Annahmen. Institutioneller Rang allein genügt nicht; bei geringer Statusdifferenzierung sind auch ausbleibende oder gegenläufige Effekte möglich."
         "description": "Fachübergreifende Reviews können methodische Integrationshindernisse verringern, wenn sie Gültigkeitsbereiche und Schnittstellen prüfen und vertretbare Korrekturen umgesetzt werden. Grundlage: MacLeod und Nagatsu (2016), S. 424–425. Die Übertragung beobachteter Modellkorrekturen auf Reviewqualität ist eine Annahme; bloße Diagnose oder zusätzliche Dokumentation zählt nicht als Hindernisabbau."
       }
@@ -13582,6 +13606,13 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Neuartige Forschungsergebnisse können die Kommunikationsaufgabe komplexer machen, wenn ihre Erklärung neue Begriffe oder Darstellungen und die Klärung veränderter fachlicher Abhängigkeiten erfordert. Grundlage: Carlile (2004), S. 557–559. Die Übertragung von Neuartigkeit an Wissensgrenzen auf Neuartigkeit gegenüber dokumentiertem Fachwissen bleibt eine Annahme; bloße Unvertrautheit genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-neuartigkeit-010",
+      "from": "elem-neuartigkeitGemeinsamerForschungsergebnisse",
+      "to": "elem-koordin001",
         "description": "Verfügbare kollaborative Infrastruktur kann Standardkonformität fördern, wenn gemeinsam genutzte Metadatenwerkzeuge passende Schemata, kontrollierte Vokabulare und Prüfungen unterstützen und tatsächlich eingesetzt werden. Musen et al. (2022), Abschnitte zu CEDAR und FAIRware, DOI: 10.1038/s41597-022-01815-3. Die Übertragung auf Infrastrukturverfügbarkeit bleibt bedingt; zulässige Werte gewährleisten keine fachlich richtigen Zuordnungen."
       }
     },
@@ -13620,6 +13651,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
+        "description": "Neuartige Forschungsergebnisse können zusätzlichen Koordinationsaufwand auslösen, wenn ihre Weiterverwendung bestehende Arbeitsabhängigkeiten verändert und Zuständigkeiten oder Vorgehensweisen tatsächlich neu abgestimmt werden. Grundlage: Carlile und Rebentisch (2003), S. 1182, 1190–1191. Die Übertragung aus der Produktentwicklung auf bereits vorliegende Forschungsergebnisse bleibt eine Annahme; Neuartigkeit allein begründet keinen Mehraufwand."
         "description": "Methodische Integrationshindernisse können zusätzlichen Abstimmungsaufwand auslösen, solange eine gemeinsame Verknüpfung weiterverfolgt wird und Bezugsgrößen, Erhebungsdesigns oder Gültigkeitsanforderungen ausgehandelt werden müssen. Grundlage: Tobi und Kampen (2018), „Sampling design“; MacLeod und Nagatsu (2016), S. 428. Ein allgemeiner Aufwandsgradient bleibt eine Annahme; abgebrochene Integrationsversuche können weniger Abstimmung erzeugen."
         "description": "Formale Anerkennung kann Wissensaustausch fördern, wenn geteilte fachübergreifende Beiträge ausdrücklich zählen, Kriterien bekannt sind und ihre faire Anwendung glaubwürdig erwartet wird. Grundlage: Meurer et al. (2023), Tabelle 1; Bartol und Srivastava (2002), theoretischer Abstract; Taylor (2006), experimenteller Abstract. Die Übertragung auf akademische Bewertungssysteme bleibt eine Annahme; bloße Regeltexte garantieren keinen Austausch."
         "description": "Stabile Ressourcenversorgung kann die Einhaltung vereinbarter Projektfristen unterstützen, wenn Versorgungslücken terminrelevante Aufgaben betreffen und nicht anderweitig kompensiert werden. Ogbeifun und Pretorius (2022), S. 100–101, DOI: 10.2478/emj-2022-0008. Die Übertragung qualitativer Befunde zu verzögerten Förderzahlungen auf allgemeine Versorgungslücken bleibt eine Annahme. Ressourcenbedarf, Ersatz, Zeitpuffer und andere Verzögerungsursachen sind getrennt zu berücksichtigen."
