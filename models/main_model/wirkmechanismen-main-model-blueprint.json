@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-sichtbarkeitLieferzyklen",
+      "attributes": {
+        "label": "Sichtbarkeit der Lieferzyklen von (Teil)Ergebnissen",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": [
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Ausmaß, in dem für benannte Beteiligte innerhalb eines festgelegten Projektabschnitts auffindbar und einsehbar dargestellt ist, wann welche Ergebnisse oder Teilergebnisse welchen Empfängern bereitgestellt werden sollen und wann diese Bereitstellungen tatsächlich erfolgt sind. Die Zuordnung zu einer benannten Folge wiederkehrender Lieferzyklen und deren zeitlicher Abfolge ist erkennbar; gleich lange Intervalle sind nicht vorausgesetzt. Geplante, prognostizierte und tatsächliche Bereitstellungen sowie Änderungen und maßgebliche Planstände sind eindeutig unterscheidbar. Lieferung bezeichnet die Bereitstellung zur vorgesehenen Verwendung durch die benannten Empfänger; interne Fertigstellung, Review oder Freigabe allein genügen nicht. Lieferhäufigkeit, Termineinhaltung, Ergebnisqualität, Kenntnis und tatsächliche Nutzung werden getrennt bewertet.\n\nGrundlagen: Scarbrough, Panourgias und Nandhakumar (2015), Developing a Relational View of the Organizing Role of Objects, Abschn. Milestone schedule und Tabelle 2, DOI: 10.1177/0170840614557213; Bolcer und Taylor (1998), Advanced Workflow Management Technologies, Abschn. 3.1.1, Autorenfassung vom 3. März 1999. Eigene Spezifizierung auf geplante und tatsächliche empfängerbezogene Lieferungen in wiederkehrenden Zyklen; keine übernommene validierte Skala.\n\nMessvorschlag: feste Zyklus- und Rollenfälle zu einem Stichtag gegen unabhängige Plan- und Bereitstellungsnachweise prüfen. Sichtbarkeit der Planung, der tatsächlichen Lieferungen und ihrer zeitlichen Zuordnung getrennt ausweisen; Prüfdeckung, ungeklärte Fälle und noch nicht beurteilbare Historie berichten. Keine gewichtete Gesamtnote. Verfahren zu pilotieren. Messbarkeit 0.5: Zyklusabgrenzung, Nachweismaßstab und vergleichbare Zugriffsszenarien sind noch zu operationalisieren. Beeinflussbarkeit 0.5: zuständige Projektkoordination und Informationsverantwortliche können Darstellung und Pflege im Projektabschnitt gestalten; externe Zugriffsrechte, Systeme und fehlende Bereitstellungsnachweise begrenzen ihren Einfluss.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-lieferzyklensichtbarkeit-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-sichtbarkeitLieferzyklen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann die Sichtbarkeit geplanter und tatsächlicher Lieferzyklen erhöhen, wenn sie für zugängliche, zyklusbezogene Darstellungen genutzt und mit zutreffenden Planständen, Bereitstellungsnachweisen und Änderungen gepflegt wird. Grundlage: Bolcer und Taylor (1998), Abschn. 3.1.1, Autorenfassung 1999. Die Übertragung allgemeiner Dokumenten- und Statuszugänglichkeit auf Lieferzyklen bleibt eine Annahme; Toolverfügbarkeit allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-lieferzyklensichtbarkeit-002",
+      "from": "elem-sichtbarkeitLieferzyklen",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sichtbare geplante und tatsächliche Lieferzyklen können das gemeinsame Verständnis zeitlicher Aufgabenbezüge stärken, wenn Teammitglieder die Darstellung nutzen, Planstände und Bereitstellungen unterscheiden und abweichende Erwartungen klären. Grundlage: Okhuysen und Bechky (2009), S. 488–489; ergänzend Scarbrough et al. (2015), Tabelle 2. Die Übertragung auf wiederkehrende empfängerbezogene Lieferungen bleibt bedingt; Zugriff allein belegt kein Verständnis."
       }
     }
   ]
