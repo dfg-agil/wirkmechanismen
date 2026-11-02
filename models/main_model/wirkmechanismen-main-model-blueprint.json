@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-anteilBeseitigterHindernisse",
+      "attributes": {
+        "label": "Anteil nachweislich beseitigter Hindernisse",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Anteil der zu Beginn eines festgelegten Beobachtungszeitraums dokumentierten Hindernisse mit damals bestehendem Aufgabenbedarf, deren konkrete Beeinträchtigung bis zum Stichtag nach vorab festgelegten Kriterien nachweislich beseitigt ist. Bezugsgröße bleibt die unveränderte ursprüngliche Kohorte. Später entfallender Aufgabenbedarf gilt als Gegenstandslosigkeit, nicht als Beseitigung; solche Fälle bleiben im Nenner. Ungeprüfte oder nicht eindeutig beurteilbare Fälle sind gesonderte Statusfälle, keine nachweislich ungelösten Hindernisse. Zähler, Nenner, Prüfdeckung, Gegenstandslosigkeit und ungeklärte Fälle sind gemeinsam auszuweisen. Bei unvollständiger Prüfdeckung bezeichnet der Quotient nur den Anteil bestätigter Beseitigungen, keine vollständig festgestellte tatsächliche Beseitigungsquote. Die zugrunde liegende Abhängigkeit darf fortbestehen. Eine dauerhafte geeignete Alternativlösung kann die Beeinträchtigung beseitigen; bloße vorübergehende Umgehungen, Teilverbesserungen und administrative Schließungen genügen nicht. Grundlagen: Tucker und Edmondson (2003), DOI: 10.2307/41166165; Wiesche (2021), DOI: 10.1177/8756972821991365. Eigener, zu pilotierender Kohorten-Messvorschlag mit getrennten Fallgruppen. Messbarkeit 0.5: Beseitigungsnachweise und Fallvergleichbarkeit noch zu operationalisieren. Beeinflussbarkeit 0.5: Team und zuständige Stellen können im vereinbarten Beobachtungszeitraum Maßnahmen umsetzen; externe Abhängigkeiten und begrenzte Befugnisse beschränken dies.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-hindernisbeseitigung-001",
+      "from": "elem-jz5ga33J",
+      "to": "elem-anteilBeseitigterHindernisse",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktives Arbeitsmanagement kann den Anteil bestätigter Hindernisbeseitigungen erhöhen, wenn Ursachen geklärt, zuständige Stellen einbezogen, wirksame Maßnahmen umgesetzt und ihre Ergebnisse geprüft werden. Grundlage: Wiesche (2021), Diskussion; Tucker und Edmondson (2003), S. 66–67. Die Übertragung auf den Kohortenanteil bleibt eine Annahme; Sichtbarmachung, Umgehung oder Ticketschließung allein genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-hindernisbeseitigung-004",
+      "from": "elem-anteilBeseitigterHindernisse",
+      "to": "elem-kQpp3aDS",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Ein höherer Anteil frühzeitig beseitigter, tatsächlich verzögernder Hindernisse kann die Durchlaufzeit betroffener Arbeiten verkürzen, wenn vergleichbare Fallgruppen und Arbeitsumfänge betrachtet werden und keine neuen Engpässe entstehen. Grundlage: Wiesche (2021), Ergebnisse und Diskussion. Die Übertragung qualitativer Verzögerungsbefunde auf den Kohortenanteil bleibt eine Annahme; eine allgemeine Zeitersparnis ist nicht belegt."
       }
     }
   ]
