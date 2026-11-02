@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-informationsbedarfAufgabenbewaeltigung",
+      "attributes": {
+        "label": "Informationsbedarf zur Aufgabenbewältigung",
+        "description": "Inhaltlicher Umfang der Informationen, die ein benanntes Team zur Bearbeitung einer festgelegten Aufgabe beim bezeichneten Aufgaben- und Lösungsstand unter vorgegebenen Zielen und Gütekriterien benötigt. Erfasst werden fachlich begründete Informationsanforderungen unabhängig davon, ob sie bereits durch Wissen oder zugängliche Quellen gedeckt sind. Wahrgenommener Bedarf, Informationsdeckung, ungedeckter Bedarf, Suche und Verarbeitung werden getrennt beurteilt. Genauigkeit, Aktualität, Verlässlichkeit und erforderliche Bereitstellungszeit werden je Anforderung dokumentiert und nicht mit dem inhaltlichen Umfang zu einer Gesamtnote verrechnet. Eigene begriffliche Festlegung im Anschluss an die Unterscheidung von Aufgabenanforderungen und subjektivem Informationsbedarf bei Byström (1999), S. 24–30, https://urn.fi/urn:isbn:978-952-03-1893-2. Messvorschlag: aufgabenbezogenes Anforderungsregister mit nachvollziehbaren Inhaltszuordnungen und unabhängiger fachlicher Prüfung. Größerer Bedarf bedeutet bei vergleichbaren Güte- und Zeitkriterien zusätzliche notwendige Inhalte ohne Wegfall anderer Inhalte; sonstige Profile können unvergleichbar bleiben. Keine Gleichsetzung mit Dokument-, Fragen- oder Datenfeldzahlen. Messbarkeit 0.5: Abgrenzung, Vollständigkeit und Vergleichbarkeit der Anforderungen sind zu pilotieren. Beeinflussbarkeit 0.5: Team und zuständige Aufgabenverantwortliche können im betrachteten Entwicklungsabschnitt zulässige Lösungswege und Arbeitsteilung gestalten; verbindliche Ziele, Gütekriterien und externe Vorgaben begrenzen dies. Informationsbereitstellung allein senkt diesen Bedarf nicht.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-informationsbedarf-002",
+      "from": "elem-VBKokGEh",
+      "to": "elem-informationsbedarfAufgabenbewaeltigung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Technologische Abhängigkeiten können den Informationsbedarf vergrößern, wenn für dieselbe Entwicklungsaufgabe zusätzliche Wechselwirkungen und Schnittstellen fachlich berücksichtigt werden müssen. Quelle: Pimmler und Eppinger (1994), Einleitung und Schritt 2. Die Übertragung ihrer Integrationsanalyse auf den benötigten Informationsumfang bleibt eine Annahme; weder unbekannte Zusammenhänge noch Informationslücken werden dadurch bereits nachgewiesen."
+      }
+    },
+    {
+      "_id": "conn-informationsbedarf-008",
+      "from": "elem-informationsbedarfAufgabenbewaeltigung",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zusätzliche erforderliche Inhalte können fachlichen Wissensaustausch anregen, wenn der Bedarf erkannt wird, seine Deckung Beiträge anderer Teammitglieder erfordert und diese erreichbar sowie teilungsbereit sind. Quelle: Byström (1999), S. 94–98, 109–111. Die Übertragung beobachteter Personenquellennutzung auf tatsächlichen Teamaustausch bleibt eine Annahme; aus vollständig gedecktem Bedarf folgt keine Zunahme."
       }
     }
   ]
