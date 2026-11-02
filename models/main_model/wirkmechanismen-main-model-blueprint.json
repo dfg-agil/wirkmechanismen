@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-transparenzArbeitsablauf",
+      "attributes": {
+        "label": "Transparenz des Arbeitsablaufs",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Ausmaß, in dem für benannte Beteiligte innerhalb einer festgelegten Prozessgrenze und eines benannten Arbeitsabschnitts auffindbar und einsehbar dargestellt ist, wie Arbeitsschritte, Übergänge, Zuständigkeiten und relevante Abhängigkeiten zusammenhängen und wie konkrete Arbeitsgegenstände diesen zugeordnet sind. Geltende Festlegungen und tatsächliche Bearbeitungszustände beziehungsweise belegte Ablaufereignisse sind unterscheidbar; ihr zeitlicher Bezug sowie bekannte Abweichungen, Widersprüche und ungeklärte Angaben werden kenntlich gemacht. Der tatsächliche Verlauf wird soweit einbezogen, wie er für den festgelegten Prozesszusammenhang erforderlich ist. Visuelle Darstellung ist nicht vorausgesetzt. Tatsächliches Verständnis, Nutzung, Regelbefolgung und Prozessleistung werden getrennt beurteilt.\n\nGrundlagen: Bolcer und Taylor (1998), Abschn. 3.1.1 und 3.1.8; Kinnaird et al. (2012), DOI: 10.1145/2389176.2389219. Eigene Präzisierung eines medienunabhängigen, adressatenbezogenen Transparenzzustands; keine übernommene validierte Skala.\n\nMessvorschlag: getrenntes Prüfprofil für Zugang, nachvollziehbare Prozesszuordnung, Richtigkeit, Aktualität und Kennzeichnung offener Angaben gegen unabhängig bestimmte Referenzen. Prüfdeckung, Informationslücken, falsche Angaben, ungeklärte Fälle und begründete Nichtanwendbarkeit gesondert ausweisen. Keine gewichtete Gesamtnote. Vergleich nur bei gleichen Bezugsbedingungen; gegenläufige Profile bleiben zunächst unvergleichbar. Messbarkeit 0.5: Referenzbildung, Kriterien und Vergleichbarkeit sind zu pilotieren. Beeinflussbarkeit 0.5: Team und zuständige Prozessverantwortliche können Bereitstellung, Verknüpfung und Pflege im betrachteten Arbeitsabschnitt teilweise gestalten; externe Nachweise, Systeme und Zugriffsrechte begrenzen ihr Mandat."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-arbeitsablauftransparenz-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-transparenzArbeitsablauf",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann Arbeitsablauftransparenz ermöglichen, wenn Prozessinformationen dort zusammengeführt, eindeutig zugeordnet, gepflegt und für die benannten Beteiligten freigeschaltet werden. Grundlage: Bolcer und Taylor (1998), Abschn. 3.1.1 und 3.1.8. Die Übertragung technischer Gestaltungsanforderungen auf den allgemeinen Infrastrukturfaktor bleibt eine Annahme; verfügbare Tools allein belegen keinen transparenten Ablauf."
+      }
+    },
+    {
+      "_id": "conn-arbeitsablauftransparenz-004",
+      "from": "elem-transparenzArbeitsablauf",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Transparente Ablaufinformationen können gemeinsames Verständnis von Aufgaben und Prozesszusammenhängen fördern, wenn Beteiligte sie nutzen, zutreffend interpretieren und unterschiedliche Deutungen klären. Quelle: Hane Hagström et al. (2025), Abschn. 4, RQ2, und 5. Die Übertragung berichteter Übersicht und Klarheit aus digitaler visueller Planung auf medienunabhängige Transparenz und unabhängig geprüftes Teamverständnis bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-arbeitsablauftransparenz-005",
+      "from": "elem-transparenzArbeitsablauf",
+      "to": "elem-jz5ga33J",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Arbeitsablauftransparenz kann bei voneinander abhängigen Arbeiten das Management laufender Arbeiten unterstützen, indem relevante Änderungen und gefährdete Übergaben rechtzeitig erkennbar werden. Voraussetzung sind tatsächliche Nutzung, geeignete Reaktionsmöglichkeiten und zuständige Handelnde. Quelle: Dabbish et al. (2012), S. 1282–1283. Die Übertragung qualitativer Befunde zur Bearbeitung von Softwareabhängigkeiten auf die Effektivität laufender Arbeitssteuerung bleibt eine Annahme; Sichtbarkeit allein genügt nicht."
       }
     }
   ]
