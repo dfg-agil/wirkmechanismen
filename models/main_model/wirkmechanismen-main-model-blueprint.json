@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-kompetenzpassungAufgabenverteilung",
+      "attributes": {
+        "label": "Anteil kompetenzpassend zugeordneter Aufgabenbeiträge",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsnutzung (Entscheidung/Handlung)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Anteil einer vorab festgelegten Menge fachlicher Aufgabenbeiträge, bei denen die tatsächlich zugeordneten Teammitglieder die vorab bestimmten Kompetenzanforderungen nachweislich abdecken. Bei gemeinsamer Bearbeitung wird die aufgabenbezogene Ergänzung der zugeordneten Kompetenzprofile berücksichtigt; nicht jedes Mitglied muss sämtliche Anforderungen erfüllen. Bewertet wird die tatsächliche Zuordnung, nicht die Kenntnis der Kompetenzen, die Teambesetzung, die Belastung, die Beteiligungsgerechtigkeit oder die Klarheit der Zuständigkeiten. Grundlagen: Brandon und Hollingshead (2004), DOI: 10.1287/orsc.1040.0069; Littlepage et al. (2008), DOI: 10.1037/1089-2699.12.3.223. Eigener kohortenbezogener Messvorschlag; fehlende Nachweise und unzugeordnete Beiträge werden gesondert ausgewiesen. Messbarkeit 0.5: Kompetenzkriterien, Prüfdeckung und Vergleichbarkeit sind zu pilotieren. Beeinflussbarkeit 0.5: Team und zuständige Zuordnungsberechtigte können Zuordnungen teilweise verändern; Kompetenzangebot, Kapazitäten und Mandate begrenzen dies.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-aufgabenkompetenzpassung-001",
+      "from": "elem-transpFahig01",
+      "to": "elem-kompetenzpassungAufgabenverteilung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Transparentes, zutreffendes Wissen über individuelle Kompetenzen kann kompetenzpassende Zuordnungen fördern, wenn zuständige Beteiligte es bei tatsächlichen Übernahmen oder Umverteilungen nutzen. Grundlage: Brandon und Hollingshead (2004), Abstract; van der Kleij und Hoeppermans (2011), Ergebnisse. Die Übertragung auf reale Aufgabenverteilung bleibt eine Annahme; Auswahlmöglichkeiten sind erforderlich. Bloße bessere Kenntnis verändert die Passung nicht."
+      }
+    },
+    {
+      "_id": "conn-aufgabenkompetenzpassung-005",
+      "from": "elem-kompetenzpassungAufgabenverteilung",
+      "to": "elem-effektivitaetKollaboration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Ein höherer Anteil kompetenzpassender Zuordnungen kann die Ergebniswirksamkeit gemeinsamer Arbeit erhöhen, wenn dadurch relevante Kompetenzlücken in der Bearbeitung geschlossen, Beiträge tatsächlich erbracht und integriert werden. Grundlage: Littlepage et al. (2008), Autorenfahne S. 9–10; Faraj und Sproull (2000), Abstract. Übertragung auf interdisziplinäre Entwicklungsaufgaben; ausreichende Kapazität und vergleichbarer Arbeitsumfang sind erforderlich."
       }
     }
   ]
