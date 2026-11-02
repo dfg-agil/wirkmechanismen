@@ -5167,6 +5167,24 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-ressourcenEntscheidungsvorbereitung",
+      "attributes": {
+        "label": "Verfügbarkeit von Ressourcen zur Entscheidungsvorbereitung",
+        "description": "Ausmaß, in dem den benannten Beteiligten einer festgelegten Projektentscheidung die vorab als erforderlich bestimmten Fachpersonen mit nutzbarer Arbeitszeit und die benötigten technischen Arbeitsmittel im maßgeblichen Vorbereitungs- und Abwägungsfenster praktisch zugänglich und organisatorisch zur Nutzung freigegeben sind. Bloße Existenz, Beschaffbarkeit oder Zusagen genügen nicht. Tatsächliche Nutzung und Ressourcen für die spätere Umsetzung werden getrennt betrachtet. Informationen und Datenbestände sind nicht Bestandteil dieses Faktors.\n\nGrundlagen: Clark und Urwin (2008), DOI: 10.2139/ssrn.1133015; Todd und Benbasat (2000), DOI: 10.1002/(SICI)1099-0771(200001/03)13:1<91::AID-BDM345>3.0.CO;2-A. Eigener Messvorschlag: aufgabenbezogenes Ressourcenprofil mit getrennten Verfügbarkeits- und Klärungsstatus; keine Gesamtnote. Messbarkeit 0.5: Anforderungsbestimmung, fachliche Eignung und zeitliche Zugänglichkeit benötigen noch zu prüfende Kriterien. Beeinflussbarkeit 0.5: Projektleitung und zuständige Ressourcenverantwortliche können innerhalb ihres Mandats Zugänge und Zeitfenster teilweise sichern; externe Verpflichtungen und Freigaben begrenzen dies. Verfahren und Bewertungsanker sind zu pilotieren.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "taktisch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14074,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-entscheidungsressourcen-001",
+      "from": "elem-Cp80iMCp",
+      "to": "elem-ressourcenEntscheidungsvorbereitung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bedarfsbezogene, unterstützende Führung kann nutzbare Zeit und Fachkapazität für eine benannte Entscheidung bereitstellen, wenn zuständige Personen innerhalb ihres Mandats Prioritäten ändern und konkurrierende Verpflichtungen tatsächlich entlasten. Quelle: Clark und Urwin (2008), Manuskript S. 18–20. Die Übertragung von Pensionsfondsführung auf den gespeicherten Führungsfaktor und Projektentscheidungen bleibt Annahme; bloße Zusagen genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-entscheidungsressourcen-002",
+      "from": "elem-Q3uEEe5Q",
+      "to": "elem-ressourcenEntscheidungsvorbereitung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kurze Bereitstellungszeiten können technische Vorbereitungslücken rechtzeitig schließen, wenn Beschaffung, Einrichtung und Zugangsfreigabe auf das Entscheidungsfenster abgestimmt und tatsächlich ausgeführt werden. Grundlagen: Sirmon et al. (2011), S. 1391–1393; Chen et al. (2018), Abstract. Die Übertragung von Ressourcenorchestrierung und Bauprojektplanung auf entscheidungsbezogenen Werkzeugzugang bleibt Annahme; bloße Beschaffbarkeit genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-entscheidungsressourcen-003",
+      "from": "elem-ressourcenEntscheidungsvorbereitung",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare Fachkapazität kann informationsabhängige Projektentscheidungen verbessern, wenn geeignete Beratung tatsächlich eingeholt und sachgerecht berücksichtigt wird. Grundlage: Yaniv (2004), Autorenfassung 2005, S. 7, 10–12, 15. Die Übertragungen von bereitgestellten Schätzungen auf Fachpersonenverfügbarkeit und von Schätzgenauigkeit auf Projektentscheidungen bleiben Annahmen. Entscheidungsqualität wird unabhängig anhand vorab bestimmter Ziel- und Kostenkriterien beim damaligen Informationsstand beurteilt."
       }
     }
   ]
