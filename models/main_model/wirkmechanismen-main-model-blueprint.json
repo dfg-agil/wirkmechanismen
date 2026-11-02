@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-freigabestatusZusaetzlicherEntwicklungsiteration",
+      "attributes": {
+        "label": "Freigabestatus einer zusätzlichen Entwicklungsiteration",
+        "description": "Status des verbindlichen Beschlusses der zuständigen Personen, nach Bewertung eines benannten Arbeitsstands eine zusätzliche abgegrenzte Bearbeitungs- und Überprüfungsschleife desselben Entwicklungsgegenstands durchzuführen. Zusätzlich bedeutet: über den bereits verbindlich freigegebenen Bearbeitungsumfang hinaus. Erfasst wird die getroffene Fortsetzungs- oder Nichtfortsetzungsentscheidung; vertagte und noch offene Entscheidungen werden gesondert dokumentiert. Entscheidungsangemessenheit, tatsächliche Durchführung und Anzahl abgeschlossener Iterationen sind getrennte Gegenstände. Eigene binäre Operationalisierung in Anlehnung an Erat und Kavadias (2008), DOI: 10.1287/mnsc.1070.0784. Messbarkeit 1 setzt eindeutige, datierte und zuständigkeitsgeprüfte Beschlussnachweise voraus. Beeinflussbarkeit 0.5: zuständige Projektverantwortliche gestalten den Beschluss innerhalb ihres Mandats, begrenzt durch Budget, Fristen und verbindliche Freigaben. Erfassungsverfahren zu pilotieren; Fortsetzung ist kein Qualitätsurteil.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsnutzung (Entscheidung/Handlung)",
+        "tags": [
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 1,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-iterationsfreigabe-001",
+      "from": "elem-lcDSwFU2",
+      "to": "elem-freigabestatusZusaetzlicherEntwicklungsiteration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Höhere Artefaktqualität kann die Freigabe einer zusätzlichen Korrektur- und Verifikationsiteration entbehrlich machen, wenn feststehende Anforderungen bereits erfüllt sind, keine weitere Prüfpflicht und kein eigenständiger Erkundungsbedarf bestehen. Grundlage: Tahera et al. (2019), Abschn. 4.3.5; Erat und Kavadias (2008), S. 966–967. Die Übertragung auf einen ausdrücklichen Freigabebeschluss bleibt eine Annahme; kein allgemeiner Qualitäts-Fortsetzungszusammenhang."
+      }
+    },
+    {
+      "_id": "conn-iterationsfreigabe-008",
+      "from": "elem-freigabestatusZusaetzlicherEntwicklungsiteration",
+      "to": "elem-xub4q8UC",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine verbindliche Freigabe kann zusätzliche durchgeführte Iterationen ermöglichen, wenn sie umgesetzt wird und Ressourcen sowie verbleibende Zeit ausreichen. Grundlage: Erat und Kavadias (2008), S. 957–958; Herrmann (2005), Abschn. 2. Die Übertragung idealisierter Entscheidungsmodelle auf reale Freigaben bleibt eine Annahme. Beschluss und abgeschlossene Bearbeitungs- und Überprüfungsschleife sind unabhängig zu dokumentieren."
       }
     }
   ]
