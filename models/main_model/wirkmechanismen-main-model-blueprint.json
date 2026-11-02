@@ -5167,6 +5167,21 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-anpassungsfaehigkeitFuehrungsverhalten",
+      "attributes": {
+        "label": "Fähigkeit zur Anpassung des Führungsverhaltens",
+        "description": "Fähigkeit einer Person mit Führungsverantwortung, veränderte Aufgabenanforderungen und Unterstützungsbedarfe zu erkennen und ihr Führungsverhalten bei Bedarf begründet anzupassen. Betrachtet werden situationsgerechte Auswahl und Ausführung unterschiedlicher Führungsverhaltensweisen im benannten Verantwortungsbereich. Tatsächlich gezeigte Anpassung, institutioneller Handlungsspielraum und nachfolgende Teamwirkungen werden getrennt erfasst.\n\nBegriffsgrundlage: Yukl und Mahsud (2010), DOI: 10.1037/a0019835. Eigene Eingrenzung auf individuelle Kompetenz.\n\nBeurteilung durch neue Führungsszenarien mit getrennter Bewertung von Diagnose, Auswahl und Ausführung; Verfahren zu pilotieren. Messbarkeit 0.5: Kriterien für Situationsangemessenheit und Transfer sowie die Szenarienvergleichbarkeit sind noch zu operationalisieren. Beeinflussbarkeit 0.5: Kompetenzentwicklung ist gestaltbar, Lernerfolg jedoch nicht vollständig steuerbar.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Mensch",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14071,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-fuehrungsanpassung-001",
+      "from": "elem-NmRVFhyA",
+      "to": "elem-anpassungsfaehigkeitFuehrungsverhalten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bedarfsgerecht gestaltete Führungstrainings können Anpassungskompetenz entwickeln, wenn die Person Diagnose, Verhaltensauswahl und Ausführung übt und auf neue Situationen überträgt. Grundlage: Lacerenza et al. (2017), Tabellen 3–4; Yukl und Mahsud (2010), S. 87–88. Der spezifische Kompetenzzuwachs bleibt eine Übertragungsannahme; Angebot, Teilnahme und Trainingszufriedenheit genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-fuehrungsanpassung-002",
+      "from": "elem-KOUdbt3n",
+      "to": "elem-anpassungsfaehigkeitFuehrungsverhalten",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Teamreflexion kann die spätere Anpassungskompetenz einer Führungsperson stärken, wenn Führungsinteraktionen ausdrücklich ausgewertet und alternative Vorgehensweisen erprobt werden. Grundlage: Thommes et al. (2024), „Reflecting on the leadership transition process“. Die Übertragung des theoretischen Teamlernmechanismus auf individuelle Kompetenz bleibt eine Annahme; ein Retrospektiventermin allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-fuehrungsanpassung-004",
+      "from": "elem-anpassungsfaehigkeitFuehrungsverhalten",
+      "to": "elem-effektivitaetKollaboration",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Individuelle Anpassungsfähigkeit kann die Ergebniswirksamkeit der Kollaboration unterstützen, wenn veränderte Aufgaben passende Führungswechsel erfordern und Führungskraft sowie Team diese abgestimmt umsetzen. Grundlage: Thommes et al. (2024), Prozessmodell der Führungsübergänge. Der Übergang von Fähigkeit zu gemeinsam realisierter Anpassung und Ergebnisverbesserung bleibt eine theoretische Annahme; Wechselkosten sind zu berücksichtigen."
       }
     }
   ]
