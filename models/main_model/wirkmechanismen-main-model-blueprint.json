@@ -3741,8 +3741,8 @@
     {
       "_id": "elem-pOq2hTBC",
       "attributes": {
-        "label": "Frequenz der Lieferzyklen",
-        "description": "Es sollte eine kurze Freigabezykluszeit angestrebt werden (\"time boxing\"). Die Freigabezykluszeit beschreibt dabei die Häufigkeit der Lieferung von Teilergebnissen des Projekts an die Stakeholder, also z.B. von Hardware, Simulationen, Prototypen, Diagnosen, Marktforschung. Es muss eine regelmäßige Lieferung funktionierender Produkte an den Kunden angestrebt werden, in möglichst kurzen Zeitabständen von wenigen Wochen, bzw. wenigen Monate.",
+        "label": "Frequenz der Lieferzyklen von (Teil)Ergebnissen",
+        "description": "Häufigkeit tatsächlich abgeschlossener Lieferzyklen innerhalb eines festgelegten Projektabschnitts und einer vorab abgegrenzten Lieferfolge. Eine Lieferfolge kann eigenständig bereitgestellte Teilergebnisse umfassen; der Abschluss des gesamten Projektergebnisses ist nicht erforderlich. Ein Zyklus ist abgeschlossen, sobald sein vorab bestimmter Ergebnisumfang in der vorgesehenen Bereitstellungsreife sämtlichen für diese Lieferfolge benannten Empfängern zur vorgesehenen Verwendung bereitgestellt ist. Geplante Zyklen, einzelne Bereitstellungsereignisse und tatsächliche Zyklusabschlüsse werden unterschieden. Mehrere Teilergebnisse, Dateiversionen oder Empfänger desselben Zyklus erzeugen keine zusätzlichen Zykluszählungen. Interne Fertigstellung, Sprintende, Review oder technische Freigabe allein genügen nicht. Höhere Frequenz bedeutet häufigere tatsächliche Zyklusabschlüsse, nicht automatisch höhere Qualität oder bessere Zusammenarbeit.\n\nGrundlage: Hilton, Tunnell, Huang, Marinov und Dig (2016), Usage, Costs, and Benefits of Continuous Integration in Open-Source Projects, RQ11, S. 432–433, DOI: 10.1145/2970276.2970358. Eigene Übertragung der Releases-pro-Monat-Messung auf abgegrenzte Lieferfolgen verschiedener Ergebnisarten; keine Gleichsetzung von Software-Release, Deployment, Prototyp und Sprint.\n\nMessvorschlag: Zahl nachgewiesener Zyklusabschlüsse in einem vorab festgelegten Zeitfenster geteilt durch dessen Dauer. Parallele Lieferfolgen, Ergebnisumfang und Bereitstellungsreife getrennt ausweisen. Teilbereitstellungen schließen den Zyklus erst bei Erfüllung seiner vorab festgelegten Kriterien ab; zusätzliche oder ausgefallene Lieferungen und Planänderungen gesondert dokumentieren. Unregelmäßige Abstände ergänzend berichten; der Kehrwert eines mittleren Intervalls ist nicht automatisch die beobachtete Frequenz. Fehlende Nachweise und unzureichende Beobachtung von nachgewiesen null Lieferungen unterscheiden. Zählregeln und Referenzprüfung zu pilotieren. Messbarkeit 0.5: Zyklusabgrenzung, Nachweisvollständigkeit und Vergleichbarkeit verschiedener Ergebnisarten sind noch zu operationalisieren. Beeinflussbarkeit 0.5: zuständige Projekt- und Lieferverantwortliche können im betrachteten Projektabschnitt Planung und Bereitstellungsprozesse teilweise gestalten; Freigaben, Kapazitäten, Abhängigkeiten und Empfängerbedingungen begrenzen ihren Einfluss.",
         "element type": "Einflussfaktoren",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
         "tags": [
@@ -3754,8 +3754,8 @@
         "micmac influence": 0,
         "metrics::last": 0.6984704611086446,
         "micmac exposure": 0.6984704611086446,
-        "measurability": 1,
-        "influenceability": 1,
+        "measurability": 0.5,
+        "influenceability": 0.5,
         "indegree": 3,
         "outdegree": 1,
         "degree": 4,
@@ -14056,6 +14056,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-lieferfrequenz-001",
+      "from": "elem-xUIM8LMt",
+      "to": "elem-pOq2hTBC",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kontinuierliche Integration kann häufigere Lieferzyklen ermöglichen, indem sie Integrationsprobleme früher sichtbar macht und geprüfte integrierte Stände bereitstellt. Voraussetzung sind passende Freigabeprozesse und Bereitstellungskapazitäten. Grundlage: Hilton et al. (2016), RQ11. Die Übertragung beobachteter Zusammenhänge zwischen CI-Nutzung und Software-Releases auf den Integrationsgrad verschiedener Teilsysteme bleibt eine Annahme; häufigere Lieferungen sind unabhängig zu prüfen."
+      }
+    },
+    {
+      "_id": "conn-lieferfrequenz-002",
+      "from": "elem-pOq2hTBC",
+      "to": "elem-y6GVV12J",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufigere Lieferzyklen können zusätzliche Rückmeldungen anregen, wenn Empfänger unterscheidbare Ergebnisstände erproben können und erreichbare Rückmeldekanäle sowie ausreichende Rückmeldekapazität bestehen. Grundlage: Pagano und Maalej (2013), Abschn. III.A.1. Die Studie zeigt zeitliche Reviewhäufungen nach Releases, keine allgemeine Mengensteigerung. Ob insgesamt mehr statt lediglich vorgezogener oder ersetzter Rückmeldungen entstehen, bleibt unabhängig zu prüfen."
       }
     }
   ]
