@@ -5167,6 +5167,21 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-aktiveFeedbackeinholung",
+      "attributes": {
+        "label": "Häufigkeit aktiv initiierter Feedbackanfragen zur eigenen oder gemeinsamen Arbeit",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Häufigkeit tatsächlich initiierter, gezielter Bitten einer benannten Person an andere um eine Einschätzung abgegrenzter eigener oder gemeinsamer Arbeitsbeiträge, Vorgehensweisen oder Ergebnisse innerhalb eines festgelegten Arbeitszeitraums. Interne und externe Quellen werden getrennt ausgewiesen. Gezählt werden eigenständige Anfrageepisoden je tatsächlich beobachtetem Arbeitstag; bloße Erinnerungen und Nachfragen innerhalb derselben Episode zählen nicht erneut. Eine unbeantwortete Anfrage zählt als Einholungsaktivität. Absicht, beobachtendes Monitoring, reine Sachfragen, Statusmeldungen, formale Freigaben, erhaltene Rückmeldungen, deren Qualität und Nutzung sind getrennte Gegenstände. Selbst initiierte und vorgeschriebene, tatsächlich ausgeführte Anfragen werden getrennt berichtet. Grundlagen: Ashford und Cummings (1983), DOI: 10.1016/0030-5073(83)90156-3; Crans et al. (2023), DOI: 10.1111/ijtd.12310. Eigener Messvorschlag: ereignisnahes Anfrageregister mit Aufgabenbezug, Quelle, Zeitpunkt und belegter Anfrage; Beobachtungsabdeckung und ungeklärte Fälle zusätzlich ausweisen. Vergleichbare Aufgaben und Anfragegelegenheiten sind Voraussetzung für Vergleiche; mehr Anfragen bedeuten nicht automatisch angemessenere Einholung. Messbarkeit 0.5: Episodenabgrenzung, Nachweiskriterien und Vergleichbarkeit sind zu pilotieren; die Zählung übernimmt keine validierte Skala. Beeinflussbarkeit 0.5 für die anfragende Person im Rahmen ihrer Kommunikationsbefugnisse während eines vereinbarten Projektabschnitts: die Initiierung ist gestaltbar, verfügbare Zeitfenster, Quellenzugang und soziale Sanktionen nur teilweise kontrollierbar."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14071,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-feedbackeinholung-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-aktiveFeedbackeinholung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit im Team kann direkte Feedbackanfragen begünstigen, indem sie erwartete interpersonale Risiken vermindert. Grundlage: Edmondson (1999), S. 351–355 und 371, DOI: 10.2307/2666999. Die Übertragung des untersuchten Lernverhaltens und qualitativer Teambefunde auf dokumentierte individuelle Anfragehäufigkeit bleibt eine bedingte Annahme; sichere Bedingungen erzeugen nicht automatisch Anfragen."
+      }
+    },
+    {
+      "_id": "conn-feedbackeinholung-005",
+      "from": "elem-aktiveFeedbackeinholung",
+      "to": "elem-y6GVV12J",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Direkte Feedbackanfragen können die Zahl tatsächlich erhaltener aufgabenbezogener Rückmeldungen erhöhen, wenn erreichbare Quellen zusätzliche Antworten geben können und wollen. Theoretische Ableitung: Ashford und Cummings (1983), DOI: 10.1016/0030-5073(83)90156-3. Anfrage und Antwort sind getrennt zu zählen; unbeantwortete Anfragen, bloßer Ersatz ohnehin erfolgender Rückmeldungen und Überlastung begründen keine allgemeine Zunahme."
       }
     }
   ]
