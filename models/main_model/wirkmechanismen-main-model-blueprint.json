@@ -5167,6 +5167,21 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-verantwortungsgefuehlEntwickler",
+      "attributes": {
+        "label": "Grad des empfundenen Verantwortungsgefühls des Entwicklers für eigene Arbeitsbeiträge",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Mensch",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Ausmaß, in dem sich eine benannte entwickelnde Person für die Bearbeitung und Ergebnisse ihrer eigenen, vorab abgegrenzten Arbeitsbeiträge innerhalb ihres geklärten Aufgaben- und Befugnisbereichs während eines festgelegten Projektabschnitts persönlich verantwortlich fühlt. Erfasst wird ein subjektiver psychologischer Zustand; zugewiesene Verantwortung, Entscheidungsrechte, Handlungsbereitschaft, tatsächliches Verhalten und Ergebnisqualität werden getrennt beurteilt. Externe Einflüsse begründen keine alleinige persönliche Verantwortlichkeit. Grundlage: Hackman und Oldham (1975), Development of the Job Diagnostic Survey, S. 162–164, DOI: 10.1037/h0076546. Messvorschlag: kontextbezogene individuelle Selbstauskunft in Anlehnung an die JDS-Dimension experienced responsibility; keine Teamaggregation. Messbarkeit 0.5 wegen noch zu prüfender Sprachfassung, Aufgabenabgrenzung und Vergleichbarkeit. Beeinflussbarkeit 0.5 für die Person und die zuständige Projektleitung innerhalb eines vereinbarten Projektabschnitts: Arbeitsgestaltung und Reflexion können den Zustand beeinflussen, seine Ausprägung lässt sich nicht verbindlich herstellen. Anpassung und Messverfahren sind zu pilotieren."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14071,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-verantwortungsgefuehl-001",
+      "from": "elem-hAWDYq8W",
+      "to": "elem-verantwortungsgefuehlEntwickler",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Individuell nutzbarer Entscheidungsfreiraum kann das Verantwortungsgefühl für eigene Beiträge stärken, wenn die Person ihren Einfluss tatsächlich erlebt. Quelle: Hackman und Oldham (1976), S. 256–258, 267–269, DOI: 10.1016/0030-5073(76)90016-7. Die Übertragung von Arbeitsautonomie auf den individuellen Anteil des gemischten Bestandsfaktors bleibt eine Annahme; bloße Teamfreiheit oder formale Rechte genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-verantwortungsgefuehl-002",
+      "from": "elem-verantwortungsgefuehlEntwickler",
+      "to": "elem-68KZOQXM",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verantwortungsgefühl für eigene Beiträge kann die Bereitschaft stärken, dafür zu handeln und Wissen einzusetzen, wenn die Person Handlungsmöglichkeiten und ausreichende Kompetenz wahrnimmt. Quelle: Jønsson und Fasano (2025), Abschnitt Motivation, DOI: 10.3389/fpsyg.2025.1548931. Die Übertragung des theoretischen Motivationsmechanismus auf die gespeicherte Handlungsbereitschaft bleibt eine Annahme; Überforderung oder bloßer Rechenschaftsdruck begründen keine allgemein positive Wirkung."
       }
     }
   ]
