@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-ausuebungTeamautonomie",
+      "attributes": {
+        "label": "Nutzungsgrad der Entscheidungsautonomie des Entwicklungsteams bei der Arbeitsplanung",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsnutzung (Entscheidung/Handlung)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Ausmaß, in dem ein benanntes Entwicklungsteam seine tatsächlich nutzbaren Entscheidungsrechte bei der Arbeitsplanung im festgelegten Zeitraum selbst ausübt. Betrachtet werden anstehende Entscheidungen über zeitliche Einordnung, Reihenfolge und interne Zuordnung der Arbeit innerhalb vorgegebener Ziele und Grenzen. Teamseitig entschieden ist ein Fall, wenn die maßgebliche Festlegung nach einer teamintern vereinbarten Entscheidungsregel ohne erforderliche externe Einzelgenehmigung erfolgt. Beratung ist zulässig. Umfang des Spielraums, individuelle Selbstkoordination und Entscheidungsqualität werden getrennt erfasst. Eigener Messvorschlag nach Wageman (2001), DOI: 10.1287/orsc.12.5.559.10094, und Conzon und Mellody (2025), DOI: 10.1287/orsc.2023.17738: bestätigte teamseitige Entscheidungen innerhalb vorab abgegrenzter nutzbarer Spielräume; Fallzuschnitt, Prüfdeckung und Eskalationen gesondert ausweisen. Noch zu pilotieren. Messbarkeit 0.5: tatsächliche Entscheidungsträgerschaft und Vergleichbarkeit sind zu prüfen. Beeinflussbarkeit 0.5: Team und zuständige Leitung können Entscheidungspraxis gestalten; externe Eingriffe und Abhängigkeiten begrenzen den Einfluss.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-autonomieausuebung-001",
+      "from": "elem-Cp80iMCp",
+      "to": "elem-ausuebungTeamautonomie",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unterstützende Führung kann die Nutzung vorhandener Planungsrechte fördern, wenn sie Probleme beratend bearbeitet, eigenständige Entscheidungen unterstützt und diese nicht selbst übernimmt. Quelle: Wageman (2001), S. 566–568, DOI: 10.1287/orsc.12.5.559.10094. Übertragung breiteren, interviewbasiert erfassten Teamselbstmanagements auf den Nutzungsgrad bei Planungsentscheidungen; kein isolierter Nachweis für den gesamten Bestandsfaktor."
+      }
+    },
+    {
+      "_id": "conn-autonomieausuebung-005",
+      "from": "elem-ausuebungTeamautonomie",
+      "to": "elem-7iCVuvkI",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Teamseitige Planungsentscheidungen können die Einhaltung regulärer Arbeitszeiten unterstützen, wenn das Team Arbeitszusagen anhand tragfähiger Kapazitätseinschätzungen begrenzt und Auftraggeber diese Grenzen akzeptieren. Quelle: Conzon und Mellody (2025), Abschnitt „Team Autonomy“, DOI: 10.1287/orsc.2023.17738. Qualitative Prozessbefunde; die Übertragung auf einen höheren Nutzungsanteil bleibt eine Annahme. Autonomie allein verhindert weder Überlastung noch Überstunden."
       }
     }
   ]
