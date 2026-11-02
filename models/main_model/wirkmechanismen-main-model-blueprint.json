@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-moeglichkeitTeamReflexion",
+      "attributes": {
+        "label": "Möglichkeit der Team-Reflexion",
+        "description": "Ausmaß der praktisch nutzbaren zeitlich-organisatorischen Gelegenheit eines benannten Teams, in einem festgelegten Arbeitsabschnitt gemeinsam Ziele, Vorgehensweisen und Erfahrungen zu betrachten und zu hinterfragen. Für vorab bestimmte Reflexionsanlässe und erforderliche Beteiligte müssen zweckangemessene, gegen konkurrierende Pflichten geschützte Zeit sowie organisatorische Teilnahme- und Zugangsmöglichkeiten bestehen. Formale Erlaubnis oder ein reservierter Termin allein genügen nicht. Gemeinsame Reflexion kann in Retrospektiven, anderen Besprechungen oder geeigneten gemeinsamen Austauschformaten ermöglicht werden; individuelles Nachdenken allein genügt nicht. Psychologische Sicherheit, Reflexionsfähigkeit, Bereitschaft, tatsächliche Nutzung, Reflexionsqualität und spätere Änderungen werden getrennt beurteilt. Grundlagen: De Brún und McAuliffe (2020), DOI: 10.1186/s12913-020-05129-1; Rankl et al. (2021), DOI: 10.1177/1049732321998062. Eigener Messvorschlag: Anteil vorab festgelegter Bedarfsfenster mit mindestens einer nachgewiesen nutzbaren Gelegenheit; Mindestbedingungen und Statusfälle getrennt ausweisen. Die Kennzahl bezeichnet die Abdeckung vorab festgelegter Reflexionsbedarfe. Neu auftretende Bedarfe ergänzend dokumentieren, ohne die ursprüngliche Bezugsmenge nachträglich zu verändern. Bezugsmenge, Prüfdeckung und ungeklärte Fälle gemeinsam berichten; bei ungeklärten Fällen die Quote als bestätigte Mindestabdeckung ausweisen. Messbarkeit 0.5: Zweckangemessenheit und Vergleichbarkeit der Kriterien sind zu operationalisieren und zu pilotieren. Beeinflussbarkeit 0.5: Zuständige Team- beziehungsweise Projektleitung kann innerhalb ihres Mandats im betrachteten Arbeitsabschnitt Prioritäten und Freistellungen gestalten; externe Verpflichtungen begrenzen die Kontrolle.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-reflexionsmoeglichkeit-001",
+      "direction": "directed",
+      "from": "elem-Cp80iMCp",
+      "to": "elem-moeglichkeitTeamReflexion",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unterstützende Führung kann praktisch nutzbare Reflexionsgelegenheiten schaffen, wenn zuständige Führungskräfte konkurrierende Aufgaben umplanen, erforderliche Beteiligte freistellen und Zugänge ermöglichen. Quelle: De Brún und McAuliffe (2020), CMOC3 und CMOC5. Die Übertragung organisatorischer Unterstützung im Gesundheitswesen auf den Bestandsfaktor bleibt eine Annahme; bloße Zustimmung oder Terminsetzung genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-reflexionsmoeglichkeit-004",
+      "direction": "directed",
+      "from": "elem-moeglichkeitTeamReflexion",
+      "to": "elem-KOUdbt3n",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Praktisch nutzbare Gelegenheiten können im Retrospektivenkontext tatsächlich durchgeführte Teamreflexion fördern, wenn Beteiligte zur Reflexion bereit und befähigt sind. Quellen: Michie et al. (2011), COM-B; Rankl et al. (2021), Team-Based Reflexivity Model. Die Übertragung auf regelmäßige Retrospektiven bleibt bedingt; weder Nutzung noch Qualität oder Verbesserung folgen automatisch aus verfügbarer Zeit."
       }
     }
   ]
