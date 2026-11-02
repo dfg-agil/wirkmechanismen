@@ -349,12 +349,13 @@
       "_id": "elem-6709ipyy",
       "attributes": {
         "label": "Anpassungsfähigkeit der Workflowdefinition",
-        "description": "Die kontinuierliche Anpassungs- und Verbesserungsfähigkeit des Teamprozesses hinsichtlich neuer Anforderungen und gewonnener Erkenntnisse.\n\nDas Scrum Team verwendet die bestehenden Scrum Events, um die Definition seines  Workflows zu überprüfen und anzupassen und dadurch das empirische Vorgehen zu  verbessern und den Wert, den das Scrum Team liefert, zu optimieren. \nIm Folgenden finden sich Gesichtspunkte einer Workflowdefinition, die das Scrum Team übernehmen könnte: \n* Verfahrensweisen zur Visualisierung, z. B. der verschiedenen Zustände im Workflow, wodurch sich entweder der derzeitige Workflow verändert oder wodurch mehr Transparenz in einen Abschnitt des Workflows gebracht wird, den bzw. in dem (sich) das Team überprüfen und ggf. anpassen möchte. \n* Arbeitsvereinbarungen – diese können ein Hindernis direkt angehen. Beispielsweise  kann das Anpassen von WIP-Grenzwerten und SLE oder das Ändern der Losgröße (wie oft Arbeitseinheiten zwischen Stadien gezogen werden) erhebliche Auswirkungen haben.\n\n**Quelle**: Der Kanban Guide für Scrum Teams",
+        "description": "Fähigkeit des Teams, die festgelegten Arbeitsschritte, Übergangsregeln und Arbeitsvereinbarungen seines Workflows bei veränderten Anforderungen oder neuen Erkenntnissen begründet anzupassen. Betrachtet werden die verfügbaren Befugnisse, Kompetenzen und technischen Möglichkeiten, erforderliche Änderungen innerhalb eines festgelegten Handlungsrahmens umzusetzen.\n\nQuellen: Scrum.org, Vacanti und Yeret (2021), Der Kanban Guide für Scrum Teams, Januar 2021, S. 5 und 7–9; wissenschaftliche Einordnung: Burke et al. (2006), DOI: 10.1037/0021-9010.91.6.1189. Die workflowbezogene Eingrenzung ist eine eigene Präzisierung.\n\nBeurteilung anhand konkreter Änderungsszenarien und getrennter Befugnis-, Kompetenz- und Technikprofile; Verfahren und Bewertungsanker sind zu pilotieren. Messbarkeit 0.5: Operationalisierung und Szenarienvergleich benötigen Prüfung. Beeinflussbarkeit 0.5: Team und zuständige Prozessverantwortliche können Voraussetzungen teilweise gestalten; übergreifende Vorgaben und Systemabhängigkeiten begrenzen dies. Änderungshäufigkeit und nachgewiesene Verbesserung werden gesondert betrachtet.",
         "element type": "Schlüsselfaktor",
-        "cluster":"Informationsnutzung (Entscheidung/Handlung)",
-         "tags": [
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
           "Technik",
           "Organisation",
+          "Mensch",
           "taktisch"
         ],
         "closeness": 0,
@@ -369,8 +370,8 @@
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
         "micmac exposure": 0.7720321188028204,
-        "measurability": 1,
-        "influenceability": null
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -7701,15 +7702,6 @@
       "to": "elem-F9HioTuT"
     },
     {
-      "_id": "conn-vVr5EOFo",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {},
-      "from": "elem-s2CSbNkg",
-      "to": "elem-6709ipyy"
-    },
-    {
       "_id": "conn-vZfLWOF3",
       "direction": "directed",
       "delayed": false,
@@ -8454,18 +8446,6 @@
       "_id": "conn-bridge-005",
       "from": "elem-E99KvfbM",
       "to": "elem-VRnZT8d0",
-      "direction": "directed",
-      "delayed": false,
-      "reversed": false,
-      "attributes": {
-        "label": "[X]",
-        "connection type": "++"
-      }
-    },
-    {
-      "_id": "conn-bridge-006",
-      "from": "elem-6709ipyy",
-      "to": "elem-SVQRqUSA",
       "direction": "directed",
       "delayed": false,
       "reversed": false,
@@ -9947,9 +9927,9 @@
       "delayed": false,
       "reversed": false,
       "attributes": {
-        "label": "[E]",
+        "label": "[A]",
         "connection type": "++",
-        "description": "Retrospektiven sind der zentrale Mechanismus zur kontinuierlichen Anpassung und Verbesserung des Workflows."
+        "description": "Strukturierte Retrospektiven können die Anpassungsfähigkeit stärken, wenn das Team aus erprobten Änderungen übertragbare Kenntnisse zur Änderung seines Workflows gewinnt. Grundlage: Rosen et al. (2011), S. 109 und 112–113. Die Übertragung des theoretischen Teamlernmodells auf Workflow-Anpassungskompetenz bleibt eine Annahme; bloße Reflexion ersetzt weder Befugnisse noch technische Änderungsmöglichkeiten."
       }
     },
     {
@@ -10859,7 +10839,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Bereitschaft zur Veränderung fördert die Anpassungsfähigkeit der Workflowdefinition durch Offenheit für neue Arbeitsweisen."
+        "description": "Veränderungsbereitschaft kann spätere Workflow-Anpassungsfähigkeit stärken, wenn sie ausdauerndes Erproben, Auswerten und Lernen unterstützt und dadurch übertragbare Änderungskompetenz entsteht. Grundlagen: Weiner (2009), Abschnitt zu Folgen der Veränderungsbereitschaft; Rosen et al. (2011), S. 112–113. Diese Verbindung ist eine theoretische Übertragung; bloße Nutzung vorhandener Möglichkeiten oder höhere Selbstwirksamkeit belegen keinen Kompetenzzuwachs."
       }
     },
     {
@@ -14056,6 +14036,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-workflowanpassungsfaehigkeit-003",
+      "from": "elem-NmRVFhyA",
+      "to": "elem-6709ipyy",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aufgabenbezogene Trainings können Workflow-Anpassungskompetenz aufbauen, wenn ihre Gestaltung eigenständiges Erproben und Transfer auf veränderte Anforderungen unterstützt. Grundlage: Bell und Kozlowski (2008), S. 302–306. Die Übertragung individueller Simulationsleistungen auf gemeinsame Änderungen verbindlicher Workflowregeln bleibt eine Annahme; tatsächliche Nutzung und vorhandene Befugnisse sind Voraussetzungen."
+      }
+    },
+    {
+      "_id": "conn-workflowanpassungsfaehigkeit-002",
+      "from": "elem-6709ipyy",
+      "to": "elem-1fahG9AM",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Anpassungsfähigkeit kann kontinuierliche Prozessverbesserung unterstützen, wenn erkannter Änderungsbedarf in begründete Workflowänderungen überführt und deren Folgen überprüft werden. Grundlage: Feldman (2000), S. 620–623. Die Übertragung beobachteter Routinenänderungen auf eine vorgelagerte Fähigkeit bleibt eine Annahme; bloße Änderbarkeit oder häufige Änderungen belegen keine Verbesserung."
       }
     }
   ]
