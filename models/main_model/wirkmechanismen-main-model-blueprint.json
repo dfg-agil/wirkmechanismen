@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-transparenzWissensstandOrganisation",
+      "attributes": {
+        "label": "Transparenz des aufgabenrelevanten Wissensstands der Organisation",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Ausmaß, in dem für benannte Nutzergruppen nachvollziehbar dargestellt ist, welche vorab abgegrenzten aufgabenrelevanten Wissensgebiete innerhalb eines Organisationsbereichs zu einem festgelegten Zeitpunkt durch dokumentierte oder personengebundene Bestände abgedeckt sind beziehungsweise wo Lücken oder ungeklärte Abdeckung ausgewiesen werden. Betrachtet werden die Zuordnungen zu Beständen, deren Beleggrundlage, Aktualitätsstand und kenntlich gemachter Prüfstatus. Eine nachvollziehbar ausgewiesene Lücke oder ungeklärte Abdeckung vermindert die Transparenz nicht allein aufgrund ihres Inhalts. Ungeklärte Abdeckung belegt kein fehlendes Wissen. Transparenz, fachliche Quelleneignung, tatsächliche Wissensabdeckung und Nutzung werden getrennt bewertet. Grundlagen: Eppler (2001), DOI: 10.1109/HICSS.2001.926495; Perez-Soltero et al. (2009), DOI: 10.1002/kpm.329. Eigener Messvorschlag: Anteil nachvollziehbar dargestellter Zuordnungs- und Statusfälle einer vorab festgelegten Wissensfragenmenge; Prüfdeckung und ungeklärte Fälle zusätzlich ausweisen, keine Gesamtnote mit Quelleneignung oder Wissensabdeckung. Messbarkeit 0.5: Abgrenzung, Nachvollziehbarkeitskriterien und Vergleichbarkeit sind zu pilotieren. Beeinflussbarkeit 0.5 für zuständige Wissensverantwortliche und beteiligte Fachpersonen innerhalb eines vereinbarten Projektabschnitts: Darstellung und Pflege sind gestaltbar, Zugang zu Nachweisen und Mitwirkung anderer Stellen nur teilweise kontrollierbar."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-wissenstransparenz-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-transparenzWissensstandOrganisation",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kriteriengeleitete Reviews einer Wissensübersicht können deren Transparenz erhöhen, wenn erkannte Zuordnungs-, Beleg- und Statuslücken tatsächlich nachvollziehbar berichtigt werden. Grundlage: Kim et al. (2003), S. 40–42, DOI: 10.1108/13673270310477270. Die Übertragung des beschriebenen Experten-Walkthroughs auf allgemeine Reviewqualität und höhere Transparenz bleibt eine bedingte Annahme; Diagnose allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-wissenstransparenz-004",
+      "from": "elem-transparenzWissensstandOrganisation",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine nachvollziehbare Wissensübersicht kann aufgabenbezogenen Wissensaustausch im Team fördern, wenn Beteiligte sie tatsächlich zur Auswahl geeigneter Bestände nutzen und deren Inhalte miteinander teilen; Wissensträger müssen erreichbar und teilungsbereit sein. Grundlage: Eppler (2001), Abschn. 3.6–4.1, DOI: 10.1109/HICSS.2001.926495. Dies ist eine theoretische Übertragung auf tatsächlichen Austausch, kein nachgewiesener allgemeiner Transparenzeffekt; Lückendarstellung allein erhöht keinen Austausch."
       }
     }
   ]
