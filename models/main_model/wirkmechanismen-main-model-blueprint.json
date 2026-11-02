@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-pruefungWipLimits",
+      "attributes": {
+        "label": "Anwendungsgrad eines rückgekoppelten WIP-Limit-Steuerungsverfahrens",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsnutzung (Entscheidung/Handlung)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Anteil der nach vorab festgelegten Regeln abschließend beurteilbaren Steuerungszyklen eines benannten Teams und Workflowabschnitts, in denen ein versioniertes WIP-Limit-Steuerungsverfahren nachweislich vollständig angewandt wurde. Die Anwendung umfasst die Verarbeitung der vorgesehenen Beobachtungen, eine regelgebundene Beibehaltungs- oder Änderungsentscheidung, die tatsächliche Aktivierung beschlossener Änderungen der Freigaberegel und eine vorab zugeordnete Folgebeobachtung. Eine begründete Beibehaltung zählt als Anwendung. Ein Zyklus ist abgeschlossen, wenn diese Schritte einschließlich der Folgebeobachtung durchgeführt sind; ein günstiges Ergebnis ist keine Abschlussbedingung. Das Folgebeobachtungsfenster wird vor der Entscheidung festgelegt und diesem Zyklus zugeordnet. Seine Beobachtungen können zugleich Eingangsdaten des nächsten Zyklus sein, begründen aber keinen zusätzlichen Abschluss. Noch laufende Folgebeobachtungsfenster werden als ausstehend ausgewiesen. Fehlende Nachweise, nachgewiesene Nichtanwendung und nachgewiesene vollständige Anwendung bleiben getrennte Statusfälle; fehlende Nachweise werden nicht nachträglich aus dem Nenner entfernt. Entscheidungsregel, Zuständigkeiten, Workflowgrenze, Prozessstufe, Zähleinheit, Zeitfenster und Abschlussfristen sind vorab festzulegen. Verfahrensanwendung, Änderungshäufigkeit, laufende Limiteinhaltung und Ergebniswirksamkeit werden getrennt bewertet. Wissenschaftliche Einordnung rückgekoppelter Verfahren: Masin und Prabhu (2009), DOI: 10.1080/07408170802275366; De Andrade e Silva und Azevedo (2022), DOI: 10.1016/j.cor.2022.105854. Die menschliche Entscheidungslogik und die Anteilsoperationalisierung sind eigene, noch nicht validierte Vorschläge. Messbarkeit 0.5 wegen noch zu prüfender Verfahrens-, Nachweis- und Vergleichsregeln. Beeinflussbarkeit 0.5 für Team und zuständige Prozessverantwortliche innerhalb eines vereinbarten Verbesserungszyklus bei begrenzter Kontrolle über Daten, Freigabemandate und beteiligte Stellen. Verfahren und Messung sind zu pilotieren."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-wiplimitpruefung-001",
+      "from": "elem-dCCyLXD0",
+      "to": "elem-pruefungWipLimits",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zutreffende Workflowvisualisierung kann die Anwendung eines festgelegten WIP-Limit-Steuerungsverfahrens unterstützen, wenn Flusssignale verfügbar sind und zuständige Beteiligte sie tatsächlich verarbeiten. Quelle: Petersen und Wohlin (2011), Abschnitt 5.2, DOI: 10.1002/spe.975. Die Übertragung datenunterstützter Verbesserungsentscheidungen auf vollständig durchgeführte menschliche Steuerungszyklen bleibt eine Annahme; Visualisierung ersetzt weder Befugnisse noch Umsetzung."
+      }
+    },
+    {
+      "_id": "conn-wiplimitpruefung-003",
+      "from": "elem-pruefungWipLimits",
+      "to": "elem-s2CSbNkg",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "In vorab, ohne Ergebniskenntnis bestimmten Überbestandsfällen kann der Reduktionszweig tatsächliches WIP senken, wenn aktivierte Grenzen neue Starts drosseln und begonnene Arbeit weiter abgeschlossen wird. Quelle: De Andrade e Silva und Azevedo (2022), §3.8.1, DOI: 10.1016/j.cor.2022.105854. Übertragung auf unvalidierte menschliche Steuerung; vergleichbare Nachfrage, Aufgaben und Kapazität vorausgesetzt. Für Erhöhung oder Beibehaltung gilt diese Abnahmeannahme nicht."
       }
     }
   ]
