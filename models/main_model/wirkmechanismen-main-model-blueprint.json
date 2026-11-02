@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-kenntnisRessourcenverfuegbarkeit",
+      "attributes": {
+        "label": "Kenntnisstand zur aufgabenbezogenen Ressourcenverfügbarkeit",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "taktisch",
+          "operativ"
+        ],
+        "description": "Ausmaß, in dem benannte Projektbeteiligte zum Beurteilungszeitpunkt zutreffend wissen, ob und unter welchen Bedingungen vorab bestimmte Ressourcen für ihre Aufgaben im festgelegten Zeitfenster nutzbar sind. Betrachtet werden Fachpersonen und Arbeitszeit, technische Arbeitsmittel und Räume einschließlich benötigter Kapazität, zeitlicher Einschränkungen und Zugangsbedingungen. Zutreffend bekannte Nichtverfügbarkeit zählt ebenfalls als Kenntnis. Informationszugang, Ressourcenmenge und tatsächliche Nutzung werden getrennt erfasst. Quellen: Cramton (2001), DOI: 10.1287/orsc.12.3.346.10098; Malone und Crowston (1994), DOI: 10.1145/174666.174668. Messvorschlag: aufgabenbezogene Statusfragen gegen unabhängig geprüfte Ressourcenstände, getrennt nach Rollen und Ressourcenarten; Prüfdeckung und ungeklärte Fälle ausweisen. Noch zu pilotieren. Messbarkeit 0.5: Vergleichsgrundlage und Testvergleichbarkeit sind zu prüfen. Beeinflussbarkeit 0.5: zuständige Projektleitung und Ressourcenverantwortliche können Aktualisierung und Vermittlung gestalten; tatsächlicher Wissenserwerb und externe Zustandsänderungen begrenzen die Steuerbarkeit.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-ressourcenkenntnis-001",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-kenntnisRessourcenverfuegbarkeit",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare, adressatengerechte Mitteilungen über Ressourcen und Einschränkungen können den zutreffenden Kenntnisstand der zuständigen Beteiligten verbessern, wenn die Angaben stimmen, rechtzeitig wahrgenommen und behalten werden. Quelle: Cramton (2001), S. 355–356, 368, DOI: 10.1287/orsc.12.3.346.10098. Übertragung von Kontextkenntnis verteilter Teams auf das definierte Ressourcenprofil; kein Nachweis eines allgemeinen Kommunikationsqualitätsgradienten."
+      }
+    },
+    {
+      "_id": "conn-ressourcenkenntnis-004",
+      "from": "elem-kenntnisRessourcenverfuegbarkeit",
+      "to": "elem-jz5ga33J",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zutreffende Kenntnis nutzbarer Kapazitäten und Zugangsbedingungen kann kapazitätsgerechtes Nachziehen und die Reaktion auf blockierte Arbeit verbessern, wenn zuständige Beteiligte dieses Wissen tatsächlich berücksichtigen und Arbeit umsteuern können. Quelle: Malone und Crowston (1994), S. 98, DOI: 10.1145/174666.174668. Theoretische Übertragung von verfügbarkeitsbezogener Aufgabenzuordnung auf aktives Arbeitsmanagement; keine garantierte Durchlaufzeitverkürzung."
       }
     }
   ]
