@@ -147,18 +147,16 @@
     {
       "_id": "elem-1Y4HaQAF",
       "attributes": {
-        "label": "Ressourcenauslastung",
-        "description": "= Ressourcenallokation",
+        "label": "Zeitbezogener Gesamtauslastungsgrad einer projektbenötigten Ressource",
+        "description": "Anteil der tatsächlich beanspruchten Zeit an der verfügbaren Kapazitätszeit einer benannten personellen oder technischen Einzelressource innerhalb eines festgelegten Zeitfensters. Erfasst werden sämtliche konkurrierenden Arbeiten einschließlich anderer Projekte; der Anteil des betrachteten Projekts wird gesondert ausgewiesen. Reservierung oder Zuweisung allein zählt nicht als Nutzung. Aufgabenangemessenheit und Ergebnisqualität bleiben getrennte Gegenstände.\n\nGrundlagen: Hopp und Spearman (2004), DOI: 10.1287/msom.1030.0028; Jodlbauer (2005), DOI: 10.1080/00207540500137555. Die projektbezogene Anwendung ist eine eigene Operationalisierung. Messbarkeit 1 setzt eindeutige Zeit-, Kapazitäts- und Erfassungsregeln einschließlich externer Belegungen voraus. Beeinflussbarkeit 0.5: Team und zuständige Ressourcenkoordination können die Nutzung innerhalb ihres Mandats teilweise gestalten; konkurrierende Verpflichtungen und Abhängigkeiten begrenzen dies. Regeln und Erfassungsverfahren sind zu pilotieren. Höhere Auslastung ist kein allgemeines Verbesserungsziel.",
         "tags": [
           "Mensch",
           "Technik",
-         "operativ",
           "taktisch",
-          "strategisch",
-          "normativ"
+          "operativ"
         ],
         "element type": "Einflussfaktoren",
-        "cluster":"Informationsinput (Erzeugung)",
+        "cluster":"Informationsnutzung (Entscheidung/Handlung)",
         "closeness": 0.18205158730158721,
         "metrics::last": 0.6330977784961899,
         "degree": 3,
@@ -172,7 +170,7 @@
         "micmac influence": 0.7935827478813964,
         "micmac exposure": 0.6330977784961899,
         "measurability": 1,
-        "influenceability": 1
+        "influenceability": 0.5
       }
     },
     {
@@ -14056,6 +14054,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-ressourcenauslastung-001",
+      "from": "elem-s2CSbNkg",
+      "to": "elem-1Y4HaQAF",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zusätzliche begonnene Projektarbeit kann die Gesamtauslastung einer benötigten Ressource erhöhen, wenn daraus rechtzeitig ausführbare Arbeit entsteht und zuvor aufgabenbedingter Leerlauf bestand. Kapazität und Aufgabenarten müssen vergleichbar bleiben; andere Belegungen dürfen nicht lediglich verdrängt werden. Wartende oder blockierte Aufgaben allein genügen nicht. Theoretische Grundlage: Hopp und Spearman (2004), S. 136; Übertragung auf Projektarbeit: Annahme."
+      }
+    },
+    {
+      "_id": "conn-ressourcenauslastung-002",
+      "from": "elem-1Y4HaQAF",
+      "to": "elem-kQpp3aDS",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Steigende Gesamtauslastung einer gemeinsam benötigten Einzelressource kann nahe ihrer Kapazitätsgrenze die durchschnittliche Durchlaufzeit erhöhen, wenn variable Zugänge und Bearbeitungszeiten zusätzliche Warteschlangen erzeugen. Sämtliche konkurrierenden Belegungen sind einzubeziehen; Kapazität, Bearbeitungsregeln und Aufgabenarten müssen vergleichbar sein. Wartezeiten müssen zwischen Arbeitsbeginn und Abschluss liegen. Grundlage: Boon et al. (2023), Preprint 2022, Abschnitte 1.2 und 6.2; Projektübertragung: Annahme."
       }
     }
   ]
