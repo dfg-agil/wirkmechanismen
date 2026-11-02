@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-transparenzWorkflowdefinition",
+      "attributes": {
+        "label": "Transparenz der Workflowdefinition",
+        "description": "Ausmaß, in dem betroffene Teammitglieder die aktuell geltenden Festlegungen zu Arbeitsschritten, Übergangsregeln und Arbeitsvereinbarungen auffinden und einsehen können. Dabei sind die maßgebliche Fassung und ihr verbindlicher Geltungsstatus identifizierbar. Inhaltliches Verständnis, Kenntnisnahme und Einhaltung werden gesondert betrachtet.\n\nGrundlagen: Bolcer und Taylor (1998), Advanced Workflow Management Technologies, Abschn. 3.1.1 „Accessibility“; ergänzend Kanban Guide für Scrum Teams, Januar 2021, S. 5. Eigene Eingrenzung auf geltende Workflowregeln.\n\nBeurteilung durch personenbezogene Zugriffsszenarien gegen einen festgelegten Regelbestand; Verfahren zu pilotieren. Messbarkeit 0.5: Geltungsmaßstab und Szenarienvergleich sind noch abzustimmen. Beeinflussbarkeit 0.5: Bereitstellung und Zugriffswege sind teilweise gestaltbar; externe Rechte und Systeme begrenzen den Einfluss.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": [
+          "Technik",
+          "Organisation",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-workflowtransparenz-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-transparenzWorkflowdefinition",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann die Zugänglichkeit geltender Workflowregeln erhöhen, wenn diese dort tatsächlich bereitgestellt, eindeutig referenziert und für die betroffenen Rollen freigeschaltet werden. Grundlage: Bolcer und Taylor (1998), Abschn. 3.1.1 „Accessibility“. Die Übertragung technischer Gestaltungsanforderungen auf den allgemeinen Infrastrukturfaktor bleibt eine Annahme; Toolverfügbarkeit allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-workflowtransparenz-003",
+      "from": "elem-transparenzWorkflowdefinition",
+      "to": "elem-JmXiROgv",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zugängliche geltende Workflowregeln können die Prozessklarheit erhöhen, wenn Beteiligte sie tatsächlich heranziehen und mit den betroffenen Arbeitsschritten verknüpfen können. Grundlage: Wang et al. (2017), Abschn. 4–6. Untersucht wurde Regelverknüpfung gegenüber getrennter Darstellung, kein isolierter Zugänglichkeitseffekt; die Übertragung auf alltägliche Workflowregeln bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-workflowtransparenz-004",
+      "from": "elem-transparenzWorkflowdefinition",
+      "to": "elem-koordin001",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "+-",
+        "description": "Zugängliche Workflowregeln können spätere regelbezogene Rückfragen verringern, wenn Beteiligte wiederkehrende Auskunftsfragen damit selbstständig korrekt beantworten. Grundlage: Dabbish et al. (2014), S. 3. Die Übertragung interaktionsfreier Wissensgewinnung aus Arbeitsspuren auf explizite Regeln bleibt eine Annahme. Erfasst wird nur dieser Abstimmungsanteil; Bereitstellungsaufwand und neue Klärungsbedarfe bleiben getrennt."
       }
     }
   ]
