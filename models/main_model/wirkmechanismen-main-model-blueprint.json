@@ -1837,15 +1837,16 @@
     {
       "_id": "elem-dCCyLXD0",
       "attributes": {
-        "label": "Grad der Workflow-Visualisierung",
+        "label": "Visualisierungsgrad des Arbeitsablaufs",
         "element type": "Schlüsselfaktor",
         "cluster":"Informationsverteilung (Zugänglichkeit)",
          "tags": [
           "Technik",
+          "Organisation",
           "operativ",
           "taktisch"
         ],
-        "description": "Die Fähigkeit, den Workflow und die einzelnen Aufgabenstellungen klar und transparent darzustellen, verbessert das Verständnis und das Management von WIP.\n\nÜber die Visualisierung mit dem Kanban Board macht das Scrum Team seinen Workflow transparent. Das Board sollte derart gestaltet sein, dass die richtigen Gespräche zum richtigen Zeitpunkt angeregt und Verbesserungsmöglichkeiten proaktiv vorschlagen werden. \nDie Visualisierung sollte folgende Aspekte umfassen: \n* Definierte Punkte, an denen das Scrum Team Arbeit als begonnen und als \nabgeschlossen betrachtet. \n* Eine Definition von Arbeit (work items) - einzelne Einheiten von Wert (für Stakeholder, durch das Erlangen von Wissen, durch Prozessverbesserung), die durch das Arbeitssystem des Scrum Teams fließen; höchstwahrscheinlich Product-Backlog-Einträge (PBI). \n* Eine Definition der Workflow-Stadien, welche die Arbeiten (work items) von Beginn bis Ende durchlaufen (und von denen mindestens ein Stadium als “aktiv” im Sinne von “in Arbeit” definiert sein muss). \n* Explizite, also ausdrücklich und klar formulierte, Regeln, wie Arbeit durch die \neinzelnen Stadien fließt. (Diese könnten Elemente aus der Definition of Done des Scrum Teams und Pull-Regeln zwischen den Stadien beinhalten). \n* Regelungen zur Begrenzung von Work in Progress (WIP).\n\n\n**Quelle**: Der Kanban Guide für Scrum Teams",
+        "description": "Ausmaß der zutreffenden visuellen Abbildung der Ablaufstruktur und der aktuellen Arbeit eines benannten Teams innerhalb einer festgelegten Prozessgrenze und eines benannten Betrachtungszeitraums. Das Prüfprofil unterscheidet die Darstellung relevanter Arbeitsschritte, Übergänge und Abhängigkeiten von der Zuordnung konkreter Arbeitsgegenstände zu ihren zum Bewertungszeitpunkt geltenden Zuständen. Maßgeblicher Prozessstand, Plan- und Istangaben sowie verwendete Zustandskennzeichnungen müssen unterscheidbar sein. Analoge und digitale Darstellungen sind gleichermaßen zulässig. Darstellungsabdeckung, Richtigkeit und Aktualität werden getrennt ausgewiesen; mehr Boards, Spalten oder Details bedeuten nicht automatisch höhere Ausprägung. Auffindbarkeit, Zugänglichkeit, tatsächliches Verständnis, Nutzung zur Steuerung sowie Fortschritts- und Ergebniswirkung werden separat beurteilt. Regeln gehören insoweit zum Prüfgegenstand, wie sie die dargestellten Übergänge und Zustände erläutern; vollständige Regeldokumentation und Einhaltung werden nicht vorausgesetzt. Grundlagen: Kanban Guide for Scrum Teams (Januar 2021), Abschnitt Visualization of the Workflow; Karras et al. (2017), DOI: 10.1007/978-3-319-69926-4_1. Eigener Messvorschlag: getrennte Abdeckungs- und Zustandsprüfungen gegen unabhängig bestimmte Prozess- und Arbeitsgegenstandsmengen; Richtigkeit, Aktualität, Prüfdeckung und ungeklärte Fälle gemeinsam berichten. Keine gewichtete Gesamtnote; Profilverbesserung nur ohne Verschlechterung anderer Kriterien unter vergleichbaren Bezugsbedingungen. Messbarkeit 0.5: Referenzabgrenzung und Prüfkriterien sind zu pilotieren. Beeinflussbarkeit 0.5: Team und zuständige Prozessverantwortliche können Darstellung und Pflege im betrachteten Arbeitsabschnitt gestalten; externe Statusnachweise und Zugriffsrechte begrenzen die Kontrolle.",
         "closeness": 0,
         "metrics::last": 0.7720321188028204,
         "degree": 2,
@@ -1858,8 +1859,8 @@
         "reach-efficiency": 0.0049504950495049506,
         "micmac influence": 0,
         "micmac exposure": 0.7720321188028204,
-        "measurability": 1,
-        "influenceability": 1
+        "measurability": 0.5,
+        "influenceability": 0.5
       }
     },
     {
@@ -14056,6 +14057,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-arbeitsablaufvisualisierung-001",
+      "from": "elem-kollabArtefaktInfra",
+      "to": "elem-dCCyLXD0",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verfügbare kollaborative Infrastruktur kann die Arbeitsablaufvisualisierung ermöglichen, wenn geeignete Darstellungen eingerichtet und mit belastbaren Prozess- und Statusangaben gepflegt werden. Quelle: Hane Hagström et al. (2025), Abschn. 3–5. Die Übertragung ihres digitalen Einführungsfalls auf Infrastrukturverfügbarkeit bleibt eine Annahme; Toolbesitz allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-arbeitsablaufvisualisierung-002",
+      "from": "elem-dCCyLXD0",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zutreffende Arbeitsablaufvisualisierung kann gemeinsames Verständnis von Aufgaben und Ablaufzusammenhängen fördern, wenn Beteiligte sie nutzen, Kennzeichnungen angemessen interpretieren und unterschiedliche Deutungen gemeinsam klären. Quelle: Hane Hagström et al. (2025), Abschn. 4–5. Die Übertragung berichteter Übersicht und Klarheit auf unabhängig geprüftes Teamverständnis bleibt eine Annahme; bloße Darstellung belegt kein Verständnis."
       }
     }
   ]
