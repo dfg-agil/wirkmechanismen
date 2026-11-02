@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-flexibilitaetInstitutionellerFuehrungsvorgaben",
+      "attributes": {
+        "label": "Flexibilität der institutionellen Führungsvorgaben",
+        "description": "Spielraum, den die geltenden verbindlichen Vorgaben der betrachteten Organisation benannten Führungspersonen für eine situationsabhängige Wahl und Anpassung ihres Führungsverhaltens eröffnen. Erfasst werden formal zulässige Verhaltensoptionen und geregelte Abweichungsmöglichkeiten innerhalb festgelegter Verantwortungs-, Entscheidungs- und Rechenschaftsgrenzen. Tatsächlich gelebter Spielraum, individuelle Anpassungskompetenz und die Änderbarkeit der Vorgaben selbst werden getrennt betrachtet. Eigene Eingrenzung nach Adler und Borys (1996), S. 74–77, DOI: 10.2307/2393986. Beurteilung anhand versionierter Vorgaben und vergleichbarer Führungsszenarien; Regelklarheit, Freigaben und ungeklärte Fälle getrennt ausweisen. Verfahren zu pilotieren. Messbarkeit 0.5: Kriterien und Szenarienvergleichbarkeit sind noch zu operationalisieren. Beeinflussbarkeit 0.5: im Mandat der regelsetzenden Organisationsstelle veränderbar, begrenzt durch übergeordnete Vorgaben und erforderliche Zustimmung.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Organisation",
+          "strategisch",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-fuehrungsvorgaben-001",
+      "from": "elem-93NeBEYA",
+      "to": "elem-flexibilitaetInstitutionellerFuehrungsvorgaben",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Bereitschaft zur Standardpflege kann den formalen Führungsspielraum erweitern, wenn zuständige Stellen hinderliche Vorgaben überprüfen und begründete Alternativen verbindlich zulassen. Grundlage: Adler und Borys (1996), S. 74–75; Wouters und Wilderom (2008), Abstract. Die Übertragung auf Führungsvorgaben bleibt eine Annahme; Bereitschaft ohne genehmigte Regeländerung genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-fuehrungsvorgaben-004",
+      "from": "elem-flexibilitaetInstitutionellerFuehrungsvorgaben",
+      "to": "elem-1fahG9AM",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zusätzliche zulässige Führungsoptionen können kontinuierliche Verbesserungen der Zusammenarbeit unterstützen, wenn sie zuvor blockierte, fachlich begründete Erprobungen ermöglichen und diese ausgewertet werden. Grundlage: Ahrens und Chapman (2004), Abschn. 7. Die Übertragung auf Führungsvorgaben bleibt eine Annahme; formale Erlaubnis allein und ungeprüfte Abweichungen gelten nicht als Prozessverbesserung."
       }
     }
   ]
