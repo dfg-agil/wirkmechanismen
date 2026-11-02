@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-robustheitTeamperformanceVUCA",
+      "attributes": {
+        "label": "Robustheit der Teamperformance unter VUCA",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Ausmaß der beobachteten Aufrechterhaltung eines vorab als aufgabenangemessen bestimmten Teamleistungsniveaus während konkret benannter volatiler, unsicherer, komplexer oder mehrdeutiger Bedingungen in einem festgelegten Zeitraum. Team, Aufgabe, Leistungsdimensionen, Referenzniveau, Mindestanforderungen und Kontextbedingungen werden vorab festgelegt. Bewertet werden Leistungseinbußen und deren Dauer während der betrachteten Bedingungen; geringe Schwankungen bei unzureichender Leistung genügen nicht. Änderungen der Arbeitsweise sind zulässig. Erholung nach einer Einbuße, allgemeine Anpassungsfähigkeit und subjektiv eingeschätzte Fähigkeit werden getrennt betrachtet. Ohne geeignete Beobachtung unter den benannten Bedingungen bleibt die Robustheit unbestimmt.\n\nGrundlage: Grimm, Gorman, Cooke, Demir und McNeese (2023), Dynamical Measurement of Team Resilience, Tabelle 1 und Diskussion zu Robustheit und Erholung, S. 353 und 377–379, DOI: 10.1177/15553434231199729. Eigene Operationalisierung beobachteter Leistungsaufrechterhaltung; die Experimente zu Ausfällen in Mensch-Autonomie-Teams validieren keine allgemeine VUCA-Skala.\n\nMessvorschlag: vergleichbare Leistungsbeobachtungen vor und während dokumentierter Bedingungen. Qualität, Menge, Zeit und gegebenenfalls Sicherheit getrennt ausweisen, einschließlich Mindestanforderungserfüllung sowie Ausmaß und Dauer von Einbußen. Aufgaben-, Ressourcen-, Besetzungs- und Zieländerungen dokumentieren; keine unbegründete Gesamtnote. Messbarkeit 0.5: Referenzen, Vergleichbarkeit und zeitliche Auflösung sind noch zu operationalisieren und zu pilotieren. Beeinflussbarkeit 0.5: Team- und Projektleitung können innerhalb ihres Mandats im benannten Projektabschnitt Vorbereitung, Arbeitsorganisation und Ressourcen teilweise gestalten; externe Bedingungen und nicht verfügbare Kompetenzen begrenzen ihren Einfluss.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-teamrobustheit-002",
+      "from": "elem-mentalModelle",
+      "to": "elem-robustheitTeamperformanceVUCA",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zutreffende, situationsgerecht aktualisierte gemeinsame mentale Modelle können die Leistungsaufrechterhaltung bei dynamischen Koordinationsanforderungen unterstützen, wenn sie zur vorausschauenden Abstimmung genutzt werden. Quelle: Entin und Serfaty (1999), Abstract. Die Studie untersucht ein adaptives Trainingspaket; ein isolierter Effekt der Modellqualität und eine allgemeine Wirkung über sämtliche VUCA-Bedingungen sind damit nicht nachgewiesen."
+      }
+    },
+    {
+      "_id": "conn-teamrobustheit-005",
+      "from": "elem-robustheitTeamperformanceVUCA",
+      "to": "elem-1qjjXjCN",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aufrechterhaltene angemessene Teamleistung kann späteres Vertrauen stärken, wenn sie erkennbar wird und den verlässlichen Beiträgen der Teammitglieder zugeschrieben wird. Quelle: Grossman und Feitosa (2018), Abschn. 2.2 und 3.2. Die Übertragung ihres theoretischen Leistungs-Feedback-Modells auf Robustheit unter benannten VUCA-Bedingungen bleibt eine Annahme; externe Rettung oder Vertrauensverletzungen können den Übergang verhindern."
       }
     }
   ]
