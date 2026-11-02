@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-erfuellungsquoteTeamzusagen",
+      "attributes": {
+        "label": "Erfüllungsquote der Teamzusagen",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Anteil der zu einem vorab festgelegten Stichtag ausdrücklich und durch das Team oder eine legitimierte Vertretung übernommenen Teamzusagen, die im benannten Bewertungszeitraum nach ihren ursprünglichen Fälligkeiten zu erfüllen waren und nachweislich sämtliche ursprünglich vereinbarten Erfüllungskriterien rechtzeitig erfüllt haben. Gegenstand, Umfang, Empfänger, Fälligkeit und Qualitätskriterien sind zu dokumentieren. Ziele, Prognosen, Schätzungen, bloße Pläne und ausschließlich individuelle Zusagen werden nicht automatisch als Teamzusagen gezählt.\n\nEigener Messvorschlag in Anlehnung an Percent Plan Complete: bestätigte vollständige und rechtzeitige Originalerfüllungen geteilt durch die ursprüngliche Zusagenkohorte, getrennt nach vorab abgegrenzten vergleichbaren Zusagearten. Teilweise oder verspätete Erfüllung zählt nicht als vollständige Originalerfüllung. Bestätigte Nichtrealisierung ursprünglicher Kriterien und ungeklärte Fälle werden unterschieden. Zähler, Nenner, Prüfdeckung, Änderungen und Ursachen sind gemeinsam auszuweisen; bei unvollständiger Prüfung ist der Quotient nur bestätigte Mindestabdeckung. Bei leerem Nenner ist die Quote nicht definiert. Nach dem Stichtag neu übernommene Zusagen werden separat erfasst.\n\nLegitim geänderte oder aufgehobene Zusagen bleiben im ursprünglichen Nenner; ihre Vereinbarungshistorie und der Erfüllungsstatus gültiger Folgevereinbarungen werden separat dokumentiert. Eine nicht realisierte Originalvereinbarung ist bei berechtigter Neuvereinbarung nicht automatisch ein Pflichtverstoß. Keine rückwirkende Verbesserung durch Fristverschiebung, Kriterienabsenkung, Aufteilung oder Entfernung schwieriger Fälle. Erfüllung, Angemessenheit der Zusagen, Motivation, Produktivität und Ergebnisqualität bleiben getrennt.\n\nGrundlage: Ballard und Tommelein (2021), 2020 Current Process Benchmark for the Last Planner System of Project Planning and Control, Lean Construction Journal, Abschn. 8.2.14. Die Übertragung auf ausdrücklich übernommene Teamzusagen einschließlich eigener Kohorten-, Änderungs- und Nachweisregeln ist zu pilotieren. Messbarkeit 0.5: Vergleichbarkeit der Zusageeinheiten, Legitimation und belastbare Erfüllungsnachweise sind noch zu operationalisieren. Beeinflussbarkeit 0.5: Team und mandatierte Projektleitung können Ausführung und zukünftige Zusagegestaltung innerhalb des betrachteten Projektabschnitts teilweise beeinflussen; externe Abhängigkeiten begrenzen den Einfluss. Feststehende vergangene Ergebnisse werden dadurch nicht nachträglich verändert."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-teamzusagenerfuellung-001",
+      "from": "elem-jz5ga33J",
+      "to": "elem-erfuellungsquoteTeamzusagen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Wirksames Management laufender Arbeiten kann die Erfüllung bereits übernommener Teamzusagen unterstützen, wenn drohende Ausfälle früh erkannt und fachlich geeignete Gegenmaßnahmen rechtzeitig umgesetzt werden. Grundlage: Ballard und Tommelein (2021), Abschn. 8.2.12. Die Übertragung des LPS-Steuerungsmechanismus auf den Bestandsfaktor bleibt eine Annahme; Management und Zusageerfüllung sind unabhängig zu erfassen."
+      }
+    },
+    {
+      "_id": "conn-teamzusagenerfuellung-002",
+      "from": "elem-stabilitaetProjektbezogenerRessourcenversorgung",
+      "to": "elem-erfuellungsquoteTeamzusagen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Stabile Versorgung mit den für übernommene Zusagen benötigten, bedarfsgerecht geplanten Personal- und Infrastrukturressourcen kann Unterbrechungen der Ausführung vermeiden. Grundlage: Ballard und Howell (1998), Abschn. „Quality Requirements of Commitment Plans“. Die Übertragung ressourcenbezogener Ausführungshemmnisse auf Versorgungsstabilität und Zusageerfüllung bleibt eine Annahme; rechtzeitige Kompensation und andere Ausfallursachen können die Beziehung abschwächen."
+      }
+    },
+    {
+      "_id": "conn-teamzusagenerfuellung-007",
+      "from": "elem-erfuellungsquoteTeamzusagen",
+      "to": "elem-1qjjXjCN",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Nachweislich eingehaltene Teamzusagen können späteres Vertrauen zwischen beteiligten Mitgliedern stärken, wenn diese die Erfüllung beobachten und zurechenbare Beiträge anderer erkennen. Grundlagen: Palanski et al. (2011), Studie 1–2; Schweitzer et al. (2006), S. 6–11. Die Übertragung wahrgenommener Teamintegrität und dyadischer Vertrauensbefunde auf die objektive Quote und Binnenbeziehungen bleibt eine Annahme; leichte Zusagen oder Fremdleistungen genügen nicht."
       }
     }
   ]
