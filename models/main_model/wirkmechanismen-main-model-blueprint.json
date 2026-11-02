@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-reflexionFehlerkultur",
+      "attributes": {
+        "label": "Umfang der expliziten Reflexion der Fehlerkultur im Team",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Umfang, in dem ein benanntes Team innerhalb eines festgelegten Zeitraums vorab bestimmte Aspekte seiner gemeinsamen Erwartungen, Normen und praktizierten Reaktionen im Umgang mit Fehlern ausdrücklich untersucht und bewertet. Betrachtet werden Offenlegung, Verantwortungszuschreibung, Reaktionen auf Fehlermeldungen und Lernmöglichkeiten. Konkrete Fehler dienen als Belege; ihre Ursachenanalyse allein genügt nicht. Gemessen wird die belegte inhaltliche Abdeckung, nicht Sitzungshäufigkeit, Maßnahmenumsetzung oder erreichte Kulturverbesserung. Eigene Operationalisierung auf Grundlage von Cannon und Edmondson (2005), DOI: 10.1016/j.lrp.2005.04.005, und van Dyck et al. (2005), DOI: 10.1037/0021-9010.90.6.1228. Beurteilung anhand unabhängig kodierter Reflexionsepisoden; fehlende Nachweise und nachgewiesene Nichtbearbeitung getrennt ausweisen. Messbarkeit 0.5: Inhaltskriterien und Beobachtungsabdeckung sind zu pilotieren. Beeinflussbarkeit 0.5: Team und zuständige Moderation können Reflexion gestalten; Offenheit, Beteiligung und institutionelle Grenzen begrenzen die Steuerbarkeit.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-fehlerkulturreflexion-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-reflexionFehlerkultur",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann die offene Untersuchung gemeinsamer Fehlernormen und Reaktionen erleichtern, wenn Beteiligte kritische Erfahrungen einbringen und Reflexionsgelegenheiten nutzen. Quelle: Edmondson (1999), S. 353–355, 366–367, DOI: 10.2307/2666999. Die Übertragung des Zusammenhangs mit allgemeinem Teamlernverhalten auf die inhaltliche Abdeckung der Fehlerkulturreflexion bleibt eine Annahme; Sicherheit allein erzeugt keine Reflexion."
+      }
+    },
+    {
+      "_id": "conn-fehlerkulturreflexion-004",
+      "from": "elem-reflexionFehlerkultur",
+      "to": "elem-8DovrrfU",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Reflexion kann einen offenen, verantwortlichen Fehlerumgang stärken, wenn erkannte hinderliche Normen fachlich angemessen verändert und neue Praktiken umgesetzt werden. Grundlage: Cannon und Edmondson (2005), S. 314–316, DOI: 10.1016/j.lrp.2005.04.005. Die Übertragung auf spätere Teamkultur bleibt eine Annahme; bloße Diskussion oder Zustimmung genügt nicht. Keine allgemeine Bevorzugung riskanten Ausprobierens."
       }
     }
   ]
