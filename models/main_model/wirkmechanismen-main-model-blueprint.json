@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-schwankungenEpistemischerUnsicherheitPEP",
+      "attributes": {
+        "label": "Häufigkeit epistemischer Unsicherheitsschwankungen im PEP",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Mensch",
+          "Technik",
+          "Organisation",
+          "taktisch"
+        ],
+        "description": "Häufigkeit fachlich bestätigter Richtungswechsel der evidenzgestützten Unsicherheitsbeurteilung zu denselben vorab festgelegten Entwicklungsfragen innerhalb eines benannten Abschnitts des Produktentwicklungsprozesses. Gezählt werden Wechsel zwischen Zu- und Abnahme, nicht jede Änderung. Gleichbleibende Phasen unterbrechen eine belegte Richtung nicht; ungeklärte oder fehlende Beobachtungen werden nicht überbrückt. Fragenmenge, Zeitfenster und Beobachtungsbedingungen müssen vergleichbar sein. Ausschlagsausprägung, fachliche Relevanz, Niveau, Trend, neue Fragen und Erfassungsänderungen werden gesondert dokumentiert. Grundlagen: Cash und Kreye (2018), DOI: 10.1016/j.destud.2017.10.004; Wynn et al. (2011), DOI: 10.1007/s12008-011-0131-y. Die Zählregel ist ein eigener, zu pilotierender Vorschlag, keine validierte Skala. Messbarkeit 0.5: Richtungswechsel, Messrauschen und Vergleichbarkeit sind noch zu operationalisieren. Beeinflussbarkeit 0.5: Entwicklungsleitung und Team können Erkenntnisprozesse und Evidenzqualität teilweise gestalten; externe Änderungen begrenzen die Steuerbarkeit.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-unsicherheitsschwankungen-001",
+      "from": "elem-yvMeM1BT",
+      "to": "elem-schwankungenEpistemischerUnsicherheitPEP",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Volatile Randbedingungen können häufigere Richtungswechsel begünstigen, wenn Änderungen die Evidenz zu denselben Entwicklungsfragen wiederholt entwerten und zwischenzeitliche Klärung erneut unterbrechen. Grundlage: Wynn et al. (2011), Abschn. 3.4 und 4.2. Die Übertragung auf die Wechselhäufigkeit bleibt theoretisch; vergleichbare Beobachtung und Klärungsmöglichkeiten sind erforderlich. Neue Fragen oder reine Erfassungsänderungen genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-unsicherheitsschwankungen-009",
+      "from": "elem-schwankungenEpistemischerUnsicherheitPEP",
+      "to": "elem-VXY3BWCO",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Häufigere Unsicherheitsrichtungswechsel können Aufgabenwechsel begünstigen, wenn entscheidungsrelevante Neubewertungen zeitnahes Wechseln zwischen laufender Ausführung und gesonderten Prüfaufgaben erfordern. Grundlage: Cash und Kreye (2018), Abschn. 3.1; Maier et al. (2014), Abschn. 3.3.2. Die Übertragung von Aktivitäts- und Änderungsmodellen bleibt eine Annahme; bloße Strategiewechsel innerhalb derselben Aufgabe zählen nicht."
       }
     }
   ]
