@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-bereitschaftLieferrhythmusanpassung",
+      "attributes": {
+        "label": "Bereitschaft zur bedarfsgerechten Anpassung des Lieferrhythmus",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Mensch",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Motivationale Bereitschaft einer benannten entscheidungsbeteiligten Person, innerhalb ihres Rollenbeitrags an einer begründeten Änderung des vereinbarten Bereitstellungsrhythmus festgelegter Ergebnisse oder Teilergebnisse für benannte Empfänger mitzuwirken. Die Aussage bezieht sich auf einen dokumentierten Änderungsanlass, den geltenden Rhythmus und einen festgelegten Projektabschnitt. Anpassung kann Verkürzung, Verlängerung oder eine andere geeignete Taktung bedeuten; eine begründete Ablehnung eines ungeeigneten Vorschlags ist nicht automatisch geringe Bereitschaft. Lieferung bezeichnet die tatsächliche Bereitstellung des vereinbarten Gegenstands an die vorgesehenen Empfänger und ist nicht automatisch Sprint, Iteration oder Review. Bereitschaft, Vorschlagszustimmung, Befugnisse, Anpassungsfähigkeit, Beschluss, Umsetzung und realisierte Intervalle werden getrennt betrachtet. Grundlagen: Ajzen (1991), DOI: 10.1016/0749-5978(91)90020-T; Weiner (2009), DOI: 10.1186/1748-5908-4-67. Die lieferbezogene individuelle Eingrenzung ist eine eigene Übertragung, keine validierte spezifische Skala. Messvorschlag: anlassbezogene Selbstauskunft zur beabsichtigten Mitwirkung mit getrennten Verkürzungs- und Verlängerungsszenarien; keine automatische Teamaggregation. Messbarkeit 0.5: Sprachfassung, Trennung der Konstrukte und Szenarienvergleichbarkeit sind zu pilotieren. Beeinflussbarkeit 0.5 für die Person und zuständige Veränderungsverantwortliche innerhalb des benannten Projektabschnitts: Information und Beteiligung sind gestaltbar, persönliche Bewertung und Änderungsabsicht nicht vollständig steuerbar."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-lieferrhythmusbereitschaft-001",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-bereitschaftLieferrhythmusanpassung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Verständliche, adressatengerechte Kommunikation kann die Bereitschaft zur Lieferrhythmusanpassung fördern, wenn sie einen fachlich begründeten Änderungsbedarf und tragfähige Folgen nachvollziehbar macht. Grundlage: Wanberg und Banas (2000), S. 135–139, DOI: 10.1037/0021-9010.85.1.132. Die Übertragung erhaltener Veränderungsinformation und berichteter Akzeptanz auf Kommunikationsqualität und lieferbezogene Änderungsabsicht bleibt eine bedingte Annahme; zusätzliche Information kann auch begründete Ablehnung auslösen."
+      }
+    },
+    {
+      "_id": "conn-lieferrhythmusbereitschaft-002",
+      "from": "elem-1oLVNA94",
+      "to": "elem-bereitschaftLieferrhythmusanpassung",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aktive Beteiligung am Änderungsprozess kann die Bereitschaft zur Anpassung des Lieferrhythmus fördern, wenn zuständige Beteiligte tatsächlich Einfluss auf die Gestaltung erhalten. Grundlage: Lenberg et al. (2017), Abschn. 3.3–4, DOI: 10.1007/s10664-016-9482-0. Die Übertragung wahrgenommener Beteiligung und breiterer Veränderungseinstellungen auf Team-Partizipation und individuelle lieferbezogene Änderungsabsicht bleibt eine Annahme; bloße Anwesenheit genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-lieferrhythmusbereitschaft-005",
+      "from": "elem-bereitschaftLieferrhythmusanpassung",
+      "to": "elem-pOq2hTBC",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bei vorab begründetem Verkürzungsbedarf kann höhere Anpassungsbereitschaft zu häufigeren tatsächlichen Lieferungen beitragen, sofern die Person maßgeblich entscheidet, erforderliche Mitentscheidungen vorliegen und die Änderung umgesetzt werden kann. Theoretische Übertragung: Ajzen (1991), S. 181–185, DOI: 10.1016/0749-5978(91)90020-T. Bereitschaft, Beschluss und realisierte Bereitstellungen sind getrennt zu prüfen; für Verlängerung oder offene Anpassungsrichtung gilt kein positives Frequenzvorzeichen."
       }
     }
   ]
