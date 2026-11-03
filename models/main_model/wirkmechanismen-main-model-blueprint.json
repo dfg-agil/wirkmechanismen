@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-anzahlAktivBeteiligterStakeholder",
+      "attributes": {
+        "label": "Anzahl aktiv beteiligter Stakeholder",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsinput (Erzeugung)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Anzahl unterschiedlicher natürlicher Personen, die im benannten Projektabschnitt und Zeitfenster als interne oder externe Stakeholder nachweislich aktiv an vorab abgegrenzten Beteiligungsverfahren mitwirken. Stakeholder sind Personen, die das Vorhaben beeinflussen können oder von seinen Entscheidungen beziehungsweise Ergebnissen betroffen sind; Bezug: Reed et al. (2009), DOI: 10.1016/j.jenvman.2009.01.001. Als aktive Beteiligung zählt mindestens ein dokumentierter aufgabenbezogener inhaltlicher Beitrag zur Erhebung, Klärung, Bewertung oder Abstimmung von Projektbelangen, beispielsweise eine sachbezogene Frage, Information, Bewertung oder ein festgelegter Entscheidungsbeitrag. Einladung, Informationsversand und bloße Anwesenheit genügen nicht. Teammitglieder können dazugehören; ihre gewöhnliche Aufgabenbearbeitung allein zählt nicht als Beteiligungsbeitrag. Rollen und Organisationen werden als Merkmale geführt, nicht anstelle von Personen gezählt. Die Auswahl aktiver inhaltlicher Mitwirkung ist eine Eingrenzung des allgemeinen Beteiligungsbegriffs. Quantitative Bezugnahme: Ankele et al. (2023), Stakeholderbeteiligung im Sprint Review, S. 223–234, https://hdl.handle.net/11420/43707; nur Abstract und Metadaten geprüft, keine Übernahme eines validierten Aktivitätsmaßes. Messvorschlag: Personen anhand stabiler Kennungen über geeignete Beteiligungsnachweise deduplizieren und je Zeitraum höchstens einmal zählen, auch bei mehreren Rollen, Beiträgen oder Terminen. Beteiligungsformen, Projektphase und Beobachtungsabdeckung dokumentieren. Bestätigte Anzahl und ungeklärte Fälle getrennt ausweisen; bei unvollständigen Nachweisen nur die bestätigte Mindestanzahl berichten. Verbesserte Erfassung allein ist keine tatsächliche Beteiligungszunahme. Stakeholderzuordnungen und Änderungen nachvollziehbar halten. Personenanzahl, Gruppenabdeckung, Ereignishäufigkeit, Personenzeit, Beitragszahl, Entscheidungseinfluss, Beteiligungsqualität und Wirkung bleiben getrennt; kein Gesamtindex. Vergleiche benötigen vergleichbare Projektgrößen, Phasen, Zeitfenster und Beteiligungsgelegenheiten. Register- und Aktivitätsregeln sind eigene, zu pilotierende Vorschläge. Messbarkeit 1: unter expliziten Abgrenzungs- und Nachweisregeln unmittelbar prüfbare Zählgröße; Vollständigkeit der Beobachtung sowie Relevanz und Repräsentativität separat bewerten. Beeinflussbarkeit 0.5: Projektverantwortliche und mandatierte Beteiligungsorganisatoren können während des betrachteten Abschnitts Ansprache und Mitwirkungsmöglichkeiten gestalten; freiwillige Mitwirkung, Zeitbudgets, Zugangsrechte und externe Abhängigkeiten begrenzen die Kontrolle.",
+        "measurability": 1,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-stakeholderbeteiligungsanzahl-001",
+      "from": "elem-YXuvo4kt",
+      "to": "elem-anzahlAktivBeteiligterStakeholder",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine Einbindungsstrategie kann die Zahl aktiv Beteiligter erhöhen, wenn sie bislang fehlende aufgabenrelevante Personen identifiziert, passend anspricht und nutzbare Mitwirkung ermöglicht. Grundlage: Coughlan et al. (2003), Abschn. 4.1.1–4.1.3. Die Übertragung qualitativer Befunde auf zusätzliche Personen bleibt eine Annahme; Auswahl kann auch begrenzen. Strategie und tatsächliche Mitwirkung unabhängig bewerten."
+      }
+    },
+    {
+      "_id": "conn-stakeholderbeteiligungsanzahl-005",
+      "from": "elem-anzahlAktivBeteiligterStakeholder",
+      "to": "elem-jnhWVH9C",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zusätzliche aktiv beteiligte Stakeholder können Kundenanforderungen präzisieren, wenn sie bislang fehlendes relevantes Anwendungswissen einbringen und fachkundige Klärung sowie nachvollziehbare Abstimmung stattfinden. Grundlage: Coughlan et al. (2003), Abschn. 2.3 und 4.3.1–4.3.2. Die Wirkung zusätzlicher Personen bleibt eine Annahme; redundante Beiträge oder unmoderierte Konflikte können Vorteile aufheben. Anforderungsklarheit unabhängig von Beteiligungszahlen prüfen."
       }
     }
   ]
