@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-praktischeVerfuegbarkeitKommunikationsmedien",
+      "attributes": {
+        "label": "Praktische Verfügbarkeit von Kommunikationsmedien",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": [
+          "Technik",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Ausmaß, in dem vorab benannte Kommunikationsmedien einer festgelegten Beteiligtenkonstellation für benannte Kommunikationssituationen zu den betrachteten Zeitpunkten technisch beziehungsweise räumlich funktionsbereit und organisatorisch zugänglich sind. Erfasst werden synchrone und asynchrone Formen, einschließlich persönlicher Begegnungen, Telefonie, Text-, Video- und gemeinsam verwendeter visueller Kommunikationsmedien. Für jedes Medium werden die benötigten Basisfunktionen, berechtigten Beteiligten und Prüfzeitpunkte vorab festgelegt. Bloße Existenz, Beschaffbarkeit oder zugesagte Bereitstellung genügt nicht. Erforderliche Geräte, Verbindungen, kompatible Gegenstellen, Zugangsrechte und gegebenenfalls Räume müssen die Nutzung des benannten Mediums ermöglichen. Aufgabeneignung, Medienreichhaltigkeit, Medienkompetenz, Nutzungsbereitschaft, gemeinsame freie Gesprächszeit, tatsächliche Nutzung und Verfügbarkeit bestimmter Informationsinhalte bleiben getrennt. Technische Erreichbarkeit einer Gegenstelle bedeutet einen nutzbaren Kanal beziehungsweise ein adressierbares Konto, nicht persönliche Anwesenheit, Antwortbereitschaft oder einen gemeinsamen Termin. Maßgeblich ist die Verfügbarkeit des Kanals, nicht das Zustandekommen einer konkreten Unterhaltung; persönliche Begegnungen setzen räumlich realisierbaren Zugang voraus. Grundlage: Kraut et al. (1998), DOI: 10.1287/orsc.9.4.437. Die Studie erfasst bereitgestellte Videotelefonie getrennt von Nutzung; die Erweiterung auf ein medienübergreifendes Prüfprofil ist ein eigener Vorschlag. Messvorschlag: pro Medium, Beteiligtenkonstellation und Prüfzeitpunkt Berechtigungen, Funktionsbereitschaft, Erreichbarkeit der benötigten Endpunkte und gegebenenfalls Raumzugang prüfen. Bestätigt verfügbar, nachweislich nicht verfügbar und Nachweis ungeklärt getrennt ausweisen; Ursachen ergänzend dokumentieren. Keine unbegründete Gesamtnote oder Zählung zusätzlicher Apps als zusätzliche Verfügbarkeit. Verläufe nur bei gleicher Referenzmenge vergleichen; Momentprüfungen belegen keine durchgängige Verfügbarkeit eines Zeitfensters. Prüfregeln sind zu pilotieren. Messbarkeit 1: der abgegrenzte Kanalzustand ist durch Funktions- und Zugangsprüfungen unmittelbar überprüfbar; geprüft werden keine Kompetenz oder Wirkungsqualität. Beeinflussbarkeit 0.5: zuständige IT-, Raum- und Ressourcenverantwortliche können im benannten Bereitstellungs- und Betriebszeitraum innerhalb ihres Mandats Zugänge und Betrieb gestalten; Budget, externe Anbieter und organisationsübergreifende Rechte begrenzen ihren Einfluss.",
+        "measurability": 1,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-medienverfuegbarkeit-001",
+      "from": "elem-Q3uEEe5Q",
+      "to": "elem-praktischeVerfuegbarkeitKommunikationsmedien",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Die Möglichkeit, benötigte Geräte, Räume oder Software kurzfristig bereitzustellen, kann die praktische Medienverfügbarkeit erhöhen, wenn konkrete Bedarfe ausgelöst, Ressourcen rechtzeitig geliefert, integriert und erforderliche Zugänge freigeschaltet werden. Grundlage: Sirmon et al. (2007), S. 277–278 und 283–285. Übertragung unternehmensbezogener Ressourcenprozesse auf Kommunikationsmedien; Beschaffbarkeit oder Zusage allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-medienverfuegbarkeit-002",
+      "from": "elem-praktischeVerfuegbarkeitKommunikationsmedien",
+      "to": "elem-gradMediaNutzung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Praktische Verfügbarkeit des betrachteten Mediums kann dessen Nutzung ermöglichen, wenn bisherige Zugangshürden entfallen und Kommunikationsbedarf, erreichbare Gesprächspartner sowie Nutzungsbereitschaft bestehen. Quelle: Kraut et al. (1998), S. 444–446. Die Studie betrifft Videotelefonie; eine allgemeine Nutzungssteigerung durch zusätzliche Medien folgt daraus nicht. Übertragung auf teambezogene Nutzung bleibt eine Annahme; beide Konstrukte sind getrennt zu erheben."
       }
     }
   ]
