@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-definitionFertigstellungskriterien",
+      "attributes": {
+        "label": "Festlegungsgrad der Fertigstellungskriterien",
+        "description": "Ausmaß, in dem für eine vorab abgegrenzte Menge erforderlicher Fertigstellungsbedingungen zu benannten Arbeitsgegenständen und Prozessstufen verbindliche inhaltliche Festlegungen durch zuständige Stellen vorliegen. Maßgeblich sind vorgesehener Verwendungs- und Reifestand sowie Fassung, Zeitpunkt und Geltungsbereich der Festlegungen. Die erforderlichen Bedingungen werden unabhängig vom vorhandenen Kriterienbestand begründet. Der Faktor erfasst die Abdeckung durch Festlegungen, nicht deren allgemeine Qualität. Vorhandene, aber unklare oder fachlich ungeprüfte Festlegungen werden entsprechend gekennzeichnet; unklare Verbindlichkeit oder fehlende Nachweise bleiben ungeklärt. Dokumentation, Zugang, Verständnis der Beteiligten, tatsächliche Anwendung, Erfüllung und Ergebnisqualität werden getrennt beurteilt. Definition of Done, gegenstandsspezifische Akzeptanzkriterien und stufenbezogene Austrittsbedingungen werden getrennt zugeordnet.\n\nGrundlagen: Kopczyńska et al. (2022), DOI: 10.1016/j.jss.2022.111479; Sargent (2013), DOI: 10.1057/jos.2012.20. Eigener Messvorschlag: bestätigte Festlegungen geteilt durch die vorab bestimmte Referenzmenge, getrennt nach vergleichbaren Bedingungsgruppen; Nenner, Nachweisdeckung, ungeklärte Fälle und kritische Einzelbedingungen gemeinsam ausweisen. Bei unvollständiger Prüfung nur bestätigte Mindestabdeckung, bei leerem Nenner kein Quotient. Keine nachträgliche Nennerbereinigung oder unbegründete Gesamtnote. Messbarkeit 0.5: Referenzbildung, Granularität und Nachweisregeln sind zu pilotieren. Beeinflussbarkeit 0.5: Team und mandatierte Auftraggeber beziehungsweise Qualitätsverantwortliche können Festlegungen im Projektabschnitt teilweise gestalten; externe Zuständigkeiten und Vorgaben begrenzen ihren Einfluss.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Rahmenbedingungen (Kontext/Moderatoren)",
+        "tags": [
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-kriteriendefinition-001",
+      "from": "elem-backlogRefinement",
+      "to": "elem-definitionFertigstellungskriterien",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Qualitätsvolles Backlog-Refinement kann fehlende erforderliche Fertigstellungsbedingungen in verbindliche Festlegungen überführen, wenn zuständige Fachpersonen beteiligt sind und entsprechende Beschlüsse wirksam werden. Grundlage: Kopczyńska et al. (2022), Abschn. 6.1. Die Übertragung berichteter Definitionspraktiken auf höhere Festlegungsabdeckung bleibt eine Annahme; Besprechung oder Dokumentation allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-kriteriendefinition-002",
+      "from": "elem-retrospektive001",
+      "to": "elem-definitionFertigstellungskriterien",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Qualitätsvolle Retrospektiven können erkannte Lücken erforderlicher Fertigstellungsbedingungen einer verbindlichen Festlegung zuführen, wenn zuständige Stellen die daraus abgeleiteten Vorschläge prüfen und beschließen. Grundlage: Kopczyńska et al. (2022), Abschn. 6.1. Die Übertragung berichteter Überarbeitungspraktiken auf höhere Festlegungsabdeckung bleibt eine Annahme; Reflexion oder Änderungshäufigkeit allein genügt nicht."
+      }
+    },
+    {
+      "_id": "conn-kriteriendefinition-003",
+      "from": "elem-definitionFertigstellungskriterien",
+      "to": "elem-uDiTVbXE",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zusätzliche verbindliche Festlegungen können das Verständnis maßgeblicher Fertigstellungsbedingungen verbessern, wenn sie inhaltlich geeignet und zugänglich sind, erläutert und anhand passender Beispiele gemeinsam geklärt werden. Grundlage: Glinz und Fricker (2015), Abschn. 6 und 8. Die Übertragung auf Festlegungsabdeckung und Fertigstellungsverständnis bleibt theoretisch; definierte Kriterien garantieren kein Verständnis. Beide Zustände sind unabhängig zu prüfen."
       }
     }
   ]
