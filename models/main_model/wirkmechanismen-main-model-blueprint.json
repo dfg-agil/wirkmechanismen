@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-prioritaetskonformitaetUmsetzung",
+      "attributes": {
+        "label": "Prioritätskonformität der Umsetzung",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsnutzung (Entscheidung/Handlung)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Grad der Übereinstimmung tatsächlicher prioritätsgebundener Arbeitsaufnahme- und Fortsetzungsentscheidungen sowie Ressourcenzuweisungen mit den für benannte Aufgaben, Beteiligte und Zeitpunkte geltenden verbindlichen Vorrangregeln. Diese Umsetzungsaspekte werden getrennt beurteilt. Maßgeblich sind die vor der bewerteten Entscheidung autorisierte Prioritätenfassung, erlaubte Gleichrangigkeiten und Ausnahmen sowie die damals ausführbaren Aufgaben, Abhängigkeiten und verfügbaren Kapazitäten. Eine rechtzeitig autorisierte Änderung gilt erst ab ihrem Geltungsbeginn; nachträgliche Umpriorisierung beseitigt frühere Abweichungen nicht. Begründete, aber nicht autorisierte Abweichungen werden gesondert ausgewiesen und nicht allein wegen ihrer fachlichen Zweckmäßigkeit als konform bewertet. Die Reihenfolge tatsächlicher Fertigstellungen ist ohne entsprechende verbindliche Regel und vergleichbare Ausführungsbedingungen kein Konformitätsnachweis. Priorisierungsqualität, Kenntnis und Verständnis der Prioritäten, allgemeine Regelbefolgung, Termintreue, Produktivität und Ergebnisqualität bleiben getrennt; auch ungeeignete Prioritäten können konform umgesetzt werden. Grundlage zur Trennung von vorgegebener Priorität und tatsächlicher Aufgabenwahl: Lewis, Gutzwiller und Johnson (2024), DOI: 10.1016/j.apergo.2024.104317, Abstract. Die Erweiterung auf Projektumsetzung und Ressourcenzuweisung ist eine eigene Operationalisierung. Messvorschlag: vorab abgegrenzte Entscheidungsepisoden mit versionierter Prioritätenreferenz und zulässigen Ausnahmen gegen unabhängige, zeitlich zuordenbare Umsetzungsnachweise prüfen. Reguläre Konformität, autorisierte Ausnahme, bestätigte Abweichung, fehlende Prioritätenreferenz und ungeklärte Nachweise getrennt ausweisen. Nachweisverbesserung allein belegt keine Verhaltensverbesserung. Keine unbegründete Gesamtnote oder Rangkorrelation; Arbeitsaufnahme, Fortsetzung und Ressourcenzuweisung als getrenntes Fallprofil beurteilen. Fallauswahl und Bewertungsanker sind zu pilotieren. Messbarkeit 0.5: Referenzgültigkeit, Ausführbarkeit und Entscheidungsnachweise erfordern kontextbezogene Prüfung. Beeinflussbarkeit 0.5: mandatierte Teammitglieder und Arbeitsverantwortliche können im betrachteten Arbeitsabschnitt eigene Entscheidungen steuern; externe Eingriffe, konkurrierende Mandate und Ressourcenrestriktionen begrenzen ihren Einfluss.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-prioritaetskonformitaet-001",
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-prioritaetskonformitaetUmsetzung",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare, adressatengerechte Übermittlung geltender Prioritäten kann prioritätskonforme Aufgabenwahl erleichtern, wenn Entscheidende entsprechende Handlungsmöglichkeiten besitzen. Quelle: Lewis et al. (2024), Abstract. Prioritätsinstruktionen erhöhten die Wahl vorgegebener Aufgaben unter untersuchten Konfliktbedingungen; allgemeine Kommunikationsqualität wurde nicht isoliert geprüft. Die Übertragung auf Projektentscheidungen bleibt eine Annahme. Kommunikationsmerkmale und tatsächliche Auswahl sind unabhängig zu bewerten."
+      }
+    },
+    {
+      "_id": "conn-prioritaetskonformitaet-005",
+      "from": "elem-prioritaetskonformitaetUmsetzung",
+      "to": "elem-1qjjXjCN",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Beobachtete Umsetzung zuvor mitgeteilter und akzeptierter Prioritäten kann Vertrauen unterstützen, wenn Beteiligte darin Verlässlichkeit angekündigten Handelns erkennen. Quelle: Palanski et al. (2011), Abschn. Study 1: Measures und Results. Übertragung wahrgenommener Team-Verhaltensintegrität auf unabhängig geprüfte Prioritätskonformität und Vertrauen zwischen Mitgliedern bleibt eine Annahme. Vertrauen ist zeitlich nachgelagert und getrennt von Konformitätsurteilen zu erheben."
       }
     }
   ]
