@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-handlungsqualitaetTeam",
+      "attributes": {
+        "label": "Handlungsqualität im Team bei vorliegenden Informationen",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsnutzung (Entscheidung/Handlung)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5,
+        "description": "Qualität der tatsächlich vollzogenen gemeinsamen Handlungen und aufeinander abgestimmten Einzelbeiträge eines benannten Teams in einer abgegrenzten Aufgabe und Handlungsepisode. Beurteilt werden situationsangemessenes Vorgehen und fachgerechte Ausführung einschließlich erforderlicher zeitlicher Abstimmung anhand vorab festgelegter Anforderungen. Maßgeblich sind die zum jeweiligen Handlungszeitpunkt für die zuständigen Teamrollen praktisch zugänglichen Informationen; Wahrnehmung, Verständnis und hinreichende Information werden nicht vorausgesetzt. Erforderliche und zumutbare Rückfragen, Prüfungen, Absicherungen oder Eskalationen gehören bei entsprechender Episodenabgrenzung zum Vorgehen. Begründetes Abwarten oder Unterlassen wird berücksichtigt; bloße Untätigkeit belegt keine Angemessenheit. Auswahlbegründung, Handlungsbereitschaft, Befugnisse und spätere Ergebnisqualität werden gesondert beurteilt.\n\nGrundlage: Lim und Klein (2006), S. 408–410, DOI: 10.1002/job.387; ergänzende Begründung der Trennung von damaliger Informationslage und späterem Ausgang: Baron und Hershey (1988), S. 569–571, DOI: 10.1037/0022-3514.54.4.569. Die aufgabenbezogene Ex-ante-Beurteilung ist eine eigene Erweiterung, keine aus diesen Arbeiten übernommene validierte Skala.\n\nMessvorschlag: unabhängige fachliche Beurteilung zeitlich belegter Handlungsepisoden als getrenntes Anforderungs- und Ausführungsprofil ohne Gesamtnote. Informationsstand, Aufgabenbedingungen, Ressourcen und Mandate dokumentieren; fehlende Beobachtungen, ungeklärte Urteile und belegte Mängel getrennt ausweisen. Vergleichende Zunahme nur bei Verbesserung benannter Dimensionen ohne Verschlechterung der übrigen unter vergleichbaren Bedingungen. Messbarkeit 0.5: Kriterien, Bewertungsübereinstimmung und Vergleichbarkeit sind noch zu pilotieren. Beeinflussbarkeit 0.5: Team und zuständige Leitung können zukünftiges Vorgehen innerhalb ihres Mandats gestalten; externe Vorgaben und Ressourcen begrenzen den Einfluss. Vergangenes Handeln bleibt unveränderlich."
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-handlungsqualitaet-001",
+      "from": "elem-mentalModelle",
+      "to": "elem-handlungsqualitaetTeam",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zutreffende gemeinsame mentale Modelle können fachgerechtes, abgestimmtes Teamhandeln unterstützen, wenn sie zur aktuellen Aufgabe passen und tatsächlich handlungsleitend werden. Quelle: Lim und Klein (2006), S. 408–412. Die Übertragung militärischer Leistungsbewertungen auf das informationsbezogene Handlungsprofil bleibt eine Annahme; reine Übereinstimmung genügt nicht. Modelle und spätere Handlungen sind unabhängig zu beurteilen."
+      }
+    },
+    {
+      "_id": "conn-handlungsqualitaet-005",
+      "from": "elem-handlungsqualitaetTeam",
+      "to": "elem-lcDSwFU2",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachgerechte, aufeinander abgestimmte Herstellungsschritte können Anforderungsabweichungen im Artefakt vermindern, wenn passende Verfahren auf zutreffende Anforderungen angewandt werden. Quelle: Hoegl und Gemuenden (2001), S. 439–447. Ihr Teamworkbefund stützt eine bedingte Übertragung auf den Abstimmungspfad; technische Ausführung wurde nicht isoliert untersucht. Handlungsprofil und spätere Artefaktqualität sind unabhängig zu prüfen; ein günstiger Ausgang ist nicht garantiert."
       }
     }
   ]
