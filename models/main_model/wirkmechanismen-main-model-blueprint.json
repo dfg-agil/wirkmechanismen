@@ -14057,6 +14057,32 @@
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
       }
+    },
+    {
+      "_id": "conn-reviewinhaltsverstaendlichkeit-001",
+      "from": "elem-nachvollziehbarkeitVersionierungGemeinsamerArtefakte",
+      "to": "elem-zBsDMddD",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bei versionierten Ergebnisreviews können nachvollziehbare Historien die Deutbarkeit der eingebrachten Inhalte verbessern, wenn relevante Stände, Änderungen und Gründe tatsächlich erschlossen und richtig zugeordnet werden. Grundlage: Ebert et al. (2021), Abschn. 3.2.4. Die Übertragung berichteter Code-Review-Probleme auf andere Ergebnisreviews bleibt eine Annahme. Historienrekonstruktion und adressatenbezogene Darstellungsprüfung unabhängig erheben; Versionskennungen allein genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-reviewinhaltsverstaendlichkeit-005",
+      "from": "elem-zBsDMddD",
+      "to": "elem-reviewQualitaet",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Interpretierbare Ergebnisse und Erläuterungen können in fachlichen Reviewphasen vertiefte Analyse und begründete Rückmeldungen ermöglichen, wenn Prüfende sie tatsächlich erschließen und Fachkompetenz, Kriterien sowie Zeit verfügbar sind. Grundlagen: Bacchelli und Bird (2013), Abschn. VI.A–C; Chen et al. (2019), Abschn. 1. Die Übertragung auf Darstellungsqualität und weitere Reviewkontexte bleibt eine Annahme; keine automatische Verbesserung sämtlicher Reviewdimensionen."
+      }
     }
   ]
 }
