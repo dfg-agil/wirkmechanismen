@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-effizienzKoordinationsprozesse",
+      "attributes": {
+        "label": "Effizienz der Koordinationsprozesse",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Ressourceneffizienz eines benannten Koordinationsprozesses bei der Abstimmung festgelegter Arbeitsabhängigkeiten, Zuständigkeiten und Übergaben innerhalb einer definierten Prozessgrenze und eines festgelegten Zeitfensters. Betrachtet wird, mit welchem Ressourceneinsatz ein unabhängig bewertetes aufgabenbezogenes Koordinationsergebnis erreicht wird. Ergebnis und Aufwand werden als getrenntes Profil beurteilt, nicht zu einer unbegründeten Gesamtnote verrechnet. Bei vergleichbaren Aufgaben, Abhängigkeiten, Qualitätsanforderungen und Rahmenbedingungen gilt ein geringerer Ressourceneinsatz für ein vergleichbares angemessenes Ergebnis oder ein besseres Ergebnis bei unverändertem Ressourceneinsatz als höhere Effizienz. Gegenläufige Veränderungen oder Verschiebungen zwischen Ressourcenarten bleiben ohne begründete Umrechnung gegebenenfalls unvergleichbar. Bloß unterlassene notwendige Abstimmung belegt keine Effizienzsteigerung. Koordinationsergebnis, Koordinationsaufwand, spätere Arbeitsleistung und Ergebnisqualität bleiben getrennt. Grundlage des Koordinationsbegriffs und des Vergleichs von Koordinationsprozessen: Malone und Crowston (1994), Abschn. 2.1, 3.2.1 und 4.2, DOI: 10.1145/174666.174668. Messvorschlag: Prozessgrenze, erforderliche Koordinationsergebnisse, Bewertungsregeln und Vergleichsfälle vorab festlegen; tatsächliche Regelung von Abhängigkeiten, Zuständigkeiten und Übergaben unabhängig von vermuteten Ursachen und Aufwand prüfen. Personenzeit aller beteiligten Rollen einschließlich informeller, asynchroner und ausgelagerter Abstimmung innerhalb der Prozessgrenze erfassen; parallele Beteiligung personengenau summieren. Weitere Ressourcenarten separat ausweisen. Wartezeit, aktive Abstimmung und nachgelagerte Nacharbeit getrennt zuordnen und Doppelzählungen vermeiden. Einrichtungs- und Pflegeaufwand zeitlich passend berücksichtigen. Fehlende Nachweise und ungeklärte Ergebnisangemessenheit separat kennzeichnen. Keine Division ordinaler Qualitätsurteile durch Zeit und keine nachträgliche Auswahl nur erfolgreicher Episoden. Vergleichsregeln und Bewertungsanker sind eigene, zu pilotierende Vorschläge; das Profil ist keine validierte Skala. Messbarkeit 0.5: Prozessgrenze, Ergebnisangemessenheit und Vergleichbarkeit erfordern fachliche Operationalisierung. Beeinflussbarkeit 0.5: Team und mandatierte Prozessverantwortliche können im betrachteten Arbeitsabschnitt Abstimmungsverfahren und Ressourceneinsatz gestalten; externe Abhängigkeiten, verbindliche Prüfungen und fremde Kapazitäten begrenzen ihren Einfluss.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-koordinationseffizienz-001",
+      "from": "elem-mentalModelle",
+      "to": "elem-effizienzKoordinationsprozesse",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zutreffende gemeinsame mentale Modelle können wiederholte Anforderungs- und Klärungsschleifen durch passende Antizipation ersetzen. Bei vergleichbarem angemessenem Koordinationsergebnis kann dadurch Personenzeit sinken. Grundlage: Entin und Serfaty (1999), Abstract. Das untersuchte Anpassungstraining isoliert keinen Mentalmodelleffekt; die Übertragung auf Projektkoordination bleibt eine Annahme. Modellwissen, tatsächliches Koordinationsergebnis und vollständiger Aufwand sind unabhängig zu erfassen."
+      }
+    },
+    {
+      "_id": "conn-koordinationseffizienz-005",
+      "from": "elem-effizienzKoordinationsprozesse",
+      "to": "elem-K92vjGHC",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Bei vergleichbarem angemessenem Koordinationsergebnis eingesparte Personenzeit kann zusätzlichen Durchsatz ermöglichen, wenn sie tatsächlich für ausführbare Arbeit am zeitlich begrenzenden Arbeitsschritt eingesetzt wird. Grundlage: Legros et al. (2006), Abschn. 2.1.4, S. 12. Theoretische Übertragung eines Produktionsmodells; keine allgemeine Wirkung jeder Effizienzsteigerung. Arbeitsmenge, Abschlusskriterien, Zeitraum und Nacharbeit müssen vergleichbar sein; Durchsatz separat messen."
       }
     }
   ]
