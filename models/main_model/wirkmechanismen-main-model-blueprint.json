@@ -4769,15 +4769,14 @@
       "attributes": {
         "label": "Häufigkeit von Anforderungsänderungen pro Sprint",
         "element type": "Einflussfaktoren",
-        "cluster":"Informationsinput (Erzeugung)",
+        "cluster":"Rahmenbedingungen (Kontext/Moderatoren)",
         "tags": [
           "Organisation",
-          "Technik",
-          "taktisch",
-          "operativ"
+          "operativ",
+          "taktisch"
         ],
-        "description": "Wie oft Anforderungen während eines Sprints hinzukommen oder sich ändern (Scope Creep Rate). Direkter Indikator für Anforderungsvolatilität und Vorhersehbarkeit. Umfasst neue Features, geänderte Akzeptanzkriterien, technische Umplanungen und externe Stakeholder-Anfragen mid-sprint. Eine hohe Volatilität destabilisiert Planung, erhöht Koordinationsaufwand und beeinträchtigt gemeinsame mentale Modelle.",
-        "measurability": 1.0,
+        "description": "Häufigkeit bestätigter, wirksam gewordener fachlicher Änderungen der für einen benannten Scrum-Sprint maßgeblichen Ergebnisanforderungen während seiner Laufzeit. Betrachtet werden inhaltliche Änderungen einschließlich fachlicher Akzeptanzkriterien sowie tatsächliche Ergänzungen, Entfernungen und Ersetzungen im maßgeblichen Anforderungsumfang. Reine Präzisierungen unveränderter Anforderungen, Dokumentationskorrekturen, Ticketaufteilungen, Umbenennungen, interne Prioritätswechsel und Änderungen des Umsetzungsplans zählen nicht. Das erstmalige Erkennen einer bereits maßgeblichen Anforderung ist gesondert zu erfassen und allein noch kein Änderungsereignis. Änderungsausmaß, betroffene Anforderungen, Zeitpunkt, Vorhersehbarkeit und Änderung beziehungsweise Aufgabe des Sprintziels werden getrennt dokumentiert; keine Gesamtnote und keine automatische negative Bewertung.\n\nGrundlagen: McGee und Greer (2012), Towards an understanding of the causes and effects of software requirements change: two case studies, DOI: 10.1007/s00766-012-0149-0; Nurmuliani, Zowghi und Williams (2006), Requirements Volatility and Its Impact on Change Effort, Abschn. 2–3. Die Übertragung projektweiter Befunde und die folgende sprintbezogene Zählregel sind eigene, zu pilotierende Vorschläge. Scrum Guide (Schwaber und Sutherland, 2020), Abschnitte The Sprint, Sprint Backlog und Sprint Goal, ausschließlich als Begriffsgrundlage.\n\nMessung: Ausgangsstand, fachliche Anforderungsidentitäten und Granularität vor Sprintbeginn festlegen. Je Anforderung und gemeinsamem Wirksamkeitsvorgang eine Änderung zählen; zusammengehörige Änderungen verknüpfen, dieselbe Änderung nicht mehrfach durch Tickets oder Dokumentstände zählen. Ersetzungen nicht zugleich als Entfernung und Ergänzung doppelt zählen. Spätere Rücknahmen sind neue Ereignisse, sofern zwischenzeitlich ein anderer Sollstand galt. Anträge, Beschlüsse, Wirksamkeit und Implementierung getrennt erfassen. Änderungszahl, Sprintdauer, Ausgangsumfang, Änderungsarten und Nachweisabdeckung gemeinsam berichten; fehlende Nachweise sind keine belegte Stabilität. Vergleiche erfordern vergleichbare Dauer, Granularität und Änderungsarten; Ausmaß und Zeitpunkt dürfen nicht durch die Häufigkeit ersetzt werden. Messbarkeit 0.5: semantische Fallabgrenzung, Prüfdeckung und Vergleichbarkeit sind noch zu pilotieren. Beeinflussbarkeit 0.5: Product Owner und Developers können im Projektmandat die Berücksichtigung im laufenden Sprint gestalten; externe bindende Änderungen sind begrenzt steuerbar. Reine Erfassungsänderungen verändern den Faktor nicht.",
+        "measurability": 0.5,
         "influenceability": 0.5,
         "indegree": 3,
         "outdegree": 6,
@@ -13310,7 +13309,7 @@
       "attributes": {
         "label": "[A]",
         "connection type": "++",
-        "description": "Anforderungsänderungen während des Sprints erhöhen die Aufgabenbelastung durch zusätzliche Umplanungen, Neubewertungen und Rework-Aktivitäten."
+        "description": "Bei vergleichbaren Änderungsarten, sonstigem Arbeitsumfang und Kapazitäten können zusätzliche wirksame Änderungen die Aufgabenbelastung erhöhen, wenn bereits erstellte Beiträge fachlich angepasst werden müssen. Quelle: Nurmuliani et al. (2006), Abschn. 3 und 5. Die Übertragung geschätzten Projektänderungsaufwands auf Sprint-Workload bleibt eine Annahme. Wegfallende Arbeit ist zu berücksichtigen; reine Änderungszahlen belegen keine Nettomehrbelastung."
       }
     },
     {
@@ -14056,6 +14055,17 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-sprintanforderungsdynamik-001",
+      "from": "elem-yvMeM1BT",
+      "to": "elem-reqVolatilitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Änderungen äußerer organisatorischer Vorgaben können zusätzliche fachliche Änderungen laufender Sprintanforderungen auslösen, wenn sie die betrachteten Ergebnisanforderungen betreffen und im Sprint wirksam werden. Quelle: McGee und Greer (2012), Abschn. 4–5. Die Übertragung projektweiter organisationsbezogener Änderungsbefunde auf Sprint-Ereignishäufigkeit bleibt eine Annahme; bereits gezählte Anforderungsänderungen sind kein unabhängiger Eingang."
       }
     }
   ]
