@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-zielbezugEntscheidungen",
+      "attributes": {
+        "label": "Zielbezug von Entscheidungen",
+        "description": "Ausmaß, in dem die für eine benannte Projekt-, Team- oder Aufgabenentscheidung legitimierten und zum Auswahlzeitpunkt geltenden Ziele tatsächlich zur Bewertung von Handlungsalternativen und zur Auswahl herangezogen werden. Betrachtet werden entscheidungsrelevante Ziele, erwartete Beiträge und Beeinträchtigungen sowie die Verwendung legitimierter Prioritäten bei Zielkonflikten. Verbindliche Randbedingungen werden gesondert berücksichtigt. Maßgeblich sind benannte Entscheidende innerhalb ihres Mandats, die konkrete Entscheidungsepisode und der damalige Ziel- und Informationsstand. Bloße Zielnennung, nachträgliche Rechtfertigung oder Übereinstimmung des Ergebnisses mit Zielen belegen keine tatsächliche Zielverwendung. Dokumentation, Verständlichkeit der Ziele, fachliche Güte der Erwartungen, Umsetzung und Zielerreichung werden getrennt beurteilt. Grundlagen: Keeney (1996), DOI: 10.1016/0377-2217(96)00004-5; Keeney und McDaniels (1992), DOI: 10.1287/inte.22.6.94. Messvorschlag: vorab abgegrenzte Entscheidungsepisoden anhand prozessnaher Beobachtungen, zeitlich zuordenbarer Unterlagen und ergänzender Befragungen prüfen. Tatsächliche Verwendung relevanter Ziele, Bewertung erwarteter Beiträge und Verwendung begründeter Prioritäten getrennt ausweisen; keine unbegründete Gesamtnote. Fehlende Belege von belegter Nichtverwendung unterscheiden. Vergleiche nur bei vergleichbarem Entscheidungs- und Zielrahmen; gegenläufige Profile können unvergleichbar bleiben. Verfahren und Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen erforderlicher Rekonstruktion tatsächlicher Zielverwendung und noch ungeprüfter Bewertungsanker; influenceability = 0.5 für zuständige Entscheidende vor der Auswahl, begrenzt durch Mandat, verbindliche Vorgaben und verfügbare Informationen.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsnutzung (Entscheidung/Handlung)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-zielbezug-001",
+      "from": "elem-F9HioTuT",
+      "to": "elem-zielbezugEntscheidungen",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Klare, verständliche Ziele können ihre tatsächliche Verwendung bei der Auswahl erleichtern, indem Entscheidende daraus relevante Bewertungskriterien ableiten. Voraussetzung sind geltende, legitimierte Ziele und nutzbare Auswahlspielräume. Grundlage: Keeney und McDaniels (1992), Abstract. Der strategische Anwendungsfall trägt die Übertragung auf Projektentscheidungen nur theoretisch; Klarheit garantiert keine Zielverwendung."
+      }
+    },
+    {
+      "_id": "conn-zielbezug-002",
+      "from": "elem-zielbezugEntscheidungen",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Tatsächlich verwendete Zielabwägungen können gemeinsames Verständnis über Ziele und Aufgaben fördern, wenn sie den betroffenen Teammitgliedern zutreffend erläutert und gemeinsam geklärt werden. Grundlagen: Lee (1997), S. 79–81; Glinz und Fricker (2015), Abschn. 6 und 8. Die Übertragung von Entwurfsbegründungen auf tatsächlichen Zielbezug bleibt theoretisch; private Zielverwendung allein genügt nicht. Verständnis ist unabhängig zu prüfen."
       }
     }
   ]
