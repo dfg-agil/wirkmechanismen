@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-regelmaessigkeitRetrospektive",
+      "attributes": {
+        "label": "Regelmäßigkeit der Retrospektive",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverarbeitung (Verstehen/Bewerten)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "description": "Ausmaß, in dem ein benanntes Team Retrospektiven im festgelegten Beobachtungszeitraum tatsächlich nach einer vorab vereinbarten zeitlichen oder ereignisbezogenen Wiederholungsregel durchführt. Bewertet wird die Einhaltung dieser Regel, nicht die Gleichmäßigkeit von Kalenderabständen oder die Anzahl der Treffen pro Zeiteinheit. Eine Retrospektive erfordert einen tatsächlich stattgefundenen gemeinsamen Rückblick betroffener Teammitglieder auf die bisherige Zusammenarbeit beziehungsweise Arbeitsweise und eine Erörterung möglicher Beibehaltungen oder Veränderungen. Kalendereintrag, reiner Statusbericht oder Produktreview genügen nicht; hohe Reflexionsqualität, beschlossene Maßnahmen und wirksame Verbesserungen werden nicht vorausgesetzt. Erforderliche Beteiligung und zulässige Zeitfenster sind vorab festzulegen. Begriffsbezug: Schwaber und Sutherland (2020), Scrum Guide, Sprint Retrospective, https://scrumguides.org/scrum-guide.html. Der Guide ist eine normative Grundlage für den Scrum-Spezialfall, kein wissenschaftlicher Wirkungsnachweis oder allgemeiner Taktzwang. Messvorschlag: alle im Zeitraum eingetretenen relevanten Anlässe gegen die jeweils zuvor gültige versionierte Wiederholungsregel prüfen. Unter den bis zum Bewertungsstichtag fälligen Pflichtfällen den Anteil nachweislich innerhalb des zulässigen Fensters durchgeführter Retrospektiven bestimmen; ungeklärte Fälle bleiben im Nenner und ergeben bei unvollständiger Nachweislage nur eine bestätigte Mindestquote. Noch nicht fällige Fälle und regelgemäß ausgenommene Anlässe separat ausweisen. Ausnahmen benötigen vorab festgelegte Kriterien; ursprüngliche Anlässe, Ausnahmegrund und Zeitpunkt bleiben nachvollziehbar. Regeländerungen gelten nur für die Zukunft und beseitigen frühere Ausfälle nicht. Zusätzliche Treffen gleichen Ausfälle nicht automatisch aus; eine Durchführung wird höchstens einem Pflichtfall zugeordnet. Neben Zähler, Nenner und Nachweisstatus aufeinanderfolgende Ausfälle und Lücken in der Folge der erwarteten Anlässe ausweisen. Kalenderabstände ergänzend dokumentieren, bei ereignisbezogenen Regeln aber nicht automatisch als Unregelmäßigkeit bewerten. Ohne gültige Referenzregel oder fällige Pflichtfälle keine beliebige Null- oder Vollerfüllung vergeben. Angemessenheit des Rhythmus, Frequenz, Termintreue einzelner Termine, Qualität und Wirksamkeit bleiben getrennt. Register- und Zuordnungsregeln sind eigene, zu pilotierende Vorschläge. Messbarkeit 1: bei expliziter Regel und Durchführungskriterien unmittelbar prüfbare Ereignis- und Anteilsdaten; unvollständige Nachweise werden offengelegt. Beeinflussbarkeit 0.5: Team und mandatierte Moderations- beziehungsweise Führungsverantwortliche können während des betrachteten Projektabschnitts Wiederkehr organisieren und geschützte Zeiten schaffen; konkurrierende Aufgaben, externe Vorgaben und Verfügbarkeit erforderlicher Beteiligter begrenzen die Kontrolle.",
+        "measurability": 1,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-retroregelmaessigkeit-001",
+      "from": "elem-Cp80iMCp",
+      "to": "elem-regelmaessigkeitRetrospektive",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Unterstützende Führung kann regelgebundene Retrospektiven ermöglichen, wenn sie wiederkehrend nutzbare Zeit schützt, konkurrierende Aufgaben umplant und erforderliche Beteiligung ermöglicht. Grundlage: De Brún und McAuliffe (2020), CMOC3 und CMOC5. Die Übertragung organisatorischer Unterstützung auf weniger ausgefallene Pflichtgelegenheiten bleibt eine Annahme; bloße Zustimmung oder Terminsetzung genügt nicht. Führungshandlungen und tatsächliche Durchführung unabhängig erfassen."
+      }
+    },
+    {
+      "_id": "conn-retroregelmaessigkeit-005",
+      "from": "elem-regelmaessigkeitRetrospektive",
+      "to": "elem-mentalModelle",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Weniger ausgefallene Retrospektiven können bei unveränderter Wiederholungsregel mentale Modelle verbessern, wenn relevante Erfahrungen gemeinsam ausgewertet und fehlerhafte Erwartungen geklärt werden. Grundlage: Kneisel (2020), Abstract. Übertragung wiederholter Reflexionsinterventionen auf vermiedene Ausfälle; kein isolierter Nachweis eines Regelmäßigkeitseffekts bei gleicher Treffenzahl. Beteiligung und geeignete Bearbeitung sind erforderlich; Modellwissen unabhängig von Durchführungshäufigkeit prüfen."
       }
     }
   ]
