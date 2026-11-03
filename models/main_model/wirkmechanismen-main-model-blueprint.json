@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-transparenzVerfuegbarerInformationen",
+      "attributes": {
+        "label": "Transparenz verfügbarer Informationen",
+        "description": "Ausmaß, in dem für benannte Beteiligte zu einem festgelegten Zeitpunkt nachvollziehbar dargestellt ist, welche aufgabenrelevanten Informationsbestände in einem abgegrenzten Organisations- oder Projektbereich vorhanden sind, welchen Inhalt und Geltungsbereich sie haben und unter welchen Bedingungen sie zugänglich sind. Einbezogen werden dokumentierte Inhalte und Hinweise auf personengebundene Informationen mit benannter Ansprechstelle. Betrachtet werden die erkennbare Zuordnung zu Quelle, Speicherort oder Kontaktstelle, Zuständigkeit, Zugangsweg, nutzerbezogenen Berechtigungen sowie Aktualitäts- und Prüfstatus. Beschränkungen und ungeklärte Zugänglichkeit sind ausdrücklich kenntlich zu machen. Transparenz bezeichnet diesen adressatenbezogenen Darstellungszustand; tatsächliche Verfügbarkeit, Zugriff, fachliche Eignung, Verständnis und Nutzung werden getrennt beurteilt. Eine Bewertung der Wissensabdeckung von Aufgabenfragen gehört nicht zum Faktor.\n\nGrundlagen: Eppler (2001), DOI: 10.1109/HICSS.2001.926495; Wilkinson et al. (2016), DOI: 10.1038/sdata.2016.18. Eigener Messvorschlag: getrennte Profile für Bestandsnachweis und Inhaltszuordnung sowie für zutreffend dargestellte Zugangsbedingungen gegen eine unabhängig ermittelte Referenz; Prüfdeckung, falsche oder veraltete Angaben und ungeklärte Fälle gesondert ausweisen. Keine Gesamtnote. Messbarkeit 0.5: Referenzabdeckung, Prüfkriterien und Vergleichbarkeit sind zu pilotieren. Beeinflussbarkeit 0.5: Verantwortliche für Informationsbestände können Darstellung und Pflege im Projektzeitraum teilweise gestalten; externe Bestände, Mitwirkung und fremde Zugriffsregeln begrenzen ihren Einfluss.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsverteilung (Zugänglichkeit)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,39 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-informationstransparenz-001",
+      "from": "elem-standardisierungsgradMetadatenTerminologie",
+      "to": "elem-transparenzVerfuegbarerInformationen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Standardkonforme Metadaten können die erkennbare Zuordnung und Erschließung von Forschungsdaten verbessern, wenn geeignete Schemata verwendet, Angaben zutreffend gepflegt und adressatengerecht angezeigt werden. Grundlage: Musen et al. (2022), Results und Discussion. Die Übertragung auf den Transparenzzustand bleibt eine Annahme; formale Konformität allein belegt weder richtige Zugangsangaben noch tatsächlichen Zugriff."
+      }
+    },
+    {
+      "_id": "conn-informationstransparenz-002",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-transparenzVerfuegbarerInformationen",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Kriteriengeleitete Reviews einer Informationsübersicht können deren Transparenz erhöhen, wenn erkannte Bestands-, Zuordnungs- und Zugangsfehler tatsächlich berichtigt werden. Grundlage: Kim et al. (2003), S. 40–42. Die Übertragung des beschriebenen Experten-Walkthroughs auf allgemeine Reviewqualität und den adressatenbezogenen Transparenzzustand bleibt eine Annahme; Prüfung und Fehlerfeststellung allein genügen nicht."
+      }
+    },
+    {
+      "_id": "conn-informationstransparenz-004",
+      "from": "elem-transparenzVerfuegbarerInformationen",
+      "to": "elem-gdWissAust01",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Eine nachvollziehbare Übersicht kann fachlichen Wissensaustausch anregen, indem sie passende Inhalte und Ansprechstellen erkennbar macht. Voraussetzung sind aufgabenbezogener Bedarf, tatsächliche Nutzung der Übersicht sowie zugängliche Inhalte oder erreichbare, teilungsbereite Wissensträger. Grundlage: Eppler (2001), Abschn. 3.6–4.1. Die Übertragung auf zusätzlichen Teamaustausch bleibt eine Annahme; Austausch ist unabhängig von Quellenaufrufen und Kontaktanfragen zu prüfen."
       }
     }
   ]
