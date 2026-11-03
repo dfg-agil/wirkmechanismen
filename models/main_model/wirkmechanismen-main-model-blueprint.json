@@ -5167,6 +5167,22 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-informationsgehaltArtefakt",
+      "attributes": {
+        "label": "Aufgabenbezogener Informationsgehalt des Artefakts",
+        "element type": "Einflussfaktoren",
+        "cluster": "Informationsspeicherung (Persistenz)",
+        "tags": [
+          "Technik",
+          "Organisation",
+          "operativ"
+        ],
+        "description": "Ausmaß, in dem eine benannte Artefaktversion die für eine festgelegte Aufgabe und vorgesehene Verwendung erforderlichen Inhalte ausdrücklich repräsentiert. Betrachtet werden Dokumente, Modelle, Prototypen oder Softwareartefakte in ihrer vorab bestimmten Darstellungsform. Maßgeblich sind unabhängig vom untersuchten Artefakt begründete und vor der Bewertung versionierte Bezugsfragen beziehungsweise Inhaltsanforderungen für eine benannte Nutzergruppe. Inhaltsabdeckung wird von Informationsmenge, Detaillierungsgrad, Neuigkeitswert, Richtigkeit, Aktualität, Verständlichkeit, Zugänglichkeit und tatsächlicher Nutzung getrennt bewertet. Grundlage: Wang und Strong (1996), S. 16–21, DOI: 10.1080/07421222.1996.11518099; Übertragung auf die Inhaltsabdeckung unterschiedlicher Entwicklungsartefakte. Messvorschlag: Anforderungen und Fundstellen in einer Abdeckungsmatrix zuordnen. Nur ausdrücklich dargestellte oder nach vorab vereinbarten Darstellungsregeln unmittelbar repräsentierte Inhalte zählen; erst durch zusätzliche Erprobung, neue Berechnung oder ergänzendes Personenwissen gewonnene Erkenntnisse bleiben separat. Innerhalb fachlich begründeter, hinsichtlich Granularität vergleichbarer Fallgruppen den Anteil nachweislich repräsentierter Inhaltsanforderungen an der unverändert ausgewiesenen Referenzmenge berichten. Teilabdeckung, nachgewiesenes Fehlen und ungeklärter Nachweisstatus werden getrennt erfasst. Ungeklärte Fälle bleiben im Nenner; bei unvollständiger Prüfdeckung handelt es sich nur um eine bestätigte Mindestabdeckung. Ohne geeignete Referenz oder bei leerem Nenner keine beliebige Null- oder Vollabdeckung vergeben. Wiederholungen zählen höchstens einmal; nachträgliche Aufspaltung erzeugt keine Verbesserung. Widersprüchliche oder nachweislich falsche Aussagen können einen Inhalt ausdrücklich repräsentieren und erhalten gesonderte Konflikt- beziehungsweise Richtigkeitskennzeichnungen; sie gelten nicht als fachlich bestätigte Antworten. Ein bloßer Quellenverweis zählt nur als Verknüpfung, nicht als enthaltener Zielinhalt. Externe Bestandteile zählen nur innerhalb einer vorab abgegrenzten versionierten Artefakteinheit. Kritische Inhaltslücken und nicht vergleichbare Fallgruppen gesondert ausweisen; keine unbegründete Gesamtnote. Referenzänderungen und Versionen getrennt dokumentieren. Messverfahren und Bewertungsanker sind eigene, zu pilotierende Vorschläge. Messbarkeit 0.5: Anforderungsreferenz, Granularität, Repräsentationsregeln und Vergleichbarkeit zwischen Artefakttypen sind noch zu operationalisieren und zu erproben. Beeinflussbarkeit 0.5: Autorinnen und Autoren sowie mandatierte Fach- und Dokumentationsverantwortliche können im betrachteten Bearbeitungsabschnitt Inhalte ergänzen oder umstrukturieren; fehlende Erkenntnisse, externe Beiträge und Änderungsrechte begrenzen ihren Einfluss.",
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14072,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-artefaktinformationsgehalt-001",
+      "from": "elem-reviewQualitaet",
+      "to": "elem-informationsgehaltArtefakt",
+      "direction": "directed",
+      "delayed": true,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Fachkundige Reviews können die aufgabenbezogene Inhaltsabdeckung erhöhen, indem sie fehlende Angaben identifizieren und gezielte Überarbeitungen anstoßen. Voraussetzungen sind eine geeignete Inhaltsreferenz, verfügbare Fachinformationen, Änderungsbefugnisse und nachverfolgte Bearbeitung. Grundlage: Basili et al. (1996), Autorenfassung, Abschn. 1.2 und 3.1. Untersucht wurde Fehlererkennung; die Übertragung auf tatsächliche Ergänzungen und andere Artefakte bleibt eine Annahme."
+      }
+    },
+    {
+      "_id": "conn-artefaktinformationsgehalt-005",
+      "from": "elem-informationsgehaltArtefakt",
+      "to": "elem-NmSn5Afu",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Zusätzlich abgedeckte entscheidungsrelevante Inhalte können die Alternativenbewertung verbessern, wenn sie richtig, zugänglich und tatsächlich verarbeitet werden und hinreichende Verarbeitungszeit sowie fachliche Einordnungsfähigkeit bestehen. Grundlage: Ahituv et al. (1998), Abstract. Übertragung vollständiger Simulationsinformationen auf Entwicklungsartefakte und Projektentscheidungen; keine allgemeine Mengenwirkung. Entscheidungsqualität unabhängig prüfen; unter Zeitdruck zeigte sich für einen Teil der Untersuchten kein Vorteil."
       }
     }
   ]
