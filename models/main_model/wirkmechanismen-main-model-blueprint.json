@@ -4613,16 +4613,15 @@
     {
       "_id": "elem-informelleKommunikationQualitaet",
       "attributes": {
-        "label": "Qualitaet der informellen Kommunikation",
+        "label": "Qualität des Informationsaustauschs bei informellen Begegnungen",
         "element type": "Einflussfaktoren",
         "cluster": "Informationsverteilung (Zugänglichkeit)",
         "tags": [
           "Mensch",
           "Organisation",
-          "operativ",
-          "normativ"
+          "operativ"
         ],
-        "description": "Qualitaet spontaner, nicht formalisierter Kommunikation (z.B. kurze Rueckfragen, Ad-hoc-Abstimmungen, informeller Austausch). Hohe Qualitaet bedeutet: schnell, respektvoll, loesungsorientiert und mit ausreichendem Kontext.",
+        "description": "Qualität des tatsächlich stattfindenden wechselseitigen Informationsaustauschs zwischen benannten Beteiligten in informellen Begegnungsepisoden eines festgelegten Aufgaben- und Arbeitskontexts. Informell bezeichnet situativ geführte Gespräche ohne verbindliche Sachagenda und formale Gesprächsrollen; sie können spontan oder innerhalb organisierter informeller Gelegenheiten entstehen. Eingeschlossen sind persönliche, telefonische und zusammenhängende digitale Dialoge mit zeitnaher wechselseitiger Reaktion. Bloße Anwesenheit, einseitige Mitteilungen und beliebige asynchrone Nachrichtenfolgen genügen nicht. Teaminterne und team- beziehungsweise disziplinübergreifende Kontakte werden getrennt ausgewiesen.\n\nBeurteilt werden getrennt die aufgabenbezogene Informationsqualität, insbesondere Relevanz, verständliche Kontextualisierung und sachliche Belastbarkeit, sowie die Prozessqualität, insbesondere zugelassene Rückfragen und nachvollziehbare Behandlung von Klärungsbedarf einschließlich erkennbarer Unsicherheiten. Ein angenehmes Gespräch belegt keine richtigen Angaben. Häufigkeit, Dauer und Menge, tatsächliches Verständnis sowie spätere Nutzung und Wirkung werden separat erfasst; keine Gesamtnote.\n\nGrundlagen: Kraut et al. (1990), Informal Communication in Organizations: Form, Function, and Technology; Clark und Brennan (1991), DOI: 10.1037/10096-006; Wang und Strong (1996), DOI: 10.1080/07421222.1996.11518099. Das kombinierte Episodenprofil ist ein eigener Messvorschlag, keine übernommene validierte Skala.\n\nMessung: vorab abgegrenzte Beteiligtenkreise und Zeitfenster, zeitnahe episodenspezifische Befragungen und freiwillige Kurzprotokolle, ergänzend geeignete Beobachtung und fachliche Referenzprüfung ausgewählter Angaben. Wahrgenommene Qualität, fachliche Prüfdeckung, ungeklärte Angaben und belegte Mängel getrennt berichten. Ohne Austausch keine Qualitätsbewertung. Vergleichende Zunahme nur bei Verbesserung benannter Merkmale ohne Verschlechterung der übrigen vergleichbaren Merkmale. Messbarkeit 0.5: Rekonstruierbarkeit, Bewertungsanker und Vergleichbarkeit sind noch zu pilotieren. Beeinflussbarkeit 0.5: Beteiligte und zuständige Teamleitung können zukünftige Gesprächspraxis im Projektzeitraum gestalten; Beteiligung, Fachwissen und situationsabhängiger Verlauf sind nur begrenzt steuerbar.",
         "measurability": 0.5,
         "influenceability": 0.5,
         "indegree": 6,
@@ -14056,6 +14055,28 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-informelleraustausch-001",
+      "from": "elem-psychSicherheit",
+      "to": "elem-informelleKommunikationQualitaet",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Psychologische Sicherheit kann den Klärungsprozess informeller Austausche verbessern, indem sie das Ansprechen relevanter Zweifel und Rückfragen erleichtert. Voraussetzung sind fachliche Antwortmöglichkeiten und ein aufgabenbezogener Austausch. Quelle: Edmondson (1999), S. 353–355, 363–367. Die Übertragung von Teamlernverhalten auf episodische Prozessqualität bleibt eine Annahme; sachliche Richtigkeit folgt daraus nicht."
+      }
+    },
+    {
+      "_id": "conn-informelleraustausch-002",
+      "from": "elem-informelleKommunikationQualitaet",
+      "to": "elem-gemeinsamVerstaendnis",
+      "direction": "directed",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Aufgabenbezogene, verständliche Beiträge und bearbeitbare Rückfragen können späteres gemeinsames Verständnis unterstützen, wenn Beteiligte über denselben relevanten Gegenstand sprechen und Klärungen weitertragen. Quelle: Clark und Brennan (1991), S. 127–135. Die Übertragung dialogischer Verständigung auf Teamverständnis bleibt eine Annahme. Dieses ist nachgelagert und unabhängig zu prüfen; bloße Gesprächszustimmung genügt nicht."
       }
     }
   ]
