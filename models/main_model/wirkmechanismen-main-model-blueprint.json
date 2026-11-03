@@ -5167,6 +5167,23 @@
         "measurability": 0.5,
         "influenceability": 0.5
       }
+    },
+    {
+      "_id": "elem-konfliktregelungTeam",
+      "attributes": {
+        "label": "Grad der erreichten Konfliktregelung im Team",
+        "description": "Ausmaß, in dem für die vorab benannten strittigen Gegenstände einer konkreten Konfliktepisode zwischen Mitgliedern eines benannten Teams eine inhaltliche Klärung oder eine nachvollziehbare, verbindliche Regelung des weiteren Umgangs erreicht ist. Ein Konflikt liegt vor, wenn Beteiligte aufeinander bezogene Positionen, Interessen oder Handlungsanforderungen als unvereinbar erleben; bloß unterschiedliche Vorschläge ohne strittigen Abstimmungsbedarf genügen nicht. Betrachtet werden Aufgaben-, Prozess- und Beziehungskonflikte getrennt sowie zuständige Beteiligte und der Regelungsstand zum festgelegten Bewertungszeitpunkt. Verbleibender Dissens ist mit einer Regelung vereinbar, wenn Gegenstand, Zuständigkeit und weiteres Vorgehen nachvollziehbar geklärt sind. Bloßes Schweigen, erzwungene Zustimmung, Vertagung oder Weiterleitung an eine zuständige Stelle belegen keine erreichte Regelung. Fähigkeit, Bearbeitungsprozess, Dokumentation, tatsächliche Umsetzung, längerfristige Tragfähigkeit, psychologische Sicherheit, Zufriedenheit und Leistung werden separat beurteilt. Grundlagen: Behfar et al. (2008), DOI: 10.1037/0021-9010.93.1.170; Greer et al. (2008), DOI: 10.1177/1046496408317793. Die Literatur untersucht Bearbeitungsmuster beziehungsweise wahrgenommene Lösung; die unabhängige Prüfung konkreter Regelungen ist ein eigener Messvorschlag. Pro Konfliktgegenstand getrennt ausweisen: nicht geregelt, teilweise geregelt, nachvollziehbar geregelt oder Nachweis ungeklärt. Bestimmtheit, Zuständigkeit, Umsetzbarkeit und begründete Einwände separat prüfen; ungeklärte Angaben nicht als Nichtregelung behandeln. Keine unbegründete Gesamtnote oder Lösungsquote; Profile nur bei vergleichbaren Konfliktgegenständen und Beobachtungsbedingungen gegenüberstellen. Später ergänzte Gegenstände, Umsetzung und Wiederauftreten im vorab bestimmten Folgezeitraum ergänzend dokumentieren. Ohne beurteilbare Konflikte kein Regelungswert. Messverfahren und Bewertungsanker sind zu pilotieren. Metrikgrundlage: measurability = 0.5 wegen erforderlicher Fallabgrenzung, mehrperspektivischer Nachweisprüfung und noch ungeprüfter Bewertungsanker; influenceability = 0.5 für Teammitglieder und mandatierte Moderation innerhalb der betrachteten Episode, begrenzt durch gegensätzliche Interessen, Entscheidungsrechte und externe Vorgaben.",
+        "element type": "Einflussfaktoren",
+        "cluster": "Ergebnisgrößen (Outcomes)",
+        "tags": [
+          "Mensch",
+          "Organisation",
+          "operativ",
+          "taktisch"
+        ],
+        "measurability": 0.5,
+        "influenceability": 0.5
+      }
     }
   ],
   "connections": [
@@ -14056,6 +14073,32 @@
         "label": "[A]",
         "connection type": "+-",
         "description": "Bei tatsächlicher Nachnutzung kann höhere Nachnutzbarkeit spätere Rückfragen und Abstimmungen des nachnutzenden Teams verringern, wenn relevante Kontextinformationen selbstständig erschlossen werden können. Grundlage: Yoon (2017), Diskussion. Die Übertragung berichteter Datenreuse-Erfahrungen auf Koordinationsaufwand bleibt eine Annahme. Herstellungskosten und zusätzliche Abstimmungen neuer Anwendungen sind getrennt zu erfassen; eine Nettoersparnis wird nicht behauptet."
+      }
+    },
+    {
+      "_id": "conn-konfliktregelung-001",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "from": "elem-bh4G3Yqp",
+      "to": "elem-konfliktregelungTeam",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Sachbezogene, respektvolle Kommunikation kann die Regelung bestehender Aufgaben- und Prozesskonflikte unterstützen, indem Beteiligte strittige Positionen und mögliche Vereinbarungen klären. Voraussetzung sind Beteiligungsmöglichkeiten und zuständige Entscheidungspartner. Grundlage: Behfar et al. (2008), S. 177 und 182–183. Die Übertragung berichteter Bearbeitungsmuster auf unabhängig geprüfte Regelungsstände bleibt eine Annahme; offene Gespräche garantieren keine Regelung."
+      }
+    },
+    {
+      "_id": "conn-konfliktregelung-005",
+      "direction": "directed",
+      "delayed": false,
+      "reversed": false,
+      "from": "elem-konfliktregelungTeam",
+      "to": "elem-psychSicherheit",
+      "attributes": {
+        "label": "[A]",
+        "connection type": "++",
+        "description": "Erreichte Regelungen von Prozesskonflikten können spätere psychologische Sicherheit unterstützen, wenn sie tatsächlich umgesetzt werden und Beteiligte erleben, dass angesprochene Probleme verlässlich bearbeitet werden. Grundlage: Huerta et al. (2024), Abschn. 4.3 und 5.3. Die Übertragung studentischer Erfahrungsberichte auf unabhängig geprüfte Regelungen bleibt eine Annahme; Sicherheit ist separat zu erheben."
       }
     }
   ]
